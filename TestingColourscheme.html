@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.color-box {
+    width: 200px;
+    height: 60px;
+    margin: 5px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Light Mode (Winter/Ice) */
+.light-mode {
+    background-color: #e8f4f8;
+}
+
+.light-text { background-color: #2c3e50; color: white; }
+.light-primary { background-color: #a8d8ea; }
+.light-secondary { background-color: #71b5c9; }
+.light-tertiary { background-color: #4682b4; color: white; }
+.light-accent { background-color: #b0e0e6; }
+.light-highlight { background-color: #f0f8ff; }
+
+/* Dark Mode (Fire/Lava) */
+.dark-mode {
+    background-color: #1a0f0f;
+}
+
+.dark-text { background-color: #ffd700; }
+.dark-primary { background-color: #8b0000; color: white; }
+.dark-secondary { background-color: #ff4500; color: white; }
+.dark-tertiary { background-color: #cd5c5c; color: white; }
+.dark-accent { background-color: #ff8c00; }
+.dark-highlight { background-color: #ff6347; }
+</style>
+</head>
+<body>
+    <div class="section light-mode">
+        <h2>Light Mode (Winter/Ice)</h2>
+        <div class="color-box light-text">Text: #2c3e50</div>
+        <div class="color-box" style="background-color: #e8f4f8">Background: #e8f4f8</div>
+        <div class="color-box light-primary">Primary: #a8d8ea</div>
+        <div class="color-box light-secondary">Secondary: #71b5c9</div>
+        <div class="color-box light-tertiary">Tertiary: #4682b4</div>
+        <div class="color-box light-accent">Accent: #b0e0e6</div>
+        <div class="color-box light-highlight">Highlight: #f0f8ff</div>
+    </div>
+
+    <div class="section dark-mode">
+        <h2 style="color: #ffd700">Dark Mode (Fire/Lava)</h2>
+        <div class="color-box dark-text">Text: #ffd700</div>
+        <div class="color-box" style="background-color: #1a0f0f; color: white">Background: #1a0f0f</div>
+        <div class="color-box dark-primary">Primary: #8b0000</div>
+        <div class="color-box dark-secondary">Secondary: #ff4500</div>
+        <div class="color-box dark-tertiary">Tertiary: #cd5c5c</div>
+        <div class="color-box dark-accent">Accent: #ff8c00</div>
+        <div class="color-box dark-highlight">Highlight: #ff6347</div>
+    </div>
+</body>
+</html>
