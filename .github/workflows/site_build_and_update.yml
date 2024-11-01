@@ -1,0 +1,83 @@
+name: Build Site and Update Data
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-climate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pandas numpy
+
+      - name: Fetch NOAA Data
+        run: python scripts/update_metrics.js
+        env:
+          NOAA_CO2_URL: "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_mm_gl.txt"
+          NOAA_CH4_URL: "https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.txt"
+          LAST_UPDATE: "{{ site.time | date: '%Y-%m-%d %H:%M:%S %Z' }}"
+
+      - name: Process ActivityPub Updates
+        env:
+          ACTIVITYPUB_PRIVATE_KEY: ${{ secrets.ACTIVITYPUB_PRIVATE_KEY }}
+          ACTIVITYPUB_PUBLIC_KEY: ${{ secrets.ACTIVITYPUB_PUBLIC_KEY }}
+        run: |
+          if [ -f "data/significant_changes.json" ]; then
+            node scripts/process_activitypub.js
+          fi
+
+      - name: Commit Climate Data Updates
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/
+          git commit -m "Update climate metrics [skip ci]" || exit 0
+          git push
+
+  build:
+    needs: update-climate-data
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Build the site in jekyll/builder container
+        run: |
+          docker run \
+          -v ${{ github.workspace }}:/srv/jekyll \
+          -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+          jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
