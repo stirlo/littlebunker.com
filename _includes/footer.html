@@ -1,0 +1,100 @@
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Little Bunker</h3>
+                <p>Methodically tracking our changing world through climate data, extreme weather events, and their societal impacts.</p>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect</h3>
+                <div class="social-links">
+                    <a href="https://littlebunker.com/@calm" rel="me">Mastodon</a>
+                    <a href="/feed.xml">RSS</a>
+                    <a href="/api">API</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Data Sources</h3>
+                <ul>
+                    <li>NOAA Global Monitoring Laboratory</li>
+                    <li>World Weather Attribution</li>
+                    <li>IPCC Reports</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>Data updated hourly.</p>
+            <div class="attribution">
+                <p>
+                    <a href="LICENSE">©</a> <span id="currentYear"></span> 
+                    <a href="https://tfp.la">TFP</a> | 
+                    <a href="https://thelaboratory.cc">The Laboratory</a> | 
+                    <a href="https://thelaboratory.cc/thankyou.html">Thank You</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<style>
+.site-footer {
+    margin-top: 4rem;
+    padding: 2rem 0;
+    background: var(--metric-background);
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.footer-section h3 {
+    color: var(--primary-color);
+    margin: 0 0 1rem 0;
+    font-size: 1rem;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-section li {
+    margin-bottom: 0.5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-bottom {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--secondary-color);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.attribution {
+    margin-top: 0.5rem;
+}
+
+.attribution a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+</script>
