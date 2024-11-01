@@ -1,0 +1,119 @@
+<header class="site-header">
+    <div class="container">
+        <div class="header-content">
+            <div class="site-title">
+                <h1>Observations from the Little Bunker</h1>
+                <p class="last-update">Last updated: {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}</p>
+            </div>
+
+            <div class="metrics-dashboard">
+                <div class="metric-card co2">
+                    <h3>Atmospheric CO₂</h3>
+                    <div class="current-value" id="co2-value">
+                        {{ site.data.metrics.co2.current }} <span class="unit">ppm</span>
+                    </div>
+                    <div class="trend">
+                        <span class="change">+{{ site.data.metrics.co2.change }}</span>
+                        <span class="period">ppm/year</span>
+                    </div>
+                </div>
+
+                <div class="metric-card ch4">
+                    <h3>Atmospheric CH₄</h3>
+                    <div class="current-value" id="ch4-value">
+                        {{ site.data.metrics.ch4.current }} <span class="unit">ppb</span>
+                    </div>
+                    <div class="trend">
+                        <span class="change">+{{ site.data.metrics.ch4.change }}</span>
+                        <span class="period">ppb/year</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<style>
+.site-header {
+    background: var(--metric-background);
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.site-title {
+    text-align: center;
+}
+
+.site-title h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+}
+
+.last-update {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin: 0.5rem 0 0 0;
+}
+
+.metrics-dashboard {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.metric-card {
+    background: var(--background-color);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    min-width: 200px;
+    text-align: center;
+}
+
+.metric-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1rem;
+    color: var(--secondary-color);
+}
+
+.current-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.unit {
+    font-size: 1rem;
+    opacity: 0.8;
+}
+
+.trend {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    margin-top: 0.5rem;
+}
+
+.change {
+    color: #e74c3c;
+}
+
+@media (min-width: 768px) {
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-title {
+        text-align: left;
+    }
+}
+</style>
