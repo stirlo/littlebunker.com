@@ -1,0 +1,47 @@
+# Site Settings
+title: "Observations from the Little Bunker"
+tagline: "Methodically tracking our changing world"
+description: "A systematic observation of climate change, extreme weather events, and their cascading effects on society"
+baseurl: ""
+url: "https://littlebunker.com"
+timezone: UTC
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  events:
+    output: true
+    permalink: /events/:path/
+  observations:
+    output: true
+    permalink: /observations/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      author: "calm@littlebunker.com"
+
+# ActivityPub Configuration
+activitypub:
+  username: "calm"
+  domain: "littlebunker.com"
+  display_name: "The Observer"
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
