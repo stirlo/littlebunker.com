@@ -16,44 +16,6 @@ jobs:
           mkdir -p _data/feeds
           mkdir -p _data/metrics
 
-      # Set up Node.js for RSS processing
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      # Climate Science Feeds
-      - name: Fetch NASA Climate Feed
-        uses: rpidanny/rss-to-json@v1.0.0
-        with:
-          feed-url: "https://climate.nasa.gov/feed/"
-          output-path: "_data/feeds/nasa-climate.json"
-
-      - name: Fetch IPCC Feed
-        uses: rpidanny/rss-to-json@v1.0.0
-        with:
-          feed-url: "https://www.ipcc.ch/feed/"
-          output-path: "_data/feeds/ipcc.json"
-
-      - name: Fetch NOAA Climate Feed
-        uses: rpidanny/rss-to-json@v1.0.0
-        with:
-          feed-url: "https://www.climate.gov/news-features/feed"
-          output-path: "_data/feeds/noaa-climate.json"
-
-      # Environmental News Feeds
-      - name: Fetch Inside Climate News Feed
-        uses: rpidanny/rss-to-json@v1.0.0
-        with:
-          feed-url: "https://insideclimatenews.org/feed/"
-          output-path: "_data/feeds/inside-climate.json"
-
-      - name: Fetch Carbon Brief Feed
-        uses: rpidanny/rss-to-json@v1.0.0
-        with:
-          feed-url: "https://www.carbonbrief.org/feed/"
-          output-path: "_data/feeds/carbon-brief.json"
-
       # Update Climate Metrics
       - name: Update Climate Metrics
         run: |
@@ -71,17 +33,19 @@ jobs:
             growth: 67
           EOL
 
-      # Generate Posts from Feeds using a different approach
+      # Set up Python for feed processing
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: pip install feedparser pyyaml
+        run: pip install feedparser pyyaml requests
 
-      - name: Generate Posts from Feeds
+      # Fetch feeds and create posts with Python
+      - name: Fetch Feeds and Create Posts
         run: |
+          mkdir -p _data/feeds
           mkdir -p _posts/feeds/climate-science
           mkdir -p _posts/feeds/environmental-news
 
@@ -91,6 +55,8 @@ jobs:
           import datetime
           import re
           import os
+          import json
+          import requests
 
           def clean_title(title):
               return title.replace('"', '\\"')
@@ -102,34 +68,67 @@ jobs:
               content = content.replace('"', '\\"')
               return content
 
-          def fetch_and_create_posts(feed_urls, category, output_dir):
-              for feed_url in feed_urls:
+          def fetch_feed(url):
+              try:
+                  feed = feedparser.parse(url)
+
+                  # Save feed to JSON
+                  feed_name = url.split('/')[-2] if url.endswith('/') else url.split('/')[-1]
+                  feed_name = re.sub(r'[^a-z0-9]+', '-', feed_name.lower())
+
+                  feed_data = {
+                      "title": feed.feed.get('title', 'Unknown Feed'),
+                      "link": feed.feed.get('link', url),
+                      "description": feed.feed.get('description', ''),
+                      "items": []
+                  }
+
+                  for entry in feed.entries[:10]:
+                      item = {
+                          "title": entry.get('title', 'No Title'),
+                          "link": entry.get('link', ''),
+                          "pubDate": entry.get('published', datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")),
+                          "description": entry.get('summary', '')
+                      }
+                      feed_data["items"].append(item)
+
+                  with open(f"_data/feeds/{feed_name}.json", 'w') as f:
+                      json.dump(feed_data, f, indent=2)
+
+                  return feed
+              except Exception as e:
+                  print(f"Error fetching {url}: {e}")
+                  return None
+
+          def create_posts_from_feed(feed_url, category, output_dir):
+              feed = fetch_feed(feed_url)
+              if not feed:
+                  return
+
+              for entry in feed.entries[:5]:  # Get top 5 entries
                   try:
-                      feed = feedparser.parse(feed_url)
+                      title = clean_title(entry.title)
 
-                      for entry in feed.entries[:5]:  # Get top 5 entries
-                          title = clean_title(entry.title)
+                      # Get date or use current date
+                      try:
+                          date = datetime.datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S")
+                      except:
+                          date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
-                          # Get date or use current date
-                          try:
-                              date = datetime.datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S")
-                          except:
-                              date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                      # Get content
+                      if 'content' in entry:
+                          content = clean_content(entry.content[0].value)
+                      elif 'summary' in entry:
+                          content = clean_content(entry.summary)
+                      else:
+                          content = ""
 
-                          # Get content
-                          if 'content' in entry:
-                              content = clean_content(entry.content[0].value)
-                          elif 'summary' in entry:
-                              content = clean_content(entry.summary)
-                          else:
-                              content = ""
+                      # Create filename
+                      slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
+                      filename = f"{output_dir}/{date.split()[0]}-{slug[:40]}.md"
 
-                          # Create filename
-                          slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
-                          filename = f"{output_dir}/{date.split()[0]}-{slug[:40]}.md"
-
-                          # Create post content
-                          post_content = f"""---
+                      # Create post content
+                      post_content = f"""---
           layout: feed_item
           title: "{title}"
           date: {date}
@@ -141,11 +140,11 @@ jobs:
           {content}
           """
 
-                          # Write to file
-                          with open(filename, 'w') as f:
-                              f.write(post_content)
+                      # Write to file
+                      with open(filename, 'w') as f:
+                          f.write(post_content)
                   except Exception as e:
-                      print(f"Error processing {feed_url}: {e}")
+                      print(f"Error processing entry: {e}")
 
           # Climate Science feeds
           climate_science_feeds = [
@@ -160,8 +159,12 @@ jobs:
               "https://www.carbonbrief.org/feed/"
           ]
 
-          fetch_and_create_posts(climate_science_feeds, "climate-science", "_posts/feeds/climate-science")
-          fetch_and_create_posts(environmental_news_feeds, "environmental-news", "_posts/feeds/environmental-news")
+          # Process all feeds
+          for feed_url in climate_science_feeds:
+              create_posts_from_feed(feed_url, "climate-science", "_posts/feeds/climate-science")
+
+          for feed_url in environmental_news_feeds:
+              create_posts_from_feed(feed_url, "environmental-news", "_posts/feeds/environmental-news")
           EOF
 
       # Commit changes
