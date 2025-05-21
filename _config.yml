@@ -8,10 +8,7 @@ timezone: UTC
 
 # Build settings
 markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+permalink: /:year/:month/:day/:title/
 
 # Collections
 collections:
@@ -21,6 +18,9 @@ collections:
   observations:
     output: true
     permalink: /observations/:path/
+  topics:
+    output: true
+    permalink: /topics/:path/
 
 # Default front matter
 defaults:
@@ -29,12 +29,37 @@ defaults:
     values:
       layout: "default"
       author: "calm@littlebunker.com"
+  - scope:
+      path: "_posts/feeds"
+    values:
+      layout: "feed_item"
+      is_feed: true
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+      is_feed: false
 
 # ActivityPub Configuration
 activitypub:
   username: "calm"
   domain: "littlebunker.com"
   display_name: "The Observer"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Feed settings
+feed:
+  categories:
+    - climate-science
+    - extreme-weather
+    - disasters
+    - social-impact
 
 # Exclude files from processing
 exclude:
