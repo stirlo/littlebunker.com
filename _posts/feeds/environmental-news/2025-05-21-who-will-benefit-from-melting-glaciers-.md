@@ -194,7 +194,7 @@ And that estimate — one of the only published projections of emerging salmon h
 
 
 A projection showing glacial retreat and the emergence of new lakes and streams in the Tulsequah Valley, current to 2100. The projection is based on a middle-of-the-road climate scenario and preliminary data.
- Analysis by Kara Pitman. Courtesy of Jon Moore.
+ Analysis by Kara Pitman; courtesy of Jon Moore
 
 
 
@@ -271,7 +271,7 @@ Vancouver-based Scottie Resources Corp., one of the companies with claims in the
         
     
         
-                            A sign pictured along the Granduc Road near the border of Hyder, Alaska, and Stewart, British Columbia. The area — not far from Meziadin Lake — is a hotspot of mining, melting glaciers, and salmon.  
+                            A sign pictured along the Granduc Road near the border of Hyder, Alaska, and Stewart, British Columbia. The area — not far from Meziadin Lake — is a hot spot of mining, melting glaciers, and salmon.  
                                         Max Graham / Grist
                     
     
@@ -431,7 +431,7 @@ Canagold, however, doesn’t have similar agreements with Indigenous governments
         
     
         
-                            Clarence Laiti, president of the Douglas Indian Association, sits at the tribal government’s office building in Juneau.
+                            Clarence Laiti, president of the Douglas Indian Association, at the tribal government’s office building in Juneau.
                                         Max Graham / Grist
                     
     
