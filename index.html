@@ -25,11 +25,21 @@ layout: default
 <section class="latest-news">
   <h2>Latest Climate News</h2>
 
-  {% assign feed_posts = site.posts | where: "is_feed", true | sort: "date" | reverse | limit: 10 %}
+  <div class="category-tabs">
+    <button class="tab-button active" data-category="all">All</button>
+    <button class="tab-button" data-category="climate-science">Climate Science</button>
+    <button class="tab-button" data-category="environmental-news">Environmental News</button>
+    <button class="tab-button" data-category="extreme-weather">Extreme Weather</button>
+    <button class="tab-button" data-category="social-impact">Social Impact</button>
+    <button class="tab-button" data-category="research-papers">Research Papers</button>
+    <button class="tab-button" data-category="media">Media</button>
+  </div>
+
+  {% assign feed_posts = site.posts | where: "is_feed", true | sort: "date" | reverse | limit: 20 %}
   {% if feed_posts.size > 0 %}
   <div class="feed-grid">
     {% for post in feed_posts %}
-    <div class="feed-item">
+    <div class="feed-item" data-categories="{{ post.categories | join: ' ' }}">
       <h3>
         {% if post.external_url %}
         <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
@@ -53,3 +63,36 @@ layout: default
   <p>Climate news feeds will appear here once configured.</p>
   {% endif %}
 </section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const feedItems = document.querySelectorAll('.feed-item');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+
+        // Add active class to clicked button
+        this.classList.add('active');
+
+        const category = this.getAttribute('data-category');
+
+        // Show/hide feed items based on category
+        feedItems.forEach(item => {
+          if (category === 'all') {
+            item.style.display = 'block';
+          } else {
+            const itemCategories = item.getAttribute('data-categories');
+            if (itemCategories && itemCategories.includes(category)) {
+              item.style.display = 'block';
+            } else {
+              item.style.display = 'none';
+            }
+          }
+        });
+      });
+    });
+  });
+</script>
