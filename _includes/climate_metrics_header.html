@@ -1,3 +1,4 @@
+<!-- _includes/climate_metrics_header.html -->
 <header class="site-header">
     <div class="container">
         <div class="header-content">
@@ -9,23 +10,44 @@
             <div class="metrics-dashboard">
                 <div class="metric-card co2">
                     <h3>Atmospheric CO₂</h3>
-                    <div class="current-value" id="co2-value">
-                        {{ site.data.metrics.co2.current }} <span class="unit">ppm</span>
+                    <div class="current-value critical" id="co2-value">
+                        {{ site.data.metrics.co2.current | default: "421.5" }} <span class="unit">ppm</span>
                     </div>
                     <div class="trend">
-                        <span class="change">+{{ site.data.metrics.co2.change }}</span>
+                        <span class="change">+{{ site.data.metrics.co2.change | default: "2.5" }}</span>
                         <span class="period">ppm/year</span>
                     </div>
                 </div>
 
                 <div class="metric-card ch4">
                     <h3>Atmospheric CH₄</h3>
-                    <div class="current-value" id="ch4-value">
-                        {{ site.data.metrics.ch4.current }} <span class="unit">ppb</span>
+                    <div class="current-value warning" id="ch4-value">
+                        {{ site.data.metrics.ch4.current | default: "1908" }} <span class="unit">ppb</span>
                     </div>
                     <div class="trend">
-                        <span class="change">+{{ site.data.metrics.ch4.change }}</span>
+                        <span class="change">+{{ site.data.metrics.ch4.change | default: "8.5" }}</span>
                         <span class="period">ppb/year</span>
+                    </div>
+                </div>
+
+                <div class="metric-card temperature">
+                    <h3>Temperature Overshoot</h3>
+                    <div class="current-value critical" id="temp-value">
+                        +{{ site.data.metrics.temperature.overshoot | default: "1.2" }} <span class="unit">°C</span>
+                    </div>
+                    <div class="trend">
+                        <span class="target">Target: 1.5°C</span>
+                    </div>
+                </div>
+
+                <div class="metric-card population">
+                    <h3>World Population</h3>
+                    <div class="current-value" id="pop-value">
+                        {{ site.data.metrics.population.total | default: "8.1" }} <span class="unit">billion</span>
+                    </div>
+                    <div class="trend">
+                        <span class="change">+{{ site.data.metrics.population.growth | default: "67" }}</span>
+                        <span class="period">million/year</span>
                     </div>
                 </div>
             </div>
@@ -35,7 +57,7 @@
 
 <style>
 .site-header {
-    background: var(--metric-background);
+    background: var(--metric-background, var(--light-bg));
     padding: 1rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
 }
@@ -53,41 +75,50 @@
 .site-title h1 {
     margin: 0;
     font-size: 1.8rem;
-    color: var(--primary-color);
+    color: var(--primary-color, var(--light-tertiary));
 }
 
 .last-update {
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: var(--secondary-color, var(--light-secondary));
     margin: 0.5rem 0 0 0;
 }
 
 .metrics-dashboard {
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
 .metric-card {
-    background: var(--background-color);
+    background: var(--background-color, var(--light-highlight));
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    min-width: 200px;
+    min-width: 180px;
     text-align: center;
 }
 
 .metric-card h3 {
     margin: 0 0 0.5rem 0;
     font-size: 1rem;
-    color: var(--secondary-color);
+    color: var(--secondary-color, var(--light-secondary));
 }
 
 .current-value {
     font-size: 2rem;
     font-weight: bold;
-    color: var(--primary-color);
+    color: var(--primary-color, var(--light-tertiary));
+}
+
+.critical {
+    color: var(--critical, #ff4444);
+    animation: pulse 2s infinite;
+}
+
+.warning {
+    color: var(--warning, #ffaa00);
 }
 
 .unit {
@@ -97,12 +128,18 @@
 
 .trend {
     font-size: 0.9rem;
-    color: var(--secondary-color);
+    color: var(--secondary-color, var(--light-secondary));
     margin-top: 0.5rem;
 }
 
 .change {
     color: #e74c3c;
+}
+
+@keyframes pulse {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
 }
 
 @media (min-width: 768px) {
@@ -114,6 +151,16 @@
 
     .site-title {
         text-align: left;
+    }
+
+    .metrics-dashboard {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .metrics-dashboard {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 </style>
