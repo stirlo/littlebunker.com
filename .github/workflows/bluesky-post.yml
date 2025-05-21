@@ -1,0 +1,25 @@
+name: Post to Bluesky
+
+on:
+  # Run when feeds are updated
+  workflow_run:
+    workflows: ["Update RSS Feeds"]
+    types:
+      - completed
+  # Also run on schedule
+  schedule:
+    - cron: '30 * * * *'  # 30 minutes past every hour
+  # Manual trigger
+  workflow_dispatch:
+
+jobs:
+  post-to-bluesky:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Post to Bluesky
+        uses: victoriadrake/feed-to-bluesky@v1
+        with:
+          feed_url: "https://littlebunker.com/feed.xml"
+          bluesky_handle: ${{ secrets.BLUESKY_HANDLE }}
+          bluesky_password: ${{ secrets.BLUESKY_PASSWORD }}
+          max_posts: 1
