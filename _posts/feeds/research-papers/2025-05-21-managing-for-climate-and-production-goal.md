@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Managing for climate and production goals on crop-lands"
-date: 2025-05-21 22:19:05
+date: 2025-05-21 23:19:04
 categories: [research-papers]
 external_url: https://www.nature.com/articles/s41558-025-02337-7
 is_feed: true
