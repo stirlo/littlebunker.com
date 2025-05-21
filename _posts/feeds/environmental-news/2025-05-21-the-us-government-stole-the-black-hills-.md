@@ -23,11 +23,11 @@ Ponderosa pines, the dominant trees here, produce their most viable seeds when t
 
 
 
-Now the land faces more threats from the Trump administration. Foresters are seeing their jobs cut as the Department of Government Efficiency, or DOGE, lays off federal workers; an executive order on March 1 ordered “immediate expansion” of timber production; and most recently, in April, came a USDA &#8220;emergency&#8221; directive to fast-track logging on nearly 60 percent of the Black Hills.
+Now the land faces more threats from the Trump administration. Foresters are seeing their jobs cut as the Department of Government Efficiency, or DOGE, lays off federal workers; an executive order on March 1 ordered “immediate expansion” of timber production; and most recently, in April, came an &#8220;emergency&#8221; directive from the U.S. Department of Agriculture to fast-track logging on nearly 60 percent of the Black Hills.
 
 
 
-While &#8220;climate change&#8221; is a forbidden term in the Trump administration, wildfire risk reduction is one of the cited reasons behind the USDA order, with the directive designating almost half the Black Hills National Forest as being under &#8220;emergency&#8221; wildfire risk levels. This authorizes increased removal of trees. The memo also calls to &#8220;streamline, to the extent allowable by law, all processes related to timber production,&#8221; such as environmental review. Finally, the USDA has said the Forest Service will &#8220;issue new or updated guidance to increase timber production.&#8221; South Dakota&#8217;s congressional delegation, led by Senate Majority Leader John Thune, has been pushing for more logging too. &nbsp;&nbsp;&nbsp;
+While &#8220;climate change&#8221; is a forbidden term in the Trump administration, wildfire risk reduction is one of the cited reasons behind the USDA order, with the directive designating almost half the Black Hills National Forest as being under &#8220;emergency&#8221; wildfire risk levels. This authorizes increased removal of trees. The memo also calls for streamlining &#8220;to the extent allowable by law, all processes related to timber production,&#8221; such as environmental review. Finally, the USDA has said the Forest Service will &#8220;issue new or updated guidance to increase timber production.&#8221; South Dakota&#8217;s congressional delegation, led by Senate Majority Leader John Thune, has been pushing for more logging, too.    
 
 
 
@@ -36,7 +36,7 @@ Logging in Custer State Park, South Dakota.
 
 
 
-Groups like NRDC and NDN Collective, a national Indigenous-rights nonprofit based in the Black Hills, call the directive a hastily constructed disaster. They claim that it mislabels millions of forest acres nationwide, including land that falls within reservation boundaries in many states. It also threatens at least 25 different endangered species nationwide, like the gray wolf, which has been spotted in the Black Hills, while potentially reducing the carbon storage capacity of the forest.&nbsp;
+Groups like the Natural Resources Defense Council and NDN Collective, a national Indigenous-rights nonprofit based in the Black Hills, call the directive a hastily constructed disaster. They claim that it mislabels millions of forest acres nationwide, including land that falls within reservation boundaries in many states. It also threatens at least 25 endangered species nationwide, like the gray wolf, which has been spotted in the Black Hills, while potentially reducing the carbon storage capacity of the forest. 
 
 
 
@@ -44,15 +44,15 @@ The directive also conflicts with a memorandum of understanding signed here just
 
 
 
-“It’s absolutely completely a U-turn,” says Taylor Gunhammer, a member of the Oglala Lakota Nation and a local environmental organizer with NDN Collective.&nbsp;
+“It’s absolutely, completely a U-turn,” said Taylor Gunhammer, a member of the Oglala Lakota Nation and a local environmental organizer with NDN Collective. 
 
 
 
-The timber industry is cheering. “The Intermountain Forest Association applauds the recent Executive Order and Secretarial Memo,” said Ben Wudtke of that trade association. “As an industry, we care deeply about the management and sustainability of forests and are proud to play a role in that process.”&nbsp;
+The timber industry is cheering. “The Intermountain Forest Association applauds the recent executive order and secretarial memo,” said Ben Wudtke of that trade association. “As an industry, we care deeply about the management and sustainability of forests and are proud to play a role in that process.” 
 
 
 
-Yet there’s a big irony: Trump’s push is unlikely to greatly increase timber production. The reason is simple: “We don’t have that many big trees left,” said Dave Mertz, who retired from the U.S. Forest Service in 2017 after 32 years and has since evolved into a conservationist.
+Yet there’s a big irony — President Trump’s push is unlikely to greatly increase timber production. The reason is simple: “We don’t have that many big trees left,” said Dave Mertz, who retired from the U.S. Forest Service in 2017 after 32 years and has since evolved into a conservationist.
 
 
 
@@ -64,7 +64,7 @@ The Lakota named the area Pahá Sápa — ”hills that are black” — for the
 
 
 
-In the 1868 Treaty of Fort Laramie, the United States designated Pahá Sápa as “unceded Indian Territory” exclusively for use by Indigenous peoples. Just six years later General George Armstrong Custer violated the treaty and broke the law by leading an expedition into the Black Hills that spread true but exaggerated rumors of gold. Within the next quarter-century, white settlers, gold prospectors and miners followed Custer, breaking federal law in search of the metal and cutting down three-fourths of the standing trees.&nbsp;
+In the 1868 Treaty of Fort Laramie, the United States designated Pahá Sápa as “unceded Indian Territory” exclusively for use by Indigenous peoples. Just six years later, General George Armstrong Custer violated the treaty and broke the law by leading an expedition into the Black Hills that spread true but exaggerated rumors of gold. Within the next quarter-century, white settlers, gold prospectors, and miners followed Custer, breaking federal law in search of the metal and cutting down three-fourths of the standing trees. 
 
 
 
@@ -76,11 +76,11 @@ Homestake, the first mining company listed on the New York Stock Exchange, sough
 
 
 
-Homestake bought 14 million board feet — a unit of measurement used by the logging industry — on approximately 1,700 acres in the Black Hills, in a transaction known as Case No.1. Some of the heartwood of the original stumps from that cut can be seen today, gnarled and gray.&nbsp;
+Homestake bought 14 million board feet — a unit of measurement used by the logging industry — on approximately 1,700 acres in the Black Hills, in a transaction known as Case No. 1. Some of the heartwood of the original stumps from that cut can be seen today, gnarled and gray. 
 
 
 
-Since Case No. 1, selling timber has been part of the U.S. Forest Service’s job. The money goes to pay for forest maintenance, and logging companies also sometimes provide services like underbrush clearing in trade.&nbsp;
+Since Case No. 1, selling timber has been part of the Forest Service’s job. The money goes to pay for forest maintenance, and logging companies also sometimes provide services like underbrush clearing in trade. 
 
 
 
@@ -88,7 +88,7 @@ Foresters set an annual overall quota. They mark boundaries of specific “sales
 
 
 
-Trees above nine inches in diameter are the main marketable product. Between five and nine inches, they’re good for maybe wood chips or fence posts. Below five inches, it’s “dog hair,” commercially worthless. Sometimes foresters mark specific large trees to be cut, leaving others alone to maintain a certain density. Other times it’s complete removal, taking every big enough and tall enough tree off the land.&nbsp;
+Trees above 9 inches in diameter are the main marketable product. Between 5 and 9 inches, they’re good for maybe wood chips or fence posts. Below 5 inches, it’s “dog hair,” commercially worthless. Sometimes foresters mark specific large trees to be cut, leaving others alone to maintain a certain density. Other times it’s complete removal, taking every big enough and tall enough tree off the land. 
 
 
 
@@ -104,7 +104,7 @@ During the Great Depression, 30,000 members of the Civilian Conservation Corps b
 
 
 
-The volume of timber grew far above historic levels thanks to decades of total fire suppression that followed — as thick as a “shag carpet,” says Zimmerman. The density made the timber industry happy but ultimately made the forest more vulnerable.&nbsp;
+The volume of timber grew far above historic levels thanks to decades of total fire suppression that followed — as thick as a “shag carpet,” said Zimmerman. The density made the timber industry happy but ultimately made the forest more vulnerable. 
 
 
 
@@ -128,7 +128,7 @@ A truck hauls trees from the Black Hills in South Dakota to a to a sawmill in 20
 
 
 
-In 2023 the Black Hills National Forest undertook an intensive Light Detection and Ranging, or LiDAR, project, flying over to map the land at public expense. “This forest probably has more data on it than any in the world,” said Zimmerman. Preliminary results show just what previous surveys have: that marketable trees remaining are few, far between, and small, averaging just over the minimum to be considered sawtimber at all. The remaining big trees are often on steep, rocky slopes, which require special, expensive equipment that might make it uneconomic to log them.
+In 2023, the Black Hills National Forest undertook an intensive Light Detection and Ranging, or LIDAR, project, flying over to map the land at public expense. “This forest probably has more data on it than any in the world,” said Zimmerman. Preliminary results show just what previous surveys have: that marketable trees remaining are few, far between, and small, averaging just over the minimum to be considered sawtimber at all. The remaining big trees are often on steep, rocky slopes, which require special, expensive equipment that might make it uneconomic to log them.
 
 
 
@@ -156,19 +156,19 @@ The Forest Service did not respond to requests for comment.
 
 
 
-The forest now under threat doesn’t belong to the timber industry nor to the federal government. The Lakota won a 1980 Supreme Court case recognizing the theft of this unceded land. The court granted monetary damages, which now amount, with interest, to around $2 billion, but the nation hasn’t touched the money, instead insisting the government return the land. The United Nations also advocates for the U.S. to respect Indigenous rights to the land. “All the Sioux tribes have informed the United States since 1980 that &#8216;The Black Hills Are Not For Sale,&#8217;” Oglala Sioux Tribal President Frank Star Comes Out told the media in April of this year.&nbsp;
+The forest now under threat doesn’t belong to the timber industry nor to the federal government. The Lakota won a 1980 Supreme Court case recognizing the theft of this unceded land. The court granted monetary damages, which now amount, with interest, to around $2 billion, but the nation hasn’t touched the money, instead insisting the government return the land. The United Nations also advocates for the U.S. to respect Indigenous rights to the land. “All the Sioux tribes have informed the United States since 1980 that the Black Hills are not for sale,” Oglala Sioux Tribal President Frank Star Comes Out told the media in April. 
 
 
 
-For Lakota people, a just future is clear: to bring all this land back under Indigenous stewardship, not just because of their legal standing, but because of their centuries of experience managing the forest. Around the world, landback and comanagement agreements have been at the forefront of conservation efforts.&nbsp;
+For Lakota people, a just future is clear: bringing all this land back under Indigenous stewardship, not just because of the Lakota&#8217;s legal standing, but because of their centuries of experience managing the forest. Around the world, landback and co-management agreements have been at the forefront of conservation efforts. 
 
 
 
-In February 2021, several officials of the Oglala Sioux cosigned a letter with the Norbeck Society and other conservation groups to the Forest Service calling for less logging. “Due to past overharvesting and other factors, there are not enough trees left” to meet the timber industry’s allowed quota, they wrote. That winter, tribal leaders from 12 Great Plains Nations argued for the return and protection of the Black Hills in a two-hour closed-door meeting that tribal leaders called “unprecedented” and “historic,” with Interior Secretary Deb Haaland, the first Indigenous cabinet member. That meeting seemed to bear some fruit toward the end of Biden’s term when Haaland signed a 20-year ban on mining in a portion of the Black Hills.&nbsp;
+In February 2021, several officials of the Oglala Sioux cosigned a letter with the Norbeck Society and other conservation groups to the Forest Service calling for less logging. “Due to past overharvesting and other factors, there are not enough trees left” to meet the timber industry’s allowed quota, they wrote. That winter, tribal leaders from 12 Great Plains nations argued for the return and protection of the Black Hills in a two-hour closed-door meeting that tribal leaders called “unprecedented” and “historic” with then-interior secretary Deb Haaland, the first Indigenous Cabinet member. That meeting seemed to bear some fruit toward the end of Joe Biden’s term when Haaland signed a 20-year ban on mining in a portion of the Black Hills. 
 
 
 
-Two weeks later, Donald Trump took office. Now what Gunhammer called the “U-turn” has begun. Not long after Trump’s Executive Order on forests, two “exploratory” drilling projects were proposed in a different part of the Black Hills for graphite and uranium mines. The proposed graphite project would impact a place called Pe’ Sla, a mountain meadow and religious area that Gunhammer compares to Mount Sinai or the Vatican.
+Two weeks later, Donald Trump took office. Now what Gunhammer called the “U-turn” has begun. Not long after Trump’s executive order on forests, two “exploratory” drilling projects were proposed in a different part of the Black Hills for graphite and uranium mines. The proposed graphite project would impact a place called Pe’ Sla, a mountain meadow and religious area that Gunhammer compared to Mount Sinai or the Vatican.
 
 
 
@@ -176,5 +176,5 @@ A single slope of this forest holds the mark of untold centuries. The biggest tr
 
 
 
-“Our lifetime is shorter than the life of a forest,” says Zimmerman. “It’s spoken of as a renewable resource, but it’s such a long-term thing that in some ways, it’s not.”&nbsp;
+“Our lifetime is shorter than the life of a forest,” said Zimmerman. “It’s spoken of as a renewable resource, but it’s such a long-term thing that in some ways, it’s not.” 
 This story was originally published by Grist with the headline The US government stole the Black Hills. Now it’s clear-cutting them. on May 21, 2025.

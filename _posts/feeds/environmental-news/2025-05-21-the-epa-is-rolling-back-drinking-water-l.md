@@ -11,7 +11,7 @@ Last week, environmental groups decried plans from the Environmental Protection 
 
 
 
-The limits had been finalized by the Biden administration last April as part of an effort to limit people’s exposure to hazardous “forever chemicals.” Out of a total of more than 10,000 known PFAS, they targeted just six of the most concerning ones. The Trump administration’s EPA said it would retain the limits for two of the PFAS but give utilities more time to comply with them, and scrap the others. One advocate called the EPA’s move a loss for public health and a “victory for chemical companies.”&nbsp;
+The limits had been finalized by Joe Biden&#8217;s administration last April as part of an effort to limit people’s exposure to hazardous “forever chemicals.” Out of a total of more than 10,000 known PFAS, they targeted just six of the most concerning ones. The Trump administration’s EPA said it would retain the limits for two of the PFAS but give utilities more time to comply with them and scrap the others. One advocate called the EPA’s move a loss for public health and a “victory for chemical companies.” 
 
 
 
@@ -39,8 +39,7 @@ Erik Olson, a senior strategist for the nonprofit Natural Resources Defense Coun
 
 
 
-EPA Administrator Lee Zeldin speaks during his Senate Environment and Public Works confirmation hearing in January 2025.
- Anna Moneymaker / Getty Images
+EPA Administrator Lee Zeldin speaks during his Senate Environment and Public Works confirmation hearing in January. Anna Moneymaker / Getty Images
 
 
 
@@ -56,7 +55,7 @@ A statement from EPA Administrator Lee Zeldin said the extended timeline for PFO
 
 
 
-A spokesperson for the EPA told Grist that the process by which the agency had “promulgated the preliminary regulatory determinations simultaneously with the proposed regulation” for PFNA, PFHxS, GenX, and PFBS under the Biden administration “was inappropriate and may not comply with the statutory requirements of [the] Safe Drinking Water Act.” With regard to the rescissions, they said that, “while EPA cannot pre-determine the outcome, it is possible” that the agency will issue more stringent requirements this spring.
+A spokesperson for the EPA told Grist that the process by which the agency had “promulgated the preliminary regulatory determinations simultaneously with the proposed regulation” for PFNA, PFHxS, GenX, and PFBS under the Biden administration “was inappropriate and may not comply with the statutory requirements of [the] Safe Drinking Water Act.” With regard to the rescissions, they said that “while EPA cannot predetermine the outcome, it is possible” that the agency will issue more stringent requirements this spring.
 
 
 
