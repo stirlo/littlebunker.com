@@ -1,0 +1,75 @@
+.climate-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  background-color: var(--bg-color);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.dashboard-section {
+  background: var(--highlight-color);
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.dashboard-section h3 {
+  margin-top: 0;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+.metric-value {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.metric-context, .target-indicator {
+  font-size: 0.8rem;
+  color: var(--text-color);
+  opacity: 0.8;
+}
+
+.critical {
+  color: var(--critical);
+  animation: pulse 2s infinite;
+}
+
+.warning {
+  color: var(--warning);
+}
+
+.resource-grid, .crisis-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+
+.resource-item, .crisis-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.resource-label, .crisis-label {
+  font-size: 0.7rem;
+  opacity: 0.8;
+}
+
+.resource-value, .crisis-value {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.7; }
+  100% { opacity: 1; }
+}
