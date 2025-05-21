@@ -29,7 +29,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: pip install feedparser pyyaml requests
+        run: pip install feedparser pyyaml requests beautifulsoup4
 
       # Update Climate Metrics with real data only
       - name: Update Climate Metrics
@@ -39,7 +39,9 @@ jobs:
           import yaml
           import json
           import os
+          import re
           from datetime import datetime
+          from bs4 import BeautifulSoup
 
           # Create directory if it doesn't exist
           os.makedirs('_data', exist_ok=True)
@@ -85,18 +87,78 @@ jobs:
           except Exception as e:
               print(f"Error loading existing metrics: {e}")
 
-          # Try to fetch CO2 data from CO2.Earth
+          # Try multiple sources for CO2 data
+          # 1. Try CO2.Earth website
           try:
-              co2_response = requests.get('https://api.co2.earth/daily', timeout=10)
+              co2_response = requests.get('https://www.co2.earth/daily-co2', timeout=10)
               if co2_response.status_code == 200:
-                  co2_data = co2_response.json()
-                  if 'value' in co2_data:
-                      co2_current = float(co2_data['value'])
-                  if 'trend' in co2_data:
-                      co2_change = float(co2_data['trend'])
+                  html = co2_response.text
+                  soup = BeautifulSoup(html, 'html.parser')
+
+                  # Look for the current CO2 value
+                  co2_elements = soup.select('.value')
+                  for element in co2_elements:
+                      if 'ppm' in element.text:
+                          try:
+                              co2_current = float(re.search(r'(\d+\.\d+)', element.text).group(1))
+                              print(f"Found CO2 value from CO2.Earth: {co2_current} ppm")
+                              break
+                          except:
+                              pass
+
+                  # Look for the annual change
+                  change_elements = soup.select('.value')
+                  for element in change_elements:
+                      if '+' in element.text and 'ppm' in element.text:
+                          try:
+                              co2_change = float(re.search(r'([+-]?\d+\.\d+)', element.text).group(1))
+                              print(f"Found CO2 change from CO2.Earth: {co2_change} ppm")
+                              break
+                          except:
+                              pass
           except Exception as e:
-              print(f"Error fetching CO2 data from CO2.Earth: {e}")
-              # Fall back to existing values, no randomization
+              print(f"Error fetching CO2 data from CO2.Earth website: {e}")
+
+              # 2. Try NOAA GML if CO2.Earth fails
+              try:
+                  co2_response = requests.get('https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.txt', timeout=10)
+                  if co2_response.status_code == 200:
+                      lines = co2_response.text.strip().split('\n')
+                      data_lines = [line for line in lines if not line.startswith('#')]
+                      if len(data_lines) > 0:
+                          latest = data_lines[-1].split()
+                          if len(latest) >= 2:
+                              co2_current = float(latest[1])
+                              print(f"Found CO2 value from NOAA GML: {co2_current} ppm")
+
+                          if len(data_lines) >= 13:
+                              previous_year = data_lines[-13].split()
+                              if len(previous_year) >= 2:
+                                  co2_change = co2_current - float(previous_year[1])
+                                  print(f"Calculated CO2 change from NOAA GML: {co2_change} ppm")
+              except Exception as e:
+                  print(f"Error fetching CO2 data from NOAA GML: {e}")
+
+                  # 3. Try Scripps CO2 Program if NOAA fails
+                  try:
+                      co2_response = requests.get('https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/daily/daily_in_situ_co2_mlo.csv', timeout=10)
+                      if co2_response.status_code == 200:
+                          lines = co2_response.text.strip().split('\n')
+                          data_lines = [line for line in lines if not line.startswith('"')]
+                          if len(data_lines) > 0:
+                              latest_data = data_lines[-1].split(',')
+                              if len(latest_data) >= 7:
+                                  co2_current = float(latest_data[6])
+                                  print(f"Found CO2 value from Scripps CO2 Program: {co2_current} ppm")
+
+                              if len(data_lines) >= 366:
+                                  previous_year_data = data_lines[-366].split(',')
+                                  if len(previous_year_data) >= 7:
+                                      co2_change = co2_current - float(previous_year_data[6])
+                                      print(f"Calculated CO2 change from Scripps CO2 Program: {co2_change} ppm")
+                  except Exception as e:
+                      print(f"Error fetching CO2 data from Scripps CO2 Program: {e}")
+                      # Fall back to existing values
 
           # Try to fetch methane data from NOAA (if available)
           try:
@@ -111,6 +173,7 @@ jobs:
                       if len(latest) >= 4 and len(previous_year) >= 4:
                           ch4_current = float(latest[3])
                           ch4_change = ch4_current - float(previous_year[3])
+                          print(f"Found CH4 value from NOAA: {ch4_current} ppb, change: {ch4_change} ppb")
           except Exception as e:
               print(f"Error fetching methane data: {e}")
               # Fall back to existing values, no randomization
@@ -128,32 +191,62 @@ jobs:
                               # The 13th column is the annual mean
                               if parts[13] != '*':
                                   temp_overshoot = float(parts[13]) / 100.0  # Convert to degrees C
+                                  print(f"Found temperature overshoot from NASA GISS: {temp_overshoot}°C")
                                   break
           except Exception as e:
               print(f"Error fetching temperature data: {e}")
-              # Fall back to existing values, no randomization
+
+              # Try Berkeley Earth as an alternative
+              try:
+                  temp_response = requests.get('http://berkeleyearth.lbl.gov/auto/Global/Land_and_Ocean_summary.txt', timeout=10)
+                  if temp_response.status_code == 200:
+                      lines = temp_response.text.strip().split('\n')
+                      data_lines = [line for line in lines if line.strip() and not line.startswith('%')]
+                      for line in reversed(data_lines):
+                          if line.strip():
+                              parts = line.split()
+                              if len(parts) >= 2 and parts[0].isdigit() and int(parts[0]) >= 2020:
+                                  temp_overshoot = float(parts[1])
+                                  print(f"Found temperature overshoot from Berkeley Earth: {temp_overshoot}°C")
+                                  break
+              except Exception as e:
+                  print(f"Error fetching temperature data from Berkeley Earth: {e}")
+                  # Fall back to existing values
 
           # Try to fetch population data
           try:
               pop_response = requests.get('https://www.worldometers.info/world-population/', timeout=10)
               if pop_response.status_code == 200:
-                  # This is a simple scraping approach - in production you'd want a more robust parser
                   html = pop_response.text
+                  soup = BeautifulSoup(html, 'html.parser')
+
                   # Look for the current population counter
-                  import re
-                  pop_match = re.search(r'Current World Population</div>\\s*<div[^>]*>([\\d,]+)', html)
-                  if pop_match:
-                      pop_str = pop_match.group(1).replace(',', '')
-                      pop_total = round(float(pop_str) / 1000000000, 1)  # Convert to billions
+                  pop_counter = soup.select_one('.rts-counter')
+                  if pop_counter:
+                      pop_str = pop_counter.text.replace(',', '')
+                      try:
+                          pop_total = round(float(pop_str) / 1000000000, 1)  # Convert to billions
+                          print(f"Found population total from Worldometers: {pop_total}B")
+                      except:
+                          pass
 
                   # Look for growth rate
-                  growth_match = re.search(r'This year</div>\\s*<div[^>]*>([\\d,]+)', html)
-                  if growth_match:
-                      growth_str = growth_match.group(1).replace(',', '')
-                      pop_growth = round(float(growth_str) / 1000000, 0)  # Convert to millions
+                  growth_elements = soup.select('.counter-number')
+                  for element in growth_elements:
+                      if element.get('rel') == 'current_population':
+                          parent = element.parent.parent
+                          growth_element = parent.select_one('.counter-number[rel="current_population_increase"]')
+                          if growth_element:
+                              try:
+                                  growth_str = growth_element.text.replace(',', '')
+                                  pop_growth = round(float(growth_str) * 365 / 1000000, 0)  # Convert daily to annual in millions
+                                  print(f"Found population growth from Worldometers: {pop_growth}M per year")
+                              except:
+                                  pass
+                          break
           except Exception as e:
               print(f"Error fetching population data: {e}")
-              # Fall back to existing values, no randomization
+              # Fall back to existing values
 
           # Create metrics data
           metrics = {
