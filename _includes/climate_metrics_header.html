@@ -4,7 +4,14 @@
         <div class="header-content">
             <div class="site-title">
                 <h1>Observations from the Little Bunker</h1>
-                <p class="last-update">Last updated: {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}</p>
+                <p class="last-update">
+                    Last updated: 
+                    {% if site.data.metrics.last_updated %}
+                        {{ site.data.metrics.last_updated | date: "%B %d, %Y %I:%M %p" }}
+                    {% else %}
+                        {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}
+                    {% endif %}
+                </p>
             </div>
 
             <div class="metrics-dashboard">
