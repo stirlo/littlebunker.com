@@ -19,8 +19,7 @@ On an overcast day, a helicopter carrying three salmon scientists zoomed up the 
 
 
 
-The Salmon Glacier near Stewart, British Columbia, is quickly melting, potentially boosting nearby mining prospects. 
- Max Graham / Grist
+The retreat of the Bear Glacier, near Stewart, British Columbia, transformed a stream below it into a haven for salmon.  Max Graham / Grist
 
 
 

@@ -7,4 +7,4 @@ external_url: https://insideclimatenews.org/news/21052025/chemical-plant-hfc-23-
 is_feed: true
 ---
 
-HFC-23 emissions from chemical plants in eastern China and elsewhere likely violate an international climate agreement despite readily available pollution controls. Advocates are pressing for action.By Phil McKenna, Lili PikeThis article was co-reported with Foreign Policy.&nbsp;
+HFC-23 emissions from chemical plants in eastern China and elsewhere likely violate an international climate agreement despite readily available pollution controls. Advocates are pressing for action.By Phil McKenna, Lili PikeThis article was co-reported with Foreign Policy. 

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Sowing resilience: quantifying the role of American crops in mitigating Malthusian catastrophes during climatic extremes in history"
-date: 2025-05-21 15:22:49
+date: 2025-05-21 16:26:45
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add608
 is_feed: true
