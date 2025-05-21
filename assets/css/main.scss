@@ -1,0 +1,22 @@
+---
+---
+
+// Import variables
+@import "variables";
+
+// Base styles
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+// Import components
+@import "header";
+@import "dashboard";
+@import "posts";
+@import "footer";
