@@ -1,15 +1,12 @@
 name: Post to Bluesky
 
 on:
-  # Run when feeds are updated
   workflow_run:
     workflows: ["Update RSS Feeds"]
     types:
       - completed
-  # Also run on schedule
   schedule:
-    - cron: '30 * * * *'  # 30 minutes past every hour
-  # Manual trigger
+    - cron: '30 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -37,6 +34,8 @@ jobs:
           import feedparser
           import os
           import time
+          import json
+          import hashlib
           from datetime import datetime, timezone
           from atproto import Client
 
@@ -44,8 +43,36 @@ jobs:
           BLUESKY_HANDLE = os.environ.get('BLUESKY_HANDLE')
           BLUESKY_PASSWORD = os.environ.get('BLUESKY_PASSWORD')
 
-          # Feed URL - will use your GitHub Pages URL until your custom domain is set up
+          # Feed URL
           FEED_URL = "https://littlebunker.com/feed.xml"
+
+          # File to store posted entries
+          POSTED_FILE = "_data/posted_to_bluesky.json"
+
+          def load_posted_entries():
+              try:
+                  if os.path.exists(POSTED_FILE):
+                      with open(POSTED_FILE, 'r') as f:
+                          return json.load(f)
+                  else:
+                      # Create directory if it doesn't exist
+                      os.makedirs(os.path.dirname(POSTED_FILE), exist_ok=True)
+                      return {"posted_entries": []}
+              except Exception as e:
+                  print(f"Error loading posted entries: {e}")
+                  return {"posted_entries": []}
+
+          def save_posted_entry(entry_id):
+              try:
+                  posted_data = load_posted_entries()
+                  posted_data["posted_entries"].append(entry_id)
+                  # Keep only the last 50 entries to avoid the file growing too large
+                  posted_data["posted_entries"] = posted_data["posted_entries"][-50:]
+
+                  with open(POSTED_FILE, 'w') as f:
+                      json.dump(posted_data, f, indent=2)
+              except Exception as e:
+                  print(f"Error saving posted entry: {e}")
 
           def post_to_bluesky(title, link, description):
               try:
@@ -72,17 +99,44 @@ jobs:
                   print("No entries found in feed")
                   return
 
+              # Load previously posted entries
+              posted_data = load_posted_entries()
+              posted_entries = posted_data["posted_entries"]
+
               # Get latest entry
-              latest_entry = feed.entries[0]
+              for entry in feed.entries[:3]:  # Check the 3 most recent entries
+                  # Create a unique ID for this entry
+                  title = entry.get('title', '')
+                  link = entry.get('link', '')
+                  entry_id = hashlib.md5(f"{title}|{link}".encode()).hexdigest()
 
-              # Extract info
-              title = latest_entry.get('title', 'New post on Little Bunker')
-              link = latest_entry.get('link', 'https://littlebunker.com')
-              description = latest_entry.get('description', '').replace('<p>', '').replace('</p>', '')
+                  # Check if we've already posted this
+                  if entry_id in posted_entries:
+                      print(f"Already posted: {title}")
+                      continue
 
-              # Post to Bluesky
-              post_to_bluesky(title, link, description)
+                  # Extract info
+                  description = entry.get('description', '').replace('<p>', '').replace('</p>', '')
+
+                  # Post to Bluesky
+                  success = post_to_bluesky(title, link, description)
+
+                  if success:
+                      # Save this entry as posted
+                      save_posted_entry(entry_id)
+                      # Only post one entry per run
+                      break
+
+              else:
+                  print("No new entries to post")
 
           if __name__ == "__main__":
               main()
           EOF
+
+      - name: Commit changes if any
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update posted entries tracking" && git push)
