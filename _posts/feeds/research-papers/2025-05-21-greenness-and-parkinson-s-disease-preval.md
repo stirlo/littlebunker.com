@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Greenness and Parkinson’s disease prevalence: a national cross-sectional study in China"
-date: 2025-05-21 21:18:45
+date: 2025-05-21 22:19:03
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add54c
 is_feed: true
