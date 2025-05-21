@@ -15,6 +15,12 @@ jobs:
         run: |
           mkdir -p _data/feeds
           mkdir -p _data/metrics
+          mkdir -p _posts/feeds/climate-science
+          mkdir -p _posts/feeds/environmental-news
+          mkdir -p _posts/feeds/extreme-weather
+          mkdir -p _posts/feeds/social-impact
+          mkdir -p _posts/feeds/research-papers
+          mkdir -p _posts/feeds/media
 
       # Set up Python for feed processing
       - name: Set up Python
@@ -25,7 +31,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install feedparser pyyaml requests
 
-      # Update Climate Metrics with real data
+      # Update Climate Metrics with real data only
       - name: Update Climate Metrics
         run: |
           python - << 'EOF'
@@ -51,57 +57,103 @@ jobs:
           # Get current date
           current_date = datetime.now().strftime("%Y-%m-%d")
 
-          # Fetch CO2 data from NOAA API
-          co2_current = 421.5  # Default fallback value
-          co2_change = 2.5     # Default fallback value
+          # Initialize with default values (last known good)
+          co2_current = 421.5
+          co2_change = 2.5
+          ch4_current = 1908.0
+          ch4_change = 8.5
+          temp_overshoot = 1.2
+          pop_total = 8.1
+          pop_growth = 67
 
-          # Try Global Monitoring Laboratory API
-          co2_data = safe_api_fetch(f"https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.json")
-          if co2_data and 'co2' in co2_data:
-              recent_data = co2_data['co2'][-1]
-              co2_current = round(recent_data[1], 1)
-              # Calculate change from previous year
-              last_year_index = -53  # Approximately 1 year ago (weekly data)
-              if abs(last_year_index) < len(co2_data['co2']):
-                  co2_change = round(co2_current - co2_data['co2'][last_year_index][1], 1)
+          # Try to load existing metrics to use as fallback
+          try:
+              if os.path.exists('_data/metrics.yml'):
+                  with open('_data/metrics.yml', 'r') as f:
+                      existing_metrics = yaml.safe_load(f)
+                      if existing_metrics and 'co2' in existing_metrics:
+                          co2_current = existing_metrics['co2'].get('current', co2_current)
+                          co2_change = existing_metrics['co2'].get('change', co2_change)
+                      if existing_metrics and 'ch4' in existing_metrics:
+                          ch4_current = existing_metrics['ch4'].get('current', ch4_current)
+                          ch4_change = existing_metrics['ch4'].get('change', ch4_change)
+                      if existing_metrics and 'temperature' in existing_metrics:
+                          temp_overshoot = existing_metrics['temperature'].get('overshoot', temp_overshoot)
+                      if existing_metrics and 'population' in existing_metrics:
+                          pop_total = existing_metrics['population'].get('total', pop_total)
+                          pop_growth = existing_metrics['population'].get('growth', pop_growth)
+          except Exception as e:
+              print(f"Error loading existing metrics: {e}")
 
-          # Fetch methane data
-          ch4_current = 1908.0  # Default fallback value
-          ch4_change = 8.5      # Default fallback value
+          # Try to fetch CO2 data from CO2.Earth
+          try:
+              co2_response = requests.get('https://api.co2.earth/daily', timeout=10)
+              if co2_response.status_code == 200:
+                  co2_data = co2_response.json()
+                  if 'value' in co2_data:
+                      co2_current = float(co2_data['value'])
+                  if 'trend' in co2_data:
+                      co2_change = float(co2_data['trend'])
+          except Exception as e:
+              print(f"Error fetching CO2 data from CO2.Earth: {e}")
+              # Fall back to existing values, no randomization
 
-          # Try Global Monitoring Laboratory API for methane
-          ch4_data = safe_api_fetch(f"https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.json")
-          if ch4_data and 'ch4' in ch4_data:
-              recent_data = ch4_data['ch4'][-1]
-              ch4_current = round(recent_data[1], 1)
-              # Calculate change from previous year
-              if len(ch4_data['ch4']) > 12:
-                  ch4_change = round(ch4_current - ch4_data['ch4'][-13][1], 1)
+          # Try to fetch methane data from NOAA (if available)
+          try:
+              ch4_response = requests.get('https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.txt', timeout=10)
+              if ch4_response.status_code == 200:
+                  lines = ch4_response.text.strip().split('\n')
+                  data_lines = [line for line in lines if not line.startswith('#')]
+                  if len(data_lines) >= 2:
+                      # Parse the last two lines to get current value and calculate change
+                      latest = data_lines[-1].split()
+                      previous_year = data_lines[-13].split()  # Approximately 1 year ago
+                      if len(latest) >= 4 and len(previous_year) >= 4:
+                          ch4_current = float(latest[3])
+                          ch4_change = ch4_current - float(previous_year[3])
+          except Exception as e:
+              print(f"Error fetching methane data: {e}")
+              # Fall back to existing values, no randomization
 
-          # Fetch global temperature data
-          temp_overshoot = 1.2  # Default fallback value
+          # Try to fetch temperature data from NASA GISS
+          try:
+              temp_response = requests.get('https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt', timeout=10)
+              if temp_response.status_code == 200:
+                  lines = temp_response.text.strip().split('\n')
+                  data_lines = [line for line in lines if line.strip() and not line.startswith('#')]
+                  for line in reversed(data_lines):
+                      if line.strip():
+                          parts = line.split()
+                          if len(parts) >= 14 and parts[0].isdigit() and int(parts[0]) >= 2020:
+                              # The 13th column is the annual mean
+                              if parts[13] != '*':
+                                  temp_overshoot = float(parts[13]) / 100.0  # Convert to degrees C
+                                  break
+          except Exception as e:
+              print(f"Error fetching temperature data: {e}")
+              # Fall back to existing values, no randomization
 
-          # Try NASA GISS API
-          temp_data = safe_api_fetch("https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.json")
-          if temp_data and 'data' in temp_data:
-              recent_years = [year for year in temp_data['data'] if year.isdigit() and int(year) >= 2020]
-              if recent_years:
-                  latest_year = max(recent_years)
-                  annual_mean = float(temp_data['data'][latest_year]['J-D']) / 100.0
-                  temp_overshoot = round(annual_mean, 1)
+          # Try to fetch population data
+          try:
+              pop_response = requests.get('https://www.worldometers.info/world-population/', timeout=10)
+              if pop_response.status_code == 200:
+                  # This is a simple scraping approach - in production you'd want a more robust parser
+                  html = pop_response.text
+                  # Look for the current population counter
+                  import re
+                  pop_match = re.search(r'Current World Population</div>\\s*<div[^>]*>([\\d,]+)', html)
+                  if pop_match:
+                      pop_str = pop_match.group(1).replace(',', '')
+                      pop_total = round(float(pop_str) / 1000000000, 1)  # Convert to billions
 
-          # Fetch population data
-          pop_total = 8.1  # Default fallback value in billions
-          pop_growth = 67  # Default fallback value in millions
-
-          # Try World Population API
-          pop_data = safe_api_fetch("https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json")
-          if pop_data and len(pop_data) > 1 and pop_data[1]:
-              recent_data = sorted(pop_data[1], key=lambda x: x['date'], reverse=True)
-              if recent_data:
-                  pop_total = round(recent_data[0]['value'] / 1000000000, 1)  # Convert to billions
-                  if len(recent_data) > 1:
-                      pop_growth = round((recent_data[0]['value'] - recent_data[1]['value']) / 1000000, 0)  # Annual growth in millions
+                  # Look for growth rate
+                  growth_match = re.search(r'This year</div>\\s*<div[^>]*>([\\d,]+)', html)
+                  if growth_match:
+                      growth_str = growth_match.group(1).replace(',', '')
+                      pop_growth = round(float(growth_str) / 1000000, 0)  # Convert to millions
+          except Exception as e:
+              print(f"Error fetching population data: {e}")
+              # Fall back to existing values, no randomization
 
           # Create metrics data
           metrics = {
@@ -133,10 +185,6 @@ jobs:
       # Fetch feeds and create posts with Python
       - name: Fetch Feeds and Create Posts
         run: |
-          mkdir -p _data/feeds
-          mkdir -p _posts/feeds/climate-science
-          mkdir -p _posts/feeds/environmental-news
-
           python - << 'EOF'
           import feedparser
           import yaml
@@ -238,13 +286,62 @@ jobs:
           climate_science_feeds = [
               "https://climate.nasa.gov/feed/",
               "https://www.ipcc.ch/feed/",
-              "https://www.climate.gov/news-features/feed"
+              "https://www.climate.gov/news-features/feed",
+              "https://www.nature.com/nclimate.rss",  # Nature Climate Change
+              "https://advances.sciencemag.org/rss/current.xml",  # Science Advances
+              "https://www.sciencedaily.com/rss/earth_climate/climate.xml",  # ScienceDaily Climate
+              "https://unfccc.int/news/rss.xml"  # UN Climate Change News
           ]
 
           # Environmental News feeds
           environmental_news_feeds = [
               "https://insideclimatenews.org/feed/",
-              "https://www.carbonbrief.org/feed/"
+              "https://www.carbonbrief.org/feed/",
+              "https://www.theguardian.com/environment/climate-crisis/rss",  # Guardian Climate
+              "https://grist.org/feed/",  # Grist
+              "https://e360.yale.edu/feed/",  # Yale Environment 360
+              "https://climatecrisis.house.gov/rss.xml",  # Climate Crisis Committee
+              "https://www.climatechangenews.com/feed/"  # Climate Home News
+          ]
+
+          # Extreme Weather feeds
+          extreme_weather_feeds = [
+              "https://www.wunderground.com/cat6/feed",  # Weather Underground Category 6
+              "https://www.climatesignals.org/rss.xml",  # Climate Signals
+              "https://www.preventionweb.net/english/professional/news/rss.php",  # PreventionWeb
+              "https://phys.org/rss-feed/earth-sciences/earth-sciences-news/",  # Phys.org Earth Sciences
+              "https://floodlist.com/feed",  # FloodList
+              "https://www.nhc.noaa.gov/aboutrss.shtml"  # National Hurricane Center
+          ]
+
+          # Social Impact feeds
+          social_impact_feeds = [
+              "https://www.climatemigration.org.uk/rss",  # Climate Migration
+              "https://ejfoundation.org/rss/climate",  # Environmental Justice Foundation
+              "https://www.climaterealityproject.org/blog/rss.xml",  # Climate Reality Project
+              "https://www.wri.org/blog/rss.xml",  # World Resources Institute
+              "https://www.sei.org/feed/",  # Stockholm Environment Institute
+              "https://www.climatejusticealliance.org/feed/"  # Climate Justice Alliance
+          ]
+
+          # Research Paper feeds
+          research_paper_feeds = [
+              "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",  # PNAS
+              "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",  # Geophysical Research Letters
+              "https://iopscience.iop.org/journal/rss/1748-9326",  # Environmental Research Letters
+              "https://www.frontiersin.org/journals/climate/rss",  # Frontiers in Climate
+              "https://journals.ametsoc.org/action/showFeed?type=etoc&feed=rss&jc=clim",  # Journal of Climate
+              "https://www.nature.com/nclimate.rss",  # Nature Climate Change
+              "https://www.sciencedirect.com/journal/global-environmental-change/rss"  # Global Environmental Change
+          ]
+
+          # Media feeds (including Yellow Dot Studios)
+          media_feeds = [
+              "https://www.youtube.com/feeds/videos.xml?channel_id=UCuwUl4_fcRio_valO7_lxjA",  # Yellow Dot Studios YouTube
+              "https://climatecrisis.house.gov/rss.xml",  # Climate Crisis Committee
+              "https://www.pbs.org/wgbh/nova/rss/nova-podcasts-rss.xml",  # NOVA PBS
+              "https://rss.art19.com/climate-one",  # Climate One Podcast
+              "https://feeds.megaphone.fm/HSW9992617712"  # How to Save a Planet Podcast
           ]
 
           # Process all feeds
@@ -253,6 +350,18 @@ jobs:
 
           for feed_url in environmental_news_feeds:
               create_posts_from_feed(feed_url, "environmental-news", "_posts/feeds/environmental-news")
+
+          for feed_url in extreme_weather_feeds:
+              create_posts_from_feed(feed_url, "extreme-weather", "_posts/feeds/extreme-weather")
+
+          for feed_url in social_impact_feeds:
+              create_posts_from_feed(feed_url, "social-impact", "_posts/feeds/social-impact")
+
+          for feed_url in research_paper_feeds:
+              create_posts_from_feed(feed_url, "research-papers", "_posts/feeds/research-papers")
+
+          for feed_url in media_feeds:
+              create_posts_from_feed(feed_url, "media", "_posts/feeds/media")
           EOF
 
       # Commit changes
