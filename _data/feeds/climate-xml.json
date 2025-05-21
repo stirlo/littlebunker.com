@@ -4,10 +4,28 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "items": [
     {
+      "title": "Landmark report reveals key challenges facing adolescents",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250520183839.htm",
+      "pubDate": "Tue, 20 May 2025 18:38:39 EDT",
+      "description": "Poor mental health, rising obesity rates, exposure to violence and climate change are among the key challenges facing our adolescents today, according to a global report."
+    },
+    {
       "title": "How to solve a bottleneck for CO2 capture and conversion",
       "link": "https://www.sciencedaily.com/releases/2025/05/250520162115.htm",
       "pubDate": "Tue, 20 May 2025 16:21:15 EDT",
       "description": "New research could improve the efficiency of electrochemical carbon-dioxide capture and release by six times and cut costs by at least 20 percent. Researchers added nanoscale filtering membranes to a carbon-capture system, separating the ions that carry out the capture and release steps, and enabling both steps to proceed more efficiently."
+    },
+    {
+      "title": "Does renewable energy reduce fossil fuel production in the US?",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250520161838.htm",
+      "pubDate": "Tue, 20 May 2025 16:18:38 EDT",
+      "description": "Increasing renewable energy may not reduce the use of fossil fuels in the United States, according to a new study ."
+    },
+    {
+      "title": "Clouding the forecast: Study reveals why so many climate models are wrong about the rate of Arctic warming",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250520122238.htm",
+      "pubDate": "Tue, 20 May 2025 12:22:38 EDT",
+      "description": "The Arctic is one of the coldest places on Earth, but in recent decades, the region has been rapidly warming, at a rate three to four times faster than the global average. However, current climate models have been unable to account for this increased pace. Now, researchers have reported that clouds may be to blame."
     },
     {
       "title": "Household action can play major role in climate change fight",
@@ -44,24 +62,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250519131551.htm",
       "pubDate": "Mon, 19 May 2025 13:15:51 EDT",
       "description": "New research reveals mountain glaciers across the globe will not recover for centuries -- even if human intervention cools the planet back to the 1.5 C limit, having exceeded it."
-    },
-    {
-      "title": "First-of-its-kind global study shows grasslands can withstand climate extremes with a boost of nutrients",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250519131545.htm",
-      "pubDate": "Mon, 19 May 2025 13:15:45 EDT",
-      "description": "Fertilizer might be stronger than we thought. A new international study found that fertilizer can help plants survive short-term periods of extreme drought, findings which could have implications for agriculture and food systems in a world facing climate stressors."
-    },
-    {
-      "title": "Scientists use salinity to trace changes in the US Northeast Coastal Ocean",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250519131134.htm",
-      "pubDate": "Mon, 19 May 2025 13:11:34 EDT",
-      "description": "The near-bottom water on the U.S. Northeast continental shelf provides a critical cold-water habitat for the rich regional marine ecosystem. This 'cold pool' preserves winter temperatures, even when waters elsewhere become too warm or salty during the summer. The U.S. Northeast coastal ocean has experienced accelerated warming in recent years, compared to the global average. Now, scientists using salt as a tracer are investigating how much the influx of salty offshore water onto the continental shelf contributes to the observed 'erosion' of the seasonal cold pool. This paper provides the first evidence for a seasonal salinification of the cold pool on the US Northeast continental shelf, as consistently observed in the multi-year mooring record of the [Ocean Observatories Initiative] Coastal Pioneer Array."
-    },
-    {
-      "title": "With evolutionary AI, scientists find hidden keys for better land use",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250519131038.htm",
-      "pubDate": "Mon, 19 May 2025 13:10:38 EDT",
-      "description": "A new AI decision making tool effectively balances various complex trade-offs to recommend ways of maximizing carbon storage, minimizing economic disruptions and helping improve the environment and people's everyday lives. It uses evolutionary AI, a kind of digital version of biological natural selection, to optimize policies in the face of competing priorities."
     }
   ]
 }
