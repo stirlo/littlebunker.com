@@ -1,0 +1,80 @@
+.site-header {
+  background: var(--metric-background, var(--bg-color));
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.site-title {
+  text-align: center;
+}
+
+.site-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.last-update {
+  font-size: 0.9rem;
+  color: var(--secondary-color);
+  margin: 0.5rem 0 0 0;
+}
+
+.main-header {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--metric-background, var(--bg-color));
+}
+
+.site-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+@media (min-width: 768px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .site-title {
+    text-align: left;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-nav {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+}
