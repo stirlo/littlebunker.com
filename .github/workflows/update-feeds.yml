@@ -430,7 +430,7 @@ jobs:
 
           # Media feeds (including Yellow Dot Studios)
           media_feeds = [
-              "https://www.youtube.com/feeds/videos.xml?channel_id=UCuwUl4_fcRio_valO7_lxjA",  # Yellow Dot Studios YouTube
+           # too many ads   "https://www.youtube.com/feeds/videos.xml?channel_id=UCuwUl4_fcRio_valO7_lxjA",  # Yellow Dot Studios YouTube
               "https://climatecrisis.house.gov/rss.xml",  # Climate Crisis Committee
               "https://www.pbs.org/wgbh/nova/rss/nova-podcasts-rss.xml",  # NOVA PBS
               "https://rss.art19.com/climate-one",  # Climate One Podcast
