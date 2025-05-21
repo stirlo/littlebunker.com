@@ -158,7 +158,7 @@ Kevin Koch, a biologist with the Gitanyow Hereditary Chiefs, watches salmon swim
 
 
 
-For a long time, Strohn Creek gushed out of a huge glacier, and hardly any sockeye swam in its turbid water. While glacial runoff helps make some streams more habitable for salmon by keeping them cool, it also can have the opposite effect: Streams that flow directly from glaciers are often near freezing, too cold even for the cold-loving fish. And they’re full of silt, which blocks the sunlight that forms the basis of the food chain. Salmon eat insects and tiny marine animals called zooplankton; the insects and zooplankton eat algae; and the algae feeds off the sun.
+For a long time, Strohn Creek gushed out of a huge glacier, and hardly any sockeye swam in its turbid water. While glacial runoff helps make some streams more habitable for salmon by keeping them cool, it also can have the opposite effect: Streams that flow directly from glaciers are often near freezing, too cold even for the cold-loving fish. And they’re full of silt, which blocks the sunlight that forms the basis of the food chain. Salmon eat insects and tiny aquatic animals called zooplankton; the insects and zooplankton eat algae; and the algae feeds off the sun.
 
 
 
