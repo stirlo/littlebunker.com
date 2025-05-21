@@ -1,0 +1,10 @@
+---
+layout: feed_item
+title: "Using photorealistic 3D visualization to convey ecosystem restoration to the public"
+date: 2025-05-15 00:00:00
+categories: [research-papers]
+external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1525331
+is_feed: true
+---
+
+The success of climate adaptation and nature conservation measures depends significantly on public support. Although the value of protecting iconic species is often easy to communicate to non-expert audiences, conveying the broader importance of ecosystem restoration and conservation for climate resilience is more challenging. To address this, we developed a method that combines spatially explicit models of complex, self-organizing ecosystems with state-of-the-art visualization techniques. This approach creates immersive, three-dimensional panoramic views of natural landscapes, illustrating how people live in and interact with these ecosystems. Our method showcases the inherent complexity of ecosystems, highlighting features such as spatial patterning and the dynamic processes that shape them, as well as the critical role of this complexity in supporting biodiversity. Additionally, it demonstrates the potential of restored or even constructed ecosystems as nature-based solutions to future climate challenges. Adaptable to various ecosystems and locations, with the optional addition of audio or text explanations, this visualization tool can be used in diverse contexts, from museum exhibits to on-site virtual experiences, effectively reaching broad audiences. We present our visualization approach through two case studies that bring to life past climate-adaptive ecosystems and envision future developments. The first case depicts a historic medieval village, now located within a low-lying polder, which was once founded on an expansive, climate-resilient marsh that naturally rose with sea levels due to continuous sediment deposition. The second case explores a planned nature restoration project in Biesbosch National Park, where an embanked meadow is planned to be converted into a tidal wetland.

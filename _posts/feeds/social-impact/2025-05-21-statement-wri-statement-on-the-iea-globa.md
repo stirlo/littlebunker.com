@@ -1,0 +1,10 @@
+---
+layout: feed_item
+title: "STATEMENT: WRI Statement on the IEA Global Critical Minerals Outlook 2025"
+date: 2025-05-21 02:00:24
+categories: [social-impact]
+external_url: https://www.wri.org/news/statement-wri-statement-iea-global-critical-minerals-outlook-2025
+is_feed: true
+---
+
+PARIS, FRANCE (May 21, 2025) – Today, the International Energy Agency (IEA) released a new report warning that markets for critical minerals essential for clean energy — such as lithium, cobalt and rare earth minerals — remain heavily concentrated in just a few countries, especially when it comes to refining and processing.&nbsp;&nbsp;The report finds that efforts to diversify this supply chain across the globe are moving too slowly, raising concerns about future shortages, trade conflicts and the reliability of mineral supplies for clean energy technology use.&nbsp;&nbsp;Following is a statement from Jennifer Layke, Global Director, Energy, WRI Polsky Center for the Global Energy Transition:  &nbsp;“The IEA report makes one thing clear: without an adequate and diverse supply of energy minerals, we risk slowing the speed and scale of the clean energy transition.&nbsp;But if these minerals aren’t responsibly sourced, nature and people will suffer.&nbsp;We need to mine responsibly — not just more. That means recognizing land rights, improving worker safety and reducing the social and environmental toll of extraction, refining and processing. It also means finding ways to mine less — by recycling minerals from end-of-life products, tapping overlooked waste streams and designing technology and public systems that rely on fewer materials to begin with.&nbsp;&nbsp;“It’s time to rethink where minerals come from — and who benefits. Right now, the supply chain is too concentrated, too fragile and too exclusive. Expanding responsible minerals processing to more places — especially lower-income, mineral-rich areas — can build resilience and deliver real economic opportunity where it’s needed most.”&nbsp;&nbsp;

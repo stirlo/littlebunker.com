@@ -1,11 +1,12 @@
-co2:
-  current: 421.5
-  change: 2.5
 ch4:
-  current: 1908
-  change: 8.5
+  change: 6.980000000000018
+  current: 1935.33
+co2:
+  change: 2.5
+  current: 421.5
+last_updated: '2025-05-21 10:39:16'
+population:
+  growth: 67
+  total: 8.1
 temperature:
   overshoot: 1.2
-population:
-  total: 8.1
-  growth: 67
