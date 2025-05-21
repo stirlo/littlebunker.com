@@ -1,41 +1,85 @@
+<!-- _layouts/default.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
 
-    <!-- ActivityPub metadata -->
-    <link rel="alternate" type="application/activity+json" href="{{ site.url }}/api/activitypub/actor.json">
-    <link rel="webfinger" href="{{ site.url }}/.well-known/webfinger">
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
 
     <style>
         :root {
-            --primary-color: #1a0f0f;
-            --secondary-color: #2c3e50;
-            --background-color: #f8f9fa;
-            --text-color: #2c3e50;
-            --link-color: #34495e;
-            --metric-background: rgba(26, 15, 15, 0.05);
+            /* Light Mode (Winter/Ice) */
+            --light-bg: #e8f4f8;
+            --light-text: #2c3e50;
+            --light-primary: #a8d8ea;
+            --light-secondary: #71b5c9;
+            --light-tertiary: #4682b4;
+            --light-accent: #b0e0e6;
+            --light-highlight: #f0f8ff;
+
+            /* Dark Mode (Fire/Lava) */
+            --dark-bg: #1a0f0f;
+            --dark-text: #ffd700;
+            --dark-primary: #8b0000;
+            --dark-secondary: #ff4500;
+            --dark-tertiary: #cd5c5c;
+            --dark-accent: #ff8c00;
+            --dark-highlight: #ff6347;
+
+            /* Alert Colors */
+            --critical: #ff4444;
+            --warning: #ffaa00;
+            --success: #00cc44;
+
+            /* Default to light mode */
+            --bg-color: var(--light-bg);
+            --text-color: var(--light-text);
+            --primary-color: var(--light-tertiary);
+            --secondary-color: var(--light-secondary);
+            --accent-color: var(--light-accent);
+            --highlight-color: var(--light-highlight);
+            --metric-background: var(--light-bg);
+            --background-color: var(--light-highlight);
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
-                --primary-color: #f8f9fa;
-                --secondary-color: #ecf0f1;
-                --background-color: #1a0f0f;
-                --text-color: #ecf0f1;
-                --link-color: #bdc3c7;
-                --metric-background: rgba(248, 249, 250, 0.05);
+                --bg-color: var(--dark-bg);
+                --text-color: var(--dark-text);
+                --primary-color: var(--dark-secondary);
+                --secondary-color: var(--dark-tertiary);
+                --accent-color: var(--dark-accent);
+                --highlight-color: var(--dark-highlight);
+                --metric-background: var(--dark-bg);
+                --background-color: rgba(255,255,255,0.05);
             }
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
+            background-color: var(--bg-color);
             color: var(--text-color);
-            background-color: var(--background-color);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
         }
@@ -46,31 +90,21 @@
             padding: 0 1rem;
         }
 
-        a {
-            color: var(--link-color);
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
+        .content {
+            padding: 2rem 0;
         }
     </style>
 </head>
 <body>
+    {% include header.html %}
     {% include climate_metrics_header.html %}
 
-    <div class="container">
-        <main role="main">
+    <div class="content">
+        <div class="container">
             {{ content }}
-        </main>
-
-        {% include social_share.html %}
+        </div>
     </div>
 
-    <script>
-        // Dark mode toggle functionality
-        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
-        prefersDark.addListener((e) => e.matches && document.body.classList.add('dark-mode'));
-    </script>
+    {% include footer.html %}
 </body>
 </html>
