@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Irreversible glacier change and trough water for centuries after overshooting 1.5 °C"
-date: 2025-05-21 17:17:05
+date: 2025-05-21 18:28:07
 categories: [climate-science]
 external_url: https://www.nature.com/articles/s41558-025-02318-w
 is_feed: true

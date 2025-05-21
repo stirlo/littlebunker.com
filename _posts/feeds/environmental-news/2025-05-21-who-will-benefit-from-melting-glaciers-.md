@@ -41,6 +41,8 @@ This mineral rush promises jobs and revenue for some towns and First Nations in 
 
 
 
+
+
 Alaska Native leaders have called on British Columbia’s provincial government to clamp down on mining in the region, and some First Nations are working to restrict mineral exploration and development in their traditional territories. But Canadian officials largely support the proposed mines, and the Trump administration has stayed quiet on the issue of mining near the border, though Canada’s mineral riches have reportedly attracted President Donald Trump’s interest.
 
 
