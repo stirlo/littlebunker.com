@@ -45,7 +45,7 @@ jobs:
           BLUESKY_PASSWORD = os.environ.get('BLUESKY_PASSWORD')
 
           # Feed URL - will use your GitHub Pages URL until your custom domain is set up
-          FEED_URL = "https://stirlo.github.io/littlebunker.com/feed.xml"
+          FEED_URL = "https://littlebunker.com/feed.xml"
 
           def post_to_bluesky(title, link, description):
               try:
