@@ -16,34 +16,40 @@ jobs:
           mkdir -p _data/feeds
           mkdir -p _data/metrics
 
+      # Set up Node.js for RSS processing
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
       # Climate Science Feeds
       - name: Fetch NASA Climate Feed
-        uses: plukevdh/rss-feed-action@v2
+        uses: rpidanny/rss-to-json@v1.0.0
         with:
           feed-url: "https://climate.nasa.gov/feed/"
           output-path: "_data/feeds/nasa-climate.json"
 
       - name: Fetch IPCC Feed
-        uses: plukevdh/rss-feed-action@v2
+        uses: rpidanny/rss-to-json@v1.0.0
         with:
           feed-url: "https://www.ipcc.ch/feed/"
           output-path: "_data/feeds/ipcc.json"
 
       - name: Fetch NOAA Climate Feed
-        uses: plukevdh/rss-feed-action@v2
+        uses: rpidanny/rss-to-json@v1.0.0
         with:
           feed-url: "https://www.climate.gov/news-features/feed"
           output-path: "_data/feeds/noaa-climate.json"
 
       # Environmental News Feeds
       - name: Fetch Inside Climate News Feed
-        uses: plukevdh/rss-feed-action@v2
+        uses: rpidanny/rss-to-json@v1.0.0
         with:
           feed-url: "https://insideclimatenews.org/feed/"
           output-path: "_data/feeds/inside-climate.json"
 
       - name: Fetch Carbon Brief Feed
-        uses: plukevdh/rss-feed-action@v2
+        uses: rpidanny/rss-to-json@v1.0.0
         with:
           feed-url: "https://www.carbonbrief.org/feed/"
           output-path: "_data/feeds/carbon-brief.json"
@@ -65,24 +71,98 @@ jobs:
             growth: 67
           EOL
 
-      # Generate Posts from Feeds
-      - name: Generate Climate Science Posts
-        uses: gautamkrishnar/blog-post-workflow@master
+      # Generate Posts from Feeds using a different approach
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          comment_tag_name: "CLIMATE_SCIENCE"
-          feed_list: "https://climate.nasa.gov/feed/,https://www.ipcc.ch/feed/,https://www.climate.gov/news-features/feed"
-          template: "$newline---$newline layout: feed_item $newline title: \"$title\" $newline date: $date $newline categories: [climate-science] $newline external_url: $url $newline is_feed: true $newline---$newline $newline $description $newline"
-          output_dir: "_posts/feeds/climate-science"
-          max_post_count: 10
+          python-version: '3.10'
 
-      - name: Generate Environmental News Posts
-        uses: gautamkrishnar/blog-post-workflow@master
-        with:
-          comment_tag_name: "ENVIRONMENTAL_NEWS"
-          feed_list: "https://insideclimatenews.org/feed/,https://www.carbonbrief.org/feed/"
-          template: "$newline---$newline layout: feed_item $newline title: \"$title\" $newline date: $date $newline categories: [environmental-news] $newline external_url: $url $newline is_feed: true $newline---$newline $newline $description $newline"
-          output_dir: "_posts/feeds/environmental-news"
-          max_post_count: 10
+      - name: Install Python dependencies
+        run: pip install feedparser pyyaml
+
+      - name: Generate Posts from Feeds
+        run: |
+          mkdir -p _posts/feeds/climate-science
+          mkdir -p _posts/feeds/environmental-news
+
+          python - << 'EOF'
+          import feedparser
+          import yaml
+          import datetime
+          import re
+          import os
+
+          def clean_title(title):
+              return title.replace('"', '\\"')
+
+          def clean_content(content):
+              # Remove HTML tags
+              content = re.sub(r'<[^>]+>', '', content)
+              # Replace quotes
+              content = content.replace('"', '\\"')
+              return content
+
+          def fetch_and_create_posts(feed_urls, category, output_dir):
+              for feed_url in feed_urls:
+                  try:
+                      feed = feedparser.parse(feed_url)
+
+                      for entry in feed.entries[:5]:  # Get top 5 entries
+                          title = clean_title(entry.title)
+
+                          # Get date or use current date
+                          try:
+                              date = datetime.datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S")
+                          except:
+                              date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
+                          # Get content
+                          if 'content' in entry:
+                              content = clean_content(entry.content[0].value)
+                          elif 'summary' in entry:
+                              content = clean_content(entry.summary)
+                          else:
+                              content = ""
+
+                          # Create filename
+                          slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
+                          filename = f"{output_dir}/{date.split()[0]}-{slug[:40]}.md"
+
+                          # Create post content
+                          post_content = f"""---
+          layout: feed_item
+          title: "{title}"
+          date: {date}
+          categories: [{category}]
+          external_url: {entry.link}
+          is_feed: true
+          ---
+
+          {content}
+          """
+
+                          # Write to file
+                          with open(filename, 'w') as f:
+                              f.write(post_content)
+                  except Exception as e:
+                      print(f"Error processing {feed_url}: {e}")
+
+          # Climate Science feeds
+          climate_science_feeds = [
+              "https://climate.nasa.gov/feed/",
+              "https://www.ipcc.ch/feed/",
+              "https://www.climate.gov/news-features/feed"
+          ]
+
+          # Environmental News feeds
+          environmental_news_feeds = [
+              "https://insideclimatenews.org/feed/",
+              "https://www.carbonbrief.org/feed/"
+          ]
+
+          fetch_and_create_posts(climate_science_feeds, "climate-science", "_posts/feeds/climate-science")
+          fetch_and_create_posts(environmental_news_feeds, "environmental-news", "_posts/feeds/environmental-news")
+          EOF
 
       # Commit changes
       - name: Commit changes
