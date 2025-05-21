@@ -1,3 +1,4 @@
+<!-- _includes/footer.html -->
 <footer class="site-footer">
     <div class="container">
         <div class="footer-content">
@@ -9,9 +10,17 @@
             <div class="footer-section">
                 <h3>Connect</h3>
                 <div class="social-links">
-                    <a href="https://littlebunker.com/@calm" rel="me">Mastodon</a>
-                    <a href="/feed.xml">RSS</a>
-                    <a href="/api">API</a>
+                    <a href="https://bsky.app/profile/littlebunker.com" rel="me" class="social-link bluesky">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L3 7L12 12L21 7L12 2Z" fill="currentColor"/>
+                            <path d="M3 17L12 22L21 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Bluesky
+                    </a>
+                    <a href="https://littlebunker.com/@calm" rel="me" class="social-link mastodon">Mastodon</a>
+                    <a href="/feed.xml" class="social-link rss">RSS</a>
+                    <a href="/api" class="social-link api">API</a>
                 </div>
             </div>
 
@@ -26,7 +35,7 @@
         </div>
 
         <div class="footer-bottom">
-            <p>Data updated hourly.</p>
+            <p>Data updated hourly. Posts automatically shared to <a href="https://bsky.app/profile/littlebunker.com">Bluesky</a>.</p>
             <div class="attribution">
                 <p>
                     <a href="LICENSE">©</a> <span id="currentYear"></span> 
@@ -70,7 +79,29 @@
 
 .social-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--text-color);
+    background: var(--bg-color);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.social-link:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+.social-link.bluesky {
+    background: var(--accent-color);
 }
 
 .footer-bottom {
