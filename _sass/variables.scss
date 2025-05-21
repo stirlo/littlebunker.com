@@ -1,0 +1,46 @@
+:root {
+  // Light Mode (Winter/Ice)
+  --light-bg: #e8f4f8;
+  --light-text: #2c3e50;
+  --light-primary: #a8d8ea;
+  --light-secondary: #71b5c9;
+  --light-tertiary: #4682b4;
+  --light-accent: #b0e0e6;
+  --light-highlight: #f0f8ff;
+
+  // Dark Mode (Fire/Lava)
+  --dark-bg: #1a0f0f;
+  --dark-text: #ffd700;
+  --dark-primary: #8b0000;
+  --dark-secondary: #ff4500;
+  --dark-tertiary: #cd5c5c;
+  --dark-accent: #ff8c00;
+  --dark-highlight: #ff6347;
+
+  // Alert Colors
+  --critical: #ff4444;
+  --warning: #ffaa00;
+  --success: #00cc44;
+
+  // Default to light mode
+  --bg-color: var(--light-bg);
+  --text-color: var(--light-text);
+  --primary-color: var(--light-primary);
+  --secondary-color: var(--light-secondary);
+  --tertiary-color: var(--light-tertiary);
+  --accent-color: var(--light-accent);
+  --highlight-color: var(--light-highlight);
+}
+
+// Dark mode
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: var(--dark-bg);
+    --text-color: var(--dark-text);
+    --primary-color: var(--dark-primary);
+    --secondary-color: var(--dark-secondary);
+    --tertiary-color: var(--dark-tertiary);
+    --accent-color: var(--dark-accent);
+    --highlight-color: var(--dark-highlight);
+  }
+}
