@@ -1,57 +1,63 @@
+<!-- _layouts/post.html -->
 ---
 layout: default
 ---
+
 <article class="post">
     <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-        <div class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">
-                {{ page.date | date: "%B %-d, %Y" }}
-            </time>
-            {% if page.categories %}
-            <span class="categories">
-                {% for category in page.categories %}
-                <span class="category">{{ category }}</span>
-                {% endfor %}
-            </span>
-            {% endif %}
-        </div>
+        <p class="post-meta">
+            {{ page.date | date: "%b %-d, %Y" }} • 
+            {% for category in page.categories %}
+            <span class="category-tag">{{ category }}</span>
+            {% endfor %}
+        </p>
     </header>
 
     <div class="post-content">
         {{ content }}
     </div>
-
-    {% include social_share.html %}
 </article>
 
 <style>
 .post {
-    max-width: 800px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
-.post-header {
-    margin-bottom: 2rem;
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .post-title {
-    margin: 0;
     color: var(--primary-color);
+    margin-top: 0;
 }
 
 .post-meta {
-    margin-top: 0.5rem;
     color: var(--secondary-color);
     font-size: 0.9rem;
+    margin-bottom: 2rem;
 }
 
-.category {
-    display: inline-block;
+.category-tag {
+    background: var(--accent-color);
+    color: var(--text-color);
     padding: 0.2rem 0.5rem;
-    margin: 0 0.2rem;
-    background: var(--metric-background);
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.post-content {
+    line-height: 1.7;
+}
+
+.post-content h2 {
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+.post-content img {
+    max-width: 100%;
     border-radius: 4px;
 }
 </style>
