@@ -1,0 +1,233 @@
+<!-- index.html -->
+---
+layout: default
+---
+
+<div class="home-layout">
+    <!-- Bluesky Integration Banner -->
+    <section class="bluesky-banner">
+        <div class="bluesky-content">
+            <div class="bluesky-info">
+                <h2>Follow us on Bluesky</h2>
+                <p>Get the latest climate updates directly in your Bluesky feed. All posts are automatically shared to our Bluesky profile.</p>
+                <a href="https://bsky.app/profile/littlebunker.com" target="_blank" class="bluesky-button">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L3 7L12 12L21 7L12 2Z" fill="currentColor"/>
+                        <path d="M3 17L12 22L21 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Follow @littlebunker.com
+                </a>
+            </div>
+            <div class="bluesky-image">
+                <div class="bluesky-logo">
+                    <svg width="80" height="80" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L3 7L12 12L21 7L12 2Z" fill="currentColor"/>
+                        <path d="M3 17L12 22L21 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M3 12L12 17L21 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Blog Post (your own writing) -->
+    {% assign featured_posts = site.posts | where: "is_feed", false | sort: "date" | reverse %}
+    {% if featured_posts.size > 0 %}
+    <section class="featured-post">
+        <h2>Featured</h2>
+        {% assign post = featured_posts.first %}
+        <article class="post-featured">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+            <div class="post-excerpt">
+                {{ post.excerpt }}
+            </div>
+            <a href="{{ post.url | relative_url }}" class="read-more">Continue reading</a>
+        </article>
+    </section>
+    {% endif %}
+
+    <!-- Latest Feed Items -->
+    <section class="latest-news">
+        <h2>Latest Climate News</h2>
+        {% assign feed_posts = site.posts | where: "is_feed", true | sort: "date" | reverse | limit: 10 %}
+        {% if feed_posts.size > 0 %}
+        <div class="feed-grid">
+            {% for post in feed_posts %}
+            <article class="feed-item">
+                <h3>
+                    {% if post.external_url %}
+                    <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+                    {% else %}
+                    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                    {% endif %}
+                </h3>
+                <p class="post-meta">
+                    {{ post.date | date: "%b %-d, %Y" }} • 
+                    {% for category in post.categories %}
+                    <span class="category-tag">{{ category }}</span>
+                    {% endfor %}
+                </p>
+                <div class="post-excerpt">
+                    {{ post.excerpt | strip_html | truncatewords: 30 }}
+                </div>
+            </article>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p>Climate news feeds will appear here once configured.</p>
+        {% endif %}
+    </section>
+</div>
+
+<style>
+.home-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.bluesky-banner {
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.bluesky-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.bluesky-info {
+    flex: 2;
+}
+
+.bluesky-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bluesky-logo {
+    color: var(--primary-color);
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.bluesky-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.7rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: 1rem;
+    transition: background 0.2s;
+}
+
+.bluesky-button:hover {
+    background: var(--secondary-color);
+}
+
+.featured-post, .latest-news {
+    background: var(--background-color);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.featured-post h2, .latest-news h2 {
+    color: var(--primary-color);
+    margin-top: 0;
+    border-bottom: 2px solid var(--accent-color);
+    padding-bottom: 0.5rem;
+}
+
+.post-featured {
+    margin-top: 1.5rem;
+}
+
+.post-featured h3 {
+    margin-top: 0;
+}
+
+.post-featured h3 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.post-meta {
+    color: var(--secondary-color);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.post-excerpt {
+    margin: 1rem 0;
+}
+
+.read-more {
+    display: inline-block;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.feed-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+
+.feed-item {
+    background: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.feed-item h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.feed-item h3 a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.category-tag {
+    background: var(--accent-color);
+    color: var(--text-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .bluesky-content {
+        flex-direction: column;
+    }
+
+    .bluesky-image {
+        order: -1;
+    }
+}
+</style>
