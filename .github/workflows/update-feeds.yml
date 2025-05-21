@@ -1,0 +1,93 @@
+name: Update RSS Feeds
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  update-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create data directories
+        run: |
+          mkdir -p _data/feeds
+          mkdir -p _data/metrics
+
+      # Climate Science Feeds
+      - name: Fetch NASA Climate Feed
+        uses: plukevdh/rss-feed-action@v2
+        with:
+          feed-url: "https://climate.nasa.gov/feed/"
+          output-path: "_data/feeds/nasa-climate.json"
+
+      - name: Fetch IPCC Feed
+        uses: plukevdh/rss-feed-action@v2
+        with:
+          feed-url: "https://www.ipcc.ch/feed/"
+          output-path: "_data/feeds/ipcc.json"
+
+      - name: Fetch NOAA Climate Feed
+        uses: plukevdh/rss-feed-action@v2
+        with:
+          feed-url: "https://www.climate.gov/news-features/feed"
+          output-path: "_data/feeds/noaa-climate.json"
+
+      # Environmental News Feeds
+      - name: Fetch Inside Climate News Feed
+        uses: plukevdh/rss-feed-action@v2
+        with:
+          feed-url: "https://insideclimatenews.org/feed/"
+          output-path: "_data/feeds/inside-climate.json"
+
+      - name: Fetch Carbon Brief Feed
+        uses: plukevdh/rss-feed-action@v2
+        with:
+          feed-url: "https://www.carbonbrief.org/feed/"
+          output-path: "_data/feeds/carbon-brief.json"
+
+      # Update Climate Metrics
+      - name: Update Climate Metrics
+        run: |
+          cat > _data/metrics.yml << EOL
+          co2:
+            current: 421.5
+            change: 2.5
+          ch4:
+            current: 1908
+            change: 8.5
+          temperature:
+            overshoot: 1.2
+          population:
+            total: 8.1
+            growth: 67
+          EOL
+
+      # Generate Posts from Feeds
+      - name: Generate Climate Science Posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "CLIMATE_SCIENCE"
+          feed_list: "https://climate.nasa.gov/feed/,https://www.ipcc.ch/feed/,https://www.climate.gov/news-features/feed"
+          template: "$newline---$newline layout: feed_item $newline title: \"$title\" $newline date: $date $newline categories: [climate-science] $newline external_url: $url $newline is_feed: true $newline---$newline $newline $description $newline"
+          output_dir: "_posts/feeds/climate-science"
+          max_post_count: 10
+
+      - name: Generate Environmental News Posts
+        uses: gautamkrishnar/blog-post-workflow@master
+        with:
+          comment_tag_name: "ENVIRONMENTAL_NEWS"
+          feed_list: "https://insideclimatenews.org/feed/,https://www.carbonbrief.org/feed/"
+          template: "$newline---$newline layout: feed_item $newline title: \"$title\" $newline date: $date $newline categories: [environmental-news] $newline external_url: $url $newline is_feed: true $newline---$newline $newline $description $newline"
+          output_dir: "_posts/feeds/environmental-news"
+          max_post_count: 10
+
+      # Commit changes
+      - name: Commit changes
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update climate feeds and metrics" && git push)
