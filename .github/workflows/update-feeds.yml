@@ -16,23 +16,6 @@ jobs:
           mkdir -p _data/feeds
           mkdir -p _data/metrics
 
-      # Update Climate Metrics
-      - name: Update Climate Metrics
-        run: |
-          cat > _data/metrics.yml << EOL
-          co2:
-            current: 421.5
-            change: 2.5
-          ch4:
-            current: 1908
-            change: 8.5
-          temperature:
-            overshoot: 1.2
-          population:
-            total: 8.1
-            growth: 67
-          EOL
-
       # Set up Python for feed processing
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -41,6 +24,111 @@ jobs:
 
       - name: Install Python dependencies
         run: pip install feedparser pyyaml requests
+
+      # Update Climate Metrics with real data
+      - name: Update Climate Metrics
+        run: |
+          python - << 'EOF'
+          import requests
+          import yaml
+          import json
+          import os
+          from datetime import datetime
+
+          # Create directory if it doesn't exist
+          os.makedirs('_data', exist_ok=True)
+
+          # Function to safely fetch data from APIs
+          def safe_api_fetch(url, headers=None):
+              try:
+                  response = requests.get(url, headers=headers, timeout=10)
+                  response.raise_for_status()
+                  return response.json()
+              except Exception as e:
+                  print(f"Error fetching from {url}: {e}")
+                  return None
+
+          # Get current date
+          current_date = datetime.now().strftime("%Y-%m-%d")
+
+          # Fetch CO2 data from NOAA API
+          co2_current = 421.5  # Default fallback value
+          co2_change = 2.5     # Default fallback value
+
+          # Try Global Monitoring Laboratory API
+          co2_data = safe_api_fetch(f"https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.json")
+          if co2_data and 'co2' in co2_data:
+              recent_data = co2_data['co2'][-1]
+              co2_current = round(recent_data[1], 1)
+              # Calculate change from previous year
+              last_year_index = -53  # Approximately 1 year ago (weekly data)
+              if abs(last_year_index) < len(co2_data['co2']):
+                  co2_change = round(co2_current - co2_data['co2'][last_year_index][1], 1)
+
+          # Fetch methane data
+          ch4_current = 1908.0  # Default fallback value
+          ch4_change = 8.5      # Default fallback value
+
+          # Try Global Monitoring Laboratory API for methane
+          ch4_data = safe_api_fetch(f"https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.json")
+          if ch4_data and 'ch4' in ch4_data:
+              recent_data = ch4_data['ch4'][-1]
+              ch4_current = round(recent_data[1], 1)
+              # Calculate change from previous year
+              if len(ch4_data['ch4']) > 12:
+                  ch4_change = round(ch4_current - ch4_data['ch4'][-13][1], 1)
+
+          # Fetch global temperature data
+          temp_overshoot = 1.2  # Default fallback value
+
+          # Try NASA GISS API
+          temp_data = safe_api_fetch("https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.json")
+          if temp_data and 'data' in temp_data:
+              recent_years = [year for year in temp_data['data'] if year.isdigit() and int(year) >= 2020]
+              if recent_years:
+                  latest_year = max(recent_years)
+                  annual_mean = float(temp_data['data'][latest_year]['J-D']) / 100.0
+                  temp_overshoot = round(annual_mean, 1)
+
+          # Fetch population data
+          pop_total = 8.1  # Default fallback value in billions
+          pop_growth = 67  # Default fallback value in millions
+
+          # Try World Population API
+          pop_data = safe_api_fetch("https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json")
+          if pop_data and len(pop_data) > 1 and pop_data[1]:
+              recent_data = sorted(pop_data[1], key=lambda x: x['date'], reverse=True)
+              if recent_data:
+                  pop_total = round(recent_data[0]['value'] / 1000000000, 1)  # Convert to billions
+                  if len(recent_data) > 1:
+                      pop_growth = round((recent_data[0]['value'] - recent_data[1]['value']) / 1000000, 0)  # Annual growth in millions
+
+          # Create metrics data
+          metrics = {
+              'last_updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+              'co2': {
+                  'current': co2_current,
+                  'change': co2_change
+              },
+              'ch4': {
+                  'current': ch4_current,
+                  'change': ch4_change
+              },
+              'temperature': {
+                  'overshoot': temp_overshoot
+              },
+              'population': {
+                  'total': pop_total,
+                  'growth': pop_growth
+              }
+          }
+
+          # Save to YAML file
+          with open('_data/metrics.yml', 'w') as f:
+              yaml.dump(metrics, f, default_flow_style=False)
+
+          print(f"Updated climate metrics: CO2 {co2_current} ppm, CH4 {ch4_current} ppb, Temp +{temp_overshoot}°C, Pop {pop_total}B")
+          EOF
 
       # Fetch feeds and create posts with Python
       - name: Fetch Feeds and Create Posts
