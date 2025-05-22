@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "A founding father of neuroscience: Floyd E. Bloom, 1936–2025"
-date: 2025-05-22 13:31:49
+date: 2025-05-22 14:19:57
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2505887122?af=R
 is_feed: true

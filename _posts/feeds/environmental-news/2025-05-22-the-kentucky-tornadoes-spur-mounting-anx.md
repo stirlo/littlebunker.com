@@ -1,6 +1,6 @@
 ---
 layout: feed_item
-title: "The Kentucky tornadoes spur mounting anxiety over Weather Service warning systems"
+title: "The Kentucky tornadoes spur mounting anxiety over weather service warning systems"
 date: 2025-05-22 08:45:00
 categories: [environmental-news]
 external_url: https://grist.org/extreme-weather/the-kentucky-tornadoes-spur-mounting-anxiety-over-weather-service-warning-systems/
@@ -15,7 +15,7 @@ Sandra Anderson didn’t think the storm would be too bad. When her grandchildre
 
 
 
-Tornadoes are measured using what’s called the Enhanced Fujita Scale, which ranks them on a scale of one to five according to their wind speed and potential for damage. The mile-wide twister that blew out Anderson’s windows and flattened entire neighborhoods traveled over 50 miles and clocked in at EF-4, making it a particularly violent one. Meanwhile, an EF-3 funnel cloud cut a 23-mile path through the St. Louis area.
+Tornadoes are measured using what’s called the Enhanced Fujita Scale, which ranks them on a scale of 1 to 5 according to their wind speed and potential for damage. The mile-wide twister that blew out Anderson’s windows and flattened entire neighborhoods traveled over 50 miles and clocked in at EF-4, making it a particularly violent one. Meanwhile, an EF-3 funnel cloud cut a 23-mile path through the St. Louis area.
 
 
 
@@ -23,19 +23,19 @@ Both were part of a broader system that stretched from Missouri to Kentucky, spa
 
 
 
-The storms come as the Trump administration makes deep cuts to the National Weather Service, or NWS, and its parent organization, the National Oceanic and Atmospheric Administration. Together, the two agencies provide accurate and timely forecasts to meteorologists and others, and play a key role in forecasting tornadoes and warning people of impending danger. Meteorologists and other experts warn that the administration’s cuts to the agency could cost lives.
+The storms come as President Donald Trump&#8217;s administration makes deep cuts to the National Weather Service, or NWS, and its parent organization, the National Oceanic and Atmospheric Administration. Together, the two agencies provide accurate and timely forecasts to meteorologists and others and play a key role in forecasting tornadoes and warning people of impending danger. Meteorologists and other experts warn that the administration’s cuts to the agency could cost lives.
 
 
 
-The NWS has lost 600 people through layoffs and retirements, according to the New York Times, leaving many local weather stations scrambling to cover shortfalls. The office in Jackson, Kentucky, for example, is one of eight nationwide to abruptly end 24/7 forecasting after losing an overnight forecaster, and is now short about 31 percent of its staff. The Jackson office serves a large swath of eastern Kentucky, a rural region with patchy access to cell and internet, and which has been repeatedly battered by storms and floods over the past five years.&nbsp;
+The NWS has lost 600 people through layoffs and retirements, according to The New York Times, leaving many local weather stations scrambling to cover shortfalls. The office in Jackson, Kentucky, for example, is 1 of 8 nationwide to abruptly end 24/7 forecasting after losing an overnight forecaster, and it&#8217;s now short about 31 percent of its staff. The Jackson office serves a large swath of eastern Kentucky, a rural region with patchy access to cell and internet that has been repeatedly battered by storms and floods over the past five years. 
 
 
 
-All of this comes as the private forecasting company Accuweather warns that the United States is facing its worst tornado season in more than a decade.
+All of this comes as the private forecasting company AccuWeather warns that the United States is facing its worst tornado season in more than a decade.
 
 
 
-Even as the twister in eastern Kentucky passed, people began to speculate that NWS staffing cuts contributed to the death toll. Their suspicion stemmed from the tornado warning’s upgrade to a Particularly Dangerous Situation, a designation reserved for particularly severe situations with an imminent threat to life and property. That warning, meant to convey the need to take cover immediately, came shortly before the tornado touched down at around 11:07 PM, several officials told Grist.
+Even as the twister in eastern Kentucky passed, people began to speculate that NWS staffing cuts contributed to the death toll. Their suspicion stemmed from the tornado warning’s upgrade to a Particularly Dangerous Situation, a designation reserved for particularly severe situations with an imminent threat to life and property. That warning, meant to convey the need to take cover immediately, came shortly before the tornado touched down at around 11:07 p.m., several officials told Grist.
 
 
 
@@ -44,35 +44,35 @@ Sandra Anderson and her grandchildren survived the deadly tornado in eastern Ken
 
 
 
-That designation, called a PDS, came after the popular YouTube forecaster Ryan Hall Y’all, who is based in eastern Kentucky, urged everyone in the storm’s path to seek shelter around 10:45 pm. Local television news meteorologists did so about the same time. “We just have to hope we’re doing a good job of getting that message out there, because otherwise nobody would know,” Hall, who does not have formal meteorology training, told his audience around 10:54 PM.
+That designation, called a PDS, came after the popular YouTube forecaster Ryan Hall Y’all, who is based in eastern Kentucky, urged everyone in the storm’s path to seek shelter around 10:45 p.m. Local television news meteorologists did so about the same time. “We just have to hope we’re doing a good job of getting that message out there because otherwise nobody would know,” Hall, who does not have formal meteorology training, told his audience around 10:54 p.m.
 
 
 
-Although the NWS issued 90 alerts on May 16, including warnings about flash flooding and impending tornados, someone who identified himself as an NWS-trained weather spotter left a comment on Hall’s feed saying the agency issued the PDS only after he raised the issue. “I called the NWS in Wilmington, Ohio, who relayed my report to the Jackson weather office,” he posted. “A couple minutes after that, it was upgraded to a PDS confirmed by weather spotters.” Many commenters credited Hall with saving lives.
+Although the NWS issued 90 alerts on May 16, including warnings about flash flooding and impending tornadoes, someone who identified himself as an NWS-trained weather spotter left a comment on Hall’s feed saying the agency issued the PDS only after he raised the issue. “I called the NWS in Wilmington, Ohio, who relayed my report to the Jackson weather office,” he posted. “A couple minutes after that, it was upgraded to a PDS confirmed by weather spotters.” Many commenters credited Hall with saving lives.
 
 
 
-Neither Hall or the commenter who identified himself as a weather spotter could be reached for comment. Chase Carson, a tourism commissioner in London, followed a forecasting livestream on Facebook as the storm developed. He spent the day after the twister volunteering at the city’s emergency response center, responding to the crisis. “You have people who had nicer homes but still didn&#8217;t think that the tornado was going to hit their area because we didn&#8217;t receive enough warning prior,” he said. “Just a lot of X, Y, and Z&#8217;s that went wrong to keep us from being able to be prepared.”
+Neither Hall nor the commenter who identified himself as a weather spotter could be reached for comment. Chase Carson, a tourism commissioner in London, followed a forecasting livestream on Facebook as the storm developed. He spent the day after the twister volunteering at the city’s emergency response center, responding to the crisis. “You have people who had nicer homes but still didn&#8217;t think that the tornado was going to hit their area because we didn&#8217;t receive enough warning prior,” he said. “Just a lot of X, Y, and Zs that went wrong to keep us from being able to be prepared.”
 
 
 
-The National Weather Service defended its handling of the storm and the timeliness of its warnings in Kentucky, telling Grist in a statement that its offices in Louisville, Jackson and Paducah “provided forecast information, timely warnings and decision support in the days and hours leading up to the severe weather on May 16.”
+The National Weather Service defended its handling of the storm and the timeliness of its warnings in Kentucky, telling Grist in a statement that its offices in Louisville, Jackson, and Paducah “provided forecast information, timely warnings, and decision support in the days and hours leading up to the severe weather on May 16.
 
 
 
-“Information was conveyed to the public through multiple routine means, including official products, social media, and NOAA Weather Radio, as well as to partners through advance conference calls and webinars. As planned in advance, neighboring offices provided staffing support to the office in Jackson, KY. Additionally, the Jackson office remained fully staffed through the duration of the event using surge staffing. Weather forecast offices in the Central Region continue to evaluate storm damage and other impacts from this tragic event.&#8221;
+“Information was conveyed to the public through multiple routine means, including official products, social media, and NOAA Weather Radio, as well as to partners through advance conference calls and webinars. As planned in advance, neighboring offices provided staffing support to the office in Jackson, Kentucky. Additionally, the Jackson office remained fully staffed through the duration of the event using surge staffing. Weather forecast offices in the central region continue to evaluate storm damage and other impacts from this tragic event.&#8221;
 
 
 
-Tom Fahy, the legislative director for the National Weather Service Employees’ Organization, said the offices were fully staffed, and weather forecasting offices in multiple cities typically collaborate when extreme weather is expected. “People make sacrifices,” he said. “You don’t have the night off, you got to come to work.” According to Fahy, that’s part of the life of service NWS forecasters sign up for — which might intensify as offices lose staff.&nbsp;
+Tom Fahy, the legislative director for the National Weather Service Employees’ Organization, said the offices were fully staffed and that weather forecasting offices in multiple cities typically collaborate when extreme weather is expected. “People make sacrifices,” he said. “You don’t have the night off, you got to come to work.” According to Fahy, that’s part of the life of service NWS forecasters sign up for — which might intensify as offices lose staff. 
 
 
 
-People on the north side of St. Louis were equally suspicious of the NWS response after they did not hear warning sirens go off, even though the system had been tested the day before the tornado. However, the city runs that system, and Mayor Cara Spencer blamed the problem on “human failure” because the municipal emergency management protocol was “not exceptionally clear” on who is to activate the system. To that end, the city tested the warning sirens again Tuesday and Wednesday, and Spencer issued an executive order placing the fire department in charge of activating the warning system.&nbsp;
+People on the north side of St. Louis were equally suspicious of the NWS response after they did not hear warning sirens go off, even though the system had been tested the day before the tornado. However, the city runs that system and Mayor Cara Spencer blamed the problem on “human failure” because the municipal emergency management protocol was “not exceptionally clear” on who is to activate the system. To that end, the city tested the warning sirens again Tuesday and Wednesday, and Spencer issued an executive order placing the fire department in charge of activating the warning system. 
 
 
 
-Aliya Lyons only knew to take shelter thanks to the St. Louis University emergency alert system. “I didn’t hear any sirens,” she said. “And that was a major failure on the city’s part. Lives were lost. I can’t say if it was entirely because of the sirens. But it’s really heartbreaking – elders may not have a cell phone, cell phones might be dead.”&nbsp;
+Aliya Lyons only knew to take shelter thanks to the St. Louis University emergency alert system. “I didn’t hear any sirens,” she said. “And that was a major failure on the city’s part. Lives were lost. I can’t say if it was entirely because of the sirens. But it’s really heartbreaking — elders may not have a cellphone, cellphones might be dead.” 
 
 
 
@@ -113,7 +113,7 @@ Fahy said the NWS and its union are collaborating to realign staff to meet a “
 
 
 
-That may not do much to ease Bobby Day’s mind. He is the interim police chief in London and, worked with city officials and first responders on emergency planning with city officials, days before the tornado. He’s long counted on the Weather Service to do his job, and is never without his NOAA weather radio. He still recalls a wild and destructive storm that hit London out of the blue on a clear night a few years ago. The agency’s forecasts and warnings were essential in timing evacuations.
+That may not do much to ease Bobby Day’s mind. He is the interim police chief in London and worked with city officials and first responders on emergency planning days before the tornado. He’s long counted on the NWS to do his job and is never without his NOAA weather radio. He still recalls a wild and destructive storm that hit London out of the blue on a clear night a few years ago. The agency’s forecasts and warnings were essential in timing evacuations.
 
 
 
@@ -125,5 +125,5 @@ NOAA and the National Weather Service may well continue to deliver that level of
 
 
 
-“With the uprise of social media and these fake weather people out there in the weather world that are not real,” he said. “We need more assistance from the government to issue warnings, issue watches, and to make sure that these hype-casters are cut off, because we need an official word.”
-This story was originally published by Grist with the headline The Kentucky tornadoes spur mounting anxiety over Weather Service warning systems on May 22, 2025.
+“With the uprise of social media and these fake weather people out there in the weather world that are not real,” he said, “we need more assistance from the government to issue warnings, issue watches, and to make sure that these hype-casters are cut off because we need an official word.”
+This story was originally published by Grist with the headline The Kentucky tornadoes spur mounting anxiety over weather service warning systems on May 22, 2025.
