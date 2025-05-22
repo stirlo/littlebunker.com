@@ -3,7 +3,7 @@ layout: feed_item
 title: "The weird way that penguin poop might be cooling Antarctica"
 date: 2025-05-22 15:00:00
 categories: [environmental-news]
-external_url: https://grist.org/climate/research-penguin-poop-cooling-antarctica/
+external_url: https://grist.org/science/research-penguin-poop-cooling-antarctica/
 is_feed: true
 ---
 
@@ -11,7 +11,7 @@ In December 2022, Matthew Boyer hopped on an Argentine military plane to one of 
 
 
 
-“When you arrive, you have boxes that have been sometimes sitting outside in Antarctica for a month or two in a cold warehouse,” said Boyer, a PhD student in atmospheric science at the University of Helsinki. “And we&#8217;re talking about sensitive instrumentation.”
+“When you arrive, you have boxes that have been sometimes sitting outside in Antarctica for a month or two in a cold warehouse,” said Boyer, a Ph.D. student in atmospheric science at the University of Helsinki. “And we&#8217;re talking about sensitive instrumentation.”
 
 
 
@@ -31,7 +31,7 @@ With their expensive instruments, Boyer and his research team measured atmospher
 
 
 
-The researchers further demonstrated that the ammonia kicks off an atmospheric chain reaction. Out at sea, tiny plant-like organisms known as phytoplankton release the gas dimethyl sulfide, which transforms into sulphuric acid in the atmosphere. Because ammonia is a base, it reacts readily with this acid.&nbsp;
+The researchers further demonstrated that the ammonia kicks off an atmospheric chain reaction. Out at sea, tiny plantlike organisms known as phytoplankton release the gas dimethyl sulfide, which transforms into sulphuric acid in the atmosphere. Because ammonia is a base, it reacts readily with this acid. 
 
 
 
