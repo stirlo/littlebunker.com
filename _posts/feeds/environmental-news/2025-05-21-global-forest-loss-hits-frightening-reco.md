@@ -74,7 +74,7 @@ But, while those humid ecosystems have historically been able to stop fires from
 
 
 
-Comment: Why governments should not hide behind forests to meet their emissions goals 
+Comment: Why governments should not hide behind forests to meet their emissions goals&nbsp;
 
 
 
@@ -189,7 +189,7 @@ Four years ago, at COP26, 145 countries pledged to halt and reverse deforestatio
 
 
 
-“Of the 20 signees with the largest area of primary forest, 17 had higher primary forest loss in 2024 than when they signed the agreement in 2021,” said WRI’s Goldman.
+“Of the 20 countries with the largest area of primary forest, 17 have higher primary forest loss today than when the agreement was signed,” said WRI’s Goldman.
 
 
 
@@ -235,5 +235,5 @@ Matt Hansen, a land use change expert at the University of Maryland, said this �
 
 
 
-
+This article was updated on May 22 to amend a quote that incorrectly stated that the 20 countries with the largest areas of primary forest had signed the COP26 agreement on forests.
 The post Global forest loss hits &#8220;frightening&#8221; record high with climate-fuelled fires appeared first on Climate Home News.
