@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "A practical metric for estimating the current climate forcing of natural mires"
-date: 2025-05-22 14:19:58
+date: 2025-05-22 15:21:38
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add607
 is_feed: true
