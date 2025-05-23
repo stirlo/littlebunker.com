@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Assessing the climate and health impacts of energy consumption in European Union countries"
-date: 2025-05-23 04:24:08
+date: 2025-05-23 05:20:02
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add752
 is_feed: true

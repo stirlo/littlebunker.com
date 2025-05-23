@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The influence of varying atmospheric CO2 on global warming potentials and carbon emission impulse response functions"
-date: 2025-05-23 04:24:08
+date: 2025-05-23 05:20:02
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add54b
 is_feed: true
