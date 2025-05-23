@@ -31,7 +31,7 @@ On a wonkier level, however, legal and policy experts objected to the way senato
 
 
 
-At the heart of the controversy is whether the air pollution waiver that the EPA granted to California last year qualifies as a “rule” under the CRA. Both the Government Accountability Office, a nonpartisan oversight agency, and the Senate parliamentarian, a nonpartisan appointee tasked with interpreting congressional rules and procedures, issued advisory opinions earlier this year saying that it doesn’t. Republican Senator MIke Lee of Utah appeared to agree with this interpretation: A one-pager on a bill he proposed to repeal California’s waiver said that the exemptions “cannot be reviewed under the Congressional Review Act because the waiver granted by EPA is not a rule as that term is defined in the CRA.” 
+At the heart of the controversy is whether the air pollution waiver that the EPA granted to California last year qualifies as a “rule” under the CRA. Both the Government Accountability Office, a nonpartisan oversight agency, and the Senate parliamentarian, a nonpartisan appointee tasked with interpreting congressional rules and procedures, issued advisory opinions earlier this year saying that it doesn’t. Republican Senator Mike Lee of Utah appeared to agree with this interpretation: A one-pager on a bill he proposed to repeal California’s waiver said that the exemptions “cannot be reviewed under the Congressional Review Act because the waiver granted by EPA is not a rule as that term is defined in the CRA.” 
 
 
 

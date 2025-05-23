@@ -7,11 +7,11 @@ external_url: https://grist.org/politics/house-republican-tax-bill-inflation-red
 is_feed: true
 ---
 
-After days of intense political infighting between ultraconservative and moderate Republicans, the House of Representatives voted along party lines on Thursday morning to approve a sweeping tax bill that seeks to eviscerate the heart of landmark climate legislation passed by Democrats just three years ago. 
+After days of intense political infighting between ultraconservative and moderate Republicans, the House of Representatives voted along party lines on Thursday morning to approve a sweeping tax bill that seeks to eviscerate the heart of landmark climate legislation passed by Democrats just three years ago.&nbsp;
 
 
 
-The 2022 climate law on the chopping block — the Inflation Reduction Act, or IRA — was the first legislation in more than a decade to attempt to slash U.S. greenhouse gas emissions and was the centerpiece of former president Joe Biden’s legislative agenda. It provides hundreds of billions of dollars in tax credits, loans, subsidies, and grants to utility companies, automakers, consumers, and others to become more energy-efficient and switch to sources of carbon-free power.  
+The 2022 climate law on the chopping block — the Inflation Reduction Act, or IRA — was the first legislation in more than a decade to attempt to slash U.S. greenhouse gas emissions and was the centerpiece of former president Joe Biden’s legislative agenda. It provides hundreds of billions of dollars in tax credits, loans, subsidies, and grants to utility companies, automakers, consumers, and others to become more energy-efficient and switch to sources of carbon-free power.&nbsp;&nbsp;
 
 
 
@@ -39,7 +39,7 @@ Renewable energy developers warn that the House’s timeline for getting project
 
 
 
-The repeals would impact major utility-scale projects that are already underway, such as wind projects, said Katrina McLaughlin, an associate on the World Resources Institute’s U.S. energy team, because it takes a long time to get most renewable projects up and running. 
+The repeals would impact major utility-scale projects that are already underway, such as wind projects, said Katrina McLaughlin, an associate on the World Resources Institute’s U.S. energy team, because it takes a long time to get most renewable projects up and running.&nbsp;
 
 
 
@@ -51,11 +51,11 @@ In the two years since the IRA was passed, analyses show that federal funding ha
 
 
 
-As House Speaker Mike Johnson sought to unite his party behind Trump’s domestic agenda, two warring factions emerged: a far-right coalition focused on attaining deeper spending cuts by slashing the IRA and Medicare, and a moderate group agitating to retain clean energy funding in their districts and increase the cap on how much state and local tax can be deducted from one’s federal taxes — a change that would benefit high earners in blue states. 
+As House Speaker Mike Johnson sought to unite his party behind Trump’s domestic agenda, two warring factions emerged: a far-right coalition focused on attaining deeper spending cuts by slashing the IRA and Medicare, and a moderate group agitating to retain clean energy funding in their districts and increase the cap on how much state and local tax can be deducted from one’s federal taxes —&nbsp;a change that would benefit high earners in blue states.&nbsp;
 
 
 
-Unsurprisingly, the lawmaker leading the fight against the IRA comes from an area that hasn’t received much money from it. Representative Chip Roy, leading the ultraconservative crusade, represents a district in Texas that has a little less than a dollar per person in announced IRA investments. Meanwhile, one of his colleagues on the other side of the fight, moderate Republican Representative Nancy Kiggan, comes from a district in Virginia that is slated to receive $85.50 worth of investments per capita. 
+Unsurprisingly, the lawmaker leading the fight against the IRA comes from an area that hasn’t received much money from it. Representative Chip Roy, leading the ultraconservative crusade, represents a district in Texas that has a little less than a dollar per person in announced IRA investments. Meanwhile, one of his colleagues on the other side of the fight, moderate Republican Representative Nancy Kiggan, comes from a district in Virginia that is slated to receive $85.50 worth of investments per capita.&nbsp;
 
 
 
@@ -73,7 +73,7 @@ Unsurprisingly, the lawmaker leading the fight against the IRA comes from an are
       
             
         
-                    Interactive: IRA/BIL project map
+                    Where did billions in climate and infrastructure funding go? Search our map by ZIP code.
         
         
           
@@ -92,11 +92,11 @@ Republicans represent 18 of the top 20 congressional districts benefiting the mo
 
 
 
-In the end, the moderate Republican caucus was willing to trade IRA tax credits for other policy priorities. Moderates in high-tax states like New York were willing to use Biden’s tax credits as a bargaining chip for a higher limit on itemized state and local tax deductions — $40,000, up from the current cap of $10,000 —  a political win, with benefits that those lawmakers could reap immediately, that allowed them to sidestep having to defend legislation passed by a Democratic administration. 
+In the end, the moderate Republican caucus was willing to trade IRA tax credits for other policy priorities. Moderates in high-tax states like New York were willing to use Biden’s tax credits as a bargaining chip for a higher limit on itemized state and local tax deductions — $40,000, up from the current cap of $10,000 —&nbsp; a political win, with benefits that those lawmakers could reap immediately, that allowed them to sidestep having to defend legislation passed by a Democratic administration.&nbsp;
 
 
 
-Republicans might also be banking on the fact that many of their constituents don’t know about the IRA. A University of Chicago and Associated Press survey last year found that two years after the IRA passed, most Americans had a supremely flawed understanding of what the legislation is and does, if they knew about it at all. Only 21 percent of adults polled, for example, thought tax credits for individuals to buy electric vehicles were helpful. Nearly 40 percent didn’t know enough to weigh in on the EV tax credits and a shocking 15 percent of those polled thought the policy — which gives consumers up to $7,500 for a new plug-in EV — hurt people like them. 
+Republicans might also be banking on the fact that many of their constituents don’t know about the IRA. A University of Chicago and Associated Press survey last year found that two years after the IRA passed, most Americans had a supremely flawed understanding of what the legislation is and does, if they knew about it at all. Only 21 percent of adults polled, for example, thought tax credits for individuals to buy electric vehicles were helpful. Nearly 40 percent didn’t know enough to weigh in on the EV tax credits and a shocking 15 percent of those polled thought the policy — which gives consumers up to $7,500 for a new plug-in EV — hurt people like them.&nbsp;
 
 
 
