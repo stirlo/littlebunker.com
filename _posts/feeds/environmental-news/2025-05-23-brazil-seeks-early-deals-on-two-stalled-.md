@@ -205,7 +205,7 @@ Azerbaijani lead negotiator Yalchin Rafiyev told Climate Week&#8217;s opening ce
 
 
 
-Comment: Let’s use early milestones to stay focused on climate action 
+Comment: Let’s use&nbsp;early milestones to stay focused on climate action&nbsp;
 
 
 
@@ -215,7 +215,11 @@ Comment: Let’s use early milestones to stay focused on climate action 
 
 
 
-Juan Carlos Navarro, environment minister of Panama and host of Climate Week, demanded &#8220;clear targets&#8221; on the financial contributions of developed nations, adding that &#8220;only if we have clarity and achieve concrete outcomes will we be able to succeed&#8221;.
+At Climate Week in Panama, a UN spokesperson said one solution put forward by countries was &#8220;climate finance speed dating&#8221; events, where governments and local leaders could connect with investors and donors to pitch projects.
+
+
+
+Juan Carlos Navarro, environment minister of Panama and Climate Week host, demanded &#8220;clear targets&#8221; on the financial contributions of developed nations, adding that &#8220;only if we have clarity and achieve concrete outcomes will we be able to succeed&#8221;.
 
 
 
@@ -236,4 +240,8 @@ The COP30 Presidency&#8217;s letter this week said it is &#8220;advisable to avo
 
 
 The letter also acknowledged &#8220;ongoing calls for COPs reform&#8221; and said that, as COPs are moving from &#8220;a negotiation-centered to an implementation-centered era&#8221;, governments should &#8220;consider the future of the process itself&#8221; &#8211; and come up with solutions to challenges like an excessive number of agenda items and barriers that prevent the participation of smaller country delegations.
+
+
+
+The story was updated after publication to include a mention of &#8220;climate finance speed dating&#8221; events proposal.
 The post Brazil seeks early deals on two stalled issues at Bonn climate talks appeared first on Climate Home News.

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Climate change could bring insect-borne tropical diseases to UK, scientists warn"
-date: 2025-05-23 11:38:09
+date: 2025-05-23 15:31:05
 categories: [environmental-news]
 external_url: https://www.theguardian.com/science/2025/may/23/climate-change-could-bring-insect-borne-tropical-diseases-to-uk-scientists-warn
 is_feed: true
