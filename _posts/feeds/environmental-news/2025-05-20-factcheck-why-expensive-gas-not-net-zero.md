@@ -736,7 +736,11 @@ The shift to zonal pricing is also supported by key organisations such as Ofgem,
 
 
 
-However, there is also a long list of groups that are strongly opposed to zonal pricing, including Energy UK, Renewable UK, energy intensive industries and many individual energy firms.
+However, there is also a long list of groups that are strongly opposed to zonal pricing, including Renewable UK, energy intensive industries and many individual energy firms.
+
+
+
+A consultation response from Energy UK says that while a &#8220;minority&#8221; of its members favour zonal pricing, &#8220;the majority prefer further exploration of alternatives&#8221;.
 
 
 
