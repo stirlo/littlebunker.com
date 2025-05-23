@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Territories of commons: a review of common land organizations and institutions in the European Alps"
-date: 2025-05-23 03:11:42
+date: 2025-05-23 04:24:08
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add1f4
 is_feed: true
