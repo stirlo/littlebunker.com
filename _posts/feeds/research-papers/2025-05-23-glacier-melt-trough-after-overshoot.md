@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Glacier melt trough after overshoot"
-date: 2025-05-23 21:16:45
+date: 2025-05-23 22:19:01
 categories: [research-papers]
 external_url: https://www.nature.com/articles/s41558-025-02312-2
 is_feed: true

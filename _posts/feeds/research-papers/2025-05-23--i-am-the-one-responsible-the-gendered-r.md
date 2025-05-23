@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "‘I am the one responsible’: the gendered reality of clean cooking fuel affordability in Shirati, Tanzania"
-date: 2025-05-23 21:16:42
+date: 2025-05-23 22:19:00
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add7ed
 is_feed: true
