@@ -7,11 +7,11 @@ external_url: https://grist.org/regulation/senate-rescinds-californias-ev-rules-
 is_feed: true
 ---
 
-For nearly 60 years, California has enjoyed the ability to set its own standards governing air pollution from automobiles, as long as they’re more stringent than the federal government’s. This rule, written into the Clean Air Act, was meant to recognize the state’s longstanding leadership in regulating air emissions.
+For nearly 60 years, California has enjoyed the ability to set its own standards governing air pollution from automobiles, as long as they’re more stringent than the federal government’s. This rule, written into the Clean Air Act, was meant to recognize the state’s long-standing leadership in regulating air emissions.
 
 
 
-The U.S. Senate undermined that authority on Thursday when it voted 51 to 44 to revoke a waiver the Environmental Protection Agency approved allowing the Golden State to implement and enforce a de facto ban on the sale of gasoline-powered cars by 2035. The Senate also rescinded waivers allowing California to set stricter emissions standards for new diesel trucks, and mandating the adoption of zero-emission trucks.
+The U.S. Senate undermined that authority on Thursday when it voted 51 to 44 to revoke a waiver the Environmental Protection Agency approved allowing the Golden State to implement and enforce a de facto ban on the sale of gasoline-powered cars by 2035. The Senate also rescinded waivers allowing California to set stricter emissions standards for new diesel trucks and mandating the adoption of zero-emission trucks.
 
 
 
@@ -23,24 +23,23 @@ Environmental groups quickly decried the votes, saying that California’s stand
 
 
 
-On a wonkier level, however, legal and policy experts objected to the way Senators rescinded California’s waiver: They used the 1996 Congressional Review Act, or CRA, a law enacted to allow Congress to overturn some federal actions with a simple majority, rather than the usual 60 votes. Two government watchdogs said the act did not apply to the state’s waiver.
+On a wonkier level, however, legal and policy experts objected to the way senators rescinded California’s waiver: They used the 1996 Congressional Review Act, or CRA, a law enacted to allow Congress to overturn some federal actions with a simple majority rather than the usual 60 votes. Two government watchdogs said the act did not apply to the state’s waiver.
 
 
 
-“Republicans twisted the Senate’s own rules,” Joanna Slaney, vice president for political and government affairs at the nonprofit Environmental Defense Fund, said in a statement. UCLA Law professor Ann Carlson warned in a blog post ahead of the vote that Congress “may be opening up a Pandora’s box it can’t close,” and that “there will be no limit on using the CRA to overturn all kinds of actions that the act doesn’t cover.”
+“Republicans twisted the Senate’s own rules,” Joanna Slaney, vice president for political and government affairs at the nonprofit Environmental Defense Fund, said in a statement. UCLA law professor Ann Carlson warned in a blog post ahead of the vote that Congress “may be opening up a Pandora’s box it can’t close” and that “there will be no limit on using the CRA to overturn all kinds of actions that the act doesn’t cover.”
 
 
 
-At the heart of the controversy is whether the air pollution waiver that the EPA granted to California last year qualifies as a “rule” under the CRA. Both the Government Accountability Office, a nonpartisan oversight agency, and the Senate parliamentarian, a nonpartisan appointee tasked with interpreting Congressional rules and procedures, issued advisory opinions earlier this year saying that it doesn’t. Republican Senator MIke Lee of Utah appeared to agree with this interpretation: A one-pager on a bill he proposed to repeal California’s waiver said that the exemptions “cannot be reviewed under the Congressional Review Act because the waiver granted by EPA is not a rule as that term is defined in the CRA.”&nbsp;
+At the heart of the controversy is whether the air pollution waiver that the EPA granted to California last year qualifies as a “rule” under the CRA. Both the Government Accountability Office, a nonpartisan oversight agency, and the Senate parliamentarian, a nonpartisan appointee tasked with interpreting congressional rules and procedures, issued advisory opinions earlier this year saying that it doesn’t. Republican Senator MIke Lee of Utah appeared to agree with this interpretation: A one-pager on a bill he proposed to repeal California’s waiver said that the exemptions “cannot be reviewed under the Congressional Review Act because the waiver granted by EPA is not a rule as that term is defined in the CRA.” 
 
 
 
-Traffic on I-80 in San Francisco, California.
- Justin Sullivan / Getty Images
+Traffic on I-80 in San Francisco. Justin Sullivan / Getty Images
 
 
 
-Party leaders don’t usually contravene the parliamentarian’s guidance. If they do, they run the risk of their opponents doing the same when they are in power. &#8220;Republicans should tread carefully today,&#8221; Senate Minority Leader Chuck Schumer, a Democrat from New York, told NPR on Thursday. California Senator Alex Padilla said in a statement that “radical Republicans” had “gone nuclear on the Senate rulebook.”
+Party leaders don’t usually contravene the parliamentarian’s guidance. If they do, they run the risk of their opponents doing the same when they are in power. &#8220;Republicans should tread carefully today,&#8221; Senate Minority Leader Chuck Schumer, a Democrat from New York, told NPR on Thursday. California Senator Alex Padilla said in a statement that “radical Republicans” had “gone nuclear on the Senate rule book.”
 
 
 
@@ -48,7 +47,7 @@ Party leaders don’t usually contravene the parliamentarian’s guidance. If th
 
 
 
-Dan Farber, a professor at the University of California, Berkeley, School of Law, told Grist that the Senate’s capricious interpretation of the CRA means it could be used to rescind waivers from the Department of Health and Human Services allowing states to modify Medicaid requirements, or broadcasting licenses issued by the Federal Communications Commission. The act could also be used to revoke pollution permits that the EPA grants to states.
+Dan Farber, a professor at UC Berkeley Law, told Grist that the Senate’s capricious interpretation of the CRA means it could be used to rescind waivers from the Department of Health and Human Services allowing states to modify Medicaid requirements or broadcasting licenses issued by the Federal Communications Commission. The act could also be used to revoke pollution permits that the EPA grants to states.
 
 
 
@@ -56,7 +55,7 @@ He clarified, however, that the Senate only nullified specific waivers in Califo
 
 
 
-California’s current standards require 35 percent of new cars sold within the state to be zero-emissions by 2026, ratcheting up to 100 percent of new sales by 2035. President Donald Trump revoked California’s waiver allowing such regulations in 2019, during his first term, but that move was challenged in court and the waiver was restored by the Biden administration.
+California’s current standards require 35 percent of new cars sold within the state to be zero-emissions by 2026, ratcheting up to 100 percent of new sales by 2035. President Donald Trump revoked California’s waiver allowing such regulations in 2019 during his first term, but that move was challenged in court and the waiver was restored by Joe Biden&#8217;s administration.
 
 
 

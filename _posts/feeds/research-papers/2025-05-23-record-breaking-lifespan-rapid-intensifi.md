@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Record-breaking lifespan, rapid intensification, and long-lasting coastal activity of tropical cyclone Freddy (2023) in the South Indian Ocean"
-date: 2025-05-23 13:30:15
+date: 2025-05-23 14:21:09
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add7ec
 is_feed: true
