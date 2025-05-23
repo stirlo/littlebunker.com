@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Most totally real fields do not have universal forms or the Northcott property"
-date: 2025-05-23 22:18:59
+date: 2025-05-23 23:18:47
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2419414122?af=R
 is_feed: true
