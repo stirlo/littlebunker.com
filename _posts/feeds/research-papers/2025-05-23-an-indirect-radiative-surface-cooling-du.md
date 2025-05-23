@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "An indirect radiative surface-cooling due to water vapor in the tropics and its implications for pre-monsoonal heat stress"
-date: 2025-05-23 09:21:41
+date: 2025-05-23 10:21:33
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add174
 is_feed: true
