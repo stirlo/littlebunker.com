@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Interpreting dynamic-compression experiments to uncover the time dependence of freezing: Application to gallium"
-date: 2025-05-23 06:29:01
+date: 2025-05-23 07:19:51
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2424703122?af=R
 is_feed: true
