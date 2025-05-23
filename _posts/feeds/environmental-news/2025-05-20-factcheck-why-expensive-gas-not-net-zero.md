@@ -19,7 +19,7 @@ The UK has been particularly exposed, as gas sets its wholesale power prices 98%
 
 
 
-Nevertheless, some have sought instead to misleadingly blame the UK’s high power electricity on “green levies” that support the expansion of clean power, as well as the target for net-zero emissions by 2050.
+Nevertheless, some have sought instead to misleadingly blame the UK’s high electricity prices on “green levies” that support the expansion of clean power, as well as on the target for net-zero emissions by 2050.
 
 
 

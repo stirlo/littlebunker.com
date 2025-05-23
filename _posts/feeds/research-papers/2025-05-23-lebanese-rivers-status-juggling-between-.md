@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Lebanese rivers status: juggling between public negligence and challenged scientific awareness"
-date: 2025-05-23 14:21:09
+date: 2025-05-23 15:20:56
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add7ef
 is_feed: true
