@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Vertical climate velocity adds a critical dimension to species shifts"
-date: 2025-05-24 05:18:15
+date: 2025-05-24 06:25:54
 categories: [climate-science]
 external_url: https://www.nature.com/articles/s41558-025-02300-6
 is_feed: true
