@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Ecosystem relocation on Snowball Earth: Polar−alpine ancestry of the extant surface biosphere?"
-date: 2025-05-24 03:06:21
+date: 2025-05-24 04:23:04
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2414059122?af=R
 is_feed: true
