@@ -1,0 +1,11 @@
+---
+layout: feed_item
+title: "‘I am the one responsible’: the gendered reality of clean cooking fuel affordability in Shirati, Tanzania"
+date: 2025-05-24 10:18:55
+categories: [research-papers]
+external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add7ed
+is_feed: true
+source_feed: "https://iopscience.iop.org/journal/rss/1748-9326"
+---
+
+Affordability remains one of the most significant barriers to the exclusive use of clean cookstoves and fuels, a top global health, energy, and development priority. The measurement and discussion of clean fuel affordability is almost always based on the unitary, or single decision-maker, household as the unit of analysis, although the more realistic household disaggregated into its individual decision-makers is a well-established literature. The limited work on intra-household dynamics in clean cooking cannot reveal who is buying the stove or fuel and at what true cost. Following an experiment testing the effect of microsavings to increase clean fuel consumption in Shirati, a rural town in Mara region, Tanzania, we conducted 90 interviews and numerous focus groups/budget games with a stratified random sample of mostly female main cooks. Drawing on over two years of fieldwork, we investigate the range of household needs, the role of gender in household finances, and how these combine to determine cooking fuel purchases. We find distinct and gendered financial domains where spouses do not disclose their expenses to one another and are responsible for different categories of needs. Cooking fuel is firmly in the female domain. Thus, liquefied petroleum gas affordability is constrained by these gendered financial domains, as women must choose between using savings for daily necessities or refilling the gas. Our extensive ethnographic evidence demonstrates the inappropriateness of the unitary model for cooking fuel affordability and the implications of ignoring separate-account household models. Our work requires new interpretations of saving for, and affordability of, clean fuels that the clean cooking literature has yet to confront. We offer recommendations for how the clean cooking literature could measure affordability and design policy for regions where cooking fuel is exclusively in the female financial domain.
