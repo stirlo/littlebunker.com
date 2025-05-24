@@ -1,0 +1,39 @@
+- name: Remove Duplicate Posts
+  run: |
+    python - << 'EOF'
+    import os
+    import re
+    from collections import defaultdict
+
+    posts_dir = "_posts"
+    url_to_files = defaultdict(list)
+
+    # Group files by external_url
+    for root, dirs, files in os.walk(posts_dir):
+        for file in files:
+            if file.endswith('.md'):
+                filepath = os.path.join(root, file)
+                try:
+                    with open(filepath, 'r') as f:
+                        content = f.read()
+
+                    url_match = re.search(r'external_url:\s*(.+)', content)
+                    if url_match:
+                        url = url_match.group(1).strip()
+                        url_to_files[url].append(filepath)
+                except Exception as e:
+                    print(f"Error reading {filepath}: {e}")
+
+    # Remove duplicates (keep newest)
+    removed_count = 0
+    for url, files in url_to_files.items():
+        if len(files) > 1:
+            # Sort by modification time, keep newest
+            files.sort(key=lambda x: os.path.getmtime(x), reverse=True)
+            for duplicate in files[1:]:
+                print(f"Removing duplicate: {duplicate}")
+                os.remove(duplicate)
+                removed_count += 1
+
+    print(f"Removed {removed_count} duplicate posts")
+    EOF
