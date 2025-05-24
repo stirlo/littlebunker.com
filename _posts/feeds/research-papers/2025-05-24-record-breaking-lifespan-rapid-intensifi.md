@@ -1,0 +1,10 @@
+---
+layout: feed_item
+title: "Record-breaking lifespan, rapid intensification, and long-lasting coastal activity of tropical cyclone Freddy (2023) in the South Indian Ocean"
+date: 2025-05-24 01:28:30
+categories: [research-papers]
+external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add7ec
+is_feed: true
+---
+
+Tropical cyclone (TC) Freddy traversed the South Indian Ocean (SIO) in 2023, setting a record for longevity and ranking secondly among historical TCs for both accumulated cyclone energy and potential destructiveness. Freddy’s long lifespan benefited from an anomalously strong Mascarene High, which steered Freddy westward along its northern flank, thereby preventing it encountering cold water areas. In addition to its long lifespan, we found Freddy experienced a record-breaking six rapid intensification (RI) events and analyzed the atmosphere-ocean conditions driving Freddy’s multiple RI events. The results indicated that during the six RI events, Freddy experienced high sea surface temperatures, weak vertical wind shear, high potential intensity, and high relative humidity, with all four environmental factors more favorable than historical averages. Notably, three of these RI events occurred within the Mozambique Channel, which also prolonged its coastal activity (21 d). This phase of TC Freddy generated extreme rainfall with maximum cumulative precipitation of 877 mm, compounded by secondary disasters, which caused substantial economic losses and fatalities in coastal areas. Additionally, it was found that the frequency of RI events and the number of intense TCs reaching Category 4 or above in the SIO showed statistically significant upward trends during 1980–2023, indicating a growing threat to Africa, which is likely to face more intense TCs in a warming climate. With rising sea levels and increasing threat from TCs, greater focus on coastal disaster prevention and mitigation strategies is needed to address the escalating risks associated with TCs in the SIO in the context of global warming.
