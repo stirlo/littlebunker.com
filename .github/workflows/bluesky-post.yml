@@ -6,7 +6,7 @@ on:
     types:
       - completed
   schedule:
-    - cron: '30 * * * *'
+    - cron: '30 */8 * * *'  # Every 8 hours for climate posts
   workflow_dispatch:
 
 jobs:
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install atproto feedparser requests
+          pip install atproto feedparser requests pyyaml
 
       - name: Post to Bluesky
         env:
@@ -35,18 +35,14 @@ jobs:
           import os
           import time
           import json
+          import yaml
           import hashlib
           from datetime import datetime, timezone
           from atproto import Client
 
-          # Bluesky credentials
           BLUESKY_HANDLE = os.environ.get('BLUESKY_HANDLE')
           BLUESKY_PASSWORD = os.environ.get('BLUESKY_PASSWORD')
-
-          # Feed URL
           FEED_URL = "https://littlebunker.com/feed.xml"
-
-          # File to store posted entries
           POSTED_FILE = "_data/posted_to_bluesky.json"
 
           def load_posted_entries():
@@ -55,78 +51,116 @@ jobs:
                       with open(POSTED_FILE, 'r') as f:
                           return json.load(f)
                   else:
-                      # Create directory if it doesn't exist
                       os.makedirs(os.path.dirname(POSTED_FILE), exist_ok=True)
-                      return {"posted_entries": []}
+                      return {"posted_entries": [], "last_climate_post": 0}
               except Exception as e:
                   print(f"Error loading posted entries: {e}")
-                  return {"posted_entries": []}
+                  return {"posted_entries": [], "last_climate_post": 0}
 
-          def save_posted_entry(entry_id):
+          def save_posted_entry(entry_id, climate_post_count=None):
               try:
                   posted_data = load_posted_entries()
                   posted_data["posted_entries"].append(entry_id)
-                  # Keep only the last 50 entries to avoid the file growing too large
                   posted_data["posted_entries"] = posted_data["posted_entries"][-50:]
+
+                  if climate_post_count is not None:
+                      posted_data["last_climate_post"] = climate_post_count
 
                   with open(POSTED_FILE, 'w') as f:
                       json.dump(posted_data, f, indent=2)
               except Exception as e:
                   print(f"Error saving posted entry: {e}")
 
-          def post_to_bluesky(title, link, description):
+          def load_climate_metrics():
               try:
-                  # Create Bluesky client
+                  if os.path.exists('_data/metrics.yml'):
+                      with open('_data/metrics.yml', 'r') as f:
+                          return yaml.safe_load(f)
+                  return None
+              except Exception as e:
+                  print(f"Error loading climate metrics: {e}")
+                  return None
+
+          def post_to_bluesky(content):
+              try:
                   client = Client()
                   client.login(BLUESKY_HANDLE, BLUESKY_PASSWORD)
-
-                  # Create post content
-                  content = f"{title}\n\n{description[:100]}...\n\n{link}"
-
-                  # Post to Bluesky
                   response = client.send_post(content)
-                  print(f"Posted to Bluesky: {title}")
+                  print(f"Posted to Bluesky: {content[:50]}...")
                   return True
               except Exception as e:
                   print(f"Error posting to Bluesky: {e}")
                   return False
 
-          def main():
-              # Parse feed
-              feed = feedparser.parse(FEED_URL)
+          def create_climate_post(metrics, post_type):
+              if not metrics:
+                  return None
 
+              if post_type == 0:  # CO2 post
+                  co2 = metrics.get('co2', {})
+                  current = co2.get('current', 'N/A')
+                  change = co2.get('change', 'N/A')
+                  return f"CO2: {current} ppm (+{change}/year)\n\nCurrent atmospheric carbon dioxide levels"
+
+              elif post_type == 1:  # CH4 post
+                  ch4 = metrics.get('ch4', {})
+                  current = ch4.get('current', 'N/A')
+                  change = ch4.get('change', 'N/A')
+                  return f"CH4: {current} ppb (+{change}/year)\n\nMethane concentration rising"
+
+              elif post_type == 2:  # Temperature post
+                  temp = metrics.get('temperature', {})
+                  overshoot = temp.get('overshoot', 'N/A')
+                  return f"Temperature: +{overshoot}°C overshoot\n\nGlobal warming above baseline"
+
+              return None
+
+          def main():
+              posted_data = load_posted_entries()
+              posted_entries = posted_data["posted_entries"]
+              last_climate_post = posted_data.get("last_climate_post", 0)
+
+              # Determine if this should be a climate post (every 4th post)
+              total_posts = len(posted_entries)
+              should_post_climate = (total_posts % 4 == 0)
+
+              if should_post_climate:
+                  # Post climate metrics
+                  metrics = load_climate_metrics()
+                  climate_post_type = last_climate_post % 3  # Rotate between 0, 1, 2
+
+                  climate_content = create_climate_post(metrics, climate_post_type)
+                  if climate_content:
+                      success = post_to_bluesky(climate_content)
+                      if success:
+                          save_posted_entry(f"climate_{climate_post_type}_{datetime.now().isoformat()}", 
+                                          climate_post_type + 1)
+                          return
+
+              # Otherwise, post RSS content
+              feed = feedparser.parse(FEED_URL)
               if not feed.entries:
                   print("No entries found in feed")
                   return
 
-              # Load previously posted entries
-              posted_data = load_posted_entries()
-              posted_entries = posted_data["posted_entries"]
+              for entry in feed.entries[:3]:
+                  # Use URL-based hash for consistency
+                  entry_id = hashlib.md5(entry.get('link', '').encode()).hexdigest()
 
-              # Get latest entry
-              for entry in feed.entries[:3]:  # Check the 3 most recent entries
-                  # Create a unique ID for this entry
-                  title = entry.get('title', '')
-                  link = entry.get('link', '')
-                  entry_id = hashlib.md5(f"{title}|{link}".encode()).hexdigest()
-
-                  # Check if we've already posted this
                   if entry_id in posted_entries:
-                      print(f"Already posted: {title}")
+                      print(f"Already posted: {entry.get('title', '')}")
                       continue
 
-                  # Extract info
+                  title = entry.get('title', '')
+                  link = entry.get('link', '')
                   description = entry.get('description', '').replace('<p>', '').replace('</p>', '')
 
-                  # Post to Bluesky
-                  success = post_to_bluesky(title, link, description)
+                  content = f"{title}\n\n{description[:100]}...\n\n{link}"
+                  success = post_to_bluesky(content)
 
                   if success:
-                      # Save this entry as posted
                       save_posted_entry(entry_id)
-                      # Only post one entry per run
                       break
-
               else:
                   print("No new entries to post")
 
@@ -136,7 +170,7 @@ jobs:
 
       - name: Commit changes if any
         run: |
-          git config --global user.name 'GitHub Action'
+          git config --global user.name 'Bluesky Bot'
           git config --global user.email 'action@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update posted entries tracking" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Bluesky posting tracking" && git push)
