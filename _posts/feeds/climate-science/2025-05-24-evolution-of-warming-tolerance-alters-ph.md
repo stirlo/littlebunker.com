@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Evolution of warming tolerance alters physiology and life history traits in zebrafish"
-date: 2025-05-24 07:16:54
+date: 2025-05-24 08:22:34
 categories: [climate-science]
 external_url: https://www.nature.com/articles/s41558-025-02332-y
 is_feed: true
