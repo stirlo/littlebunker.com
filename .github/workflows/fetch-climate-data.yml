@@ -23,57 +23,51 @@ jobs:
         run: |
           python << 'EOF'
           import requests
-          import json
+          import yaml
           import os
           from datetime import datetime
-          import time
-
-          os.makedirs('_data', exist_ok=True)
 
           def load_previous_data():
-              """Load previous data or use emergency fallbacks"""
+              """Load previous metrics.yml data"""
               try:
-                  if os.path.exists('_data/climate_data.json'):
-                      with open('_data/climate_data.json', 'r') as f:
-                          data = json.load(f)
-                      print("✅ Loaded previous data as baseline")
-                      return data.get('current_values', {})
+                  if os.path.exists('_data/metrics.yml'):
+                      with open('_data/metrics.yml', 'r') as f:
+                          data = yaml.safe_load(f)
+                      print("✅ Loaded previous metrics.yml data")
+                      return data
               except Exception as e:
                   print(f"⚠️ Could not load previous data: {e}")
 
+              # Fallback structure matching your existing format
               return {
-                  'co2_current': 421.85,
-                  'co2_change': 2.4,
-                  'ch4_current': 1912.0,
-                  'ch4_change': 8.2,
-                  'temp_anomaly': 1.15,
-                  'population': 8.12,
-                  'pop_growth': 67
+                  'ch4': {'change': 6.98, 'current': 1935.33},
+                  'co2': {'change': 2.5, 'current': 421.5},
+                  'last_updated': '2025-05-24 09:18:14',
+                  'population': {'growth': 67, 'total': 8.1},
+                  'temperature': {'overshoot': 1.2}
               }
 
           def validate_value(new_val, old_val, min_val, max_val, name):
               """Validate values are reasonable AND changes aren't extreme"""
-              # First check: Is the new value in a reasonable range?
               if not (min_val <= new_val <= max_val):
-                  print(f"⚠️ {name} value {new_val} outside reasonable range ({min_val}-{max_val}), keeping {old_val}")
+                  print(f"⚠️ {name} value {new_val} outside range ({min_val}-{max_val}), keeping {old_val}")
                   return old_val
 
-              # Second check: Is the change reasonable? (max 20% change)
               if old_val > 0:
                   percent_change = abs((new_val - old_val) / old_val) * 100
                   if percent_change > 20:
-                      print(f"⚠️ {name} change too large ({percent_change:.1f}% change: {new_val} vs {old_val}), keeping {old_val}")
+                      print(f"⚠️ {name} change too large ({percent_change:.1f}%), keeping {old_val}")
                       return old_val
 
               print(f"✅ {name} updated: {old_val} → {new_val}")
               return new_val
 
-          # Load baseline data
-          current_values = load_previous_data()
-          print(f"🔄 Starting with: CO2 {current_values.get('co2_current', 'N/A')} ppm")
+          # Load existing metrics
+          metrics = load_previous_data()
+          print(f"🔄 Starting with: CO2 {metrics['co2']['current']} ppm, CH4 {metrics['ch4']['current']} ppb")
 
-          # 1. Try NOAA direct API with CORRECT parsing
-          print("\n📊 Fetching CO2 from NOAA direct...")
+          # 1. Fetch CO2 from NOAA
+          print("\n📊 Fetching CO2 from NOAA...")
           try:
               response = requests.get(
                   "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.txt",
@@ -84,32 +78,31 @@ jobs:
                           if not line.startswith('#') and line.strip()]
                   if lines:
                       latest = lines[-1].split()
-                      print(f"🔍 NOAA latest line: {latest}")
-                      # Format: [YYYY, M, DD, CO2_current, CO2_smoothed]
+                      print(f"🔍 NOAA CO2 latest: {latest}")
                       if len(latest) >= 4:
                           try:
-                              new_co2 = round(float(latest[3]), 2)  # Index 3 = CO2 value
+                              new_co2 = round(float(latest[3]), 1)  # Match your format (421.5)
                               print(f"🔍 Parsed CO2: {new_co2} ppm from {latest[0]}-{latest[1]}-{latest[2]}")
-                              # Validate: CO2 should be 350-500 ppm range
-                              current_values['co2_current'] = validate_value(
-                                  new_co2, current_values.get('co2_current', 421), 350, 500, "CO2"
+
+                              metrics['co2']['current'] = validate_value(
+                                  new_co2, metrics['co2']['current'], 350, 500, "CO2"
                               )
 
-                              # Calculate annual change if we have enough data
-                              if len(lines) >= 365:  # Try full year of daily data
+                              # Calculate annual change
+                              if len(lines) >= 365:
                                   year_ago = lines[-365].split()
                                   if len(year_ago) >= 4:
-                                      year_ago_val = float(year_ago[3])  # Also index 3
-                                      current_values['co2_change'] = round(
-                                          current_values['co2_current'] - year_ago_val, 2
+                                      year_ago_val = float(year_ago[3])
+                                      metrics['co2']['change'] = round(
+                                          metrics['co2']['current'] - year_ago_val, 1
                                       )
-                                      print(f"📈 CO2 annual change: +{current_values['co2_change']} ppm/year")
+                                      print(f"📈 CO2 annual change: +{metrics['co2']['change']} ppm/year")
                           except (ValueError, IndexError) as e:
-                              print(f"❌ Could not parse CO2 value: {e}")
+                              print(f"❌ Could not parse CO2: {e}")
           except Exception as e:
               print(f"❌ NOAA CO2 failed: {e}")
 
-          # 2. Try NOAA for CH4 data with correct parsing
+          # 2. Fetch CH4 from NOAA
           print("\n📊 Fetching CH4 from NOAA...")
           try:
               response = requests.get(
@@ -121,25 +114,27 @@ jobs:
                           if not line.startswith('#') and line.strip()]
                   if lines:
                       latest = lines[-1].split()
-                      print(f"🔍 CH4 latest line: {latest}")
-                      # CH4 format might be different - let's check what we get
+                      print(f"🔍 CH4 latest: {latest}")
                       if len(latest) >= 4:
                           try:
-                              # Try different indices to find the CH4 value
-                              for i, val in enumerate(latest):
-                                  try:
-                                      test_val = float(val)
-                                      if 1500 <= test_val <= 2500:  # Reasonable CH4 range
-                                          new_ch4 = round(test_val, 1)
-                                          print(f"🔍 Found CH4 at index {i}: {new_ch4} ppb")
-                                          current_values['ch4_current'] = validate_value(
-                                              new_ch4, current_values.get('ch4_current', 1912), 1500, 2500, "CH4"
-                                          )
-                                          break
-                                  except ValueError:
-                                      continue
-                          except Exception as e:
-                              print(f"❌ Could not parse CH4 value: {e}")
+                              new_ch4 = round(float(latest[3]), 2)  # Match your format (1935.33)
+                              print(f"🔍 Parsed CH4: {new_ch4} ppb from {latest[0]}-{latest[1]}")
+
+                              metrics['ch4']['current'] = validate_value(
+                                  new_ch4, metrics['ch4']['current'], 1800, 2100, "CH4"
+                              )
+
+                              # Calculate annual change
+                              if len(lines) >= 12:
+                                  year_ago = lines[-12].split()
+                                  if len(year_ago) >= 4:
+                                      year_ago_val = float(year_ago[3])
+                                      metrics['ch4']['change'] = round(
+                                          metrics['ch4']['current'] - year_ago_val, 2
+                                      )
+                                      print(f"📈 CH4 annual change: +{metrics['ch4']['change']} ppb/year")
+                          except (ValueError, IndexError) as e:
+                              print(f"❌ Could not parse CH4: {e}")
           except Exception as e:
               print(f"❌ NOAA CH4 failed: {e}")
 
@@ -159,22 +154,21 @@ jobs:
                               year = int(parts[0])
                               if year >= 2020 and parts[13] != '*':
                                   try:
-                                      new_temp = round(float(parts[13]) / 100.0, 2)
-                                      # Validate: Temperature anomaly should be -2 to +3°C
-                                      current_values['temp_anomaly'] = validate_value(
-                                          new_temp, current_values.get('temp_anomaly', 1.15), -2.0, 3.0, "Temperature"
+                                      new_temp = round(float(parts[13]) / 100.0, 1)  # Match format (1.2)
+                                      metrics['temperature']['overshoot'] = validate_value(
+                                          new_temp, metrics['temperature']['overshoot'], -2.0, 3.0, "Temperature"
                                       )
-                                      print(f"📅 Temperature data from year {year}")
+                                      print(f"📅 Temperature overshoot: +{metrics['temperature']['overshoot']}°C ({year})")
                                       break
                                   except (ValueError, IndexError) as e:
                                       print(f"❌ Could not parse temperature: {e}")
           except Exception as e:
               print(f"❌ NASA GISS failed: {e}")
 
-          # 4. Population from World Bank API (try multiple years)
-          print("\n👥 Fetching population data from World Bank API...")
+          # 4. Population from World Bank API
+          print("\n👥 Fetching population data...")
           population_updated = False
-          for year in [2024, 2023, 2022]:  # Try recent years
+          for year in [2024, 2023, 2022]:
               try:
                   response = requests.get(
                       f"https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json&date={year}",
@@ -185,84 +179,62 @@ jobs:
                       if len(data) > 1 and data[1]:
                           pop_data = data[1][0]
                           if 'value' in pop_data and pop_data['value']:
-                              new_pop = round(pop_data['value'] / 1000000000, 2)
+                              new_pop = round(pop_data['value'] / 1000000000, 1)  # Match format (8.1)
                               print(f"🔍 World Bank population for {year}: {new_pop}B")
-                              # Validate: Population should be 7-10 billion
-                              current_values['population'] = validate_value(
-                                  new_pop, current_values.get('population', 8.12), 7.0, 10.0, "Population"
+                              metrics['population']['total'] = validate_value(
+                                  new_pop, metrics['population']['total'], 7.0, 10.0, "Population"
                               )
                               population_updated = True
                               break
               except Exception as e:
                   print(f"❌ World Bank API failed for {year}: {e}")
 
-          # 5. Backup: Worldometers for population (if World Bank failed)
+          # 5. Backup: Worldometers for population
           if not population_updated:
-              print("\n👥 Backup: Fetching population from Worldometers...")
+              print("\n👥 Backup: Worldometers...")
               try:
                   response = requests.get("https://worldometers.info/world-population/", timeout=15)
                   if response.status_code == 200:
                       import re
-                      # Look for the live counter
                       pop_match = re.search(r'rts-counter[^>]*>([0-9,]+)', response.text)
                       if pop_match:
                           pop_str = pop_match.group(1).replace(',', '')
-                          new_pop = round(float(pop_str) / 1000000000, 2)
-                          print(f"🔍 Worldometers live population: {new_pop}B")
-                          current_values['population'] = validate_value(
-                              new_pop, current_values.get('population', 8.12), 7.0, 10.0, "Population"
+                          new_pop = round(float(pop_str) / 1000000000, 1)
+                          print(f"🔍 Worldometers population: {new_pop}B")
+                          metrics['population']['total'] = validate_value(
+                              new_pop, metrics['population']['total'], 7.0, 10.0, "Population"
                           )
 
-                      # Try to get growth rate too
+                      # Growth rate
                       growth_match = re.search(r'([0-9,]+)\s*people.*year', response.text)
                       if growth_match:
                           growth_str = growth_match.group(1).replace(',', '')
                           new_growth = round(float(growth_str) / 1000000, 0)
-                          current_values['pop_growth'] = new_growth
-                          print(f"📈 Population growth: +{new_growth}M/year")
+                          metrics['population']['growth'] = int(new_growth)  # Match format (67)
+                          print(f"📈 Population growth: +{metrics['population']['growth']}M/year")
               except Exception as e:
                   print(f"❌ Worldometers failed: {e}")
 
-          # Create comprehensive data structure
-          climate_data = {
-              'last_updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
-              'update_frequency': 'Every 2 hours',
-              'data_sources': {
-                  'co2': 'NOAA Global Monitoring Laboratory',
-                  'ch4': 'NOAA Global Monitoring Laboratory',
-                  'temperature': 'NASA GISS',
-                  'population': 'World Bank API / Worldometers'
-              },
-              'current_values': current_values,
-              'validation_ranges': {
-                  'co2': '350-500 ppm',
-                  'ch4': '1500-2500 ppb', 
-                  'temperature': '-2 to +3°C anomaly',
-                  'population': '7-10 billion'
-              },
-              'status': {
-                  'co2_updated': current_values.get('co2_current') is not None,
-                  'ch4_updated': current_values.get('ch4_current') is not None,
-                  'temperature_updated': current_values.get('temp_anomaly') is not None,
-                  'population_updated': current_values.get('population') is not None
-              }
-          }
+          # Update timestamp
+          metrics['last_updated'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
-          # Save to JSON
-          with open('_data/climate_data.json', 'w') as f:
-              json.dump(climate_data, f, indent=2)
+          # Save to metrics.yml
+          os.makedirs('_data', exist_ok=True)
+          with open('_data/metrics.yml', 'w') as f:
+              yaml.dump(metrics, f, default_flow_style=False, sort_keys=True)
 
-          print(f"\n✅ Climate data saved to _data/climate_data.json")
-          print(f"📊 Final values:")
-          print(f"   CO2: {current_values.get('co2_current', 'N/A')} ppm (+{current_values.get('co2_change', 'N/A')}/year)")
-          print(f"   CH4: {current_values.get('ch4_current', 'N/A')} ppb")
-          print(f"   Temperature: +{current_values.get('temp_anomaly', 'N/A')}°C")
-          print(f"   Population: {current_values.get('population', 'N/A')}B (+{current_values.get('pop_growth', 'N/A')}M/year)")
+          print(f"\n✅ Updated _data/metrics.yml")
+          print(f"📊 Final metrics:")
+          print(f"   CO2: {metrics['co2']['current']} ppm (+{metrics['co2']['change']}/year)")
+          print(f"   CH4: {metrics['ch4']['current']} ppb (+{metrics['ch4']['change']}/year)")
+          print(f"   Temperature: +{metrics['temperature']['overshoot']}°C overshoot")
+          print(f"   Population: {metrics['population']['total']}B (+{metrics['population']['growth']}M/year)")
+          print(f"   Updated: {metrics['last_updated']}")
           EOF
 
-      - name: Commit climate data
+      - name: Commit updated metrics
         run: |
           git config --global user.name 'Climate Data Bot'
           git config --global user.email 'action@github.com'
-          git add _data/climate_data.json
-          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Update climate data - $(date)" && git push)
+          git add _data/metrics.yml
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Update climate metrics - $(date)" && git push)
