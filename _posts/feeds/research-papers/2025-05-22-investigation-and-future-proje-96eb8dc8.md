@@ -1,0 +1,11 @@
+---
+layout: feed_item
+title: "Investigation and future projections of warm rain during the winter monsoon in the Western Java Sea, Indonesia"
+date: 2025-05-22 00:00:00
+categories: [research-papers]
+external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1581382
+is_feed: true
+source_feed: "https://www.frontiersin.org/journals/climate/rss"
+---
+
+This study investigates the characteristics and future projections of warm rain during the winter monsoon (December–February; DJF) over the western part of the Java Sea (WJS), Indonesia, using satellite observations (TRMM), reanalysis data (ERA5), and model simulations (Atmospheric General Circulation Model; AGCM). The WJS, influenced by winter monsoon, experiences increased Sea Surface Temperatures (SST), which play a significant role in atmospheric dynamics and precipitation. Analysis of ERA5 data from 1950 to 2009 indicates a significant upward trend in SST for both the Indonesian region (slope 0.0070°C/yr) and the WJS (slope 0.0094°C/yr), with the highest SST increases occurring during DJF. Relating SST and Cloud Liquid Water Content (CLWC) during DJF shows a positive correlation coefficient (R) in the pathway of winter monsoon including the WJS. The R between cloud particles (CLWC, graupel and Cloud Ice Water Content; CIWC) and rainfall during DJF in WJS is higher for CLWC and rainfall which indicates the importance of CLWC. Warm rain processes, driven by CLWC, are evident, as TRMM observations of shallow rainfall align with CLWC spatial distributions. AGCM simulations successfully replicate the observed CLWC patterns, showing strong agreement with TRMM data in the western region of Indonesia including WJS. The study also compares low-level convergence patterns from ERA5 and AGCM data at 925 hPa, revealing similar trends in WJS, where convergence facilitates CLWC formation. The analysis of CLWC percentiles at an average of 1,000–700 hPa highlights a significant increase in CLWC over the pathway of winter monsoon, including the WJS, during DJF across 30-year intervals. The trends of CLWC for the Indonesia area and WJS also demonstrate the increasing value. These findings underscore the critical role of the winter monsoon in shaping warm rain processes in WJS and its implications for extreme weather events, such as flooding in land areas such as Jakarta.
