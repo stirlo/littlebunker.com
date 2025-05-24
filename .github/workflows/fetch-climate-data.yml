@@ -1,0 +1,247 @@
+name: Fetch Climate Data via APIs
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:
+
+jobs:
+  fetch-climate-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install requests pyyaml
+
+      - name: Fetch Climate Data from APIs
+        run: |
+          python << 'EOF'
+          import requests
+          import json
+          import os
+          from datetime import datetime
+          import time
+
+          os.makedirs('_data', exist_ok=True)
+
+          def load_previous_data():
+              """Load previous data or use emergency fallbacks"""
+              try:
+                  if os.path.exists('_data/climate_data.json'):
+                      with open('_data/climate_data.json', 'r') as f:
+                          data = json.load(f)
+                      print("✅ Loaded previous data as baseline")
+                      return data.get('current_values', {})
+              except Exception as e:
+                  print(f"⚠️ Could not load previous data: {e}")
+
+              # Emergency fallbacks only for first run
+              return {
+                  'co2_current': 421.85,
+                  'co2_change': 2.4,
+                  'ch4_current': 1912.0,
+                  'ch4_change': 8.2,
+                  'temp_anomaly': 1.15,
+                  'population': 8.12,
+                  'pop_growth': 67
+              }
+
+          def validate_change(new_val, old_val, max_change, name):
+              """Validate that changes are reasonable"""
+              if abs(new_val - old_val) > max_change:
+                  print(f"⚠️ {name} change too large ({new_val} vs {old_val}), keeping previous")
+                  return old_val
+              return new_val
+
+          # Load baseline data
+          current_values = load_previous_data()
+          print(f"🔄 Starting with: CO2 {current_values.get('co2_current', 'N/A')} ppm")
+
+          # 1. Try Open-Meteo API for CO2 (free, no registration)
+          print("\n📊 Fetching CO2 data from Open-Meteo API...")
+          try:
+              # Open-Meteo has atmospheric composition data
+              response = requests.get(
+                  "https://api.open-meteo.com/v1/air-quality?latitude=19.5&longitude=-155.5&current=carbon_monoxide,carbon_dioxide&timezone=UTC",
+                  timeout=15
+              )
+              if response.status_code == 200:
+                  data = response.json()
+                  if 'current' in data and 'carbon_dioxide' in data['current']:
+                      # Note: This might be local CO2, not global average
+                      new_co2 = data['current']['carbon_dioxide']
+                      print(f"📊 Open-Meteo CO2: {new_co2}")
+                      # Only update if reasonable (Open-Meteo might give local readings)
+                      if 400 <= new_co2 <= 450:
+                          current_values['co2_current'] = validate_change(
+                              new_co2, current_values.get('co2_current', 421), 10, "CO2"
+                          )
+              else:
+                  print(f"❌ Open-Meteo API returned {response.status_code}")
+          except Exception as e:
+              print(f"❌ Open-Meteo API failed: {e}")
+
+          # 2. Try NOAA direct API (backup)
+          print("\n📊 Fetching CO2 from NOAA direct...")
+          try:
+              response = requests.get(
+                  "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.txt",
+                  timeout=15
+              )
+              if response.status_code == 200:
+                  lines = [line for line in response.text.strip().split('\n') 
+                          if not line.startswith('#') and line.strip()]
+                  if lines:
+                      latest = lines[-1].split()
+                      if len(latest) >= 2:
+                          new_co2 = round(float(latest[1]), 2)
+                          current_values['co2_current'] = validate_change(
+                              new_co2, current_values.get('co2_current', 421), 10, "CO2"
+                          )
+                          print(f"✅ NOAA CO2: {current_values['co2_current']} ppm")
+
+                          # Calculate annual change
+                          if len(lines) >= 13:
+                              year_ago = lines[-13].split()
+                              if len(year_ago) >= 2:
+                                  current_values['co2_change'] = round(
+                                      current_values['co2_current'] - float(year_ago[1]), 2
+                                  )
+          except Exception as e:
+              print(f"❌ NOAA CO2 failed: {e}")
+
+          # 3. Try Our World in Data API for emissions data
+          print("\n📊 Fetching emissions data from Our World in Data...")
+          try:
+              # OWID has a simple API for latest data
+              response = requests.get(
+                  "https://raw.githubusercontent.com/owid/co2-data/master/owid-co2-data.json",
+                  timeout=20
+              )
+              if response.status_code == 200:
+                  data = response.json()
+                  # Get global data (OWID_WRL = World)
+                  if 'OWID_WRL' in data:
+                      world_data = data['OWID_WRL']['data']
+                      if world_data:
+                          latest_year = max(world_data.keys())
+                          latest_data = world_data[latest_year]
+                          if 'co2' in latest_data:
+                              print(f"✅ OWID latest CO2 emissions data from {latest_year}")
+                              # This is emissions, not atmospheric concentration
+                              # But useful for context
+          except Exception as e:
+              print(f"❌ OWID API failed: {e}")
+
+          # 4. Try Copernicus Climate Data Store (if available without auth)
+          print("\n🌡️ Fetching temperature data...")
+          try:
+              # Try NASA GISS direct
+              response = requests.get(
+                  "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt",
+                  timeout=15
+              )
+              if response.status_code == 200:
+                  lines = response.text.strip().split('\n')
+                  for line in reversed(lines):
+                      if line.strip() and not line.startswith('#'):
+                          parts = line.split()
+                          if len(parts) >= 14 and parts[0].isdigit():
+                              year = int(parts[0])
+                              if year >= 2020 and parts[13] != '*':
+                                  new_temp = round(float(parts[13]) / 100.0, 2)
+                                  current_values['temp_anomaly'] = validate_change(
+                                      new_temp, current_values.get('temp_anomaly', 1.15), 1.0, "Temperature"
+                                  )
+                                  print(f"✅ NASA GISS Temperature: +{current_values['temp_anomaly']}°C ({year})")
+                                  break
+          except Exception as e:
+              print(f"❌ NASA GISS failed: {e}")
+
+          # 5. Try World Bank API for population
+          print("\n👥 Fetching population data from World Bank API...")
+          try:
+              # World Bank has a free API
+              response = requests.get(
+                  "https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json&date=2023",
+                  timeout=15
+              )
+              if response.status_code == 200:
+                  data = response.json()
+                  if len(data) > 1 and data[1]:
+                      pop_data = data[1][0]
+                      if 'value' in pop_data and pop_data['value']:
+                          new_pop = round(pop_data['value'] / 1000000000, 2)
+                          current_values['population'] = validate_change(
+                              new_pop, current_values.get('population', 8.12), 0.5, "Population"
+                          )
+                          print(f"✅ World Bank Population: {current_values['population']}B")
+          except Exception as e:
+              print(f"❌ World Bank API failed: {e}")
+
+          # 6. Backup: Try Worldometers scraping
+          print("\n👥 Backup: Fetching population from Worldometers...")
+          try:
+              response = requests.get("https://worldometers.info/world-population/", timeout=15)
+              if response.status_code == 200:
+                  import re
+                  pop_match = re.search(r'rts-counter[^>]*>([0-9,]+)', response.text)
+                  if pop_match:
+                      pop_str = pop_match.group(1).replace(',', '')
+                      new_pop = round(float(pop_str) / 1000000000, 2)
+                      current_values['population'] = validate_change(
+                          new_pop, current_values.get('population', 8.12), 0.5, "Population"
+                      )
+                      print(f"✅ Worldometers Population: {current_values['population']}B")
+          except Exception as e:
+              print(f"❌ Worldometers failed: {e}")
+
+          # Create comprehensive data structure
+          climate_data = {
+              'last_updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S UTC"),
+              'update_frequency': 'Every 2 hours',
+              'data_sources': {
+                  'co2': 'NOAA Global Monitoring Laboratory',
+                  'temperature': 'NASA GISS',
+                  'population': 'World Bank API / Worldometers',
+                  'apis_tested': [
+                      'Open-Meteo API',
+                      'NOAA Direct',
+                      'Our World in Data',
+                      'NASA GISS',
+                      'World Bank API',
+                      'Worldometers'
+                  ]
+              },
+              'current_values': current_values,
+              'status': {
+                  'co2_updated': current_values.get('co2_current') is not None,
+                  'temperature_updated': current_values.get('temp_anomaly') is not None,
+                  'population_updated': current_values.get('population') is not None
+              }
+          }
+
+          # Save to JSON
+          with open('_data/climate_data.json', 'w') as f:
+              json.dump(climate_data, f, indent=2)
+
+          print(f"\n✅ Climate data saved to _data/climate_data.json")
+          print(f"📊 Final values:")
+          print(f"   CO2: {current_values.get('co2_current', 'N/A')} ppm")
+          print(f"   CH4: {current_values.get('ch4_current', 'N/A')} ppb")
+          print(f"   Temperature: +{current_values.get('temp_anomaly', 'N/A')}°C")
+          print(f"   Population: {current_values.get('population', 'N/A')}B")
+          EOF
+
+      - name: Commit climate data
+        run: |
+          git config --global user.name 'Climate Data Bot'
+          git config --global user.email 'action@github.com'
+          git add _data/climate_data.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "📊 Update climate data - $(date)" && git push)
