@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-05-24 09:28:29 UTC",
+  "last_updated": "2025-05-24 09:35:11 UTC",
   "update_frequency": "Every 2 hours",
   "data_sources": {
     "co2": "NOAA Global Monitoring Laboratory",
@@ -8,9 +8,9 @@
     "population": "World Bank API / Worldometers"
   },
   "current_values": {
-    "co2_current": 421.85,
-    "co2_change": 416.85,
-    "ch4_current": 1935.3,
+    "co2_current": 427.61,
+    "co2_change": 3.59,
+    "ch4_current": 2025.0,
     "ch4_change": 8.2,
     "temp_anomaly": 1.15,
     "population": 8.06,
