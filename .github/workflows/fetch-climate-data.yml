@@ -72,10 +72,7 @@ jobs:
           current_values = load_previous_data()
           print(f"🔄 Starting with: CO2 {current_values.get('co2_current', 'N/A')} ppm")
 
-          # 1. Skip Open-Meteo for now (404 error)
-          print("\n📊 Skipping Open-Meteo (returned 404)")
-
-          # 2. Try NOAA direct API with better parsing
+          # 1. Try NOAA direct API with CORRECT parsing
           print("\n📊 Fetching CO2 from NOAA direct...")
           try:
               response = requests.get(
@@ -88,19 +85,21 @@ jobs:
                   if lines:
                       latest = lines[-1].split()
                       print(f"🔍 NOAA latest line: {latest}")
-                      if len(latest) >= 2:
+                      # Format: [YYYY, M, DD, CO2_current, CO2_smoothed]
+                      if len(latest) >= 4:
                           try:
-                              new_co2 = round(float(latest[1]), 2)
+                              new_co2 = round(float(latest[3]), 2)  # Index 3 = CO2 value
+                              print(f"🔍 Parsed CO2: {new_co2} ppm from {latest[0]}-{latest[1]}-{latest[2]}")
                               # Validate: CO2 should be 350-500 ppm range
                               current_values['co2_current'] = validate_value(
                                   new_co2, current_values.get('co2_current', 421), 350, 500, "CO2"
                               )
 
                               # Calculate annual change if we have enough data
-                              if len(lines) >= 13:
-                                  year_ago = lines[-13].split()
-                                  if len(year_ago) >= 2:
-                                      year_ago_val = float(year_ago[1])
+                              if len(lines) >= 365:  # Try full year of daily data
+                                  year_ago = lines[-365].split()
+                                  if len(year_ago) >= 4:
+                                      year_ago_val = float(year_ago[3])  # Also index 3
                                       current_values['co2_change'] = round(
                                           current_values['co2_current'] - year_ago_val, 2
                                       )
@@ -110,7 +109,7 @@ jobs:
           except Exception as e:
               print(f"❌ NOAA CO2 failed: {e}")
 
-          # 3. Try NOAA for CH4 data
+          # 2. Try NOAA for CH4 data with correct parsing
           print("\n📊 Fetching CH4 from NOAA...")
           try:
               response = requests.get(
@@ -123,19 +122,28 @@ jobs:
                   if lines:
                       latest = lines[-1].split()
                       print(f"🔍 CH4 latest line: {latest}")
+                      # CH4 format might be different - let's check what we get
                       if len(latest) >= 4:
                           try:
-                              new_ch4 = round(float(latest[3]), 1)
-                              # Validate: CH4 should be 1500-2500 ppb range
-                              current_values['ch4_current'] = validate_value(
-                                  new_ch4, current_values.get('ch4_current', 1912), 1500, 2500, "CH4"
-                              )
-                          except (ValueError, IndexError) as e:
+                              # Try different indices to find the CH4 value
+                              for i, val in enumerate(latest):
+                                  try:
+                                      test_val = float(val)
+                                      if 1500 <= test_val <= 2500:  # Reasonable CH4 range
+                                          new_ch4 = round(test_val, 1)
+                                          print(f"🔍 Found CH4 at index {i}: {new_ch4} ppb")
+                                          current_values['ch4_current'] = validate_value(
+                                              new_ch4, current_values.get('ch4_current', 1912), 1500, 2500, "CH4"
+                                          )
+                                          break
+                                  except ValueError:
+                                      continue
+                          except Exception as e:
                               print(f"❌ Could not parse CH4 value: {e}")
           except Exception as e:
               print(f"❌ NOAA CH4 failed: {e}")
 
-          # 4. Temperature from NASA GISS
+          # 3. Temperature from NASA GISS
           print("\n🌡️ Fetching temperature data...")
           try:
               response = requests.get(
@@ -163,40 +171,55 @@ jobs:
           except Exception as e:
               print(f"❌ NASA GISS failed: {e}")
 
-          # 5. Population from World Bank API
+          # 4. Population from World Bank API (try multiple years)
           print("\n👥 Fetching population data from World Bank API...")
-          try:
-              response = requests.get(
-                  "https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json&date=2023",
-                  timeout=15
-              )
-              if response.status_code == 200:
-                  data = response.json()
-                  if len(data) > 1 and data[1]:
-                      pop_data = data[1][0]
-                      if 'value' in pop_data and pop_data['value']:
-                          new_pop = round(pop_data['value'] / 1000000000, 2)
-                          # Validate: Population should be 7-10 billion
-                          current_values['population'] = validate_value(
-                              new_pop, current_values.get('population', 8.12), 7.0, 10.0, "Population"
-                          )
-          except Exception as e:
-              print(f"❌ World Bank API failed: {e}")
+          population_updated = False
+          for year in [2024, 2023, 2022]:  # Try recent years
+              try:
+                  response = requests.get(
+                      f"https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL?format=json&date={year}",
+                      timeout=15
+                  )
+                  if response.status_code == 200:
+                      data = response.json()
+                      if len(data) > 1 and data[1]:
+                          pop_data = data[1][0]
+                          if 'value' in pop_data and pop_data['value']:
+                              new_pop = round(pop_data['value'] / 1000000000, 2)
+                              print(f"🔍 World Bank population for {year}: {new_pop}B")
+                              # Validate: Population should be 7-10 billion
+                              current_values['population'] = validate_value(
+                                  new_pop, current_values.get('population', 8.12), 7.0, 10.0, "Population"
+                              )
+                              population_updated = True
+                              break
+              except Exception as e:
+                  print(f"❌ World Bank API failed for {year}: {e}")
 
-          # 6. Backup: Worldometers for population
-          if current_values.get('population') == current_values.get('population', 8.12):  # If no update from World Bank
+          # 5. Backup: Worldometers for population (if World Bank failed)
+          if not population_updated:
               print("\n👥 Backup: Fetching population from Worldometers...")
               try:
                   response = requests.get("https://worldometers.info/world-population/", timeout=15)
                   if response.status_code == 200:
                       import re
+                      # Look for the live counter
                       pop_match = re.search(r'rts-counter[^>]*>([0-9,]+)', response.text)
                       if pop_match:
                           pop_str = pop_match.group(1).replace(',', '')
                           new_pop = round(float(pop_str) / 1000000000, 2)
+                          print(f"🔍 Worldometers live population: {new_pop}B")
                           current_values['population'] = validate_value(
                               new_pop, current_values.get('population', 8.12), 7.0, 10.0, "Population"
                           )
+
+                      # Try to get growth rate too
+                      growth_match = re.search(r'([0-9,]+)\s*people.*year', response.text)
+                      if growth_match:
+                          growth_str = growth_match.group(1).replace(',', '')
+                          new_growth = round(float(growth_str) / 1000000, 0)
+                          current_values['pop_growth'] = new_growth
+                          print(f"📈 Population growth: +{new_growth}M/year")
               except Exception as e:
                   print(f"❌ Worldometers failed: {e}")
 
@@ -234,7 +257,7 @@ jobs:
           print(f"   CO2: {current_values.get('co2_current', 'N/A')} ppm (+{current_values.get('co2_change', 'N/A')}/year)")
           print(f"   CH4: {current_values.get('ch4_current', 'N/A')} ppb")
           print(f"   Temperature: +{current_values.get('temp_anomaly', 'N/A')}°C")
-          print(f"   Population: {current_values.get('population', 'N/A')}B")
+          print(f"   Population: {current_values.get('population', 'N/A')}B (+{current_values.get('pop_growth', 'N/A')}M/year)")
           EOF
 
       - name: Commit climate data
