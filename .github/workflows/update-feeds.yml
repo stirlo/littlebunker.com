@@ -3,7 +3,7 @@ name: Update RSS Feeds
 on:
   schedule:
     - cron: '0 * * * *'  # Every hour
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
 
 jobs:
   update-feeds:
@@ -14,7 +14,7 @@ jobs:
       - name: Create data directories
         run: |
           mkdir -p _data/feeds
-          mkdir -p _data/metrics
+          mkdir -p _data/rss_tracking
           mkdir -p _posts/feeds/climate-science
           mkdir -p _posts/feeds/environmental-news
           mkdir -p _posts/feeds/extreme-weather
@@ -22,7 +22,6 @@ jobs:
           mkdir -p _posts/feeds/research-papers
           mkdir -p _posts/feeds/media
 
-      # Set up Python for feed processing
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -31,251 +30,6 @@ jobs:
       - name: Install Python dependencies
         run: pip install feedparser pyyaml requests beautifulsoup4
 
-      # Update Climate Metrics with real data only
-      - name: Update Climate Metrics
-        run: |
-          python - << 'EOF'
-          import requests
-          import yaml
-          import json
-          import os
-          import re
-          from datetime import datetime
-          from bs4 import BeautifulSoup
-
-          # Create directory if it doesn't exist
-          os.makedirs('_data', exist_ok=True)
-
-          # Function to safely fetch data from APIs
-          def safe_api_fetch(url, headers=None):
-              try:
-                  response = requests.get(url, headers=headers, timeout=10)
-                  response.raise_for_status()
-                  return response.json()
-              except Exception as e:
-                  print(f"Error fetching from {url}: {e}")
-                  return None
-
-          # Get current date
-          current_date = datetime.now().strftime("%Y-%m-%d")
-
-          # Initialize with default values (last known good)
-          co2_current = 421.5
-          co2_change = 2.5
-          ch4_current = 1908.0
-          ch4_change = 8.5
-          temp_overshoot = 1.2
-          pop_total = 8.1
-          pop_growth = 67
-
-          # Try to load existing metrics to use as fallback
-          try:
-              if os.path.exists('_data/metrics.yml'):
-                  with open('_data/metrics.yml', 'r') as f:
-                      existing_metrics = yaml.safe_load(f)
-                      if existing_metrics and 'co2' in existing_metrics:
-                          co2_current = existing_metrics['co2'].get('current', co2_current)
-                          co2_change = existing_metrics['co2'].get('change', co2_change)
-                      if existing_metrics and 'ch4' in existing_metrics:
-                          ch4_current = existing_metrics['ch4'].get('current', ch4_current)
-                          ch4_change = existing_metrics['ch4'].get('change', ch4_change)
-                      if existing_metrics and 'temperature' in existing_metrics:
-                          temp_overshoot = existing_metrics['temperature'].get('overshoot', temp_overshoot)
-                      if existing_metrics and 'population' in existing_metrics:
-                          pop_total = existing_metrics['population'].get('total', pop_total)
-                          pop_growth = existing_metrics['population'].get('growth', pop_growth)
-          except Exception as e:
-              print(f"Error loading existing metrics: {e}")
-
-          # Try multiple sources for CO2 data
-          # 1. Try CO2.Earth website
-          try:
-              co2_response = requests.get('https://www.co2.earth/daily-co2', timeout=10)
-              if co2_response.status_code == 200:
-                  html = co2_response.text
-                  soup = BeautifulSoup(html, 'html.parser')
-
-                  # Look for the current CO2 value
-                  co2_elements = soup.select('.value')
-                  for element in co2_elements:
-                      if 'ppm' in element.text:
-                          try:
-                              co2_current = float(re.search(r'(\d+\.\d+)', element.text).group(1))
-                              print(f"Found CO2 value from CO2.Earth: {co2_current} ppm")
-                              break
-                          except:
-                              pass
-
-                  # Look for the annual change
-                  change_elements = soup.select('.value')
-                  for element in change_elements:
-                      if '+' in element.text and 'ppm' in element.text:
-                          try:
-                              co2_change = float(re.search(r'([+-]?\d+\.\d+)', element.text).group(1))
-                              print(f"Found CO2 change from CO2.Earth: {co2_change} ppm")
-                              break
-                          except:
-                              pass
-          except Exception as e:
-              print(f"Error fetching CO2 data from CO2.Earth website: {e}")
-
-              # 2. Try NOAA GML if CO2.Earth fails
-              try:
-                  co2_response = requests.get('https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.txt', timeout=10)
-                  if co2_response.status_code == 200:
-                      lines = co2_response.text.strip().split('\n')
-                      data_lines = [line for line in lines if not line.startswith('#')]
-                      if len(data_lines) > 0:
-                          latest = data_lines[-1].split()
-                          if len(latest) >= 2:
-                              co2_current = float(latest[1])
-                              print(f"Found CO2 value from NOAA GML: {co2_current} ppm")
-
-                          if len(data_lines) >= 13:
-                              previous_year = data_lines[-13].split()
-                              if len(previous_year) >= 2:
-                                  co2_change = co2_current - float(previous_year[1])
-                                  print(f"Calculated CO2 change from NOAA GML: {co2_change} ppm")
-              except Exception as e:
-                  print(f"Error fetching CO2 data from NOAA GML: {e}")
-
-                  # 3. Try Scripps CO2 Program if NOAA fails
-                  try:
-                      co2_response = requests.get('https://scrippsco2.ucsd.edu/assets/data/atmospheric/stations/in_situ_co2/daily/daily_in_situ_co2_mlo.csv', timeout=10)
-                      if co2_response.status_code == 200:
-                          lines = co2_response.text.strip().split('\n')
-                          data_lines = [line for line in lines if not line.startswith('"')]
-                          if len(data_lines) > 0:
-                              latest_data = data_lines[-1].split(',')
-                              if len(latest_data) >= 7:
-                                  co2_current = float(latest_data[6])
-                                  print(f"Found CO2 value from Scripps CO2 Program: {co2_current} ppm")
-
-                              if len(data_lines) >= 366:
-                                  previous_year_data = data_lines[-366].split(',')
-                                  if len(previous_year_data) >= 7:
-                                      co2_change = co2_current - float(previous_year_data[6])
-                                      print(f"Calculated CO2 change from Scripps CO2 Program: {co2_change} ppm")
-                  except Exception as e:
-                      print(f"Error fetching CO2 data from Scripps CO2 Program: {e}")
-                      # Fall back to existing values
-
-          # Try to fetch methane data from NOAA (if available)
-          try:
-              ch4_response = requests.get('https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.txt', timeout=10)
-              if ch4_response.status_code == 200:
-                  lines = ch4_response.text.strip().split('\n')
-                  data_lines = [line for line in lines if not line.startswith('#')]
-                  if len(data_lines) >= 2:
-                      # Parse the last two lines to get current value and calculate change
-                      latest = data_lines[-1].split()
-                      previous_year = data_lines[-13].split()  # Approximately 1 year ago
-                      if len(latest) >= 4 and len(previous_year) >= 4:
-                          ch4_current = float(latest[3])
-                          ch4_change = ch4_current - float(previous_year[3])
-                          print(f"Found CH4 value from NOAA: {ch4_current} ppb, change: {ch4_change} ppb")
-          except Exception as e:
-              print(f"Error fetching methane data: {e}")
-              # Fall back to existing values, no randomization
-
-          # Try to fetch temperature data from NASA GISS
-          try:
-              temp_response = requests.get('https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt', timeout=10)
-              if temp_response.status_code == 200:
-                  lines = temp_response.text.strip().split('\n')
-                  data_lines = [line for line in lines if line.strip() and not line.startswith('#')]
-                  for line in reversed(data_lines):
-                      if line.strip():
-                          parts = line.split()
-                          if len(parts) >= 14 and parts[0].isdigit() and int(parts[0]) >= 2020:
-                              # The 13th column is the annual mean
-                              if parts[13] != '*':
-                                  temp_overshoot = float(parts[13]) / 100.0  # Convert to degrees C
-                                  print(f"Found temperature overshoot from NASA GISS: {temp_overshoot}°C")
-                                  break
-          except Exception as e:
-              print(f"Error fetching temperature data: {e}")
-
-              # Try Berkeley Earth as an alternative
-              try:
-                  temp_response = requests.get('http://berkeleyearth.lbl.gov/auto/Global/Land_and_Ocean_summary.txt', timeout=10)
-                  if temp_response.status_code == 200:
-                      lines = temp_response.text.strip().split('\n')
-                      data_lines = [line for line in lines if line.strip() and not line.startswith('%')]
-                      for line in reversed(data_lines):
-                          if line.strip():
-                              parts = line.split()
-                              if len(parts) >= 2 and parts[0].isdigit() and int(parts[0]) >= 2020:
-                                  temp_overshoot = float(parts[1])
-                                  print(f"Found temperature overshoot from Berkeley Earth: {temp_overshoot}°C")
-                                  break
-              except Exception as e:
-                  print(f"Error fetching temperature data from Berkeley Earth: {e}")
-                  # Fall back to existing values
-
-          # Try to fetch population data
-          try:
-              pop_response = requests.get('https://www.worldometers.info/world-population/', timeout=10)
-              if pop_response.status_code == 200:
-                  html = pop_response.text
-                  soup = BeautifulSoup(html, 'html.parser')
-
-                  # Look for the current population counter
-                  pop_counter = soup.select_one('.rts-counter')
-                  if pop_counter:
-                      pop_str = pop_counter.text.replace(',', '')
-                      try:
-                          pop_total = round(float(pop_str) / 1000000000, 1)  # Convert to billions
-                          print(f"Found population total from Worldometers: {pop_total}B")
-                      except:
-                          pass
-
-                  # Look for growth rate
-                  growth_elements = soup.select('.counter-number')
-                  for element in growth_elements:
-                      if element.get('rel') == 'current_population':
-                          parent = element.parent.parent
-                          growth_element = parent.select_one('.counter-number[rel="current_population_increase"]')
-                          if growth_element:
-                              try:
-                                  growth_str = growth_element.text.replace(',', '')
-                                  pop_growth = round(float(growth_str) * 365 / 1000000, 0)  # Convert daily to annual in millions
-                                  print(f"Found population growth from Worldometers: {pop_growth}M per year")
-                              except:
-                                  pass
-                          break
-          except Exception as e:
-              print(f"Error fetching population data: {e}")
-              # Fall back to existing values
-
-          # Create metrics data
-          metrics = {
-              'last_updated': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-              'co2': {
-                  'current': co2_current,
-                  'change': co2_change
-              },
-              'ch4': {
-                  'current': ch4_current,
-                  'change': ch4_change
-              },
-              'temperature': {
-                  'overshoot': temp_overshoot
-              },
-              'population': {
-                  'total': pop_total,
-                  'growth': pop_growth
-              }
-          }
-
-          # Save to YAML file
-          with open('_data/metrics.yml', 'w') as f:
-              yaml.dump(metrics, f, default_flow_style=False)
-
-          print(f"Updated climate metrics: CO2 {co2_current} ppm, CH4 {ch4_current} ppb, Temp +{temp_overshoot}°C, Pop {pop_total}B")
-          EOF
-
-      # Fetch feeds and create posts with Python
       - name: Fetch Feeds and Create Posts
         run: |
           python - << 'EOF'
@@ -285,23 +39,71 @@ jobs:
           import re
           import os
           import json
-          import requests
+          import hashlib
+          from datetime import datetime, timezone, timedelta
+
+          # Load existing URL tracking
+          def load_posted_urls():
+              try:
+                  if os.path.exists('_data/rss_tracking/posted_urls.json'):
+                      with open('_data/rss_tracking/posted_urls.json', 'r') as f:
+                          return json.load(f)
+                  else:
+                      os.makedirs('_data/rss_tracking', exist_ok=True)
+                      return {"posted_urls": []}
+              except Exception as e:
+                  print(f"Error loading posted URLs: {e}")
+                  return {"posted_urls": []}
+
+          def save_posted_url(url):
+              try:
+                  posted_data = load_posted_urls()
+                  posted_data["posted_urls"].append(url)
+                  # Keep only last 500 URLs to prevent file growing too large
+                  posted_data["posted_urls"] = posted_data["posted_urls"][-500:]
+
+                  with open('_data/rss_tracking/posted_urls.json', 'w') as f:
+                      json.dump(posted_data, f, indent=2)
+              except Exception as e:
+                  print(f"Error saving posted URL: {e}")
+
+          def is_recent_article(published_date, max_age_hours=72):
+              """Check if article is within the last 72 hours"""
+              try:
+                  if isinstance(published_date, str):
+                      # Try to parse various date formats
+                      for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S']:
+                          try:
+                              article_date = datetime.strptime(published_date, fmt)
+                              break
+                          except ValueError:
+                              continue
+                      else:
+                          return False
+                  else:
+                      article_date = datetime(*published_date[:6])
+
+                  # Make timezone aware if needed
+                  if article_date.tzinfo is None:
+                      article_date = article_date.replace(tzinfo=timezone.utc)
+
+                  cutoff_date = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
+                  return article_date > cutoff_date
+              except Exception as e:
+                  print(f"Error checking article date: {e}")
+                  return False
 
           def clean_title(title):
               return title.replace('"', '\\"')
 
           def clean_content(content):
-              # Remove HTML tags
               content = re.sub(r'<[^>]+>', '', content)
-              # Replace quotes
               content = content.replace('"', '\\"')
               return content
 
           def fetch_feed(url):
               try:
                   feed = feedparser.parse(url)
-
-                  # Save feed to JSON
                   feed_name = url.split('/')[-2] if url.endswith('/') else url.split('/')[-1]
                   feed_name = re.sub(r'[^a-z0-9]+', '-', feed_name.lower())
 
@@ -316,7 +118,7 @@ jobs:
                       item = {
                           "title": entry.get('title', 'No Title'),
                           "link": entry.get('link', ''),
-                          "pubDate": entry.get('published', datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")),
+                          "pubDate": entry.get('published', datetime.now().strftime("%a, %d %b %Y %H:%M:%S %z")),
                           "description": entry.get('summary', '')
                       }
                       feed_data["items"].append(item)
@@ -334,15 +136,30 @@ jobs:
               if not feed:
                   return
 
-              for entry in feed.entries[:5]:  # Get top 5 entries
+              posted_data = load_posted_urls()
+              posted_urls = posted_data["posted_urls"]
+              new_posts_count = 0
+
+              for entry in feed.entries[:10]:  # Check more entries but be selective
                   try:
+                      # Skip if already posted
+                      if entry.link in posted_urls:
+                          continue
+
+                      # Skip if older than 72 hours
+                      if hasattr(entry, 'published_parsed') and not is_recent_article(entry.published_parsed):
+                          continue
+
                       title = clean_title(entry.title)
 
-                      # Get date or use current date
+                      # Use published date consistently
                       try:
-                          date = datetime.datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S")
+                          if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                              date = datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S")
+                          else:
+                              date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                       except:
-                          date = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                          date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
                       # Get content
                       if 'content' in entry:
@@ -352,9 +169,14 @@ jobs:
                       else:
                           content = ""
 
-                      # Create filename
+                      # Create filename with URL hash to prevent duplicates
+                      url_hash = hashlib.md5(entry.link.encode()).hexdigest()[:8]
                       slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
-                      filename = f"{output_dir}/{date.split()[0]}-{slug[:40]}.md"
+                      filename = f"{output_dir}/{date.split()[0]}-{slug[:30]}-{url_hash}.md"
+
+                      # Skip if file already exists
+                      if os.path.exists(filename):
+                          continue
 
                       # Create post content
                       post_content = f"""---
@@ -364,6 +186,7 @@ jobs:
           categories: [{category}]
           external_url: {entry.link}
           is_feed: true
+          source_feed: "{feed_url}"
           ---
 
           {content}
@@ -372,69 +195,75 @@ jobs:
                       # Write to file
                       with open(filename, 'w') as f:
                           f.write(post_content)
+
+                      # Track this URL
+                      save_posted_url(entry.link)
+                      new_posts_count += 1
+
+                      print(f"Created new post: {title[:50]}...")
+
+                      # Limit to 2 new posts per feed per run
+                      if new_posts_count >= 2:
+                          break
+
                   except Exception as e:
                       print(f"Error processing entry: {e}")
 
-          # Climate Science feeds
+              print(f"Created {new_posts_count} new posts from {feed_url}")
+
+          # Feed lists (same as yours)
           climate_science_feeds = [
               "https://climate.nasa.gov/feed/",
               "https://www.ipcc.ch/feed/",
               "https://www.climate.gov/news-features/feed",
-              "https://www.nature.com/nclimate.rss",  # Nature Climate Change
-              "https://advances.sciencemag.org/rss/current.xml",  # Science Advances
-              "https://www.sciencedaily.com/rss/earth_climate/climate.xml",  # ScienceDaily Climate
-              "https://unfccc.int/news/rss.xml"  # UN Climate Change News
+              "https://www.nature.com/nclimate.rss",
+              "https://advances.sciencemag.org/rss/current.xml",
+              "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
+              "https://unfccc.int/news/rss.xml"
           ]
 
-          # Environmental News feeds
           environmental_news_feeds = [
               "https://insideclimatenews.org/feed/",
               "https://www.carbonbrief.org/feed/",
-              "https://www.theguardian.com/environment/climate-crisis/rss",  # Guardian Climate
-              "https://grist.org/feed/",  # Grist
-              "https://e360.yale.edu/feed/",  # Yale Environment 360
-              "https://climatecrisis.house.gov/rss.xml",  # Climate Crisis Committee
-              "https://www.climatechangenews.com/feed/"  # Climate Home News
+              "https://www.theguardian.com/environment/climate-crisis/rss",
+              "https://grist.org/feed/",
+              "https://e360.yale.edu/feed/",
+              "https://climatecrisis.house.gov/rss.xml",
+              "https://www.climatechangenews.com/feed/"
           ]
 
-          # Extreme Weather feeds
           extreme_weather_feeds = [
-              "https://www.wunderground.com/cat6/feed",  # Weather Underground Category 6
-              "https://www.climatesignals.org/rss.xml",  # Climate Signals
-              "https://www.preventionweb.net/english/professional/news/rss.php",  # PreventionWeb
-              "https://phys.org/rss-feed/earth-sciences/earth-sciences-news/",  # Phys.org Earth Sciences
-              "https://floodlist.com/feed",  # FloodList
-              "https://www.nhc.noaa.gov/aboutrss.shtml"  # National Hurricane Center
+              "https://www.wunderground.com/cat6/feed",
+              "https://www.climatesignals.org/rss.xml",
+              "https://www.preventionweb.net/english/professional/news/rss.php",
+              "https://phys.org/rss-feed/earth-sciences/earth-sciences-news/",
+              "https://floodlist.com/feed"
           ]
 
-          # Social Impact feeds
           social_impact_feeds = [
-              "https://www.climatemigration.org.uk/rss",  # Climate Migration
-              "https://ejfoundation.org/rss/climate",  # Environmental Justice Foundation
-              "https://www.climaterealityproject.org/blog/rss.xml",  # Climate Reality Project
-              "https://www.wri.org/blog/rss.xml",  # World Resources Institute
-              "https://www.sei.org/feed/",  # Stockholm Environment Institute
-              "https://www.climatejusticealliance.org/feed/"  # Climate Justice Alliance
+              "https://www.climatemigration.org.uk/rss",
+              "https://ejfoundation.org/rss/climate",
+              "https://www.climaterealityproject.org/blog/rss.xml",
+              "https://www.wri.org/blog/rss.xml",
+              "https://www.sei.org/feed/",
+              "https://www.climatejusticealliance.org/feed/"
           ]
 
-          # Research Paper feeds
           research_paper_feeds = [
-              "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",  # PNAS
-              "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",  # Geophysical Research Letters
-              "https://iopscience.iop.org/journal/rss/1748-9326",  # Environmental Research Letters
-              "https://www.frontiersin.org/journals/climate/rss",  # Frontiers in Climate
-              "https://journals.ametsoc.org/action/showFeed?type=etoc&feed=rss&jc=clim",  # Journal of Climate
-              "https://www.nature.com/nclimate.rss",  # Nature Climate Change
-              "https://www.sciencedirect.com/journal/global-environmental-change/rss"  # Global Environmental Change
+              "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",
+              "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",
+              "https://iopscience.iop.org/journal/rss/1748-9326",
+              "https://www.frontiersin.org/journals/climate/rss",
+              "https://journals.ametsoc.org/action/showFeed?type=etoc&feed=rss&jc=clim",
+              "https://www.nature.com/nclimate.rss",
+              "https://www.sciencedirect.com/journal/global-environmental-change/rss"
           ]
 
-          # Media feeds (including Yellow Dot Studios)
           media_feeds = [
-           # too many ads   "https://www.youtube.com/feeds/videos.xml?channel_id=UCuwUl4_fcRio_valO7_lxjA",  # Yellow Dot Studios YouTube
-              "https://climatecrisis.house.gov/rss.xml",  # Climate Crisis Committee
-              "https://www.pbs.org/wgbh/nova/rss/nova-podcasts-rss.xml",  # NOVA PBS
-              "https://rss.art19.com/climate-one",  # Climate One Podcast
-              "https://feeds.megaphone.fm/HSW9992617712"  # How to Save a Planet Podcast
+              "https://climatecrisis.house.gov/rss.xml",
+              "https://www.pbs.org/wgbh/nova/rss/nova-podcasts-rss.xml",
+              "https://rss.art19.com/climate-one",
+              "https://feeds.megaphone.fm/HSW9992617712"
           ]
 
           # Process all feeds
@@ -457,10 +286,9 @@ jobs:
               create_posts_from_feed(feed_url, "media", "_posts/feeds/media")
           EOF
 
-      # Commit changes
       - name: Commit changes
         run: |
-          git config --global user.name 'GitHub Action'
+          git config --global user.name 'RSS Feed Bot'
           git config --global user.email 'action@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update climate feeds and metrics" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update RSS feeds - $(date)" && git push)
