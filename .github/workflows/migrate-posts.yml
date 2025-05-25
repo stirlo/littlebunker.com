@@ -1,0 +1,71 @@
+name: Migrate Posts to Root
+on:
+  workflow_dispatch:
+
+jobs:
+  migrate-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Migrate posts from subfolders
+        run: |
+          echo "Starting migration..."
+          echo "Current structure:"
+          find _posts -name "*.md" -type f | head -10
+
+          # Count files before migration
+          BEFORE_COUNT=$(find _posts -name "*.md" -type f | wc -l)
+          echo "Total markdown files before migration: $BEFORE_COUNT"
+
+          # Find and move all markdown files from subfolders to root
+          find _posts -path "_posts/feeds/*" -name "*.md" -type f | while read file; do
+            filename=$(basename "$file")
+            echo "Moving: $file -> _posts/$filename"
+            mv "$file" "_posts/$filename"
+          done
+
+          # Count files after migration
+          AFTER_COUNT=$(find _posts -name "*.md" -type f | wc -l)
+          echo "Total markdown files after migration: $AFTER_COUNT"
+
+          # Clean up empty directories
+          echo "Cleaning up empty directories..."
+          find _posts/feeds -type d -empty -delete 2>/dev/null || true
+
+          # Try to remove feeds directory if empty
+          if [ -d "_posts/feeds" ]; then
+            rmdir _posts/feeds 2>/dev/null && echo "Removed empty feeds directory" || echo "Feeds directory not empty or doesn't exist"
+          fi
+
+          echo "Migration complete!"
+          echo "Files now in _posts root:"
+          ls -la _posts/*.md | wc -l
+
+      - name: Verify migration
+        run: |
+          echo "Verifying migration results..."
+          echo "Files in _posts root:"
+          ls _posts/*.md | head -5
+          echo "..."
+          echo "Checking for any remaining subfolder files:"
+          find _posts -path "_posts/feeds/*" -name "*.md" -type f || echo "No files found in subfolders - migration successful!"
+
+      - name: Commit migration
+        run: |
+          git config --global user.name 'Migration Bot'
+          git config --global user.email 'action@github.com'
+          git add -A
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit - migration may have already been done"
+          else
+            git commit -m "Migrate RSS posts from subfolders to _posts root
+
+            - Moved all markdown files from _posts/feeds/* to _posts/
+            - Cleaned up empty subdirectories
+            - Prepared for proper Jekyll processing"
+            git push
+            echo "Migration committed and pushed successfully!"
+          fi
