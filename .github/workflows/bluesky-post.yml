@@ -151,7 +151,7 @@ jobs:
                       print(f"Already posted: {entry.get('title', '')}")
                       continue
 
-                 title = entry.get('title', '').strip()
+                  title = entry.get('title', '').strip()
                   link = entry.get('link', '')
                   
                   # Create content with title and link
