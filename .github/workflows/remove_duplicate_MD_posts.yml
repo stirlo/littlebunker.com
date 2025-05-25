@@ -1,0 +1,108 @@
+name: Remove Duplicate Posts
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  deduplicate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Remove duplicates
+        run: |
+          python - << 'EOF'
+          import os
+          import yaml
+          import re
+          from datetime import datetime
+          from collections import defaultdict
+
+          def extract_frontmatter(filepath):
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              # Extract YAML frontmatter
+              if content.startswith('---'):
+                  parts = content.split('---', 2)
+                  if len(parts) >= 3:
+                      try:
+                          frontmatter = yaml.safe_load(parts[1])
+                          return frontmatter, content
+                      except:
+                          return None, content
+              return None, content
+
+          # Find all markdown files in _posts
+          posts_dir = '_posts'
+          post_files = [f for f in os.listdir(posts_dir) if f.endswith('.md')]
+
+          # Group by external_url
+          url_groups = defaultdict(list)
+
+          for filename in post_files:
+              filepath = os.path.join(posts_dir, filename)
+              frontmatter, content = extract_frontmatter(filepath)
+
+              if frontmatter and 'external_url' in frontmatter:
+                  external_url = frontmatter['external_url']
+
+                  # Parse date for comparison
+                  try:
+                      if 'date' in frontmatter:
+                          if isinstance(frontmatter['date'], str):
+                              post_date = datetime.strptime(frontmatter['date'].split()[0], '%Y-%m-%d')
+                          else:
+                              post_date = frontmatter['date']
+                      else:
+                          # Extract date from filename
+                          date_match = re.match(r'(\d{4}-\d{2}-\d{2})', filename)
+                          if date_match:
+                              post_date = datetime.strptime(date_match.group(1), '%Y-%m-%d')
+                          else:
+                              post_date = datetime.now()
+                  except:
+                      post_date = datetime.now()
+
+                  url_groups[external_url].append({
+                      'filename': filename,
+                      'filepath': filepath,
+                      'date': post_date,
+                      'frontmatter': frontmatter
+                  })
+
+          # Remove duplicates (keep oldest)
+          removed_count = 0
+          for external_url, posts in url_groups.items():
+              if len(posts) > 1:
+                  # Sort by date (oldest first)
+                  posts.sort(key=lambda x: x['date'])
+
+                  # Keep the first (oldest), remove the rest
+                  posts_to_remove = posts[1:]
+
+                  print(f"\nDuplicates found for: {external_url}")
+                  print(f"Keeping: {posts[0]['filename']} ({posts[0]['date'].strftime('%Y-%m-%d')})")
+
+                  for post in posts_to_remove:
+                      print(f"Removing: {post['filename']} ({post['date'].strftime('%Y-%m-%d')})")
+                      os.remove(post['filepath'])
+                      removed_count += 1
+
+          print(f"\nRemoved {removed_count} duplicate posts")
+          EOF
+
+      - name: Commit cleanup
+        run: |
+          git config --global user.name 'Deduplication Bot'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git commit -m "Remove duplicate posts (kept oldest per external_url)" || echo "No duplicates found"
+          git push
