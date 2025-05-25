@@ -15,12 +15,6 @@ jobs:
         run: |
           mkdir -p _data/feeds
           mkdir -p _data/rss_tracking
-          mkdir -p _posts/feeds/climate-science
-          mkdir -p _posts/feeds/environmental-news
-          mkdir -p _posts/feeds/extreme-weather
-          mkdir -p _posts/feeds/social-impact
-          mkdir -p _posts/feeds/research-papers
-          mkdir -p _posts/feeds/media
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -131,7 +125,7 @@ jobs:
                   print(f"Error fetching {url}: {e}")
                   return None
 
-          def create_posts_from_feed(feed_url, category, output_dir):
+          def create_posts_from_feed(feed_url, category):
               feed = fetch_feed(feed_url)
               if not feed:
                   return
@@ -172,7 +166,7 @@ jobs:
                       # Create filename with URL hash to prevent duplicates
                       url_hash = hashlib.md5(entry.link.encode()).hexdigest()[:8]
                       slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
-                      filename = f"{output_dir}/{date.split()[0]}-{slug[:30]}-{url_hash}.md"
+                      filename = f"_posts/{date.split()[0]}-{category}-{slug[:30]}-{url_hash}.md"
 
                       # Skip if file already exists
                       if os.path.exists(filename):
@@ -266,24 +260,24 @@ jobs:
               "https://feeds.megaphone.fm/HSW9992617712"
           ]
 
-          # Process all feeds
+          # Process all feeds - FIXED: No more subfolders!
           for feed_url in climate_science_feeds:
-              create_posts_from_feed(feed_url, "climate-science", "_posts/feeds/climate-science")
+              create_posts_from_feed(feed_url, "climate-science")
 
           for feed_url in environmental_news_feeds:
-              create_posts_from_feed(feed_url, "environmental-news", "_posts/feeds/environmental-news")
+              create_posts_from_feed(feed_url, "environmental-news")
 
           for feed_url in extreme_weather_feeds:
-              create_posts_from_feed(feed_url, "extreme-weather", "_posts/feeds/extreme-weather")
+              create_posts_from_feed(feed_url, "extreme-weather")
 
           for feed_url in social_impact_feeds:
-              create_posts_from_feed(feed_url, "social-impact", "_posts/feeds/social-impact")
+              create_posts_from_feed(feed_url, "social-impact")
 
           for feed_url in research_paper_feeds:
-              create_posts_from_feed(feed_url, "research-papers", "_posts/feeds/research-papers")
+              create_posts_from_feed(feed_url, "research-papers")
 
           for feed_url in media_feeds:
-              create_posts_from_feed(feed_url, "media", "_posts/feeds/media")
+              create_posts_from_feed(feed_url, "media")
           EOF
 
       - name: Commit changes
