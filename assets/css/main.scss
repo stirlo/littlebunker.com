@@ -124,6 +124,45 @@ a:hover {
   margin-right: 0.5rem;
 }
 
+// Additional post content styles
+.post-content {
+  line-height: 1.7;
+  color: var(--text-color);
+}
+
+.post-content h2 {
+  color: var(--primary-color);
+  margin-top: 2rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+// Feed-specific styles
+.source-link {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--accent-color);
+}
+
+.read-original {
+  display: inline-block;
+  background: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+
+  &:hover {
+    background: var(--secondary-color);
+    text-decoration: none;
+  }
+}
+
+
 // Category tabs for feed filtering
 .category-tabs {
   display: flex;
