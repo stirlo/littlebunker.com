@@ -154,17 +154,17 @@ jobs:
                   title = entry.get('title', '').strip()
                   link = entry.get('link', '')
                   
-                  # Create content with title and link
-                  content = f"{title}\n\n🔗 {link}"
+                  # Format that forces Bluesky link detection - no emoji, clean spacing
+                  content = f"{title}\n\n{link}"
                   
-                  # Safety check for 300 character limit
-                  if len(content) > 290:  # Leave 10 char buffer
-                      # Truncate title if needed
-                      max_title_length = 280 - len(f"\n\n🔗 {link}")
+                  # Safety check for 300 character limit  
+                  if len(content) > 290:
+                      max_title_length = 280 - len(f"\n\n{link}")
                       truncated_title = title[:max_title_length-3] + "..." if len(title) > max_title_length else title
-                      content = f"{truncated_title}\n\n🔗 {link}"
+                      content = f"{truncated_title}\n\n{link}"
                   
                   print(f"Content length: {len(content)} chars")
+
 
                   success = post_to_bluesky(content)
 
