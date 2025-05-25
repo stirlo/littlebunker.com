@@ -155,7 +155,7 @@ jobs:
                   link = entry.get('link', '')
                   description = entry.get('description', '').replace('<p>', '').replace('</p>', '')
 
-                  content = f"{title}\n\n{description[:100]}...\n\n{link}"
+                  content = f"{title}\n\n{description[:100]}...\n\n🔗 {link}"
                   success = post_to_bluesky(content)
 
                   if success:
