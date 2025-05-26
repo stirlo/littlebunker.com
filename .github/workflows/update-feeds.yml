@@ -2,7 +2,7 @@ name: Update RSS Feeds
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Every hour
+    - cron: '0 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -26,7 +26,7 @@ jobs:
 
       - name: Fetch Feeds and Create Posts
         run: |
-          python - << 'EOF'
+          python3 << 'EOF'
           import feedparser
           import yaml
           import datetime
@@ -36,7 +36,6 @@ jobs:
           import hashlib
           from datetime import datetime, timezone, timedelta
 
-          # Load existing URL tracking
           def load_posted_urls():
               try:
                   if os.path.exists('_data/rss_tracking/posted_urls.json'):
@@ -54,14 +53,12 @@ jobs:
                   posted_data = load_posted_urls()
                   posted_data["posted_urls"].append(url)
                   posted_data["posted_urls"] = posted_data["posted_urls"][-500:]
-
                   with open('_data/rss_tracking/posted_urls.json', 'w', encoding='utf-8') as f:
                       json.dump(posted_data, f, indent=2)
               except Exception as e:
                   print(f"Error saving posted URL: {e}")
 
           def is_recent_article(published_date, max_age_hours=72):
-              """Check if article is within the last 72 hours"""
               try:
                   if isinstance(published_date, str):
                       for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S']:
@@ -74,10 +71,8 @@ jobs:
                           return False
                   else:
                       article_date = datetime(*published_date[:6])
-
                   if article_date.tzinfo is None:
                       article_date = article_date.replace(tzinfo=timezone.utc)
-
                   cutoff_date = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
                   return article_date > cutoff_date
               except Exception as e:
@@ -97,14 +92,12 @@ jobs:
                   feed = feedparser.parse(url)
                   feed_name = url.split('/')[-2] if url.endswith('/') else url.split('/')[-1]
                   feed_name = re.sub(r'[^a-z0-9]+', '-', feed_name.lower())
-
                   feed_data = {
                       "title": feed.feed.get('title', 'Unknown Feed'),
                       "link": feed.feed.get('link', url),
                       "description": feed.feed.get('description', ''),
                       "items": []
                   }
-
                   for entry in feed.entries[:10]:
                       item = {
                           "title": entry.get('title', 'No Title'),
@@ -113,10 +106,8 @@ jobs:
                           "description": entry.get('summary', '')
                       }
                       feed_data["items"].append(item)
-
                   with open(f"_data/feeds/{feed_name}.json", 'w', encoding='utf-8') as f:
                       json.dump(feed_data, f, indent=2)
-
                   return feed
               except Exception as e:
                   print(f"Error fetching {url}: {e}")
@@ -126,22 +117,16 @@ jobs:
               feed = fetch_feed(feed_url)
               if not feed:
                   return
-
               posted_data = load_posted_urls()
               posted_urls = posted_data["posted_urls"]
               new_posts_count = 0
-
               for entry in feed.entries[:10]:
                   try:
                       if entry.link in posted_urls:
                           continue
-
                       if hasattr(entry, 'published_parsed') and not is_recent_article(entry.published_parsed):
                           continue
-
                       title = clean_title(entry.title)
-
-                      # FIXED: Add timezone to date
                       try:
                           if hasattr(entry, 'published_parsed') and entry.published_parsed:
                               date = datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S") + " +0000"
@@ -149,54 +134,40 @@ jobs:
                               date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " +0000"
                       except:
                           date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " +0000"
-
-                      # Get content
                       if 'content' in entry:
                           content = clean_content(entry.content[0].value)
                       elif 'summary' in entry:
                           content = clean_content(entry.summary)
                       else:
                           content = "Read the full article at the link above."
-
                       url_hash = hashlib.md5(entry.link.encode()).hexdigest()[:8]
                       slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
                       filename = f"_posts/{date.split()[0]}-{category}-{slug[:30]}-{url_hash}.md"
-
                       if os.path.exists(filename):
                           continue
-
-                      # FIXED: Proper YAML formatting
                       post_content = f"""---
-layout: feed_item
-title: "{title}"
-date: {date}
-categories: [{category}]
-external_url: {entry.link}
-is_feed: true
-source_feed: "{feed_url}"
----
+          layout: feed_item
+          title: "{title}"
+          date: {date}
+          categories: [{category}]
+          external_url: {entry.link}
+          is_feed: true
+          source_feed: "{feed_url}"
+          ---
 
-{content}
-"""
-
-                      # FIXED: UTF-8 encoding
+          {content}
+          """
                       with open(filename, 'w', encoding='utf-8') as f:
                           f.write(post_content)
-
                       save_posted_url(entry.link)
                       new_posts_count += 1
-
                       print(f"Created new post: {title[:50]}...")
-
                       if new_posts_count >= 2:
                           break
-
                   except Exception as e:
                       print(f"Error processing entry: {e}")
-
               print(f"Created {new_posts_count} new posts from {feed_url}")
 
-          # Your feed lists here...
           research_paper_feeds = [
               "https://www.frontiersin.org/journals/climate/rss",
               "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",
@@ -204,7 +175,6 @@ source_feed: "{feed_url}"
               "https://iopscience.iop.org/journal/rss/1748-9326"
           ]
 
-          # Process feeds
           for feed_url in research_paper_feeds:
               create_posts_from_feed(feed_url, "research-papers")
           EOF
