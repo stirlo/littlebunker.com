@@ -47,8 +47,8 @@ jobs:
                   # Rebuild the file
                   fixed_content = f"""---{front_matter}---
 
-{post_content}
-"""
+          {post_content}
+          """
 
                   # Write back with proper encoding
                   with open(filepath, 'w', encoding='utf-8') as f:
