@@ -31,7 +31,7 @@ jobs:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
         run: |
-          python - << 'EOF'
+          python << 'EOF'
           import feedparser
           import os
           import json
@@ -130,7 +130,7 @@ jobs:
                               content_to_post = f"{truncated_title}\n\n{link}"
                           break
 
-              # Output for GitHub Actions
+              # Output for GitHub Actions using new environment file method
               if content_to_post and entry_id:
                   # Save content to file for the action to read
                   with open('post_content.txt', 'w') as f:
@@ -143,42 +143,44 @@ jobs:
                   with open(POSTED_FILE, 'w') as f:
                       json.dump(posted_data, f, indent=2)
 
-                  print(f"::set-output name=should_post::true")
-                  print(f"::set-output name=content::{content_to_post}")
+                  # Use new GitHub Actions output method
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"should_post=true\n")
+                      f.write(f"content={content_to_post}\n")
               else:
-                  print(f"::set-output name=should_post::false")
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"should_post=false\n")
 
           if __name__ == "__main__":
               main()
           EOF
 
-            - name: Post to Bluesky via direct API
-          if: steps.prepare-content.outputs.should_post == 'true'
-          env:
-            BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
-            BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
-          run: |
-            pip install atproto
-            python - << 'EOF'
-            import os
-            from atproto import Client
-        
-            # Read the prepared content from your sophisticated system
-            with open('post_content.txt', 'r') as f:
-                content = f.read().strip()
-        
-            # Post to Bluesky
-            try:
-                client = Client()
-                client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
-                response = client.send_post(text=content)
-                print(f"✅ Successfully posted to Bluesky!")
-                print(f"Content: {content[:100]}...")
-            except Exception as e:
-                print(f"❌ Failed to post to Bluesky: {e}")
-                exit(1)
-            EOF
+      - name: Post to Bluesky via direct API
+        if: steps.prepare-content.outputs.should_post == 'true'
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+        run: |
+          pip install atproto
+          python << 'EOF'
+          import os
+          from atproto import Client
 
+          # Read the prepared content from your sophisticated system
+          with open('post_content.txt', 'r') as f:
+              content = f.read().strip()
+
+          # Post to Bluesky
+          try:
+              client = Client()
+              client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
+              response = client.send_post(text=content)
+              print(f"✅ Successfully posted to Bluesky!")
+              print(f"Content: {content[:100]}...")
+          except Exception as e:
+              print(f"❌ Failed to post to Bluesky: {e}")
+              exit(1)
+          EOF
 
       - name: Commit changes if any
         run: |
