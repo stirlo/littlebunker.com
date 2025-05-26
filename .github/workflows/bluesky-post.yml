@@ -198,7 +198,7 @@ jobs:
 
       - name: Post to Bluesky using official action
         if: steps.prepare-content.outputs.should_post == 'true'
-        uses: philnash/bsky-feedbot@v1
+        uses: marketplace/actions/feed-to-bluesky@main
         with:
           bluesky-handle: ${{ secrets.BLUESKY_HANDLE }}
           bluesky-password: ${{ secrets.BLUESKY_PASSWORD }}
