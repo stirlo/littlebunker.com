@@ -1,0 +1,285 @@
+name: "2. Process Multi-Category RSS Feeds"
+
+on:
+  workflow_run:
+    workflows: ["1. Fetch Climate RSS Feeds"]
+    types: [completed]
+  workflow_dispatch:
+
+jobs:
+  process-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install feedparser pyyaml beautifulsoup4
+
+      - name: Process Multi-Category RSS Feeds
+        run: |
+          python3 << 'EOF'
+          import feedparser
+          import json
+          import datetime
+          import re
+          import os
+          import hashlib
+          from datetime import datetime, timezone, timedelta
+          import glob
+
+          # Load RSS sources from category files
+          def load_rss_sources_by_category():
+              """Load RSS URLs from category-specific files"""
+              categories = {}
+
+              # Find all RSS source files
+              source_files = glob.glob('rss-sources/*.txt')
+
+              for file_path in source_files:
+                  # Extract category name from filename
+                  category = os.path.basename(file_path).replace('.txt', '')
+
+                  with open(file_path, 'r') as f:
+                      feeds = []
+                      for line in f:
+                          line = line.strip()
+                          # Skip comments and empty lines
+                          if line and not line.startswith('#'):
+                              feeds.append(line)
+
+                      if feeds:  # Only add if there are feeds
+                          categories[category] = feeds
+                          print(f"📂 Loaded {len(feeds)} feeds for category: {category}")
+
+              return categories
+
+          # Your smart duplicate detection (preserved)
+          def load_posted_urls():
+              """Track already posted URLs to prevent duplicates"""
+              try:
+                  if os.path.exists('_data/rss_tracking/posted_urls.json'):
+                      with open('_data/rss_tracking/posted_urls.json', 'r') as f:
+                          return json.load(f)
+                  else:
+                      os.makedirs('_data/rss_tracking', exist_ok=True)
+                      return {"posted_urls": []}
+              except Exception as e:
+                  print(f"Error loading posted URLs: {e}")
+                  return {"posted_urls": []}
+
+          def save_posted_url(url):
+              """Save posted URL and keep only last 1000 entries"""
+              try:
+                  posted_data = load_posted_urls()
+                  posted_data["posted_urls"].append(url)
+                  posted_data["posted_urls"] = posted_data["posted_urls"][-1000:]  # Keep last 1000
+                  with open('_data/rss_tracking/posted_urls.json', 'w', encoding='utf-8') as f:
+                      json.dump(posted_data, f, indent=2)
+              except Exception as e:
+                  print(f"Error saving posted URL: {e}")
+
+          # Enhanced recency filtering with category-specific rules
+          def is_recent_article(published_date, category, max_age_hours=None):
+              """Check if article is recent with category-specific rules"""
+              if max_age_hours is None:
+                  # Different recency rules for different categories
+                  category_rules = {
+                      'extreme_weather': 24,    # Weather is time-sensitive
+                      'environmental_news': 48, # News is fairly time-sensitive
+                      'research_papers': 168,   # Research papers can be older (1 week)
+                      'climate_science': 72,    # Science updates moderate timing
+                      'social_impact': 96,      # Social impact moderate timing
+                      'media': 72               # Media content moderate timing
+                  }
+                  max_age_hours = category_rules.get(category, 72)  # Default 72 hours
+
+              try:
+                  if isinstance(published_date, str):
+                      for fmt in ['%a, %d %b %Y %H:%M:%S %z', '%Y-%m-%dT%H:%M:%S%z', '%Y-%m-%d %H:%M:%S']:
+                          try:
+                              article_date = datetime.strptime(published_date, fmt)
+                              break
+                          except ValueError:
+                              continue
+                      else:
+                          return False
+                  else:
+                      article_date = datetime(*published_date[:6])
+
+                  if article_date.tzinfo is None:
+                      article_date = article_date.replace(tzinfo=timezone.utc)
+
+                  cutoff_date = datetime.now(timezone.utc) - timedelta(hours=max_age_hours)
+                  return article_date > cutoff_date
+              except Exception as e:
+                  print(f"Error checking article date: {e}")
+                  return False
+
+          # Content cleaning (preserved and enhanced)
+          def clean_title(title):
+              """Clean title for Jekyll compatibility"""
+              return title.replace('"', '\\"').replace('\n', ' ').strip()
+
+          def clean_content(content):
+              """Clean HTML and prepare content for Jekyll"""
+              content = re.sub(r'<[^>]+>', '', content)  # Remove HTML tags
+              content = content.replace('"', '\\"')
+              content = re.sub(r'\s+', ' ', content)  # Normalize whitespace
+              return content.strip()
+
+          # Enhanced Jekyll post creation with category support
+          def create_jekyll_posts_from_feed(feed_url, category):
+              """Create properly formatted Jekyll posts with smart filtering"""
+              try:
+                  print(f"🔄 Processing {category}: {feed_url}")
+                  feed = feedparser.parse(feed_url)
+
+                  if not feed or not hasattr(feed, 'entries'):
+                      print(f"❌ Failed to parse feed: {feed_url}")
+                      return 0
+
+                  posted_data = load_posted_urls()
+                  posted_urls = posted_data["posted_urls"]
+                  new_posts_count = 0
+
+                  print(f"📡 Feed: {feed.feed.get('title', 'Unknown')} ({len(feed.entries)} entries)")
+
+                  # Category-specific post limits
+                  category_limits = {
+                      'extreme_weather': 3,    # More weather posts (time-sensitive)
+                      'environmental_news': 2, # Standard news posts
+                      'research_papers': 1,    # Fewer research posts (longer content)
+                      'climate_science': 2,    # Standard science posts
+                      'social_impact': 2,      # Standard impact posts
+                      'media': 1               # Fewer media posts
+                  }
+                  max_posts = category_limits.get(category, 2)
+
+                  for entry in feed.entries[:15]:  # Check more entries
+                      try:
+                          # Skip if already posted
+                          if entry.link in posted_urls:
+                              continue
+
+                          # Skip if not recent (category-specific rules)
+                          if hasattr(entry, 'published_parsed') and not is_recent_article(entry.published_parsed, category):
+                              continue
+
+                          # Prepare post data
+                          title = clean_title(entry.title)
+
+                          # Handle date formatting
+                          try:
+                              if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                                  date = datetime(*entry.published_parsed[:6]).strftime("%Y-%m-%d %H:%M:%S") + " +0000"
+                              else:
+                                  date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " +0000"
+                          except:
+                              date = datetime.now().strftime("%Y-%m-%d %H:%M:%S") + " +0000"
+
+                          # Extract content
+                          if hasattr(entry, 'content') and entry.content:
+                              content = clean_content(entry.content[0].value)
+                          elif hasattr(entry, 'summary'):
+                              content = clean_content(entry.summary)
+                          else:
+                              content = "Read the full article at the link above."
+
+                          # Create unique filename
+                          url_hash = hashlib.md5(entry.link.encode()).hexdigest()[:8]
+                          slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
+                          filename = f"_posts/{date.split()[0]}-{category}-{slug[:30]}-{url_hash}.md"
+
+                          # Skip if file already exists
+                          if os.path.exists(filename):
+                              continue
+
+                          # Create Jekyll post with proper front matter
+                          post_content = f"""---
+          layout: feed_item
+          title: "{title}"
+          date: {date}
+          categories: [{category}]
+          external_url: {entry.link}
+          is_feed: true
+          source_feed: "{feed_url}"
+          feed_category: "{category}"
+          ---
+
+          {content}
+
+          [Read original article]({entry.link})
+          """
+
+                          # Write post file
+                          with open(filename, 'w', encoding='utf-8') as f:
+                              f.write(post_content)
+
+                          # Track posted URL
+                          save_posted_url(entry.link)
+                          new_posts_count += 1
+                          print(f"✅ Created: {title[:50]}...")
+
+                          # Limit posts per feed
+                          if new_posts_count >= max_posts:
+                              break
+
+                      except Exception as e:
+                          print(f"❌ Error processing entry: {e}")
+
+                  print(f"📊 Created {new_posts_count} new posts from {category}")
+                  return new_posts_count
+
+              except Exception as e:
+                  print(f"❌ Error processing feed {feed_url}: {e}")
+                  return 0
+
+          # Main processing with category support
+          def main():
+              """Main processing function with multi-category support"""
+              print("🚀 Starting multi-category RSS processing...")
+
+              # Create necessary directories
+              os.makedirs('_posts', exist_ok=True)
+              os.makedirs('_data/rss_tracking', exist_ok=True)
+
+              # Load RSS sources by category
+              categories = load_rss_sources_by_category()
+
+              if not categories:
+                  print("❌ No RSS source files found in rss-sources/ directory")
+                  return
+
+              total_posts = 0
+
+              # Process each category
+              for category, feeds in categories.items():
+                  print(f"\n📂 Processing category: {category.upper()}")
+                  print(f"📡 {len(feeds)} feeds to process")
+
+                  category_posts = 0
+                  for feed_url in feeds:
+                      posts_created = create_jekyll_posts_from_feed(feed_url, category)
+                      category_posts += posts_created
+                      total_posts += posts_created
+
+                  print(f"📊 Category {category}: {category_posts} total posts created")
+
+              print(f"\n✅ RSS processing complete! Total posts created: {total_posts}")
+
+          if __name__ == "__main__":
+              main()
+          EOF
+
+      - name: Commit processed posts
+        run: |
+          git config --global user.name 'Climate RSS Bot - Multi-Category'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Step 2: Process multi-category RSS feeds" && git push)
