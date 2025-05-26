@@ -152,13 +152,33 @@ jobs:
               main()
           EOF
 
-      - name: Post to Bluesky via proven action
-        if: steps.prepare-content.outputs.should_post == 'true'
-        uses: marketplace/actions/feed-to-bluesky@v1
-        with:
-          bluesky-username: ${{ secrets.BLUESKY_HANDLE }}
-          bluesky-password: ${{ secrets.BLUESKY_PASSWORD }}
-          post-content: ${{ steps.prepare-content.outputs.content }}
+            - name: Post to Bluesky via direct API
+          if: steps.prepare-content.outputs.should_post == 'true'
+          env:
+            BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+            BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
+          run: |
+            pip install atproto
+            python - << 'EOF'
+            import os
+            from atproto import Client
+        
+            # Read the prepared content from your sophisticated system
+            with open('post_content.txt', 'r') as f:
+                content = f.read().strip()
+        
+            # Post to Bluesky
+            try:
+                client = Client()
+                client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
+                response = client.send_post(text=content)
+                print(f"✅ Successfully posted to Bluesky!")
+                print(f"Content: {content[:100]}...")
+            except Exception as e:
+                print(f"❌ Failed to post to Bluesky: {e}")
+                exit(1)
+            EOF
+
 
       - name: Commit changes if any
         run: |
