@@ -4,7 +4,7 @@
   "description": "Science Advances: Open access, multidisciplinary science journal.",
   "category": "climate_science",
   "source_url": "https://advances.sciencemag.org/rss/current.xml",
-  "fetched_at": "2025-05-26T14:24:52.532450",
+  "fetched_at": "2025-05-26T15:26:19.065895",
   "items": [
     {
       "title": "Mechanism of D-type cyclin recognition by the AMBRA1 E3 ligase receptor | Science Advances",
@@ -143,6 +143,14 @@
       "source_url": "https://advances.sciencemag.org/rss/current.xml"
     },
     {
+      "title": "Amphiphilic nanopores that condense undersaturated water vapor and exude water droplets | Science Advances",
+      "link": "https://www.science.org/doi/10.1126/sciadv.adu8349",
+      "pubDate": "Wed, 21 May 2025 09:01:00 -0400",
+      "description": "Amphiphilic nanopores condense water vapor and exude water droplets under isothermal and undersaturated conditions.",
+      "category": "climate_science",
+      "source_url": "https://advances.sciencemag.org/rss/current.xml"
+    },
+    {
       "title": "Variable mantle redox states driven by deeply subducted carbon | Science Advances",
       "link": "https://www.science.org/doi/10.1126/sciadv.adu4985",
       "pubDate": "Wed, 21 May 2025 09:01:00 -0400",
@@ -155,14 +163,6 @@
       "link": "https://www.science.org/doi/10.1126/sciadv.adt8957",
       "pubDate": "Wed, 21 May 2025 09:01:00 -0400",
       "description": "Regulatory monitors fail to measure ammonium nitrate aerosol, masking its importance as a top aerosol pollutant in Los Angeles.",
-      "category": "climate_science",
-      "source_url": "https://advances.sciencemag.org/rss/current.xml"
-    },
-    {
-      "title": "Single-molecule analysis reveals the mechanism of chromatin ubiquitylation by variant PRC1 complexes | Science Advances",
-      "link": "https://www.science.org/doi/10.1126/sciadv.adt7013",
-      "pubDate": "Wed, 21 May 2025 09:01:00 -0400",
-      "description": "Single-molecule experiments show that active conformation formation controls chromatin ubiquitylation kinetics by variant PRC1.",
       "category": "climate_science",
       "source_url": "https://advances.sciencemag.org/rss/current.xml"
     }
