@@ -34,6 +34,9 @@ jobs:
           import json
           import os
           import glob
+          import re
+          import unicodedata
+          import html
           from datetime import datetime
 
           def load_all_rss_sources():
@@ -65,83 +68,75 @@ jobs:
 
               return all_feeds
 
-        # Add this to your Step 1 workflow, replace the fetch_feed_data function:
+          def fetch_feed_data(url, category):
+              """Fetch RSS feed and save properly sanitized data"""
+              try:
+                  print(f"🔄 Fetching: {url}")
+                  feed = feedparser.parse(url)
 
-def fetch_feed_data(url, category):
-    """Fetch RSS feed and save properly sanitized data"""
-    try:
-        print(f"🔄 Fetching: {url}")
-        feed = feedparser.parse(url)
+                  if not feed or not hasattr(feed, 'entries'):
+                      print(f"❌ Failed to parse: {url}")
+                      return False
 
-        if not feed or not hasattr(feed, 'entries'):
-            print(f"❌ Failed to parse: {url}")
-            return False
+                  # Sanitization function
+                  def sanitize_text(text):
+                      """Clean text for safe JSON storage"""
+                      if not text:
+                          return ""
 
-        # Sanitization function
-        def sanitize_text(text):
-            """Clean text for safe JSON storage"""
-            if not text:
-                return ""
+                      # Normalize Unicode
+                      text = unicodedata.normalize('NFKD', str(text))
 
-            # Remove problematic Unicode characters
-            import re
-            import unicodedata
+                      # Remove control characters and invalid escapes
+                      text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', text)
 
-            # Normalize Unicode
-            text = unicodedata.normalize('NFKD', str(text))
+                      # Fix common problematic sequences
+                      text = text.replace('\\u', '\\\\u')  # Escape Unicode escapes
+                      text = text.replace('\\"', '"')      # Fix quote escapes
+                      text = text.replace('\\n', ' ')      # Replace newlines
+                      text = text.replace('\\t', ' ')      # Replace tabs
 
-            # Remove control characters and invalid escapes
-            text = re.sub(r'[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]', '', text)
+                      # Remove HTML entities that cause issues
+                      text = html.unescape(text)
 
-            # Fix common problematic sequences
-            text = text.replace('\\u', '\\\\u')  # Escape Unicode escapes
-            text = text.replace('\\"', '"')      # Fix quote escapes
-            text = text.replace('\\n', ' ')      # Replace newlines
-            text = text.replace('\\t', ' ')      # Replace tabs
+                      return text.strip()
 
-            # Remove HTML entities that cause issues
-            import html
-            text = html.unescape(text)
+                  # Create feed data structure with sanitization
+                  feed_data = {
+                      "title": sanitize_text(feed.feed.get('title', 'Unknown Feed')),
+                      "link": feed.feed.get('link', url),
+                      "description": sanitize_text(feed.feed.get('description', '')),
+                      "category": category,
+                      "source_url": url,
+                      "fetched_at": datetime.now().isoformat(),
+                      "items": []
+                  }
 
-            return text.strip()
+                  # Process entries with sanitization
+                  for entry in feed.entries[:20]:
+                      item = {
+                          "title": sanitize_text(entry.get('title', 'No Title')),
+                          "link": entry.get('link', ''),
+                          "pubDate": entry.get('published', ''),
+                          "description": sanitize_text(entry.get('summary', '')),
+                          "category": category,
+                          "source_url": url
+                      }
+                      feed_data["items"].append(item)
 
-        # Create feed data structure with sanitization
-        feed_data = {
-            "title": sanitize_text(feed.feed.get('title', 'Unknown Feed')),
-            "link": feed.feed.get('link', url),
-            "description": sanitize_text(feed.feed.get('description', '')),
-            "category": category,
-            "source_url": url,
-            "fetched_at": datetime.now().isoformat(),
-            "items": []
-        }
+                  # Save with proper JSON encoding
+                  safe_filename = url.replace('https://', '').replace('http://', '').replace('/', '-').replace('?', '-').replace('&', '-')[:50]
+                  filename = f"_data/feeds/{category}-{safe_filename}.json"
 
-        # Process entries with sanitization
-        for entry in feed.entries[:20]:
-            item = {
-                "title": sanitize_text(entry.get('title', 'No Title')),
-                "link": entry.get('link', ''),
-                "pubDate": entry.get('published', ''),
-                "description": sanitize_text(entry.get('summary', '')),
-                "category": category,
-                "source_url": url
-            }
-            feed_data["items"].append(item)
+                  with open(filename, 'w', encoding='utf-8') as f:
+                      json.dump(feed_data, f, indent=2, ensure_ascii=False)
 
-        # Save with proper JSON encoding
-        safe_filename = url.replace('https://', '').replace('http://', '').replace('/', '-').replace('?', '-').replace('&', '-')[:50]
-        filename = f"_data/feeds/{category}-{safe_filename}.json"
+                  print(f"✅ Saved: {len(feed_data['items'])} items from {feed.feed.get('title', url)}")
+                  return True
 
-        with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(feed_data, f, indent=2, ensure_ascii=False)
-
-        print(f"✅ Saved: {len(feed_data['items'])} items from {feed.feed.get('title', url)}")
-        return True
-
-    except Exception as e:
-        print(f"❌ Error fetching {url}: {e}")
-        return False
-
+              except Exception as e:
+                  print(f"❌ Error fetching {url}: {e}")
+                  return False
 
           def create_master_feed_list():
               """Create master list of all feeds and their status"""
