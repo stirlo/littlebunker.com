@@ -1,31 +1,13 @@
 ---
 layout: feed_item
 title: "What the IPCC says about the connections between climate change and migration"
-date: 2022-03-08 11:38:28
+date: 2022-03-08 11:38:28 +0000
 categories: [social-impact]
 external_url: https://climatemigration.org.uk/key-points-from-the-ipcc-report-on-the-connections-between-climate-change-and-migration/
 is_feed: true
 ---
 
-
-				
-				
-				
-				
-					
-				
-				
-				
-				
-			 
-				
-				
-				
-				
-				
-				
-				
-					What the IPCC says about the connections between climate change and migration
+What the IPCC says about the connections between climate change and migration
 				
 				
 			

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Songbirds' great risk results in great genetic reward"
-date: 2025-05-21 16:44:38
+date: 2025-05-21 16:44:38 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250521124438.htm
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The Guardian view on rising sea levels: adaptation has never been more urgent | Editorial"
-date: 2025-05-25 15:55:31
+date: 2025-05-25 15:55:31 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/commentisfree/2025/may/25/the-guardian-view-on-rising-sea-levels-adaptation-has-never-been-more-urgent
 is_feed: true

@@ -1,17 +1,13 @@
 ---
 layout: feed_item
 title: "Engineered high endurance in WO3-based resistive switching devices via a guided filament approach | Science Advances"
-date: 2025-05-16 13:01:00
+date: 2025-05-16 13:01:00 +0000
 categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt9789
 is_feed: true
 ---
 
-
- 
-  
-   
-    Abstract
+Abstract
    
    
     Resistive switching devices are promising candidates for the next generation of nonvolatile memory and neuromorphic computing applications. Despite the advantages in retention and on/off ratio, filamentary-based memristors still suffer from challenges, particularly endurance (flash being a benchmark system showing 10
@@ -51,7 +47,3 @@ is_feed: true
      3
     
     grains.
-   
-  
- 
-

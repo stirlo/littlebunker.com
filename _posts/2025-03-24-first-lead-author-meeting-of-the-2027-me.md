@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "First Lead Author Meeting of the 2027 Methodology Report on Short-Lived Climate Forcers"
-date: 2025-03-24 18:15:24
+date: 2025-03-24 18:15:24 +0000
 categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/24/first-lead-author-meeting-2027-methodology-report-slcf/
 is_feed: true
@@ -208,4 +208,4 @@ or live-streamed events.
 
 
 
-Most videos published by the IPCC can be found on our YouTube channel.&nbsp;&nbsp; 
+Most videos published by the IPCC can be found on our YouTube channel.&nbsp;&nbsp;

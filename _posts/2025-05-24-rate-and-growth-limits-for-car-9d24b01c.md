@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Rate and growth limits for carbon capture and storage"
-date: 2025-05-24 12:36:10
+date: 2025-05-24 12:36:10 +0000
 categories: [research-papers]
 external_url: http://iopscience.iop.org/article/10.1088/1748-9326/add9af
 is_feed: true

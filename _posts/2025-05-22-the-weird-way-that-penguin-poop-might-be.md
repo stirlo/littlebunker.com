@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The weird way that penguin poop might be cooling Antarctica"
-date: 2025-05-22 15:00:00
+date: 2025-05-22 15:00:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/science/research-penguin-poop-cooling-antarctica/
 is_feed: true

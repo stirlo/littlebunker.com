@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Trump’s tax bill to cost 830,000 jobs and drive up bills and pollution emissions, experts warn"
-date: 2025-05-22 11:00:09
+date: 2025-05-22 11:00:09 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/environment/2025/may/22/trump-republican-tax-bill
 is_feed: true

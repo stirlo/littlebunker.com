@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Constraining Kilometer‐Scale Mountain Snow Transport and Snowshed Areas"
-date: 2025-05-20 10:10:07
+date: 2025-05-20 10:10:07 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113599?af=R
 is_feed: true

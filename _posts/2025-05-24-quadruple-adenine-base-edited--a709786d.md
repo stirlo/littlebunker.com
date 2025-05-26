@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Quadruple adenine base–edited allogeneic CAR T cells outperform CRISPR/Cas9 nuclease–engineered T cells"
-date: 2025-05-24 13:27:03
+date: 2025-05-24 13:27:03 +0000
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2427216122?af=R
 is_feed: true

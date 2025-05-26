@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Global forest loss hits “frightening” record high with climate-fuelled fires"
-date: 2025-05-21 06:43:53
+date: 2025-05-21 06:43:53 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/21/global-forest-loss-hits-frightening-record-high-with-climate-fuelled-fires/
 is_feed: true

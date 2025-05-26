@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Brazil activists decry green rollbacks as senate passes ‘devastation bill’"
-date: 2025-05-22 18:42:45
+date: 2025-05-22 18:42:45 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/world/2025/may/22/brazil-environment-devastation-bill
 is_feed: true

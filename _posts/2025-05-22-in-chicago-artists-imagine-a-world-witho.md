@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "In Chicago, Artists Imagine a World Without Prisons or Environmental Hazards"
-date: 2025-05-22 09:00:00
+date: 2025-05-22 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/22052025/chicago-art-exhibit-links-environmental-injustice-and-prison-system/
 is_feed: true

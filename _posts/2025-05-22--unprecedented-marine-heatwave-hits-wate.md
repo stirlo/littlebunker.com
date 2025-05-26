@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "‘Unprecedented’ marine heatwave hits waters around Devon, Cornwall and Ireland"
-date: 2025-05-22 13:27:36
+date: 2025-05-22 13:27:36 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/environment/2025/may/22/marine-heatwave-sea-temperatures-devon-cornwall-ireland
 is_feed: true

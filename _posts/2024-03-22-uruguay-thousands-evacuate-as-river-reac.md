@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Uruguay – Thousands Evacuate As River Reaches Record High in Florida Department"
-date: 2024-03-22 11:17:38
+date: 2024-03-22 11:17:38 +0000
 categories: [extreme-weather]
 external_url: https://floodlist.com/america/uruguay-florida-floods-march-2024
 is_feed: true

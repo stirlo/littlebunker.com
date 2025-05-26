@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Surfer, first lady and former PM among Brazil’s COP30 envoys"
-date: 2025-05-15 16:47:02
+date: 2025-05-15 16:47:02 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/15/surfer-first-lady-and-former-pm-among-brazils-cop30-envoys/
 is_feed: true

@@ -1,16 +1,11 @@
 ---
 layout: feed_item
 title: "Heat Waves Moving Slower, Getting Bigger, Hotter, and More Frequent"
-date: 2024-04-01 15:51:01
+date: 2024-04-01 15:51:01 +0000
 categories: [extreme-weather]
 external_url: https://www.climatesignals.org/headlines/heat-waves-moving-slower-getting-bigger-hotter-and-more-frequent
 is_feed: true
 ---
-
-
-
-
-
 
 Heat Waves Moving Slower, Getting Bigger, Hotter, and More Frequent
 
@@ -203,60 +198,3 @@ Apr 1, 2024
   
     Promote to RSS feed
               On
-          
-
-
-
-
-
-
-
-
-
-
-
-
-      
-              
-
-
-
-
-
-
-  
-          
-      
-
-
-
-
-          
-  
-
-
-
-
-
-
-
-
-
-
-
-      
-              
-
-
-
-
-
-  
-    
-
-
-
-
-          
-  
-

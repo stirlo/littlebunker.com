@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Integrating science for simultaneously addressing loss and damage from climate change and strengthening social protection"
-date: 2025-05-15 00:00:00
+date: 2025-05-15 00:00:00 +0000
 categories: [research-papers]
 external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1497560
 is_feed: true

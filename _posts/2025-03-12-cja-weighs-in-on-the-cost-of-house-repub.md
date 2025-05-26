@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "CJA Weighs in on the Cost of House Republican’s Disastrous Continuing Resolution and the Continued Undermining of Environmental Justice"
-date: 2025-03-12 21:26:15
+date: 2025-03-12 21:26:15 +0000
 categories: [social-impact]
 external_url: https://climatejusticealliance.org/cja-weighs-in-on-budget-and-ej/
 is_feed: true

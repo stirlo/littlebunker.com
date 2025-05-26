@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Highly Systematic Response of Seismic Rupture Patterns to Background Loading Rate: Insights From Repeating Earthquakes"
-date: 2025-05-19 16:54:31
+date: 2025-05-19 16:54:31 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115207?af=R
 is_feed: true

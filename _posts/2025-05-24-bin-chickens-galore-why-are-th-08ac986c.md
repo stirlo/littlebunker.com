@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Bin chickens galore! Why are there so many ibis in Sydney?"
-date: 2025-05-24 00:00:43
+date: 2025-05-24 00:00:43 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/australia-news/2025/may/24/why-are-there-so-many-ibis-in-sydney-bin-chicken-population
 is_feed: true

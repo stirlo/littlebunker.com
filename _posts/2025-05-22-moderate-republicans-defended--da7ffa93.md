@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Moderate Republicans defended Biden’s climate law — then voted to repeal it"
-date: 2025-05-22 21:50:01
+date: 2025-05-22 21:50:01 +0000
 categories: [environmental-news]
 external_url: https://grist.org/politics/house-republican-tax-bill-inflation-reduction-act-repeal-clean-energy-tax-credits/
 is_feed: true

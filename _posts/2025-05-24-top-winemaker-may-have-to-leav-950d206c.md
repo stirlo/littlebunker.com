@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Top winemaker ‘may have to leave its Spanish vineyards due to climate crisis’"
-date: 2025-05-24 13:00:00
+date: 2025-05-24 13:00:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/drought/top-winemaker-may-have-to-leave-its-spanish-vineyards-due-to-climate-crisis/
 is_feed: true

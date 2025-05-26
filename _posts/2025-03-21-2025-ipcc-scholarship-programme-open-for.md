@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "2025 IPCC Scholarship programme open for applications"
-date: 2025-03-21 12:11:45
+date: 2025-03-21 12:11:45 +0000
 categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/21/2025-ipcc-scholarship-awards/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Svalbard: Can scientists salvage climate data from rapidly melting glaciers?"
-date: 2025-05-19 10:00:00
+date: 2025-05-19 10:00:00 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/svalbard-can-scientists-salvage-climate-data-from-rapidly-melting-glaciers/
 is_feed: true

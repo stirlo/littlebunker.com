@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Polaronic correlations from optimized ancilla wave functions for the Fermi–Hubbard model"
-date: 2025-05-24 11:14:54
+date: 2025-05-24 11:14:54 +0000
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2504261122?af=R
 is_feed: true

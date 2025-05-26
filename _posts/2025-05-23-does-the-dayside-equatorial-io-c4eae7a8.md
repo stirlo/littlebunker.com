@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Does the Dayside Equatorial Ionospheric Electric Field Respond to Isolated Substorms?"
-date: 2025-05-23 09:40:22
+date: 2025-05-23 09:40:22 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115227?af=R
 is_feed: true

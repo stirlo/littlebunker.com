@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "NOAA Predicts Above-Average Hurricane Activity This Year"
-date: 2025-05-23 09:00:00
+date: 2025-05-23 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/23052025/noaa-predicts-above-average-hurricane-year-amid-fudning-uncertainty/
 is_feed: true

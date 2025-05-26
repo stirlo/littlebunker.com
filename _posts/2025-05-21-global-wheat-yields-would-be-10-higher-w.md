@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Global wheat yields would be ‘10%’ higher without climate change"
-date: 2025-05-21 09:00:00
+date: 2025-05-21 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/global-wheat-yields-would-be-10-higher-without-climate-change/
 is_feed: true

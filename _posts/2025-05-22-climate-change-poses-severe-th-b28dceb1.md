@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Climate change poses severe threat to bowhead whale habitat"
-date: 2025-05-22 16:55:30
+date: 2025-05-22 16:55:30 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250522125530.htm
 is_feed: true

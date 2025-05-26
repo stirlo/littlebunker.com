@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "El Paso Hasn’t Seen This Many Dust Storms Since the Dust Bowl"
-date: 2025-05-21 09:00:00
+date: 2025-05-21 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/21052025/el-paso-dust-storm-drought-climate-change/
 is_feed: true

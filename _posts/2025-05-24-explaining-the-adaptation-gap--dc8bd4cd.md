@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Explaining the adaptation gap through consistency in adaptation planning"
-date: 2025-05-24 10:18:56
+date: 2025-05-24 10:18:56 +0000
 categories: [research-papers]
 external_url: https://www.nature.com/articles/s41558-025-02334-w
 is_feed: true

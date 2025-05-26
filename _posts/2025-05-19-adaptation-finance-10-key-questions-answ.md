@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Adaptation Finance: 10 Key Questions, Answered"
-date: 2025-05-19 10:00:00
+date: 2025-05-19 10:00:00 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/insights/adaptation-finance-explained
 is_feed: true

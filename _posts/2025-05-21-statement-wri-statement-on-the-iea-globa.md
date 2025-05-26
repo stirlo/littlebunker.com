@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "STATEMENT: WRI Statement on the IEA Global Critical Minerals Outlook 2025"
-date: 2025-05-21 02:00:24
+date: 2025-05-21 02:00:24 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/news/statement-wri-statement-iea-global-critical-minerals-outlook-2025
 is_feed: true

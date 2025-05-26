@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "To Compete in International Low-Carbon Markets, Chemical Companies Need Transparent Emissions Accounting"
-date: 2025-05-15 19:50:07
+date: 2025-05-15 19:50:07 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/technical-perspectives/chemical-accounting-emissions-transparency
 is_feed: true

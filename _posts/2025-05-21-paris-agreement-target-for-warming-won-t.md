@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Paris Agreement Target for Warming Won’t Protect Polar Ice Sheets, Scientists Warn"
-date: 2025-05-21 08:50:00
+date: 2025-05-21 08:50:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/21052025/paris-agreement-target-wont-protect-polar-ice-sea-level-rise/
 is_feed: true

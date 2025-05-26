@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "When the sea moves inland: A global climate wake-up call from Bangladesh's Delta"
-date: 2025-05-23 16:04:45
+date: 2025-05-23 16:04:45 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250523120445.htm
 is_feed: true

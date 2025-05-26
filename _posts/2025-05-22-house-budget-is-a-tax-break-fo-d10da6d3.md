@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "House Budget is a Tax Break for the Ultra-Rich,  CJA Calls on Senators to Do Better"
-date: 2025-05-22 16:34:50
+date: 2025-05-22 16:34:50 +0000
 categories: [social-impact]
 external_url: https://climatejusticealliance.org/house-budget-tax-break-for-the-rich/
 is_feed: true

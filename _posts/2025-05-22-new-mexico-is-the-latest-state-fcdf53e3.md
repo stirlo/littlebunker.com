@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "New Mexico Is the Latest State Developing Standards to Protect Workers in Extreme Heat"
-date: 2025-05-22 22:20:25
+date: 2025-05-22 22:20:25 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/22052025/new-mexico-proposes-extreme-heat-standards-to-protect-workers/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Oman – Dozens Rescued, 12 Dead After Heavy Rain Triggers Flash Floods"
-date: 2024-04-15 09:47:43
+date: 2024-04-15 09:47:43 +0000
 categories: [extreme-weather]
 external_url: https://floodlist.com/asia/oman-floods-april-2024
 is_feed: true

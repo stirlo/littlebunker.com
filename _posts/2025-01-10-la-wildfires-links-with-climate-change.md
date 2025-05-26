@@ -1,16 +1,11 @@
 ---
 layout: feed_item
 title: "LA wildfires - links with climate change"
-date: 2025-01-10 11:33:57
+date: 2025-01-10 11:33:57 +0000
 categories: [extreme-weather]
 external_url: https://www.climatesignals.org/headlines/la-wildfires-links-climate-change
 is_feed: true
 ---
-
-
-
-
-
 
 LA wildfires - links with climate change
 
@@ -234,34 +229,3 @@ Jan 10, 2025
   
     Promote to RSS feed
               Off
-          
-
-
-
-
-
-
-
-
-
-
-
-
-      
-              
-
-
-
-
-
-
-  
-          
-      
-
-
-
-
-          
-  
-

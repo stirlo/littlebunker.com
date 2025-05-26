@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Deep Learning Improves Prediction of the Boreal Summer Intraseasonal Oscillation Using Predictive Source Analysis"
-date: 2025-05-23 06:09:17
+date: 2025-05-23 06:09:17 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL114477?af=R
 is_feed: true

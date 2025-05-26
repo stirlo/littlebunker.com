@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Who will benefit from melting glaciers?"
-date: 2025-05-21 08:45:00
+date: 2025-05-21 08:45:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/indigenous/melting-glacier-alaska-canada-bc-mining-salmon-territory/
 is_feed: true

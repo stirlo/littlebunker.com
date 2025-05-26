@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Trump Reverses Course on Empire Wind, Lifting Pause"
-date: 2025-05-20 22:39:43
+date: 2025-05-20 22:39:43 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/20052025/trump-lifts-empire-offshore-wind-project-pause/
 is_feed: true

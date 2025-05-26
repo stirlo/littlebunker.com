@@ -1,18 +1,14 @@
 ---
 layout: feed_item
 title: "Alcohol molecule coupling: A universal approach to modulating amorphousness in vanadium-based cathodes for high-rate and durable aqueous zinc-ion batteries | Science Advances"
-date: 2025-05-23 13:01:00
+date: 2025-05-23 13:01:00 +0000
 categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt7502
 is_feed: true
 source_feed: "https://advances.sciencemag.org/rss/current.xml"
 ---
 
-
- 
-  
-   
-    Abstract
+Abstract
    
    
     Vanadium oxides (VOs) are promising cathode materials for aqueous batteries due to their high theoretical capacity, but they face challenges such as sluggish kinetics and V dissolution. To overcome these issues, we introduce a universal alcohol-based molecule coupling (AMC) method to regulate amorphousness and inhibit V dissolution in VOs (VO
@@ -56,7 +52,3 @@ source_feed: "https://advances.sciencemag.org/rss/current.xml"
      −2
     
     ) over 3500 cycles, demonstrating a promising method for durable zinc-ion batteries.
-   
-  
- 
-

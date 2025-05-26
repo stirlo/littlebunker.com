@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Solar apprenticeships give Virginia students a head start on clean energy"
-date: 2025-05-25 13:00:00
+date: 2025-05-25 13:00:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/business/solar-apprenticeships-give-virginia-students-a-head-start-on-clean-energy/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Clouding the forecast: Study reveals why so many climate models are wrong about the rate of Arctic warming"
-date: 2025-05-20 16:22:38
+date: 2025-05-20 16:22:38 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250520122238.htm
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Europe’s lithium rush leaves mineral-rich communities in the dark"
-date: 2025-05-16 10:27:23
+date: 2025-05-16 10:27:23 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/16/europes-lithium-rush-leaves-mineral-rich-communities-in-the-dark/
 is_feed: true

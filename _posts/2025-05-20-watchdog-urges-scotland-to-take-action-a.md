@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Watchdog urges Scotland to take action after repeatedly missing climate targets"
-date: 2025-05-20 23:01:10
+date: 2025-05-20 23:01:10 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/environment/2025/may/21/watchdog-urges-scotland-to-take-action-after-repeatedly-missing-climate-targets
 is_feed: true

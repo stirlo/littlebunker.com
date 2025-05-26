@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The Tax Increase Tucked Into Trump’s ‘Big Beautiful Bill’"
-date: 2025-05-23 18:23:41
+date: 2025-05-23 18:23:41 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/23052025/ev-hybrid-tax-increase-tucked-into-trumps-big-beautiful-bill/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The floods and droughts in Australia are fingerprints of a warming planet | Kimberley Reid"
-date: 2025-05-25 00:00:12
+date: 2025-05-25 00:00:12 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/commentisfree/2025/may/25/australia-floods-droughts-climate-change-global-warming
 is_feed: true

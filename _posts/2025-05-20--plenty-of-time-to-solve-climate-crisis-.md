@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "‘Plenty of time’ to solve climate crisis, interior secretary tells representatives"
-date: 2025-05-20 18:25:15
+date: 2025-05-20 18:25:15 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/environment/2025/may/20/doug-burgum-climate-crisis-interior-secretary
 is_feed: true

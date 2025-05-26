@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Performance Assessment of Surface Water and Ocean Topography (SWOT) Mission for WSE Measurement Across India"
-date: 2025-05-22 11:23:03
+date: 2025-05-22 11:23:03 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115804?af=R
 is_feed: true

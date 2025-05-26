@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The fate of South America’s endemic mammalian fauna in response to the most dramatic Cenozoic climate disruption"
-date: 2025-05-24 12:36:09
+date: 2025-05-24 12:36:09 +0000
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2419520122?af=R
 is_feed: true

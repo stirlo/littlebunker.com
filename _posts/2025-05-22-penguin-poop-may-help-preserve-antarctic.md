@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Penguin Poop May Help Preserve Antarctic Climate"
-date: 2025-05-22 16:18:11
+date: 2025-05-22 16:18:11 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/22052025/penguin-poop-could-preserve-antarctic-climate/
 is_feed: true

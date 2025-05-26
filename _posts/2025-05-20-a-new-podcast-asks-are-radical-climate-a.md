@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "A new podcast asks: Are ‘radical’ climate activists really that radical?"
-date: 2025-05-20 08:45:00
+date: 2025-05-20 08:45:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/culture/sabotage-podcast-just-stop-oil-radical-climate-activists/
 is_feed: true

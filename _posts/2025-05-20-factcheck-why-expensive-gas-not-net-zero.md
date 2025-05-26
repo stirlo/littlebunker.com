@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Factcheck: Why expensive gas – not net-zero – is keeping UK electricity prices so high"
-date: 2025-05-20 07:00:00
+date: 2025-05-20 07:00:00 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/factcheck-why-expensive-gas-not-net-zero-is-keeping-uk-electricity-prices-so-high/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Fool's gold: A hidden climate stabilizer"
-date: 2025-05-21 16:44:33
+date: 2025-05-21 16:44:33 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250521124433.htm
 is_feed: true

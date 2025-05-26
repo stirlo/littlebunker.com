@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "How Does a Stable AMOC Influence the Regional Climate of the North Atlantic?"
-date: 2025-05-21 11:04:12
+date: 2025-05-21 11:04:12 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115150?af=R
 is_feed: true

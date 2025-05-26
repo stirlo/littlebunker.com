@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "IPCC calls for the nomination of experts for its Task-Group on Data Support"
-date: 2025-03-21 20:27:44
+date: 2025-03-21 20:27:44 +0000
 categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/21/tg-data-nominations/
 is_feed: true
@@ -187,8 +187,4 @@ the IPCC and video recordings from outreach events conducted as webinars
 or live-streamed events. 
 
 Most videos published by the IPCC can be found
-on our YouTube channel.&nbsp;&nbsp; 
-
-
-
-
+on our YouTube channel.&nbsp;&nbsp;

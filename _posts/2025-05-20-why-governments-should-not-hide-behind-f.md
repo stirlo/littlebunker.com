@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Why governments should not hide behind forests to meet their emissions goals"
-date: 2025-05-20 14:07:45
+date: 2025-05-20 14:07:45 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/20/why-governments-should-not-hide-behind-forests-to-meet-their-emissions-goals/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Oil industry funded Girl Scouts and British Museum to boost image, evidence suggests"
-date: 2025-05-20 16:00:03
+date: 2025-05-20 16:00:03 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/us-news/2025/may/20/oil-industry-reputation-girl-scouts-british-museum
 is_feed: true

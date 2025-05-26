@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "A Framework for Minimizing Remote Effects of Regional Climate Interventions: Cooling the Great Barrier Reef Without Teleconnections"
-date: 2025-05-21 11:08:23
+date: 2025-05-21 11:08:23 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113191?af=R
 is_feed: true

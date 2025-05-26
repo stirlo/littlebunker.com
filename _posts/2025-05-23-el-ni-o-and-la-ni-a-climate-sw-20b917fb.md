@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "El Niño and La Niña climate swings threaten mangroves worldwide"
-date: 2025-05-23 16:04:56
+date: 2025-05-23 16:04:56 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250523120456.htm
 is_feed: true

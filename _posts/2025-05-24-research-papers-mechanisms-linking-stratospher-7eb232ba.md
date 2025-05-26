@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Mechanisms Linking Stratospheric Gravity Wave Activity to Hurricane Intensification: Insights From Model Simulation of Hurricane Joaquin"
-date: 2025-05-24 14:39:07
+date: 2025-05-24 14:39:07 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113531?af=R
 is_feed: true

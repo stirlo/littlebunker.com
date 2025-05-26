@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Programme Officer, IPCC Task Force on Inventories Technical Support Unit"
-date: 2025-05-13 09:10:00
+date: 2025-05-13 09:10:00 +0000
 categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/
 is_feed: true

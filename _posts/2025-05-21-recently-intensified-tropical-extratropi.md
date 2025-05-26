@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Recently Intensified Tropical‐Extratropical Linkage Modulated by Arctic Sea Ice Loss"
-date: 2025-05-21 11:39:39
+date: 2025-05-21 11:39:39 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL114436?af=R
 is_feed: true

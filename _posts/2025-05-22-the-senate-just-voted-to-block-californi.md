@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The Senate just voted to block California’s gas car ban"
-date: 2025-05-22 23:43:23
+date: 2025-05-22 23:43:23 +0000
 categories: [environmental-news]
 external_url: https://grist.org/regulation/senate-rescinds-californias-ev-rules-congressional-review-act/
 is_feed: true

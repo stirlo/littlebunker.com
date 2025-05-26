@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "DeBriefed 16 May 2025: Has China’s CO2 peaked?; US bill ‘would kill IRA’; Poland’s coal collapse"
-date: 2025-05-16 11:41:52
+date: 2025-05-16 11:41:52 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/debriefed-16-may-2025-has-chinas-co2-peaked-us-bill-would-kill-ira-polands-coal-collapse/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The True Cost of Pretending Climate Change Doesn’t Exist"
-date: 2025-05-24 08:55:00
+date: 2025-05-24 08:55:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/24052025/white-house-ignores-social-cost-of-carbon/
 is_feed: true

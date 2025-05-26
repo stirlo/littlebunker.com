@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "After the LA Fires, Scientists Study the Toxins Left Behind"
-date: 2025-05-25 09:00:00
+date: 2025-05-25 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/25052025/scientists-study-la-fire-toxins/
 is_feed: true

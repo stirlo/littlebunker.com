@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "A Double Whammy for Scientists: Big Budget Cuts, Big Climate Consequences"
-date: 2025-05-23 21:22:09
+date: 2025-05-23 21:22:09 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/23052025/todays-climate-nasa-trump-cuts-research-anxiety/
 is_feed: true

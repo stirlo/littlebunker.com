@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Samudra: An AI Global Ocean Emulator for Climate"
-date: 2025-05-24 15:19:00
+date: 2025-05-24 15:19:00 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL114318?af=R
 is_feed: true

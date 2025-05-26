@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "States, Environmentalists Sue Trump Over Billions in Funding Freezes for EV Charging"
-date: 2025-05-23 16:44:39
+date: 2025-05-23 16:44:39 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/23052025/states-sue-trump-administration-over-ev-charging-funding-freezes/
 is_feed: true

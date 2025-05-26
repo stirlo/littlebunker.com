@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Cross‐Scale Interactions Between ULF Waves, VLF Waves, and Electrons"
-date: 2025-05-22 11:10:45
+date: 2025-05-22 11:10:45 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115095?af=R
 is_feed: true

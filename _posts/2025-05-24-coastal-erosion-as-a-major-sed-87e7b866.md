@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Coastal Erosion as a Major Sediment Source in the Inner Gulf of Thailand: Implications for Carbon Dynamics in Tropical Coastal Ocean Systems"
-date: 2025-05-24 14:54:58
+date: 2025-05-24 14:54:58 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115606?af=R
 is_feed: true

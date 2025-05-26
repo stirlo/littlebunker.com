@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Obituary: Dr Mannava V.K. Sivakumar"
-date: 2025-04-11 13:11:00
+date: 2025-04-11 13:11:00 +0000
 categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/04/11/obituary-sivakumar/
 is_feed: true

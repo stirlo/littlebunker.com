@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Household action can play major role in climate change fight"
-date: 2025-05-20 16:16:58
+date: 2025-05-20 16:16:58 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250520121658.htm
 is_feed: true

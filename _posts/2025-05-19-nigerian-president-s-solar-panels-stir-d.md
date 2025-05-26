@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Nigerian president’s solar panels stir debate over renewables for the rich"
-date: 2025-05-19 15:02:31
+date: 2025-05-19 15:02:31 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/19/nigerian-presidents-solar-system-stir-debate-over-renewables-for-the-rich/
 is_feed: true

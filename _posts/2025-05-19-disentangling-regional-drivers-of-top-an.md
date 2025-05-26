@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Disentangling Regional Drivers of Top Antarctic Snowfall Days With a Convolutional Neural Network"
-date: 2025-05-19 16:39:06
+date: 2025-05-19 16:39:06 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115254?af=R
 is_feed: true

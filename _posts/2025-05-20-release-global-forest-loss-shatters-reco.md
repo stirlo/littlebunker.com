@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "RELEASE: Global Forest Loss Shatters Records in 2024, Fueled by Massive Fires"
-date: 2025-05-20 22:01:50
+date: 2025-05-20 22:01:50 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/news/release-global-forest-loss-shatters-records-2024-fueled-massive-fires
 is_feed: true

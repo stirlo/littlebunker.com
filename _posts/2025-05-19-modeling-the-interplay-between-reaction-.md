@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Modeling the Interplay Between Reaction Progress, Deformation and Stress Field Evolution During Antigorite Dehydration: Implications for Intermediate‐Depth Seismicity"
-date: 2025-05-19 16:43:43
+date: 2025-05-19 16:43:43 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113865?af=R
 is_feed: true

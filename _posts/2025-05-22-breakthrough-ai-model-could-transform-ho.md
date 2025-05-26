@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Breakthrough AI model could transform how we prepare for natural disasters"
-date: 2025-05-22 16:48:51
+date: 2025-05-22 16:48:51 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250522124851.htm
 is_feed: true

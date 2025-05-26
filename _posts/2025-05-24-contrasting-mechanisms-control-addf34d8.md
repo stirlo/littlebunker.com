@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Contrasting Mechanisms Controlling Pb Isotopes of Dust in Inland and Marine Archives"
-date: 2025-05-24 14:49:08
+date: 2025-05-24 14:49:08 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL114133?af=R
 is_feed: true

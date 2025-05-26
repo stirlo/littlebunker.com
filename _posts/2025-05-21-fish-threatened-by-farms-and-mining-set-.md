@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Fish Threatened By Farms and Mining Set to Be First Species Listed As Endangered in Second Trump Term"
-date: 2025-05-21 22:41:44
+date: 2025-05-21 22:41:44 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/21052025/nevada-fish-lake-valley-tui-chub-threatened/
 is_feed: true

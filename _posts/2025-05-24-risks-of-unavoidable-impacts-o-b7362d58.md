@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Risks of unavoidable impacts on forests at 1.5 °C with and without overshoot"
-date: 2025-05-24 10:18:56
+date: 2025-05-24 10:18:56 +0000
 categories: [research-papers]
 external_url: https://www.nature.com/articles/s41558-025-02327-9
 is_feed: true

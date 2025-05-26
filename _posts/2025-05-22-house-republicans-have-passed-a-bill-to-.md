@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "House Republicans Have Passed a Bill to Gut the IRA. What Happened to All the Supposed Holdouts?"
-date: 2025-05-22 14:04:42
+date: 2025-05-22 14:04:42 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/22052025/inside-clean-energy-republican-ira-repeal/
 is_feed: true

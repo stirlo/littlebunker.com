@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The US government stole the Black Hills. Now it’s clear-cutting them."
-date: 2025-05-21 08:30:00
+date: 2025-05-21 08:30:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/indigenous/the-u-s-government-stole-the-black-hills-now-its-clearcutting-them/
 is_feed: true

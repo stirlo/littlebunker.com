@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Challenge use of ‘nefarious’ news sources, says environmentalist"
-date: 2025-05-24 19:07:38
+date: 2025-05-24 19:07:38 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/books/2025/may/24/challenge-use-of-nefarious-news-sources-says-environmentalist
 is_feed: true

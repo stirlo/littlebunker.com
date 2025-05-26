@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "7 Things to Know About Carbon Capture, Utilization and Sequestration"
-date: 2025-05-16 16:00:00
+date: 2025-05-16 16:00:00 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/insights/carbon-capture-technology
 is_feed: true

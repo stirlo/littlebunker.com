@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "How the Washoe Tribe built a business to sustain a firewood bank that helps elders heat their homes"
-date: 2025-05-20 08:30:00
+date: 2025-05-20 08:30:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/indigenous/how-the-washoe-tribe-built-a-business-to-sustain-a-firewood-bank-that-helps-elders-heat-their-homes/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The Chairman of Texas’ Public Utility Commission Has a To-Do List"
-date: 2025-05-20 23:16:45
+date: 2025-05-20 23:16:45 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/20052025/the-chairman-of-texas-public-utility-commission-has-a-to-do-list/
 is_feed: true

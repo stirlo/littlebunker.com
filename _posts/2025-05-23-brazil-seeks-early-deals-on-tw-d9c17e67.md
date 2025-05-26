@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Brazil seeks early deals on two stalled issues at Bonn climate talks"
-date: 2025-05-23 12:14:40
+date: 2025-05-23 12:14:40 +0000
 categories: [environmental-news]
 external_url: https://www.climatechangenews.com/2025/05/23/brazil-seeks-early-deals-on-two-contentious-issues-at-bonn-climate-talks/
 is_feed: true

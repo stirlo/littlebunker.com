@@ -1,16 +1,11 @@
 ---
 layout: feed_item
 title: "Extreme Drought in Southern Africa Leaves Millions Hungry"
-date: 2024-04-01 15:56:15
+date: 2024-04-01 15:56:15 +0000
 categories: [extreme-weather]
 external_url: https://www.climatesignals.org/headlines/extreme-drought-southern-africa-leaves-millions-hungry
 is_feed: true
 ---
-
-
-
-
-
 
 Extreme Drought in Southern Africa Leaves Millions Hungry
 
@@ -163,60 +158,3 @@ Apr 1, 2024
   
     Promote to RSS feed
               On
-          
-
-
-
-
-
-
-
-
-
-
-
-
-      
-              
-
-
-
-
-
-
-  
-          
-      
-
-
-
-
-          
-  
-
-
-
-
-
-
-
-
-
-
-
-      
-              
-
-
-
-
-
-  
-    
-
-
-
-
-          
-  
-

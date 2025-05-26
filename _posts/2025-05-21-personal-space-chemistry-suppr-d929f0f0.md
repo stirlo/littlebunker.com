@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Personal space chemistry suppressed by perfume and body lotion indoors"
-date: 2025-05-21 20:11:15
+date: 2025-05-21 20:11:15 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250521161115.htm
 is_feed: true

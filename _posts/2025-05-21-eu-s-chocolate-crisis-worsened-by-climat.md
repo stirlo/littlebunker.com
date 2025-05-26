@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "EU’s ‘chocolate crisis’ worsened by climate breakdown, researchers warn"
-date: 2025-05-21 05:00:18
+date: 2025-05-21 05:00:18 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/environment/2025/may/21/eu-chocolate-climate-breakdown-crisis-report
 is_feed: true

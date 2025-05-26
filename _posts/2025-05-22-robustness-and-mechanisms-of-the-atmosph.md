@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Robustness and Mechanisms of the Atmospheric Response Over the Southern Ocean to Idealized Freshwater Input Around Antarctica"
-date: 2025-05-22 11:14:14
+date: 2025-05-22 11:14:14 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113734?af=R
 is_feed: true

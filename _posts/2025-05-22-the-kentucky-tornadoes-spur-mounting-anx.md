@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The Kentucky tornadoes spur mounting anxiety over weather service warning systems"
-date: 2025-05-22 08:45:00
+date: 2025-05-22 08:45:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/extreme-weather/the-kentucky-tornadoes-spur-mounting-anxiety-over-weather-service-warning-systems/
 is_feed: true

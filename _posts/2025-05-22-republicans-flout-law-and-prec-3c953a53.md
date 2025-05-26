@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Republicans Flout Law and Precedent to Kill California’s Right to Clean Air"
-date: 2025-05-22 20:34:24
+date: 2025-05-22 20:34:24 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/22052025/republican-led-senate-blocks-california-right-to-clean-air/
 is_feed: true

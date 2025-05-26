@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Half a billion young people will be obese or overweight by 2030, report finds"
-date: 2025-05-20 22:30:10
+date: 2025-05-20 22:30:10 +0000
 categories: [environmental-news]
 external_url: https://www.theguardian.com/society/2025/may/20/young-people-obesity-2030-report
 is_feed: true

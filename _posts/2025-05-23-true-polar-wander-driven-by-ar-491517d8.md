@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "True Polar Wander Driven by Artificial Water Impoundment: 1835–2011"
-date: 2025-05-23 09:24:28
+date: 2025-05-23 09:24:28 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115468?af=R
 is_feed: true

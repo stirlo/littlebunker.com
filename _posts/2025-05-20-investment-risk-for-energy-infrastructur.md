@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Investment risk for energy infrastructure construction is highest for nuclear power plants, lowest for solar"
-date: 2025-05-20 00:45:07
+date: 2025-05-20 00:45:07 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250519204507.htm
 is_feed: true

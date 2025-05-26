@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "What is AI and why do you keep hearing about it? And what are data centers? How are they connected?"
-date: 2025-03-28 14:11:27
+date: 2025-03-28 14:11:27 +0000
 categories: [social-impact]
 external_url: https://climatejusticealliance.org/ai/
 is_feed: true

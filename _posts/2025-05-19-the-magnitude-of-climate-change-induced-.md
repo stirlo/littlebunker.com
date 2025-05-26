@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The magnitude of climate change-induced migration: an overview of projections and a case for attribution"
-date: 2025-05-19 00:00:00
+date: 2025-05-19 00:00:00 +0000
 categories: [research-papers]
 external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1570995
 is_feed: true

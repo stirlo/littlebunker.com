@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "CJA Leads Nearly 200 Organizations in Opposing NEPA Rollback"
-date: 2025-04-02 15:00:27
+date: 2025-04-02 15:00:27 +0000
 categories: [social-impact]
 external_url: https://climatejusticealliance.org/nepa-rollback/
 is_feed: true

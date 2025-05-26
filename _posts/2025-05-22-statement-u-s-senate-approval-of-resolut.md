@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "STATEMENT: U.S. Senate approval of resolutions to overturn California’s Clean Air Act preemption waivers throws progress into reverse"
-date: 2025-05-22 20:18:39
+date: 2025-05-22 20:18:39 +0000
 categories: [social-impact]
 external_url: https://www.wri.org/news/statement-us-senate-approval-resolutions-overturn-californias-clean-air-act-preemption-0
 is_feed: true

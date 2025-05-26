@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Defending Human Rights Is Dangerous. Defending Nature Makes It Even Riskier"
-date: 2025-05-21 01:00:00
+date: 2025-05-21 01:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/20052025/report-reveals-attacks-on-environmental-defenders/
 is_feed: true

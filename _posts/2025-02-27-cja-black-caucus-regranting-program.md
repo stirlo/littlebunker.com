@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "CJA Black Caucus Regranting Program"
-date: 2025-02-27 20:01:30
+date: 2025-02-27 20:01:30 +0000
 categories: [social-impact]
 external_url: https://climatejusticealliance.org/cja-black-caucus-regranting-program/
 is_feed: true

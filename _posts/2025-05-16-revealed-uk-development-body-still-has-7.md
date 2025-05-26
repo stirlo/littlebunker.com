@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Revealed: UK development body still has $700m invested overseas in fossil-fuel assets"
-date: 2025-05-16 10:51:39
+date: 2025-05-16 10:51:39 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/revealed-uk-development-body-still-has-700m-invested-overseas-in-fossil-fuel-assets/
 is_feed: true

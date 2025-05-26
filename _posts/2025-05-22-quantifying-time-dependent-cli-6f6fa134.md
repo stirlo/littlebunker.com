@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Quantifying Time‐Dependent Climate and Ecosystem Relationships in the California Current System"
-date: 2025-05-22 11:20:45
+date: 2025-05-22 11:20:45 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL113431?af=R
 is_feed: true

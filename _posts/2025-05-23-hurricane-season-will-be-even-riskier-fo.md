@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Hurricane Season Will Be Even Riskier for Undocumented People This Year"
-date: 2025-05-23 08:55:00
+date: 2025-05-23 08:55:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/23052025/anti-immigration-policies-risk-undocumented-people-during-hurricanes/
 is_feed: true

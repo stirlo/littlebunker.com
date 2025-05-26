@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The EPA is rolling back drinking water limits for 4 PFAS. Thousands more remain unregulated."
-date: 2025-05-21 08:15:00
+date: 2025-05-21 08:15:00 +0000
 categories: [environmental-news]
 external_url: https://grist.org/regulation/epa-pfas-drinking-water-limits-trump-rollback/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Wind-related hurricane losses for homeowners in the southeastern U.S. could be nearly 76 percent higher by 2060"
-date: 2025-05-21 16:46:07
+date: 2025-05-21 16:46:07 +0000
 categories: [climate-science]
 external_url: https://www.sciencedaily.com/releases/2025/05/250521124607.htm
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Marine Magnetic Anomalies Enhanced by Internal Stress in Rapidly Cooled Submarine Basalts"
-date: 2025-05-24 15:09:12
+date: 2025-05-24 15:09:12 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115045?af=R
 is_feed: true

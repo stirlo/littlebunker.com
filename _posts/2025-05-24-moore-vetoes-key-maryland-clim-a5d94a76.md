@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Moore Vetoes Key Maryland Climate Studies, Reversing Course on Environmental Justice Commitments"
-date: 2025-05-24 09:00:00
+date: 2025-05-24 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/24052025/maryland-governor-vetoes-key-climate-studies/
 is_feed: true

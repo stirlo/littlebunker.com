@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Digital applications unlock remote sensing AI foundation models for scalable environmental monitoring"
-date: 2025-05-20 00:00:00
+date: 2025-05-20 00:00:00 +0000
 categories: [research-papers]
 external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1520242
 is_feed: true

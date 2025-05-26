@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Detecting Millimetric Slow Slip Events Along the North Anatolian Fault With GNSS"
-date: 2025-05-19 16:38:30
+date: 2025-05-19 16:38:30 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024GL111428?af=R
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "The determinants of greenhouse gas reduction levels among smallholder farmers: insights from the adoption of climate-smart dairy strategies in Central Kenya"
-date: 2025-05-22 00:00:00
+date: 2025-05-22 00:00:00 +0000
 categories: [research-papers]
 external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1593584
 is_feed: true

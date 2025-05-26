@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Svalbard: How it feels to be a climate scientist in the fastest-warming place on Earth"
-date: 2025-05-19 09:00:00
+date: 2025-05-19 09:00:00 +0000
 categories: [environmental-news]
 external_url: https://www.carbonbrief.org/svalbard-how-it-feels-to-be-a-climate-scientist-in-the-fastest-warming-place-on-earth/
 is_feed: true

@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Effects of Subduction Fluids and Fractional Crystallization on the Magnetic Minerals Formation in the Back‐Arc Basin"
-date: 2025-05-23 09:54:39
+date: 2025-05-23 09:54:39 +0000
 categories: [research-papers]
 external_url: https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2025GL115006?af=R
 is_feed: true

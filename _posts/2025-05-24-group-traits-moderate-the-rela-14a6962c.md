@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Group traits moderate the relationship between individual social traits and fitness in gorillas"
-date: 2025-05-24 12:36:09
+date: 2025-05-24 12:36:09 +0000
 categories: [research-papers]
 external_url: https://www.pnas.org/doi/abs/10.1073/pnas.2421539122?af=R
 is_feed: true

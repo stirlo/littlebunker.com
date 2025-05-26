@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Flooding Caused by Atmospheric River Over Maryland Shows How Climate Change Is Stressing Inland Communities"
-date: 2025-05-21 16:48:15
+date: 2025-05-21 16:48:15 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/21052025/maryland-atmospheric-river-flooding-climate-change-stressing-inland-communities/
 is_feed: true

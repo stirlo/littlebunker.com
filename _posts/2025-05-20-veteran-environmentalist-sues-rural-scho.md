@@ -1,7 +1,7 @@
 ---
 layout: feed_item
 title: "Veteran Environmentalist Sues Rural School Board Over Exxon Tax Break Decision"
-date: 2025-05-20 22:49:05
+date: 2025-05-20 22:49:05 +0000
 categories: [environmental-news]
 external_url: https://insideclimatenews.org/news/20052025/rural-texas-school-board-exxon-tax-break-lawsuit/
 is_feed: true
