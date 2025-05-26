@@ -1,0 +1,198 @@
+name: "1. Fetch ALL Climate RSS Feeds"
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Every hour
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  fetch-all-feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create directories
+        run: |
+          mkdir -p _data/feeds
+          mkdir -p _data/rss_tracking
+          mkdir -p _posts
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      # Fetch ALL feeds from your rss-sources files
+      - name: Fetch All RSS Feeds from Source Files
+        run: |
+          python3 << 'EOF'
+          import feedparser
+          import json
+          import os
+          import glob
+          from datetime import datetime
+
+          def load_all_rss_sources():
+              """Load ALL RSS URLs from all category files"""
+              all_feeds = {}
+
+              # Find all RSS source files
+              source_files = glob.glob('rss-sources/*.txt')
+
+              if not source_files:
+                  print("❌ No RSS source files found in rss-sources/ directory")
+                  return {}
+
+              for file_path in source_files:
+                  # Extract category name from filename
+                  category = os.path.basename(file_path).replace('.txt', '')
+
+                  with open(file_path, 'r') as f:
+                      feeds = []
+                      for line in f:
+                          line = line.strip()
+                          # Skip comments and empty lines
+                          if line and not line.startswith('#'):
+                              feeds.append(line)
+
+                      if feeds:  # Only add if there are feeds
+                          all_feeds[category] = feeds
+                          print(f"📂 Loaded {len(feeds)} feeds for category: {category}")
+
+              return all_feeds
+
+          def fetch_feed_data(url, category):
+              """Fetch RSS feed and save raw data"""
+              try:
+                  print(f"🔄 Fetching: {url}")
+                  feed = feedparser.parse(url)
+
+                  if not feed or not hasattr(feed, 'entries'):
+                      print(f"❌ Failed to parse: {url}")
+                      return False
+
+                  # Create feed data structure
+                  feed_data = {
+                      "title": feed.feed.get('title', 'Unknown Feed'),
+                      "link": feed.feed.get('link', url),
+                      "description": feed.feed.get('description', ''),
+                      "category": category,
+                      "source_url": url,
+                      "fetched_at": datetime.now().isoformat(),
+                      "items": []
+                  }
+
+                  # Process entries (limit for Step 1)
+                  for entry in feed.entries[:20]:
+                      item = {
+                          "title": entry.get('title', 'No Title'),
+                          "link": entry.get('link', ''),
+                          "pubDate": entry.get('published', ''),
+                          "description": entry.get('summary', ''),
+                          "category": category,
+                          "source_url": url
+                      }
+                      feed_data["items"].append(item)
+
+                  # Save individual feed data
+                  safe_filename = url.replace('https://', '').replace('http://', '').replace('/', '-').replace('?', '-').replace('&', '-')[:50]
+                  filename = f"_data/feeds/{category}-{safe_filename}.json"
+
+                  with open(filename, 'w', encoding='utf-8') as f:
+                      json.dump(feed_data, f, indent=2)
+
+                  print(f"✅ Saved: {len(feed_data['items'])} items from {feed.feed.get('title', url)}")
+                  return True
+
+              except Exception as e:
+                  print(f"❌ Error fetching {url}: {e}")
+                  return False
+
+          def create_master_feed_list():
+              """Create master list of all feeds and their status"""
+              all_categories = load_all_rss_sources()
+
+              if not all_categories:
+                  print("❌ No RSS sources found!")
+                  return
+
+              master_list = {
+                  "last_updated": datetime.now().isoformat(),
+                  "total_categories": len(all_categories),
+                  "total_feeds": sum(len(feeds) for feeds in all_categories.values()),
+                  "categories": {},
+                  "fetch_summary": {
+                      "successful": 0,
+                      "failed": 0,
+                      "total_items": 0
+                  }
+              }
+
+              # Process each category
+              for category, feeds in all_categories.items():
+                  print(f"\n📂 Processing category: {category.upper()}")
+                  print(f"📡 {len(feeds)} feeds to fetch")
+
+                  category_data = {
+                      "feed_count": len(feeds),
+                      "feeds": [],
+                      "successful_fetches": 0,
+                      "failed_fetches": 0
+                  }
+
+                  # Fetch each feed in category
+                  for feed_url in feeds:
+                      success = fetch_feed_data(feed_url, category)
+
+                      feed_info = {
+                          "url": feed_url,
+                          "status": "success" if success else "failed",
+                          "fetched_at": datetime.now().isoformat()
+                      }
+
+                      category_data["feeds"].append(feed_info)
+
+                      if success:
+                          category_data["successful_fetches"] += 1
+                          master_list["fetch_summary"]["successful"] += 1
+                      else:
+                          category_data["failed_fetches"] += 1
+                          master_list["fetch_summary"]["failed"] += 1
+
+                  master_list["categories"][category] = category_data
+                  print(f"📊 Category {category}: {category_data['successful_fetches']}/{len(feeds)} successful")
+
+              # Count total items
+              feed_files = glob.glob('_data/feeds/*.json')
+              for file_path in feed_files:
+                  try:
+                      with open(file_path, 'r') as f:
+                          data = json.load(f)
+                      if isinstance(data, dict) and 'items' in data:
+                          master_list["fetch_summary"]["total_items"] += len(data['items'])
+                  except:
+                      pass
+
+              # Save master list
+              with open('_data/feeds/master-feed-list.json', 'w') as f:
+                  json.dump(master_list, f, indent=2)
+
+              print(f"\n✅ Step 1 Complete!")
+              print(f"📊 Total: {master_list['fetch_summary']['successful']}/{master_list['total_feeds']} feeds successful")
+              print(f"📊 Total items fetched: {master_list['fetch_summary']['total_items']}")
+
+          # Run the fetching process
+          print("🚀 Starting Step 1: Fetch ALL RSS feeds...")
+          create_master_feed_list()
+          EOF
+
+      - name: Commit all fetched feed data
+        run: |
+          git config --global user.name 'Climate RSS Bot - Step 1 (All Feeds)'
+          git config --global user.email 'action@github.com'
+          git add _data/feeds/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Step 1: Fetch ALL RSS feeds ($(find _data/feeds -name '*.json' | wc -l) files) - $(date)" && git push)
