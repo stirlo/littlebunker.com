@@ -23,10 +23,13 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser requests pyyaml
+          pip install feedparser requests pyyaml atproto
 
-      - name: Prepare content and create temporary RSS feed
+      - name: Prepare content and post to Bluesky
         id: prepare-content
+        env:
+          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
+          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
         run: |
           python << 'EOF'
           import feedparser
@@ -34,12 +37,11 @@ jobs:
           import json
           import yaml
           import hashlib
-          import xml.etree.ElementTree as ET
-          from datetime import datetime, timezone
+          from datetime import datetime
+          from atproto import Client
 
           FEED_URL = "https://littlebunker.com/feed.xml"
           POSTED_FILE = "_data/posted_to_bluesky.json"
-          TEMP_RSS_FILE = "temp_feed.xml"
 
           def load_posted_entries():
               try:
@@ -71,60 +73,33 @@ jobs:
                   co2 = metrics.get('co2', {})
                   current = co2.get('current', 'N/A')
                   change = co2.get('change', 'N/A')
-                  return f"CO2: {current} ppm (+{change}/year)\n\nCurrent atmospheric carbon dioxide levels"
+                  return f"🌍 CO2: {current} ppm (+{change}/year)\n\nCurrent atmospheric carbon dioxide levels continue rising"
 
               elif post_type == 1:  # CH4 post
                   ch4 = metrics.get('ch4', {})
                   current = ch4.get('current', 'N/A')
                   change = ch4.get('change', 'N/A')
-                  return f"CH4: {current} ppb (+{change}/year)\n\nMethane concentration rising"
+                  return f"🔥 CH4: {current} ppb (+{change}/year)\n\nMethane concentration accelerating climate change"
 
               elif post_type == 2:  # Temperature post
                   temp = metrics.get('temperature', {})
                   overshoot = temp.get('overshoot', 'N/A')
-                  return f"Temperature: +{overshoot}°C overshoot\n\nGlobal warming above baseline"
+                  return f"🌡️ Temperature: +{overshoot}°C overshoot\n\nGlobal warming exceeding safe limits"
 
               return None
 
-          def create_temp_rss_feed(title, content, link=None):
-              """Create a temporary RSS feed with single item"""
-              rss = ET.Element("rss", version="2.0")
-              channel = ET.SubElement(rss, "channel")
-
-              # Channel info
-              channel_title = ET.SubElement(channel, "title")
-              channel_title.text = "Climate Bot Feed"
-
-              channel_desc = ET.SubElement(channel, "description")
-              channel_desc.text = "Automated climate and environmental updates"
-
-              channel_link = ET.SubElement(channel, "link")
-              channel_link.text = "https://github.com"
-
-              # Single item
-              item = ET.SubElement(channel, "item")
-
-              item_title = ET.SubElement(item, "title")
-              item_title.text = title[:100] + "..." if len(title) > 100 else title
-
-              item_desc = ET.SubElement(item, "description")
-              item_desc.text = content
-
-              if link:
-                  item_link = ET.SubElement(item, "link")
-                  item_link.text = link
-
-              item_date = ET.SubElement(item, "pubDate")
-              item_date.text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
-
-              item_guid = ET.SubElement(item, "guid")
-              item_guid.text = f"climate-bot-{datetime.now().isoformat()}"
-
-              # Write to file
-              tree = ET.ElementTree(rss)
-              tree.write(TEMP_RSS_FILE, encoding='utf-8', xml_declaration=True)
-
-              return True
+          def post_to_bluesky(content):
+              """Post content directly to Bluesky"""
+              try:
+                  client = Client()
+                  client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
+                  response = client.send_post(text=content)
+                  print(f"✅ Successfully posted to Bluesky!")
+                  print(f"Content: {content[:100]}...")
+                  return True
+              except Exception as e:
+                  print(f"❌ Failed to post to Bluesky: {e}")
+                  return False
 
           def main():
               posted_data = load_posted_entries()
@@ -137,75 +112,86 @@ jobs:
 
               content_to_post = None
               entry_id = None
-              post_title = ""
-              post_link = None
+              posted_successfully = False
 
               if should_post_climate:
                   # Prepare climate metrics post
+                  print("🌍 Preparing climate data post...")
                   metrics = load_climate_metrics()
                   climate_post_type = last_climate_post % 3
 
                   content_to_post = create_climate_post(metrics, climate_post_type)
                   entry_id = f"climate_{climate_post_type}_{datetime.now().isoformat()}"
-                  post_title = f"Climate Update: {['CO2', 'CH4', 'Temperature'][climate_post_type]}"
 
-                  # Update climate post counter
-                  posted_data["last_climate_post"] = climate_post_type + 1
+                  if content_to_post:
+                      posted_successfully = post_to_bluesky(content_to_post)
+                      if posted_successfully:
+                          # Update climate post counter
+                          posted_data["last_climate_post"] = climate_post_type + 1
+                          print(f"📊 Climate post type {climate_post_type} completed")
               else:
                   # Prepare RSS content post
+                  print("📰 Preparing RSS content post...")
                   feed = feedparser.parse(FEED_URL)
                   if feed.entries:
-                      for entry in feed.entries[:3]:
+                      for entry in feed.entries[:5]:  # Check more entries
                           entry_id = hashlib.md5(entry.get('link', '').encode()).hexdigest()
 
                           if entry_id in posted_entries:
+                              print(f"⏭️ Skipping already posted: {entry.get('title', '')[:50]}...")
                               continue
 
-                          post_title = entry.get('title', '').strip()
-                          post_link = entry.get('link', '')
-                          content_to_post = f"{post_title}\n\n{post_link}"
+                          title = entry.get('title', '').strip()
+                          link = entry.get('link', '')
 
+                          # Smart content formatting
+                          if link:
+                              content_to_post = f"{title}\n\n{link}"
+                          else:
+                              content_to_post = title
+
+                          # Handle length limits intelligently
                           if len(content_to_post) > 290:
-                              max_title_length = 280 - len(f"\n\n{post_link}")
-                              truncated_title = post_title[:max_title_length-3] + "..." if len(post_title) > max_title_length else post_title
-                              content_to_post = f"{truncated_title}\n\n{post_link}"
-                              post_title = truncated_title
-                          break
+                              if link:
+                                  max_title_length = 280 - len(f"\n\n{link}")
+                                  truncated_title = title[:max_title_length-3] + "..." if len(title) > max_title_length else title
+                                  content_to_post = f"{truncated_title}\n\n{link}"
+                              else:
+                                  content_to_post = title[:287] + "..."
 
-              # Create temporary RSS feed and update tracking
-              if content_to_post and entry_id:
-                  # Create temporary RSS feed for the official action
-                  create_temp_rss_feed(post_title, content_to_post, post_link)
+                          # Attempt to post
+                          posted_successfully = post_to_bluesky(content_to_post)
+                          if posted_successfully:
+                              print(f"📝 Posted RSS content: {title[:50]}...")
+                              break
+                          else:
+                              print(f"❌ Failed to post, trying next entry...")
+                              continue
 
-                  # Update posted entries
+              # Update tracking data if post was successful
+              if posted_successfully and entry_id:
                   posted_data["posted_entries"].append(entry_id)
-                  posted_data["posted_entries"] = posted_data["posted_entries"][-50:]
+                  posted_data["posted_entries"] = posted_data["posted_entries"][-50:]  # Keep last 50
 
                   with open(POSTED_FILE, 'w') as f:
                       json.dump(posted_data, f, indent=2)
 
-                  # Set output for next step
+                  print(f"💾 Updated tracking data. Total posts: {len(posted_data['posted_entries'])}")
+
+                  # Set output for commit step
                   with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                      f.write(f"should_post=true\n")
-                      f.write(f"rss_file={TEMP_RSS_FILE}\n")
+                      f.write(f"posted=true\n")
               else:
+                  print("❌ No content posted")
                   with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
-                      f.write(f"should_post=false\n")
+                      f.write(f"posted=false\n")
 
           if __name__ == "__main__":
               main()
           EOF
 
-      - name: Post to Bluesky using official action
-        if: steps.prepare-content.outputs.should_post == 'true'
-        uses: marketplace/actions/feed-to-bluesky@main
-        with:
-          bluesky-handle: ${{ secrets.BLUESKY_HANDLE }}
-          bluesky-password: ${{ secrets.BLUESKY_PASSWORD }}
-          rss-url: ${{ steps.prepare-content.outputs.rss_file }}
-          max-posts: 1
-
       - name: Commit changes if any
+        if: steps.prepare-content.outputs.posted == 'true'
         run: |
           git config --global user.name 'Bluesky Bot'
           git config --global user.email 'action@github.com'
