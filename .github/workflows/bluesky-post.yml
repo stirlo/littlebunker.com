@@ -6,7 +6,7 @@ on:
     types:
       - completed
   schedule:
-    - cron: '30 */8 * * *'  # Every 8 hours for climate posts
+    - cron: '30 */8 * * *'
   workflow_dispatch:
 
 jobs:
@@ -25,11 +25,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser requests pyyaml
 
-      - name: Prepare content for posting
+      - name: Prepare content and create temporary RSS feed
         id: prepare-content
-        env:
-          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
-          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
         run: |
           python << 'EOF'
           import feedparser
@@ -37,10 +34,12 @@ jobs:
           import json
           import yaml
           import hashlib
-          from datetime import datetime
+          import xml.etree.ElementTree as ET
+          from datetime import datetime, timezone
 
           FEED_URL = "https://littlebunker.com/feed.xml"
           POSTED_FILE = "_data/posted_to_bluesky.json"
+          TEMP_RSS_FILE = "temp_feed.xml"
 
           def load_posted_entries():
               try:
@@ -87,6 +86,46 @@ jobs:
 
               return None
 
+          def create_temp_rss_feed(title, content, link=None):
+              """Create a temporary RSS feed with single item"""
+              rss = ET.Element("rss", version="2.0")
+              channel = ET.SubElement(rss, "channel")
+
+              # Channel info
+              channel_title = ET.SubElement(channel, "title")
+              channel_title.text = "Climate Bot Feed"
+
+              channel_desc = ET.SubElement(channel, "description")
+              channel_desc.text = "Automated climate and environmental updates"
+
+              channel_link = ET.SubElement(channel, "link")
+              channel_link.text = "https://github.com"
+
+              # Single item
+              item = ET.SubElement(channel, "item")
+
+              item_title = ET.SubElement(item, "title")
+              item_title.text = title[:100] + "..." if len(title) > 100 else title
+
+              item_desc = ET.SubElement(item, "description")
+              item_desc.text = content
+
+              if link:
+                  item_link = ET.SubElement(item, "link")
+                  item_link.text = link
+
+              item_date = ET.SubElement(item, "pubDate")
+              item_date.text = datetime.now(timezone.utc).strftime("%a, %d %b %Y %H:%M:%S GMT")
+
+              item_guid = ET.SubElement(item, "guid")
+              item_guid.text = f"climate-bot-{datetime.now().isoformat()}"
+
+              # Write to file
+              tree = ET.ElementTree(rss)
+              tree.write(TEMP_RSS_FILE, encoding='utf-8', xml_declaration=True)
+
+              return True
+
           def main():
               posted_data = load_posted_entries()
               posted_entries = posted_data["posted_entries"]
@@ -98,6 +137,8 @@ jobs:
 
               content_to_post = None
               entry_id = None
+              post_title = ""
+              post_link = None
 
               if should_post_climate:
                   # Prepare climate metrics post
@@ -106,6 +147,7 @@ jobs:
 
                   content_to_post = create_climate_post(metrics, climate_post_type)
                   entry_id = f"climate_{climate_post_type}_{datetime.now().isoformat()}"
+                  post_title = f"Climate Update: {['CO2', 'CH4', 'Temperature'][climate_post_type]}"
 
                   # Update climate post counter
                   posted_data["last_climate_post"] = climate_post_type + 1
@@ -119,22 +161,21 @@ jobs:
                           if entry_id in posted_entries:
                               continue
 
-                          title = entry.get('title', '').strip()
-                          link = entry.get('link', '')
-
-                          content_to_post = f"{title}\n\n{link}"
+                          post_title = entry.get('title', '').strip()
+                          post_link = entry.get('link', '')
+                          content_to_post = f"{post_title}\n\n{post_link}"
 
                           if len(content_to_post) > 290:
-                              max_title_length = 280 - len(f"\n\n{link}")
-                              truncated_title = title[:max_title_length-3] + "..." if len(title) > max_title_length else title
-                              content_to_post = f"{truncated_title}\n\n{link}"
+                              max_title_length = 280 - len(f"\n\n{post_link}")
+                              truncated_title = post_title[:max_title_length-3] + "..." if len(post_title) > max_title_length else post_title
+                              content_to_post = f"{truncated_title}\n\n{post_link}"
+                              post_title = truncated_title
                           break
 
-              # Output for GitHub Actions using new environment file method
+              # Create temporary RSS feed and update tracking
               if content_to_post and entry_id:
-                  # Save content to file for the action to read
-                  with open('post_content.txt', 'w') as f:
-                      f.write(content_to_post)
+                  # Create temporary RSS feed for the official action
+                  create_temp_rss_feed(post_title, content_to_post, post_link)
 
                   # Update posted entries
                   posted_data["posted_entries"].append(entry_id)
@@ -143,10 +184,10 @@ jobs:
                   with open(POSTED_FILE, 'w') as f:
                       json.dump(posted_data, f, indent=2)
 
-                  # Use new GitHub Actions output method
+                  # Set output for next step
                   with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                       f.write(f"should_post=true\n")
-                      f.write(f"content={content_to_post}\n")
+                      f.write(f"rss_file={TEMP_RSS_FILE}\n")
               else:
                   with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
                       f.write(f"should_post=false\n")
@@ -155,32 +196,14 @@ jobs:
               main()
           EOF
 
-      - name: Post to Bluesky via direct API
+      - name: Post to Bluesky using official action
         if: steps.prepare-content.outputs.should_post == 'true'
-        env:
-          BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
-          BLUESKY_PASSWORD: ${{ secrets.BLUESKY_PASSWORD }}
-        run: |
-          pip install atproto
-          python << 'EOF'
-          import os
-          from atproto import Client
-
-          # Read the prepared content from your sophisticated system
-          with open('post_content.txt', 'r') as f:
-              content = f.read().strip()
-
-          # Post to Bluesky
-          try:
-              client = Client()
-              client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
-              response = client.send_post(text=content)
-              print(f"✅ Successfully posted to Bluesky!")
-              print(f"Content: {content[:100]}...")
-          except Exception as e:
-              print(f"❌ Failed to post to Bluesky: {e}")
-              exit(1)
-          EOF
+        uses: philnash/bsky-feedbot@v1
+        with:
+          bluesky-handle: ${{ secrets.BLUESKY_HANDLE }}
+          bluesky-password: ${{ secrets.BLUESKY_PASSWORD }}
+          rss-url: ${{ steps.prepare-content.outputs.rss_file }}
+          max-posts: 1
 
       - name: Commit changes if any
         run: |
