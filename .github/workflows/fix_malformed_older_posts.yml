@@ -1,0 +1,90 @@
+name: Fix Existing RSS Posts
+
+on:
+  workflow_dispatch:  # Manual trigger only
+
+jobs:
+  fix-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fix Existing RSS Posts
+        run: |
+          python3 << 'EOF'
+          import os
+          import re
+          import glob
+          from datetime import datetime
+
+          def fix_rss_post(filepath):
+              """Fix an existing RSS post file"""
+              try:
+                  # Read the file
+                  with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                      content = f.read()
+
+                  # Check if it's an RSS post
+                  if 'is_feed: true' not in content:
+                      return False
+
+                  # Split front matter and content
+                  parts = content.split('---')
+                  if len(parts) < 3:
+                      return False
+
+                  front_matter = parts[1]
+                  post_content = '---'.join(parts[2:]).strip()
+
+                  # Fix date format (add timezone if missing)
+                  date_pattern = r'date: (\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})(?!\s*[+-])'
+                  front_matter = re.sub(date_pattern, r'date: \1 +0000', front_matter)
+
+                  # Ensure content exists
+                  if not post_content or post_content.isspace():
+                      post_content = "Read the full article at the link above."
+
+                  # Rebuild the file
+                  fixed_content = f"""---{front_matter}---
+
+{post_content}
+"""
+
+                  # Write back with proper encoding
+                  with open(filepath, 'w', encoding='utf-8') as f:
+                      f.write(fixed_content)
+
+                  print(f"Fixed: {filepath}")
+                  return True
+
+              except Exception as e:
+                  print(f"Error fixing {filepath}: {e}")
+                  return False
+
+          # Find all RSS posts
+          rss_posts = []
+          for filepath in glob.glob('_posts/*.md'):
+              try:
+                  with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:
+                      if 'is_feed: true' in f.read():
+                          rss_posts.append(filepath)
+              except:
+                  continue
+
+          print(f"Found {len(rss_posts)} RSS posts to fix")
+
+          # Fix each post
+          fixed_count = 0
+          for post in rss_posts:
+              if fix_rss_post(post):
+                  fixed_count += 1
+
+          print(f"Successfully fixed {fixed_count} posts")
+          EOF
+
+      - name: Commit fixes
+        run: |
+          git config --global user.name 'RSS Post Fixer'
+          git config --global user.email 'action@github.com'
+          git add _posts/*.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Fix existing RSS posts for Jekyll processing" && git push)
