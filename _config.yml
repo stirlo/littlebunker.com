@@ -34,13 +34,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      is_feed: false
-  - scope:
-      path: "_posts"
-      type: "posts"
-    values:
-      is_feed: true
-      layout: "feed_item"    # ← This will apply to RSS posts with is_feed: true
+      # Remove is_feed from defaults - let individual posts set it
+
 
 
 # ActivityPub Configuration
