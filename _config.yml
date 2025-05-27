@@ -49,6 +49,11 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  
+# Pagination
+paginate: 24  # 24 posts per page
+paginate_path: "/page/:num/"
 
 # Feed settings
 feed:
