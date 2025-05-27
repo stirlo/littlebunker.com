@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-27T22:23:40.821905",
+  "fetched_at": "2025-05-27T23:22:46.720152",
   "items": [
+    {
+      "title": "Without public trust, effective climate policy is impossible",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250527124539.htm",
+      "pubDate": "Tue, 27 May 2025 12:45:39 EDT",
+      "description": "When formulating climate policy, too little attention is paid to social factors and too much to technological breakthroughs and economic reasons. Because citizens are hardly heard in this process, European governments risk losing public support at a crucial moment in the climate debate.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "The ocean seems to be getting darker",
       "link": "https://www.sciencedaily.com/releases/2025/05/250527124438.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250520122238.htm",
       "pubDate": "Tue, 20 May 2025 12:22:38 EDT",
       "description": "The Arctic is one of the coldest places on Earth, but in recent decades, the region has been rapidly warming, at a rate three to four times faster than the global average. However, current climate models have been unable to account for this increased pace. Now, researchers have reported that clouds may be to blame.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Household action can play major role in climate change fight",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520121658.htm",
-      "pubDate": "Tue, 20 May 2025 12:16:58 EDT",
-      "description": "Encouraging people in North America and Sub-Saharan Africa to adopt a low-carbon lifestyle could help to cut global household emissions of planet-warming carbon dioxide by up to two-fifths, a new study reveals.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
