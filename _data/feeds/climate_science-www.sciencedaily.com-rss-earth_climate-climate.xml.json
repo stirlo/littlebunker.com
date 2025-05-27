@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-27T18:34:05.951502",
+  "fetched_at": "2025-05-27T19:19:36.225681",
   "items": [
+    {
+      "title": "The ocean seems to be getting darker",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250527124438.htm",
+      "pubDate": "Tue, 27 May 2025 12:44:38 EDT",
+      "description": "Scientists, who have spent more than a decade examining the impact of artificial light at night on the world's coasts and oceans, have shown that more than one-fifth of the global ocean -- an area spanning more than 75 million sq km -- has been the subject of ocean darkening over the past two decades. Ocean darkening occurs when changes in the optical properties of the ocean reduce the depth of its photic zones, home to 90% of all marine life and places where sunlight and moonlight drive ecological interactions.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "How marine plankton adapts to a changing world",
       "link": "https://www.sciencedaily.com/releases/2025/05/250523141909.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250520121658.htm",
       "pubDate": "Tue, 20 May 2025 12:16:58 EDT",
       "description": "Encouraging people in North America and Sub-Saharan Africa to adopt a low-carbon lifestyle could help to cut global household emissions of planet-warming carbon dioxide by up to two-fifths, a new study reveals.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Thousands of animal species threatened by climate change",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520121142.htm",
-      "pubDate": "Tue, 20 May 2025 12:11:42 EDT",
-      "description": "A novel analysis suggests more than 3,500 animal species are threatened by climate change and also sheds light on huge gaps in fully understanding the risk to the animal kingdom.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
