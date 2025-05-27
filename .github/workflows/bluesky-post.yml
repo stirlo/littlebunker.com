@@ -37,6 +37,7 @@ jobs:
           import json
           import yaml
           import hashlib
+          import re
           from datetime import datetime
           from atproto import Client
 
@@ -89,17 +90,46 @@ jobs:
               return None
 
           def post_to_bluesky(content):
-              """Post content directly to Bluesky"""
+              """Post content directly to Bluesky with clickable links"""
               try:
                   client = Client()
                   client.login(os.environ['BLUESKY_HANDLE'], os.environ['BLUESKY_PASSWORD'])
-                  response = client.send_post(text=content)
+          
+                  # Find URLs in the content
+                  import re
+                  url_pattern = r'https?://[^\s]+'
+                  urls = list(re.finditer(url_pattern, content))
+          
+                  # Create facets for URLs
+                  facets = []
+                  for match in urls:
+                      facets.append({
+                          "index": {
+                              "byteStart": len(content[:match.start()].encode('utf-8')),
+                              "byteEnd": len(content[:match.end()].encode('utf-8'))
+                          },
+                          "features": [{
+                              "$type": "app.bsky.richtext.facet#link",
+                              "uri": match.group()
+                          }]
+                      })
+          
+                  # Post with facets if URLs found
+                  if facets:
+                      response = client.send_post(
+                          text=content,
+                          facets=facets
+                      )
+                  else:
+                      response = client.send_post(text=content)
+          
                   print(f"✅ Successfully posted to Bluesky!")
                   print(f"Content: {content[:100]}...")
                   return True
               except Exception as e:
                   print(f"❌ Failed to post to Bluesky: {e}")
                   return False
+
 
           def main():
               posted_data = load_posted_entries()
