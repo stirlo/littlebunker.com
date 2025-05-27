@@ -35,7 +35,7 @@ layout: default
     <button class="tab-button" data-category="media">Media</button>
   </div>
 
-  {% assign feed_posts = site.posts | where: "is_feed", true | sort: "date" | reverse | limit: 20 %}
+  {% assign feed_posts = paginator.posts | where: "is_feed", true %}
   {% if feed_posts.size > 0 %}
   <div class="feed-grid">
     {% for post in feed_posts %}
@@ -59,6 +59,33 @@ layout: default
     </div>
     {% endfor %}
   </div>
+
+  <!-- Pagination Controls -->
+  {% if paginator.total_pages > 1 %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}" class="pagination-prev">← Newer Posts</a>
+    {% else %}
+      <span class="pagination-prev disabled">← Newer Posts</span>
+    {% endif %}
+
+    <span class="pagination-info">
+      Page {{ paginator.page }} of {{ paginator.total_pages }}
+    </span>
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}" class="pagination-next">Older Posts →</a>
+    {% else %}
+      <span class="pagination-next disabled">Older Posts →</span>
+    {% endif %}
+  </nav>
+  {% endif %}
+
+  <!-- Archive Link -->
+  <div class="archive-link-wrapper">
+    <a href="{{ '/archive/' | relative_url }}" class="archive-link">📅 View Complete Archive by Date</a>
+  </div>
+
   {% else %}
   <p>Climate news feeds will appear here once configured.</p>
   {% endif %}
