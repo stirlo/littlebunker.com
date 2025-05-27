@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-27T01:59:26.792883",
+  "fetched_at": "2025-05-27T03:15:36.863042",
   "items": [
+    {
+      "title": "How marine plankton adapts to a changing world",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250523141909.htm",
+      "pubDate": "Fri, 23 May 2025 14:19:09 EDT",
+      "description": "Plankton may be tiny, but they play an important role in the ocean. As the foundation of marine ecosystems, they support ocean food webs and help regulate Earth's climate by storing carbon. While lab studies have shown plankton can adjust their chemistry in response to environmental changes, a new global study reveals how these adaptations occur in the real ocean.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "El Niño and La Niña climate swings threaten mangroves worldwide",
       "link": "https://www.sciencedaily.com/releases/2025/05/250523120456.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250520121142.htm",
       "pubDate": "Tue, 20 May 2025 12:11:42 EDT",
       "description": "A novel analysis suggests more than 3,500 animal species are threatened by climate change and also sheds light on huge gaps in fully understanding the risk to the animal kingdom.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Bees facing new threats, putting our survival and theirs at risk",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250519204644.htm",
-      "pubDate": "Mon, 19 May 2025 20:46:44 EDT",
-      "description": "A new report identifies the top 12 emerging threats that could accelerate pollinator losses within the next 5-15 years, according to ten of the world's leading experts.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
