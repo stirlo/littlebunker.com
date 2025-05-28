@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-28T19:20:15.215221",
+  "fetched_at": "2025-05-28T20:27:34.641722",
   "items": [
+    {
+      "title": "Huge sea-urchin populations are overwhelming Hawaii's coral reefs",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250528150650.htm",
+      "pubDate": "Wed, 28 May 2025 15:06:50 EDT",
+      "description": "This study measured the growth rate of coral reefs in Honaunau Bay, Hawaii, using on-site data gathering and aerial imagery. Researchers found that the reefs are being eroded by sea urchin populations which have exploded due to overfishing in the area. The reefs are also threatened by climate change and water pollution, and their growth rates are not fast enough to counteract the erosion caused by the urchins.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Without public trust, effective climate policy is impossible",
       "link": "https://www.sciencedaily.com/releases/2025/05/250527124539.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250520161838.htm",
       "pubDate": "Tue, 20 May 2025 16:18:38 EDT",
       "description": "Increasing renewable energy may not reduce the use of fossil fuels in the United States, according to a new study .",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Clouding the forecast: Study reveals why so many climate models are wrong about the rate of Arctic warming",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520122238.htm",
-      "pubDate": "Tue, 20 May 2025 12:22:38 EDT",
-      "description": "The Arctic is one of the coldest places on Earth, but in recent decades, the region has been rapidly warming, at a rate three to four times faster than the global average. However, current climate models have been unable to account for this increased pace. Now, researchers have reported that clouds may be to blame.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
