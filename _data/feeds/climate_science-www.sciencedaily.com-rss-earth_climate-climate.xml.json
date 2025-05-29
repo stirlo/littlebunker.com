@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-29T02:01:13.790022",
+  "fetched_at": "2025-05-29T03:47:44.120062",
   "items": [
     {
       "title": "Huge sea-urchin populations are overwhelming Hawaii's coral reefs",
       "link": "https://www.sciencedaily.com/releases/2025/05/250528150650.htm",
       "pubDate": "Wed, 28 May 2025 15:06:50 EDT",
       "description": "This study measured the growth rate of coral reefs in Honaunau Bay, Hawaii, using on-site data gathering and aerial imagery. Researchers found that the reefs are being eroded by sea urchin populations which have exploded due to overfishing in the area. The reefs are also threatened by climate change and water pollution, and their growth rates are not fast enough to counteract the erosion caused by the urchins.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Coastal Alaska wolves exposed to high mercury concentrations from eating sea otters",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250528131641.htm",
+      "pubDate": "Wed, 28 May 2025 13:16:41 EDT",
+      "description": "Scientists show that wolves that are eating sea otters in Alaska have much higher concentrations of mercury than those eating other prey such as deer and moose.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250520162115.htm",
       "pubDate": "Tue, 20 May 2025 16:21:15 EDT",
       "description": "New research could improve the efficiency of electrochemical carbon-dioxide capture and release by six times and cut costs by at least 20 percent. Researchers added nanoscale filtering membranes to a carbon-capture system, separating the ions that carry out the capture and release steps, and enabling both steps to proceed more efficiently.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Does renewable energy reduce fossil fuel production in the US?",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520161838.htm",
-      "pubDate": "Tue, 20 May 2025 16:18:38 EDT",
-      "description": "Increasing renewable energy may not reduce the use of fossil fuels in the United States, according to a new study .",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
