@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="category-page">
+  <h1>{{ page.title }}</h1>
+  <p class="category-description">{{ page.description }}</p>
+
+  <div class="category-tabs">
+    <a href="{{ '/' | relative_url }}" class="tab-button">All</a>
+    <a href="{{ '/category/climate-science/' | relative_url }}" class="tab-button {% if page.category == 'climate_science' %}active{% endif %}">Climate Science</a>
+    <a href="{{ '/category/environmental-news/' | relative_url }}" class="tab-button {% if page.category == 'environmental_news' %}active{% endif %}">Environmental News</a>
+    <a href="{{ '/category/extreme-weather/' | relative_url }}" class="tab-button {% if page.category == 'extreme_weather' %}active{% endif %}">Extreme Weather</a>
+    <a href="{{ '/category/social-impact/' | relative_url }}" class="tab-button {% if page.category == 'social_impact' %}active{% endif %}">Social Impact</a>
+    <a href="{{ '/category/research-papers/' | relative_url }}" class="tab-button {% if page.category == 'research_papers' %}active{% endif %}">Research Papers</a>
+    <a href="{{ '/category/media/' | relative_url }}" class="tab-button {% if page.category == 'media' %}active{% endif %}">Media</a>
+  </div>
+
+  {% assign category_posts = site.posts | where_exp: "post", "post.categories contains page.category" | where: "is_feed", true %}
+
+  <div class="feed-grid">
+    {% for post in category_posts limit: 48 %}
+    <div class="feed-item">
+      <h3>
+        {% if post.external_url %}
+        <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
+        {% else %}
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        {% endif %}
+      </h3>
+      <div class="post-meta">
+        {{ post.date | date: "%b %-d, %Y" }}
+        {% if post.tags and post.tags.size > 0 %}
+        • 
+        {% for tag in post.tags limit: 3 %}
+          <span class="tag-small">{{ tag }}</span>
+        {% endfor %}
+        {% endif %}
+      </div>
+      <div class="post-excerpt">
+        {{ post.excerpt | strip_html | truncatewords: 30 }}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div class="archive-link-wrapper">
+    <a href="{{ '/archive/' | relative_url }}" class="archive-link">📅 View Archive by Date</a>
+  </div>
+</div>
