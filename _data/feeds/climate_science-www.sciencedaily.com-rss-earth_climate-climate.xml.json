@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-29T18:35:05.127117",
+  "fetched_at": "2025-05-29T19:18:05.781729",
   "items": [
+    {
+      "title": "Rock record illuminates oxygen history",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250529140125.htm",
+      "pubDate": "Thu, 29 May 2025 14:01:25 EDT",
+      "description": "A new study reveals that the aerobic nitrogen cycle in the ocean may have occurred about 100 million years before oxygen began to significantly accumulate in the atmosphere, based on nitrogen isotope analysis from ancient South African rock cores. These findings not only refine the timeline of Earth's oxygenation but also highlight a critical evolutionary shift, where life began adapting to oxygen-rich conditions -- paving the way for the emergence of complex, multicellular organisms like humans.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Does planting trees really help cool the planet?",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250529124628.htm",
+      "pubDate": "Thu, 29 May 2025 12:46:28 EDT",
+      "description": "Replanting forests can help cool the planet even more than some scientists once believed, especially in the tropics. But even if every tree lost since the mid-19th century is replanted, the total effect won't cancel out human-generated warming.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Huge sea-urchin populations are overwhelming Hawaii's coral reefs",
       "link": "https://www.sciencedaily.com/releases/2025/05/250528150650.htm",
@@ -19,6 +35,14 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250528131641.htm",
       "pubDate": "Wed, 28 May 2025 13:16:41 EDT",
       "description": "Scientists show that wolves that are eating sea otters in Alaska have much higher concentrations of mercury than those eating other prey such as deer and moose.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Even birds can't outfly climate change",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250528131536.htm",
+      "pubDate": "Wed, 28 May 2025 13:15:36 EDT",
+      "description": "As rising global temperatures alter ecosystems worldwide, animal species usually have two choices: adapt to changing local conditions or flee to a cooler clime. Ecologists have long assumed that the world's bird species were best equipped to respond to the pressures of climate change simply because they have the option of flying to higher altitudes or towards global poles. But a new study finds that few bird species are able to escape the realities of a warming world.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -139,30 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250521124433.htm",
       "pubDate": "Wed, 21 May 2025 12:44:33 EDT",
       "description": "Researchers look to extremes in the past to study how the system reacts to imbalances. They detail an overlooked mechanism for how the ocean can help stabilize massive releases of carbon into the atmosphere following volcanic eruptions.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Extreme weather cycles change underwater light at Lake Tahoe",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250521124100.htm",
-      "pubDate": "Wed, 21 May 2025 12:41:00 EDT",
-      "description": "Large shifts in UV radiation at Lake Tahoe are associated with wet and dry climate extremes, finds a new study.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Landmark report reveals key challenges facing adolescents",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520183839.htm",
-      "pubDate": "Tue, 20 May 2025 18:38:39 EDT",
-      "description": "Poor mental health, rising obesity rates, exposure to violence and climate change are among the key challenges facing our adolescents today, according to a global report.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "How to solve a bottleneck for CO2 capture and conversion",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250520162115.htm",
-      "pubDate": "Tue, 20 May 2025 16:21:15 EDT",
-      "description": "New research could improve the efficiency of electrochemical carbon-dioxide capture and release by six times and cut costs by at least 20 percent. Researchers added nanoscale filtering membranes to a carbon-capture system, separating the ions that carry out the capture and release steps, and enabling both steps to proceed more efficiently.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
