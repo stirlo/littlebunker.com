@@ -26,20 +26,20 @@ layout: default
   <h2>Latest Climate News</h2>
 
   <div class="category-tabs">
-    <button class="tab-button active" data-category="all">All</button>
-    <button class="tab-button" data-category="climate-science">Climate Science</button>
-    <button class="tab-button" data-category="environmental-news">Environmental News</button>
-    <button class="tab-button" data-category="extreme-weather">Extreme Weather</button>
-    <button class="tab-button" data-category="social-impact">Social Impact</button>
-    <button class="tab-button" data-category="research-papers">Research Papers</button>
-    <button class="tab-button" data-category="media">Media</button>
+    <a href="{{ '/' | relative_url }}" class="tab-button {% unless page.url contains '/category/' %}active{% endunless %}">All</a>
+    <a href="{{ '/category/climate-science/' | relative_url }}" class="tab-button">Climate Science</a>
+    <a href="{{ '/category/environmental-news/' | relative_url }}" class="tab-button">Environmental News</a>
+    <a href="{{ '/category/extreme-weather/' | relative_url }}" class="tab-button">Extreme Weather</a>
+    <a href="{{ '/category/social-impact/' | relative_url }}" class="tab-button">Social Impact</a>
+    <a href="{{ '/category/research-papers/' | relative_url }}" class="tab-button">Research Papers</a>
+    <a href="{{ '/category/media/' | relative_url }}" class="tab-button">Media</a>
   </div>
 
   {% assign feed_posts = paginator.posts | where: "is_feed", true %}
   {% if feed_posts.size > 0 %}
   <div class="feed-grid">
     {% for post in feed_posts %}
-    <div class="feed-item" data-categories="{{ post.categories | join: ' ' }}">
+    <div class="feed-item">
       <h3>
         {% if post.external_url %}
         <a href="{{ post.external_url }}" target="_blank">{{ post.title }}</a>
@@ -50,7 +50,7 @@ layout: default
       <div class="post-meta">
         {{ post.date | date: "%b %-d, %Y" }} • 
         {% for category in post.categories %}
-        <span class="category-tag">{{ category }}</span>
+        <span class="category-tag">{{ category | replace: '_', ' ' | capitalize }}</span>
         {% endfor %}
       </div>
       <div class="post-excerpt">
@@ -90,36 +90,3 @@ layout: default
   <p>Climate news feeds will appear here once configured.</p>
   {% endif %}
 </section>
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const tabButtons = document.querySelectorAll('.tab-button');
-    const feedItems = document.querySelectorAll('.feed-item');
-
-    tabButtons.forEach(button => {
-      button.addEventListener('click', function() {
-        // Remove active class from all buttons
-        tabButtons.forEach(btn => btn.classList.remove('active'));
-
-        // Add active class to clicked button
-        this.classList.add('active');
-
-        const category = this.getAttribute('data-category');
-
-        // Show/hide feed items based on category
-        feedItems.forEach(item => {
-          if (category === 'all') {
-            item.style.display = 'block';
-          } else {
-            const itemCategories = item.getAttribute('data-categories');
-            if (itemCategories && itemCategories.includes(category)) {
-              item.style.display = 'block';
-            } else {
-              item.style.display = 'none';
-            }
-          }
-        });
-      });
-    });
-  });
-</script>
