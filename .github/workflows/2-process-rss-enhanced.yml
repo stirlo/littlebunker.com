@@ -1,4 +1,4 @@
-name: "2. Process Multi-Category RSS Feeds"
+name: "2. Process Multi-Category RSS Feeds with Smart SEO"
 
 on:
   workflow_run:
@@ -21,7 +21,7 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser pyyaml beautifulsoup4
 
-      - name: Process Multi-Category RSS Feeds
+      - name: Process Multi-Category RSS Feeds with Smart SEO
         run: |
           python3 << 'EOF'
           import feedparser
@@ -32,36 +32,163 @@ jobs:
           import hashlib
           from datetime import datetime, timezone, timedelta
           import glob
+          from collections import Counter
 
-          # Load RSS sources from category files
+          # Smart tagging system
+          class SmartTagger:
+              def __init__(self):
+                  self.tag_mappings = {
+                      # Weather events
+                      'hurricane': ['hurricane', 'tropical-storms', 'extreme-weather'],
+                      'typhoon': ['typhoon', 'tropical-storms', 'extreme-weather'],
+                      'cyclone': ['cyclone', 'tropical-storms', 'extreme-weather'],
+                      'drought': ['drought', 'water-crisis', 'extreme-weather'],
+                      'flood': ['flooding', 'extreme-weather', 'disasters'],
+                      'flooding': ['flooding', 'extreme-weather', 'disasters'],
+                      'wildfire': ['wildfires', 'extreme-weather', 'forest-fires'],
+                      'heatwave': ['heatwave', 'extreme-weather', 'temperature-records'],
+                      'heat wave': ['heatwave', 'extreme-weather', 'temperature-records'],
+
+                      # Climate science terms
+                      'arctic': ['arctic', 'polar-regions', 'ice-melt'],
+                      'antarctic': ['antarctica', 'polar-regions', 'ice-melt'],
+                      'glacier': ['glaciers', 'ice-loss', 'climate-indicators'],
+                      'permafrost': ['permafrost', 'arctic', 'tipping-points'],
+                      'sea level': ['sea-level-rise', 'coastal-impacts', 'ocean-changes'],
+                      'ocean acidification': ['ocean-acidification', 'marine-impacts', 'carbon-cycle'],
+                      'el niño': ['el-nino', 'weather-patterns', 'pacific'],
+                      'la niña': ['la-nina', 'weather-patterns', 'pacific'],
+
+                      # Geographic regions
+                      'pacific': ['pacific-region', 'oceania'],
+                      'atlantic': ['atlantic-region', 'hurricanes'],
+                      'california': ['california', 'usa', 'west-coast'],
+                      'australia': ['australia', 'oceania', 'southern-hemisphere'],
+                      'amazon': ['amazon', 'rainforest', 'south-america'],
+                      'sahel': ['sahel', 'africa', 'desertification'],
+
+                      # Impact areas
+                      'agriculture': ['agriculture', 'food-security', 'farming'],
+                      'migration': ['climate-migration', 'displacement', 'refugees'],
+                      'health': ['public-health', 'climate-health', 'disease'],
+                      'economic': ['economic-impacts', 'climate-costs', 'finance'],
+                      'insurance': ['insurance', 'climate-risk', 'economic-impacts'],
+
+                      # Energy and solutions
+                      'renewable': ['renewable-energy', 'clean-energy', 'solutions'],
+                      'solar': ['solar-power', 'renewable-energy', 'clean-tech'],
+                      'wind': ['wind-power', 'renewable-energy', 'clean-tech'],
+                      'fossil fuel': ['fossil-fuels', 'emissions', 'oil-gas'],
+                      'carbon capture': ['carbon-capture', 'ccs', 'mitigation'],
+
+                      # Policy and governance
+                      'paris agreement': ['paris-agreement', 'climate-policy', 'international'],
+                      'cop28': ['cop28', 'climate-summit', 'negotiations'],
+                      'cop29': ['cop29', 'climate-summit', 'negotiations'],
+                      'ipcc': ['ipcc', 'climate-science', 'assessments'],
+                      'net zero': ['net-zero', 'climate-targets', 'policy'],
+                  }
+
+                  # Keywords that indicate urgency/breaking news
+                  self.urgency_keywords = [
+                      'breaking', 'urgent', 'emergency', 'crisis', 'unprecedented',
+                      'record', 'extreme', 'catastrophic', 'devastating'
+                  ]
+
+              def extract_tags(self, title, content, category):
+                  """Extract smart tags from title and content"""
+                  tags = set()
+                  full_text = f"{title} {content}".lower()
+
+                  # Add category-based default tags
+                  category_defaults = {
+                      'climate-science': ['climate-science', 'research'],
+                      'extreme-weather': ['extreme-weather', 'weather-events'],
+                      'environmental-news': ['environment', 'news'],
+                      'social-impact': ['social-impact', 'communities'],
+                      'research-papers': ['research', 'studies', 'peer-reviewed'],
+                      'media': ['media-coverage', 'climate-communication']
+                  }
+
+                  if category in category_defaults:
+                      tags.update(category_defaults[category])
+
+                  # Extract mapped tags
+                  for keyword, tag_list in self.tag_mappings.items():
+                      if keyword in full_text:
+                          tags.update(tag_list[:2])  # Limit tags per keyword
+
+                  # Check for urgency
+                  for urgency_word in self.urgency_keywords:
+                      if urgency_word in full_text:
+                          tags.add('urgent')
+                          break
+
+                  # Extract year if recent
+                  year_match = re.search(r'202[3-9]', full_text)
+                  if year_match:
+                      tags.add(f'year-{year_match.group()}')
+
+                  # Limit total tags
+                  return list(tags)[:10]
+
+              def generate_seo_description(self, title, content, max_length=160):
+                  """Generate SEO-friendly description"""
+                  # Clean content
+                  clean_text = re.sub(r'<[^>]+>', '', content)
+                  clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+
+                  # Try to find a good sentence
+                  sentences = re.split(r'[.!?]', clean_text)
+
+                  # Look for sentences with key information
+                  for sentence in sentences[:3]:
+                      if len(sentence) > 50 and len(sentence) < max_length:
+                          return sentence.strip()
+
+                  # Fallback: use beginning of content
+                  if len(clean_text) > max_length:
+                      return clean_text[:max_length-3] + '...'
+
+                  return clean_text or title
+
+              def extract_keywords(self, title, content, tags, max_keywords=10):
+                  """Extract SEO keywords"""
+                  # Start with tags
+                  keywords = set(tags[:5])
+
+                  # Add important words from title
+                  title_words = re.findall(r'\b[a-z]{4,}\b', title.lower())
+                  important_title_words = [w for w in title_words if w not in 
+                                          ['this', 'that', 'with', 'from', 'have', 'been']]
+                  keywords.update(important_title_words[:3])
+
+                  return list(keywords)[:max_keywords]
+
+          # Load RSS sources function (keep existing)
           def load_rss_sources_by_category():
               """Load RSS URLs from category-specific files"""
               categories = {}
-
-              # Find all RSS source files
               source_files = glob.glob('rss-sources/*.txt')
 
               for file_path in source_files:
-                  # Extract category name from filename
                   category = os.path.basename(file_path).replace('.txt', '')
 
                   with open(file_path, 'r') as f:
                       feeds = []
                       for line in f:
                           line = line.strip()
-                          # Skip comments and empty lines
                           if line and not line.startswith('#'):
                               feeds.append(line)
 
-                      if feeds:  # Only add if there are feeds
+                      if feeds:
                           categories[category] = feeds
                           print(f"📂 Loaded {len(feeds)} feeds for category: {category}")
 
               return categories
 
-          # Your smart duplicate detection (preserved)
+          # Keep existing helper functions
           def load_posted_urls():
-              """Track already posted URLs to prevent duplicates"""
               try:
                   if os.path.exists('_data/rss_tracking/posted_urls.json'):
                       with open('_data/rss_tracking/posted_urls.json', 'r') as f:
@@ -74,30 +201,26 @@ jobs:
                   return {"posted_urls": []}
 
           def save_posted_url(url):
-              """Save posted URL and keep only last 1000 entries"""
               try:
                   posted_data = load_posted_urls()
                   posted_data["posted_urls"].append(url)
-                  posted_data["posted_urls"] = posted_data["posted_urls"][-1000:]  # Keep last 1000
+                  posted_data["posted_urls"] = posted_data["posted_urls"][-1000:]
                   with open('_data/rss_tracking/posted_urls.json', 'w', encoding='utf-8') as f:
                       json.dump(posted_data, f, indent=2)
               except Exception as e:
                   print(f"Error saving posted URL: {e}")
 
-          # Enhanced recency filtering with category-specific rules
           def is_recent_article(published_date, category, max_age_hours=None):
-              """Check if article is recent with category-specific rules"""
               if max_age_hours is None:
-                  # Different recency rules for different categories
                   category_rules = {
-                      'extreme_weather': 24,    # Weather is time-sensitive
-                      'environmental_news': 48, # News is fairly time-sensitive
-                      'research_papers': 168,   # Research papers can be older (1 week)
-                      'climate_science': 72,    # Science updates moderate timing
-                      'social_impact': 96,      # Social impact moderate timing
-                      'media': 72               # Media content moderate timing
+                      'extreme-weather': 24,
+                      'environmental-news': 48,
+                      'research-papers': 168,
+                      'climate-science': 72,
+                      'social-impact': 96,
+                      'media': 72
                   }
-                  max_age_hours = category_rules.get(category, 72)  # Default 72 hours
+                  max_age_hours = category_rules.get(category, 72)
 
               try:
                   if isinstance(published_date, str):
@@ -121,21 +244,17 @@ jobs:
                   print(f"Error checking article date: {e}")
                   return False
 
-          # Content cleaning (preserved and enhanced)
           def clean_title(title):
-              """Clean title for Jekyll compatibility"""
               return title.replace('"', '\\"').replace('\n', ' ').strip()
 
           def clean_content(content):
-              """Clean HTML and prepare content for Jekyll"""
-              content = re.sub(r'<[^>]+>', '', content)  # Remove HTML tags
+              content = re.sub(r'<[^>]+>', '', content)
               content = content.replace('"', '\\"')
-              content = re.sub(r'\s+', ' ', content)  # Normalize whitespace
+              content = re.sub(r'\s+', ' ', content)
               return content.strip()
 
-          # Enhanced Jekyll post creation with category support
+          # Enhanced Jekyll post creation with SEO
           def create_jekyll_posts_from_feed(feed_url, category):
-              """Create properly formatted Jekyll posts with smart filtering"""
               try:
                   print(f"🔄 Processing {category}: {feed_url}")
                   feed = feedparser.parse(feed_url)
@@ -144,30 +263,30 @@ jobs:
                       print(f"❌ Failed to parse feed: {feed_url}")
                       return 0
 
+                  # Initialize tagger
+                  tagger = SmartTagger()
+
                   posted_data = load_posted_urls()
                   posted_urls = posted_data["posted_urls"]
                   new_posts_count = 0
 
                   print(f"📡 Feed: {feed.feed.get('title', 'Unknown')} ({len(feed.entries)} entries)")
 
-                  # Category-specific post limits
                   category_limits = {
-                      'extreme_weather': 3,    # More weather posts (time-sensitive)
-                      'environmental_news': 2, # Standard news posts
-                      'research_papers': 1,    # Fewer research posts (longer content)
-                      'climate_science': 2,    # Standard science posts
-                      'social_impact': 2,      # Standard impact posts
-                      'media': 1               # Fewer media posts
+                      'extreme-weather': 3,
+                      'environmental-news': 2,
+                      'research-papers': 1,
+                      'climate-science': 2,
+                      'social-impact': 2,
+                      'media': 1
                   }
                   max_posts = category_limits.get(category, 2)
 
-                  for entry in feed.entries[:15]:  # Check more entries
+                  for entry in feed.entries[:15]:
                       try:
-                          # Skip if already posted
                           if entry.link in posted_urls:
                               continue
 
-                          # Skip if not recent (category-specific rules)
                           if hasattr(entry, 'published_parsed') and not is_recent_article(entry.published_parsed, category):
                               continue
 
@@ -191,24 +310,35 @@ jobs:
                           else:
                               content = "Read the full article at the link above."
 
+                          # Extract smart tags
+                          tags = tagger.extract_tags(title, content, category)
+
+                          # Generate SEO description
+                          seo_description = tagger.generate_seo_description(title, content)
+
+                          # Extract keywords
+                          keywords = tagger.extract_keywords(title, content, tags)
+
                           # Create unique filename
                           url_hash = hashlib.md5(entry.link.encode()).hexdigest()[:8]
                           slug = re.sub(r'[^a-z0-9]+', '-', title.lower())
                           filename = f"_posts/{date.split()[0]}-{category}-{slug[:30]}-{url_hash}.md"
 
-                          # Skip if file already exists
                           if os.path.exists(filename):
                               continue
 
-                          # Create Jekyll post with proper front matter
+                          # Create Jekyll post with enhanced front matter
                           post_content = f"""---
           layout: feed_item
           title: "{title}"
           date: {date}
           categories: [{category}]
+          tags: {tags}
+          keywords: {keywords}
+          description: "{seo_description}"
           external_url: {entry.link}
           is_feed: true
-          source_feed: "{feed_url}"
+          source_feed: "{feed.feed.get('title', 'Unknown Source')}"
           feed_category: "{category}"
           ---
 
@@ -221,12 +351,10 @@ jobs:
                           with open(filename, 'w', encoding='utf-8') as f:
                               f.write(post_content)
 
-                          # Track posted URL
                           save_posted_url(entry.link)
                           new_posts_count += 1
-                          print(f"✅ Created: {title[:50]}...")
+                          print(f"✅ Created: {title[:50]}... with {len(tags)} tags")
 
-                          # Limit posts per feed
                           if new_posts_count >= max_posts:
                               break
 
@@ -240,25 +368,21 @@ jobs:
                   print(f"❌ Error processing feed {feed_url}: {e}")
                   return 0
 
-          # Main processing with category support
+          # Main processing
           def main():
-              """Main processing function with multi-category support"""
-              print("🚀 Starting multi-category RSS processing...")
+              print("🚀 Starting multi-category RSS processing with smart SEO...")
 
-              # Create necessary directories
               os.makedirs('_posts', exist_ok=True)
               os.makedirs('_data/rss_tracking', exist_ok=True)
 
-              # Load RSS sources by category
               categories = load_rss_sources_by_category()
 
               if not categories:
-                  print("❌ No RSS source files found in rss-sources/ directory")
+                  print("❌ No RSS source files found")
                   return
 
               total_posts = 0
 
-              # Process each category
               for category, feeds in categories.items():
                   print(f"\n📂 Processing category: {category.upper()}")
                   print(f"📡 {len(feeds)} feeds to process")
@@ -279,7 +403,7 @@ jobs:
 
       - name: Commit processed posts
         run: |
-          git config --global user.name 'Climate RSS Bot - Multi-Category'
+          git config --global user.name 'Climate RSS Bot - Multi-Category with SEO'
           git config --global user.email 'action@github.com'
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Step 2: Process multi-category RSS feeds" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Step 2: Process RSS feeds with smart SEO tags" && git push)
