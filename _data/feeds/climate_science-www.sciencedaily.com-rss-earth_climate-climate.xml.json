@@ -4,7 +4,7 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-05-30T21:21:59.921304",
+  "fetched_at": "2025-05-30T22:23:50.388780",
   "items": [
     {
       "title": "Save twice the ice by limiting global warming",
@@ -19,6 +19,14 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529155415.htm",
       "pubDate": "Thu, 29 May 2025 15:54:15 EDT",
       "description": "Anthropologists have examined the societal consequences of global glacier loss. This article appears alongside new research that estimates that more than three-quarters of the world's glacier mass could disappear by the end of the century under current climate policies.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Agriculture in forests can provide climate and economic dividends",
+      "link": "https://www.sciencedaily.com/releases/2025/05/250529145725.htm",
+      "pubDate": "Thu, 29 May 2025 14:57:25 EDT",
+      "description": "Forest-based agroforestry can restore forests, promote livelihoods, and combat climate change, but emerging agroforestry initiatives focusing only on tree planting is leading to missed opportunities to support beneficial outcomes of forest management, scientists found.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250522125530.htm",
       "pubDate": "Thu, 22 May 2025 12:55:30 EDT",
       "description": "New research examining 11,700 years of bowhead whale persistence throughout the Arctic projects that sea ice loss due to climate change will cause their habitat to severely contract by up to 75 per cent.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Breakthrough AI model could transform how we prepare for natural disasters",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250522124851.htm",
-      "pubDate": "Thu, 22 May 2025 12:48:51 EDT",
-      "description": "From deadly floods in Europe to intensifying tropical cyclones around the world, the climate crisis has made timely and precise forecasting more essential than ever. Yet traditional forecasting methods rely on highly complex numerical models developed over decades, requiring powerful supercomputers and large teams of experts. According to its developers, Aurora offers a powerful and efficient alternative using artificial intelligence.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
