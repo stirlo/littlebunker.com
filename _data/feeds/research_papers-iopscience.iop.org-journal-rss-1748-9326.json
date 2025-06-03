@@ -4,8 +4,64 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-03T12:53:03.902578",
+  "fetched_at": "2025-06-03T13:37:25.723821",
   "items": [
+    {
+      "title": "Groundwater and trade: towards an interdisciplinary consensus and roadmap for future research",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adda61",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "The future of hot and dry events in the breadbasket regions of maize",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adda63",
+      "pubDate": "",
+      "description": "Heatwaves and dry spells can severely impact crop yields, making it crucial to understand the nature of these events to ensure food security in a changing climate. We use the Max Planck Institute Grand Ensemble to examine the occurrence of hot–dry extremes in key crop-producing regions known as ‘breadbasket regions’, either in single or multiple breadbasket regions simultaneously, focusing on the differences between 1.5 ∘C and 2 ∘C global warming scenarios. Our findings reveal strong increases in hot–dry events across all individual breadbasket regions between 1.5 ∘C and 2 ∘C of global warming, with ensemble mean probabilities indicating that occurrences more than double in South Asia and triple in East Asia. Moreover, the likelihood of multiple breadbasket regions experiencing extreme events simultaneously increases significantly between 1.5 ∘C and 2 ∘C of warming. Scenarios that were historically considered virtually impossible and very unlikely under 1.5 ∘C, such as at least four regions being affected by hot–dry events in the same growing season, could occur with a 1-in-14 year likelihood under 2 ∘C of warming. We find that, among the breadbasket regions, Central Europe, East Asia, and Central North America most often experience these events simultaneously within the same growing season. Between 1.5 ∘C and 2 ∘C warmer worlds, the probability of simultaneous occurrence increases the most for the connection between these regions. In contrast, South Asia is least likely to be affected simultaneously with other regions, possibly providing insights for risk management.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Human–Earth system interactions under climate change",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adda65",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A panel data study of causality links between CO2 concentration and temperature",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addad9",
+      "pubDate": "",
+      "description": "While the role of rising CO2 concentration in increasing the temperature is well known, the opposite causality link, from temperature to CO2 concentration, received far less scrutiny. In this paper, we address the relation between the two variables using the Dumitrescu–Hurlin panel causality test for a panel of individual areas of the planet. We also run individual areas-level Granger causality tests to determine the geographical distribution of the local causal links between the CO2 concentration and temperature. We find evidence of both causality directions at the global level, suggesting potential feedback between CO2 concentration and temperature. We also find that the global phenomenon results from a very fragmented geographical distribution of mostly unidirectional causality links at the local level. Considering the two results jointly, this work potentially provides insights into the connection between average trends of human-induced global warming and particular local conditions experiencing extreme meteorological conditions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Flash drought prediction using deep learning",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addb65",
+      "pubDate": "",
+      "description": "Flash droughts are rapid, short-term drought events that develop within weeks, driven by factors such as low rainfall, high temperatures, and strong winds, which deplete soil moisture and stress vegetation. These events have profound agricultural, economic, and ecological impacts, yet the use of machine learning to predict flash droughts remains underexplored, hindered by challenges like imbalanced datasets and limited data. This study addresses these issues by applying Convolutional neural networks (CNNs) to predict flash droughts in Eastern Australia, a region prone to such events. We identified flash droughts from 2001 to 2022, training the model with data from 2001–2015, validating it on 2016–2017 data, and testing it on 2018–2022 data. The model’s performance was evaluated across drought duration, spatial distribution, and seasonal variability. Achieving a balanced accuracy of 80% and an Area under the curve of 93%, the CNN demonstrated strong predictive capability. However, it tended to overestimate the spatial extent of droughts, indicating areas for future improvement. These results highlight the potential of deep learning in flash drought prediction, offering valuable insights for early warning systems and drought management strategies.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Unraveling uncertainties in near-term runoff projections across Europe: the major role of atmospheric noise",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addb66",
+      "pubDate": "",
+      "description": "Internal variability drives large runoff variations across Europe. Disentangling its effects from that of anthropogenic forcing in future regional projections is crucial for effective adaptation planning. Here, we show that internal variability is the main source of uncertainty in near-term changes in Europe compared to model and scenario uncertainty, or as important as model uncertainty for the Mediterranean. The contribution of internal variability is even larger for runoff than for precipitation or evapotranspiration over northern, western and central Europe. The inter-member differences in runoff changes are mainly explained by precipitation changes and indirectly by changes in sea level pressure. In potential disagreement with observational studies, no apparent teleconnection between runoff multi-decadal variability and the Atlantic multi-decadal variability is generally found in climate models. This misrepresentation of teleconnections might affect the multi-decadal variability of annual precipitation and therefore runoff over the Mediterranean. Indeed, the multi-decadal variability in precipitation and sea level pressure over this area is shown to be generally underestimated.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Labor markets mediate welfare impacts of conservation policies on society: case of groundwater",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addb67",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Snow, ice and permafrost landscapes as ‘frozen commons’: examples from northern Mongolia",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adc7cb",
@@ -27,62 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add750",
       "pubDate": "",
       "description": "This paper describes three phases that cities go through for the delivery of municipal water and sanitation services, identifying the main political, technological, socio-institutional, financial, public health forces of disequilibria that push cities along this development path. Data from the Global Water Intelligence and the World Bank’s International Benchmarking Network show that most of the countries with utilities with limited piped water coverage (Phase 1) have an annual GDP per capita less than US$5000. In contrast, most countries with an annual GDP per capita greater than US$10 000 have close to universal piped water coverage (Phase 3). We find no statistically significant relationship between country-level water scarcity and the average water prices charged by utilities in a country. We discuss a comprehensive policy mix with four components that municipal water utilities need to address the growing water deficits as rising demands confront limited supplies: (1) reduction of nonrevenue water, (2) source diversification, (3) reduction of customer water use, and (4) establishment of financial reserves to address climate-related emergencies.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Large-scale forcing of principal near-surface wind speed variability patterns in the Arctic since 1979",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adda60",
-      "pubDate": "",
-      "description": "The ERA5 reanalysis dataset is used to characterize the principal patterns of annual and seasonal near-surface wind speeds in the Arctic from 1979 to 2023 by the empirical orthogonal function (EOF) method, together with their relationship with large-scale atmospheric circulation. The leading EOF (EOF1) accounts for about 14%–22% of annual and seasonal wind speed variability, and is composed of widely positive anomalies across most of the Arctic Ocean largely influenced by the positive Arctic Oscillation. Seasonally, the positive anomalies shift from the central Arctic Ocean in summer toward the Greenland and Norwegian Seas in winter, driven by the North Atlantic Oscillation (NAO). The second EOF (EOF2) explains 9.5% of annual wind speed changes and consists of a meridional dipole structure, i.e. positive anomalies over the Russian Arctic seas and negative anomalies over the Greenland and Norway Seas, mainly driven by the Arctic dipole and NAO. The time series of EOF2 shows a decadal switch from negative to positive anomalies at the beginning of the 21st century, related to the phase transition of the Pacific Decadal Oscillation and the Atlantic Multidecadal Oscillation.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Review on heatwaves: a risk perspective",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add178",
-      "pubDate": "",
-      "description": "Current anthropogenic climate change is increasing the occurrence and magnitude of heatwaves causing closely interconnected and interdependent risks across multiple domains, such as environmental and human health, water and food security, etc. The following systematic literature review synthesizes the state of the art concerning risks related to heatwaves by analyzing 1459 publications. Since risks arise from the interaction of hazard, exposure, and vulnerability, publications were first classified by risk components and then further categorized by research fields: healthcare, society, ecosystem, agriculture, infrastructure, and heritage. The analysis allowed the identification of gaps in the current research with implications for policies and practical applications of risk assessments. First, only 3.1% of the revised literature integrates all three components in risk assessments. Second, most of the literature provides average risks over several heatwave events, thus neglecting critical factors like heatwave magnitude and duration. Third, the absence of standardized indices for identifying and classifying heatwaves hinders effective comparisons of results within the same field. It is recommended that future studies in the same field adopt a common methodology and that the above gaps are taken into account as this would enable building more robust and coherent scientific evidence while reducing ambiguities and uncertainties in risk estimates. Decisionmakers may otherwise struggle to develop effective heatwave adaptation and mitigation strategies if risk assessments are inconsistent or unreliable, and fail to account for risk interdependencies across different domains. More research is needed to develop quantitative frameworks that estimate heatwave risks by summing contributions from each affected domain. This is particularly important, as most of the papers reviewed only focused on healthcare (61.1%) or ecosystems (16.3%). However, we acknowledge that this literature review may have excluded some relevant studies, such as those in the heritage field, due to the specific search string applied in our methodology.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Inland flooding in the United States: a review of research related to risk management, economic behavior, and data resources",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add35e",
-      "pubDate": "",
-      "description": "Inland flooding is one of the most frequent and damaging natural disasters in the United States. Recent studies in the literature suggest that climate change will likely lead to an increase in the severity and frequency of inland flooding events in the U.S. We review the diverse literature on inland flooding to synthesize the current state of knowledge and to identify knowledge gaps. The topics covered include flood risk perception, insurance uptake, impact on property values, public mitigation strategies, behavioral responses to flooding, fatalities, and damages. We identify important gaps in the literature related to flood insurance demand, adoption of policies that encourage private and public investment in flood management, and flood risk management impacts in disadvantaged communities. Future research should identify factors that have decreased flood-related fatalities over time. Disentangling how infrastructure investments and better flood information improve outcomes during and after a flood could generate more effective tools and policies for mitigating damage from inland floods. Finally, creating and publishing comprehensive datasets that integrate economic, flood, and policy variables over space and time would facilitate future research on the economics of inland flooding. Our findings point to specific future research opportunities that would improve available databases, inform flood risk management strategies, and ultimately reduce the costs of inland floods.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Sensitivity of tropical cyclone risk across the US to changes in storm climatology and socioeconomic growth",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add60d",
-      "pubDate": "",
-      "description": "Tropical cyclone (TC) hazards coupled with dense urban development along the coastline have resulted in trillions in US damages over the past several decades, with an increasing trend in losses in recent years. So far, this trend has been driven by increasing coastal development. However, as the climate continues to warm, changing TC climatology may also cause large changes in coastal damages in the future. Approaches to quantifying regional TC risk typically focus on total storm damage. However, it is crucial to understand the spatial footprint of TC damage and ultimately the spatial distribution of TC risk. Here, we quantify the magnitude and spatial pattern of TC risk (in expected annual damage (EAD)) across the US from wind, storm surge, and rainfall using synthetic TCs, physics-based hazard models, and a county-level statistical damage model trained on historical TC data. We then combine end-of-century TC hazard simulations with US population growth and wealth increase scenarios (under the SSP2 4.5 emission scenario) to investigate the sensitivity of changes in TC risk across the US Atlantic and Gulf coasts. We find that not directly accounting for the effects of rainfall and storm surge results in much lower risk estimates and smaller future increases in risk. TC climatology change and socioeconomic change drive similar magnitude increases in total EAD across the US (roughly 160%), and that their combined effect (633% increase) is much higher.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Climate-driven sulfate export in alpine watersheds may stimulate methylmercury production",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add8a5",
-      "pubDate": "",
-      "description": "Climate change is increasing sulfate export and changing wetland extent in mountain regions. These changes may increase microbially mediated production of the neurotoxic substance methylmercury due to enhanced sulfate metabolism in mountain environments. Here, we assess methylmercury concentrations and formation rates across high-elevation wetlands in the Colorado Rocky Mountains. We also investigate sulfate controls on methylmercury production within subalpine peatlands by amending soils with sulfate to mimic increased stream export of sulfate from the alpine zone and measuring methylmercury formation rates for different sulfate treatments. We found that subalpine peatlands have statistically significant higher methylmercury concentrations and formation rates compared to alpine, mineral-soil wetlands. Methylmercury production in subalpine peatlands also increased significantly (p < 0.05) following sulfate additions; the highest rates occurred in sediments with intermediate extractable sulfate concentrations (∼0.60–1.4 mg sulfate g−1 dry soil). Our study is the first to identify soil sulfate-related thresholds for methylmercury production and sulfate-limitation of methylmercury production in subalpine peatlands. These findings highlight important linkages between climate-driven mineral weathering and mercury cycling in mountain regions globally.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Illuminating deep-sea considerations and experimental approaches for mCDR proposals",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add8a6",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Boiling point: short-term coping with heatwaves in the UK is not enough",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add94c",
-      "pubDate": "",
-      "description": "In July 2022, a national emergency was declared in the United Kingdom (UK) following the Met Office’s first-ever red extreme heat warning. As temperatures reached 40.3 °C, thousands of excess deaths were recorded. Based on 38 expert interviews and 4 focus groups with key decision-makers and stakeholders working on the frontline of the 2022 UK heatwaves, we found that the country is not prepared for extreme heat because: (1) policies and planning prioritise coping over resilience; (2) insufficient preventative actions were taken; and (3) a range of barriers hinder effective short and longer-term measures. We argue that whilst the UK coped with the heatwaves in 2022, it lacks the resilience needed to deal with persistent and prolonged heat events.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
