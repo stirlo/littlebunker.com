@@ -4,8 +4,32 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-02T23:24:42.605577",
+  "fetched_at": "2025-06-03T02:03:17.170606",
   "items": [
+    {
+      "title": "Geological time capsule highlights Great Barrier Reef's resilience",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250602155513.htm",
+      "pubDate": "Mon, 02 Jun 2025 15:55:13 EDT",
+      "description": "New research adds to our understanding of how rapidly rising sea levels due to climate change foreshadow the end of the Great Barrier Reef as we know it. The findings suggest the reef can withstand rising sea levels in isolation but is vulnerable to associated environmental stressors arising from global climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Still on the right track? Researchers enable reliable monitoring of the Paris climate goals",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250602155340.htm",
+      "pubDate": "Mon, 02 Jun 2025 15:53:40 EDT",
+      "description": "Global warming is continuously advancing. How quickly this will happen can now be predicted more accurately than ever before, thanks to a method developed by climate researchers. Anthropogenic global warming is set to exceed 1.5 degrees Celsius by 2028 and hence improved quantification of the Paris goals is proposed.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Researchers use deep learning to predict flooding this hurricane season",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250602154901.htm",
+      "pubDate": "Mon, 02 Jun 2025 15:49:01 EDT",
+      "description": "Researchers have developed a deep learning model called LSTM-SAM that predicts extreme water levels from tropical cyclones more efficiently and accurately, especially in data-scarce coastal regions, to offer a faster, low-cost tool for flood forecasting.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Small currents, big impact: Satellite breakthrough reveals hidden ocean forces",
       "link": "https://www.sciencedaily.com/releases/2025/05/250530123950.htm",
@@ -139,30 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250527124539.htm",
       "pubDate": "Tue, 27 May 2025 12:45:39 EDT",
       "description": "When formulating climate policy, too little attention is paid to social factors and too much to technological breakthroughs and economic reasons. Because citizens are hardly heard in this process, European governments risk losing public support at a crucial moment in the climate debate.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The ocean seems to be getting darker",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250527124438.htm",
-      "pubDate": "Tue, 27 May 2025 12:44:38 EDT",
-      "description": "Scientists, who have spent more than a decade examining the impact of artificial light at night on the world's coasts and oceans, have shown that more than one-fifth of the global ocean -- an area spanning more than 75 million sq km -- has been the subject of ocean darkening over the past two decades. Ocean darkening occurs when changes in the optical properties of the ocean reduce the depth of its photic zones, home to 90% of all marine life and places where sunlight and moonlight drive ecological interactions.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "How marine plankton adapts to a changing world",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250523141909.htm",
-      "pubDate": "Fri, 23 May 2025 14:19:09 EDT",
-      "description": "Plankton may be tiny, but they play an important role in the ocean. As the foundation of marine ecosystems, they support ocean food webs and help regulate Earth's climate by storing carbon. While lab studies have shown plankton can adjust their chemistry in response to environmental changes, a new global study reveals how these adaptations occur in the real ocean.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "El Niño and La Niña climate swings threaten mangroves worldwide",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250523120456.htm",
-      "pubDate": "Fri, 23 May 2025 12:04:56 EDT",
-      "description": "New international research demonstrates global-scale patterns in how El Ni o-Southern Oscillation (ENSO) influences mangrove growth and degradation. Previously, impacts had only been documented at individual sites, such as a dramatic die-off in northern Australia in 2015 when more than 40 million mangrove trees perished along a 1,200-mile stretch of coastline.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
