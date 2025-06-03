@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-03T14:26:28.601020",
+  "fetched_at": "2025-06-03T15:28:38.009837",
   "items": [
     {
       "title": "Large dynamic contributions to tropical cyclone precipitation with increasing sea surface temperature",
@@ -55,6 +55,14 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Real-time detection of harmful algal blooms using GOCI II and buoy-based dissolved oxygen variations",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addb63",
+      "pubDate": "",
+      "description": "Harmful algal blooms (HABs) threaten aquatic ecosystems and water quality, necessitating timely monitoring. Traditional satellite observations, including high-frequency sensors like Geostationary Ocean Color Imager II (GOCI-II), are often hindered by cloud cover and low-light conditions, limiting their temporal resolution and coverage. We propose a real-time approach using diel variations in dissolved oxygen (DO) measured by buoys to detect HAB initiation and dynamics. By isolating biologically driven oxygen variation ( ) from physical processes, we identify increases in , elevated temperature, and maximum DO as key HAB indicators. This method captures bloom activity under cloudy or low-light conditions when satellites fail. To enhance spatial coverage, we integrate buoy-based DO data with high-frequency GOCI-II satellite observations, providing hourly, all-weather bloom detection. While satellite or buoy observations alone face limitations, their integration overcomes traditional barriers. Our results demonstrate a robust tool for real-time HAB monitoring and early warning, supporting sustainable water resource management.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Flash drought prediction using deep learning",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addb65",
       "pubDate": "",
@@ -83,6 +91,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addc82",
       "pubDate": "",
       "description": "The rapid expansion of agriculture in Kenya, driven by the country’s growing population, poses critical environmental challenges such as climate change and biodiversity loss. While deforestation has received much attention, the equally vital grasslands are under significant threat. Monitoring efforts have often prioritized the extent of land conversion, with limited focus on the intensity of conversion, particularly in non-forest biomes. This study addresses this gap by assessing the expansion of row crop and irrigated agriculture in the grasslands of central Kenya from 2018 to 2022. The region, particularly around Laikipia County, has seen a rapid increase in irrigated agriculture, encroaching on natural grasslands and threatening local wildlife through excessive water extraction. We mapped the expansion of both smallholder and large-scale croplands and developed a model based on vegetation indices and proximity to key water sources to estimate irrigation likelihood. Our results show a 27% increase in likely irrigated croplands from 2018 to 2022, with projections indicating that, if current trends persist, irrigation areas will double by 2030, probably increasing water consumption substantially. This study underscores the urgent need to protect Kenya’s native grasslands, which are facing active threats with far-reaching environmental consequences.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Evaluating the current status of agriculture-driven deforestation across jurisdictional scales in the United States using foundational, federal datasets *",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addc83",
+      "pubDate": "",
+      "description": "Foundational forest and land-use change monitoring programs, with their statistical rigor and long-term baselines, are increasingly important to inform emerging global agricultural and forest commodity trade policies such as the European Union regulation on deforestation-free products (EUDR). The EUDR requires national-scale information on deforestation prevalence as one component of deforestation risk assessments, with additional traceability and risk assessment requirements at the parcel scale for exports to the EU to comply with the regulation. To better understand potential implications of this policy and evaluate relevant monitoring data, we estimate area converted from forest to agricultural land use in the United States (US) using three authoritative data sources from US Department of Agriculture statistical programs: the Nationwide Forest Inventory, National Resources Inventory, and Crop Sequence Boundaries Data. Results from all three datasets consistently indicate that agriculture-driven gross deforestation has been minimal over the past decade in the US, averaging 0.01%–0.04% of forested area annually. Most of this land-use change is occurring in the Southeastern US with conversion to pasture being the most common agricultural conversion subcategory. The rarity of agriculture-driven deforestation results in high levels of uncertainty in county-scale estimates due to the low sample size and potential misclassification errors in modeled data. Nevertheless, comparing results from these three complementary datasets can provide greater confidence in fine-scale spatial patterns of past deforestation. This analysis highlights several challenges associated with implementing and enforcing trade policy based on land use categories. Given the low rate of agriculture-driven deforestation and potential difficulties with identifying land-use change at small spatial scales, trade policies focused solely on land use categories may have a limited benefit in countries such as the US where agriculture is not a major driver of deforestation.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
