@@ -4,7 +4,7 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-05T15:27:16.144222",
+  "fetched_at": "2025-06-05T16:31:59.335206",
   "items": [
     {
       "title": "Eating an array of smaller fish could be nutrient-dense solution to overfishing",
@@ -59,6 +59,14 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250602154901.htm",
       "pubDate": "Mon, 02 Jun 2025 15:49:01 EDT",
       "description": "Researchers have developed a deep learning model called LSTM-SAM that predicts extreme water levels from tropical cyclones more efficiently and accurately, especially in data-scarce coastal regions, to offer a faster, low-cost tool for flood forecasting.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Human-caused dust events are linked to fallow farmland",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250602154722.htm",
+      "pubDate": "Mon, 02 Jun 2025 15:47:22 EDT",
+      "description": "California Central Valley, which is known for the agriculture that produces much of the nation's fruits, vegetables and nuts, is a major contributor to a growing dust problem that has profound implications for people's health, safety and well-being.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529124119.htm",
       "pubDate": "Thu, 29 May 2025 12:41:19 EDT",
       "description": "Immediate recovery efforts receive the most attention after severe natural disasters, yet new data from researchers at Drexel University and the University of Maryland suggests these climate events often also leave a critical long-term -- and often unaddressed -- problem in declines in access to health care.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Huge sea-urchin populations are overwhelming Hawaii's coral reefs",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250528150650.htm",
-      "pubDate": "Wed, 28 May 2025 15:06:50 EDT",
-      "description": "This study measured the growth rate of coral reefs in Honaunau Bay, Hawaii, using on-site data gathering and aerial imagery. Researchers found that the reefs are being eroded by sea urchin populations which have exploded due to overfishing in the area. The reefs are also threatened by climate change and water pollution, and their growth rates are not fast enough to counteract the erosion caused by the urchins.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
