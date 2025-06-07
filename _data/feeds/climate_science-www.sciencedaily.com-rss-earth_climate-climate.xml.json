@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-07T08:29:35.501557",
+  "fetched_at": "2025-06-07T09:23:50.534102",
   "items": [
+    {
+      "title": "Extreme weather is wiping out amphibians—Here’s where it’s worst",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250606231257.htm",
+      "pubDate": "Fri, 06 Jun 2025 23:12:57 EDT",
+      "description": "Frogs, salamanders, and other amphibians are not just battling habitat loss and pollution they're now also contending with increasingly brutal heat waves and droughts. A sweeping 40-year study shows a direct link between the rise in extreme weather events and the growing number of species landing on the endangered list. Europe, the Amazon, and Madagascar have become danger zones, with amphibians unable to adapt quickly enough. But there s hope scientists are calling for focused conservation efforts like habitat restoration and micro-refuges to help these vulnerable creatures survive.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Eating an array of smaller fish could be nutrient-dense solution to overfishing",
       "link": "https://www.sciencedaily.com/releases/2025/06/250603141204.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529124628.htm",
       "pubDate": "Thu, 29 May 2025 12:46:28 EDT",
       "description": "Replanting forests can help cool the planet even more than some scientists once believed, especially in the tropics. But even if every tree lost since the mid-19th century is replanted, the total effect won't cancel out human-generated warming.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "When climate disasters hit, they often leave long-term health care access shortages",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250529124119.htm",
-      "pubDate": "Thu, 29 May 2025 12:41:19 EDT",
-      "description": "Immediate recovery efforts receive the most attention after severe natural disasters, yet new data from researchers at Drexel University and the University of Maryland suggests these climate events often also leave a critical long-term -- and often unaddressed -- problem in declines in access to health care.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
