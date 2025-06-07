@@ -81,7 +81,8 @@ jobs:
                       print(f"🔍 NOAA CO2 latest: {latest}")
                       if len(latest) >= 4:
                           try:
-                              new_co2 = round(float(latest[3]), 1)  # Match your format (421.5)
+                              new_co2 = round(float(latest[4]), 1)  # This gets the actual CO2 value
+
                               print(f"🔍 Parsed CO2: {new_co2} ppm from {latest[0]}-{latest[1]}-{latest[2]}")
 
                               metrics['co2']['current'] = validate_value(
