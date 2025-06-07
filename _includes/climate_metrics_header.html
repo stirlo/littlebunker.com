@@ -37,13 +37,13 @@
                     </div>
                 </div>
 
-                <div class="metric-card temperature">
-                    <h3>Temperature Overshoot</h3>
+               <div class="metric-card temperature">
+                    <h3>Global Temperature</h3>
                     <div class="current-value critical" id="temp-value">
-                        +{{ site.data.metrics.temperature.overshoot | default: "1.2" }} <span class="unit">°C</span>
+                        +{{ site.data.metrics.temperature.current | default: "1.2" }} <span class="unit">°C</span>
                     </div>
                     <div class="trend">
-                        <span class="target">Target: 1.5°C</span>
+                        <span class="target critical">Peak: +{{ site.data.metrics.temperature.recent_peak | default: "1.5" }}°C</span>
                     </div>
                 </div>
 
@@ -124,6 +124,11 @@
     animation: pulse 2s infinite;
 }
 
+.target.critical {
+    font-weight: bold;
+    animation: pulse 2s infinite;
+}
+    
 .warning {
     color: var(--warning, #ffaa00);
 }
