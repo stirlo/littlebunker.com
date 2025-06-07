@@ -9,4 +9,5 @@ population:
   growth: 67
   total: 8.1
 temperature:
-  overshoot: 1.2
+  current: 1.48
+  recent_peak: 1.73
