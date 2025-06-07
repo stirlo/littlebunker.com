@@ -70,7 +70,7 @@ jobs:
           print("\n📊 Fetching CO2 from NOAA...")
           try:
               response = requests.get(
-                  "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_trend_gl.txt",
+                  "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_weekly_mlo.txt",
                   timeout=15
               )
               if response.status_code == 200:
