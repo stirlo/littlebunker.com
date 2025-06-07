@@ -139,32 +139,54 @@ jobs:
           except Exception as e:
               print(f"❌ NOAA CH4 failed: {e}")
 
-          # 3. Temperature from NASA GISS
-          print("\n🌡️ Fetching temperature data...")
-          try:
-              response = requests.get(
-                  "https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.txt",
-                  timeout=15
-              )
-              if response.status_code == 200:
-                  lines = response.text.strip().split('\n')
-                  for line in reversed(lines):
-                      if line.strip() and not line.startswith('#'):
-                          parts = line.split()
-                          if len(parts) >= 14 and parts[0].isdigit():
-                              year = int(parts[0])
-                              if year >= 2020 and parts[13] != '*':
-                                  try:
-                                      new_temp = round(float(parts[13]) / 100.0, 1)  # Match format (1.2)
-                                      metrics['temperature']['overshoot'] = validate_value(
-                                          new_temp, metrics['temperature']['overshoot'], -2.0, 3.0, "Temperature"
-                                      )
-                                      print(f"📅 Temperature overshoot: +{metrics['temperature']['overshoot']}°C ({year})")
-                                      break
-                                  except (ValueError, IndexError) as e:
-                                      print(f"❌ Could not parse temperature: {e}")
-          except Exception as e:
-              print(f"❌ NASA GISS failed: {e}")
+                     # 3. Temperature from Climate Reanalyzer (Daily Updates)
+            print("\n🌡️ Fetching daily temperature data...")
+            try:
+                response = requests.get(
+                    "https://climatereanalyzer.org/clim/t2_daily/json/cfsr_world_t2_day.json",
+                    timeout=15
+                )
+                if response.status_code == 200:
+                    data = response.json()
+            
+                    # Get latest daily anomaly
+                    latest_day = data[-1]
+                    current_anomaly = latest_day['value']
+            
+                    # Adjust from 1979-2000 baseline to 1850-1900 baseline (+0.9°C)
+                    adjusted_current = round(current_anomaly + 0.9, 2)
+            
+                    # Find recent peak (last 365 days)
+                    recent_data = data[-365:]
+                    peak_value = max(d['value'] for d in recent_data)
+                    adjusted_peak = round(peak_value + 0.9, 2)
+            
+                    print(f"📅 Current temperature anomaly: +{adjusted_current}°C")
+                    print(f"🔥 Recent peak (365 days): +{adjusted_peak}°C")
+            
+                    # Update metrics structure - NEW FORMAT
+                    metrics['temperature'] = {
+                        'current': adjusted_current,
+                        'recent_peak': adjusted_peak
+                    }
+            
+                    # Validate values
+                    metrics['temperature']['current'] = validate_value(
+                        adjusted_current, 1.2, -2.0, 3.0, "Current Temperature"
+                    )
+                    metrics['temperature']['recent_peak'] = validate_value(
+                        adjusted_peak, 1.5, -2.0, 3.0, "Peak Temperature"
+                    )
+            
+            except Exception as e:
+                print(f"❌ Daily temperature failed: {e}")
+                # Keep existing structure if fetch fails
+                if 'temperature' not in metrics or 'overshoot' in metrics['temperature']:
+                    metrics['temperature'] = {
+                        'current': metrics.get('temperature', {}).get('overshoot', 1.2),
+                        'recent_peak': 1.5
+                    }
+
 
           # 4. Population from World Bank API
           print("\n👥 Fetching population data...")
