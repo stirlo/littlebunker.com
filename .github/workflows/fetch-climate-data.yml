@@ -93,7 +93,7 @@ jobs:
                               if len(lines) >= 365:
                                   year_ago = lines[-365].split()
                                   if len(year_ago) >= 4:
-                                      year_ago_val = float(year_ago[3])
+                                      year_ago_val = float(year_ago[4])
                                       metrics['co2']['change'] = round(
                                           metrics['co2']['current'] - year_ago_val, 1
                                       )
