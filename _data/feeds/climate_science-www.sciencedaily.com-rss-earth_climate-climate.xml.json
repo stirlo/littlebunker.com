@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-09T07:25:45.500561",
+  "fetched_at": "2025-06-09T08:35:15.348724",
   "items": [
+    {
+      "title": "Why past mass extinctions didn't break ecosystems—But this one might",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250609020620.htm",
+      "pubDate": "Mon, 09 Jun 2025 02:06:20 EDT",
+      "description": "For millions of years, large herbivores like mastodons and giant deer shaped the Earth's ecosystems, which astonishingly stayed stable despite extinctions and upheavals. A new study reveals that only twice in 60 million years did environmental shifts dramatically reorganize these systems once with a continental land bridge, and again with climate-driven habitat change. Yet the ecosystems adapted, with new species taking on old roles. Now, a third, human-driven tipping point threatens that ancient resilience.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Earth’s core mystery solved: How solid rock flows 3,000 kilometers beneath us",
       "link": "https://www.sciencedaily.com/releases/2025/06/250608222155.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529124732.htm",
       "pubDate": "Thu, 29 May 2025 12:47:32 EDT",
       "description": "Researchers created a detailed physical model that suggests a major Atlantic Ocean current will weaken far less under climate change than indicated by more extreme climate model projections.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Living libraries could save our food",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250529124729.htm",
-      "pubDate": "Thu, 29 May 2025 12:47:29 EDT",
-      "description": "Scientists have pioneered a new way to breed climate-resilient crops faster by combining plant genebank data with climate and DNA analysis. The method, tested on sorghum, could speed up global efforts to secure food supplies in a changing climate.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
