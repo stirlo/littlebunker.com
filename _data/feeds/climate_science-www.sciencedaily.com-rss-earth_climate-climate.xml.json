@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-11T11:22:34.351502",
+  "fetched_at": "2025-06-11T12:53:07.910907",
   "items": [
+    {
+      "title": "The global rule that predicts where life thrives—and where it fails",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250610112541.htm",
+      "pubDate": "Tue, 10 Jun 2025 11:25:41 EDT",
+      "description": "What if all life on Earth followed a surprisingly simple pattern? New research shows that in every region, species tend to cluster in small hotspots and then gradually thin out. This universal rule applies across drastically different organisms and habitats from trees to dragonflies, oceans to forests. Scientists now believe environmental filtering shapes this global distribution, providing new tools to predict how life responds to climate change and biodiversity threats.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Why past mass extinctions didn't break ecosystems—But this one might",
       "link": "https://www.sciencedaily.com/releases/2025/06/250609020620.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529124740.htm",
       "pubDate": "Thu, 29 May 2025 12:47:40 EDT",
       "description": "A professor of crop sciences and of plant biology describes research efforts to 'future-proof' the crops that are essential to feeding a hungry world in a changing climate. Long, who has spent decades studying the process of photosynthesis and finding ways to improve it, provides an overview of key scientific findings that offer a ray of hope.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Atlantic ocean current unlikely to collapse with climate change",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250529124732.htm",
-      "pubDate": "Thu, 29 May 2025 12:47:32 EDT",
-      "description": "Researchers created a detailed physical model that suggests a major Atlantic Ocean current will weaken far less under climate change than indicated by more extreme climate model projections.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
