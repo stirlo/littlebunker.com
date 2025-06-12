@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-12T14:26:15.342420",
+  "fetched_at": "2025-06-12T15:28:15.821096",
   "items": [
+    {
+      "title": "Global drivers of forest loss at 1 km resolution",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add606",
+      "pubDate": "",
+      "description": "Forests are in decline worldwide due to human activities such as agricultural expansion, urbanization, and mineral extraction. Forest loss due to generally temporary causes, such as wildfire and logging, is important to distinguish from permanent land use conversion due to the differing ecological and climate impacts of these disturbances and for the purposes of developing effective policies and management strategies. Existing global maps of the drivers of forest loss that are widely used are not spatially or thematically detailed enough for decision makers at local-to-regional scales, such as governments, land managers, or companies. Using publicly available satellite observations (Landsat, Sentinel) and ancillary biophysical and population data, we developed a 1 km resolution, global map of the dominant drivers of forest loss from 2001 to 2022 with seven classes: permanent agriculture (e.g. commodity crops or pasture), hard commodities (e.g. mining), shifting cultivation, logging, settlements and infrastructure, wildfire, and other natural disturbances. We interpreted nearly 7000 reference samples to train a global neural network model that classifies the driver of tree cover loss with an overall accuracy of 90.5%. Our results show that permanent agriculture was the leading driver of forest loss globally, representing 35% of loss from 2001 to 2022. The drivers of tree cover loss vary by region, with the leading driver identified as logging in Europe, permanent agriculture across the tropics, and wildfire in Russia, the Asian mainland, North America, and Oceania. Our results enable assessment of forest disturbance dynamics from local to global scales and can support tracking progress towards corporate and governmental zero-deforestation commitments, monitoring deforestation risks within jurisdictions and supply chains, and assessment of global biodiversity targets.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Field-scale mapping of California crop water productivity to inform water management in critically overdrafted groundwater basins",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/add6b8",
