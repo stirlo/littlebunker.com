@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-12T17:23:02.004384",
+  "fetched_at": "2025-06-12T18:35:23.586381",
   "items": [
     {
       "title": "Marginal ecologies: a framework for studying the social–ecological margins",
@@ -59,6 +59,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade171",
       "pubDate": "",
       "description": "The frequency of extreme drought events is increasing, significantly impacting ecosystems worldwide. In China, the grasslands of dryland Inner Mongolia provide a vital ecological resource, highlight the urgent need to understand their response to drought in these arid regions. We investigate vegetation dynamics and soil moisture fluctuations across three grassland types—meadows, typical grasslands, and desert grasslands—utilizing solar-induced fluorescence (SIF), normalized difference vegetation index (NDVI), and soil moisture data from 2001 to 2020. By employing event coincidence analysis and the maximum coincidence rate, we quantified the grasslands’ responses to drought events. Our findings indicate a significant upward trend in SIF across all grassland types over the past two decades, while NDVI and soil moisture levels remained relatively stable. Under drought conditions, the probability of grassland degradation ranged from 40% to 60%. Notably, desert grasslands exhibited a considerably slower response rate compared to other grassland types, while meadow grasslands responded the fastest to drought; however, all grassland types displayed a response delay of 1–2 months. When soil moisture levels fell below −1.8 standard deviations (STDs), a reversal in grassland response patterns was observed, particularly in meadow grasslands, which showed a substantial increase in response probability. At soil moisture levels below −2.4 STD, this probability stabilized at approximately 90%, significantly higher than that of other grassland types. These insights provide a vital basis for understanding and mitigating drought impacts on resilient grassland ecosystems under climate change.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Potential of utility-scale solar farms on vegetation greening in non-humid ecosystems: insights from typical sites in Qinghai Province, China",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade172",
+      "pubDate": "",
+      "description": "Solar farms (SFs) have been vigorously developed to address climate and environmental challenges in recent decades. However, long-term impacts of SF on vegetation and the underlying mechanism remain poorly understood. In this study, we conduct spatial (Impact versus Control zones) and temporal (pre- versus post- development of utility-scale SF) comparisons of the normalized difference vegetation index (NDVI) to investigate vegetation variations in three ground-mounted utility-scale SF (with an average installed capacity of 8263 MW) in northwest China. Results indicate SF impacts on vegetation within an extent of around 1 km. Both spatial and temporal comparisons reveal positive SF impacts on vegetation, with higher NDVI in Impact (0.098) than Control zones (0.076) as well as during post- (0.113) than pre-SF development (0.087). Further quantification based on random forest shows generally equivalent contribution of climatic factors and SF construction on vegetation greening (48.4% and 51.6% respectively). These findings underscore substantial influence of SF on vegetation in non-humid conditions, and raise an urgent need to further explore its potential eco-environmental implications on a broader scale.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
