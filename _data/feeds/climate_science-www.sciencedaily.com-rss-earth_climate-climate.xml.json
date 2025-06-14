@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-14T15:23:59.317853",
+  "fetched_at": "2025-06-14T16:29:04.526038",
   "items": [
+    {
+      "title": "Toxic tides: Centuries-old mercury is flooding the arctic food chain",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250613013926.htm",
+      "pubDate": "Fri, 13 Jun 2025 01:39:26 EDT",
+      "description": "Despite falling global mercury emissions, mercury levels in Arctic wildlife continue to rise. A new study reveals that ocean currents are delivering legacy mercury pollution from distant regions like China to the Arctic, where it accumulates in animals and ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Rivers are exhaling ancient carbon — and climate math just changed",
       "link": "https://www.sciencedaily.com/releases/2025/06/250612092543.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529140125.htm",
       "pubDate": "Thu, 29 May 2025 14:01:25 EDT",
       "description": "A new study reveals that the aerobic nitrogen cycle in the ocean may have occurred about 100 million years before oxygen began to significantly accumulate in the atmosphere, based on nitrogen isotope analysis from ancient South African rock cores. These findings not only refine the timeline of Earth's oxygenation but also highlight a critical evolutionary shift, where life began adapting to oxygen-rich conditions -- paving the way for the emergence of complex, multicellular organisms like humans.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "An iron oxide 'oxygen sponge' for efficient thermochemical hydrogen production",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250529124856.htm",
-      "pubDate": "Thu, 29 May 2025 12:48:56 EDT",
-      "description": "As the world shifts toward sustainable energy sources, 'green hydrogen' - hydrogen produced without emitting carbon - has emerged as a leading candidate for clean power. Scientists have now developed a new iron-based catalyst that more than doubles the conversion efficiency of thermochemical green hydrogen production.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
