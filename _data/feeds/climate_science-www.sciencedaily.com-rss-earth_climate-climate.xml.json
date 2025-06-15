@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-15T09:24:51.394236",
+  "fetched_at": "2025-06-15T10:26:47.064959",
   "items": [
+    {
+      "title": "Space-laser AI maps forest carbon in minutes—a game-changer for climate science",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250614034237.htm",
+      "pubDate": "Sat, 14 Jun 2025 03:42:37 EDT",
+      "description": "A pioneering study reveals how archaeologists' satellite tools can be repurposed to tackle climate change. By using AI and satellite LiDAR imagery from NASA and ESA, researchers have found a faster, more accurate way to map forest biomass critical for tracking carbon. This innovative fusion of space tech and machine learning could revolutionize how we manage and preserve forests in a warming world.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Toxic tides: Centuries-old mercury is flooding the arctic food chain",
       "link": "https://www.sciencedaily.com/releases/2025/06/250613013926.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/05/250529145725.htm",
       "pubDate": "Thu, 29 May 2025 14:57:25 EDT",
       "description": "Forest-based agroforestry can restore forests, promote livelihoods, and combat climate change, but emerging agroforestry initiatives focusing only on tree planting is leading to missed opportunities to support beneficial outcomes of forest management, scientists found.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Rock record illuminates oxygen history",
-      "link": "https://www.sciencedaily.com/releases/2025/05/250529140125.htm",
-      "pubDate": "Thu, 29 May 2025 14:01:25 EDT",
-      "description": "A new study reveals that the aerobic nitrogen cycle in the ocean may have occurred about 100 million years before oxygen began to significantly accumulate in the atmosphere, based on nitrogen isotope analysis from ancient South African rock cores. These findings not only refine the timeline of Earth's oxygenation but also highlight a critical evolutionary shift, where life began adapting to oxygen-rich conditions -- paving the way for the emergence of complex, multicellular organisms like humans.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
