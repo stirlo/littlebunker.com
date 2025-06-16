@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-06-16T12:54:33.210263",
+  "fetched_at": "2025-06-16T13:38:29.971410",
   "items": [
+    {
+      "title": "Developing practical climate adaptation and mitigation toolkits for Canadian forest-based communities: a systematic review",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1578605",
+      "pubDate": "2025-06-16T00:00:00Z",
+      "description": "The effects of climate change events such as wildfires, storms, flooding, and pest outbreaks remain a constant threat to the health of Canadian forests. Consequently, adaptation and mitigation actions are necessary to reduce the effects and impacts of climate change and prevent further deterioration of forest health. Using a climate change toolkit is a common way for forest practitioners to understand their climate risks, develop locally relevant adaptation and mitigation options, and drive the implementation of strategies to improve forest resilience. In this review paper, we examine how climate change adaptation and mitigation toolkits have been developed in the Canadian forest sector, the challenges that were encountered, and if and how Indigenous and local knowledge were incorporated into the process. Our results show that toolkits developed holistically and comprehensively provide a good foundation for implementing long-term impactful climate action. Achieving this requires a broad understanding and mapping of climate issues, implementation options, as well as best practices for monitoring and evaluation of action plans. If developed appropriately, toolkits can provide flexible pathways that are tailored to local changing climatic patterns, events, and impacts within specific contexts or sectors, ultimately improving forest resilience in the face of climate change.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Co-benefits of resilience planning: a review of analysis tools and methods",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1539858",
@@ -135,14 +143,6 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Using photorealistic 3D visualization to convey ecosystem restoration to the public",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1525331",
-      "pubDate": "2025-05-15T00:00:00Z",
-      "description": "The success of climate adaptation and nature conservation measures depends significantly on public support. Although the value of protecting iconic species is often easy to communicate to non-expert audiences, conveying the broader importance of ecosystem restoration and conservation for climate resilience is more challenging. To address this, we developed a method that combines spatially explicit models of complex, self-organizing ecosystems with state-of-the-art visualization techniques. This approach creates immersive, three-dimensional panoramic views of natural landscapes, illustrating how people live in and interact with these ecosystems. Our method showcases the inherent complexity of ecosystems, highlighting features such as spatial patterning and the dynamic processes that shape them, as well as the critical role of this complexity in supporting biodiversity. Additionally, it demonstrates the potential of restored or even constructed ecosystems as nature-based solutions to future climate challenges. Adaptable to various ecosystems and locations, with the optional addition of audio or text explanations, this visualization tool can be used in diverse contexts, from museum exhibits to on-site virtual experiences, effectively reaching broad audiences. We present our visualization approach through two case studies that bring to life past climate-adaptive ecosystems and envision future developments. The first case depicts a historic medieval village, now located within a low-lying polder, which was once founded on an expansive, climate-resilient marsh that naturally rose with sea levels due to continuous sediment deposition. The second case explores a planned nature restoration project in Biesbosch National Park, where an embanked meadow is planned to be converted into a tidal wetland.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "Integrating science for simultaneously addressing loss and damage from climate change and strengthening social protection",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1497560",
       "pubDate": "2025-05-15T00:00:00Z",
@@ -159,10 +159,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Deep learning super-resolution for temperature data downscaling: a comprehensive study using residual networks",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1572428",
-      "pubDate": "2025-05-13T00:00:00Z",
-      "description": "Extreme weather events such as heatwaves, cyclones, floods, wildfires, and droughts are becoming more frequent due to climate change. Climate change causes shifts in biodiversity and impacts agriculture, forest ecosystems, and water resources at a regional scale. However, to study those impacts at the regional scale, the spatial resolution provided by the general circulation models (GCMs) and reanalysis products is inadequate. This study evaluates advanced deep learning models for downscaling European Center for Medium-Range Weather Forecasts (ECMWF) Reanalysis v5 (ERA5) 2-m temperature data by a factor of 10 (i.e., ranging approximately from 250 to 25 km resolution) for the region spanning 50° to 100° E and 0° to 50° N. We concentrate on gradually improving downscaling models with the help of residual networks. We compare the baseline Super-Resolution Convolutional Neural Network (SRCNN) model with two advanced models: Very Deep Super-Resolution (VDSR) and Enhanced Deep Super-Resolution (EDSR) to assess the impact of residual networks and architectural improvements. The results indicate that VDSR and EDSR significantly outperform SRCNN. Specifically, VDSR increases the Peak Signal-to-Noise Ratio (PSNR) by 4.27 dB and EDSR by 5.23 dB. These models also enhance the Structural Similarity Index Measure (SSIM) by 0.1263 and 0.1163, respectively, indicating better image quality. Furthermore, improvements in the 3°C error threshold are observed, with VDSR and EDSR showing increases of 2.10 and 2.16%, respectively. An explainable artificial intelligence (AI) technique called saliency map analysis provided insights into model performance. Complex terrain areas, such as the Himalayas and the Tibetan Plateau, benefit the most from these advancements. These findings suggest that advanced deep learning models employing residual networks, such as VDSR and EDSR, significantly enhance temperature data accuracy over SRCNN. This approach holds promise for future applications in downscaling other atmospheric variables.",
+      "title": "Using photorealistic 3D visualization to convey ecosystem restoration to the public",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1525331",
+      "pubDate": "2025-05-15T00:00:00Z",
+      "description": "The success of climate adaptation and nature conservation measures depends significantly on public support. Although the value of protecting iconic species is often easy to communicate to non-expert audiences, conveying the broader importance of ecosystem restoration and conservation for climate resilience is more challenging. To address this, we developed a method that combines spatially explicit models of complex, self-organizing ecosystems with state-of-the-art visualization techniques. This approach creates immersive, three-dimensional panoramic views of natural landscapes, illustrating how people live in and interact with these ecosystems. Our method showcases the inherent complexity of ecosystems, highlighting features such as spatial patterning and the dynamic processes that shape them, as well as the critical role of this complexity in supporting biodiversity. Additionally, it demonstrates the potential of restored or even constructed ecosystems as nature-based solutions to future climate challenges. Adaptable to various ecosystems and locations, with the optional addition of audio or text explanations, this visualization tool can be used in diverse contexts, from museum exhibits to on-site virtual experiences, effectively reaching broad audiences. We present our visualization approach through two case studies that bring to life past climate-adaptive ecosystems and envision future developments. The first case depicts a historic medieval village, now located within a low-lying polder, which was once founded on an expansive, climate-resilient marsh that naturally rose with sea levels due to continuous sediment deposition. The second case explores a planned nature restoration project in Biesbosch National Park, where an embanked meadow is planned to be converted into a tidal wetland.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
