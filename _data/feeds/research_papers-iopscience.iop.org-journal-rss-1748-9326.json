@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-20T22:25:04.118925",
+  "fetched_at": "2025-06-20T23:25:04.124784",
   "items": [
     {
       "title": "Dust source activation frequency across East Asia",
@@ -83,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade1ef",
       "pubDate": "",
       "description": "Weather and climate extremes are rare manifestations of climate variability that can severely impact society and the environment. To investigate their properties and changes on a global scale, observational records are often complemented by climate models such as those from the latest Coupled Model Intercomparison Project (CMIP6). However, typical CMIP6 models have a grid spacing of about 100 km and, therefore, do not allow the representation of extremes at local scales important for impacts. Here, we provide a global view on the information lost at such resolutions, focusing on temperature and precipitation extremes. We draw on two next-generation, km-scale global climate models, run with a grid spacing of about 10 km, and regrid them to a range of coarser resolutions. From the regridded data, we then investigate the spatial sub-grid variability hidden at the CMIP6-like 100 km grid spacing to quantify the effect resolution has on the representation of extremes globally. We find clear patterns of such a resolution effect on a diverse set of temperature extremes, particularly in mountainous areas, at coastlines, and along large rivers. For the example of annual maximum temperature, the difference between the 10 km and 100 km grid spacings can exceed 10 ∘C. For precipitation, globally aggregated low and high extremes are shown to be underestimated at coarse resolution, with the strongest spatial signals emerging in regions with complex topography and in the tropics. Our results quantify existing knowledge and demonstrate the importance of spatial resolution for the representation of climate extremes, in particular for hotspot regions such as coastlines, which often coincide with densely populated areas. The advent of ever higher resolved global models, hence, allows improved estimates of local climate impacts and related risk assessments with global coverage.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Exploring configurations of a European energy system within the planetary boundaries",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade26b",
-      "pubDate": "",
-      "description": "Planetary Boundaries and other carrying capacities define a safe operating space for humanity. However, current energy system models often address sustainability too narrowly with a focus on greenhouse gas emissions during the operational phase, and neglecting other environmental impacts can lead to suboptimal and unsustainable energy systems. This study integrates environmental impacts and planetary boundaries as constraints into a multi-sectoral energy system model to explore sustainable configurations for the European energy system in 2050. Our results indicate that it will not be possible to stay within all allocated carrying capacities without a combined application of energy demand reduction, large-scale deployment of renewable energies, electrification of heating, and technological improvements. Specifically, with the most permissive allocation principle, European electricity and heat demand must be limited to 3550 and 4655 to remain within the planetary boundaries, which represents a 22% and 24% reduction compared to 2050 projected final energy demand for the sectors of electricity and heat, excluding transport and fuels demands. Results show that scenario normally considered ‘Net Zero’ would transgress the allocated budget for climate change by 70%, despite a high deployment of renewable energies, when life cycle impacts are considered. All generated scenarios highly rely on renewable energies and the electrification of heating. The analysis of the different scenarios highlights substantial burden shifts across carrying capacities when only considering climate change and praises a global environmental approach in decision-making. Climate change, land use and particulate matter are identified as the most impacted categories when designing an energy system.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
