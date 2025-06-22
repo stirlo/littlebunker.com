@@ -4,10 +4,18 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-22T14:22:16.983673",
+  "fetched_at": "2025-06-22T15:24:20.196799",
   "items": [
     {
-      "title": "The Atlantic’s chilling secret: A century of data reveals ocean current collapse",
+      "title": "Plants’ secret second roots rewrite the climate playbook",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250620231806.htm",
+      "pubDate": "Fri, 20 Jun 2025 23:18:06 EDT",
+      "description": "Beneath the forest floor lies an overlooked secret: many plants grow a second set of roots far deeper than expected sometimes over three feet down tapping into hidden nutrient stores and potentially locking away carbon. A new study using deep-soil data from NEON reveals that these \"bimodal\" rooting systems are more common than previously believed and may play a powerful role in stabilizing ecosystems and fighting climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "The Atlantic's chilling secret: A century of data reveals ocean current collapse",
       "link": "https://www.sciencedaily.com/releases/2025/06/250620222140.htm",
       "pubDate": "Fri, 20 Jun 2025 22:21:40 EDT",
       "description": "A century-old mystery of a stubborn cold patch in the North Atlantic is finally being unraveled. A new study links this anomaly to a long-term weakening of the Atlantic Meridional Overturning Circulation (AMOC) a massive ocean current system that regulates climate across the Northern Hemisphere. Using over 100 years of temperature and salinity data, researchers showed that only models with a weakening AMOC could recreate the observed changes. The implications are vast, influencing everything from European weather to marine ecosystems, and casting doubt on many recent climate models that underestimated this oceanic shift.",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250603115015.htm",
       "pubDate": "Tue, 03 Jun 2025 11:50:15 EDT",
       "description": "A new study has finally confirmed the theory that the cause of extraordinary global tremors in September -- October 2023 was indeed two mega tsunamis in Greenland that became trapped standing waves. Using a brand-new type of satellite altimetry, the researchers provide the first observations to confirm the existence of these waves whose behavior is entirely unprecedented.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "DNA floating in the air tracks wildlife, viruses -- even drugs",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250603114822.htm",
-      "pubDate": "Tue, 03 Jun 2025 11:48:22 EDT",
-      "description": "In the heart of Dublin, scientists have discovered that the air holds more than melodies and Guinness-infused cheer it carries invisible traces of life, from wildlife to drugs and even human diseases. Using high-powered air filters and environmental DNA (eDNA) analysis, researchers vacuumed up the city s air and uncovered genetic material from cannabis, magic mushrooms, and pathogens. This emerging technology, which doesn t require direct contact with organisms, could revolutionize how we monitor ecosystems, track diseases, and even locate endangered species all from the sky above. It's science fiction turned science fact, and it s changing what we thought was possible from a simple breath of air.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
