@@ -4,8 +4,16 @@
   "description": "Nature Climate Change is a monthly journal dedicated to publishing high-quality research papers that describe the most significant and cutting-edge research on the causes, impacts and wider implications of global climate change. The journal publishes climate research across the physical, biological and social sciences and strives to integrate and communicate interdisciplinary research. The journal aims to play a leading role in: providing accessibility to a broad audience to research published both within and outside the journal; raising the visibility of climate change research in related research communities as well as the mainstream media; and offering a forum for discussion of the challenges faced by researchers and policy makers (and other interested parties) in understanding the complex mechanisms and impacts associated with the Earth’s changing climate.",
   "category": "research_papers",
   "source_url": "https://www.nature.com/nclimate.rss",
-  "fetched_at": "2025-06-24T15:29:07.159009",
+  "fetched_at": "2025-06-24T16:33:36.289703",
   "items": [
+    {
+      "title": "Protect young secondary forests for optimum carbon removal",
+      "link": "https://www.nature.com/articles/s41558-025-02355-5",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 24 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02355-5\">doi:10.1038/s41558-025-02355-5</a></p>The authors generate ~1-km2 growth curves for aboveground live carbon in regrowing forests, globally. They show that maximum carbon removal rates can vary by 200-fold spatially and with age, with the greatest rates estimated at about 30 ± 12 years, highlighting the role of secondary forests in carbon cycling.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
     {
       "title": "Author Correction: Recommendations for producing knowledge syntheses to inform climate change assessments",
       "link": "https://www.nature.com/articles/s41558-025-02378-y",
@@ -59,14 +67,6 @@
       "link": "https://www.nature.com/articles/s41558-025-02352-8",
       "pubDate": "",
       "description": "<p>Nature Climate Change, Published online: 13 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02352-8\">doi:10.1038/s41558-025-02352-8</a></p>Integrated assessment model-based scenarios are commonly used to project future emission pathways but suffer from submission biases and high computational cost. Here researchers develop a deep learning framework to generate synthetic scenarios and replicate key variables across a wide range of mitigation ambitions.",
-      "category": "research_papers",
-      "source_url": "https://www.nature.com/nclimate.rss"
-    },
-    {
-      "title": "Recommendations for producing knowledge syntheses to inform climate change assessments",
-      "link": "https://www.nature.com/articles/s41558-025-02354-6",
-      "pubDate": "",
-      "description": "<p>Nature Climate Change, Published online: 10 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02354-6\">doi:10.1038/s41558-025-02354-6</a></p>Climate change assessment reports are increasing in complexity as the knowledge base grows exponentially. In this Perspective, the authors advocate, and provide recommendations, for knowledge synthesis to become more common as a way to better inform such assessments.",
       "category": "research_papers",
       "source_url": "https://www.nature.com/nclimate.rss"
     }
