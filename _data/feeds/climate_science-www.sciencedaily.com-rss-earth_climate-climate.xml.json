@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-24T16:33:28.295691",
+  "fetched_at": "2025-06-24T17:24:53.212897",
   "items": [
+    {
+      "title": "Ancient carbon ‘burps’ caused ocean oxygen crashes — and we’re repeating the mistake",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250624044326.htm",
+      "pubDate": "Tue, 24 Jun 2025 10:38:22 EDT",
+      "description": "Over 300 million years ago, Earth experienced powerful bursts of carbon dioxide from natural sources—like massive volcanic eruptions—that triggered dramatic drops in ocean oxygen levels. These ancient \"carbon burps\" led to dangerous periods of ocean anoxia, which stalled marine biodiversity and potentially reshaped entire ecosystems. In a groundbreaking study, scientists combined high-tech climate models with deep-ocean sediment analysis to pinpoint five such events. The alarming part? Today's human-driven CO2 emissions are skyrocketing at speeds hundreds of times faster than those ancient upheavals—raising urgent questions about how modern oceans, particularly coastal zones rich in marine life, might react.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "123,000-year-old coral fossils warn of sudden, catastrophic sea-level rise",
       "link": "https://www.sciencedaily.com/releases/2025/06/250623233210.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250603115026.htm",
       "pubDate": "Tue, 03 Jun 2025 11:50:26 EDT",
       "description": "A new study details processes that keep pollutants aloft despite a drop in emissions.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists say next few years vital to securing the future of the West Antarctic Ice Sheet",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250603115018.htm",
-      "pubDate": "Tue, 03 Jun 2025 11:50:18 EDT",
-      "description": "Collapse of the West Antarctic Ice Sheet could be triggered with very little ocean warming above present-day, leading to a devastating four meters of global sea level rise to play out over hundreds of years according to a new study. However, the authors emphasize that immediate actions to reduce emissions could still avoid a catastrophic outcome.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
