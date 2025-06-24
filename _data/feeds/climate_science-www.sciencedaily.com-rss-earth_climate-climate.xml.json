@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-24T13:38:27.129288",
+  "fetched_at": "2025-06-24T14:26:52.035818",
   "items": [
+    {
+      "title": "123,000-year-old coral fossils warn of sudden, catastrophic sea-level rise",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250623233210.htm",
+      "pubDate": "Mon, 23 Jun 2025 23:32:10 EDT",
+      "description": "Ancient coral fossils from the remote Seychelles islands have unveiled a dramatic warning for our future—sea levels can rise in sudden, sharp bursts even when global temperatures stay steady.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Plants’ secret second roots rewrite the climate playbook",
       "link": "https://www.sciencedaily.com/releases/2025/06/250620231806.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250603115018.htm",
       "pubDate": "Tue, 03 Jun 2025 11:50:18 EDT",
       "description": "Collapse of the West Antarctic Ice Sheet could be triggered with very little ocean warming above present-day, leading to a devastating four meters of global sea level rise to play out over hundreds of years according to a new study. However, the authors emphasize that immediate actions to reduce emissions could still avoid a catastrophic outcome.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "First direct observation of the trapped waves that shook the world in 2023",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250603115015.htm",
-      "pubDate": "Tue, 03 Jun 2025 11:50:15 EDT",
-      "description": "A new study has finally confirmed the theory that the cause of extraordinary global tremors in September -- October 2023 was indeed two mega tsunamis in Greenland that became trapped standing waves. Using a brand-new type of satellite altimetry, the researchers provide the first observations to confirm the existence of these waves whose behavior is entirely unprecedented.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
