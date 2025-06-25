@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-06-25T14:26:30.261832",
+  "fetched_at": "2025-06-25T15:29:18.108331",
   "items": [
+    {
+      "title": "DeepMind’s latest AI tool makes sense of changes in the human genome",
+      "link": "https://www.science.org/content/article/deepmind-s-latest-ai-tool-makes-sense-changes-human-genome",
+      "pubDate": "",
+      "description": "By predicting the effects of genetic variants, AlphaGenome could boost synthetic biology and the search for cancer genes",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "These squirrels’ scaly tails help them climb slippery trees",
       "link": "https://www.science.org/content/article/these-squirrels-scaly-tails-help-them-climb-slippery-trees",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/rubin-observatory-unveils-first-images-taken-its-giant-mirror-and-camera",
       "pubDate": "",
       "description": "Pictures are a prelude to a transformative, all-sky survey set to begin in months",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Culture literally changes how we see the world",
-      "link": "https://www.science.org/content/article/culture-literally-changes-how-we-see-world",
-      "pubDate": "",
-      "description": "Where city dwellers see rectangles, people who live in round huts see circles",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
