@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-06-25T21:24:39.899553",
+  "fetched_at": "2025-06-25T22:24:48.989232",
   "items": [
+    {
+      "title": "Federal judge orders agencies to restore grants to University of California scientists",
+      "link": "https://www.science.org/content/article/federal-judge-orders-agencies-restore-grants-university-california-scientists",
+      "pubDate": "",
+      "description": "Ruling on first class action suit reversing terminations may be expanded to entire government",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "In latest blow, National Science Foundation staff to be booted from their headquarters",
       "link": "https://www.science.org/content/article/latest-blow-national-science-foundation-staff-be-booted-their-headquarters",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/africa-s-embattled-giraffe-populations-growing-after-years-decline",
       "pubDate": "",
       "description": "Still, several populations should be considered “endangered,” new report finds",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "DeepMind’s latest AI tool makes sense of changes in the human genome",
-      "link": "https://www.science.org/content/article/deepmind-s-latest-ai-tool-makes-sense-changes-human-genome",
-      "pubDate": "",
-      "description": "By predicting the effects of genetic variants, AlphaGenome could boost synthetic biology and the search for cancer genes",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
