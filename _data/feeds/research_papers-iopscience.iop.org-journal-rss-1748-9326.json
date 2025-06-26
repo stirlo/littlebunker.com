@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "description": "",
+  "title": "Environmental Research Letters - latest papers",
+  "link": "http://iopscience.iop.org/journal/rss/1748-9326",
+  "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-26T11:22:22.750473",
-  "items": []
+  "fetched_at": "2025-06-26T12:54:18.833154",
+  "items": [
+    {
+      "title": "Streamflow sensitivity regimes of alpine catchments: seasonal relationships with elevation, temperature, and glacier cover",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade26c",
+      "pubDate": "",
+      "description": "Alpine streams supply water to mountains and downstream regions, but their sensitivity to climatic variability is complex. Here, we derive streamflow sensitivity regimes from long-term observations in the Swiss Alps and analyse their potential controls. For each week of the year, we estimated absolute and relative sensitivities of streamflow in response to changes in temperature, precipitation, and storage. At high elevations with extensive glacier cover, weekly temperature and precipitation sensitivities peak in spring and summer when melt rates are high. At low elevations with no glacier cover, weekly temperature sensitivities are negative in summer, while precipitation sensitivities are highest under moist winter conditions. The elevation at which temperature sensitivities switch from positive to negative changes over the course of the year, showing that the sensitivities are temperature-dependent and thus non-stationary. Weekly streamflow sensitivities help resolve the seasonally-varying drivers of the streamflow regime and may be used to evaluate hydrological models.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Are regional environmental policies always effective? Evidence from China",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade3f1",
+      "pubDate": "",
+      "description": "Environmental policies are a primary tool for governments to address environmental issues, yet their effectiveness remains debated. This study examines the direct and indirect effects of regional environmental policies on environmental efficiency. Based on the environmental policies collected from 150 official websites, the environmental policy intensity (EPI) and convergence of 30 Chinese regions are quantified by text mining methods, and the Spatial Durbin Model is employed to investigate the direct and spillover effects of environmental policies on environmental performance. The results indicate that regional environmental policy convergence (EPC) has statistically significant and positive direct and spillover effects. Conversely, stricter EPI tends to hinder sustainability in both local and neighboring regions. Furthermore, empirical analysis demonstrates that EPC generates significantly greater positive impacts than the suppressive effects caused by policy intensity, both in direct and spillover terms. These findings highlight the importance of inter-regional policy integration and offer new insights for regional environmental governance.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Early and widespread emergence of regional warming is robust to observational and model uncertainty",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade458",
+      "pubDate": "",
+      "description": "The ability to distinguish observed climate change from naturally arising climate variability is one of the most fundamental findings in climate science. Climate change emergence is a key statistic used to quantify the impact of human activities on climate and inform climate change mitigation strategies. Previous studies determining when climate change has emerged, however, do not account for the combined uncertainty from historical observations and climate models. Here, we show that the emergence of regional warming is early, widespread, and robust to observational and model uncertainty. Warming has emerged over more than 90% of the global land surface as of 2020, and had emerged over more than 50% of the earth’s land surface by 2000. Emergence occurs despite observational and model uncertainty creating delays of more than 10 years over 75% of the land surface. These conclusions demonstrate that accounting for multiple sources of uncertainty is necessary for robust detection of climate change emergence.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Increased resolution can reduce model biases in the Interdecadal Pacific Oscillation",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45a",
+      "pubDate": "",
+      "description": "This study assesses model performance in simulating the Interdecadal Pacific Oscillation (IPO) pattern using the High Resolution Model Intercomparison Project. It is found that models exhibit a large diversity in the western extension of the IPO, leading to distinct global impacts. The IPO-related sea surface temperature (SST) anomalies extend more westward to the equatorial western Pacific (WP) in the low-resolution (LR) models, along with a westward shift of atmospheric responses. However, such biases are largely reduced in the high-resolution (HR) models, ascribing to better behavior in reproducing the mean-state SST in the cold tongue. In general, the HR models simulate smaller zonal advection in the equatorial WP due to a weaker zonal SST gradient compared to the LR models. In addition to the tropics, the intensity of IPO-related SST over the North Pacific is also improved in the HR models due to their benefits in simulating the Kuroshio extension. These findings suggest that the HR models have superior capabilities in predicting and projecting future changes in the IPO.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Explaining hot spots of methane flux in a restored wetland: the role of water level, soil disturbance, and methanotrophy",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45b",
+      "pubDate": "",
+      "description": "A high degree of uncertainty persists regarding current and future emissions of methane from both natural and constructed wetlands. Part of the problem is the existence of ‘hot spots’ of methane flux, which have not been clearly identified and studied at multiple scales. Methane has a short lifetime compared to carbon dioxide; thus, efforts to avoid methane hot spots from constructed wetlands can promptly decelerate the rate of atmospheric warming. In this study we measured methane fluxes using flux towers in a restored oligohaline wetland in the Sacramento–San Joaquin River Delta, where we previously identified a hot spot of methane flux using footprint-weighed flux maps and chambers. Our main objectives with this study were to determine why this hot spot occurs and what are the biogeochemical and microbiological conditions that lead to these high methane fluxes. We found four main mechanisms that explain the existence of the hot spot. (1) The hot spot was associated with areas where the water level was closer to the surface (2) Methane originated mostly from older unoxidized peat in deeper layers, which had a shorter migration pathway to the atmosphere at the hot spot location due to soil disturbance during wetland construction. (3) Relatively lower methane oxidation in the hot spot in the upper soil layer (10–30 cm under the surface), deduced from isotopic profiles in porewater carbon and upper-level methanotroph abundance. (4) Higher ebullition events at the hot spot that can be related to low water levels and lower bulk density throughout the soil profile. This study thus suggests that mitigating soil disturbances during wetland construction and managing water level can reduce the occurrence and magnitude of hot spots of methane flux in constructed wetlands.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Multidecadal shifts of the northern and southern edges of the western Pacific warm pool",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade4e0",
+      "pubDate": "",
+      "description": "The western Pacific warm pool (WPWP) plays a pivotal role in shaping global climate. Using observational datasets, we uncover significant multidecadal shifts in the northern and southern edges of the WPWP. Heat budget analysis based on century-long ocean model hindcast simulations reveals that the meridional displacements of the WPWP northern edge are mainly caused by surface heat flux variations, while the southern edge’s shifts can be primarily attributed to meridional oceanic heat advection associated with the wind-driven Ekman transport. These meridional movements largely covary with the Atlantic multidecadal variability (AMV), expanding poleward during AMV’s ascending phases and contracting equatorward during descending phase. Multi-model idealized AMV± experiments estimate that trans-basin forcing of the AMV accounts for 47% ± 8% of the observed northern edge shifts and 26% ± 7% of the southern edge changes. Reducing model uncertainties in AMV teleconnections will help to better quantify their impacts on the Pacific decadal climate variability.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Who leads, who lags? Inter-urban inequities in European climate adaptation funding and financing",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adde71",
+      "pubDate": "",
+      "description": "Despite increased attention to climate finance in urban adaptation, empirical data on the socio-political processes shaping funding accessibility, allocation, and their implications for inter-urban adaptation progress remains limited. In a first-of-its-kind survey, we analyse results from 148 urban administrations across 17 EU countries. Our results reveal widespread funding shortages (>85% of administrations), insufficient staff capacity (73%) and low levels of political support (43%). Additionally, we find limited participation of vulnerable groups and inadequate consideration of climate risks and vulnerability when allocating resources. Towns lag behind cities, and Southern Europe lags behind Northern Europe in funding adaptation measures. Notably, higher climate risk levels are not associated with easier access to funding sources or increased funding availability. With reliance on public funding over loans, we nuance the role of financialisation in urban climate governance and propose cohesive adaptation as a finance strategy towards more equitable policy and practice.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Quantifying drivers of long-term changes in tropical cyclone intensification rates over the North Atlantic using the EBDS model",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45c",
+      "pubDate": "",
+      "description": "Tropical cyclone (TC) intensification rate (IR) critically influences TC intensity, yet the key factors governing its long-term variations over the North Atlantic (NA) remain poorly understood. This study addresses this gap using a simplified energetically based dynamical system model that explicitly separates and quantifies dynamical and thermodynamic influences. A pronounced dipole pattern is identified in TC IR trends over the past four decades, characterized by decreases (increases) in the northwest (southeast) NA. While thermodynamic factors have generally become more favorable for intensification across the entire NA, dynamical factors, primarily vertical wind shear, exhibit a dipole trend closely aligned with observed IR changes. Quantitative analyses indicate that the decreasing TC IR in the northwest NA is primarily driven by deteriorating environmental dynamical conditions linked closely with the Atlantic Multidecadal Oscillation. Conversely, the IR increase in the southeast NA is mainly attributable to enhanced thermodynamic conditions associated with global warming. These results highlight region-specific drivers of long-term changes in TC intensification, providing insights for improving future projections.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Short- and long-term drought impacts on the U.S. beef value chain",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45d",
+      "pubDate": "",
+      "description": "Climate change is expected to increase the frequency and severity of extreme weather events such as droughts. While droughts are known to reduce crop yields, their impacts on livestock systems are more complex and evolve over time. Producers may respond to drought conditions by liquidating herds, including breeding stock, which alters supply dynamics throughout the meat value chain. These shifts may occur through multiple, overlapping channels, including increased feed costs and direct physiological effects on animals such as heat stress. We estimate the short- and long-term effects of drought-related environmental stress on the U.S. beef value chain, using the Drought Severity and Coverage Index as a composite measure of realized drought conditions. We interpret our findings as capturing the total effect of drought conditions on livestock market dynamics. Results show that producer prices increase significantly with a lag following drought events, while livestock futures markets respond earlier. Retail beef prices are also affected, but the impact on consumers is dampened and more delayed. These findings suggest that drought-related supply disruptions are a key contributor to rising U.S. beef prices.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Dust source activation frequency across East Asia",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addee6",
+      "pubDate": "",
+      "description": "Plumes of mineral dust in East Asia deleteriously impact the health and livelihoods of hundreds of millions of people in Mongolia, China, Korea, and Japan and perturb Earth’s energy balance and climate. However, the sources of this dust are not well-documented, limiting understanding of dust emissions. Here, we systematically quantify dust source activation frequency (DSAF) across East Asia (80–130° E; 27–52° N) between January 2016 and December 2023. Our data reveal a vast dust-active area extending from the Tibetan Plateau (TP) in the southwest to the Huin Bair Sandy Land in the northeast, but two regions dominate: southern sources centered on the margins of the Taklimakan Desert and northern ones centered on the valleys of the Gobi Desert. East Asia is most dust-active in boreal spring (46% of all recorded events). This seasonal peak is pronounced in northern sources where snow cover, vegetation and orographic/topographic influence on winds are clear controls on DSAF. The main southern sources are active year-round with DSAF hotspots attributable to desiccated lakes and riverbeds. The TP, commonly considered a sink for in-bound windblown dust, is also a dust source, particularly in winter, with emissions controlled by precipitation patterns, snow cover and wind funneling through deep river gorges. Contrary to suggestions, our data show that the Loess Plateau is not a major dust source. We document a marked increase in dust source activation during the 2020 extreme heat wave on the overgrazed Mongolian Plateau grasslands. Our data provide a framework to study past variability in the two-way climate interactions that control dust emissions on historical and geological timescales and a baseline from which to measure future change.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    }
+  ]
 }

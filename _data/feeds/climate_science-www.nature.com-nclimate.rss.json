@@ -4,16 +4,8 @@
   "description": "Nature Climate Change is a monthly journal dedicated to publishing high-quality research papers that describe the most significant and cutting-edge research on the causes, impacts and wider implications of global climate change. The journal publishes climate research across the physical, biological and social sciences and strives to integrate and communicate interdisciplinary research. The journal aims to play a leading role in: providing accessibility to a broad audience to research published both within and outside the journal; raising the visibility of climate change research in related research communities as well as the mainstream media; and offering a forum for discussion of the challenges faced by researchers and policy makers (and other interested parties) in understanding the complex mechanisms and impacts associated with the Earth’s changing climate.",
   "category": "climate_science",
   "source_url": "https://www.nature.com/nclimate.rss",
-  "fetched_at": "2025-06-26T11:22:15.158236",
+  "fetched_at": "2025-06-26T12:54:02.618945",
   "items": [
-    {
-      "title": "Changing wildfire complexity highlights the need for institutional adaptation",
-      "link": "https://www.nature.com/articles/s41558-025-02367-1",
-      "pubDate": "",
-      "description": "<p>Nature Climate Change, Published online: 26 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02367-1\">doi:10.1038/s41558-025-02367-1</a></p>Growing wildfire threats require governing institutions to adapt their responses for effective management, yet institutional adaptation remains unexplored. This study reveals increasingly complex task environments for institutions managing wildfire incidents in the USA over the period 1999–2020.",
-      "category": "climate_science",
-      "source_url": "https://www.nature.com/nclimate.rss"
-    },
     {
       "title": "Protect young secondary forests for optimum carbon removal",
       "link": "https://www.nature.com/articles/s41558-025-02355-5",
@@ -67,6 +59,14 @@
       "link": "https://www.nature.com/articles/s41558-025-02326-w",
       "pubDate": "",
       "description": "<p>Nature Climate Change, Published online: 13 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02326-w\">doi:10.1038/s41558-025-02326-w</a></p>Content delivery algorithms on social media exhibit biases in audience selection, which are understudied in the climate context. This study combines observational analysis and a field experiment to reveal algorithmic bias in Facebook’s climate ad data across location, gender and age groups.",
+      "category": "climate_science",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Using deep learning to generate key variables in global mitigation scenarios",
+      "link": "https://www.nature.com/articles/s41558-025-02352-8",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 13 June 2025; <a href=\"https://www.nature.com/articles/s41558-025-02352-8\">doi:10.1038/s41558-025-02352-8</a></p>Integrated assessment model-based scenarios are commonly used to project future emission pathways but suffer from submission biases and high computational cost. Here researchers develop a deep learning framework to generate synthetic scenarios and replicate key variables across a wide range of mitigation ambitions.",
       "category": "climate_science",
       "source_url": "https://www.nature.com/nclimate.rss"
     }
