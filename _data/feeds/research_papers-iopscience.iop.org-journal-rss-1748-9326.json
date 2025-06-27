@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-06-27T08:34:22.597291",
+  "fetched_at": "2025-06-27T09:27:35.913528",
   "items": [
+    {
+      "title": "The radiative effects of water vapour from terrestrial evapotranspiration",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adde72",
+      "pubDate": "",
+      "description": "Water vapour accounts for roughly 50% of the modern greenhouse effect. Over continental regions, evapotranspiration (ET) is often limited by water availability. In this study, we spatially quantify how much of the total atmospheric water vapour evaporated most recently from land and calculate the relative contribution of that water vapour to the atmospheric radiative budget. Using a combination of tracer-enabled Earth system model simulations and radiative transfer calculations, we are able to explicitly quantify the 3D distribution of terrestrial vs. oceanic water vapour, and the spatial contribution of each to the surface and top of atmosphere radiative budgets. We find that over many continental regions, more than half of the total column-integrated water vapour originates from land ET, and that this vapour contributes up to 30 W m−2 of longwave radiation into the surface in the annual mean (about 10% of the total). Understanding how terrestrial ET impacts the base-state of water vapour distribution and the water vapour greenhouse effect is critical to understanding how and where changes in terrestrial ET, driven by climate change, land use, etc, will modify the radiative properties of the atmosphere and thus the climate system.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Right size, right place: scale-dependency of managed realignment to mitigate flood hazards in urban estuaries",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addf61",
@@ -19,6 +27,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade16f",
       "pubDate": "",
       "description": "Groundwater provides global water security, supplying over half of the world’s drinking water. In Bolivia, it is particularly important for mitigating drought impacts and sustaining municipal supply. Yet national planning still lacks a clear picture of how groundwater recharge is changing. This study maps potential groundwater recharge change for all 338 municipalities from 1983 to 2022 and presents a policy-oriented risk indicator. Monthly precipitation (P), evapotranspiration (ET), and runoff (R) were obtained from TerraClimate (≈4 km) and FLDAS (≈10 km). A water-balance model converted these variables to potential groundwater recharge. Mann–Kendall and Theil–Sen statistics quantified long-term trends, and Pettitt’s test located years of abrupt change. The Annual Reduction of Potential Groundwater Recharge (RAPReHS) was derived to classify each municipality into one of five risk levels based on long-term groundwater recharge trends. Negative trends are significant in 65% of municipalities, and 71% record at least one breakpoint, most often between 2012 and 2015. Santa Cruz shows the steepest mean decline (–1.9 mm yr−1), yet similar losses occur along the Chapare–Yungas corridor of La Paz and Cochabamba, the southern lowlands of Beni, and the Chaco of Tarija. By contrast, Pando and parts of northern Beni retain near-neutral or slightly positive slopes, highlighting strong hydro-climatic heterogeneity. Spatial comparison between RAPReHS results and, deforestation and fire statistics reveals strong alignment. Municipalities in the ‘high’ and ‘severe’ classes spatially overlap with the main zones of primary forest loss recorded in Bolivia between 2000 and 2022. The RAPReHS framework, therefore, provides a reproducible, policy-ready lens through which to track groundwater as land-use pressures and climate variability intensify.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Unravelling sediment sources and sinks in the large Ganga River system",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade31c",
+      "pubDate": "",
+      "description": "A basin-scale sediment budget can reveal distinct contributions of tectonic, geomorphological and climatic domains to sediment dispersal in large river systems. While traditional budgets at the reach- and sub-basin-scale have focused on hinterland sediment supply, the role of alluvial storage in modulating sediment fluxes remains poorly understood, particularly in data-scarce Himalayan large rivers. To address this, we compiled sediment load data from existing studies across different sub-basins of the large Ganga River system to construct a basin-scale sediment budget. Using this integrated sediment budget, we examined spatial variability in sediment generation, transport and deposition across the Himalayan hinterland and alluvial plains. Our analysis reveals strong regional contrasts in sediment dispersal, driven by differences in uplift rates, precipitation and subsidence. The western Ganga rivers, covering 27% of the basin area, contribute only 9% of the total sediment load (385 Mt a−1) due to lower uplift rates and precipitation. This results in a supply-limited system with entrenched rivers and minimal sediment storage in the adjacent low-subsiding plains. In contrast, the Eastern Himalayan Hinterland is the dominant sediment source, generating 51% of the total load from 11% of the basin area; however, ∼45% of this sediment is trapped in the subsiding alluvial plains, forming aggradational channels. The Transitional Himalayan Hinterland bridges these extremes, contributing 23% of the sediment load from the hinterland covering 9% of basin area due to intermediate uplift and precipitation rate. This increases to 29% in the alluvial plains, where low subsidence—similar to the Western Ganga Plains—facilitates efficient sediment transfer downstream. We propose that transient storage in the Eastern Ganga Plains may become a key control on sediment dispersal over a centennial timescale, as increasing extreme precipitation events could shift the system from transport-limited to supply-limited. Accounting for these shifts is essential for effective sediment management and future planning.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -67,22 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade4e0",
       "pubDate": "",
       "description": "The western Pacific warm pool (WPWP) plays a pivotal role in shaping global climate. Using observational datasets, we uncover significant multidecadal shifts in the northern and southern edges of the WPWP. Heat budget analysis based on century-long ocean model hindcast simulations reveals that the meridional displacements of the WPWP northern edge are mainly caused by surface heat flux variations, while the southern edge’s shifts can be primarily attributed to meridional oceanic heat advection associated with the wind-driven Ekman transport. These meridional movements largely covary with the Atlantic multidecadal variability (AMV), expanding poleward during AMV’s ascending phases and contracting equatorward during descending phase. Multi-model idealized AMV± experiments estimate that trans-basin forcing of the AMV accounts for 47% ± 8% of the observed northern edge shifts and 26% ± 7% of the southern edge changes. Reducing model uncertainties in AMV teleconnections will help to better quantify their impacts on the Pacific decadal climate variability.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Who leads, who lags? Inter-urban inequities in European climate adaptation funding and financing",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adde71",
-      "pubDate": "",
-      "description": "Despite increased attention to climate finance in urban adaptation, empirical data on the socio-political processes shaping funding accessibility, allocation, and their implications for inter-urban adaptation progress remains limited. In a first-of-its-kind survey, we analyse results from 148 urban administrations across 17 EU countries. Our results reveal widespread funding shortages (>85% of administrations), insufficient staff capacity (73%) and low levels of political support (43%). Additionally, we find limited participation of vulnerable groups and inadequate consideration of climate risks and vulnerability when allocating resources. Towns lag behind cities, and Southern Europe lags behind Northern Europe in funding adaptation measures. Notably, higher climate risk levels are not associated with easier access to funding sources or increased funding availability. With reliance on public funding over loans, we nuance the role of financialisation in urban climate governance and propose cohesive adaptation as a finance strategy towards more equitable policy and practice.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Quantifying drivers of long-term changes in tropical cyclone intensification rates over the North Atlantic using the EBDS model",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45c",
-      "pubDate": "",
-      "description": "Tropical cyclone (TC) intensification rate (IR) critically influences TC intensity, yet the key factors governing its long-term variations over the North Atlantic (NA) remain poorly understood. This study addresses this gap using a simplified energetically based dynamical system model that explicitly separates and quantifies dynamical and thermodynamic influences. A pronounced dipole pattern is identified in TC IR trends over the past four decades, characterized by decreases (increases) in the northwest (southeast) NA. While thermodynamic factors have generally become more favorable for intensification across the entire NA, dynamical factors, primarily vertical wind shear, exhibit a dipole trend closely aligned with observed IR changes. Quantitative analyses indicate that the decreasing TC IR in the northwest NA is primarily driven by deteriorating environmental dynamical conditions linked closely with the Atlantic Multidecadal Oscillation. Conversely, the IR increase in the southeast NA is mainly attributable to enhanced thermodynamic conditions associated with global warming. These results highlight region-specific drivers of long-term changes in TC intensification, providing insights for improving future projections.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
