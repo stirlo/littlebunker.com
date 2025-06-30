@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-06-30T14:26:04.626449",
+  "fetched_at": "2025-06-30T15:28:44.890376",
   "items": [
+    {
+      "title": "Fighting fire with fire: How prescribed burns reduce wildfire damage and pollution",
+      "link": "https://www.sciencedaily.com/releases/2025/06/250629033445.htm",
+      "pubDate": "Mon, 30 Jun 2025 00:08:06 EDT",
+      "description": "Wildfires are becoming more intense and dangerous, but a new Stanford-led study offers hope: prescribed burns—intentionally set, controlled fires—can significantly lessen their impact. By analyzing satellite data and smoke emissions, researchers found that areas treated with prescribed burns saw wildfire severity drop by 16% and smoke pollution fall by 14%. Even more striking, the smoke from prescribed burns was just a fraction of what wildfires would have produced in the same areas.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "New Orleans is sinking—and so are its $15 billion flood defenses",
       "link": "https://www.sciencedaily.com/releases/2025/06/250627234122.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250612092543.htm",
       "pubDate": "Thu, 12 Jun 2025 09:25:43 EDT",
       "description": "Ancient carbon thought to be safely stored underground for millennia is unexpectedly resurfacing literally. A sweeping international study has found that over half of the carbon gases released by rivers come from long-term, old carbon sources like deep soils and weathered rocks, not just recent organic matter. This surprising discovery suggests Earth s vegetation is playing an even bigger role in absorbing excess carbon to keep the climate in check.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The global rule that predicts where life thrives—and where it fails",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250610112541.htm",
-      "pubDate": "Tue, 10 Jun 2025 11:25:41 EDT",
-      "description": "What if all life on Earth followed a surprisingly simple pattern? New research shows that in every region, species tend to cluster in small hotspots and then gradually thin out. This universal rule applies across drastically different organisms and habitats from trees to dragonflies, oceans to forests. Scientists now believe environmental filtering shapes this global distribution, providing new tools to predict how life responds to climate change and biodiversity threats.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
