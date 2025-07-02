@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-07-02T15:28:03.802132",
+  "fetched_at": "2025-07-02T16:32:46.750104",
   "items": [
+    {
+      "title": "Researchers claim their AI model simulates the human mind. Others are skeptical",
+      "link": "https://www.science.org/content/article/researchers-claim-their-ai-model-simulates-human-mind-others-are-skeptical",
+      "pubDate": "",
+      "description": "Cognitive scientists question new Centaur model’s ability to predict human behavior",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Should grant applicants judge competitors’ proposals? Unorthodox approach gets two real-world tests",
       "link": "https://www.science.org/content/article/should-grant-applicants-judge-competitors-proposals-unorthodox-approach-gets-two-real",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/trump-cuts-subscriptions-springer-nature-journals",
       "pubDate": "",
       "description": "Other publishers appear unscathed in recent actions",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "WHO panel favors natural origin of COVID-19 virus but decries missing evidence",
-      "link": "https://www.science.org/content/article/who-panel-favors-natural-origin-covid-19-virus-decries-missing-evidence",
-      "pubDate": "",
-      "description": "New report doesn’t rule out that SARS-CoV-2 leaked from a lab in China, but says evidence for scenario remains “speculation”",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
