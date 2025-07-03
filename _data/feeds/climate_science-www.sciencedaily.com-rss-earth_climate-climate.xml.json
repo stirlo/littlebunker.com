@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-07-03T14:25:30.535864",
+  "fetched_at": "2025-07-03T15:27:44.598166",
   "items": [
+    {
+      "title": "Even low levels of air pollution may quietly scar your heart, MRI study finds",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250703092606.htm",
+      "pubDate": "Thu, 03 Jul 2025 09:37:41 EDT",
+      "description": "Breathing polluted air—even at levels considered “safe”—may quietly damage your heart. A new study using advanced MRI scans found that people exposed to more air pollution showed early signs of scarring in their heart muscle, which can lead to heart failure over time. This damage showed up in both healthy individuals and people with heart conditions, and was especially noticeable in women, smokers, and those with high blood pressure.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "When rainforests died, the planet caught fire: New clues from Earth’s greatest extinction",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250702214202.htm",
+      "pubDate": "Thu, 03 Jul 2025 09:07:42 EDT",
+      "description": "When Siberian volcanoes kicked off the Great Dying, the real climate villain turned out to be the rainforests themselves: once they collapsed, Earth’s biggest carbon sponge vanished, CO2 rocketed, and a five-million-year heatwave followed. Fossils from China and clever climate models now link that botanical wipe-out to runaway warming, hinting that losing today’s tropical forests could lock us in a furnace we can’t easily cool.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Antarctica’s ocean flip: Satellites catch sudden salt surge melting ice from below",
       "link": "https://www.sciencedaily.com/releases/2025/07/250701020711.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250614121958.htm",
       "pubDate": "Sat, 14 Jun 2025 12:19:58 EDT",
       "description": "Atmospheric rivers, while vital for replenishing water on the U.S. West Coast, are also the leading cause of floods though storm size alone doesn t dictate their danger. A groundbreaking study analyzing over 43,000 storms across four decades found that pre-existing soil moisture is a critical factor, with flood peaks multiplying when the ground is already saturated.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Space-laser AI maps forest carbon in minutes—a game-changer for climate science",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250614034237.htm",
-      "pubDate": "Sat, 14 Jun 2025 03:42:37 EDT",
-      "description": "A pioneering study reveals how archaeologists' satellite tools can be repurposed to tackle climate change. By using AI and satellite LiDAR imagery from NASA and ESA, researchers have found a faster, more accurate way to map forest biomass critical for tracking carbon. This innovative fusion of space tech and machine learning could revolutionize how we manage and preserve forests in a warming world.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Toxic tides: Centuries-old mercury is flooding the arctic food chain",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250613013926.htm",
-      "pubDate": "Fri, 13 Jun 2025 01:39:26 EDT",
-      "description": "Despite falling global mercury emissions, mercury levels in Arctic wildlife continue to rise. A new study reveals that ocean currents are delivering legacy mercury pollution from distant regions like China to the Arctic, where it accumulates in animals and ecosystems.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
