@@ -1,6 +1,6 @@
 ---
 layout: feed_item
-title: "The 5 April 2024 Mw ${\mathrm{M}}_{\mathrm{w}}$4.8 Tewksbury, New Jersey Aftershock Sequence Resolved With Machine‐Learning‐Enhanced Detection Methods"
+title: "The 5 April 2024 Mw 4.8 Tewksbury, New Jersey Aftershock Sequence Resolved With Machine-Learning-Enhanced Detection Methods"
 date: 2025-06-24 15:10:38 +0000
 categories: [research_papers]
 tags: ['urgent', 'year-2024']
