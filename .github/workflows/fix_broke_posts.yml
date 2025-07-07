@@ -1,0 +1,73 @@
+name: "Fix Broken Jekyll Posts"
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Fix problematic posts
+        run: |
+          python3 << 'EOF'
+          import os
+          import re
+          import glob
+
+          def fix_post_content(content):
+              # Fix escaped backslashes in titles
+              content = re.sub(r'title: "(.*)\\\\(.*)\\\\(.*)"', 
+                             lambda m: f'title: "{m.group(1).replace("\\\\", " ")}{m.group(2).replace("\\\\", " ")}{m.group(3).replace("\\\\", " ")}"', 
+                             content)
+
+              # Fix Liquid syntax in content
+              lines = content.split('\n')
+              in_frontmatter = False
+              fixed_lines = []
+
+              for i, line in enumerate(lines):
+                  if i == 0 and line == '---':
+                      in_frontmatter = True
+                  elif in_frontmatter and line == '---':
+                      in_frontmatter = False
+                  elif not in_frontmatter and '{{' in line:
+                      # Wrap with raw tags
+                      line = re.sub(r'(\{\{.*?\}\})', r'{% raw %}\1{% endraw %}', line)
+
+                  fixed_lines.append(line)
+
+              return '\n'.join(fixed_lines)
+
+          # Find and fix problematic files
+          problem_files = glob.glob('_posts/*research_papers*.md')
+
+          fixed_count = 0
+          for filepath in problem_files:
+              try:
+                  with open(filepath, 'r', encoding='utf-8') as f:
+                      content = f.read()
+
+                  if '\\\\' in content or ('{{' in content and '{% raw %}' not in content):
+                      fixed_content = fix_post_content(content)
+
+                      with open(filepath, 'w', encoding='utf-8') as f:
+                          f.write(fixed_content)
+
+                      print(f"✅ Fixed: {os.path.basename(filepath)}")
+                      fixed_count += 1
+
+              except Exception as e:
+                  print(f"❌ Error fixing {filepath}: {e}")
+
+          print(f"\n📊 Fixed {fixed_count} posts")
+          EOF
+
+      - name: Commit fixes
+        run: |
+          git config --global user.name 'Jekyll Fix Bot'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Fix broken Jekyll posts" && git push)
