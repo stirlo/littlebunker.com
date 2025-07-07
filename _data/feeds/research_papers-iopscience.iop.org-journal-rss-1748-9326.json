@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-07T22:25:24.990533",
+  "fetched_at": "2025-07-07T23:24:56.509107",
   "items": [
     {
       "title": "Rapid trend towards larger and more moisture-limited trees in Central-European temperate forests",
@@ -83,22 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade81b",
       "pubDate": "",
       "description": "Marine cold-spells (MCSs), the cold ocean temperature extremes as the counterpart to marine heatwaves (MHWs), may have brutal impacts on marine ecosystems and fisheries. However, recent MCS-related researches mainly focused on the ocean surface, while the character of bottom MCSs (BMCSs) remains unclear. Here, we provide an analogous assessment of BMCSs and surface MCSs (SMCSs) over the continental shelf of China based on a 1/12° ocean reanalysis dataset during period of 1993–2023. We found that the duration and cumulative intensity of BMCSs can be longer and more intense than SMCSs, up to 20 d and ‒20 °C days, respectively. The mean and cumulative intensities of BMCSs and SMCSs increased in most regions, reaching 0.2 °C–0.4 °C/10a and 20 °C–40 °C days/10a, respectively. In contrast, there are no clear trends in the area-averaged time series of BMCS/SMCS metrics over the period 1993–2023. In terms of category and seasonal variations, BMCS generally has longer days than SMCS in the Moderate and Strong categories, persists longer than SMCS in summer and autumn (ranging from 2–6 d), and is more intense than SMCS in autumn and winter (ranging from 1 °C–2 °C). There are clear differences in category and seasonal changes between BMCS and SMCS. Furthermore, annual BMCS days are positively correlated with bottom depth, while mean intensity is negatively correlated. In addition, BMCS and SMCS often co-occur over shallow areas where the mixed layer depth can extend to the bottom.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Downscaled CMIP5 projections of physical fire risk understate historical trends",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade892",
-      "pubDate": "",
-      "description": "Reliable projections of wildfire risk are important for multi-sector impacts analysis. Statistically downscaled and bias-corrected Earth system model ensemble products are routinely used to analyze regional physical wildfire risk, but evaluations of historical observed trends and variability are lacking. Here, we evaluate physical fire risk over the western United States using the Canadian Forest Fire Weather Index (FWI) by comparing model outputs from the Coupled Model Intercomparison Project Phase 5 (CMIP5), statistically downscaled via the Multivariate Adaptive Constructed Analogs (MACA) approach, against the observational target dataset gridMET, a gridded high-resolution surface meteorological product. We analyze multidecadal trends and interannual variability in seasonal average FWI for the historical period and future projections under two emissions scenarios, and we compare MACA-CMIP5 ensemble results with a simple time series model that generates historical and future projections of seasonal FWI based on bootstrapping observed historical trends and variability. Our findings indicate that MACA-CMIP5 accurately captures the magnitude and spatial patterns of seasonally averaged FWI but tends to underestimate historical decadal trends. We show that future increases in fire risk may be underestimated relative to the simple time series model that projects historical variability into the future. We also highlight that model biases in relative humidity contribute significantly to model-data differences. Our results underscore the importance of historical hindcasting exercises for informing broader multi-sector applications.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "ENSO response depending on the state of the North Atlantic under a net-zero carbon emission scenario",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade894",
-      "pubDate": "",
-      "description": "Understanding the response of the El Niño-Southern Oscillation (ENSO) in a net-zero carbon emission scenario is critical for correctly projecting future climate variability after the Paris Agreement. This study examines the behavior of ENSO using the Community Earth System Model version 2, in which a 400 year simulation was performed, following the SSP5-8.5 pathway, then gradually reducing CO2 emissions to net-zero with stabilization period. After reaching net-zero CO2 emissions, the state of the North Atlantic sea surface temperature (SST) is characterized by two different pathways, either fast warming or slow warming. We found that both El Niño and La Niña events have intensified during the North Atlantic fast warming period compared to that during the North Atlantic slow warming period. This is due to the strengthening of the La Niña-like mean state in the tropical Pacific under the rapid warming of the North Atlantic, which enhances the Ekman pumping feedback and zonal advective feedback. Therefore, this study suggests that in a net-zero CO2 emission environment, ENSO amplitude can either increase or decrease, but it is regulated by the North Atlantic SST state, implying that the inter-basin interactions should be considered to understand ENSO variability even after reaching net-zero emissions.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
