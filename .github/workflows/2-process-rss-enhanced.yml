@@ -138,6 +138,10 @@ jobs:
                   clean_text = re.sub(r'<[^>]+>', '', content)
                   clean_text = re.sub(r'\s+', ' ', clean_text).strip()
 
+                  # Remove LaTeX and formulas for SEO description
+                  clean_text = clean_text.replace('\\', ' ')
+                  clean_text = re.sub(r'\{\{.*?\}\}', '', clean_text)
+
                   # Try to find a good sentence
                   sentences = re.split(r'[.!?]', clean_text)
 
@@ -245,12 +249,41 @@ jobs:
                   return False
 
           def clean_title(title):
-              return title.replace('"', '\\"').replace('\n', ' ').strip()
+              # Escape quotes
+              title = title.replace('"', '\\"')
+
+              # Escape backslashes (for LaTeX)
+              title = title.replace('\\', '\\\\')
+
+              # Handle Liquid syntax
+              title = title.replace('{{', '{ {')
+              title = title.replace('}}', '} }')
+
+              # Simplify LaTeX notation
+              title = re.sub(r'\\mathbb{(\w)}', r'\1', title)  # \mathbb{R} → R
+              title = re.sub(r'\\mathrm{(\w+)}', r'\1', title) # \mathrm{m} → m
+
+              # Remove newlines
+              title = title.replace('\n', ' ').strip()
+
+              return title
 
           def clean_content(content):
+              # Remove HTML tags
               content = re.sub(r'<[^>]+>', '', content)
+
+              # Escape quotes
               content = content.replace('"', '\\"')
+
+              # Escape backslashes
+              content = content.replace('\\', '\\\\')
+
+              # Handle Liquid syntax with raw tags
+              content = re.sub(r'(\{\{.*?\}\})', r'{% raw %}\1{% endraw %}', content)
+
+              # Clean whitespace
               content = re.sub(r'\s+', ' ', content)
+
               return content.strip()
 
           # Enhanced Jekyll post creation with SEO
