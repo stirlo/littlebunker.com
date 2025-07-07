@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "STATEMENT: BRICS Countries Rally Around Assertive Climate Agenda Ahead of COP30"
+date: 2025-07-07 12:48:40 +0000
+categories: [social_impact]
+tags: ['climate-costs', 'economic-impacts', 'urgent', 'year-2025']
+keywords: ['brics', 'countries', 'statement', 'urgent', 'climate-costs', 'economic-impacts', 'year-2025']
+description: "The summit also highlighted the role of technology transfer and resilience-building as integral to a more equitable global economy"
+external_url: https://www.wri.org/news/statement-brics-countries-rally-around-assertive-climate-agenda-ahead-cop30
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+RIO DE JANEIRO (July 7, 2025) — The 2025 BRICS Summit concluded today in Rio de Janeiro, bringing together representatives from countries including Brazil, Russia, India, China, and South Africa to advance a coordinated agenda on economic development, geopolitical cooperation and climate action.&nbsp;&nbsp;Among the outcomes were calls for strengthened climate finance, improved carbon accounting and the creation of a developing country–led platform to align trade with sustainability goals. The summit also highlighted the role of technology transfer and resilience-building as integral to a more equitable global economy.&nbsp;&nbsp;Following is a statement from Mirela Sandrini, Interim Executive Director, WRI Brazil:&nbsp;“This year’s BRICS Summit sends the clearest signal yet that major emerging economies can step into a global leadership role to address the climate crisis. Spanning finance, trade, technology and resilience-building, the summit’s outcome underscores strong support for climate action from the countries gathered in Rio –&nbsp;even as the United States retreats.&nbsp;“It is encouraging that BRICS nations called for more climate lending, deeper green bond markets and better carbon accounting –&nbsp;and created a new developing country-led platform to align trade with sustainability. Their commitment to protect tropical forests and scale up adaptation is a notable step towards safeguarding nature, building resilience and supporting human well-being. The specific mention of the Tropical Forest Forever Facility adds weight to that commitment. Crucially, they endorsed putting people and equity at the heart of a just transition to a low-carbon, climate-resilient future.&nbsp;“South-South collaboration of this scale and ambition can inject much-needed momentum into international climate diplomacy ahead of COP30. But a key test will be how BRICS countries implement climate commitments at home – from cutting emissions and building resilience, to supporting other developing nations through investment and lesson-sharing. Most importantly, the world will be watching for their new national climate commitments due by September, ahead of COP30.&nbsp;&nbsp;“Brazil deserves credit for bringing the BRICS together behind a more assertive vision for climate action. Brazil is deftly weaving climate diplomacy into the fabric of broader global agendas – from its G20 Presidency to BRICS and soon the COP30 summit.&nbsp; This integrated approach helps reduce fragmentation across international fora and positions climate policy as a cornerstone of global economic and financial reform –&nbsp;driving the inclusive, green growth the world urgently needs.”&nbsp;
+
+[Read original article](https://www.wri.org/news/statement-brics-countries-rally-around-assertive-climate-agenda-ahead-cop30)
