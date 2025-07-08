@@ -3,26 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Jekyll SEO Tag handles most meta tags -->
   {% seo %}
-  <title>{% if page.title %}{{ page.title }} | {% endif %}Little Bunker - Climate Crisis Hub</title>
 
-  <!-- Meta tags -->
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}A hub for climate crisis information, tracking metrics, and latest news.{% endif %}">
-  <meta name="author" content="Little Bunker">
+  <!-- Additional tags Jekyll SEO doesn't handle -->
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Little Bunker{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}A hub for climate crisis information, tracking metrics, and latest news.{% endif %}">
-  <meta property="og:image" content="{{ '/assets/images/og-image.jpg' | absolute_url }}">
+  <!-- Article Keywords/Tags -->
+  {% if page.tags %}
+  <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+  <meta property="article:tag" content="{{ page.tags | join: ', ' }}">
+  {% endif %}
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="{{ page.url | absolute_url }}">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}Little Bunker{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}A hub for climate crisis information, tracking metrics, and latest news.{% endif %}">
-  <meta name="twitter:image" content="{{ '/assets/images/og-image.jpg' | absolute_url }}">
+  <!-- Article Category -->
+  {% if page.categories %}
+  <meta property="article:section" content="{{ page.categories | first | replace: '_', ' ' | capitalize }}">
+  {% endif %}
+
+  <!-- Fix Facebook image warning with dimensions -->
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter Labels for better context -->
+  {% if page.tags contains 'urgent' or page.tags contains 'breaking' %}
+  <meta name="twitter:label1" content="Priority">
+  <meta name="twitter:data1" content="Urgent Climate News">
+  {% elsif page.categories contains 'research_papers' %}
+  <meta name="twitter:label1" content="Type">
+  <meta name="twitter:data1" content="Peer-Reviewed Research">
+  {% elsif page.categories contains 'extreme_weather' %}
+  <meta name="twitter:label1" content="Alert">
+  <meta name="twitter:data1" content="Extreme Weather Event">
+  {% endif %}
+
+  <!-- Publishing metadata -->
+  {% if page.date %}
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+  {% endif %}
 
   <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/favicon/apple-touch-icon.png' | relative_url }}">
@@ -40,7 +57,7 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-    
+
     <style>
         :root {
             /* Light Mode (Winter/Ice) */
