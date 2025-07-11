@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "STATEMENT: 8 African Nations Commit to 100% Sustainable Ocean Management"
+date: 2025-07-11 13:31:04 +0000
+categories: [social_impact]
+tags: ['year-2025']
+keywords: ['year-2025', 'nations', 'african', 'statement']
+description: "The commitment was made at the International Conference on the Blue Economy in the Gulf of Guinea, held in Yaoundé, Cameroon"
+external_url: https://www.wri.org/news/statement-8-african-nations-commit-100-sustainable-ocean-management
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+YAOUNDÉ &nbsp;(July 11, 2025)&nbsp;– Yesterday, eight African nations — Angola, Benin, Cameroon, Republic of Congo, Côte d’Ivoire, Equatorial Guinea, Liberia and Nigeria — adopted the Yaoundé Declaration, committing to sustainably manage 100% of ocean areas under their national jurisdiction by 2030. The commitment was made at the International Conference on the Blue Economy in the Gulf of Guinea, held in Yaoundé, Cameroon.&nbsp;&nbsp;Through the regional declaration, the eight countries have pledged to develop and implement Sustainable Ocean Plans (SOPs) that will guide the sustainable use, protection, and restoration of marine and coastal ecosystems. Other commitments will seek to tackle Illegal, Unreported and Unregulated fishing (IUU) and strengthen marine security.&nbsp;&nbsp;Following is a statement from Wanjira Mathai, Director of WRI Africa:&nbsp;“The ocean is one interconnected system that spans beyond national borders, and governments must manage it that way. The Yaoundé Declaration is a powerful signal of regional leadership, showing that countries across the Gulf of Guinea are not just willing, but determined to build a sustainable, inclusive blue economy.&nbsp;&nbsp;“With the Our Ocean Conference coming to Kenya next year, this commitment sets the tone for African leadership on the global stage. Transboundary cooperation like this also helps shift African wisdom, solutions and priorities to the forefront, steering ambitious, homegrown answers to ocean challenges.&nbsp;Following is a statement from Cynthia Barzuna, Deputy Director of WRI’s Ocean Program:&nbsp;“The Gulf of Guinea is one of the world’s richest marine ecosystems — a lifeline for millions who rely on it for food and jobs. But it’s under siege from climate change, pollution, and overfishing. The Sustainable Ocean Plans these countries will develop off a clear, actionable blueprint to manage 100% of their waters, balancing protection, prosperity and resilience.&nbsp;“This commitment positions the Gulf of Guinea as a driving force in a global wave for ocean sustainability. It directly aligns with the goal of Ocean Panel, a coalition of 18 countries working towards 100% sustainable management of national waters. The Panel pioneered the concept of Sustainable Ocean Plans and, through the 100% Alliance, is urging all coastal and ocean states to follow suit.”&nbsp;&nbsp;Editor’s note: WRI serves as Secretariat of the&nbsp;High Level Panel for a Sustainable Ocean Economy — a group of 18 heads of state and government from countries committed to sustainably managing 100% of their national waters by 2030 — and coordinates the&nbsp;100% Alliance, a global initiative co-led by Chile and France that encourages all other coastal and island countries to make that same commitment.
+
+[Read original article](https://www.wri.org/news/statement-8-african-nations-commit-100-sustainable-ocean-management)
