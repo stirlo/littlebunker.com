@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-07-12T15:25:27.066350",
+  "fetched_at": "2025-07-12T16:30:24.758353",
   "items": [
+    {
+      "title": "Why America’s still freezing — even as the world heats up",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250711224318.htm",
+      "pubDate": "Sat, 12 Jul 2025 09:19:38 EDT",
+      "description": "Even in a warming climate, brutal cold snaps still hammer parts of the U.S., and a new study uncovers why. High above the Arctic, two distinct polar vortex patterns — both distorted and displaced — play a major role in steering icy air toward different regions. One sends it plunging into the Northwest, while the other aims it at the Central and Eastern U.S. Since 2015, the westward version has been more common, bringing intensified cold to the Northwest in defiance of global warming trends. This stratospheric detective work offers fresh insight into extreme winter weather — and could supercharge long-range forecasts.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Bigger crops, fewer nutrients: The hidden cost of climate change",
       "link": "https://www.sciencedaily.com/releases/2025/07/250709091658.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250620231806.htm",
       "pubDate": "Fri, 20 Jun 2025 23:18:06 EDT",
       "description": "Beneath the forest floor lies an overlooked secret: many plants grow a second set of roots far deeper than expected sometimes over three feet down tapping into hidden nutrient stores and potentially locking away carbon. A new study using deep-soil data from NEON reveals that these \"bimodal\" rooting systems are more common than previously believed and may play a powerful role in stabilizing ecosystems and fighting climate change.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The Atlantic's chilling secret: A century of data reveals ocean current collapse",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250620222140.htm",
-      "pubDate": "Fri, 20 Jun 2025 22:21:40 EDT",
-      "description": "A century-old mystery of a stubborn cold patch in the North Atlantic is finally being unraveled. A new study links this anomaly to a long-term weakening of the Atlantic Meridional Overturning Circulation (AMOC) a massive ocean current system that regulates climate across the Northern Hemisphere. Using over 100 years of temperature and salinity data, researchers showed that only models with a weakening AMOC could recreate the observed changes. The implications are vast, influencing everything from European weather to marine ecosystems, and casting doubt on many recent climate models that underestimated this oceanic shift.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
