@@ -1,5 +1,14 @@
 <!-- _includes/climate_metrics_header.html -->
 <header class="site-header">
+    <!-- Parallax Background -->
+    <div class="header-parallax">
+        <img src="{{ '/assets/images/bunker-logo.svg' | relative_url }}" 
+             alt="" 
+             class="parallax-bg"
+             loading="lazy"
+             aria-hidden="true">
+    </div>
+
     <div class="container">
         <div class="header-content">
             <div class="site-title">
@@ -64,12 +73,46 @@
 
 <style>
 .site-header {
+    position: relative;
     background: var(--metric-background, var(--light-bg));
     padding: 1rem 0;
     border-bottom: 1px solid rgba(0,0,0,0.1);
+    overflow: hidden;
+    min-height: 350px;
+}
+
+/* Parallax Background */
+.header-parallax {
+    position: absolute;
+    top: -20%;
+    left: 0;
+    width: 100%;
+    height: 140%;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.parallax-bg {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    opacity: 0.08; /* Very subtle in header */
+    transform: translateY(0);
+    will-change: transform;
+    transition: transform 0.1s ease-out;
+}
+
+/* Ensure content stays above background */
+.container {
+    position: relative;
+    z-index: 1;
 }
 
 .header-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -83,6 +126,7 @@
     margin: 0;
     font-size: 1.8rem;
     color: var(--primary-color, var(--light-tertiary));
+    text-shadow: 0 1px 3px rgba(255,255,255,0.8);
 }
 
 .last-update {
@@ -105,6 +149,8 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     min-width: 180px;
     text-align: center;
+    backdrop-filter: blur(10px);
+    background: rgba(var(--card-bg-rgb, 255,255,255), 0.95);
 }
 
 .metric-card h3 {
@@ -128,7 +174,7 @@
     font-weight: bold;
     animation: pulse 2s infinite;
 }
-    
+
 .warning {
     color: var(--warning, #ffaa00);
 }
@@ -154,6 +200,18 @@
     100% { opacity: 1; }
 }
 
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .parallax-bg {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .metrics-dashboard {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (min-width: 768px) {
     .header-content {
         flex-direction: row;
@@ -170,9 +228,49 @@
     }
 }
 
-@media (max-width: 767px) {
-    .metrics-dashboard {
-        grid-template-columns: repeat(2, 1fr);
+/* Ultra-wide screens */
+@media (min-width: 2000px) {
+    .parallax-bg {
+        max-width: 1800px;
+    }
+}
+
+/* Accessibility - reduce motion */
+@media (prefers-reduced-motion: reduce) {
+    .parallax-bg {
+        position: fixed !important;
+        transform: none !important;
     }
 }
 </style>
+
+<script>
+// Simple parallax effect
+document.addEventListener('DOMContentLoaded', function() {
+    const parallaxBg = document.querySelector('.parallax-bg');
+    if (!parallaxBg) return;
+
+    let ticking = false;
+
+    function updateParallax() {
+        const scrolled = window.pageYOffset;
+        const speed = 0.3; // Subtle movement
+        const yPos = scrolled * speed;
+
+        parallaxBg.style.transform = `translateY(${yPos}px)`;
+        ticking = false;
+    }
+
+    function requestTick() {
+        if (!ticking) {
+            window.requestAnimationFrame(updateParallax);
+            ticking = true;
+        }
+    }
+
+    // Check for reduced motion preference
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        window.addEventListener('scroll', requestTick);
+    }
+});
+</script>
