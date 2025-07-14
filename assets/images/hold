@@ -1,1 +1,132 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="climate-shield-icon">
+  <defs>
+    <!-- iOS-style gradients -->
+    <linearGradient id="ios-blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#29B6F6"/>
+    </linearGradient>
 
+    <linearGradient id="ios-orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF7043"/>
+      <stop offset="100%" stop-color="#FF5722"/>
+    </linearGradient>
+
+    <linearGradient id="shield-shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="white" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Soft shadow -->
+    <filter id="ios-shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feFlood flood-color="#000000" flood-opacity="0.15"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Inner shadow for depth -->
+    <filter id="inner-shadow">
+      <feOffset dx="0" dy="-2"/>
+      <feGaussianBlur stdDeviation="3" result="offset-blur"/>
+      <feComposite operator="out" in="SourceGraphic" in2="offset-blur" result="inverse"/>
+      <feFlood flood-color="black" flood-opacity="0.2" result="color"/>
+      <feComposite operator="in" in="color" in2="inverse" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+
+  <style>
+    /* Default to safe/cool state */
+    .climate-shield-icon {
+      --shield-gradient: url(#ios-blue);
+      --indicator-color: #4FC3F7;
+      --secondary-color: #E1F5FE;
+      --warning-opacity: 0;
+    }
+
+    /* Critical/warm state */
+    .critical-state {
+      --shield-gradient: url(#ios-orange);
+      --indicator-color: #FF5722;
+      --secondary-color: #FBE9E7;
+      --warning-opacity: 1;
+    }
+
+    /* Smooth transitions */
+    .climate-shield-icon * {
+      transition: all 0.3s ease;
+    }
+  </style>
+
+  <!-- Background circle (iOS app shape) -->
+  <rect x="56" y="56" width="400" height="400" rx="90" fill="white" filter="url(#ios-shadow)"/>
+
+  <!-- Main shield/bunker shape -->
+  <g transform="translate(256, 280)">
+    <!-- Shield body -->
+    <path d="M -120 0 
+             C -120 -140, 120 -140, 120 0
+             L 120 40
+             C 120 50, 110 60, 100 60
+             L -100 60
+             C -110 60, -120 50, -120 40
+             Z" 
+          fill="var(--shield-gradient)"
+          filter="url(#inner-shadow)"/>
+
+    <!-- Shield shine -->
+    <path d="M -120 0 
+             C -120 -140, 120 -140, 120 0
+             L 120 40
+             C 120 50, 110 60, 100 60
+             L -100 60
+             C -110 60, -120 50, -120 40
+             Z" 
+          fill="url(#shield-shine)"
+          opacity="0.5"/>
+
+    <!-- Protection indicator (door/meter) -->
+    <rect x="-40" y="-60" width="80" height="100" 
+          rx="8" 
+          fill="white" 
+          opacity="0.9"/>
+
+    <!-- Data visualization bars -->
+    <g class="data-bars">
+      <rect x="-25" y="-45" width="10" height="40" rx="5" fill="var(--indicator-color)" opacity="0.8"/>
+      <rect x="-10" y="-35" width="10" height="30" rx="5" fill="var(--indicator-color)" opacity="0.6"/>
+      <rect x="5" y="-50" width="10" height="45" rx="5" fill="var(--indicator-color)" opacity="0.9"/>
+      <rect x="20" y="-30" width="10" height="25" rx="5" fill="var(--indicator-color)" opacity="0.5"/>
+    </g>
+
+    <!-- Center indicator dot -->
+    <circle cx="0" cy="20" r="8" fill="var(--indicator-color)">
+      <animate attributeName="r" values="8;10;8" dur="2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Environmental indicators (minimal) -->
+  <g opacity="0.4">
+    <!-- Horizon line -->
+    <line x1="100" y1="380" x2="412" y2="380" stroke="var(--indicator-color)" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Data points -->
+    <circle cx="140" cy="380" r="4" fill="var(--indicator-color)"/>
+    <circle cx="256" cy="380" r="4" fill="var(--indicator-color)"/>
+    <circle cx="372" cy="380" r="4" fill="var(--indicator-color)"/>
+  </g>
+
+  <!-- Warning indicator (only shows in critical state) -->
+  <g opacity="var(--warning-opacity)">
+    <circle cx="380" cy="132" r="24" fill="#FF5722"/>
+    <path d="M 380 120 L 380 138 M 380 146 L 380 148" 
+          stroke="white" 
+          stroke-width="4" 
+          stroke-linecap="round"/>
+  </g>
+</svg>
