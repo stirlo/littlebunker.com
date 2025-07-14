@@ -1,0 +1,202 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" class="bunker-logo">
+  <defs>
+    <!-- Sky gradients -->
+    <linearGradient id="ice-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f0f8ff"/>
+      <stop offset="100%" stop-color="#a8d8ea"/>
+    </linearGradient>
+
+    <linearGradient id="fire-sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a0f0f"/>
+      <stop offset="50%" stop-color="#8b0000"/>
+      <stop offset="100%" stop-color="#cd5c5c"/>
+    </linearGradient>
+
+    <!-- Simplified ground patterns -->
+    <pattern id="ice-cracks" x="0" y="0" width="80" height="80" patternUnits="userSpaceOnUse">
+      <circle cx="40" cy="40" r="2" fill="#71b5c9" opacity="0.2"/>
+    </pattern>
+
+    <pattern id="fire-cracks" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M0,30 L60,30" stroke="#ff4500" stroke-width="0.5" opacity="0.3"/>
+      <circle cx="30" cy="30" r="1" fill="#ff8c00" opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <style>
+    /* Ice/Light Theme (Default) */
+    .bunker-logo {
+      --sky-gradient: url(#ice-sky);
+      --ground-base: #e8f4f8;
+      --ground-texture: url(#ice-cracks);
+      --bunker-color: #71b5c9;
+      --bunker-shadow: #4682b4;
+      --door-color: #2c3e50;
+      --tree-color: #4682b4;
+      --rock-color: #71b5c9;
+      --accent: #b0e0e6;
+      --panel-lines: #4682b4;
+      --glow: none;
+    }
+
+    /* Fire/Dark Theme */
+    .fire-mode .bunker-logo,
+    @media (prefers-color-scheme: dark) {
+      .bunker-logo {
+        --sky-gradient: url(#fire-sky);
+        --ground-base: #1a0f0f;
+        --ground-texture: url(#fire-cracks);
+        --bunker-color: #8b0000;
+        --bunker-shadow: #ff4500;
+        --door-color: #ffd700;
+        --tree-color: #ff6347;
+        --rock-color: #cd5c5c;
+        --accent: #ff8c00;
+        --panel-lines: #ff4500;
+        --glow: drop-shadow(0 0 20px #ff4500);
+      }
+    }
+
+    .celestial-ice { display: block; }
+    .celestial-fire { display: none; }
+
+    .fire-mode .celestial-ice,
+    @media (prefers-color-scheme: dark) {
+      .bunker-logo .celestial-ice { display: none; }
+      .bunker-logo .celestial-fire { display: block; }
+    }
+  </style>
+
+  <!-- Sky -->
+  <rect x="0" y="0" width="512" height="320" fill="var(--sky-gradient)"/>
+
+  <!-- Ice theme: Harsh noon sun -->
+  <g class="celestial-ice">
+    <circle cx="400" cy="80" r="40" fill="#f0f8ff" opacity="0.9"/>
+    <circle cx="400" cy="80" r="35" fill="#b0e0e6"/>
+    <!-- Sun rays -->
+    <g stroke="#f0f8ff" stroke-width="2" opacity="0.6">
+      <line x1="400" y1="20" x2="400" y2="40"/>
+      <line x1="440" y1="40" x2="460" y2="20"/>
+      <line x1="460" y1="80" x2="480" y2="80"/>
+      <line x1="440" y1="120" x2="460" y2="140"/>
+      <line x1="360" y1="120" x2="340" y2="140"/>
+      <line x1="340" y1="80" x2="320" y2="80"/>
+      <line x1="360" y1="40" x2="340" y2="20"/>
+    </g>
+  </g>
+
+  <!-- Fire theme: Stars and embers -->
+  <g class="celestial-fire">
+    <!-- Stars -->
+    <circle cx="50" cy="50" r="2" fill="#ffd700" opacity="0.8"/>
+    <circle cx="150" cy="30" r="1.5" fill="#ff8c00" opacity="0.6"/>
+    <circle cx="250" cy="70" r="2" fill="#ffd700" opacity="0.9"/>
+    <circle cx="350" cy="40" r="1" fill="#ff6347" opacity="0.7"/>
+    <circle cx="450" cy="60" r="1.5" fill="#ffd700" opacity="0.8"/>
+    <circle cx="100" cy="100" r="1" fill="#ff8c00" opacity="0.5"/>
+    <circle cx="400" cy="90" r="2" fill="#ffd700" opacity="0.9"/>
+    <!-- Floating embers -->
+    <circle cx="80" cy="200" r="3" fill="#ff4500" opacity="0.6" filter="blur(1px)">
+      <animate attributeName="cy" values="200;180;200" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="420" cy="250" r="2" fill="#ff8c00" opacity="0.7" filter="blur(1px)">
+      <animate attributeName="cy" values="250;230;250" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Ground -->
+  <rect x="0" y="320" width="512" height="192" fill="var(--ground-base)"/>
+  <rect x="0" y="320" width="512" height="192" fill="var(--ground-texture)"/>
+
+  <!-- Dead trees -->
+  <g stroke="var(--tree-color)" stroke-width="3" fill="none" opacity="0.7">
+    <path d="M 80 320 L 80 270 M 80 285 L 65 265 M 80 285 L 95 265"/>
+    <path d="M 420 320 L 420 240 M 420 270 L 400 250 M 420 265 L 440 245 M 420 290 L 410 275"/>
+    <path d="M 200 320 L 200 290 M 200 300 L 185 285 M 200 305 L 215 290"/>
+    <path d="M 320 320 L 320 280 M 320 295 L 310 280"/>
+  </g>
+
+  <!-- Scattered debris -->
+  <g fill="var(--rock-color)">
+    <ellipse cx="50" cy="340" rx="20" ry="10" opacity="0.8"/>
+    <ellipse cx="450" cy="350" rx="25" ry="12" opacity="0.7"/>
+    <ellipse cx="150" cy="355" rx="15" ry="8" opacity="0.9"/>
+    <ellipse cx="350" cy="345" rx="18" ry="9" opacity="0.6"/>
+    <ellipse cx="250" cy="360" rx="12" ry="6" opacity="0.8"/>
+    <!-- Small pebbles -->
+    <circle cx="100" cy="370" r="4" opacity="0.5"/>
+    <circle cx="380" cy="365" r="3" opacity="0.6"/>
+    <circle cx="180" cy="375" r="5" opacity="0.4"/>
+  </g>
+
+  <!-- Bunker shadow -->
+  <ellipse cx="256" cy="320" rx="140" ry="20" fill="black" opacity="0.2"/>
+
+  <!-- Bunker dome with gradient -->
+  <path d="M 116 320 A 140 140 0 0 1 396 320 Z" 
+        fill="var(--bunker-color)" 
+        stroke="var(--bunker-shadow)" 
+        stroke-width="4"
+        filter="var(--glow)"/>
+
+  <!-- Sci-fi Panel Texture - Asymmetric Horizontal Blocks -->
+  <g stroke="var(--panel-lines)" stroke-width="1.5" fill="none" opacity="0.4">
+    <!-- Main horizontal panel lines - non-uniform spacing -->
+    <path d="M 145 305 L 367 305"/>
+    <path d="M 152 287 L 360 287"/>
+    <path d="M 160 272 L 352 272"/>
+    <path d="M 170 255 L 342 255"/>
+    <path d="M 185 237 L 327 237"/>
+    <path d="M 205 218 L 307 218"/>
+
+    <!-- Vertical segments creating blocks -->
+    <path d="M 195 237 L 195 320"/>
+    <path d="M 235 218 L 235 320"/>
+    <path d="M 277 218 L 277 320"/>
+    <path d="M 317 237 L 317 320"/>
+
+    <!-- Asymmetric panel sections -->
+    <rect x="160" y="290" width="45" height="12" rx="2"/>
+    <rect x="307" y="290" width="45" height="12" rx="2"/>
+    <rect x="220" y="275" width="72" height="8" rx="1"/>
+    <rect x="175" y="258" width="30" height="10" rx="2"/>
+    <rect x="307" y="258" width="30" height="10" rx="2"/>
+    <rect x="235" y="240" width="42" height="12" rx="2"/>
+
+    <!-- Small detail panels -->
+    <circle cx="180" cy="280" r="3"/>
+    <circle cx="332" cy="280" r="3"/>
+    <rect x="250" y="295" width="12" height="6" rx="1"/>
+  </g>
+
+  <!-- Extra sci-fi details - glowing elements -->
+  <g fill="var(--accent)" opacity="0.6">
+    <rect x="245" y="260" width="22" height="3" rx="1"/>
+    <rect x="253" y="307" width="6" height="2" rx="1"/>
+    <circle cx="210" cy="296" r="2"/>
+    <circle cx="302" cy="296" r="2"/>
+  </g>
+
+  <!-- Blast door -->
+  <rect x="226" y="260" width="60" height="60" 
+        fill="var(--door-color)" 
+        rx="3"
+        stroke="var(--bunker-shadow)"
+        stroke-width="2"/>
+
+  <!-- Door details -->
+  <g fill="var(--accent)">
+    <!-- Bolts -->
+    <circle cx="238" cy="275" r="4"/>
+    <circle cx="274" cy="275" r="4"/>
+    <circle cx="238" cy="305" r="4"/>
+    <circle cx="274" cy="305" r="4"/>
+    <!-- Handle -->
+    <rect x="248" y="285" width="16" height="30" rx="3" fill="var(--bunker-shadow)"/>
+    <rect x="253" y="290" width="6" height="20" rx="1" fill="var(--door-color)"/>
+  </g>
+
+  <!-- Horizon atmosphere -->
+  <line x1="0" y1="320" x2="512" y2="320" stroke="var(--accent)" stroke-width="1" opacity="0.5"/>
+</svg>
