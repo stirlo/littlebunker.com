@@ -426,3 +426,140 @@ a:hover {
     margin-top: 0.5rem;
   }
 }
+
+/* ==========================================================================
+   Feed Post Enhancements - Duplicate Link Fix & Related Posts
+   ========================================================================== */
+
+/* Hide duplicate "Read original article" text links */
+.post-content > p:last-of-type > a[href^="http"]:only-child:not(.read-original) {
+  display: none;
+}
+
+/* Enhanced source link button (updating existing) */
+.source-link .read-original {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+  &:hover {
+    background: var(--secondary-color);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    text-decoration: none;
+  }
+}
+
+/* Related Posts Section */
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 2px solid var(--accent-color);
+
+  h3 {
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.related-item {
+  background: var(--bg-color);
+  padding: 1.2rem;
+  border-radius: 8px;
+  border: 1px solid var(--accent-color);
+  transition: all 0.2s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-color: var(--primary-color);
+  }
+
+  h4 {
+    margin: 0.5rem 0;
+    font-size: 1.1rem;
+    line-height: 1.3;
+
+    a {
+      color: var(--text-color);
+      font-weight: 600;
+
+      &:hover {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+    }
+  }
+
+  time {
+    color: var(--secondary-color);
+    font-size: 0.85rem;
+  }
+}
+
+.category-badge {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.matching-tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.tag-match {
+  font-size: 0.7rem;
+  background: var(--accent-color);
+  color: var(--text-color);
+  padding: 0.15rem 0.5rem;
+  border-radius: 12px;
+  opacity: 0.8;
+}
+
+/* Tag links in post header */
+.post-tags {
+  margin-top: 1rem;
+  color: var(--secondary-color);
+  font-size: 0.9rem;
+
+  .tag-link {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 1px dotted var(--primary-color);
+    transition: all 0.2s ease;
+
+    &:hover {
+      border-bottom-style: solid;
+      color: var(--secondary-color);
+    }
+  }
+}
+
+/* Mobile adjustments for related posts */
+@media (max-width: 600px) {
+  .related-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .related-item {
+    padding: 1rem;
+  }
+}
