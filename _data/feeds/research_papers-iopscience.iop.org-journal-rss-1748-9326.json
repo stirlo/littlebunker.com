@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-15T15:28:22.395609",
+  "fetched_at": "2025-07-15T16:34:42.137969",
   "items": [
     {
       "title": "CarbonFiberStone: a new carbon negative and cost-effective alternative to conventional building materials by fusing three different CDR technologies",
@@ -19,6 +19,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adec06",
       "pubDate": "",
       "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Effects of climate change and anthropic water uses on ecosystem services provided by an Alpine river",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade902",
+      "pubDate": "",
+      "description": "Several Alpine river ecosystem services (ES) depend on the streamflow regime, thus they might be affected by multiple stressors such as changing climate and anthropic water uses, with still poorly investigated consequences. We focused on the supply of three ES in an Alpine river, namely habitat provision, recreational activities, and hydroelectricity production from run-of-the-river (RoR) power plants. We applied an integrated hydrological, hydraulic and habitat modeling approach to quantify the effects of climate change (CC) on these services, based on the outcomes of four regional climate models. The paper investigated the effects of water use policies such as the introduction of prescriptions for environmental flow (EF) under the same CC models. We observed that CC significantly affects the river suitability for the supply of ES at the catchment scale, while the introduction of EF releases are relevant at a more local scales (several reaches). Under future scenarios, simulated increasing abstractions for hydroelectricity production from RoR power plants have a stronger effect on white-water rafting and a relatively smaller effect on fish habitat. Quantifying the potential effects of CC and of different strategies of river flow management under these scenarios is a promising approach to support the design of long-term water resources management strategies at catchment and local level.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade72d",
       "pubDate": "",
       "description": "Natural disasters often result from compound event dynamics, in which multiple interacting drivers converge across spatial and temporal scales, significantly amplifying their impacts. The concept of compound events has gained increasing attention in recent literature, offering opportunities to enhance disaster understanding, while also presenting challenges and open issues for modern risk assessment frameworks. This study investigates the capability of existing disasters/extreme events databases (Emergency Events Database EM-DAT, Severe Weather Data Inventory SWDI, and Canadian Disaster Database CDD) to capture compound event dynamics, and assess the accuracy of reported impacts. We found that SWDI, a national dataset for the USA, reports a high number of compound events versus single events, always higher than 50%, except for wildfires, and its structure allows for accurately identify spatially compounding events. This percentage in EM-DAT, a global dataset, is always lower than 50%, except for storms. A good match in events occurrences can be observed between the three databases, however the agreement in terms of deaths and injures varies depending on the databases compared. Finally, the work highlights the limitations of existing databases in representing the multidimensional nature of risks, and the cascading impacts that emerge from compound hazards. Reclassifying disasters from a compound event perspective not only enriches our knowledge of hazard dynamics, but also provides actionable pathways for improving risk assessment, informing adaptive policies, and enhancing resilience to the growing complexity of environmental challenges.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Norway’s electric vehicle revolution: unveiling greenhouse gas emissions reductions and material use of passenger cars across space and time",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade8fe",
-      "pubDate": "",
-      "description": "Electric vehicles (EVs) are a key strategy for mitigating greenhouse gas (GHG) emissions from personal mobility. Norway’s strong EV supporting policies has led to an explosion of EVs and reduced direct emissions, but with rural-urban differences and undocumented upstream impacts. We investigated how the material composition and life cycle GHG emissions of Norwegian vehicles have evolved between 2000 and 2023 by integrating spatiotemporal vehicle data with a vehicle life cycle assessment model. The average life cycle GHG emissions per vehicle-km (vkm) of a newly registered car have significantly decreased (−49% since 2000) thanks to the decrease in use phase emissions (−89% since 2000). However, component-related emissions have increased (+81% since 2000) due to electrification and a trend towards large vehicles. Changes in the fleet are slow: EVs constituted 24% of the stock in 2023 and average life cycle GHG emissions per vkm have barely declined (−8% since 2000). EVs are concentrated in urban and peri-urban areas, while remote areas have few EVs, illustrating the unequal spatial distribution of electric mobility. Our study highlights the challenges related to EV penetration and emphasizes the need to expand to additional indicators beyond direct GHG emissions for a comprehensive understanding of EVs’ role in climate change mitigation.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
