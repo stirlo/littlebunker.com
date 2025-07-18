@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-07-18T21:25:28.732585",
+  "fetched_at": "2025-07-18T22:25:57.705166",
   "items": [
+    {
+      "title": "Fearful of AI-generated grant proposals, NIH limits scientists to six applications per year",
+      "link": "https://www.science.org/content/article/fearful-ai-generated-grant-proposals-nih-limits-scientists-six-applications-year",
+      "pubDate": "",
+      "description": "Some critics of the new policy say the cap could hinder researchers in need of funding",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "U.S. research community says new indirect cost model is still too complicated",
       "link": "https://www.science.org/content/article/u-s-research-community-says-new-indirect-cost-model-still-too-complicated",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/new-transplant-techniques-keep-organ-donors-hearts-healthy-even-after-they-stop-beating",
       "pubDate": "",
       "description": "Strategies for preserving the heart after circulation stops could avoid ethical concerns and enable more transplants",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "‘Lazy’ authors? One in six scientific papers mischaracterize work they cite",
-      "link": "https://www.science.org/content/article/lazy-authors-one-six-scientific-papers-mischaracterize-work-they-cite",
-      "pubDate": "",
-      "description": "New study of long-standing problem takes novel approach, asking cited authors to evaluate accuracy",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
