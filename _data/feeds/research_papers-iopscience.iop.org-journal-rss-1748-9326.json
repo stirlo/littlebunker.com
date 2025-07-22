@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-22T16:35:45.134725",
+  "fetched_at": "2025-07-22T17:26:50.837058",
   "items": [
+    {
+      "title": "A framework for city-specific air quality health index: a comparative assessment of Delhi and Varanasi, India",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/aded26",
+      "pubDate": "",
+      "description": "Air quality index (AQI) is a crucial tool for communicating the health risks of air quality to the public. However, the current AQI in India does not consider the health impacts of exposure to air pollutants, necessitating the development of air quality health index (AQHI). Here, we proposed a framework for developing city-specific AQHI that better reflects local air quality and associated health risks using air pollution and health data from two polluted and densely populated cities in north India—Delhi and Varanasi (Delhi: 2013–2017; Varanasi: 2009–2016). We also constructed a pooled AQHI by combining data from both cities. Using concentrations of ambient fine particulate matter (PM2.5), nitrogen dioxide, and ozone, we applied generalized additive models with a quasi-Poisson link, using daily mortality counts as the outcome, excluding suicide and accidental deaths. A 10 μg m−3 increase in PM2.5 was associated with mortality increases of 0.17% (95% CI: 0.01–0.34) in Varanasi, 0.20% (95% CI: 0.1–0.29) in Delhi, and 0.16% (95% CI: 0.08–0.24) in the pooled model. The city-specific AQHI classified 21.8% of days in Delhi as ‘Satisfactory’ versus 18.2% by the pooled index, while 24.2% of days were ‘Poor’ compared to 30.1% under the pooled index. In Varanasi, 6.8% of days were ‘Good’ under the city-specific AQHI, compared to 9.3% by the pooled index, with 15.7% of days classified as ‘Poor’ versus 19.3% by the pooled index. Our results suggest that a single-pooled AQHI may misrepresent local air quality and associated health risks. Since AQHI values are derived from excess mortality risk estimates, a city-specific AQHI ensures a more accurate reflection of local pollution-related health impacts, supporting targeted public health interventions. We recommend accessibility of health data to enable developing AQHI for non-attainment cities in India and use it to track progress towards cleaner air.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A new dark ice albedo threshold and its applications",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeea9",
+      "pubDate": "",
+      "description": "Dark ice (low albedo) areas are hot spots for investigating biological and abiotic darkening processes and their impact on the melt rate of the Greenland Ice Sheet. This study introduces a quantitative method for determining albedo thresholds to delineate areas of dark ice, which detects abrupt changes in the mean and linear trends in time series of weather station albedo measurements in documented dark ice areas. Four different stages of albedo change during the melt season are easily identified within data derived from program for monitoring of the Greenland Ice Sheet and the Greenland climate network automatic weather station located in dark ice areas. The third stage is defined as the dark ice period, during which the albedo decline rate is lowest, gradually converging to the minimum annual value. The derived broadband albedo thresholds are α < 0.451 and 0.431 for use with discrete data mapping and linear trend analysis, respectively. We recommend that the latter threshold is used because it can better indicate albedo trend changes. The thresholds were applied to harmonized Landsat and Sentinel 2 ice albedo and MODerate resolution Imaging Spectroradiometer MOD10A1 albedo products to analyze dark ice variations at local (30 m) and regional (500 m) scales on the ice sheet. Our findings reveal notable inter-annual and daily variations in dark ice areas, in line with previous studies. Dark ice occupies, on average, 60% of the bare ice area, and the transition from bare to dark ice averaged 5–6 d across the ice sheet. The impacts of the different thresholds applied are relatively minor.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Seasonal contrast in dryland vegetation response to meteorological drought across South Asia",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeeac",
@@ -67,22 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade9e2",
       "pubDate": "",
       "description": "Phenological shifts are increasingly recognized as tangible indicators of plant responses to climate change. Tropical dry forests (TDFs), in particular, are key ecosystems for unraveling the mechanisms driving phenological dynamics, given their crucial role in biodiversity conservation and carbon balance. Although phenological research has advanced rapidly in recent decades in tandem with new methodological innovations, TDFs remain underrepresented. Consequently, the extent to which recent approaches have improved our understanding of leaf changes is still poorly understood. Here, we conducted a comprehensive literature review of phenology in seasonally dry tropical forests (SDTFs) in the Neotropics using Web of Science and Scopus databases up to December 2024. We aimed to synthesize methodological advances, environmental drivers, and functional traits related to phenology, providing insights about mechanisms underlying phenological shifts in Neotropical SDTFs. We documented a significant expansion in phenology research in Neotropical SDTFs over the last decade, with a concentration of studies in South America, particularly Brazil, followed by Central America. Despite these advances, long-term studies remain scarce, limiting our ability to detect interannual variability and long-term trends. The integration of high-resolution monitoring tools, such as phenocameras, has enhanced data collection across spatial and temporal scales, improving our ability to track phenological changes. Furthermore, plant functional traits such as wood density and leaf characteristics associated with deciduousness are key for understanding drought adaptation strategies in dry forests. Given the strong dependence of SDTFs phenological patterns on climate variability, predictive models that incorporate phenological observations, plant functional traits, and climate data will be further crucial for refining our understanding of adaptive mechanisms and improving forecasts of vegetation responses in dry forests. By highlighting research gaps and future directions, this synthesis provides a foundation to improve conservation efforts and climate resilience assessments in seasonally dry tropical ecosystems.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "CarbonFiberStone: a new carbon negative and cost-effective alternative to conventional building materials by fusing three different CDR technologies",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/addfed",
-      "pubDate": "",
-      "description": "Unprecedented urbanization has led to a sharp increase in the world’s building stock, increasing material consumption and environmental impact. This study introduces CarbonFiberStone (CFS), a novel lightweight construction material, and assesses its carbon footprint in a specific building application. CFS is defined as a millimeter-thin bio-based carbon fiber fabric bonded to compression-resistant stone slabs using an adhesive. CFS is extremely resistant to compression and tension. The resulting stone powder from the stone cutting process is used for enhanced rock weathering. The wall element presented here incorporates a layer of biochar for insulation purposes. Using life cycle assessment and techno-economic analysis, we compare five CFS-based building blocks with two conventional reinforced concrete blocks in single and multi-story residential buildings. The results show that CFS walls achieve a net carbon negative balance of −56.86–65.32 kg CO2eq m−2, sequestering 0.10–0.15 t CO2 per square meter of living space at similar costs to conventional construction with reinforced concrete. These results show that CFS has the potential to become a viable, sustainable alternative to conventional building materials and thus has the potential to make a significant contribution to the 1.5 °C target of the Paris Agreement.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Corrigendum: Urban precipitation dynamics risk assessment across Indian smart cities (2025 Environ. Res. Lett. 20 074059)",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adec06",
-      "pubDate": "",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
