@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-07-23T09:33:09.241680",
+  "fetched_at": "2025-07-23T10:30:19.549957",
   "items": [
+    {
+      "title": "Snowless winter? Arctic field team finds flowers and meltwater instead",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250722035658.htm",
+      "pubDate": "Wed, 23 Jul 2025 04:29:20 EDT",
+      "description": "Scientists in Svalbard were shocked to find rain and greenery instead of snow during Arctic winter fieldwork. The event highlights not just warming—but a full seasonal shift with major consequences for ecosystems, climate feedback, and research feasibility.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "What radar found beneath Antarctica could slow ice melt and rising seas",
       "link": "https://www.sciencedaily.com/releases/2025/07/250721223835.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250627021853.htm",
       "pubDate": "Fri, 27 Jun 2025 10:46:26 EDT",
       "description": "At current emission rates, we re just over three years away from blowing through the remaining carbon budget to limit warming to 1.5 C. This new international study paints a stark picture: the pace of climate change is accelerating, seas are rising faster than ever, and the Earth is absorbing more heat with devastating consequences from hotter oceans to intensified weather extremes.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Tiny creatures, massive impact: How zooplankton store 65 million tonnes of carbon annually",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250627021851.htm",
-      "pubDate": "Fri, 27 Jun 2025 08:51:43 EDT",
-      "description": "Zooplankton like copepods aren’t just fish food—they’re carbon-hauling powerhouses. By diving deep into the ocean each winter, they’re secretly stashing 65 million tonnes of carbon far below the surface, helping fight climate change in a way scientists are only just starting to understand.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
