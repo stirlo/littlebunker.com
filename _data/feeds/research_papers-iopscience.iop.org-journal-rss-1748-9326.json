@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "description": "",
+  "title": "Environmental Research Letters - latest papers",
+  "link": "http://iopscience.iop.org/journal/rss/1748-9326",
+  "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-23T02:21:58.779889",
-  "items": []
+  "fetched_at": "2025-07-23T04:04:30.752341",
+  "items": [
+    {
+      "title": "A framework for city-specific air quality health index: a comparative assessment of Delhi and Varanasi, India",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/aded26",
+      "pubDate": "",
+      "description": "Air quality index (AQI) is a crucial tool for communicating the health risks of air quality to the public. However, the current AQI in India does not consider the health impacts of exposure to air pollutants, necessitating the development of air quality health index (AQHI). Here, we proposed a framework for developing city-specific AQHI that better reflects local air quality and associated health risks using air pollution and health data from two polluted and densely populated cities in north India—Delhi and Varanasi (Delhi: 2013–2017; Varanasi: 2009–2016). We also constructed a pooled AQHI by combining data from both cities. Using concentrations of ambient fine particulate matter (PM2.5), nitrogen dioxide, and ozone, we applied generalized additive models with a quasi-Poisson link, using daily mortality counts as the outcome, excluding suicide and accidental deaths. A 10 μg m−3 increase in PM2.5 was associated with mortality increases of 0.17% (95% CI: 0.01–0.34) in Varanasi, 0.20% (95% CI: 0.1–0.29) in Delhi, and 0.16% (95% CI: 0.08–0.24) in the pooled model. The city-specific AQHI classified 21.8% of days in Delhi as ‘Satisfactory’ versus 18.2% by the pooled index, while 24.2% of days were ‘Poor’ compared to 30.1% under the pooled index. In Varanasi, 6.8% of days were ‘Good’ under the city-specific AQHI, compared to 9.3% by the pooled index, with 15.7% of days classified as ‘Poor’ versus 19.3% by the pooled index. Our results suggest that a single-pooled AQHI may misrepresent local air quality and associated health risks. Since AQHI values are derived from excess mortality risk estimates, a city-specific AQHI ensures a more accurate reflection of local pollution-related health impacts, supporting targeted public health interventions. We recommend accessibility of health data to enable developing AQHI for non-attainment cities in India and use it to track progress towards cleaner air.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A new dark ice albedo threshold and its applications",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeea9",
+      "pubDate": "",
+      "description": "Dark ice (low albedo) areas are hot spots for investigating biological and abiotic darkening processes and their impact on the melt rate of the Greenland Ice Sheet. This study introduces a quantitative method for determining albedo thresholds to delineate areas of dark ice, which detects abrupt changes in the mean and linear trends in time series of weather station albedo measurements in documented dark ice areas. Four different stages of albedo change during the melt season are easily identified within data derived from program for monitoring of the Greenland Ice Sheet and the Greenland climate network automatic weather station located in dark ice areas. The third stage is defined as the dark ice period, during which the albedo decline rate is lowest, gradually converging to the minimum annual value. The derived broadband albedo thresholds are α < 0.451 and 0.431 for use with discrete data mapping and linear trend analysis, respectively. We recommend that the latter threshold is used because it can better indicate albedo trend changes. The thresholds were applied to harmonized Landsat and Sentinel 2 ice albedo and MODerate resolution Imaging Spectroradiometer MOD10A1 albedo products to analyze dark ice variations at local (30 m) and regional (500 m) scales on the ice sheet. Our findings reveal notable inter-annual and daily variations in dark ice areas, in line with previous studies. Dark ice occupies, on average, 60% of the bare ice area, and the transition from bare to dark ice averaged 5–6 d across the ice sheet. The impacts of the different thresholds applied are relatively minor.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Seasonal contrast in dryland vegetation response to meteorological drought across South Asia",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeeac",
+      "pubDate": "",
+      "description": "Understanding vegetation sensitivity to drought in South Asia is essential due to the region’s exposure to frequent, seasonally varying drought driven by complex hydroclimatic factors. This study addresses a significant knowledge gap by investigating seasonal vegetation-drought sensitivity using multiple vegetation indicators and the influence of hydroclimatic factors. Our results show vegetation-drought sensitivity peaks in spring, rising from 0.2 in summer to 0.6, with drought-prone areas expanding from 40% to 60%. Along with drought-vegetation sensitivities, the other hydroclimatic factor’s role played a wide range of dependency on the phenological stages of vegetation. For instance, a statistically significant positive correlation between increasing soil moisture–temperature coupling and decreased vegetation growth was detected from spring to summer in Pakistan and India, with an average sensitivity of 0.2–0.6 in all seasons. Vapor pressure deficit dominates vegetation responses, especially in summer and autumn, with central and northwestern croplands showing higher sensitivity, while humid northeastern parts remain resilient. Elevated aCO2 amplifies drought effects in the spring, highlighting the vital role of seasonal water balance and hydroclimatic dynamics. Policy-makers should integrate these insights into regional drought management and climate adaptation strategies to support sustainable agricultural practices and ecosystem conservation.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "What discrepancies between farmer perceptions and observational data teach us about smallholder decision making",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff3",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Climate extremes, food price spikes, and their wider societal risks",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45f",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Refined climatologies of future precipitation over High Mountain Asia using probabilistic ensemble learning",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade4dd",
+      "pubDate": "",
+      "description": "High Mountain Asia (HMA) holds the highest concentration of frozen water outside the polar regions, serving as a crucial water source for more than 1.9 billion people. Precipitation represents the largest source of uncertainty for future hydrological modelling in this area. In this study, we propose a probabilistic machine learning framework to combine monthly precipitation from 13 regional climate models developed under the Coordinated Regional Downscaling Experiment (CORDEX) over HMA via a mixture of experts (MoE). This approach accounts for seasonal and spatial biases within the models, enabling the prediction of more faithful precipitation distributions. The MoE is trained and validated against gridded historical precipitation data, yielding 32% improvement over an equally-weighted average and 254% improvement over choosing any single ensemble member. This approach is then used to generate precipitation projections for the near future (2036–2065) and far future (2066–2095) under RCP4.5 and RCP8.5 scenarios. Compared to previous estimates, the MoE projects wetter summers but drier winters over the western Himalayas and Karakoram and wetter winters over the Tibetan Plateau, Hengduan Shan, and South East Tibet.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Evaluating restoration success: long-term impact of sustainable land management practices in Ethiopia using synthetic control with matrix completion method",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adea89",
+      "pubDate": "",
+      "description": "Efforts to combat land degradation globally have led to the widespread promotion of sustainable land management practices (SLMPs) aimed at reducing surface runoff and erosion. Despite their extensive implementation, long-term evaluations of these practices are limited, especially in data-scarce regions. In our study, we assess the long-term impact of large-scale SLMPs in Ethiopia using remotely sensed data from the past 24 years on 122 watersheds. Using a synthetic control method that does not require an explicit control group, we find statistically significant positive effects of SLMPs in both wet and dry seasons. These benefits persist at least eight years beyond the intervention period. Our findings highlight the need for multi-season impact assessments. Focusing only on the wet season may overlook key outcomes in dryland regions, underestimating the effectiveness of large-scale, multi-year projects. We further find that effects were most positive in drought-prone agricultural highlands, and that some administrative zones appear more effective than others at implementation. Efficient and affordable monitoring of sustainable agricultural water and land management and watershed conservation is crucial for understanding which interventions are effective and can provide opportunities for alternative financing mechanisms.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "The hidden role of market-making in the rise of farmed salmon",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adec05",
+      "pubDate": "",
+      "description": "Aquaculture is expected to play an important role in the transition towards healthy and sustainable diets, requiring dietary changes towards products with lower environmental footprints in ways that address dietary needs. Farmed Atlantic salmon accounts for 2% of global aquaculture, with productivity growth factors, such as research investment, credited with creating a high-value, globalized food commodity. However, its contribution to sustainability and nutrition goals remains unclear, and factors underlying consumer demand, such as marketing work, have been overlooked. We inspect the rise of farmed salmon in the UK, using key stakeholder interviews to understand the role of various actors (e.g. industry, retailers) in ‘making’ farmed salmon markets. Interviewees identified retailer strategies, such as labelling, and consumer-facing promotion efforts, such as health benefits, as key demand-growth factors underlying farmed salmon sales. Using data on UK seafood markets, we assess the views of interviewees, finding that farmed salmon is the most consumed aquatic food; however, it is less popular than other animal-source foods and is primarily consumed by affluent households. Our analyses discuss how market-making efforts by industry and retail actors have shaped consumer demand by promoting salmon as an accessible, nutritious and sustainable product. Accreditation and labelling have helped to develop perceptions of health and sustainability, despite farmed salmon being comparable in nutrient profile to other aquatic foods and having long-standing environmental impacts. Market-making insights could be used to enhance demand for other aquatic foods in ways that target dietary gaps by supplying affordable and sustainable products, such as mussels.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Evaluating critical and essential service access vulnerabilities",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adee30",
+      "pubDate": "",
+      "description": "Access to critical and essential services (CES) is vital for community resilience, particularly in coastal areas facing natural hazards. We developed a novel transportation network analysis framework to assess access fragility (in terms of losing access), criticality (in terms of the importance of CES facilities), and equity of CES access across five Louisiana communities. We used drive time to the closest facility, marginal drive time to the second closest facility, and the number of alternatives within critical time thresholds as three measures for fragility analysis. Our findings show that fragility is not limited to rural areas—urban communities experiencing in-migration also face risks due to limited alternatives. Removing one facility at a time revealed that it can cause up to a 500% increase in drive times to dialysis centers and hospitals for residents of Morgan City and Stephensville, while, on average, removing one random high school results in a 6%–30% increase in drive time across communities. We also introduced a criticality ranking method using total population, percentage of the population without an alternative, and marginal drive time for populations without alternatives, and calculated rank stability across different weightings of these three measures to identify facilities that are consistently most critical. Cameron Parish had the highest concentration of critical facilities, though facilities in Slidell and Mandeville also ranked highly, highlighting potential capacity concerns for two communities with growing populations. Finally, our equity analysis, performed using Monte Carlo simulations, shows that Native populations are disproportionately affected by limited access to services (∼29% are identified as outliers for dialysis and hospital access), while White populations experience the lowest average drive times to most CES facilities.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Integrating approaches and methodologies into phenological research in Neotropical dry forests: a systematic review",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade9e2",
+      "pubDate": "",
+      "description": "Phenological shifts are increasingly recognized as tangible indicators of plant responses to climate change. Tropical dry forests (TDFs), in particular, are key ecosystems for unraveling the mechanisms driving phenological dynamics, given their crucial role in biodiversity conservation and carbon balance. Although phenological research has advanced rapidly in recent decades in tandem with new methodological innovations, TDFs remain underrepresented. Consequently, the extent to which recent approaches have improved our understanding of leaf changes is still poorly understood. Here, we conducted a comprehensive literature review of phenology in seasonally dry tropical forests (SDTFs) in the Neotropics using Web of Science and Scopus databases up to December 2024. We aimed to synthesize methodological advances, environmental drivers, and functional traits related to phenology, providing insights about mechanisms underlying phenological shifts in Neotropical SDTFs. We documented a significant expansion in phenology research in Neotropical SDTFs over the last decade, with a concentration of studies in South America, particularly Brazil, followed by Central America. Despite these advances, long-term studies remain scarce, limiting our ability to detect interannual variability and long-term trends. The integration of high-resolution monitoring tools, such as phenocameras, has enhanced data collection across spatial and temporal scales, improving our ability to track phenological changes. Furthermore, plant functional traits such as wood density and leaf characteristics associated with deciduousness are key for understanding drought adaptation strategies in dry forests. Given the strong dependence of SDTFs phenological patterns on climate variability, predictive models that incorporate phenological observations, plant functional traits, and climate data will be further crucial for refining our understanding of adaptive mechanisms and improving forecasts of vegetation responses in dry forests. By highlighting research gaps and future directions, this synthesis provides a foundation to improve conservation efforts and climate resilience assessments in seasonally dry tropical ecosystems.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    }
+  ]
 }
