@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-07-24T04:02:35.316906",
+  "fetched_at": "2025-07-24T05:31:22.751866",
   "items": [
+    {
+      "title": "Concrete that lasts centuries and captures carbon? AI just made it possible",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250723045707.htm",
+      "pubDate": "Wed, 23 Jul 2025 23:22:15 EDT",
+      "description": "Imagine concrete that not only survives wildfires and extreme weather, but heals itself and absorbs carbon from the air. Scientists at USC have created an AI model called Allegro-FM that simulates billions of atoms at once, helping design futuristic materials like carbon-neutral concrete. This tech could transform cities by reducing emissions, extending building lifespans, and mimicking the ancient durability of Roman concrete—all thanks to a massive leap in AI-driven atomic modeling.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Snowless winter? Arctic field team finds flowers and meltwater instead",
       "link": "https://www.sciencedaily.com/releases/2025/07/250722035658.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250627095024.htm",
       "pubDate": "Fri, 27 Jun 2025 10:55:32 EDT",
       "description": "For over half a billion years, Earth’s magnetic field has risen and fallen in sync with oxygen levels in the atmosphere, and scientists are finally uncovering why. A NASA-led study reveals a striking link between deep-Earth processes and life at the surface, suggesting that the planet’s churning molten interior could be subtly shaping the conditions for life. By comparing ancient magnetic records with atmospheric data, researchers found that these two seemingly unrelated phenomena have danced together since the Cambrian explosion, when complex life first bloomed. This tantalizing connection hints at a single, hidden mechanism — perhaps even continental drift — orchestrating both magnetic strength and the air we breathe.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Only 3 years left: The carbon budget for 1. 5 °C is almost gone",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250627021853.htm",
-      "pubDate": "Fri, 27 Jun 2025 10:46:26 EDT",
-      "description": "At current emission rates, we re just over three years away from blowing through the remaining carbon budget to limit warming to 1.5 C. This new international study paints a stark picture: the pace of climate change is accelerating, seas are rising faster than ever, and the Earth is absorbing more heat with devastating consequences from hotter oceans to intensified weather extremes.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
