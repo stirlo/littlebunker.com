@@ -4,13 +4,85 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-25T05:33:05.209428",
+  "fetched_at": "2025-07-25T06:40:35.971381",
   "items": [
+    {
+      "title": "Long-term analysis of carbon sequestration in China’s tea plantations and its mitigation potential for carbon emissions during 1978–2020",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adec04",
+      "pubDate": "",
+      "description": "The widespread tea plantations in China provide significant economic value and sequester atmospheric CO2. However, the removal contribution of carbon sequestration to carbon emissions (CEs) in tea plantations remains unclear. Using the data of tea plantation areas and tea production of 16 provinces during 1978–2020, this study quantified the amount of carbon sequestration by vegetation and soil, and CE from fertilization, pesticide, diesel, energy and soil in tea plantations in China, and compared their removal contributions. The results showed that the continuous changes of carbon sequestration and CE in tea plantation, the amount of carbon sequestration in tea plantation increased from 1.73 –18.83 Tg C·yr−1 from 1978 to 2020, with the average carbon sequestration capacity of 6.63 Mg C·ha−1. The annual CE increased continuously from 3.52–10.54 Tg C·yr−1, with an average CE of 5.10 Mg C·ha−1. Therefore, the annual residual quantities after carbon removal increased from −1.99–8.29 Tg C·yr−1 between 1978 and 2020, and the annual residual proportions increased from −115.12% in 1978 to 44.03% in 2020. The carbon removal contribution of tea plantations in China was drastically promoted and varied significantly among the 16 provinces, the ecological management practices of tea plantations in Shandong and Guizhou provinces should be improved to promote their carbon removal contributions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Repression over responsibility: sanctioning of environmental activism",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adef6b",
       "pubDate": "",
       "description": "Conservation offers evidence-based insights into the state of ecosystems and biodiversity, while activism amplifies conservation goals through public and political engagement. Despite the importance of this relationship, a troubling pattern has emerged: environmental activism is increasingly met with disproportionate criminalization and punitive responses by many governments worldwide. Such repression not only threatens individual activists but also undermines the broader conservation movement by discouraging public participation and stifling dissent, ultimately jeopardizing our collective ability to address the planet’s most pressing challenges. This short perspective examines the growing trend of targeting environmental activists and discusses the potential consequences this may have for conservationists and anyone else concerned about the profound, immediate threats of climate change and environmental exploitation.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "One-step estimation of non-seasonal terrestrial water storage variation in Southeastern China",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff4",
+      "pubDate": "",
+      "description": "Accurate estimation of non-seasonal signals (NSSs) of Terrestrial Water Storage Anomaly (TWSA) from Gravity Recovery and Climate Experiment monthly gravity field models is essential for identifying and understanding extreme hydrological phenomena. However, significant north-south striped noise in the models necessitates spectral filtering before estimating NSSs, resulting in signal attenuation and leakage. In this paper, we propose a one-step approach (OSA) that iteratively filters noise and estimates NSSs alongside trends and seasonal signals starting from unfiltered regional TWSA signals, where the covariance matrices of NSSs are populated using distance-based exponential functions. The non-seasonal TWSA signals in Southeastern China, estimated by OSA from April 2002 to December 2024, effectively preserves signal integrity with reduced spatial leakage and enhanced signal strength, aligning closely with those of the RL06 mascon products from CSR (Center for Space Research) and JPL (Jet Propulsion Laboratory), achieving Nash-Sutcliffe Efficiency (NSE) of 0.91 and 0.90. Moreover, we introduce a Standardized NSS (SNSS) index from OSA, which enhances the consistency with the standardized streamflow index, identifying the extreme wetness in pearl river basin (PRB) and Southeastern River Basin (SERB) from August 2015 to June 2016, and the extreme drought in Middle and Lower Yangtze River Basin (MLYRB) from July 2022 to April 2023. SNSS also exhibits enhanced correlations with nine key climate indices, especially for ENSO (El Niño-Southern Oscillation) and TIOS (Tropical Indian Ocean Sea Surface Temperature Anomaly), with cross-correlations of 0.99 and 0.96 for PRB, 0.97 and 0.94 for SERB during extreme wetness, and 0.96 and 0.90 for MLYRB during extreme drought.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Advancing new metrics for wildfire smoke exposure: case study in Alaska to bridge public health, climate adaptation, and fire management",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff6",
+      "pubDate": "",
+      "description": "Wildfire activity is increasing globally due to climate change, with implications for air quality and public health. Fine particulate matter (PM2.5) from wildfire smoke contributes to cardiorespiratory morbidity and mortality, adverse birth outcomes, mental health stressors, and disruptions to food security and traditional livelihoods. However, quantifying health risks remains difficult due to sparse monitoring, challenges in isolating wildfire-specific pollution, and limited long-term exposure assessments. We developed a historical air quality dataset for Alaska using a hybrid approach that integrates GEOS-Chem atmospheric modeling with ground-based data to estimate daily wildfire-attributable PM2.5 at a 0.625° × 0.5° resolution from 2003 to 2020. We aggregated these estimates by census tract and derived metrics to quantify long-term wildfire smoke exposure, then combined these estimates with social vulnerability data to identify populations disproportionately affected. Alaskans experienced an average of 3.5 million person-days of moderate and >800 000 person-days of dense smoke exposure annually. In years when over 2 million acres burned, 86%–98% of census tracts recorded at least 1 d of moderate smoke, and up to 73% experienced dense smoke. Northern Interior Alaska had over 300 cumulative days of poor air quality (∼10% of summer days) over the 18 year period, with smoke waves lasting as long as 43 d. Tracts identified as having high smoke exposure and high smoke vulnerability were generally in rural Interior Alaska; however, urban tracts in Interior and Southcentral were also identified. High-exposure census tracts had statistically greater proportions of housing cost-burdened residents and women of childbearing age. This study highlights the need to move beyond traditional fire metrics and adopt measures that better capture the full scope of human exposure. Our approach provides a framework for assessing health risks and integrating public health into climate adaptation and fire management especially in wildfire-prone regions where observations are sparse.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Evaluating net-zero targets’ impact on corporate GHG emissions",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff8",
+      "pubDate": "",
+      "description": "This paper investigates the effects that science-based targets (SBTs) have on corporate greenhouse gas (GHG) emissions. Using a difference-in-differences methodology, we assess whether companies that commit to a net zero goal show a decrease in GHG emissions compared to similar companies that declare such goals later. Our results provide limited evidence that organizations with SBT reduce emissions, particularly for Scope 1 and Scope 2 emissions, as the findings lack strong statistical significance. We also examine whether the pace of emission reductions increases as companies approach their target year. Our results indicate that efforts to reduce emissions increase before the announcement, but may stabilize thereafter. These results highlight the challenges of accurately assessing the tangible impact of voluntary corporate commitments on climate goals and underscore the need for comprehensive and clear reporting to prevent misleading claims and promote confidence in climate finance.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Typology of US metropolitan areas illuminates per-capita mobile greenhouse gas emissions impacts and informs mitigation strategies",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf07b",
+      "pubDate": "",
+      "description": "We present a novel typology of 349 metropolitan statistical areas in the United States and demonstrate its implication for understanding and mitigating per-capita mobile greenhouse gas emissions (PMGEs). Via factor analysis of 55 indicators across seven categories, we identified eight key drivers of mobile emissions. Based on these, we clustered the metro areas via Gaussian mixture modeling to obtain seven metro types. We used an extreme gradient boosting regression model to predict PMGEs based on all the indicators, excluding population. Using SHapley Additive exPlanations values, we identified the most relevant indicators. The model reveals that density and transit mitigate PMGEs, while car use and climate exacerbate it. The typology provides further insights into how these effects vary across network, mode share and development patterns. Ultimately, the typology can serve as a framework to identify relevant indicators and thereby guide the selection of strategies for effective, type-specific emissions mitigation.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Life cycle assessment of polylactic acid municipal waste disposal in Belize",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf129",
+      "pubDate": "",
+      "description": "In 2015, the Belize Solid Waste Management Authority launched the Solid Waste Management Project II to enhance solid waste management practices with a particular focus on biopolymers such as polylactic acid (PLA). This study aims to quantify the environmental impact of four potential waste management strategies for PLA in Belize: landfill, landfill expansion, cogeneration, and anaerobic digestion. A life cycle assessment was conducted with a functional unit of 1 kg of PLA at the end-of-life for each waste management scenario. Data from Ecoinvent V3.5 and process parameters from SimaPro V9.0 were collected and modeled in Microsoft Excel. Sensitivity and uncertainty analyses were assessed. Environmental impact results showed that operational requirements contributed the most to the impacts for anaerobic digestion, while the landfill scenarios were dominated by transportation requirements, and the cogeneration scenario was dominated by material requirements. The anaerobic digestion scenario had the lowest net environmental impacts across half of the assessed categories, primarily due to energy generation from biogas production. Environmental impacts can be reduced by diverting PLA waste from landfills to anaerobic digestion and cogeneration facilities. Additionally, uncertainty was the lowest in the anaerobic digestion scenario for most of the assessed environmental impact categories. Sensitivity analysis revealed that environmental impact results were highly influenced by key model assumptions, such as those for PLA degradation, transportation distances, and technology-specific parameters, indicating that further data collection is necessary to enhance the accuracy of these results. Integrated solid waste management scenarios that incorporated combinations of anaerobic digestion and cogeneration were found to have lower net environmental impacts compared to the business-as-usual scenario. This study underscores the need for further research to evaluate the feasibility of integrating these waste management alternatives into Belize’s waste management system.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Ammonia transfers through interprovincial agricultural trade and their health burden implications in China",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf12a",
+      "pubDate": "",
+      "description": "The spatial mismatch between agricultural resources and market demand across China creates significant challenges for food security and environmental management. Although interprovincial agricultural trade can alleviate regional food supply pressures, substantial uncertainties persist regarding the associated ammonia (NH3) emission transfers and their impacts on air quality and human health. Here we fill this gap using a linear programming model to simulate interprovincial trade flows of 26 individual agricultural products, combined with high-resolution NH3 emission inventories and air quality simulation. We found that interprovincial trade-related NH3 emissions reached 2.94 Tg in 2019, accounting for 28.1% of total agricultural NH3 emission, with predominant transfers from eastern and southern China to northern and central China. These trade-related NH3 emissions contributed 2.6 μg m−3 to annual PM2.5 concentrations and caused 252 016 associated premature deaths. Mortality response to trade-related NH3 emissions exhibited spatial heterogeneity across China, driven by regional variations in population density and PM2.5 sensitivity to NH3 emissions. Agricultural trade generated disproportionate health impacts, with Central China, Southwest China, North China, and Northeast China collectively receiving a net inflow of 28 776 premature deaths. Our results demonstrate that a cross-provincial ecological compensation mechanism needs to be established to balance agricultural trade’s impact on food security, air quality, and human health.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Asymmetric diurnal warming worsens forest pest hazards in China: evidence from a long-term dataset",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf12e",
+      "pubDate": "",
+      "description": "Increasing forest pest (FP) hazards under climate change could eventually lead to tree mortality and reduce carbon sequestration, threatening forest health and sustainability of its ecosystem services. However, the impact of climate warming on national-scale FP occurrence remains a great challenge. This study aims to assess the spatiotemporal dynamics of FP occurrence and evaluate the contribution of historical climate change across China. Based on FP records from 1998 to 2019, we conducted temporal trend analysis and examined shifts in spatial centroids. Furthermore, we employed a hierarchical Bayesian model with Markov chain Monte Carlo method to quantify the effects of climate-related drivers. Our results show that while severe pest outbreaks have been largely controlled, the area affected by mild pest hazards has been gradually increasing. Additionally, a significant northward shift in the center of pest occurrences was observed (approximately 0.65° latitude per decade). Our hierarchical Bayesian model estimates that historical climate change contributed 48.0 ± 18.7% to pest occurrences, with temperature-related factors accounting for the majority. Notably, nighttime temperature variation had the largest positive contribution (27.4 ± 17.4%), whereas changes in daytime temperature had a spatially varied influence. Our findings indicate that climate warming, particularly nighttime warming, has driven the northward shift in FP occurrences, posing an increasingly severe threat to forest health in northern regions. These findings underscore the urgent need to address the risks posed by climate-induced FP hazards.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "More record events in streamflow over Pakistan revealed by observation-constrained projections",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf130",
+      "pubDate": "",
+      "description": "Hydrologic projections of current regional climate models are uncertain over mountainous regions because of the poor representation of complex terrains. Here, we use multiple AI models to generate observation-constrained projections of the occurrence probability of record events (REs) of annual maximum and minimum daily streamflow (Qmax and Qmin) in Pakistan. First, we trained and tested the AI models, using the occurrence probability of REs from simulated (input) data from five regional climate models and observed (output) river discharge data from 1962–2022. Then, we use the trained AI models to project the observation-constrained occurrence probability of REs until 2099 and conduct principal component analysis for the robust selection of AI model ensembles. The observation-constrained projections detect more REs in Qmax and Qmin in the late 21st century than expected under the stationary system does, highlighting intensifying hydroclimatic extremes. The upper Indus River shows that the return period of REs in Qmax and Qmin is approximately 15 years. The Chenab and Kabul Rivers (Jehlum River) are prone to more REs in Qmax (Qmin), with a return period of approximately 11 years. Uncertainties in the RE occurrence probability projections from regional climate models can be attributed to the heterogeneity in hydroclimatic and physiographic characteristics across the study basins. This study suggests the nonstationarity of four major river basins in Pakistan, where water resources management should be updated with basin-specific strategic plans.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -59,30 +131,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff3",
       "pubDate": "",
       "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Climate extremes, food price spikes, and their wider societal risks",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade45f",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Refined climatologies of future precipitation over High Mountain Asia using probabilistic ensemble learning",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade4dd",
-      "pubDate": "",
-      "description": "High Mountain Asia (HMA) holds the highest concentration of frozen water outside the polar regions, serving as a crucial water source for more than 1.9 billion people. Precipitation represents the largest source of uncertainty for future hydrological modelling in this area. In this study, we propose a probabilistic machine learning framework to combine monthly precipitation from 13 regional climate models developed under the Coordinated Regional Downscaling Experiment (CORDEX) over HMA via a mixture of experts (MoE). This approach accounts for seasonal and spatial biases within the models, enabling the prediction of more faithful precipitation distributions. The MoE is trained and validated against gridded historical precipitation data, yielding 32% improvement over an equally-weighted average and 254% improvement over choosing any single ensemble member. This approach is then used to generate precipitation projections for the near future (2036–2065) and far future (2066–2095) under RCP4.5 and RCP8.5 scenarios. Compared to previous estimates, the MoE projects wetter summers but drier winters over the western Himalayas and Karakoram and wetter winters over the Tibetan Plateau, Hengduan Shan, and South East Tibet.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Evaluating restoration success: long-term impact of sustainable land management practices in Ethiopia using synthetic control with matrix completion method",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adea89",
-      "pubDate": "",
-      "description": "Efforts to combat land degradation globally have led to the widespread promotion of sustainable land management practices (SLMPs) aimed at reducing surface runoff and erosion. Despite their extensive implementation, long-term evaluations of these practices are limited, especially in data-scarce regions. In our study, we assess the long-term impact of large-scale SLMPs in Ethiopia using remotely sensed data from the past 24 years on 122 watersheds. Using a synthetic control method that does not require an explicit control group, we find statistically significant positive effects of SLMPs in both wet and dry seasons. These benefits persist at least eight years beyond the intervention period. Our findings highlight the need for multi-season impact assessments. Focusing only on the wet season may overlook key outcomes in dryland regions, underestimating the effectiveness of large-scale, multi-year projects. We further find that effects were most positive in drought-prone agricultural highlands, and that some administrative zones appear more effective than others at implementation. Efficient and affordable monitoring of sustainable agricultural water and land management and watershed conservation is crucial for understanding which interventions are effective and can provide opportunities for alternative financing mechanisms.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
