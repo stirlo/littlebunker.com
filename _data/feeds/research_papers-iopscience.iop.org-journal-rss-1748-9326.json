@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-25T10:31:16.555179",
+  "fetched_at": "2025-07-25T11:23:39.156242",
   "items": [
     {
       "title": "Thermal stress in degraded forests in the Brazilian Amazon Arc of Deforestation",
@@ -35,6 +35,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff4",
       "pubDate": "",
       "description": "Accurate estimation of non-seasonal signals (NSSs) of Terrestrial Water Storage Anomaly (TWSA) from Gravity Recovery and Climate Experiment monthly gravity field models is essential for identifying and understanding extreme hydrological phenomena. However, significant north-south striped noise in the models necessitates spectral filtering before estimating NSSs, resulting in signal attenuation and leakage. In this paper, we propose a one-step approach (OSA) that iteratively filters noise and estimates NSSs alongside trends and seasonal signals starting from unfiltered regional TWSA signals, where the covariance matrices of NSSs are populated using distance-based exponential functions. The non-seasonal TWSA signals in Southeastern China, estimated by OSA from April 2002 to December 2024, effectively preserves signal integrity with reduced spatial leakage and enhanced signal strength, aligning closely with those of the RL06 mascon products from CSR (Center for Space Research) and JPL (Jet Propulsion Laboratory), achieving Nash-Sutcliffe Efficiency (NSE) of 0.91 and 0.90. Moreover, we introduce a Standardized NSS (SNSS) index from OSA, which enhances the consistency with the standardized streamflow index, identifying the extreme wetness in pearl river basin (PRB) and Southeastern River Basin (SERB) from August 2015 to June 2016, and the extreme drought in Middle and Lower Yangtze River Basin (MLYRB) from July 2022 to April 2023. SNSS also exhibits enhanced correlations with nine key climate indices, especially for ENSO (El Niño-Southern Oscillation) and TIOS (Tropical Indian Ocean Sea Surface Temperature Anomaly), with cross-correlations of 0.99 and 0.96 for PRB, 0.97 and 0.94 for SERB during extreme wetness, and 0.96 and 0.90 for MLYRB during extreme drought.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "The impact of livestock farming on global fire regimes",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff5",
+      "pubDate": "",
+      "description": "Fire is the largest source of global vegetation disturbance and livestock farming is amongst humanity’s most pervasive impacts on the biosphere. However, no quantification has been made of livestock farming’s global impact on fire regimes. Here, we quantify the impact of livestock farming on global burned area (BA), through a combination of a new parameterisation of grassland grazing intensity in the Wildfire Human Agency Model and generalised linear models of fire’s many additional biophysical dimensions. Results demonstrate that livestock farming has contributed to the decline in global BA, but perhaps more importantly, also has highly spatially heterogenous impacts. Specifically, results suggest that the contrasting distributions of livestock grazing intensity and pastoral burning likely contribute to the observed BA anomaly in the savanna grasslands of sub-Saharan Africa. Our results serve to highlight the major potential role of ‘prescribed grazing’ as a climate change adaptation measure and, more broadly, reiterate the importance of interactions between human and biophysical processes in driving the distribution of fire on Earth.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
