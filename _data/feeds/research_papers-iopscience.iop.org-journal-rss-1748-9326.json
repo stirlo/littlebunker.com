@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-25T23:26:15.300649",
+  "fetched_at": "2025-07-26T02:08:50.155907",
   "items": [
     {
       "title": "Thermal stress in degraded forests in the Brazilian Amazon Arc of Deforestation",
@@ -123,38 +123,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adef6a",
       "pubDate": "",
       "description": "Despite the growing evidence on the associations between greenspace and violent crime, there is a lack of research on the urban greenspace’s influence on the associations between ambient temperature and violent crime. This observational study examined the risk differences by community’s greenspace level using various greenspace indicators. Our time-series analysis modeled the associations between daily mean temperature (°C) over two lag days (lag0–1) and daily counts of violent crime during summer (May–September) in each ZIP code in Chicago, IL (2001–2023), adjusting for confounding factors. Our random-effects meta analysis analyzed estimated the pooled relative risk (RR) at the 80th summer temperature percentile compared to the reference temperature (10th percentile) across the ZIP codes. Our meta-regressions analyzed how the ZIP code-specific relative risks (RRs) differ by the number of parks, sum of park areas, percentage of vegetated area, percentage of recreational vegetated area, vegetation density (30 m), percent tree coverage, and percent street-level tree coverage aggregated at the ZIP code level. A total of 1075 959 counts of violent crime were included in our analysis. We found 8% (95% CI: 7%–10%) higher risk of violent crime incidents when the daily mean temperature was at the 80th percentile (25.9 °C) compared to the reference temperature (8.6 °C). The pooled RR was significantly lower in ZIP codes with the highest vegetation density (RR = 1.085 [95% CI: 1.040–1.131]) compared to those with the lowest vegetated density (RR = 1.124 [1.088–1.162]). The RR was significantly lower in ZIP codes with the highest percentage of tree coverage (RR = 1.088 [1.046–1.132]) compared to the ZIP codes with the lowest percentage of tree coverage (RR = 1.123 [1.086–1.162]). The observed results indicate that greenspace can be beneficial in reducing the associations between heat and violent crime. The results should be considered in urban greenery planning and policies to reduce violent crime.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A framework for city-specific air quality health index: a comparative assessment of Delhi and Varanasi, India",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/aded26",
-      "pubDate": "",
-      "description": "Air quality index (AQI) is a crucial tool for communicating the health risks of air quality to the public. However, the current AQI in India does not consider the health impacts of exposure to air pollutants, necessitating the development of air quality health index (AQHI). Here, we proposed a framework for developing city-specific AQHI that better reflects local air quality and associated health risks using air pollution and health data from two polluted and densely populated cities in north India—Delhi and Varanasi (Delhi: 2013–2017; Varanasi: 2009–2016). We also constructed a pooled AQHI by combining data from both cities. Using concentrations of ambient fine particulate matter (PM2.5), nitrogen dioxide, and ozone, we applied generalized additive models with a quasi-Poisson link, using daily mortality counts as the outcome, excluding suicide and accidental deaths. A 10 μg m−3 increase in PM2.5 was associated with mortality increases of 0.17% (95% CI: 0.01–0.34) in Varanasi, 0.20% (95% CI: 0.1–0.29) in Delhi, and 0.16% (95% CI: 0.08–0.24) in the pooled model. The city-specific AQHI classified 21.8% of days in Delhi as ‘Satisfactory’ versus 18.2% by the pooled index, while 24.2% of days were ‘Poor’ compared to 30.1% under the pooled index. In Varanasi, 6.8% of days were ‘Good’ under the city-specific AQHI, compared to 9.3% by the pooled index, with 15.7% of days classified as ‘Poor’ versus 19.3% by the pooled index. Our results suggest that a single-pooled AQHI may misrepresent local air quality and associated health risks. Since AQHI values are derived from excess mortality risk estimates, a city-specific AQHI ensures a more accurate reflection of local pollution-related health impacts, supporting targeted public health interventions. We recommend accessibility of health data to enable developing AQHI for non-attainment cities in India and use it to track progress towards cleaner air.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A new dark ice albedo threshold and its applications",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeea9",
-      "pubDate": "",
-      "description": "Dark ice (low albedo) areas are hot spots for investigating biological and abiotic darkening processes and their impact on the melt rate of the Greenland Ice Sheet. This study introduces a quantitative method for determining albedo thresholds to delineate areas of dark ice, which detects abrupt changes in the mean and linear trends in time series of weather station albedo measurements in documented dark ice areas. Four different stages of albedo change during the melt season are easily identified within data derived from program for monitoring of the Greenland Ice Sheet and the Greenland climate network automatic weather station located in dark ice areas. The third stage is defined as the dark ice period, during which the albedo decline rate is lowest, gradually converging to the minimum annual value. The derived broadband albedo thresholds are α < 0.451 and 0.431 for use with discrete data mapping and linear trend analysis, respectively. We recommend that the latter threshold is used because it can better indicate albedo trend changes. The thresholds were applied to harmonized Landsat and Sentinel 2 ice albedo and MODerate resolution Imaging Spectroradiometer MOD10A1 albedo products to analyze dark ice variations at local (30 m) and regional (500 m) scales on the ice sheet. Our findings reveal notable inter-annual and daily variations in dark ice areas, in line with previous studies. Dark ice occupies, on average, 60% of the bare ice area, and the transition from bare to dark ice averaged 5–6 d across the ice sheet. The impacts of the different thresholds applied are relatively minor.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Seasonal contrast in dryland vegetation response to meteorological drought across South Asia",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeeac",
-      "pubDate": "",
-      "description": "Understanding vegetation sensitivity to drought in South Asia is essential due to the region’s exposure to frequent, seasonally varying drought driven by complex hydroclimatic factors. This study addresses a significant knowledge gap by investigating seasonal vegetation-drought sensitivity using multiple vegetation indicators and the influence of hydroclimatic factors. Our results show vegetation-drought sensitivity peaks in spring, rising from 0.2 in summer to 0.6, with drought-prone areas expanding from 40% to 60%. Along with drought-vegetation sensitivities, the other hydroclimatic factor’s role played a wide range of dependency on the phenological stages of vegetation. For instance, a statistically significant positive correlation between increasing soil moisture–temperature coupling and decreased vegetation growth was detected from spring to summer in Pakistan and India, with an average sensitivity of 0.2–0.6 in all seasons. Vapor pressure deficit dominates vegetation responses, especially in summer and autumn, with central and northwestern croplands showing higher sensitivity, while humid northeastern parts remain resilient. Elevated aCO2 amplifies drought effects in the spring, highlighting the vital role of seasonal water balance and hydroclimatic dynamics. Policy-makers should integrate these insights into regional drought management and climate adaptation strategies to support sustainable agricultural practices and ecosystem conservation.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "What discrepancies between farmer perceptions and observational data teach us about smallholder decision making",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff3",
-      "pubDate": "",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
