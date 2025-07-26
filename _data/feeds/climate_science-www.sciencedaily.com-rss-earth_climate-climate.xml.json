@@ -4,8 +4,32 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-07-26T17:24:29.819620",
+  "fetched_at": "2025-07-26T18:35:39.714381",
   "items": [
+    {
+      "title": "This plastic disappears in the deep sea—and microbes make it happen",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232418.htm",
+      "pubDate": "Thu, 24 Jul 2025 23:24:18 EDT",
+      "description": "A new eco-friendly plastic called LAHB has shown it can biodegrade even in the extreme environment of the deep ocean, unlike conventional plastics that persist for decades. In real-world underwater testing nearly a kilometer below the surface, LAHB lost more than 80% of its mass after 13 months, while traditional PLA plastic remained completely intact. The secret? Colonies of deep-sea microbes actively broke down the material using specialized enzymes, converting it into harmless byproducts like CO and water.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "The oceans are overheating—and scientists say a climate tipping point may be here",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232417.htm",
+      "pubDate": "Sat, 26 Jul 2025 12:47:47 EDT",
+      "description": "In 2023, the world’s oceans experienced the most intense and widespread marine heatwaves ever recorded, with some events persisting for over 500 days and covering nearly the entire globe. These searing ocean temperatures are causing mass coral bleaching and threatening fisheries, while also signaling deeper, system-wide climate changes.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists modeled nuclear winter—the global food collapse was worse than expected",
+      "link": "https://www.sciencedaily.com/releases/2025/07/250724232419.htm",
+      "pubDate": "Thu, 24 Jul 2025 23:24:19 EDT",
+      "description": "What would happen if a nuclear war triggered a climate-altering catastrophe? Researchers have modeled how such a scenario could devastate global corn crops cutting production by as much as 87% due to blocked sunlight and increased UV-B radiation. Using advanced climate-agriculture simulations, they propose a survival strategy: emergency resilience kits containing fast-growing, cold-tolerant seeds that could keep food systems afloat not just after nuclear war, but also after volcanic eruptions or other mega-disasters.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Concrete that lasts centuries and captures carbon? AI just made it possible",
       "link": "https://www.sciencedaily.com/releases/2025/07/250723045707.htm",
@@ -139,30 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/06/250629033445.htm",
       "pubDate": "Mon, 30 Jun 2025 00:08:06 EDT",
       "description": "Wildfires are becoming more intense and dangerous, but a new Stanford-led study offers hope: prescribed burns—intentionally set, controlled fires—can significantly lessen their impact. By analyzing satellite data and smoke emissions, researchers found that areas treated with prescribed burns saw wildfire severity drop by 16% and smoke pollution fall by 14%. Even more striking, the smoke from prescribed burns was just a fraction of what wildfires would have produced in the same areas.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "New Orleans is sinking—and so are its $15 billion flood defenses",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250627234122.htm",
-      "pubDate": "Sat, 28 Jun 2025 23:52:33 EDT",
-      "description": "Parts of New Orleans are sinking at alarming rates — including some of the very floodwalls built to protect it. A new satellite-based study finds that some areas are losing nearly two inches of elevation per year, threatening the effectiveness of the city's storm defenses.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A giant pulse beneath Africa could split the continent — and form an ocean",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250627095035.htm",
-      "pubDate": "Fri, 27 Jun 2025 11:55:57 EDT",
-      "description": "Beneath the Afar region in Ethiopia, scientists have discovered pulsing waves of molten rock rising from deep within the Earth — a geological heartbeat that could eventually split Africa in two. These rhythmic surges of mantle material are helping to stretch and thin the continent’s crust, setting the stage for a new ocean to form in millions of years. The pulses aren’t random: they follow patterns shaped by the tectonic plates above, behaving differently depending on how thick the plates are and how fast they’re spreading.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "NASA discovers link between Earth’s core and life-sustaining oxygen",
-      "link": "https://www.sciencedaily.com/releases/2025/06/250627095024.htm",
-      "pubDate": "Fri, 27 Jun 2025 10:55:32 EDT",
-      "description": "For over half a billion years, Earth’s magnetic field has risen and fallen in sync with oxygen levels in the atmosphere, and scientists are finally uncovering why. A NASA-led study reveals a striking link between deep-Earth processes and life at the surface, suggesting that the planet’s churning molten interior could be subtly shaping the conditions for life. By comparing ancient magnetic records with atmospheric data, researchers found that these two seemingly unrelated phenomena have danced together since the Cambrian explosion, when complex life first bloomed. This tantalizing connection hints at a single, hidden mechanism — perhaps even continental drift — orchestrating both magnetic strength and the air we breathe.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
