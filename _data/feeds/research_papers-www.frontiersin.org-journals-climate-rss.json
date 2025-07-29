@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-07-29T04:11:22.955783",
+  "fetched_at": "2025-07-29T05:34:55.561911",
   "items": [
+    {
+      "title": "Retreat in real time—Nantucket’s balancing act along a changing coast",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1510802",
+      "pubDate": "2025-07-29T00:00:00Z",
+      "description": "Nantucket, an island about 30 miles off the coast of Massachusetts, has long embraced retreat in response to coastal hazards. This community case study examines how Nantucket is enhancing its resilience by adapting to increasing coastal storms, erosion, and sea level rise through strategic retreat and relocation. Nantucketers have historically moved structures such as lighthouses and homes away from the coastline, but the increasing frequency and intensity of storms demand more comprehensive and adaptable solutions. Through resilience planning and policy efforts, the Town of Nantucket is addressing these challenges by balancing short- and long-term objectives, public and private interests, and equity considerations. Lessons learned from Nantucket’s experiences are applicable to other communities facing similar coastal risks, highlighting the importance of strategic planning, community support, and capacity building for effective retreat and relocation.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Reconciliation or restoration? The ecological futures of floodplain buyout sites",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1530483",
@@ -71,6 +79,14 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
+      "title": "Correction: Co-benefits of resilience planning: a review of analysis tools and methods",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1652559",
+      "pubDate": "2025-07-14T00:00:00Z",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
       "title": "Evaluating pre-disaster subsidized relocations in coastal Louisiana via a game-theoretic approach",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1514456",
       "pubDate": "2025-07-14T00:00:00Z",
@@ -79,10 +95,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Correction: Co-benefits of resilience planning: a review of analysis tools and methods",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1652559",
-      "pubDate": "2025-07-14T00:00:00Z",
-      "description": "",
+      "title": "Greenness and allergic rhinitis in children: the moderating and mediating effects of meteorological factors and air pollution",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1539217",
+      "pubDate": "2025-07-10T00:00:00Z",
+      "description": "BackgroundEmerging evidence suggests that greenness may be beneficial to human health; however, the relationship between greenness exposure and childhood allergic rhinitis (AR) is inconsistent, and whether and how the link is moderated or mediated by meteorological factors and air pollutants remains unclear.MethodsWe conducted an observational study in Sanya, China. Information on AR and covariates was collected from e-questionnaires. Greenness exposure was assessed using satellite-estimated data based on the normalized difference vegetation index (NDVI) and the enhanced vegetation index (EVI). Binomial generalized linear models with a log link were used to evaluate the associations between greenness exposure and childhood AR, presented as prevalence ratio (PR) and 95% confidence interval (CI) per interquartile range (IQR) increase in greenness, adjusting for potential confounders. Stratified analyses and mediation analyses were also performed.ResultsOf the 9,754 children included in the study, the prevalence of ever AR (EAR) and current AR (CAR) was 15.6 and 23.2%, respectively. An IQR increase in greenness was associated with an attenuated PR of childhood AR. The PRs (95% CIs) were 0.95 (0.88–1.02), 0.94 (0.88–1.00), 0.94 (0.89–0.99), and 0.95 (0.90–0.99) for EAR-NDVI, EAR-EVI, CAR-NDVI, and CAR-EVI, respectively. Furthermore, these associations existed only in boys [PRs (95% CIs) were 0.92 (0.85–0.99), 0.92 (0.85–0.98), and 0.93 (0.88–0.99) for EVI-EAR, NDVI-CAR, and EVI-CAR, respectively], and low-temperature groups [PRs (95% CIs) were 0.89 (0.80–0.99), 0.87 (0.78–0.97), 0.91 (0.84–0.98), and 0.92(0.85–0.99) for NDVI-EAR, EVI-EAR, NDVI-CAR, and EVI-CAR, respectively]. Ambient temperature and relative humidity were found to mediate these associations.ConclusionGreenness exposure seems to reduce the prevalence ratio of childhood AR. These associations may be more pronounced in boys and in low-temperature groups and were mediated by ambient temperature and relative humidity. These findings offer new perspectives for considering ambient temperature and relative humidity in relation to greenness exposure and children’s health.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -99,14 +115,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1624297",
       "pubDate": "2025-07-10T00:00:00Z",
       "description": "Enhancing transportation total-factor carbon productivity constitutes a critical initiative for high-quality economic development across Chinese provinces. Based on panel data from 30 Chinese provinces spanning 2007–2022, this study comprehensively employs the Super-Efficiency Slack-Based Measure (SBM) model, non-parametric kernel density estimation, standard deviational ellipse, and global Moran's I index to analyze the spatiotemporal evolution characteristics of Total Factor Carbon Productivity in Transportation (TFCP-T) across provinces. Finally, a spatial Durbin model is utilized to empirically investigate influencing factors. Key findings include: (1) China's provincial TFCP-T exhibits an overall fluctuating upward trend, yet reveals a distinct spatiotemporal differentiation pattern characterized by “high efficiency and intensification in the eastern region versus gradient lag in the central and western regions.” (2) Significant spatial positive correlation and club convergence effects exist in China's transportation green total factor productivity, with western provinces facing risks of low-level lock-in. (3) Economic development level, openness to foreign trade, environmental protection intensity, and industrial structure upgrading positively promote TFCP-T, while consumption level and informatization level exert significant inhibitory effects. These results provide critical policy insights for enhancing transportation carbon productivity and fostering regional coordinated development in China.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Greenness and allergic rhinitis in children: the moderating and mediating effects of meteorological factors and air pollution",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1539217",
-      "pubDate": "2025-07-10T00:00:00Z",
-      "description": "BackgroundEmerging evidence suggests that greenness may be beneficial to human health; however, the relationship between greenness exposure and childhood allergic rhinitis (AR) is inconsistent, and whether and how the link is moderated or mediated by meteorological factors and air pollutants remains unclear.MethodsWe conducted an observational study in Sanya, China. Information on AR and covariates was collected from e-questionnaires. Greenness exposure was assessed using satellite-estimated data based on the normalized difference vegetation index (NDVI) and the enhanced vegetation index (EVI). Binomial generalized linear models with a log link were used to evaluate the associations between greenness exposure and childhood AR, presented as prevalence ratio (PR) and 95% confidence interval (CI) per interquartile range (IQR) increase in greenness, adjusting for potential confounders. Stratified analyses and mediation analyses were also performed.ResultsOf the 9,754 children included in the study, the prevalence of ever AR (EAR) and current AR (CAR) was 15.6 and 23.2%, respectively. An IQR increase in greenness was associated with an attenuated PR of childhood AR. The PRs (95% CIs) were 0.95 (0.88–1.02), 0.94 (0.88–1.00), 0.94 (0.89–0.99), and 0.95 (0.90–0.99) for EAR-NDVI, EAR-EVI, CAR-NDVI, and CAR-EVI, respectively. Furthermore, these associations existed only in boys [PRs (95% CIs) were 0.92 (0.85–0.99), 0.92 (0.85–0.98), and 0.93 (0.88–0.99) for EVI-EAR, NDVI-CAR, and EVI-CAR, respectively], and low-temperature groups [PRs (95% CIs) were 0.89 (0.80–0.99), 0.87 (0.78–0.97), 0.91 (0.84–0.98), and 0.92(0.85–0.99) for NDVI-EAR, EVI-EAR, NDVI-CAR, and EVI-CAR, respectively]. Ambient temperature and relative humidity were found to mediate these associations.ConclusionGreenness exposure seems to reduce the prevalence ratio of childhood AR. These associations may be more pronounced in boys and in low-temperature groups and were mediated by ambient temperature and relative humidity. These findings offer new perspectives for considering ambient temperature and relative humidity in relation to greenness exposure and children’s health.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1465223",
       "pubDate": "2025-06-26T00:00:00Z",
       "description": "Climate change hazards pose significant risks to vulnerable populations, particularly refugees residing in camps within environmentally sensitive areas. This study assesses climate and disaster risks in refugee-hosting districts in Rwanda using GIS-based risk mapping, decision science tools (AHP), remote sensing, and econometric analysis. The findings reveal spatial variability in hazard exposure across camps, with Mahama and Mugombwa refugee camps experiencing the highest flood risks, while Gihembe, Kiziba, and Kigeme camps are most susceptible to landslides. Between 2013 and 2021, landslides resulted in the damage of 324 hectares of cropland in Gihembe district and caused 110 fatalities in Kiziba’s district in 2016 alone. The study also finds that Mahama camp is highly vulnerable to drought, reflecting national data indicating that 4.2 million Rwandans were affected by droughts between 1974 and 2018. In addition, Kiziba camp exhibits severe soil erosion, with up to 19 million tons of annual soil loss in its watershed area. This erosion, exacerbated by deforestation due to firewood harvesting and construction material collection, weakens slope stability, intensifying landslide risks and increasing sediment transport into local water sources, thereby impacting water quality. Our results support recent disaster management decisions by the Government of Rwanda and UNHCR, including the closure of Gihembe camp in 2021 due to landslide risks and the relocation of vulnerable populations from Kigeme camp due to erosion-induced ravine formation. While these interventions reduce immediate risks, continued efforts are needed to enhance camp resilience, strengthen early warning systems, and integrate nature-based solutions into long-term disaster risk management.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Feature importance of climate vulnerability indicators with gradient boosting across five global cities",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1521507",
-      "pubDate": "2025-06-25T00:00:00Z",
-      "description": "Efforts are needed to better identify and measure both communities’ exposure to climate hazards and the social vulnerabilities that interact with these hazards, but the science of validating climate risk indicators is still in its infancy. Progress is needed to improve: (1) the selection of variables that are used as proxies to represent hazard exposure and vulnerability; (2) the applicability and scale for which these indicators are intended, including their suitability for transnational comparisons. We draw on an international urban survey in Buenos Aires, Argentina; Johannesburg, South Africa; London, United Kingdom; New York City, United States; and Seoul, South Korea that collected data on: exposure to various types of extreme weather events, socioeconomic characteristics commonly used as proxies for vulnerability (i.e., income, education level, gender, and age), and additional characteristics not often included in existing composite indices (i.e., Queer identity, disability identity, non-dominant primary language, and self-perceptions of both discrimination and vulnerability to climate hazard risk). We use feature importance analysis with gradient-boosted decision trees to measure the importance that these variables have in predicting exposure to various types of extreme weather events. Our results show that non-traditional variables were more relevant to self-reported exposure to extreme weather events than traditionally employed variables such as income or age. Furthermore, differences in variable relevance across different types of hazards and across urban contexts suggest that vulnerability indicators need to be fit to context and should not be used in a one-size-fits-all fashion.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
