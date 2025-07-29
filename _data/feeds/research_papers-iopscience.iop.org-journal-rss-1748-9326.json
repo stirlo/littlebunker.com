@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-29T05:34:54.278542",
+  "fetched_at": "2025-07-29T06:41:21.493350",
   "items": [
+    {
+      "title": "Timing of peat initiation across the central Congo Basin",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade905",
+      "pubDate": "",
+      "description": "The central Congo Basin contains the world’s most extensive tropical peatland complex, spanning 16.7 million hectares. Until now, radiocarbon dating of basal peats has been limited to 14 samples with poor spatial coverage, and suggested that peat typically initiated during the Holocene. We present 38 new basal dates, improving spatial coverage across the region. Some of the new basal dates are much older than any previous dates, indicating that peat initiated in the central Congo Basin at multiple locations in the Late Pleistocene. Our oldest basal date is 42 300 (41 200–43 800) calibrated years before present, making this one of the world’s oldest extant tropical peatlands, and twice as old as previously believed. The temporal distribution of basal dates suggests that changing climatic wetness has played a role in peat initiation in the region; numerous basal dates correspond with climatically wet phases, whilst few basal dates correspond with dry phases such as the Last Glacial Maximum (LGM). Today we find the central Congo Basin peatlands on wide interfluves between rivers, and on floodplains (mostly of the dendritic left-bank tributaries of the Congo River). We find the oldest basal dates on the floodplains of these left-bank tributaries, indicating a surprisingly high degree of channel stability over many millennia. This contrasts with, for example, peatlands on Amazonian floodplains, which are typically just a few thousand years old. The persistence of peat in the central Congo Basin since before the LGM, likely the most climatically dry period during the last 42 000 yr in this region, suggests that these areas may have played an important biogeographical role as forest refugia during glacial-interglacial cycles.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Thermal stress in degraded forests in the Brazilian Amazon Arc of Deforestation",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adea98",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf07b",
       "pubDate": "",
       "description": "We present a novel typology of 349 metropolitan statistical areas in the United States and demonstrate its implication for understanding and mitigating per-capita mobile greenhouse gas emissions (PMGEs). Via factor analysis of 55 indicators across seven categories, we identified eight key drivers of mobile emissions. Based on these, we clustered the metro areas via Gaussian mixture modeling to obtain seven metro types. We used an extreme gradient boosting regression model to predict PMGEs based on all the indicators, excluding population. Using SHapley Additive exPlanations values, we identified the most relevant indicators. The model reveals that density and transit mitigate PMGEs, while car use and climate exacerbate it. The typology provides further insights into how these effects vary across network, mode share and development patterns. Ultimately, the typology can serve as a framework to identify relevant indicators and thereby guide the selection of strategies for effective, type-specific emissions mitigation.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Life cycle assessment of polylactic acid municipal waste disposal in Belize",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf129",
-      "pubDate": "",
-      "description": "In 2015, the Belize Solid Waste Management Authority launched the Solid Waste Management Project II to enhance solid waste management practices with a particular focus on biopolymers such as polylactic acid (PLA). This study aims to quantify the environmental impact of four potential waste management strategies for PLA in Belize: landfill, landfill expansion, cogeneration, and anaerobic digestion. A life cycle assessment was conducted with a functional unit of 1 kg of PLA at the end-of-life for each waste management scenario. Data from Ecoinvent V3.5 and process parameters from SimaPro V9.0 were collected and modeled in Microsoft Excel. Sensitivity and uncertainty analyses were assessed. Environmental impact results showed that operational requirements contributed the most to the impacts for anaerobic digestion, while the landfill scenarios were dominated by transportation requirements, and the cogeneration scenario was dominated by material requirements. The anaerobic digestion scenario had the lowest net environmental impacts across half of the assessed categories, primarily due to energy generation from biogas production. Environmental impacts can be reduced by diverting PLA waste from landfills to anaerobic digestion and cogeneration facilities. Additionally, uncertainty was the lowest in the anaerobic digestion scenario for most of the assessed environmental impact categories. Sensitivity analysis revealed that environmental impact results were highly influenced by key model assumptions, such as those for PLA degradation, transportation distances, and technology-specific parameters, indicating that further data collection is necessary to enhance the accuracy of these results. Integrated solid waste management scenarios that incorporated combinations of anaerobic digestion and cogeneration were found to have lower net environmental impacts compared to the business-as-usual scenario. This study underscores the need for further research to evaluate the feasibility of integrating these waste management alternatives into Belize’s waste management system.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
