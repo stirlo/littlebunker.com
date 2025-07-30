@@ -4,8 +4,32 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-07-30T07:31:29.384457",
+  "fetched_at": "2025-07-30T08:37:49.778413",
   "items": [
+    {
+      "title": "Catchment-based approach and formalisation of artisanal and small-scale mining for sustainable mining management in the Philippines",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf12f",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Warming effects on spring phenology in New York City parks",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf1b9",
+      "pubDate": "",
+      "description": "Global climate change and the urban heat island (UHI) interact to create unique urban microclimates. However, how these interactions affect trees in urban parks is poorly understood. Using multi-source satellite fusion, we observe that New York City parks are experiencing delays in the start of the growing season, especially in medium-sized parks. Notably, warming effects are more pronounced in park trees near the edges, where urban heat is stronger. This delay is explained by a physiological mechanism: warmer winters reduce chilling accumulation and increase the heat requirements for leaf development, disrupting the balance between chilling and heat needed for spring leaf-out. Medium-sized parks are especially vulnerable to urban heat due to their structural characteristics such as higher edge-to-area ratios and limited interior buffer zones, both of which amplify edge effects. These findings demonstrate that climate change, compounded by the UHI effect, is altering tree phenology in urban parks, with implications for urban ecosystem adaptation and management.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Mechanisms of high-temperature ozone suppression in Eastern China: a meteorological perspective",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf1ba",
+      "pubDate": "",
+      "description": "Ozone (O3) is a typical secondary photochemical pollutant, whose production typically increases under high temperature and radiation. However, emerging observational evidences reveal a notable alteration in the O3-temperature relationship under extremely heat conditions (referred to as O3 suppression) in 20%–30% cities of China, yet the underlying mechanisms and driving forces remain unclear. This study provides a comprehensive investigation of the meteorological mechanisms driving high-temperature O3 suppression in Eastern China, with particular emphasis on regional disparities between suppression and non-suppression areas. Our analysis revealed distinct spatial patterns of O3 suppression across major Chinese regions. The Yangtze River Delta (YRD) and Pearl River Delta (PRD) regions exhibit significant O3 suppression, with the O3-temperature relationship decreasing by 3–5 μg m−3 °C−1 at high temperatures. In contrast, the Beijing–Tianjin–Hebei (BTH) region rarely illustrates this phenomenon. Through integrated statistical analysis and machine learning approaches, we identified radiation, relative humidity (RH), and planetary boundary layer height (PBLH) as the key meteorological drivers. Mechanistic analysis demonstrated that RH was the dominant factor accounting for regional differences in O3 suppression, primarily owing to the contrasting effects of dry heat (BTH) and wet heat (YRD and PRD). PBLH emerged as a secondary influential factor that modulates O3 concentration through the competitive effects of diffusion and transport processes. Cluster analysis further revealed that the occurrence frequency of inhibitory meteorological conditions (high RH and low PBLH) during high-temperature days in the YRD and PRD regions (25%–35%) significantly exceeded that in the BTH region (2%). This study provides crucial insights into the regional disparities in meteorological mechanisms underlying high-temperature O3 suppression and offers valuable scientific support for region-specific O3 pollution control strategies in the context of climate warming and increasingly frequent heatwaves.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Timing of peat initiation across the central Congo Basin",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade905",
@@ -59,30 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff5",
       "pubDate": "",
       "description": "Fire is the largest source of global vegetation disturbance and livestock farming is amongst humanity’s most pervasive impacts on the biosphere. However, no quantification has been made of livestock farming’s global impact on fire regimes. Here, we quantify the impact of livestock farming on global burned area (BA), through a combination of a new parameterisation of grassland grazing intensity in the Wildfire Human Agency Model and generalised linear models of fire’s many additional biophysical dimensions. Results demonstrate that livestock farming has contributed to the decline in global BA, but perhaps more importantly, also has highly spatially heterogenous impacts. Specifically, results suggest that the contrasting distributions of livestock grazing intensity and pastoral burning likely contribute to the observed BA anomaly in the savanna grasslands of sub-Saharan Africa. Our results serve to highlight the major potential role of ‘prescribed grazing’ as a climate change adaptation measure and, more broadly, reiterate the importance of interactions between human and biophysical processes in driving the distribution of fire on Earth.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Advancing new metrics for wildfire smoke exposure: case study in Alaska to bridge public health, climate adaptation, and fire management",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff6",
-      "pubDate": "",
-      "description": "Wildfire activity is increasing globally due to climate change, with implications for air quality and public health. Fine particulate matter (PM2.5) from wildfire smoke contributes to cardiorespiratory morbidity and mortality, adverse birth outcomes, mental health stressors, and disruptions to food security and traditional livelihoods. However, quantifying health risks remains difficult due to sparse monitoring, challenges in isolating wildfire-specific pollution, and limited long-term exposure assessments. We developed a historical air quality dataset for Alaska using a hybrid approach that integrates GEOS-Chem atmospheric modeling with ground-based data to estimate daily wildfire-attributable PM2.5 at a 0.625° × 0.5° resolution from 2003 to 2020. We aggregated these estimates by census tract and derived metrics to quantify long-term wildfire smoke exposure, then combined these estimates with social vulnerability data to identify populations disproportionately affected. Alaskans experienced an average of 3.5 million person-days of moderate and >800 000 person-days of dense smoke exposure annually. In years when over 2 million acres burned, 86%–98% of census tracts recorded at least 1 d of moderate smoke, and up to 73% experienced dense smoke. Northern Interior Alaska had over 300 cumulative days of poor air quality (∼10% of summer days) over the 18 year period, with smoke waves lasting as long as 43 d. Tracts identified as having high smoke exposure and high smoke vulnerability were generally in rural Interior Alaska; however, urban tracts in Interior and Southcentral were also identified. High-exposure census tracts had statistically greater proportions of housing cost-burdened residents and women of childbearing age. This study highlights the need to move beyond traditional fire metrics and adopt measures that better capture the full scope of human exposure. Our approach provides a framework for assessing health risks and integrating public health into climate adaptation and fire management especially in wildfire-prone regions where observations are sparse.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Evaluating net-zero targets’ impact on corporate GHG emissions",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adeff8",
-      "pubDate": "",
-      "description": "This paper investigates the effects that science-based targets (SBTs) have on corporate greenhouse gas (GHG) emissions. Using a difference-in-differences methodology, we assess whether companies that commit to a net zero goal show a decrease in GHG emissions compared to similar companies that declare such goals later. Our results provide limited evidence that organizations with SBT reduce emissions, particularly for Scope 1 and Scope 2 emissions, as the findings lack strong statistical significance. We also examine whether the pace of emission reductions increases as companies approach their target year. Our results indicate that efforts to reduce emissions increase before the announcement, but may stabilize thereafter. These results highlight the challenges of accurately assessing the tangible impact of voluntary corporate commitments on climate goals and underscore the need for comprehensive and clear reporting to prevent misleading claims and promote confidence in climate finance.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Typology of US metropolitan areas illuminates per-capita mobile greenhouse gas emissions impacts and informs mitigation strategies",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf07b",
-      "pubDate": "",
-      "description": "We present a novel typology of 349 metropolitan statistical areas in the United States and demonstrate its implication for understanding and mitigating per-capita mobile greenhouse gas emissions (PMGEs). Via factor analysis of 55 indicators across seven categories, we identified eight key drivers of mobile emissions. Based on these, we clustered the metro areas via Gaussian mixture modeling to obtain seven metro types. We used an extreme gradient boosting regression model to predict PMGEs based on all the indicators, excluding population. Using SHapley Additive exPlanations values, we identified the most relevant indicators. The model reveals that density and transit mitigate PMGEs, while car use and climate exacerbate it. The typology provides further insights into how these effects vary across network, mode share and development patterns. Ultimately, the typology can serve as a framework to identify relevant indicators and thereby guide the selection of strategies for effective, type-specific emissions mitigation.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
