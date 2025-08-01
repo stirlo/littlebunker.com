@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-08-01T17:26:56.488347",
+  "fetched_at": "2025-08-01T18:38:58.637450",
   "items": [
+    {
+      "title": "NSF and NIH suspend grants to UCLA",
+      "link": "https://www.science.org/content/article/nsf-and-nih-suspend-grants-ucla",
+      "pubDate": "",
+      "description": "Move follows Trump administration finding that school didn’t effectively combat antisemitism",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Ecuador eliminates science agency in major reorganization",
       "link": "https://www.science.org/content/article/ecuador-eliminates-science-agency-major-reorganization",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/these-ancient-tattoos-show-work-master-and-apprentice",
       "pubDate": "",
       "description": "A mummy’s inked skin sheds light on the history of body art",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Contrarian climate assessment from U.S. government draws swift pushback",
-      "link": "https://www.science.org/content/article/contrarian-climate-assessment-u-s-government-draws-swift-pushback",
-      "pubDate": "",
-      "description": "Researchers say DOE report cherry-picks data to downplay threat of greenhouse gases",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
