@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-02T16:31:35.741483",
+  "fetched_at": "2025-08-02T17:24:04.207977",
   "items": [
+    {
+      "title": "The hidden climate battle between forests and the ocean",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250802022926.htm",
+      "pubDate": "Sat, 02 Aug 2025 12:26:48 EDT",
+      "description": "Between 2003 and 2021, Earth saw a net boost in photosynthesis, mainly thanks to land plants thriving in warming, wetter conditions—especially in temperate and high-latitude regions. Meanwhile, ocean algae struggled in increasingly stratified and nutrient-poor tropical waters. Scientists tracked this global energy shift using satellite data, revealing that land ecosystems not only added more biomass but also helped stabilize climate by capturing more carbon.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Deep-sea fish just changed what we know about Earth’s carbon cycle",
       "link": "https://www.sciencedaily.com/releases/2025/07/250726234426.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250703092609.htm",
       "pubDate": "Thu, 03 Jul 2025 09:26:09 EDT",
       "description": "Tropical trees are dying faster than ever, and it's not just heat or drought to blame. Scientists have uncovered a surprising culprit: ordinary thunderstorms. These quick, fierce storms, powered by climate change, are toppling trees with intense winds and lightning, sometimes causing more damage than drought itself. The discovery is reshaping how we understand rainforest health and carbon storage, as storms may be responsible for up to 60% of tree deaths in some regions. Researchers now warn that failing to account for this hidden force could undermine forest conservation and climate models alike.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Even low levels of air pollution may quietly scar your heart, MRI study finds",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250703092606.htm",
-      "pubDate": "Thu, 03 Jul 2025 09:37:41 EDT",
-      "description": "Breathing polluted air—even at levels considered “safe”—may quietly damage your heart. A new study using advanced MRI scans found that people exposed to more air pollution showed early signs of scarring in their heart muscle, which can lead to heart failure over time. This damage showed up in both healthy individuals and people with heart conditions, and was especially noticeable in women, smokers, and those with high blood pressure.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
