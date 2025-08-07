@@ -6,6 +6,9 @@ baseurl: ""
 url: "https://littlebunker.com"
 timezone: UTC
 
+# Theme
+theme: minima
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
@@ -22,7 +25,7 @@ collections:
     output: true
     permalink: /topics/:path/
 
-# Default front matter - FIXED ORDER!
+# Default front matter
 defaults:
   - scope:
       path: ""
@@ -34,15 +37,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      # Remove is_feed from defaults - let individual posts set it
-
-
-
-# ActivityPub Configuration
-activitypub:
-  username: "calm"
-  domain: "littlebunker.com"
-  display_name: "The Observer"
 
 # Plugins
 plugins:
@@ -50,9 +44,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  
+
 # Pagination
-paginate: 24  # 24 posts per page
+paginate: 24
 paginate_path: "/page/:num/"
 
 # Feed settings
@@ -63,7 +57,7 @@ feed:
     - disasters
     - social-impact
 
-# Exclude files from processing
+# Exclude files
 exclude:
   - README.md
   - LICENSE
