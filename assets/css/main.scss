@@ -4,170 +4,117 @@
 @import "minima";
 
 /* ==========================================================================
-   LITTLEBUNKEE VARIABLES - ICE DAY / FIRE DARK THEMES
+   LITTLEBUNKEE LIQUID GLASS THEME - ICE DAY / FIRE DARK
    ========================================================================== */
 
 :root {
   /* Ice Day Theme (Light Mode) */
-  --primary-color: #0ea5e9;
-  --secondary-color: #64748b;
-  --accent-color: #e0f2fe;
-  --bg-color: #fafafa;
-  --text-color: #1e293b;
-  --highlight-color: #f0f9ff;
-  --metric-background: rgba(240, 249, 255, 0.8);
+  --light-bg: #e8f4f8;
+  --light-text: #2c3e50;
+  --light-primary: #a8d8ea;
+  --light-secondary: #71b5c9;
+  --light-tertiary: #4682b4;
+  --light-accent: #b0e0e6;
+  --light-highlight: #f0f8ff;
 
-  /* Glass morphism - Ice theme */
-  --glass-bg: rgba(240, 249, 255, 0.4);
-  --glass-border: rgba(14, 165, 233, 0.15);
-  --glass-shadow: rgba(14, 165, 233, 0.08);
+  /* Fire Dark Theme */
+  --dark-bg: #1a0f0f;
+  --dark-text: #ffd700;
+  --dark-primary: #8b0000;
+  --dark-secondary: #ff4500;
+  --dark-tertiary: #cd5c5c;
+  --dark-accent: #ff8c00;
+  --dark-highlight: #ff6347;
+
+  /* Alert Colors */
+  --critical: #ff4444;
+  --warning: #ffaa00;
+  --success: #00cc44;
+
+  /* Default to light mode */
+  --bg-color: var(--light-bg);
+  --text-color: var(--light-text);
+  --primary-color: var(--light-tertiary);
+  --secondary-color: var(--light-secondary);
+  --accent-color: var(--light-accent);
+  --highlight-color: var(--light-highlight);
+  --metric-background: var(--light-bg);
+  --background-color: var(--light-highlight);
+
+  /* Liquid Glass Variables */
+  --glass-bg: rgba(240, 248, 255, 0.3);
+  --glass-border: rgba(70, 130, 180, 0.2);
+  --glass-shadow: rgba(70, 130, 180, 0.1);
   --backdrop-blur: blur(20px);
 }
 
-/* 🌙 AUTOMATIC DARK MODE - Fire Dark Theme */
 @media (prefers-color-scheme: dark) {
   :root {
-    --primary-color: #f97316;
-    --secondary-color: #a3a3a3;
-    --accent-color: #431407;
-    --bg-color: #0c0a09;
-    --text-color: #fafaf9;
-    --highlight-color: #1c1917;
-    --metric-background: rgba(28, 25, 23, 0.8);
+    --bg-color: var(--dark-bg);
+    --text-color: var(--dark-text);
+    --primary-color: var(--dark-secondary);
+    --secondary-color: var(--dark-tertiary);
+    --accent-color: var(--dark-accent);
+    --highlight-color: var(--dark-highlight);
+    --metric-background: var(--dark-bg);
+    --background-color: rgba(255,255,255,0.05);
 
-    /* Glass morphism - Fire theme */
-    --glass-bg: rgba(28, 25, 23, 0.6);
-    --glass-border: rgba(249, 115, 22, 0.2);
-    --glass-shadow: rgba(249, 115, 22, 0.1);
+    /* Fire Glass Variables */
+    --glass-bg: rgba(26, 15, 15, 0.6);
+    --glass-border: rgba(255, 69, 0, 0.3);
+    --glass-shadow: rgba(255, 69, 0, 0.15);
     --backdrop-blur: blur(16px);
   }
 }
 
 /* ==========================================================================
-   LITTLEBUNKEE - MINIMALIST LIQUID GLASS
+   BASE STYLES WITH LIQUID GLASS
    ========================================================================== */
 
-/* Override Minima's base styles */
+* {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   background: linear-gradient(135deg, var(--bg-color) 0%, var(--highlight-color) 100%) !important;
   color: var(--text-color) !important;
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
-  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1), color 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif !important;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
 }
 
-/* Smooth transitions for everything */
-* {
-  transition: background-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-              color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-              border-color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
-              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
 
-/* Links */
-a {
-  color: var(--primary-color) !important;
-  text-decoration: none;
-  transition: color 0.2s ease;
+.content {
+  padding: 2rem 0;
 }
 
-a:hover {
-  color: var(--secondary-color) !important;
-  text-decoration: none;
-}
-
-/* ==========================================================================
-   LIQUID GLASS COMPONENTS
-   ========================================================================== */
-
+/* Glass Card Base Class */
 .glass-card {
   background: var(--glass-bg) !important;
   backdrop-filter: var(--backdrop-blur);
   -webkit-backdrop-filter: var(--backdrop-blur);
   border: 1px solid var(--glass-border) !important;
   border-radius: 16px !important;
-  box-shadow: 
-    0 8px 32px var(--glass-shadow),
-    inset 0 1px 0 rgba(255, 255, 255, 0.1) !important;
+  box-shadow: 0 8px 32px var(--glass-shadow) !important;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.glass-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 
-    0 16px 48px var(--glass-shadow),
-    inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
-  border-color: var(--primary-color) !important;
-}
-
-/* ==========================================================================
-   OVERRIDE MINIMA HEADER
-   ========================================================================== */
-
-.site-header {
-  background: var(--glass-bg) !important;
-  backdrop-filter: var(--backdrop-blur);
-  -webkit-backdrop-filter: var(--backdrop-blur);
-  border-bottom: 1px solid var(--glass-border) !important;
-  padding: 1.5rem 0 !important;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-.site-title {
-  font-size: 2rem !important;
-  font-weight: 700 !important;
-  color: var(--primary-color) !important;
-  letter-spacing: -0.025em;
-  text-shadow: 0 2px 4px var(--glass-shadow);
-}
-
-.site-title:hover {
-  color: var(--secondary-color) !important;
-}
-
-.site-nav .page-link {
-  color: var(--text-color) !important;
-  font-weight: 500 !important;
-  padding: 0.75rem 0 !important;
-  position: relative;
-  margin-left: 2rem !important;
-}
-
-.site-nav .page-link:hover {
-  color: var(--primary-color) !important;
-  text-decoration: none !important;
-}
-
-.site-nav .page-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  width: 0;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
-  transition: all 0.3s ease;
-  transform: translateX(-50%);
-}
-
-.site-nav .page-link:hover::after {
-  width: 100%;
-}
-
-/* ==========================================================================
-   OVERRIDE MINIMA POSTS
-   ========================================================================== */
-
-.post, .post-content {
-  @extend .glass-card;
-  padding: 2.5rem !important;
-  margin-bottom: 2.5rem !important;
   position: relative;
   overflow: hidden;
 }
 
-.post::before {
+.glass-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 48px var(--glass-shadow) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.glass-card::before {
   content: '';
   position: absolute;
   top: 0;
@@ -179,144 +126,1063 @@ a:hover {
   transition: opacity 0.3s ease;
 }
 
-.post:hover::before {
+.glass-card:hover::before {
   opacity: 1;
 }
 
-.post-title {
+/* ==========================================================================
+   ENHANCED METRICS HEADER WITH LIQUID GLASS
+   ========================================================================== */
+
+.site-header {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--backdrop-blur);
+  -webkit-backdrop-filter: var(--backdrop-blur);
+  border-bottom: 2px solid var(--glass-border) !important;
+  padding: 2rem 0 !important;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 8px 32px var(--glass-shadow) !important;
+}
+
+.site-header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    var(--critical) 0%, 
+    var(--warning) 25%, 
+    #ffaa00 50%, 
+    #88cc00 75%, 
+    #00cc44 100%);
+  opacity: 0.8;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+.site-title h1 {
+  margin: 0 !important;
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
   color: var(--primary-color) !important;
-  font-size: 1.75rem !important;
-  font-weight: 700 !important;
-  line-height: 1.2 !important;
   letter-spacing: -0.025em;
-  margin-bottom: 1.5rem !important;
+  text-shadow: 0 2px 8px var(--glass-shadow);
+}
+
+.last-update {
+  font-size: 0.9rem !important;
+  color: var(--secondary-color) !important;
+  margin: 0.5rem 0 0 0 !important;
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+/* Enhanced Metrics Dashboard */
+.metrics-dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.metric-card {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--backdrop-blur);
+  -webkit-backdrop-filter: var(--backdrop-blur);
+  border: 1px solid var(--glass-border) !important;
+  border-radius: 16px !important;
+  padding: 1.5rem !important;
+  text-align: center;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 16px var(--glass-shadow) !important;
+}
+
+.metric-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px var(--glass-shadow) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.metric-card.co2 {
+  border-left: 4px solid var(--critical) !important;
+}
+
+.metric-card.temperature {
+  border-left: 4px solid #ff6600 !important;
+}
+
+.metric-card.ch4 {
+  border-left: 4px solid var(--warning) !important;
+}
+
+.metric-card.population {
+  border-left: 4px solid #0088cc !important;
+}
+
+.metric-card h3 {
+  margin: 0 0 1rem 0 !important;
+  font-size: 0.9rem !important;
+  color: var(--secondary-color) !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.current-value {
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  color: var(--primary-color) !important;
+  line-height: 1;
+  margin-bottom: 0.5rem !important;
+}
+
+.current-value.critical {
+  color: var(--critical) !important;
+  animation: criticalPulse 3s ease-in-out infinite;
+}
+
+.current-value.warning {
+  color: var(--warning) !important;
+}
+
+.unit {
+  font-size: 1rem !important;
+  font-weight: 500 !important;
+  color: var(--secondary-color) !important;
+  opacity: 0.8;
+  margin-left: 0.25rem;
+}
+
+.trend {
+  font-size: 0.85rem !important;
+  color: var(--secondary-color) !important;
+  margin-top: 0.5rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.change {
+  color: var(--critical) !important;
+  font-weight: 600;
+  background: rgba(255, 68, 68, 0.1);
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  display: inline-block;
+}
+
+.target.critical {
+  color: var(--critical) !important;
+  font-weight: 700 !important;
+  animation: criticalPulse 3s ease-in-out infinite;
+}
+
+.period {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+/* Parallax Background Enhancement */
+.header-parallax {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.parallax-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: 0.05;
+  will-change: transform;
+  filter: blur(1px);
+}
+
+/* Critical Pulse Animation */
+@keyframes criticalPulse {
+  0%, 100% { 
+    opacity: 1;
+    text-shadow: 0 0 8px rgba(255, 68, 68, 0.3);
+  }
+  50% { 
+    opacity: 0.8;
+    text-shadow: 0 0 16px rgba(255, 68, 68, 0.6);
+  }
+}
+
+/* ==========================================================================
+   BLUESKY SOCIAL INTEGRATION
+   ========================================================================== */
+
+.bluesky-banner {
+  margin: 3rem 0 !important;
+  padding: 3rem 2.5rem !important;
+  background: linear-gradient(135deg, 
+    var(--glass-bg), 
+    rgba(0, 133, 255, 0.05)) !important;
+  border: 2px solid var(--glass-border) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.bluesky-banner::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, 
+    #0085ff 0%, 
+    #00a8ff 50%, 
+    #0085ff 100%);
+  opacity: 0.8;
+}
+
+.bluesky-content {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 2.5rem;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Bluesky Visual */
+.bluesky-visual {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bluesky-icon {
+  color: #0085ff;
+  position: relative;
+  z-index: 2;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bluesky-banner:hover .bluesky-icon {
+  transform: scale(1.1) rotate(5deg);
+  color: #0066cc;
+}
+
+.bluesky-pulse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(0, 133, 255, 0.2) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  animation: blueSkyPulse 3s ease-in-out infinite;
+}
+
+@keyframes blueSkyPulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.2);
+    opacity: 0.3;
+  }
+}
+
+/* Bluesky Text Content */
+.bluesky-text {
+  min-width: 0; /* Allows text to shrink */
+}
+
+.bluesky-text h3 {
+  color: var(--primary-color) !important;
+  font-size: 1.5rem !important;
+  font-weight: 800 !important;
+  margin: 0 0 1rem 0 !important;
+  letter-spacing: -0.025em;
+}
+
+.bluesky-text p {
+  color: var(--text-color) !important;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 1.5rem 0 !important;
+  opacity: 0.9;
+}
+
+/* Bluesky Stats */
+.bluesky-stats {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bluesky-stats .stat-item {
+  text-align: center;
+}
+
+.bluesky-stats .stat-number {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #0085ff;
+  line-height: 1;
+}
+
+.bluesky-stats .stat-label {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 0.25rem;
+  font-weight: 600;
+}
+
+/* Bluesky Action Buttons */
+.bluesky-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.bluesky-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  text-decoration: none !important;
+  font-weight: 700;
+  font-size: 0.95rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.bluesky-button.primary {
+  background: #0085ff !important;
+  color: white !important;
+  box-shadow: 0 6px 20px rgba(0, 133, 255, 0.3);
+}
+
+.bluesky-button.primary:hover {
+  background: #0066cc !important;
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0, 133, 255, 0.4);
+}
+
+.bluesky-button.secondary {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--backdrop-blur);
+  border: 2px solid #0085ff !important;
+  color: #0085ff !important;
+}
+
+.bluesky-button.secondary:hover {
+  background: #0085ff !important;
+  color: white !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 133, 255, 0.3);
+}
+
+.bluesky-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+  transition: all 0.6s ease;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.bluesky-button:hover::before {
+  width: 300px;
+  height: 300px;
+}
+
+/* Activity Indicator */
+.activity-indicator {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  opacity: 0.8;
+}
+
+.activity-dot {
+  width: 8px;
+  height: 8px;
+  background: #00cc44;
+  border-radius: 50%;
+  animation: activityPulse 2s ease-in-out infinite;
+}
+
+@keyframes activityPulse {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.2);
+  }
+}
+
+.activity-text {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ==========================================================================
+   CATEGORY PAGE STYLES
+   ========================================================================== */
+
+.category-page {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.category-page h1 {
+  color: var(--primary-color) !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  text-align: center;
+  margin-bottom: 1rem !important;
+  letter-spacing: -0.025em;
+}
+
+.category-description {
+  text-align: center;
+  color: var(--secondary-color) !important;
+  font-size: 1.1rem;
+  margin-bottom: 3rem !important;
+  opacity: 0.9;
+}
+
+/* Category Tabs */
+.category-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.tab-button {
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--backdrop-blur);
+  border: 1px solid var(--glass-border) !important;
+  color: var(--text-color) !important;
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-decoration: none !important;
+  font-size: 0.95rem;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.tab-button:hover, .tab-button.active {
+  background: var(--primary-color) !important;
+  color: white !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px var(--glass-shadow);
+}
+
+.tab-button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0;
+  height: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%);
+  transition: all 0.6s ease;
+  transform: translate(-50%, -50%);
+}
+
+.tab-button:hover::after {
+  width: 300px;
+  height: 300px;
+}
+
+/* Feed Grid */
+.feed-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.feed-item {
+  @extend .glass-card;
+  padding: 2rem !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.feed-item h3 {
+  color: var(--primary-color) !important;
+  font-size: 1.3rem !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+  margin: 0 !important;
+}
+
+.feed-item h3 a {
+  color: inherit !important;
+  text-decoration: none !important;
+  transition: color 0.2s ease;
+}
+
+.feed-item h3 a:hover {
+  color: var(--secondary-color) !important;
 }
 
 .post-meta {
   color: var(--secondary-color) !important;
-  font-size: 0.9rem !important;
-  margin-bottom: 2rem !important;
-}
-
-.post-content h1, .post-content h2, .post-content h3, .post-content h4 {
-  color: var(--primary-color) !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.025em;
-  margin-top: 2.5rem !important;
-}
-
-.post-content img {
-  border-radius: 12px !important;
-  box-shadow: 0 8px 24px var(--glass-shadow) !important;
-  transition: transform 0.3s ease;
-}
-
-.post-content img:hover {
-  transform: scale(1.02);
-}
-
-.post-content blockquote {
-  border-left: 4px solid var(--primary-color) !important;
-  background: var(--glass-bg) !important;
-  padding: 1.5rem 2rem !important;
-  border-radius: 0 12px 12px 0 !important;
-  backdrop-filter: var(--backdrop-blur);
-  color: var(--secondary-color) !important;
-}
-
-/* ==========================================================================
-   OVERRIDE MINIMA FOOTER
-   ========================================================================== */
-
-.site-footer {
-  background: var(--glass-bg) !important;
-  backdrop-filter: var(--backdrop-blur);
-  border-top: 1px solid var(--glass-border) !important;
-  padding: 3rem 0 !important;
-  margin-top: 5rem !important;
-}
-
-.footer-heading {
-  color: var(--primary-color) !important;
-  font-weight: 700 !important;
-}
-
-/* ==========================================================================
-   HOME PAGE POSTS LIST
-   ========================================================================== */
-
-.post-list {
-  list-style: none !important;
-  padding: 0 !important;
-}
-
-.post-list > li {
-  @extend .glass-card;
-  padding: 2rem !important;
-  margin-bottom: 2rem !important;
-}
-
-.post-list h3 {
-  color: var(--primary-color) !important;
-  font-weight: 700 !important;
-  margin-bottom: 1rem !important;
-}
-
-.post-list .post-meta {
-  color: var(--secondary-color) !important;
-}
-
-/* ==========================================================================
-   PAGINATION
-   ========================================================================== */
-
-.pagination {
+  font-size: 0.9rem;
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   align-items: center;
-  margin: 4rem 0;
-  padding: 2.5rem 0;
-  border-top: 1px solid var(--glass-border);
 }
 
-.pagination a {
+.post-excerpt {
+  color: var(--text-color) !important;
+  line-height: 1.6;
+  opacity: 0.9;
+  flex-grow: 1;
+}
+
+/* Tags */
+.tag-small, .category-tag {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tag-small:hover, .category-tag:hover {
+  background: var(--primary-color) !important;
+  color: white !important;
+  transform: translateY(-2px) scale(1.05);
+}
+
+/* Archive Link */
+.archive-link-wrapper {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.archive-link {
+  @extend .glass-card;
+  display: inline-block;
+  padding: 1.5rem 3rem !important;
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.archive-link:hover {
+  color: white !important;
+  background: var(--primary-color) !important;
+}
+
+/* ==========================================================================
+   FEED POST LAYOUT STYLES
+   ========================================================================== */
+
+.feed-post {
+  @extend .glass-card;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  padding: 3rem !important;
+}
+
+.post-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.post-title {
+  color: var(--primary-color) !important;
+  font-size: 2.2rem !important;
+  font-weight: 800 !important;
+  line-height: 1.2;
+  margin-bottom: 1.5rem !important;
+  letter-spacing: -0.025em;
+}
+
+.post-tags {
+  margin-top: 1rem;
+  color: var(--secondary-color) !important;
+  font-size: 0.9rem;
+}
+
+.tag-link {
+  color: var(--primary-color) !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.tag-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.post-content {
+  color: var(--text-color) !important;
+  line-height: 1.7;
+  font-size: 1.1rem;
+}
+
+.post-content h1, .post-content h2, .post-content h3 {
+  color: var(--primary-color) !important;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.post-content p {
+  margin-bottom: 1.5rem;
+}
+
+.post-content a {
+  color: var(--primary-color) !important;
+  text-decoration: underline;
+  text-decoration-color: var(--accent-color);
+  transition: all 0.2s ease;
+}
+
+.post-content a:hover {
+  color: var(--secondary-color) !important;
+  text-decoration-color: var(--secondary-color);
+}
+
+.source-link {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--glass-border);
+  text-align: center;
+}
+
+.read-original {
+  @extend .glass-card;
+  display: inline-block;
   background: var(--primary-color) !important;
   color: white !important;
   padding: 1rem 2rem !important;
   border-radius: 12px !important;
   text-decoration: none !important;
-  font-weight: 600 !important;
+  font-weight: 700;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 4px 16px var(--glass-shadow);
 }
 
-.pagination a:hover {
+.read-original:hover {
   background: var(--secondary-color) !important;
-  transform: translateY(-2px);
-  box-shadow: 0 8px 24px var(--glass-shadow);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px var(--glass-shadow) !important;
+}
+
+/* Related Posts */
+.related-posts {
+  margin-top: 4rem;
+  padding-top: 3rem;
+  border-top: 2px solid var(--glass-border);
+}
+
+.related-posts h3 {
+  color: var(--primary-color) !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+  margin-bottom: 2rem !important;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.related-item {
+  @extend .glass-card;
+  padding: 1.5rem !important;
+  text-align: center;
+}
+
+.category-badge {
+  background: var(--accent-color) !important;
+  color: var(--text-color) !important;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.related-item h4 {
+  color: var(--primary-color) !important;
+  font-size: 1rem !important;
+  font-weight: 600 !important;
+  line-height: 1.3;
+  margin: 0 0 0.75rem 0 !important;
+}
+
+.related-item h4 a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.related-item h4 a:hover {
+  color: var(--secondary-color) !important;
+}
+
+.related-item time {
+  color: var(--secondary-color) !important;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.matching-tags {
+  margin-top: 0.75rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.tag-match {
+  background: var(--primary-color) !important;
+  color: white !important;
+  padding: 0.2rem 0.6rem;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   REGULAR POST LAYOUT STYLES
+   ========================================================================== */
+
+.post {
+  @extend .glass-card;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  padding: 3rem !important;
+}
+
+/* ==========================================================================
+   HOMEPAGE STYLES
+   ========================================================================== */
+
+.welcome-section {
+  text-align: center;
+  padding: 3rem 2rem !important;
+  margin-bottom: 3rem;
+}
+
+.site-welcome {
+  color: var(--primary-color) !important;
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  margin-bottom: 1.5rem !important;
+  letter-spacing: -0.025em;
+}
+
+.site-description {
+  color: var(--text-color) !important;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.section-title {
+  color: var(--primary-color) !important;
+  font-size: 1.8rem !important;
+  font-weight: 700 !important;
+  text-align: center;
+  margin-bottom: 2.5rem !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.latest-observations {
+  margin-bottom: 4rem;
+}
+
+.external-link-icon {
+  color: var(--secondary-color) !important;
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+  opacity: 0.7;
+}
+
+.post-tags-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.rss-subscribe {
+  text-align: center;
+  padding: 2rem !important;
+  margin-top: 3rem;
+}
+
+.rss-subscribe h3 {
+  color: var(--primary-color) !important;
+  margin-bottom: 1rem !important;
+}
+
+.rss-subscribe a {
+  color: var(--primary-color) !important;
+  font-weight: 600;
+}
+
+/* Category filtering with smooth transitions */
+.feed-item {
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feed-item.hidden {
+  opacity: 0;
+  transform: scale(0.95);
+  pointer-events: none;
 }
 
 /* ==========================================================================
    RESPONSIVE DESIGN
    ========================================================================== */
 
-@media (max-width: 768px) {
-  .site-nav .page-link {
-    margin-left: 1rem !important;
+@media (min-width: 768px) {
+  .header-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  .post, .post-content {
+  .site-title {
+    text-align: left;
+  }
+
+  .metrics-dashboard {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .bluesky-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .bluesky-actions {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bluesky-stats {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    padding: 1.5rem 0 !important;
+  }
+
+  .site-title h1 {
+    font-size: 1.8rem !important;
+  }
+
+  .metrics-dashboard {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .metric-card {
+    padding: 1.25rem !important;
+  }
+
+  .current-value {
+    font-size: 1.8rem !important;
+  }
+
+  .category-page h1 {
+    font-size: 2rem !important;
+  }
+
+  .category-tabs {
+    gap: 0.75rem;
+  }
+
+  .tab-button {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .feed-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .feed-item, .feed-post, .post {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .post-title {
+    font-size: 1.8rem !important;
+  }
+
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .bluesky-banner {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .bluesky-text h3 {
+    font-size: 1.3rem !important;
+  }
+
+  .bluesky-text p {
+    font-size: 0.95rem;
+  }
+
+  .bluesky-stats {
+    gap: 1.5rem;
+  }
+
+  .bluesky-stats .stat-number {
+    font-size: 1.3rem;
+  }
+
+  .activity-indicator {
+    position: static;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+
+  .site-welcome {
+    font-size: 2rem !important;
+  }
+
+  .site-description {
+    font-size: 1.1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem !important;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .metrics-dashboard {
+    grid-template-columns: 1fr;
+  }
+
+  .post, .post-content, .post-list > li {
     padding: 1.5rem !important;
   }
 
-  .pagination {
+  .category-tabs {
     flex-direction: column;
-    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .tab-button {
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+
+  .feed-item, .feed-post, .post {
+    padding: 1.5rem 1rem !important;
+  }
+
+  .post-title {
+    font-size: 1.6rem !important;
+  }
+
+  .bluesky-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .bluesky-button {
+    width: 100%;
+    justify-content: center;
+    max-width: 300px;
+  }
+
+  .bluesky-stats {
+    gap: 1rem;
+  }
+
+  .bluesky-stats .stat-item {
+    flex: 1;
   }
 }
 
 /* ==========================================================================
-   SMOOTH LOADING ANIMATIONS
+   SMOOTH ANIMATIONS
    ========================================================================== */
 
 @keyframes fadeInUp {
@@ -330,8 +1196,16 @@ a:hover {
   }
 }
 
-.post, .post-list > li {
+.feed-item, .related-item, .post {
   animation: fadeInUp 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.feed-item:nth-child(odd) {
+  animation-delay: 0.1s;
+}
+
+.feed-item:nth-child(even) {
+  animation-delay: 0.2s;
 }
 
 /* Custom scrollbar */
@@ -353,31 +1227,38 @@ a:hover {
   background: var(--secondary-color);
 }
 
-.bluesky-nav-link {
-  display: flex !important;
-  align-items: center !important;
-  gap: 0.5rem !important;
-  background: var(--glass-bg) !important;
-  backdrop-filter: var(--backdrop-blur) !important;
-  border: 1px solid rgba(0, 133, 255, 0.3) !important;
-  border-radius: 8px !important;
-  padding: 0.6rem 1rem !important;
-  color: #0085ff !important;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+/* ==========================================================================
+   DARK MODE ENHANCEMENTS
+   ========================================================================== */
+
+@media (prefers-color-scheme: dark) {
+  .bluesky-banner {
+    background: linear-gradient(135deg, 
+      var(--glass-bg), 
+      rgba(0, 133, 255, 0.08)) !important;
+  }
+
+  .bluesky-pulse {
+    background: radial-gradient(circle, rgba(0, 133, 255, 0.3) 0%, transparent 70%);
+  }
+
+  .activity-dot {
+    box-shadow: 0 0 8px rgba(0, 204, 68, 0.6);
+  }
 }
 
-.bluesky-nav-link:hover {
-  background: #0085ff !important;
-  color: white !important;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 133, 255, 0.3);
-}
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
 
-.bluesky-nav-link .bluesky-icon {
-  transition: transform 0.2s ease;
-}
+@media print {
+  .glass-card {
+    background: white !important;
+    border: 1px solid #ccc !important;
+    box-shadow: none !important;
+  }
 
-.bluesky-nav-link:hover .bluesky-icon {
-  transform: scale(1.1);
+  .category-tabs, .related-posts {
+    display: none;
+  }
 }
-I need your help
