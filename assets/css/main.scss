@@ -352,3 +352,32 @@ a:hover {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary-color);
 }
+
+.bluesky-nav-link {
+  display: flex !important;
+  align-items: center !important;
+  gap: 0.5rem !important;
+  background: var(--glass-bg) !important;
+  backdrop-filter: var(--backdrop-blur) !important;
+  border: 1px solid rgba(0, 133, 255, 0.3) !important;
+  border-radius: 8px !important;
+  padding: 0.6rem 1rem !important;
+  color: #0085ff !important;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.bluesky-nav-link:hover {
+  background: #0085ff !important;
+  color: white !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 133, 255, 0.3);
+}
+
+.bluesky-nav-link .bluesky-icon {
+  transition: transform 0.2s ease;
+}
+
+.bluesky-nav-link:hover .bluesky-icon {
+  transform: scale(1.1);
+}
+I need your help
