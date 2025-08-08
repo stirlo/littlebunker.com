@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-08-08T20:29:27.816365",
+  "fetched_at": "2025-08-08T21:24:35.806041",
   "items": [
+    {
+      "title": "Trump order aims to politicize decisions on federal science grants",
+      "link": "https://www.science.org/content/article/trump-order-aims-politicize-decisions-federal-science-grants",
+      "pubDate": "",
+      "description": "Researchers worried by plan giving political appointees more control over where funding goes",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Canada plans a 15% budget cut. Scientists are alarmed",
       "link": "https://www.science.org/content/article/canada-plans-15-budget-cut-scientists-are-alarmed",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/nih-details-options-limiting-its-payments-open-access-publishing-fees",
       "pubDate": "",
       "description": "Other publishing proposals would scrap reimbursements or pay peer reviewers, unprecedented steps for a major government funder",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Scientific fraud has become an ‘industry,’ alarming analysis finds",
-      "link": "https://www.science.org/content/article/scientific-fraud-has-become-industry-alarming-analysis-finds",
-      "pubDate": "",
-      "description": "Sophisticated global networks are infiltrating journals to publish fake papers",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
