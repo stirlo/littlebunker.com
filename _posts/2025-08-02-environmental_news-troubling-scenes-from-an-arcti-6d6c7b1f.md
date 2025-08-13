@@ -5,7 +5,7 @@ date: 2025-08-02 08:50:00 +0000
 categories: [environmental_news]
 tags: ['polar-regions', 'arctic', 'urgent']
 keywords: ['polar-regions', 'troubling', 'urgent', 'arctic', 'scenes']
-description: "The heat that hit Svalbard in February was so intense that scientists could dig into the ground with spoons,   "like it was soft ice cream"
+description: "The heat that hit Svalbard in February was so intense that scientists could dig into the ground with spoons, like it was soft ice cream"
 external_url: https://insideclimatenews.org/news/02082025/arctic-heat-crisis/
 is_feed: true
 source_feed: "Inside Climate News"
