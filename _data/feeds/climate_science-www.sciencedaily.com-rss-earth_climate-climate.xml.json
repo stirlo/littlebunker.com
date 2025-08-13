@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-13T12:55:22.047135",
+  "fetched_at": "2025-08-13T13:39:47.336857",
   "items": [
+    {
+      "title": "Scientists warn ocean could soon reach Rapa Nui’s sacred moai",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250812234532.htm",
+      "pubDate": "Wed, 13 Aug 2025 01:44:06 EDT",
+      "description": "Advanced computer modeling suggests that by 2080, waves driven by sea level rise could flood Ahu Tongariki and up to 51 cultural treasures on Rapa Nui. The findings emphasize the urgent need for protective measures to preserve the island’s identity, traditions, and tourism economy.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists just uncovered three ancient worlds frozen beneath Illinois for 300 million years",
       "link": "https://www.sciencedaily.com/releases/2025/08/250809100919.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250709091656.htm",
       "pubDate": "Thu, 10 Jul 2025 01:03:17 EDT",
       "description": "A laser-equipped research platform has, for the first time, photographed airflow just millimeters above ocean waves, revealing two simultaneous wind–wave energy-transfer tricks—slow short waves steal power from the breeze, while long giants sculpt the air in reverse. These crisp observations promise to overhaul climate and weather models by clarifying how heat, momentum, and greenhouse gases slip between sea and sky.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Antarctica’s slow collapse caught on camera—and it’s accelerating",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250706230305.htm",
-      "pubDate": "Mon, 07 Jul 2025 01:06:46 EDT",
-      "description": "Long-lost 1960s aerial photos let Copenhagen researchers watch Antarctica’s Wordie Ice Shelf crumble in slow motion. By fusing film with satellites, they discovered warm ocean water, not surface ponds, drives the destruction, and mapped “pinning points” that reveal how far a collapse has progressed. The work shows these break-ups unfold more gradually than feared, yet once the ice “brake” fails, land-based glaciers surge, setting up meters of future sea-level rise that will strike northern coasts.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
