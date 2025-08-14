@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-14T10:29:35.799759",
+  "fetched_at": "2025-08-14T11:22:54.331735",
   "items": [
+    {
+      "title": "Unprecedented climate shocks are changing the Great Lakes forever",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250813083616.htm",
+      "pubDate": "Thu, 14 Aug 2025 06:11:55 EDT",
+      "description": "Extreme heat waves and cold spells on the Great Lakes have more than doubled since the late 1990s, coinciding with a major El Niño event. Using advanced ocean-style modeling adapted for the lakes, researchers traced temperature trends back to 1940, revealing alarming potential impacts on billion-dollar fishing industries, fragile ecosystems, and drinking water quality.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists warn ocean could soon reach Rapa Nui’s sacred moai",
       "link": "https://www.sciencedaily.com/releases/2025/08/250812234532.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250709091658.htm",
       "pubDate": "Wed, 09 Jul 2025 09:16:58 EDT",
       "description": "Climate change is silently sapping the nutrients from our food. A pioneering study finds that rising CO2 and higher temperatures are not only reshaping how crops grow but are also degrading their nutritional value especially in vital leafy greens like kale and spinach. This shift could spell trouble for global health, particularly in communities already facing nutritional stress. Researchers warn that while crops may grow faster, they may also become less nourishing, with fewer minerals, proteins, and antioxidants raising concerns about obesity, weakened immunity, and chronic diseases.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Lasers capture the invisible dance of wind and waves",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250709091656.htm",
-      "pubDate": "Thu, 10 Jul 2025 01:03:17 EDT",
-      "description": "A laser-equipped research platform has, for the first time, photographed airflow just millimeters above ocean waves, revealing two simultaneous wind–wave energy-transfer tricks—slow short waves steal power from the breeze, while long giants sculpt the air in reverse. These crisp observations promise to overhaul climate and weather models by clarifying how heat, momentum, and greenhouse gases slip between sea and sky.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
