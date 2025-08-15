@@ -4,8 +4,32 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-08-15T05:26:31.911019",
+  "fetched_at": "2025-08-15T06:38:36.052052",
   "items": [
+    {
+      "title": "Advancing global vegetation water content observations: the potential of Moon-based SAR for ecological risk assessment",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf764",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Transboundary trade poses regulatory challenges for EV battery recycling",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf865",
+      "pubDate": "",
+      "description": "Governments worldwide are advancing efforts to establish comprehensive regulatory frameworks for the circular economy of electric vehicle batteries. However, current regulations often overlook the impacts of transboundary trade. This article argues that while these cross-border practices may help companies reduce costs and comply with regulatory targets, they pose environmental risks, create regulatory loopholes, and undermine incentives to build domestic recycling capacity. To ensure effective battery recycling on a global scale, governments should introduce dedicated regulatory frameworks for cross-border trade activities to avoid ambiguities. International standards for information labeling and traceability systems covering batteries, waste batteries, and recycled materials are also needed. These governance efforts call for more research focused on the dynamics and impacts of transboundary trade in electric vehicle battery recycling.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Connecting inequalities in land ownership and groundwater access: the case of California’s Central Valley",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf908",
+      "pubDate": "",
+      "description": "Understanding inequality in groundwater access and cropland ownership is critical for assessing the sustainability and equity of agricultural systems, especially in regions facing climatic and socioeconomic patterns such as drought and cropland consolidation. These two forms of access are deeply interconnected: for instance, cropland ownership often determines who can access and control groundwater. Due to data challenges, however, few studies have quantified groundwater access inequality in the same ways that land ownership has been quantified. Similarly, the regional scale of most analyses to date limits our understanding of factors that shape and modify these interconnections. Our study aims to address this gap by constructing a novel geospatial dataset by matching groundwater wells with cropland parcels across California’s Central Valley. We quantify the magnitude and spatial patterns of groundwater and cropland inequality and examine how it scales with land ownership, crop types, and surface water access. Our results indicate substantial inequality in both groundwater access and land ownership, with the top decile of well owners possessing 46.4% of the region’s total well capacity. These well owners are more likely to allocate groundwater to high-revenue, water-intensive perennials such as almonds and walnuts. Furthermore, large landholders tend to have far more wells, deeper and higher-capacity wells, and greater access to surface water resources. However, we observe consistently wider inequality in land ownership than water access, and larger landowners possess less well depth and capacity per hectare. We discuss the implications of these findings in the context of California’s historical lack of regulation on groundwater, particularly with respect to inequality in open access vs private property resources. We also consider possible lessons for future groundwater regulation and distribution mechanisms for groundwater rights under California’s Sustainable Groundwater Management Act.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Hydrologic response of artificially drained agricultural watersheds: insights from high-resolution integrated surface/subsurface simulations",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf240",
@@ -59,30 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf127",
       "pubDate": "",
       "description": "Global data have served an integral role in characterizing large-scale groundwater systems, identifying their sustainability challenges, and informing on socioeconomic and ecological dimensions of groundwater. These insights have revealed groundwater as a dynamic component of the water cycle and social–ecological systems, leading to an expansion in groundwater science that increasingly focuses on groundwater’s interactions with ecological, socioeconomic, and Earth systems. This shift presents many opportunities that are conditional on broader, more interdisciplinary system conceptualizations, models, and methods that require the integration of a greater diversity of data in contrast to conventional hydrogeological investigations. Here, we catalogue 144 global open access datasets and dataset collections relevant to groundwater science that span elements of the hydrosphere, biosphere, atmosphere, lithosphere, food systems, governance, management, and other socioeconomic system dimensions. The assembled catalogue offers a reference of available data for use in interdisciplinary assessments, and we summarize these data across their primary system, spatial resolution, temporal range, data type, generation method, level of groundwater representation, and institutional location of lead authorship. The catalogue includes 15 groundwater datasets, 23 datasets derived in relation to groundwater, and 106 datasets associated with groundwater. We find the majority of datasets are temporally static and that temporally dynamic data peak in availability during the 2000–2010 decade. Only a small fraction of temporally dynamic data is derived with any direct representation of groundwater, highlighting the need for greater incorporation of groundwater in Earth system models and data collection initiatives across socioeconomic, governance, and environmental science research communities. A small number of countries, led by the USA, Germany, the Netherlands, and Canada, generate most global groundwater data, reflecting a global North bias in the institutional leadership of these data generation activities. We raise three priority themes for future global groundwater data initiatives, which include: data improvements through prioritizing observed and temporally dynamic data; elevating regional and local scale data and perspectives to address challenges relating to equity and bias; and advancing data sharing initiatives founded on reciprocal benefits between global initiatives and data providers.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Forest restoration for environment and well-being is associated with empowered local governance over long time horizons",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf1b8",
-      "pubDate": "",
-      "description": "Forest restoration is widely recognized as a global priority to sequester carbon, conserve biodiversity, and support the livelihoods of rural and indigenous people. Contemporary interventions often target landscapes with a substantial human presence, and they regularly call for stakeholder participation during project implementation. However, there is a lack of empirical evidence linking local involvement with multiple forest benefits over long time horizons. Using a unique dataset of four decades of government-sponsored tree planting in North India, we find that both substantive local influence over planning projects and sustained control over management into the present—a favorable combination of long-term, empowered local governance—is associated with greater livelihood benefits and improvements in forest canopy cover over time. Our work points toward complex socio-ecological relationships, which may be explained by a positive interaction between empowered local governance, interventions that align with local needs, and long-term local care for planted forests. This implies that current financial commitments may need to be accompanied by institutional reforms that give communities meaningful control over planning and build capacities for self-governance that can endure into the future. In light of this work, we suggest that a paradigm of ‘people-centered restoration’ may offer the best opportunity to support long-term environmental goals in densely settled landscapes in the Global South.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Future Antarctic marine accessibility in a warming world",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf3ce",
-      "pubDate": "",
-      "description": "Antarctic sea ice is projected to decline under continued global warming, reshaping marine accessibility in the Southern Ocean with far-reaching implications for navigation, ecosystem stability, and polar governance. Leveraging optimally selected sea ice projections from the coupled model intercomparison project phase 6, we assess future Antarctic marine accessibility for open water and polar class 6 (PC6) vessels under 1.5 °C, 2 °C, and 3 °C warming scenarios. Results show significant increases in marine accessibility, with near-complete summer accessibility across the Southern Ocean in February, even under the 1.5 °C Paris Agreement target. Winter marine accessibility also increases, with over 50% of the Southern Ocean accessible for PC6 vessels at 3 °C warming. Spatially, the Eastern Route region, especially in the King Haakon VII Sea, is projected to exhibit the most significant increase in accessibility. Meanwhile, the South Shetland Islands and Antarctic Peninsula, which currently serve as important hubs for scientific research and logistical operations, are projected to experience increased year-round accessibility as global temperatures continue to rise. These findings provide insights that could support climate-smart marine spatial planning in the high seas.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Mutual stabilization of AMOC and GrIS due to different transient response to warming",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf45a",
-      "pubDate": "",
-      "description": "Interactions between The Atlantic Meridional Overturning Circulation (AMOC) And The Greenland Ice-Sheet (GrIS), both considered major tipping elements in the Earth system, are critical for understanding their future evolution under anthropogenic climate change. As global warming progresses, the potential weakening of the AMOC raises concerns that meltwater from the disintegrating GrIS could trigger a complete AMOC shutdown. Here, we assess the processes and feedback mechanisms that may either accelerate or stabilize these two Earth system components under idealized future scenarios in an ice-sheet coupled Earth system model of intermediate complexity with perturbed parameter ensembles. Our findings indicate that, under a moderate idealized scenario (2×CO2,PI, corresponding to ∼3 °C global mean warming), GrIS meltwater alone is unlikely to trigger an AMOC collapse. However, this risk increases with higher emissions. Notably, the delayed GrIS response to the warming results in peak meltwater fluxes entering the North Atlantic only when the AMOC is already in its recovery phase, Thereby reducing the likelihood of collapse. Additionally, the system is further stabilized by the cooling induced by the thermal bipolar seesaw. This cooling is sufficiently strong that, in the event of a future AMOC collapse, GrIS melting would effectively cease for ∼3 °C warming, and its disintegration would be substantially delayed even under higher warming levels. Nonetheless, rapid CO2 reduction remains essential to prevent irreversible state transitions of both the AMOC and GrIS.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
