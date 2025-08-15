@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-08-15T20:28:15.843288",
+  "fetched_at": "2025-08-15T21:21:39.038609",
   "items": [
+    {
+      "title": "Don’t blame the algorithm: Polarization may be inherent in social media",
+      "link": "https://www.science.org/content/article/don-t-blame-algorithm-polarization-may-be-inherent-social-media",
+      "pubDate": "",
+      "description": "In simulations, AI-generated users of stripped-down social media without content algorithms still split into polarized echo chambers",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Hot springs’ hardy microbes offer new source of antibiotics",
       "link": "https://www.science.org/content/article/hot-springs-hardy-microbes-offer-new-source-antibiotics",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/single-lock-hair-could-rewrite-what-we-know-about-inca-record-keeping",
       "pubDate": "",
       "description": "Evidence from a 500-year-old <em>khipu</em> suggests commoners helped craft the Inca’s intricate knotted records",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "New twist on PET scans unlocks hidden signals for diagnosing disease",
-      "link": "https://www.science.org/content/article/new-twist-pet-scans-unlocks-hidden-signals-diagnosing-disease",
-      "pubDate": "",
-      "description": "Overlooked emissions from exotic positronium atoms could improve medical scanners",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
