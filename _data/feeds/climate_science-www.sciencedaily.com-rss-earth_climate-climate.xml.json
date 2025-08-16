@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-16T15:23:47.120671",
+  "fetched_at": "2025-08-16T16:29:29.640436",
   "items": [
+    {
+      "title": "The ocean’s fragile fortresses are crumbling under climate pressure",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250814094700.htm",
+      "pubDate": "Sat, 16 Aug 2025 06:08:48 EDT",
+      "description": "Mediterranean bryozoans, including the “false coral,” are showing alarming changes in structure and microbiomes under acidification and warming. Field studies at volcanic CO2 vents reveal that these stressors combined sharply reduce survival, posing risks to marine ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Strange spotted rock on Mars could reveal signs of ancient life",
       "link": "https://www.sciencedaily.com/releases/2025/08/250814094626.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250716000858.htm",
       "pubDate": "Wed, 16 Jul 2025 23:41:23 EDT",
       "description": "An ancient glacier high in the French Alps has revealed the oldest known ice in Western Europe—dating back over 12,000 years to the last Ice Age. This frozen archive, meticulously analyzed by scientists, captures a complete chemical and atmospheric record spanning humanity’s transition from hunter-gatherers to modern industry. The core contains stories of erupting volcanoes, changing forests, Saharan dust storms, and even economic impacts across history. It offers a rare glimpse into both natural climate transitions and human influence on the atmosphere, holding vital clues for understanding past and future climate change.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "25 years, 1 coastline report card: The shocking wins and misses",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250715043405.htm",
-      "pubDate": "Wed, 16 Jul 2025 02:59:28 EDT",
-      "description": "Twenty-five years after first warning that oil spills would wane while invasive species and climate impacts would surge, an international team revisits its coastal forecasts and finds many bull's-eyes, alongside surprising misses. Plastic pollution, ocean acidification, and sensory pollution have risen faster than imagined, even as strong treaties curbed chemicals like TBT. The scientists argue that shorelines remain “sentinels” for the global ocean and urge a blend of local action and sweeping accords such as a Global Plastics Treaty to keep future surprises in check.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
