@@ -4,7 +4,7 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-18T15:31:20.437617",
+  "fetched_at": "2025-08-18T16:35:20.366731",
   "items": [
     {
       "title": "NASA’s PREFIRE satellites reveal a secret glow escaping from our planet",
@@ -27,6 +27,14 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250816113525.htm",
       "pubDate": "Sun, 17 Aug 2025 23:04:56 EDT",
       "description": "Rising CO2 levels will make the upper atmosphere colder and thinner, altering how geomagnetic storms impact satellites. Future storms could cause sharper density spikes despite lower overall density, increasing drag-related challenges.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Greenland’s glacial runoff is powering explosions of ocean life",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250815034722.htm",
+      "pubDate": "Mon, 18 Aug 2025 03:27:17 EDT",
+      "description": "NASA-backed simulations reveal that meltwater from Greenland’s Jakobshavn Glacier lifts deep-ocean nutrients to the surface, sparking large summer blooms of phytoplankton that feed the Arctic food web.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250724232417.htm",
       "pubDate": "Sat, 26 Jul 2025 12:47:47 EDT",
       "description": "In 2023, the world’s oceans experienced the most intense and widespread marine heatwaves ever recorded, with some events persisting for over 500 days and covering nearly the entire globe. These searing ocean temperatures are causing mass coral bleaching and threatening fisheries, while also signaling deeper, system-wide climate changes.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists modeled nuclear winter—the global food collapse was worse than expected",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232419.htm",
-      "pubDate": "Thu, 24 Jul 2025 23:24:19 EDT",
-      "description": "What would happen if a nuclear war triggered a climate-altering catastrophe? Researchers have modeled how such a scenario could devastate global corn crops cutting production by as much as 87% due to blocked sunlight and increased UV-B radiation. Using advanced climate-agriculture simulations, they propose a survival strategy: emergency resilience kits containing fast-growing, cold-tolerant seeds that could keep food systems afloat not just after nuclear war, but also after volcanic eruptions or other mega-disasters.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
