@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-08-19T05:24:36.046872",
+  "fetched_at": "2025-08-19T06:37:31.664872",
   "items": [
+    {
+      "title": "The economics of a circular urban water system",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ade904",
+      "pubDate": "",
+      "description": "In many water-scarce locations, cities will need to reduce their freshwater withdrawals in order to adapt to the changing climatic conditions of the Anthropocene, reduce the risks of ‘Day Zeros,’ and reduce the disruption to the global hydrological cycle. This paper shows that it is possible for water utilities to make dramatic reductions in raw water withdrawals without proportionally large increases in system-wide costs. A simulation model is built that characterizes the piped water and wastewater network of an urban water utility in a hypothetical high-income city and the costs at nodes and links of the system. This simulation model is used to estimate the effects of four interventions—leakage reduction, demand reduction, potable reuse, and desalination—on raw water withdrawals and system-wide costs. We illustrate the effects of both individual interventions and policy mixes. Compared to the assumed baseline urban water and sanitation system, policy mixes can reduce raw water withdrawals by 74% with only modest increases in system-wide costs.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Shifts in diurnal cycles of low and high clouds warm the climate: evidence from decadal satellite observations",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf23c",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf864",
       "pubDate": "",
       "description": "Machine learning (ML) models are successful with weather forecasting and have shown progress in climate simulations, yet leveraging them for useful climate predictions needs exploration. Here we show this feasibility using neural general circulation model (NeuralGCM), a hybrid ML-physics atmospheric model developed by Google, for seasonal predictions of large-scale atmospheric variability and Northern Hemisphere tropical cyclone (TC) activity. Inspired by physical model studies, we simplify boundary conditions, assuming sea surface temperature and sea ice follow their climatological cycle but persist anomalies present at the initialization time. With such forcings, NeuralGCM can generate 100 simulation days in ∼8 min with a single graphics processing unit while simulating realistic atmospheric circulation and TC climatology patterns. This configuration yields useful seasonal predictions (July–November) for the tropical atmosphere and various TC activity metrics. Notably, the predicted and observed TC frequency in the North Atlantic and East Pacific basins are significantly correlated during 1990–2023 (r = ∼0.7), suggesting prediction skill comparable to existing physical GCMs. Despite challenges associated with model resolution and simplified boundary forcings, the model-predicted interannual variations demonstrate significant correlations with the observed sub-basin TC tracks (p < 0.1) and basin-wide accumulated cyclone energy (ACE) (p < 0.01) of the North Atlantic and North Pacific basins. These findings highlight the promise of leveraging ML models with physical insights to model TC risks and deliver seamless weather-climate predictions.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Transboundary trade poses regulatory challenges for EV battery recycling",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf865",
-      "pubDate": "",
-      "description": "Governments worldwide are advancing efforts to establish comprehensive regulatory frameworks for the circular economy of electric vehicle batteries. However, current regulations often overlook the impacts of transboundary trade. This article argues that while these cross-border practices may help companies reduce costs and comply with regulatory targets, they pose environmental risks, create regulatory loopholes, and undermine incentives to build domestic recycling capacity. To ensure effective battery recycling on a global scale, governments should introduce dedicated regulatory frameworks for cross-border trade activities to avoid ambiguities. International standards for information labeling and traceability systems covering batteries, waste batteries, and recycled materials are also needed. These governance efforts call for more research focused on the dynamics and impacts of transboundary trade in electric vehicle battery recycling.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
