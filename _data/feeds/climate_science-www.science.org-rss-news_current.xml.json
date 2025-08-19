@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-08-19T21:26:21.097963",
+  "fetched_at": "2025-08-19T22:23:52.044626",
   "items": [
+    {
+      "title": "Facing ‘impossible’ workload, USDA struggles to oversee lab animal welfare",
+      "link": "https://www.science.org/content/article/facing-impossible-workload-usda-struggles-oversee-lab-animal-welfare",
+      "pubDate": "",
+      "description": "Shrinking staff and other handicaps threaten enforcement of federal law that protects research animals",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "As salmon in Alaska plummet, scientists home in on a killer",
       "link": "https://www.science.org/content/article/alaska-s-salmon-plummet-scientists-home-killer",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/corrected-study-rekindles-debate-over-microsoft-s-quantum-computing-research",
       "pubDate": "",
       "description": "Dispute over elusive Majorana particles claimed in <em>Science</em> highlights controversial approach to robust quantum chips",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "By sucking up DNA, clot-producing platelets could help diagnose cancer",
-      "link": "https://www.science.org/content/article/sucking-dna-clot-producing-platelets-could-help-diagnose-cancer",
-      "pubDate": "",
-      "description": "The cells could be a new source of tumor DNA for liquid biopsies",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
