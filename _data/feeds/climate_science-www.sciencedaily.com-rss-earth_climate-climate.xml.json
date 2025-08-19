@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-19T09:26:53.570910",
+  "fetched_at": "2025-08-19T10:27:04.452036",
   "items": [
+    {
+      "title": "Scientists reveal how just two human decisions rewired the Great Salt Lake forever",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250818102953.htm",
+      "pubDate": "Tue, 19 Aug 2025 04:15:02 EDT",
+      "description": "Scientists found that Great Salt Lake’s chemistry and water balance were stable for thousands of years, until human settlement. Irrigation and farming in the 1800s and a railroad causeway in 1959 created dramatic, lasting changes. The lake now behaves in ways unseen for at least 2,000 years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "NASA’s PREFIRE satellites reveal a secret glow escaping from our planet",
       "link": "https://www.sciencedaily.com/releases/2025/08/250817055324.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250724232418.htm",
       "pubDate": "Thu, 24 Jul 2025 23:24:18 EDT",
       "description": "A new eco-friendly plastic called LAHB has shown it can biodegrade even in the extreme environment of the deep ocean, unlike conventional plastics that persist for decades. In real-world underwater testing nearly a kilometer below the surface, LAHB lost more than 80% of its mass after 13 months, while traditional PLA plastic remained completely intact. The secret? Colonies of deep-sea microbes actively broke down the material using specialized enzymes, converting it into harmless byproducts like CO and water.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The oceans are overheating—and scientists say a climate tipping point may be here",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232417.htm",
-      "pubDate": "Sat, 26 Jul 2025 12:47:47 EDT",
-      "description": "In 2023, the world’s oceans experienced the most intense and widespread marine heatwaves ever recorded, with some events persisting for over 500 days and covering nearly the entire globe. These searing ocean temperatures are causing mass coral bleaching and threatening fisheries, while also signaling deeper, system-wide climate changes.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
