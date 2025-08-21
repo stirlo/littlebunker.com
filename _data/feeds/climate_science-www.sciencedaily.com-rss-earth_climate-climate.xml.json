@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-21T05:25:27.736585",
+  "fetched_at": "2025-08-21T06:47:10.849067",
   "items": [
+    {
+      "title": "This is where tree planting has the biggest climate impact",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250820000810.htm",
+      "pubDate": "Thu, 21 Aug 2025 00:34:57 EDT",
+      "description": "Planting more trees can help cool the planet and reduce fire risk—but where they are planted matters. According to UC Riverside researchers, tropical regions provide the most powerful climate benefits because trees there grow year-round, absorb more carbon dioxide, and cool the air through processes like evapotranspiration, or “tree sweating.”",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists reveal how just two human decisions rewired the Great Salt Lake forever",
       "link": "https://www.sciencedaily.com/releases/2025/08/250818102953.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250726234404.htm",
       "pubDate": "Sun, 27 Jul 2025 01:47:58 EDT",
       "description": "Air pollution isn't just bad for your lungs—it may be eroding your brain. In a sweeping review covering nearly 30 million people, researchers found that common pollutants like PM2.5, nitrogen dioxide, and soot are all linked to a significantly higher risk of dementia. The most dangerous? PM2.5—tiny particles from traffic and industry that can lodge deep in your lungs and reach your brain.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "This plastic disappears in the deep sea—and microbes make it happen",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250724232418.htm",
-      "pubDate": "Thu, 24 Jul 2025 23:24:18 EDT",
-      "description": "A new eco-friendly plastic called LAHB has shown it can biodegrade even in the extreme environment of the deep ocean, unlike conventional plastics that persist for decades. In real-world underwater testing nearly a kilometer below the surface, LAHB lost more than 80% of its mass after 13 months, while traditional PLA plastic remained completely intact. The secret? Colonies of deep-sea microbes actively broke down the material using specialized enzymes, converting it into harmless byproducts like CO and water.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
