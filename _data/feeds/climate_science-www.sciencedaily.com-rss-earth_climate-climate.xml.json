@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-08-22T08:32:31.584395",
+  "fetched_at": "2025-08-22T09:27:25.045202",
   "items": [
+    {
+      "title": "Ozone recovery could trigger 40% more global warming than predicted",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250821094527.htm",
+      "pubDate": "Fri, 22 Aug 2025 04:00:39 EDT",
+      "description": "As the ozone layer recovers, it’s also intensifying global warming. Researchers predict that by 2050, ozone will rank just behind carbon dioxide as a driver of heating, offsetting many of the benefits from banning CFCs.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "This is where tree planting has the biggest climate impact",
       "link": "https://www.sciencedaily.com/releases/2025/08/250820000810.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/07/250726234415.htm",
       "pubDate": "Sun, 27 Jul 2025 04:38:36 EDT",
       "description": "For over two decades, satellites have quietly documented a major crisis unfolding beneath our feet: Earth's continents are drying out at unprecedented rates. Fueled by climate change, groundwater overuse, and extreme drought, this trend has carved out four massive \"mega-drying\" regions across the northern hemisphere, threatening freshwater supplies for billions. Groundwater loss alone now contributes more to sea level rise than melting ice sheets, and unless urgent global water policies are enacted, we could face a catastrophic freshwater bankruptcy.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Is the air you breathe silently fueling dementia? A 29-million-person study says yes",
-      "link": "https://www.sciencedaily.com/releases/2025/07/250726234404.htm",
-      "pubDate": "Sun, 27 Jul 2025 01:47:58 EDT",
-      "description": "Air pollution isn't just bad for your lungs—it may be eroding your brain. In a sweeping review covering nearly 30 million people, researchers found that common pollutants like PM2.5, nitrogen dioxide, and soot are all linked to a significantly higher risk of dementia. The most dangerous? PM2.5—tiny particles from traffic and industry that can lodge deep in your lungs and reach your brain.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
