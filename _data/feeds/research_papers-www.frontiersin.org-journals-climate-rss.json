@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-08-22T05:24:34.307908",
+  "fetched_at": "2025-08-22T06:36:56.999805",
   "items": [
+    {
+      "title": "All-cause excess mortality associated with the Lāhainā, Maui fires",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1611198",
+      "pubDate": "2025-08-22T00:00:00Z",
+      "description": "ObjectivesTo quantify all-cause excess mortality, defined as the number of deaths exceeding the expected baseline, associated with the 2023 Lāhainā wildfire in Maui County, Hawai‘i, and highlight public health implications.MethodsExcess mortality was estimated using seasonal autoregressive integrated moving average models trained on data from August 2018–July 2023. Projections were generated via 5,000 bootstrapped simulations, with a sensitivity analysis excluding COVID-19-attributed deaths.ResultsAugust 2023 reported 82 (95% CI: 55–100) excess deaths, with all-cause mortality 67% higher than expected (observed-to-expected mortality rate: 1.67; 95% CI: 1.38–2.00). Mortality peaked the week of August 19, with a 367% increase (67 excess deaths: 3.67; 2.65–5.96). Non-medical deaths increased from 68 to 80%.ConclusionThe Lāhainā wildfire caused substantial excess mortality, likely making wildfires a leading cause of death in Maui County during this period. Findings highlight the need for improved disaster preparedness. Policy Implications. Rebuilding must incorporate Native Hawaiian ecological knowledge. Policies should focus on restoring Indigenous wetlands, removing flammable invasive grasses, and ensuring environmental justice for Native Hawaiians.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Methane reductions with gypsum and SOP® lagoon additives in liquid manure",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1592677",
@@ -155,14 +163,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1652559",
       "pubDate": "2025-07-14T00:00:00Z",
       "description": "",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Evaluating pre-disaster subsidized relocations in coastal Louisiana via a game-theoretic approach",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1514456",
-      "pubDate": "2025-07-14T00:00:00Z",
-      "description": "Coastal communities face increasing flood risks due to sea level rise and climate change, necessitating more proactive risk reduction strategies. Pre-disaster relocations, supported by government subsidies, offer a potentially cost-effective solution, enabling at-risk homeowners to relocate before catastrophic losses occur. This study estimates the potential effectiveness and equity implications of two pre-disaster relocation strategies using an optimization framework and high-resolution flood risk and structural data from Louisiana’s Coastal Master Plan. Our findings indicate that a total investment of about $8 billion US in pre-disaster relocations could achieve approximately $0.5 billion in flood risk reduction annually over the next 50 years, with greater benefits in later years corresponding to increasing hazard as sea levels rise. Subsidies are allocated proportionally to flood risk, ensuring procedural fairness, though potential distributional inequities remain. While pre-disaster relocation strategies improve cost-effectiveness and risk mitigation, they do not fully resolve barriers to relocation, including housing affordability, community attachment, and structural inequities in flood exposure. This study provides quantitative insights into relocation feasibility and trade-offs, informing future research on adaptive relocation strategies and equity-focused flood mitigation policies.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
