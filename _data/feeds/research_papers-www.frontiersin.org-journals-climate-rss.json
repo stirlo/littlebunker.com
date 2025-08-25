@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-08-25T05:26:16.387188",
+  "fetched_at": "2025-08-25T06:38:42.238642",
   "items": [
+    {
+      "title": "Pyrogenic carbon and carbonating minerals for carbon capture and storage (PyMiCCS) part II: organic and inorganic carbon dioxide removal in an Oxisol",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1592454",
+      "pubDate": "2025-08-25T00:00:00Z",
+      "description": "Enhanced rock weathering (ERW) and pyrogenic carbon capture and storage (PyCCS, or “biochar carbon removal”) are two promising carbon dioxide removal (CDR) techniques that can contribute to soil restoration. These technologies can be combined by co-application of rock powder and biochar or by co-pyrolysis of rock powder with biomass to produce rock-enhanced (RE) biochar. In a 27-week laboratory experiment, we quantified the carbon (C) sink development of co-applications and RE-biochars produced by co-pyrolysis of basanite rock powder with either 50 or 90 wt% willow wood or 90 wt% wheat straw. Incubators featured two elevated soil pCO2 levels (0.012 and 0.062 atm, equivalent to about 1.2 and 6.2 Vol-% CO2) in a clay-rich, nutrient-poor Oxisol, with a simulated annual rainfall of 1,600 mm. Results showed strong initial fluxes of total alkalinity (TA), dissolved inorganic carbon (DIC), dissolved organic carbon (DOC), and major cations (Mg2+, Ca2+, K+, Na+), which decreased over time. Notably, elevated pCO2 had minimal impact on the release of DOC but doubled the TA flux from ERW. An important observation was the impact of waterlogging on water fluxes in soil columns without biochar, which lowered the amount of leached cations from rock and biochar. We defined the carbon sink (C-Sink) to include all DIC of geogenic and biogenic origin, and pyrogenic carbon from biochar. Biogenic cations were not considered as contributing to additional CO2 sequestration. For a soil application equivalent to application of 12 t ha−1, the total net C-Sink ranged from −0.1 to 30.9 t CO2 ha−1 after 27 weeks under 1.2 Vol-% CO2. We were not able to determine a change in rock weathering rates from co-pyrolysis since biogenic and geogenic cations could not be distinguished. A 20-year forecast suggests net C-Sinks between 0.5 t and 28.7 t CO2 ha−1, driven by increased contributions from weathering, alongside a C-Sink loss of carbon due to biochar mineralization. While biochar alone generally produces a larger C-Sink, co-application with rock powder fosters soil remineralization and provides a higher permanence of the C-Sink. Additionally, biochar increases water-holding capacity, prevents waterlogging of soils and likely improves the retention of organic carbon in soils.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "All-cause excess mortality associated with the Lāhainā, Maui fires",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1611198",
@@ -23,18 +31,18 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Beekeepers' intentions to adopt resilience strategies for climate change: a comparative and integrated approach using the theory of planned behavior and protection motivation theory",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1604488",
-      "pubDate": "2025-08-18T00:00:00Z",
-      "description": "Beekeeping plays a vital role in global food security, contributing to the pollination of up to 30% of global food production and ensuring the sustainability of food supplies worldwide. However, climate change has significantly impacted beekeeping in recent years, affecting honeybees, pollination, and honey harvesting. Due to the effects of climate variability, which impose environmental strain on bees and beekeepers, modifications in management strategies and agricultural practices are essential to enhance biodiversity, guarantee agricultural sustainability, and ensure food security. This study aims to investigate the factors influencing beekeepers' intentions to adopt resilience strategies in response to climate change using protection motivation theory (PMT), the theory of planned behavior (TPB), and an extended PMT model. The study uses data obtained from a survey of 120 Tunisian beekeepers. The findings from the partial least squares analysis highlight the value and complementarity of the three models (TPB, PMT, and extended PMT), with the extended model offering superior explanatory and predictive power. The TPB model reveals the significant influence of perceived behavioral control and attitudes toward climate change resilience strategies on the intention to adopt them. The PMT model emphasizes the roles of self-efficacy, coping appraisal, and the perception of climate change occurrence in shaping adoption intentions, with self-efficacy being the most impactful factor. The extended PMT model further demonstrates that self-efficacy strongly influences perceived behavioral control. Overall, all three models show a positive and significant impact of intention on the selection of specific resilience strategies.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "Enhancing system resilience to climate change through artificial intelligence: a systematic literature review",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1585331",
       "pubDate": "2025-08-18T00:00:00Z",
       "description": "The growing urgency of climate change necessitates innovative strategies to enhance system resilience across many sectors. Artificial Intelligence (AI) emerges as a transformative tool in this regard, yet existing research remains fragmented across sectors and regions. We conducted a systematic literature review of 385 peer-reviewed articles published between 2000 and early 2025, following the PRISMA protocol. The analysis classifies AI applications across nine key sectors and evaluates their relevance to adaptation, mitigation, or both. AI methodologies and regional distribution were also assessed. The findings show a dominant focus on adaptation (64.4%), with only 16% of studies addressing mitigation, and 19.4% engaging both. Classical Machine Learning techniques are the most used (51.4%), followed by deep learning models (22.3%). Regional disparities are evident: Asia and global-scale studies account for two-thirds of the literature, while Africa and South America are underrepresented. Sectorally, agriculture and urban infrastructure receive the most attention. Despite the promise of AI, major challenges persist in data access, model transparency, and equitable deployment, particularly in vulnerable regions. This review distinguishes itself by offering a comprehensive, cross-sectoral synthesis and emphasizing system-level resilience. It highlights the need for regionally tailored AI solutions, interdisciplinary collaboration, and ethical frameworks to ensure AI contributes meaningfully to global climate resilience efforts.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "Beekeepers' intentions to adopt resilience strategies for climate change: a comparative and integrated approach using the theory of planned behavior and protection motivation theory",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1604488",
+      "pubDate": "2025-08-18T00:00:00Z",
+      "description": "Beekeeping plays a vital role in global food security, contributing to the pollination of up to 30% of global food production and ensuring the sustainability of food supplies worldwide. However, climate change has significantly impacted beekeeping in recent years, affecting honeybees, pollination, and honey harvesting. Due to the effects of climate variability, which impose environmental strain on bees and beekeepers, modifications in management strategies and agricultural practices are essential to enhance biodiversity, guarantee agricultural sustainability, and ensure food security. This study aims to investigate the factors influencing beekeepers' intentions to adopt resilience strategies in response to climate change using protection motivation theory (PMT), the theory of planned behavior (TPB), and an extended PMT model. The study uses data obtained from a survey of 120 Tunisian beekeepers. The findings from the partial least squares analysis highlight the value and complementarity of the three models (TPB, PMT, and extended PMT), with the extended model offering superior explanatory and predictive power. The TPB model reveals the significant influence of perceived behavioral control and attitudes toward climate change resilience strategies on the intention to adopt them. The PMT model emphasizes the roles of self-efficacy, coping appraisal, and the perception of climate change occurrence in shaping adoption intentions, with self-efficacy being the most impactful factor. The extended PMT model further demonstrates that self-efficacy strongly influences perceived behavioral control. Overall, all three models show a positive and significant impact of intention on the selection of specific resilience strategies.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1644272",
       "pubDate": "2025-07-17T00:00:00Z",
       "description": "Since its inception in 1980, the World Climate Research Programme (WCRP) has coordinated and facilitated international climate research to develop, share, and apply the climate knowledge that contributes to societal well-being. Through international science coordination and partnerships, WCRP contributes to advancing our understanding of the multi-scale dynamic interactions between natural and social systems that affect climate. WCRP-supported research builds the climate science that is the basis for IPCC Assessments and Special Reports and underpins the United Nations Framework Convention on Climate Change including national commitments to the 2015 Paris Agreement. It also contributes to the knowledge that supports the 2030 Agenda for Sustainable Development, the Sendai Framework for Disaster Risk Reduction, and multilateral environmental conventions. To shape the future climate science agenda, WCRP organized its second Open Science Conference, which took place between October 23 and 27, 2023 and was hosted by the Rwanda Environment Management Authority (REMA) in Kigali, Rwanda. This once-in-a-decade event took place in a truly hybrid setting, bringing together over 1,400 participants representing scientists from diverse research communities worldwide as well as practitioners, planners, and politicians.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Correction: Co-benefits of resilience planning: a review of analysis tools and methods",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1652559",
-      "pubDate": "2025-07-14T00:00:00Z",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
