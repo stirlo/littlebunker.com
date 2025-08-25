@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-08-25T21:22:48.075248",
+  "fetched_at": "2025-08-25T22:23:55.445202",
   "items": [
+    {
+      "title": "Trump administration pushes ahead with NOAA climate and weather cuts",
+      "link": "https://www.science.org/content/article/trump-administration-pushes-ahead-noaa-climate-and-weather-cuts",
+      "pubDate": "",
+      "description": "Despite congressional resistance, agency aims to cut research spending now",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "AI-generated scientific hypotheses lag human ones when put to the test",
       "link": "https://www.science.org/content/article/ai-generated-scientific-hypotheses-lag-human-ones-when-put-test",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/massive-tropical-bat-surprisingly-family-oriented-rare-videos-show",
       "pubDate": "",
       "description": "New footage reveals spectral bats “hugging,” playing, and bringing food to their young",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Neutrino astronomers set biggest traps ever for messengers from cosmic accelerators",
-      "link": "https://www.science.org/content/article/neutrino-astronomers-set-biggest-traps-ever-messengers-cosmic-accelerators",
-      "pubDate": "",
-      "description": "Country-size array of radio antennas could trace ultra–high-energy particles back to supernovae and black holes",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
