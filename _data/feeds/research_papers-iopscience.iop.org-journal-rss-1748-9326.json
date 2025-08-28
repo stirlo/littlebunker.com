@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-08-28T14:24:44.489489",
+  "fetched_at": "2025-08-28T15:25:47.082085",
   "items": [
+    {
+      "title": "Shutdown of northern Atlantic overturning after 2100 following deep mixing collapse in CMIP6 projections",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfa3b",
+      "pubDate": "",
+      "description": "Several, more recent global warming projections in the coupled model intercomparison project 6 contain extensions beyond year 2100–2300/2500. The Atlantic meridional overturning circulation (AMOC) in these projections shows transitions to extremely weak overturning below the surface mixed layer (<6 Sv; 1 Sv = 106 m3 s−1) in all models forced by a high-emission (SSP585) scenario and sometimes also forced by an intermediate- (SSP245) and low-emission (SSP126) scenario. These extremely weak overturning states are characterised by a shallow maximum overturning at depths less than 200 m and a shutdown of the circulation associated with North Atlantic deep water formation. Northward Atlantic heat transport at 26°N decreases to 20%–40% of the current observed value. Heat release to the atmosphere north of 45°N weakens to less than 20% of its present-day value and in some models completely vanishes, leading to strong cooling in the subpolar North Atlantic and Northwest Europe. In all cases, these transitions to a weak and shallow AMOC are preceded by a mid-21st century collapse of maximum mixed-layer depth in Labrador, Irminger and Nordic Seas. The convection collapse is mainly caused by surface freshening from a decrease in northward salt advection due to the weakening AMOC but is likely initiated by surface warming. Maximum mixed-layer depths in the observations are still dominated by internal variability but notably feature downward trends over the last 5–10 years in all deep mixing regions for all data products analysed. This could be merely variability but is also consistent with the model-predicted decline of deep mixing.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Vegetation patterning can both impede and trigger critical transitions from savanna to grassland",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adc3ab",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf980",
       "pubDate": "",
       "description": "Vegetation greening trends are a critical and direct indicator to reflect photosynthetic activity of plants at the ecosystem scale. The monitoring of vegetation greening is crucial for assessing ecosystem health, sustaining biodiversity, improving soil health, and providing direction for effective environmental management. However, long-term changes in greening trends are rarely reported due to radiometric inconsistencies among different satellite sensors. Here, we used 12 machine learning algorithms to perform pixel correction on 42 years of moderate resolution imaging spectroradiometer normalized difference vegetation index (NDVI) and GIMMS NDVI data. The models exhibited high accuracy (93%–97%), yielding a robust ensemble R2 of 0.88 at the spatial scale. From 1982 to 2023, global NDVI had an increasing trend (0.0012), particularly in the high-latitude regions of the Northern Hemisphere (>60° N), with the rate of increase accelerating since 2000. Temperature and water conditions showed significant correlations with greening trends, exhibiting spatially asymmetric effects. In addition, frequent land cover changes promoted the growth of greening trends (∼23%), which is linked to enhanced structural plasticity of vegetation. This effect has become more pronounced since 2000, with 92% of such changes occurring during this period. Anthropogenic impact may play a role in driving greening trend reductions, rather than enhancements.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Anthropogenic influence on fixed threshold-based heatwave in China and constrained future projection",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfaa5",
-      "pubDate": "",
-      "description": "The 35 °C threshold-based heatwave (HW) holds particular significance for human health, energy supply and animal welfare, serving as a critical criterion for issuing high-temperature warnings in China. However, the quantified influence of greenhouse gases (GHGs) and anthropogenic aerosols (AA) on HW days (HWD) and cumulative intensity (HWS) remains underexplored. Here, we investigated these influences based on a threshold adjustment method and optimal fingerprint method. Using observations from 1961–2020, we found that both HWD and HWS experienced a clear increase across most of China, with the largest changes centered in eastern and northwestern China. Bias-corrected Coupled Model Intercomparison Project Phase 6 (CMIP6) climate models successfully reproduced the observed changes as well as the regional differences. Anthropogenic forcing dominated by GHGs was robustly detected, with the influence of GHGs and AA successfully separated. Attribution analysis revealed that GHGs explained about 126.3% of HW changes. Constrained projections indicated that both HWD and HWS would continue to increase until 2050, even under the most optimistic low-emission scenario. Eastern China was projected to experience fast HW increase, likely due to intensified GHG emission combined with anticipated reduction in AA in the future, highlighting the urgency of developing mitigation and adaptation policies.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
