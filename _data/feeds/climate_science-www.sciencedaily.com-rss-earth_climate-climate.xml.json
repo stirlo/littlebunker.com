@@ -4,7 +4,7 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-01T14:23:24.236715",
+  "fetched_at": "2025-09-01T15:23:59.848964",
   "items": [
     {
       "title": "Geologists got it wrong: Rivers didn’t need plants to meander",
@@ -19,6 +19,22 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250831010526.htm",
       "pubDate": "Sun, 31 Aug 2025 06:15:55 EDT",
       "description": "As the Great Salt Lake shrinks, scientists are uncovering mysterious groundwater-fed oases hidden beneath its drying lakebed. Reed-covered mounds and strange surface disturbances hint at a vast underground plumbing system that pushes fresh water up under pressure. Using advanced tools like airborne electromagnetic surveys and piezometers, researchers are mapping the hidden freshwater reserves and testing whether they could help restore fragile lakebed crusts, reduce dust pollution, and reveal long-buried secrets of the region’s hydrology.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists fear the Atlantic’s great ocean conveyor could shut down",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250830001201.htm",
+      "pubDate": "Mon, 01 Sep 2025 10:41:25 EDT",
+      "description": "A new study projects that the Atlantic Meridional Overturning Circulation (AMOC)—the system of currents that includes the Gulf Stream—could shut down after 2100 under high-emission scenarios. This shutdown would drastically reduce heat transport northward, leaving Europe vulnerable to extreme winters, summers of drying, and shifts in tropical rainfall. Climate models show the tipping point is linked to collapsing winter convection in the North Atlantic, which weakens vertical mixing and creates a feedback loop that accelerates decline.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "A monster seaweed bloom is taking over the Atlantic",
+      "link": "https://www.sciencedaily.com/releases/2025/08/250830001159.htm",
+      "pubDate": "Mon, 01 Sep 2025 09:44:05 EDT",
+      "description": "Sargassum has escaped the Sargasso Sea and exploded across the Atlantic, forming the massive Great Atlantic Sargassum Belt. Fueled by nutrient runoff, Amazon outflows, and climate events, these blooms now reshape ecosystems, economies, and coastlines on a staggering scale.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250809100910.htm",
       "pubDate": "Sat, 09 Aug 2025 10:46:57 EDT",
       "description": "Deep beneath the Antarctic seas lies a hidden network of 332 colossal submarine canyons, some plunging over 4,000 meters, revealed in unprecedented detail by new high-resolution mapping. These underwater valleys, shaped by glacial forces and powerful sediment flows, play a vital role in transporting nutrients, driving ocean currents, and influencing global climate. Striking differences between East and West Antarctica’s canyon systems offer clues to the continent’s ancient ice history, while also exposing vulnerabilities as warm waters carve away at protective ice shelves.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "DNA from the deep reveals a hidden ocean “superhighway”",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250806094119.htm",
-      "pubDate": "Thu, 07 Aug 2025 02:25:04 EDT",
-      "description": "Deep beneath the ocean's surface, a groundbreaking DNA study reveals that the deep sea is far more globally connected than once thought. By analyzing thousands of brittle stars preserved in museum collections, scientists discovered these ancient creatures have silently migrated across the planet's seafloor for millions of years, forming a vast evolutionary network from Iceland to Tasmania.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "This prehistoric predator survived global warming by eating bones",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250806094118.htm",
-      "pubDate": "Wed, 06 Aug 2025 23:53:38 EDT",
-      "description": "A prehistoric predator changed its diet and body size during a major warming event 56 million years ago, revealing how climate change can reshape animal behavior, food chains, and survival strategies.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
