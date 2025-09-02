@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-02T15:27:02.471237",
+  "fetched_at": "2025-09-02T16:30:54.457031",
   "items": [
+    {
+      "title": "Corrigendum: ‘The Paramo Fire Atlas: quantifying burned area and trends across the Tropical Andes’ (2025 Environ. Res. Lett. 20 054019)",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfb8f",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Global evidence that cold rocky landforms support icy springs in warming mountains",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf07f",
@@ -79,10 +87,66 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Evaluation of urban function and its heterogeneous relationships with environmental pollution in urban and rural areas",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfceb",
+      "pubDate": "",
+      "description": "Urban function plays a vital role in shaping environmental outcomes, yet its spatial organization remains underexplored compared to urban form. This study develops a land function connectivity index (LFCI) to quantitatively evaluate how urban land functions are spatially arranged and how they relate to environmental pollution. Using Hangzhou, China, as a case study, we examine the relationship between LFCI and PM2.5 concentrations, a widely used proxy for environmental pollution, through spatial econometric models, including the ordinary least squares, spatial error model and spatial lag model. Our findings reveal significant spatial autocorrelation and a positive relationship between LFCI and PM2.5 concentrations, with spatial heterogeneity between urban and rural areas. Moreover, to capture potential nonlinearities, we incorporate quadratic terms of LFCI in the models and observe an inverted U-shaped relationship in urban areas, where PM2.5 initially increases with LFCI but decreases after surpassing a threshold. This suggests that a well-integrated and compact land use structure may help reduce environmental impacts. In contrast, rural areas exhibit a more linear or U-shaped relationship, indicating a higher sensitivity to development intensity. The findings highlight the need for context-specific planning strategies, advocating for the re-utilization of urban land over rural expansion to improve environmental quality. Overall, this research provides quantitative guidance for the development of targeted land management strategies aimed at strengthening urban resilience and sustainability.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Enhancing the climate resilience of protected area networks in drylands: a spatiotemporal optimization framework integrating connectivity and protection effectiveness",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfced",
+      "pubDate": "",
+      "description": "Desertification intensified by climate change and human activities poses major challenges to biodiversity conservation in dryland regions. In these areas, habitat fragmentation and weak spatial planning and management result in poor connectivity and low protection effectiveness of protected areas (PAs), hindering long-term biodiversity conservation and ecosystem stability. Therefore, based on the evolution of the PA network in the drylands of Central and East Asia from 2000 to 2030, this study integrates circuit theory and the MaxEnt model to systematically assess the protection capacity of PAs. A multi-dimensional optimization model—spatiotemporal change–connectivity–protection effectiveness (SCPE)—is proposed to optimize the PA network from three perspectives: spatial structure, functional performance, and climate adaptability. The results show that network connectivity improves most significantly under the SSP1-2.6 scenario, while protection effectiveness declines across all scenarios, indicating a growing spatial mismatch between PA distribution and biodiversity hotspots. Optimization based on the SCPE model effectively alleviates this mismatch, with the lowest demand for new corridors and buffer zones under SSP1-2.6 and the highest under SSP5-8.5. After optimization, IIC and PC increase by 49.90% and 49.41%, respectively, under SSP1-2.6, significantly enhancing network resilience. The findings demonstrate that the SCPE model, driven by function-oriented strategies, can effectively improve the connectivity and climate responsiveness of PA networks. This provides scientific support for adaptive conservation planning under climate change and offers practical tools for biodiversity conservation in dryland ecosystems.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Global multi-model trends of unsustainable irrigation under climate change scenarios",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfcee",
+      "pubDate": "",
+      "description": "Recent advances in hydrological modeling have quantified unsustainable irrigation water consumption (UIWC), underscoring its impacts on freshwater stocks depletion and environmental flows impairment. However, the long-term sustainability of irrigation under different climate change scenarios remains insufficiently explored. Here, we assess future trajectories of UIWC using an ensemble of simulations under a sustainable development pathway (SSP1-2.6) and a high-emissions pathway (SSP5-8.5), projecting changes through each decade until 2100. The baseline estimate of global UIWC is 458 km3 yr−1. Global UIWC is projected to increase under climate change, but multi-model projections show substantial uncertainty. By 2100, estimates range from 458 to 546 km3 yr−1 under the low-emission SSP1-2.6 scenario, and from 456 to 638 km3 yr−1 under the high-emission SSP5-8.5 scenario, highlighting divergent future outcomes depending on emissions pathways and model assumptions. Under baseline conditions, the Ganges, Sabarmati, and Indus basins have the highest UIWC. Climate change scenarios show divergent regional trends, with the SSP5-8.5 scenario projecting larger increases in UIWC—especially in the Ganges, Indus, and US High Plains—compared to SSP1-2.6. These increases reflect both greater climate impacts and higher model uncertainty. Normalizing UIWC by irrigated area reveals hotspots of irrigation pressure, particularly in South Asia and the Nile Delta, where per-area UIWC exceeds 50 mm yr−1, and is projected to rise further under both scenarios. By assessing multi-model water scarcity risks in irrigated croplands, these findings provide crucial insights for guiding climate change adaptation strategies in agriculture.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Whitebark pine in the United States projected to experience an 80% reduction in climatically suitable area by the mid-21st century",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfcef",
+      "pubDate": "",
+      "description": "Whitebark pine (WBP; Pinus albicaulis) is a five-needle conifer tree species native to the western United States (US) and southwestern Canada. In the US, this ecologically important species is listed as ‘threatened’ under the Endangered Species Act because of population declines from compound stressors, including climate change, introduced white pine blister rust (WPBR), widespread outbreaks of mountain pine beetle, and altered fire regimes. Species recovery depends primarily on planting WBP seedlings that are resistant to WPBR, but suitable planting locations are likely to shift under climate warming. We modeled and mapped WBP climatic suitability in the US using forest inventory data and fine-scale (∼220 m) climate datasets under reference period (1961–1990) and mid-21st century climatic conditions. We projected an 80% reduction in the area climatically suitable for WBP by the mid-21st century. Moreover, 75% of the climatically suitable area for WBP under mid-21st century climate is located in designated wilderness areas and national parks. This could challenge WBP recovery efforts, as these protected areas strive to reduce human manipulation of ecological systems. WBP climate suitability maps resulting from our models can be used to identify priority or ‘target areas’ where planting will have the highest likelihood of success and to identify areas within the WPB’s current range that are most vulnerable to rapid change should high-severity wildfires or mountain pine beetle outbreaks occur. Mapping WBP reference period and mid-21st century climate suitability is a fundamental step to efficiently prioritize restoration areas and develop a successful recovery program.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Projecting U.S. coastal storm surge risks and impacts with deep learning",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfd74",
+      "pubDate": "",
+      "description": "Storm surge is one of the deadliest hazards posed by tropical cyclones (TCs), yet assessing its current and future risk is difficult due to the phenomenon’s rarity and physical complexity. Recent advances in artificial intelligence applications to natural hazard modeling suggest a new avenue for addressing this problem. We develop a deep learning storm surge model to efficiently estimate coastal surge risk in the United States from 900 000 synthetic TC events, accounting for projected changes in TC behavior and sea levels. The derived historical 100 year surge (the event with a 1% yearly exceedance probability) agrees well with historical observations and other modeling techniques. When coupled with an inundation model, we find that heightened TC intensities and sea levels by the end of the century result in a 50% increase in population at risk. Key findings include markedly heightened risk in Florida, and critical thresholds identified in Georgia and South Carolina.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Climate-induced redistribution of people is not inevitable",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfdfd",
       "pubDate": "",
       "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Unveiling the impacts of winter Atlantic Niño/Niña on the ENSO decay pace",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfe01",
+      "pubDate": "",
+      "description": "El Niño–Southern Oscillation (ENSO) is the pronounced interannual variability with tremendous impacts on global climates. As varying ENSO decay pace results in significantly different climate impacts, understanding the factors responsible for ENSO decay is vital for improving the prediction of ENSO evolution and its climate effects. Here we show the sea surface temperature variability peaking in boreal winter over the equatorial Atlantic, dubbed as winter Atlantic Niño/Niña, regulates ENSO decay pace via modulating trans-basin Walker circulation. Both observational analyses and pacemaker experiments demonstrates that El Niños concurrent with preceding winter Atlantic Niño would decay rapidly, while those with a winter Atlantic Niña tend to decay slowly. Analogously, La Niñas would undergo a prolonged attenuation following a winter Atlantic Niño but evanish rapidly following a winter Atlantic Niña. Our results highlight the winter Atlantic Niño/Niña as a crucial factor modulating ENSO decay pace, offering valuable insights for improving seasonal forecasts of ENSO evolution in decaying phase.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Faster-than-expected intensification of heat extremes in a maritime climate: a New Zealand case study",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfe80",
+      "pubDate": "",
+      "description": "Heat extremes are some of the fastest changing climate hazards in a warming world, but are often perceived to be less consequential in cool mid-latitude countries. This includes New Zealand, where significant knowledge gaps exist around the future risks they pose. Here, we present the first comprehensive analysis of projected New Zealand heat extremes across various event durations (1, 5, 10, 15, and 30 days) using the latest suite of dynamically downscaled CMIP6 climate projections for New Zealand. We find that longer duration extreme events with a 1-in-10 year return period in Historical simulations, will begin to occur at least every other year across the majority of the country by the mid 21st-century under a SSP2-4.5 warming scenario, with shorter duration events emerging more slowly. Once model-specific warming rates are accounted for, we find a consistent pattern of accelerated warming for the hottest days of the year, with each degree of annual-mean warming over the wider New Zealand region resulting in approximately 1.6 ∘C of change in the hottest days of the year. Importantly, we find evidence of heat extremes intensifying much faster than mean warming across many regions of inland New Zealand, contradicting past claims of muted changes based on coarse resolution global climate models. Finally, we examine a model-based example of a physically plausible record-shattering heatwave capable of occurring in the present climate, with five-day temperature anomalies exceeding +10 ∘C over large parts of the North Island.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
