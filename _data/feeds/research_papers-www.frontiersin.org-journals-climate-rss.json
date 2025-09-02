@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-09-02T04:29:27.921703",
+  "fetched_at": "2025-09-02T05:24:49.172190",
   "items": [
+    {
+      "title": "How does digital financial inclusion improve Chinese county-level carbon productivity?",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1644628",
+      "pubDate": "2025-09-02T00:00:00Z",
+      "description": "China has put forward the “carbon peak and carbon neutral” climate commitment, but as the basic unit of the national economy, China’s county economy is facing the double pressure of economic growth and emission reduction. Based on panel data spanning 1677 Chinese counties from 2014 to 2022, this study employs fixed-effects, mediation, moderation, and quantile models to analyze and derive the following conclusions. (1) digital financial inclusion has a significant impact on the improvement of county carbon productivity, with an influence coefficient as high as 19.44%. (2) Digital financial inclusion enhances county-level carbon productivity by promoting technological innovation and industrial structure upgrading. The positive moderating effects of traditional finance and urbanization further amplify this impact. Digital financial inclusion exerts a strong positive effect on carbon productivity at lower quantiles, but its influence diminishes at median quantiles and turns negative at higher quantiles. This pattern reflects diminishing marginal returns and tightening resource constraints as development approaches the technological frontier. (3) Only digitalization level and coverage breadth of digital financial inclusion have a significant positive impact on county carbon productivity, and the effect of digitalization level is almost twice that of coverage breadth. The influence coefficients of digital inclusive finance on carbon productivity in the Yangtze River Economic Belt and the Yellow River Basin are 21.72% and 27.82%, respectively, which are more significant than those in other places. This paper recommends prioritizing low-carbon industrial development, shifting focus to less-developed regions to leverage latecomer advantages, and embedding carbon productivity targets into regional strategies with incentive mechanisms to drive sustainable growth.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Examining climate shocks and currency resilience in a stateless economy: evidence from Somalia’s informal exchange market",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1615226",
@@ -155,14 +163,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1557352",
       "pubDate": "2025-07-21T00:00:00Z",
       "description": "Despite the growing body of scientific literature on mainstreaming climate change adaptation (CCA) into urban planning and numerous implementation guidelines, adaptation remains insufficiently integrated across sectors and scales in urban development, particularly in cities in the Global South. Persisting challenges are conceptual ambiguity, lengthy and overwhelming manuals and guidelines not tailored to planners' needs, and the limited transferability of case study findings especially for cities in the Global South. This study addresses these gaps by developing a pragmatic mainstreaming protocol tailored for urban policymakers and planners to facilitate the mainstreaming of CCA into urban development planning. It provides information and guidance regarding four key elements of mainstreaming: policy formulation, planning, resource allocation and implementation. The protocol was piloted in Metro Manila, the Philippines, focusing on enhancing the integration of upgrading and resettlement as adaptation strategies in urban development planning. They contribute to the ongoing debate on whether mainstreaming of adaptation into general urban planning is more effective than dedicated adaptation policies. This work highlights the need for coherent policies, clear roles, and cross-sectoral collaboration to ensure resilient urban development in vulnerable regions.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Comparing future projections of warm spells and their characteristics under climate change and stratospheric aerosol injection in CESM2 and UKESM1",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1581305",
-      "pubDate": "2025-07-18T00:00:00Z",
-      "description": "Extreme heat events have increased in frequency, intensity and duration over the last several decades as a result of anthropogenic climate change. Extreme heat events impact human and natural systems including human mortality and morbidity, agricultural and livestock yields, ecosystem vulnerability and water resource management. Increasing risks from climate change has prompted an increase in research into the potential impacts—both good and bad—of climate intervention. Stratospheric aerosol injection (SAI) is one of the most studied methods of climate intervention and could quickly cool or stabilize global temperatures by injecting reflective aerosols into the stratosphere. We investigate future projections of a type of extreme heat event, called a warm spell, in the context of a policy relevant and moderate emissions scenario (SSP2–4.5) and SAI deployment simulated in two Earth-system models: CESM2 and UKESM1. Warm spells are prolonged periods of anomalously high temperature that can occur at any time of the year. Under SSP2–4.5 warm spells are projected to become increasingly frequent, intense and longer in both models. SAI deployment is able to effectively mitigate many of these changes; however, differences in future projections of warm spells between CESM2 and UKESM1, regardless of whether or not SAI is deployed, highlight the importance of inter-model comparisons in assessments of future climates.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
