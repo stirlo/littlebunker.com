@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Why Trump’s undermining of US statistics is so dangerous | Daniel Malinsky"
+date: 2025-09-02 10:00:32 +0000
+categories: [environmental_news]
+tags: ['public-health', 'year-2026', 'climate-health', 'urgent']
+keywords: ['urgent', 'statistics', 'climate-health', 'year-2026', 'undermining', 'public-health', 'trump']
+description: "Several high-level government statistical workers responsible for the census were subsequently imprisoned and apparently executed"
+external_url: https://www.theguardian.com/commentisfree/2025/sep/02/why-trumps-undermining-of-us-statistics-is-so-dangerous
+is_feed: true
+source_feed: "Climate crisis | The Guardian"
+feed_category: "environmental_news"
+---
+
+From the firing of the labor statistics chief to plans for a new census, the president’s moves serve to entrench authoritarianismIn 1937, Joseph Stalin commissioned a sweeping census of the Soviet Union. The data reflected some uncomfortable facts – in particular, the dampening of population growth in areas devastated by the 1933 famine – and so Stalin’s government suppressed the release of the survey results. Several high-level government statistical workers responsible for the census were subsequently imprisoned and apparently executed. Though the Soviet authorities would proudly trumpet national statistics that glorified the USSR’s achievements, any numbers that did not fit the preferred narrative were buried.A few weeks ago, following the release of “disappointing” jobs data from the Bureau of Labor Statistics (BLS), Donald Trump fired the commissioner of labor statistics, Dr Erika McEntarfer, and claimed the numbers were “rigged”. He also announced his intention to commission an unprecedented off-schedule census of the US population (these happen every 10 years and the next one should be in 2030) with an emphasis that this census “will not count illegal immigrants”. The real goal is presumably to deliver a set of population estimates that could be used to reapportion congressional seats and districts ahead of the 2026 mid-term elections and ensure conditions favorable to Republican control of Congress – though it is not clear there is sufficient time or support from Congress to make this happen. The administration is also reportedly “updating” the National Climate Assessments and various important sources of data on topics related to climate and public health have disappeared. In addition to all this, Trump’s justice department launched an investigation into the crime statistics of the DC Metropolitan Police, alleging that the widely reported decline in 2024 DC violent crime rates – the lowest total number of recorded violent crimes city-wide in 30 years – are a distortion, fueled by falsified or manipulated statistics. One might say that the charge of “fake data” is just a close cousin of the “fake news” and all of this is par for the course for an administration that insists an alternate reality is the truth. But this pattern may also beget a specifically troubling (and quintessentially Soviet) state of affairs: the public belief that all “political” data are fake, that one generally cannot trust statistics. We must resist this paradigm shift, because it mainly serves to entrench authoritarianism.Daniel Malinsky is an assistant professor of biostatistics in the Mailman School of Public Health at Columbia University Continue reading...
+
+[Read original article](https://www.theguardian.com/commentisfree/2025/sep/02/why-trumps-undermining-of-us-statistics-is-so-dangerous)
