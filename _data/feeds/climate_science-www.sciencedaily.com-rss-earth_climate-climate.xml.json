@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-03T06:33:36.083266",
+  "fetched_at": "2025-09-03T07:22:23.575674",
   "items": [
+    {
+      "title": "Central Asia’s last stable glaciers just started to collapse",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250902085147.htm",
+      "pubDate": "Wed, 03 Sep 2025 02:36:49 EDT",
+      "description": "Snowfall shortages are now destabilizing some of the world’s last resilient glaciers, as shown by a new study in Tajikistan’s Pamir Mountains. Using a monitoring station on Kyzylsu Glacier, researchers discovered that stability ended around 2018, when snowfall declined sharply and melt accelerated. The work sheds light on the Pamir-Karakoram Anomaly, where glaciers had resisted climate change longer than expected.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Geologists got it wrong: Rivers didn’t need plants to meander",
       "link": "https://www.sciencedaily.com/releases/2025/08/250831010533.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250809100919.htm",
       "pubDate": "Sat, 09 Aug 2025 11:23:15 EDT",
       "description": "Over 300 million years ago, Illinois teemed with life in tropical swamps and seas, now preserved at the famous Mazon Creek fossil site. Researchers from the University of Missouri and geologist Gordon Baird have reexamined a vast fossil collection, uncovering three distinct ancient environments—freshwater, transitional marine, and offshore—each with unique animal life. Their findings, enhanced by advanced imaging and data analysis, reveal how sea-level changes, sediment conditions, and microbial activity shaped fossil formation.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "332 colossal canyons just revealed beneath Antarctica’s ice",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250809100910.htm",
-      "pubDate": "Sat, 09 Aug 2025 10:46:57 EDT",
-      "description": "Deep beneath the Antarctic seas lies a hidden network of 332 colossal submarine canyons, some plunging over 4,000 meters, revealed in unprecedented detail by new high-resolution mapping. These underwater valleys, shaped by glacial forces and powerful sediment flows, play a vital role in transporting nutrients, driving ocean currents, and influencing global climate. Striking differences between East and West Antarctica’s canyon systems offer clues to the continent’s ancient ice history, while also exposing vulnerabilities as warm waters carve away at protective ice shelves.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
