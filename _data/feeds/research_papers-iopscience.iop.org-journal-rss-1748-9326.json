@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-05T10:26:11.540544",
+  "fetched_at": "2025-09-05T11:19:15.304675",
   "items": [
+    {
+      "title": "Tree mortality provides early warning sign of ecosystem functional transition in coastal freshwater forested wetlands",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0057",
+      "pubDate": "",
+      "description": "Globally, coastal forested wetlands are increasingly affected by relative sea level rise. However, the mechanisms underlying coastal wetland degradation remain unclear. Using the eddy covariance approach, we evaluated the long-term (i.e. 2009–2019) net ecosystem exchange (NEE), associated hydrology, and ecosystem structural changes in a forested wetland in North Carolina, USA. We quantified tree mortality in response to changes in hydrology. The ecosystem shifted from a net C sink (NEE = − 3.68 Mg C ha−1 yr−1) pre-2010 to a net C source (NEE = 0.87 Mg C ha−1yr−1–7.59 Mg C ha−1 yr−1) afterward. We ascribe the ecosystem C loss to increasing tree mortality (i.e. from 1.6% in 2009 to 45.8% in 2019), partly due to relative sea level rise (R2 = 0.62). Tree mortality, and consequent shift of NEE, provide early warning signs of a transition in this ecosystem more than 20 km inland from the coast.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Intersectional inequalities in heat-related mortality risks in South Korea",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae00e2",
+      "pubDate": "",
+      "description": "Recent research has investigated spatial variation in temperature-related health risks and regional-level vulnerability. However, although a region has multiple advantages and disadvantages, the intersectionality of these factors has been overlooked. This study assessed spatial variation in heat-mortality associations in South Korea and investigated how regional characteristics intersect and interact to create distinct vulnerability patterns using a novel intersectionality framework. We analyzed the association between heat (defined as daily mean temperature at the 99th percentile) and non-accidental mortality across 229 regions of South Korea during 2011–2020. We conducted two-stage time-series analysis with a distributed lag nonlinear model to investigate heat-mortality associations and their spatial variations at the regional level. We then applied a multilevel analysis of individual heterogeneity and discriminatory accuracy framework to examine the role of intersectional strata in explaining the spatial variation of heat-related risks. Heat-related mortality risks were spatially heterogeneous. The multiply disadvantaged regions (having a low annual mean temperature, a high proportion of older housing stock, and a low proportion of timely emergency room visits) exhibited the highest heat-related relative risk (RR) of 1.105 (95% confidence interval [CI]: 1.097, 1,112), while the multiply advantaged regions exhibited the lowest heat-related RR of 1.065 (95% CI: 1.057, 1.072). These intersectional inequalities are primarily driven by additive effects, with minimal contribution from interaction effects. Our findings suggest the need to develop region-specific heat adaptation strategies that address local vulnerability. Employing an intersectional lens provides a more comprehensive understanding of spatial variation in heat-related health risks.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Corrigendum: ‘The Paramo Fire Atlas: quantifying burned area and trends across the Tropical Andes’ (2025 Environ. Res. Lett. 20 054019)",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfb8f",
@@ -147,14 +163,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfe80",
       "pubDate": "",
       "description": "Heat extremes are some of the fastest changing climate hazards in a warming world, but are often perceived to be less consequential in cool mid-latitude countries. This includes New Zealand, where significant knowledge gaps exist around the future risks they pose. Here, we present the first comprehensive analysis of projected New Zealand heat extremes across various event durations (1, 5, 10, 15, and 30 days) using the latest suite of dynamically downscaled CMIP6 climate projections for New Zealand. We find that longer duration extreme events with a 1-in-10 year return period in Historical simulations, will begin to occur at least every other year across the majority of the country by the mid 21st-century under a SSP2-4.5 warming scenario, with shorter duration events emerging more slowly. Once model-specific warming rates are accounted for, we find a consistent pattern of accelerated warming for the hottest days of the year, with each degree of annual-mean warming over the wider New Zealand region resulting in approximately 1.6 ∘C of change in the hottest days of the year. Importantly, we find evidence of heat extremes intensifying much faster than mean warming across many regions of inland New Zealand, contradicting past claims of muted changes based on coarse resolution global climate models. Finally, we examine a model-based example of a physically plausible record-shattering heatwave capable of occurring in the present climate, with five-day temperature anomalies exceeding +10 ∘C over large parts of the North Island.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Mining global soil carbon datasets: can modern machine learning uncover the missing pieces of process-based models?",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfe83",
-      "pubDate": "",
-      "description": "The future of terrestrial soil carbon stocks plays a crucial role in climate change prediction. Modern machine learning techniques are now widely applied in soil science to predict the spatial distribution of soil properties from observational data. Beyond prediction, the use of machine learning as a data-mining tool offers a promising pathway for improving soil carbon modelling and refining projections of climate–carbon feedbacks. In this paper, we review recent advances in the application of machine learning to global soil carbon modelling as a data-mining tool and highlight its potential to drive an iterative feedback loop that improves the representation of soil carbon dynamics in Earth System Models.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
