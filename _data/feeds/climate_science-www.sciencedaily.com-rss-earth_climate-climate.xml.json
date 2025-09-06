@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-06T06:31:16.976621",
+  "fetched_at": "2025-09-06T07:19:11.390025",
   "items": [
+    {
+      "title": "Scientists made plastic that eats carbon",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250905180736.htm",
+      "pubDate": "Fri, 05 Sep 2025 22:22:50 EDT",
+      "description": "A team of chemists has discovered how to transform PET plastic waste into BAETA, a material that captures CO2 with remarkable efficiency. Instead of ending up as microplastics in the environment, discarded bottles and textiles could become tools to combat climate change. The method is energy-friendly, scalable, and potentially lucrative, offering industries both sustainability and practicality.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Oceans could reach a dangerous tipping point by 2050",
       "link": "https://www.sciencedaily.com/releases/2025/09/250905180728.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250814094700.htm",
       "pubDate": "Sat, 16 Aug 2025 06:08:48 EDT",
       "description": "Mediterranean bryozoans, including the “false coral,” are showing alarming changes in structure and microbiomes under acidification and warming. Field studies at volcanic CO2 vents reveal that these stressors combined sharply reduce survival, posing risks to marine ecosystems.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Strange spotted rock on Mars could reveal signs of ancient life",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250814094626.htm",
-      "pubDate": "Fri, 15 Aug 2025 09:08:11 EDT",
-      "description": "A curious red Martian rock nicknamed Sapphire Canyon has scientists excited, as its spotted appearance hints at possible organic origins. On Earth, researchers tested a powerful laser technique, O-PTIR, on a similar rock found by chance in Arizona, proving it can rapidly and precisely reveal a material’s chemical makeup. This high-resolution method could play a key role in analyzing Mars samples once they arrive, adding to its growing track record in NASA missions like Europa Clipper.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
