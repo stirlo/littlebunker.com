@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-07T08:26:30.241830",
+  "fetched_at": "2025-09-07T09:21:01.397261",
   "items": [
+    {
+      "title": "Earth’s safe zones are vanishing fast",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250906155053.htm",
+      "pubDate": "Sat, 06 Sep 2025 21:24:28 EDT",
+      "description": "A sweeping new study reveals that humanity has already pushed 60% of Earth’s land outside its safe biosphere zone, with 38% in a high-risk state. By analyzing centuries of data, researchers mapped how human demands on biomass—from farming to energy production—have destabilized ecosystems worldwide. Europe, Asia, and North America show the deepest disruptions, reflecting centuries of land-use change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Satellites confirm 1990s sea-level predictions were shockingly accurate",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250906013453.htm",
+      "pubDate": "Sat, 06 Sep 2025 01:34:53 EDT",
+      "description": "Satellite data reveals sea-level rise has unfolded almost exactly as predicted by 1990s climate models, with one key underestimation: melting ice sheets. Researchers stress the importance of refining local projections as seas continue to rise faster than before.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists made plastic that eats carbon",
       "link": "https://www.sciencedaily.com/releases/2025/09/250905180736.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250815034722.htm",
       "pubDate": "Mon, 18 Aug 2025 03:27:17 EDT",
       "description": "NASA-backed simulations reveal that meltwater from Greenland’s Jakobshavn Glacier lifts deep-ocean nutrients to the surface, sparking large summer blooms of phytoplankton that feed the Arctic food web.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "NASA’s SWOT satellite captures Kamchatka megaquake tsunami in striking detail",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250815034719.htm",
-      "pubDate": "Sun, 17 Aug 2025 12:13:39 EDT",
-      "description": "When a massive 8.8 magnitude earthquake struck off Russia’s Kamchatka Peninsula, NASA and CNES’s SWOT satellite captured a rare and detailed picture of the tsunami that followed. Recorded just over an hour after the quake, the satellite revealed the wave’s height, shape, and path, offering scientists an unprecedented multidimensional view from space.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The ocean’s fragile fortresses are crumbling under climate pressure",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250814094700.htm",
-      "pubDate": "Sat, 16 Aug 2025 06:08:48 EDT",
-      "description": "Mediterranean bryozoans, including the “false coral,” are showing alarming changes in structure and microbiomes under acidification and warming. Field studies at volcanic CO2 vents reveal that these stressors combined sharply reduce survival, posing risks to marine ecosystems.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
