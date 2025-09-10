@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-09T23:19:44.577658",
+  "fetched_at": "2025-09-10T01:48:56.400149",
   "items": [
+    {
+      "title": "The ocean’s most abundant microbe is near its breaking point",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250909031505.htm",
+      "pubDate": "Tue, 09 Sep 2025 18:07:08 EDT",
+      "description": "Tiny ocean microbes called Prochlorococcus, once thought to be climate survivors, may struggle as seas warm. These cyanobacteria drive 5% of Earth’s photosynthesis and underpin much of the marine food web. A decade of research shows they thrive only within a narrow temperature range, and warming oceans could slash their populations by up to 50% in tropical waters.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Antarctica’s frozen heart is warming fast, and models missed it",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250909031503.htm",
+      "pubDate": "Tue, 09 Sep 2025 17:45:31 EDT",
+      "description": "New research has revealed that East Antarctica’s vast and icy interior is heating up faster than its coasts, fueled by warm air carried from the Southern Indian Ocean. Using 30 years of weather station data, scientists uncovered a hidden climate driver that current models fail to capture, suggesting the world’s largest ice reservoir may be more vulnerable than previously thought.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists finally crack the mystery of rogue waves",
       "link": "https://www.sciencedaily.com/releases/2025/09/250907172647.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250818102953.htm",
       "pubDate": "Tue, 19 Aug 2025 04:15:02 EDT",
       "description": "Scientists found that Great Salt Lake’s chemistry and water balance were stable for thousands of years, until human settlement. Irrigation and farming in the 1800s and a railroad causeway in 1959 created dramatic, lasting changes. The lake now behaves in ways unseen for at least 2,000 years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "NASA’s PREFIRE satellites reveal a secret glow escaping from our planet",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250817055324.htm",
-      "pubDate": "Sun, 17 Aug 2025 05:53:24 EDT",
-      "description": "With its two tiny CubeSats, NASA’s PREFIRE mission is capturing invisible heat escaping from Earth, offering clues to how ice, clouds, and storms influence the climate system. The insights could lead to better weather forecasts and a deeper understanding of global change.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just found a hidden factor behind Earth’s methane surge",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250816113528.htm",
-      "pubDate": "Sun, 17 Aug 2025 23:27:32 EDT",
-      "description": "Roughly two-thirds of all atmospheric methane, a potent greenhouse gas, comes from methanogens. Tracking down which methanogens in which environment produce methane with a specific isotope signature is difficult, however. UC Berkeley researchers have for the first time CRISPRed the key enzyme involved in microbial methane production to understand the unique isotopic fingerprints of different environments to better understand Earth's methane budget.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
