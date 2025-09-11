@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-11T07:23:26.724069",
+  "fetched_at": "2025-09-11T08:31:08.557492",
   "items": [
+    {
+      "title": "Intensifying heat extremes in China attributed to rising greenhouse gases and declining aerosols since the 2010s",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf2c0",
+      "pubDate": "",
+      "description": "Rising temperatures have increased the frequency, duration, and intensity of extreme temperature events over China in recent decades. The upward trends in heat extremes in China in the warm season (May–September) and their relationships with changes in aerosols and greenhouse gases are investigated using observations, reanalysis data and model results. Significant increasing trends in China are observed in daily maximum temperatures (TXx), heatwave frequency, and heatwave mean duration during 2011–2023, with increasing rates of 0.70 °C/decade, 3.77 d/decade and 0.31 d/event/decade, respectively. This study shows that 43 ± 3% of the TXx increases in China are attributed to the rising CO2 concentrations. Aerosol optical depth in China decreased at a rate of 0.054 per decade from 2011 to 2023 due to significant air quality improvements. The weakened aerosol cooling effect due to declining aerosols contributes 27 ± 3% to the observed TXx trend. In eastern China, where aerosol reductions were most significant, aerosol reduction even accounts for 79 ± 10% of the TXx increasing trend. The intensifying heat waves attributed to GHGs and aerosols are in accordance with the increasing extreme high temperatures. The results highlight the significant impacts of rising GHGs and decreasing aerosols on heat extreme events over China in recent years, emphasizing the need of considering both GHGs and aerosols to address the issue of intensification of heat extremes in a warming future.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Broadening forest restoration’s benefits by including community-identified priorities in the Atlantic Forest of Brazil",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfce8",
@@ -19,6 +27,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adff2e",
       "pubDate": "",
       "description": "Carbon dioxide removal (CDR) is critical for achieving net-zero and net-negative CO2 emissions that can halt and potentially reverse global warming, respectively. However, reliable CDR is still costly and comes with considerable technological and ecological uncertainties. Despite the centrality of equity in the Paris Agreement, no integrated framework exists to equitably allocate responsibilities for CDR and residual emissions among countries. Here, we present a justice-based framework that separates out ethical considerations for equitably allocating gross emissions and gross CDR, addressing how these contributions shift before and after reaching global net-zero CO2 emissions. The framework distinguishes between CDR delivered as a common good to reach a collective global climate outcome, and CDR that is used to pay off carbon debts due to emissions overconsumption. We offer a new perspective for how nations with substantial historical responsibilities and emerging economies with increasing capacities can collaborate and equitably share the CDR burden, enhancing both international cooperation and national-level climate action.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Using long short term memory networks to predict daily-averaged sea level anomaly and surface currents",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae00e1",
+      "pubDate": "",
+      "description": "Short-term prediction of sea level anomaly (SLA) and ocean surface currents over a domain are usually carried out using ocean general circulation models. In this study, we present a univariate machine learning framework using long short term memory networks that forecasts daily-averaged SLA with a 3 d lead time over the north Indian Ocean using historical satellite altimetry data at a spatial resolution of ∼13 km. Assuming that SLA reanalysis from state-of-the-art systems represent the pinnacle of performance skill of forecasts from dynamical models, we show that the SLA forecasts from our model exhibits superior skills through comprehensive analyses. The errors are typically less than 0.04 m over most of the domain and the correlations are close to unity. The skills of the daily-averaged forecasted currents with a 3 d lead, estimated using geostrophic and Ekman theory, are comparable with the best available reanalysis when compared to in-situ observations both in the open ocean or shelf. Treating these forecasted surface currents as synthetic observations, we show that assimilating them can significantly improve the instantaneous subsurface currents during forecasts. The subsurface correlations turn significant with 99% confidence level across depth which were otherwise mostly insignificant and the errors reduce by 0.1 m·s−1. We demonstrate that the short-term forecast of daily-averaged SLA and surface currents can be approached as a collection of localized low-dimensional independent univariate systems thereby reducing computational costs by large margins. This machine learning framework heralds a paradigm shift in the realm of ocean forecasting.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
