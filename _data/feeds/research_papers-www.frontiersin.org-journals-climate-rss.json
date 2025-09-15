@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-09-15T04:29:09.189946",
+  "fetched_at": "2025-09-15T05:24:42.723145",
   "items": [
+    {
+      "title": "Determining the net influence of biological processes on aqueous hydroxide-based ocean alkalinity enhancement: a mesocosm approach",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1652680",
+      "pubDate": "2025-09-15T00:00:00Z",
+      "description": "Ocean alkalinity enhancement (OAE) presents a promising means to leverage the ocean carbon sink to mitigate the effects of anthropogenic climate change. We report on a series of mesocosm experiments simulating electrodialysis-based OAE through the addition of aqueous sodium hydroxide to seawater in large tanks (~6,000 L) and small aquaria (~10 L) at Flax Pond Marine Laboratory, NY. In previous studies, the confounding effects of biological processes were controlled by imposing a sterilization treatment to seawater throughout each experiment. Here, we take the first steps in characterizing the influence of biological processes on OAE-based CO2 uptake through comparisons between sterilized and unsterilized mesocosms and aquaria. We combine our results with those of similar Flax Pond mesocosm experiments and develop a model to identify the most influential variables for determining the rate and magnitude of CO2 uptake. We found that the rate of CO2 uptake varies with changes in initial carbonate chemistry, the amount of alkalinity added, whether the mesocosm was sterilized, and the season in which the seawater was collected. Our model suggests that sterilized tanks did not differ in the amount of CO2 sequestered, but experienced a slower rate of equilibration relative to unsterilized tanks. These results indicate that laboratory mesocosm experiments could reasonably represent CO2 uptake in the field even with the complication of biological processes over the timeline of air-sea CO2 equilibration. This finding is valuable in supporting the measurement, reporting and verification of OAE, which must rely on a combination of laboratory data, near-field measurements, and modeling exercises.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Characteristics of spatial and temporal changes of drought in the Inner Mongolia section of the Yellow River Basin based on geodetector",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1656424",
@@ -155,14 +163,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1594793",
       "pubDate": "2025-07-30T00:00:00Z",
       "description": "IntroductionClimate change poses significant health risks globally, particularly in vulnerable countries like the Philippines. This scoping review examines recent research trends (2018–2023) on the health impacts of climate change in the Philippines, building on previous national reviews and situating findings within global evidence.MethodsWe screened 8,346 articles from various databases and identified 69 studies meeting inclusion criteria. Using a framework-guided thematic synthesis, studies were categorized into 6 themes: vulnerability to disease and injury, direct health impacts of climate and weather, ecosystem-mediated impacts, health impacts mediated through human institutions, adaptation strategies, and co-benefits of mitigation measures.ResultsResults reveal a significant increase in climate-health research compared to a previous review (1980–2017), with notable growth in studies in mental health, gender-based vulnerabilities, and adaptation measures. However, research remains geographically concentrated in Luzon, highlighting regional disparities, and few studies utilized long-term climate-health datasets. Studies quantifying the health co-benefits of mitigation measures also remain limited.DiscussionThis review demonstrates significant progress while identifying persistent gaps. Future research should prioritize long-term surveillance, local adaptation evaluations and health-economic co-benefits studies to strengthen climate-health data integration, improve climate information services and develop equity-oriented, policy-relevant research agenda.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Retreat in real time—Nantucket’s balancing act along a changing coast",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1510802",
-      "pubDate": "2025-07-29T00:00:00Z",
-      "description": "Nantucket, an island about 30 miles off the coast of Massachusetts, has long embraced retreat in response to coastal hazards. This community case study examines how Nantucket is enhancing its resilience by adapting to increasing coastal storms, erosion, and sea level rise through strategic retreat and relocation. Nantucketers have historically moved structures such as lighthouses and homes away from the coastline, but the increasing frequency and intensity of storms demand more comprehensive and adaptable solutions. Through resilience planning and policy efforts, the Town of Nantucket is addressing these challenges by balancing short- and long-term objectives, public and private interests, and equity considerations. Lessons learned from Nantucket’s experiences are applicable to other communities facing similar coastal risks, highlighting the importance of strategic planning, community support, and capacity building for effective retreat and relocation.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
