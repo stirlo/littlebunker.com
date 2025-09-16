@@ -4,8 +4,32 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-16T13:33:17.489815",
+  "fetched_at": "2025-09-16T14:25:23.183424",
   "items": [
+    {
+      "title": "Constraining decadal climate predictions with seasonal forecasts: a step toward seamless multi-year climate information",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfd73",
+      "pubDate": "",
+      "description": "The increasing demand for climate information that spans seasonal to multi-annual time scales poses a challenge for current prediction systems, which are traditionally designed for specific forecast horizons. This study addresses this gap by proposing a new method to generate seamless climate information from seasonal to decadal time scales. We develop a constraining approach based on ensemble member selection, in which decadal prediction members are selected to match the seasonal forecast ensemble mean of sea surface temperature. The method leverages the higher skill of seasonal predictions in capturing interannual climate variability, particularly El Niño–southern oscillation, to constrain decadal forecasts using the most recent climate information. Results show that the method to constrain decadal predictions improves the forecast skill over the Niño3.4 region up to 12 months and enhances the near-surface temperature predictions over broad parts of the globe, with modest improvements in precipitation. This work highlights the practical potential of combining seasonal and decadal prediction systems and offers a first step toward operational, seamless climate services across monthly to multi-year timescales.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "IOD-driven seesaw mode of upper-ocean salinity variability in the central and eastern tropical Indian Ocean",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0056",
+      "pubDate": "",
+      "description": "Understanding the mechanisms behind interannual salinity variability in the tropical Indian Ocean (TIO) is crucial for interpreting its role in regional and global climates. While localized salinity anomalies—particularly in the central and eastern TIO (CTIO and ETIO)—are well-documented, their basin-wide connection under the influence of the Indian Ocean Dipole (IOD) remains unclear. This study advances the salt diagnostics based on leading mode and associated salt budget to robustly reveal the IOD-driven mechanisms on salinity’s basin-wide connections using observation and simulation. Results indicate that a coherent seesaw mode connects CTIO and Western Bay of Bengal (BoB) salinity anomalies during the IOD mature phase (September–November), with its principal component and associated localized salinity anomaly strongly correlated with the Dipole Mode Index. Composite analysis and wave diagnostics reveal two key mechanisms. First, anomalous cyclonic/anticyclonic circulations co-develop in CTIO and BoB during IOD events, driving salt advection aligned with mean salinity gradients and shaping the leading salinity pattern. Second, IOD-induced oceanic waves—both remote and local—jointly generate current anomalies that enhance salinity tendencies. In particular, equatorial easterlies during positive IOD events force upwelling Kelvin waves that propagate into the BoB, reinforcing anticyclonic salt advection and producing high salinity anomalies. Concurrently, local wind over the CTIO drives equatorial upwelling Kelvin and downwelling Rossby waves to constructively strengthen westward equatorial current and southern anticlockwise circulation, leading to anomalous freshening. These findings improve our understanding of IOD-induced hydrological variability and support better predictability of coupled ocean-atmosphere dynamics in the TIO.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Seasonal evolution patterns of Arctic sea ice and their connection to tropical Pacific sea surface temperature anomalies",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae03da",
+      "pubDate": "",
+      "description": "This study applies the self-organizing map method to identify the primary modes of seasonal evolution in Arctic sea ice concentration anomalies from 1979 to 2023. The resulting patterns fall into two broad categories: negative sea ice anomalies, occurring more frequently after 2005, and positive anomalies, more common prior to 2005. Differences among the modes within each category are primarily driven by sea ice variability in the Bering Sea, Sea of Okhotsk, Labrador Sea, and Greenland Sea during boreal winter and spring. Warmer temperatures, increased longwave radiation, and southerly winds favor reduced sea ice, while cooler conditions and northerly winds support increased ice cover. These atmospheric anomalies are often linked to tropical Pacific sea surface temperature variability, which influences Arctic conditions via poleward-propagating Rossby wave trains triggered by changes in tropical convection. Our findings enhance the basis for seasonal, interannual, and decadal predictions of Arctic sea ice.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Intensifying heat extremes in China attributed to rising greenhouse gases and declining aerosols since the 2010s",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf2c0",
@@ -59,30 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0052",
       "pubDate": "",
       "description": "While electrifying transportation eliminates tailpipe greenhouse gas (GHG) emissions, electric vehicle (EV) adoption can create additional electricity sector emissions. To quantify this emissions impact, prior work typically employs short-run marginal emissions or average emissions rates calculated from historical data or power systems models that do not consider changes in installed capacity. In this work, we use an electricity system capacity expansion model to consider the full consequential GHG emissions impact from large-scale EV adoption in the western United States, accounting for induced changes in generation and storage capacity. We find that the metrics described above do not accurately reflect the true emissions impact of EV adoption–average emissions rates can either under- or over-estimate emission impacts, and short-run marginal emissions rates can significantly underestimate emission reductions, especially when charging timing is flexible. Our results also show that using short-run marginal emission rates as signals to coordinate EV charging could increase emissions relative to price-based charging signals, indicating the need for alternative control strategies to minimize consequential emissions.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Using long short term memory networks to predict daily-averaged sea level anomaly and surface currents",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae00e1",
-      "pubDate": "",
-      "description": "Short-term prediction of sea level anomaly (SLA) and ocean surface currents over a domain are usually carried out using ocean general circulation models. In this study, we present a univariate machine learning framework using long short term memory networks that forecasts daily-averaged SLA with a 3 d lead time over the north Indian Ocean using historical satellite altimetry data at a spatial resolution of ∼13 km. Assuming that SLA reanalysis from state-of-the-art systems represent the pinnacle of performance skill of forecasts from dynamical models, we show that the SLA forecasts from our model exhibits superior skills through comprehensive analyses. The errors are typically less than 0.04 m over most of the domain and the correlations are close to unity. The skills of the daily-averaged forecasted currents with a 3 d lead, estimated using geostrophic and Ekman theory, are comparable with the best available reanalysis when compared to in-situ observations both in the open ocean or shelf. Treating these forecasted surface currents as synthetic observations, we show that assimilating them can significantly improve the instantaneous subsurface currents during forecasts. The subsurface correlations turn significant with 99% confidence level across depth which were otherwise mostly insignificant and the errors reduce by 0.1 m·s−1. We demonstrate that the short-term forecast of daily-averaged SLA and surface currents can be approached as a collection of localized low-dimensional independent univariate systems thereby reducing computational costs by large margins. This machine learning framework heralds a paradigm shift in the realm of ocean forecasting.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Impact of the national fertility rate recovery policy on the household carbon footprint in South Korea",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae01bf",
-      "pubDate": "",
-      "description": "Tailoring policies to reduce greenhouse gas (GHG) emissions, cognizant of rapid population aging and shrinkage, is crucial for many developed nations. South Korea faces this issue, particularly owing to a rise in the nation’s average age at an unprecedented rate and a significantly low total fertility rate (TFR) (0.72 in 2023). Research on measures to reduce GHG emissions in an aging society with a declining birthrate has highlighted the importance of the structure of household carbon footprint (HCF) across different age groups. However, no studies have analyzed the structure of HCF across different age groups or the impact of demographic changes on HCF in South Korea. This study highlights the structures of HCF by age group in South Korea by combining a multi-regional input–output model with household and demographic surveys. Furthermore, we projected the effects of demographic changes in line with business-as-usual and an ambitious government policy for recovering the TFR (BaU and fertility rate recovery (FRR) Scenarios, respectively) on HCF from 2020 to 2050. These procedures revealed that the FRR will increase in 13.5 Mt-CO2eq in 2050, compared to BaU. This brings the HCF of senior generations (60 years and older) from 49.7% (BaU) to 48.3% (FRR) of the total HCF in 2050, slightly reducing their dominance of HCF. With the fertility recovery policy, the impact of an increase in the HCF of younger generations, aged 39 years and below, was limited until 2050. However, the rebound of HCF (e.g. education, entertainment and culture, restaurants, and hotels) must be considered in case the number of younger generations continues to increase, underlying national policies for fertility recovery.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Unraveling divergences: disagreement between precipitation datasets and stations in tropical South America",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae02aa",
-      "pubDate": "",
-      "description": "Gridded precipitation datasets are widely used to monitor hydroclimatic trends, yet their accuracy in tropical South America remains uncertain. Here, we systematically compare trends from state-of-the-art precipitation datasets with station data across the region. Our results reveal substantial disagreements in both the magnitude and direction of trends, with datasets frequently failing to capture observed station trends. Trend accuracy varies considerably, with better agreement in more densely sampled areas like the Caatinga, while the Western and Northern Amazonia show lower accuracy. Moreover, we find limited agreement between datasets and stations regarding documented patterns, such as southern Amazonia drying during the dry season and Western Amazonia wetting in the wet season. An exception is the Southeastern Cerrado, where most datasets consistently capture significant drying trends in the wet season. Our findings highlight the need for a multi-dataset approach and an improved observational network to assess precipitation changes in tropical South America.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
