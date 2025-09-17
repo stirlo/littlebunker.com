@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-17T11:18:44.830469",
+  "fetched_at": "2025-09-17T12:50:54.396560",
   "items": [
+    {
+      "title": "Soil warming experiments challenge assumptions about climate change",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250916221823.htm",
+      "pubDate": "Wed, 17 Sep 2025 02:08:51 EDT",
+      "description": "Heating alone won’t drive soil microbes to release more carbon dioxide — they need added carbon and nutrients to thrive. This finding challenges assumptions about how climate warming influences soil emissions.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Tiny skaters beneath the arctic ice rewrite the limits of life",
       "link": "https://www.sciencedaily.com/releases/2025/09/250911073201.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250827010726.htm",
       "pubDate": "Wed, 27 Aug 2025 09:18:56 EDT",
       "description": "Ancient forests may have fueled a deep-sea oxygen boost nearly 390 million years ago, unlocking evolutionary opportunities for jawed fish and larger marine animals. New isotopic evidence shows that this permanent oxygenation marked a turning point in Earth’s history — a reminder of how fragile the ocean’s oxygen balance remains today.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Ozone recovery could trigger 40% more global warming than predicted",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250821094527.htm",
-      "pubDate": "Fri, 22 Aug 2025 04:00:39 EDT",
-      "description": "As the ozone layer recovers, it’s also intensifying global warming. Researchers predict that by 2050, ozone will rank just behind carbon dioxide as a driver of heating, offsetting many of the benefits from banning CFCs.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
