@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-18T13:31:10.728340",
+  "fetched_at": "2025-09-18T14:23:42.073753",
   "items": [
+    {
+      "title": "Why Alaska’s salmon streams are suddenly bleeding orange",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918011602.htm",
+      "pubDate": "Thu, 18 Sep 2025 01:16:02 EDT",
+      "description": "Warming Arctic permafrost is unlocking toxic metals, turning Alaska’s once-clear rivers into orange, acid-laced streams. The shift, eerily similar to mine pollution but entirely natural, threatens fish, ecosystems, and communities that depend on them—with no way to stop the process once it starts.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists stunned by salt giants forming beneath the Dead Sea",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250916221828.htm",
+      "pubDate": "Thu, 18 Sep 2025 09:44:44 EDT",
+      "description": "The Dead Sea isn’t just the saltiest body of water on Earth—it’s a living laboratory for the formation of giant underground salt deposits. Researchers are unraveling how evaporation, temperature shifts, and unusual mixing patterns lead to phenomena like “salt snow,” which falls in summer as well as winter. These processes mirror what happened millions of years ago in the Mediterranean, leaving behind thick salt layers still buried today.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Soil warming experiments challenge assumptions about climate change",
       "link": "https://www.sciencedaily.com/releases/2025/09/250916221823.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250830001201.htm",
       "pubDate": "Mon, 01 Sep 2025 10:41:25 EDT",
       "description": "A new study projects that the Atlantic Meridional Overturning Circulation (AMOC)—the system of currents that includes the Gulf Stream—could shut down after 2100 under high-emission scenarios. This shutdown would drastically reduce heat transport northward, leaving Europe vulnerable to extreme winters, summers of drying, and shifts in tropical rainfall. Climate models show the tipping point is linked to collapsing winter convection in the North Atlantic, which weakens vertical mixing and creates a feedback loop that accelerates decline.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A monster seaweed bloom is taking over the Atlantic",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250830001159.htm",
-      "pubDate": "Mon, 01 Sep 2025 09:44:05 EDT",
-      "description": "Sargassum has escaped the Sargasso Sea and exploded across the Atlantic, forming the massive Great Atlantic Sargassum Belt. Fueled by nutrient runoff, Amazon outflows, and climate events, these blooms now reshape ecosystems, economies, and coastlines on a staggering scale.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The ancient oxygen flood that forever changed life in the oceans",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250827010726.htm",
-      "pubDate": "Wed, 27 Aug 2025 09:18:56 EDT",
-      "description": "Ancient forests may have fueled a deep-sea oxygen boost nearly 390 million years ago, unlocking evolutionary opportunities for jawed fish and larger marine animals. New isotopic evidence shows that this permanent oxygenation marked a turning point in Earth’s history — a reminder of how fragile the ocean’s oxygen balance remains today.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
