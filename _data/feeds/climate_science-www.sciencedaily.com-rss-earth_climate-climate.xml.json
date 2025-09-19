@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-19T13:31:46.600220",
+  "fetched_at": "2025-09-19T14:22:35.750666",
   "items": [
+    {
+      "title": "Wildfire smoke could kill 70,000 Americans a year by 2050",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918225016.htm",
+      "pubDate": "Fri, 19 Sep 2025 07:53:58 EDT",
+      "description": "Wildfires are no longer a seasonal nuisance but a deadly, nationwide health crisis. Fueled by climate change, smoke is spreading farther and lingering longer, with new research warning of tens of thousands of additional deaths annually by mid-century. The health costs alone could surpass all other climate damages combined, revealing wildfire smoke as one of the most underestimated threats of our warming world.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Earthquakes release blistering heat that can melt rock in an instant",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250918225010.htm",
+      "pubDate": "Fri, 19 Sep 2025 02:45:02 EDT",
+      "description": "MIT scientists have unraveled the hidden energy balance of earthquakes by recreating them in the lab. Their findings show that while only a sliver of energy goes into the shaking we feel on the surface, the overwhelming majority is released as heat—sometimes hot enough to melt surrounding rock in an instant.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Why Alaska’s salmon streams are suddenly bleeding orange",
       "link": "https://www.sciencedaily.com/releases/2025/09/250918011602.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/08/250831010533.htm",
       "pubDate": "Sun, 31 Aug 2025 07:14:49 EDT",
       "description": "Stanford researchers reveal meandering rivers existed long before plants, overturning textbook geology. Their findings suggest carbon-rich floodplains shaped climate for billions of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists stunned as strange islands and hidden springs appear in the Great Salt Lake",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250831010526.htm",
-      "pubDate": "Sun, 31 Aug 2025 06:15:55 EDT",
-      "description": "As the Great Salt Lake shrinks, scientists are uncovering mysterious groundwater-fed oases hidden beneath its drying lakebed. Reed-covered mounds and strange surface disturbances hint at a vast underground plumbing system that pushes fresh water up under pressure. Using advanced tools like airborne electromagnetic surveys and piezometers, researchers are mapping the hidden freshwater reserves and testing whether they could help restore fragile lakebed crusts, reduce dust pollution, and reveal long-buried secrets of the region’s hydrology.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists fear the Atlantic’s great ocean conveyor could shut down",
-      "link": "https://www.sciencedaily.com/releases/2025/08/250830001201.htm",
-      "pubDate": "Mon, 01 Sep 2025 10:41:25 EDT",
-      "description": "A new study projects that the Atlantic Meridional Overturning Circulation (AMOC)—the system of currents that includes the Gulf Stream—could shut down after 2100 under high-emission scenarios. This shutdown would drastically reduce heat transport northward, leaving Europe vulnerable to extreme winters, summers of drying, and shifts in tropical rainfall. Climate models show the tipping point is linked to collapsing winter convection in the North Atlantic, which weakens vertical mixing and creates a feedback loop that accelerates decline.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
