@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-19T23:20:33.811394",
+  "fetched_at": "2025-09-20T01:47:21.460752",
   "items": [
     {
       "title": "Changing seasonality and advanced mean date of annual maximum daily precipitation in major river basins of China (1960–2018)",
@@ -83,30 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae05b2",
       "pubDate": "",
       "description": "Over recent decades, cold-climate ecosystems have exhibited a pronounced increase in vegetation greenness, and shrub encroachment is a major ecological process underlying these changes. Our knowledge of these dynamics remains limited in the temperate mountains of Eastern Europe, which have experienced significant land-use shifts, especially following the collapse of the communist regime. It is noteworthy that the contribution of shrubs has not been evaluated, partly due to the difficulty of providing high-resolution mapping of shrublands. In this study, we integrated four decades of Landsat-derived NDVI time series with a customized land cover classification based on Sentinel-2 imagery to investigate greenness dynamics above 1500 m elevation in the Carpathian Mountains. The classification targeted key shrubland types using spectral indices tailored to seasonal pigment variations. We also conducted diachronic visual analysis of aerial photographs, including Cold War-era satellite images, to evaluate long-term vegetation changes. We found significant positive greenness trends in 44% of the study area, with the highest magnitude located at mid-elevations (1800–2300 m) and on north-facing slopes. High-resolution land cover mapping revealed that Ericaceous and Juniperus-dominated shrublands were the strongest contributors to greening. Visual interpretation of historical imagery confirmed widespread woody encroachment in these areas. We suggest that the decline of traditional land-use, particularly extensive grazing practices, is a key driver of these ecological shifts, promoting the resurgence of previously more widespread subalpine shrublands. Our findings highlight the importance of integrating high-resolution remote sensing observations and diachronic analysis of aerial photographs to disentangle the complexity of vegetation greening in high-elevation ecosystems.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Constraining decadal climate predictions with seasonal forecasts: a step toward seamless multi-year climate information",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adfd73",
-      "pubDate": "",
-      "description": "The increasing demand for climate information that spans seasonal to multi-annual time scales poses a challenge for current prediction systems, which are traditionally designed for specific forecast horizons. This study addresses this gap by proposing a new method to generate seamless climate information from seasonal to decadal time scales. We develop a constraining approach based on ensemble member selection, in which decadal prediction members are selected to match the seasonal forecast ensemble mean of sea surface temperature. The method leverages the higher skill of seasonal predictions in capturing interannual climate variability, particularly El Niño–southern oscillation, to constrain decadal forecasts using the most recent climate information. Results show that the method to constrain decadal predictions improves the forecast skill over the Niño3.4 region up to 12 months and enhances the near-surface temperature predictions over broad parts of the globe, with modest improvements in precipitation. This work highlights the practical potential of combining seasonal and decadal prediction systems and offers a first step toward operational, seamless climate services across monthly to multi-year timescales.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "IOD-driven seesaw mode of upper-ocean salinity variability in the central and eastern tropical Indian Ocean",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0056",
-      "pubDate": "",
-      "description": "Understanding the mechanisms behind interannual salinity variability in the tropical Indian Ocean (TIO) is crucial for interpreting its role in regional and global climates. While localized salinity anomalies—particularly in the central and eastern TIO (CTIO and ETIO)—are well-documented, their basin-wide connection under the influence of the Indian Ocean Dipole (IOD) remains unclear. This study advances the salt diagnostics based on leading mode and associated salt budget to robustly reveal the IOD-driven mechanisms on salinity’s basin-wide connections using observation and simulation. Results indicate that a coherent seesaw mode connects CTIO and Western Bay of Bengal (BoB) salinity anomalies during the IOD mature phase (September–November), with its principal component and associated localized salinity anomaly strongly correlated with the Dipole Mode Index. Composite analysis and wave diagnostics reveal two key mechanisms. First, anomalous cyclonic/anticyclonic circulations co-develop in CTIO and BoB during IOD events, driving salt advection aligned with mean salinity gradients and shaping the leading salinity pattern. Second, IOD-induced oceanic waves—both remote and local—jointly generate current anomalies that enhance salinity tendencies. In particular, equatorial easterlies during positive IOD events force upwelling Kelvin waves that propagate into the BoB, reinforcing anticyclonic salt advection and producing high salinity anomalies. Concurrently, local wind over the CTIO drives equatorial upwelling Kelvin and downwelling Rossby waves to constructively strengthen westward equatorial current and southern anticlockwise circulation, leading to anomalous freshening. These findings improve our understanding of IOD-induced hydrological variability and support better predictability of coupled ocean-atmosphere dynamics in the TIO.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Seasonal evolution patterns of Arctic sea ice and their connection to tropical Pacific sea surface temperature anomalies",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae03da",
-      "pubDate": "",
-      "description": "This study applies the self-organizing map method to identify the primary modes of seasonal evolution in Arctic sea ice concentration anomalies from 1979 to 2023. The resulting patterns fall into two broad categories: negative sea ice anomalies, occurring more frequently after 2005, and positive anomalies, more common prior to 2005. Differences among the modes within each category are primarily driven by sea ice variability in the Bering Sea, Sea of Okhotsk, Labrador Sea, and Greenland Sea during boreal winter and spring. Warmer temperatures, increased longwave radiation, and southerly winds favor reduced sea ice, while cooler conditions and northerly winds support increased ice cover. These atmospheric anomalies are often linked to tropical Pacific sea surface temperature variability, which influences Arctic conditions via poleward-propagating Rossby wave trains triggered by changes in tropical convection. Our findings enhance the basis for seasonal, interannual, and decadal predictions of Arctic sea ice.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
