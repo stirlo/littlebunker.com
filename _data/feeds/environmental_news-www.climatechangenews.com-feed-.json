@@ -1,9 +1,170 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.climatechangenews.com/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Connection timed out</span>\n                <span class=\"code-label\">Error code 522</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-09-23 19:20:56 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.climatechangenews.com</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>The initial connection between Cloudflare's network and the origin web server timed out. As a result, the web page can not be displayed.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    \n                <h3 class=\"text-15 font-semibold mb-2\">If you're a visitor of this website:</h3>\n                <p class=\"mb-6\">Please try again in a few minutes.</p>\n\n                <h3 class=\"text-15 font-semibold mb-2\">If you're the owner of this website:</h3>\n                <p><span>Contact your hosting provider letting them know your web server is not completing requests. An Error 522 means that the request was able to connect to your web server, but that the request didn't finish. The most likely cause is that something on your server is hogging resources.</span> <a href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/\" rel=\"noopener noreferrer\">Additional troubleshooting information here.</a></p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">983c64c52b427d07</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">13.83.162.36</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_522&utm_campaign=www.climatechangenews.com\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>",
+  "title": "Climate Home News",
+  "link": "https://www.climatechangenews.com/",
+  "description": "Climate change news, analysis, commentary, video and podcasts focused on developments in global climate politics",
   "category": "environmental_news",
   "source_url": "https://www.climatechangenews.com/feed/",
-  "fetched_at": "2025-09-23T19:20:56.362269",
-  "items": []
+  "fetched_at": "2025-09-23T20:26:45.595433",
+  "items": [
+    {
+      "title": "Explainer: Brazil’s “right answer” to forest finance turns to financial markets to keep rainforests standing",
+      "link": "https://www.climatechangenews.com/2025/09/23/explainer-brazil-forest-finance-financial-markets-tfff-cop30-rainforest-fund/",
+      "pubDate": "Tue, 23 Sep 2025 18:09:21 +0000",
+      "description": "<p>The Tropical Forest Forever Facility (TFFF) is set to be launched at COP30. Climate Home breaks down how the fund would work.</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/23/explainer-brazil-forest-finance-financial-markets-tfff-cop30-rainforest-fund/\">Explainer: Brazil’s “right answer” to forest finance turns to financial markets to keep rainforests standing</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Brazil’s call for COP trade forum gets lukewarm response",
+      "link": "https://www.climatechangenews.com/2025/09/23/brazils-call-for-cop-trade-forum-gets-lukewarm-response/",
+      "pubDate": "Tue, 23 Sep 2025 13:55:40 +0000",
+      "description": "<p>After disputes over whether to include thorny trade issues on the agenda of global climate talks, the COP30 presidency proposes a separate arena to discuss them</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/23/brazils-call-for-cop-trade-forum-gets-lukewarm-response/\">Brazil’s call for COP trade forum gets lukewarm response</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 PR firm found to be “uniquely reliant” on fossil fuel clients",
+      "link": "https://www.climatechangenews.com/2025/09/23/cop30-pr-firm-found-to-be-uniquely-reliant-on-fossil-fuel-clients/",
+      "pubDate": "Tue, 23 Sep 2025 05:00:00 +0000",
+      "description": "<p>Edelman relies on work with oil and gas firms like Shell and Chevron for a higher percentage of its income than any other PR agency, a new report found</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/23/cop30-pr-firm-found-to-be-uniquely-reliant-on-fossil-fuel-clients/\">COP30 PR firm found to be “uniquely reliant” on fossil fuel clients</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Vanuatu pursues new UN resolution to turn ICJ climate opinion into action",
+      "link": "https://www.climatechangenews.com/2025/09/23/vanuatu-new-un-resolution-icj-climate-opinion-action-legal-justice/",
+      "pubDate": "Tue, 23 Sep 2025 00:40:55 +0000",
+      "description": "<p>The Pacific island nation, which led a campaign for the International Court of Justice (ICJ) to clarify states' climate duties, said the legal opinion must not be \"left on paper\"</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/23/vanuatu-new-un-resolution-icj-climate-opinion-action-legal-justice/\">Vanuatu pursues new UN resolution to turn ICJ climate opinion into action</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Colombia announces fossil fuel phase-out summit to be held in 2026",
+      "link": "https://www.climatechangenews.com/2025/09/22/colombia-fossil-fuel-phase-out-summit-2026-production-gap-oil-coal-gas/",
+      "pubDate": "Mon, 22 Sep 2025 21:37:32 +0000",
+      "description": "<p>While a new report warns governments are significantly expanding fossil fuels, Colombia launches a call for the Global South to lead on ending their use</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/22/colombia-fossil-fuel-phase-out-summit-2026-production-gap-oil-coal-gas/\">Colombia announces fossil fuel phase-out summit to be held in 2026</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "UN climate chief says new national climate plans will fall short on emissions cuts",
+      "link": "https://www.climatechangenews.com/2025/09/22/un-climate-chief-new-national-climate-plans-nds-short-emissions-cuts/",
+      "pubDate": "Mon, 22 Sep 2025 20:07:54 +0000",
+      "description": "<p>With 2035 targets expected be too weak to meet global goals to limit warming, the UN's Simon Stiell says COP30 should focus on how countries can speed up delivery of their plans</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/22/un-climate-chief-new-national-climate-plans-nds-short-emissions-cuts/\">UN climate chief says new national climate plans will fall short on emissions cuts</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "It’s time for majority voting at UN climate summits",
+      "link": "https://www.climatechangenews.com/2025/09/22/its-time-for-majority-voting-at-un-climate-summits/",
+      "pubDate": "Mon, 22 Sep 2025 17:08:31 +0000",
+      "description": "<p>The head of Greenpeace argues that the climate crisis demands urgent UN reform to facilitate an accelerated global response</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/22/its-time-for-majority-voting-at-un-climate-summits/\">It’s time for majority voting at UN climate summits</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "The company tracking energy transition minerals back to the mines",
+      "link": "https://www.climatechangenews.com/2025/09/22/the-company-tracking-energy-transition-minerals-back-to-the-mines/",
+      "pubDate": "Mon, 22 Sep 2025 05:00:00 +0000",
+      "description": "<p>Australian firm Source Certain traces minerals back to the exact point where they were extracted from the Earth - a technique that could help make cleantech supply chains more accountable</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/22/the-company-tracking-energy-transition-minerals-back-to-the-mines/\">The company tracking energy transition minerals back to the mines</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Treaty to protect deep ocean reaches key threshold for entry into force",
+      "link": "https://www.climatechangenews.com/2025/09/21/treaty-protect-deep-ocean-high-seas-bbnj-entry-force-ratification/",
+      "pubDate": "Sat, 20 Sep 2025 23:12:40 +0000",
+      "description": "<p>The High Seas Treaty, now signed into law by 60 countries, is seen as crucial to achieving a global goal of protecting 30% of land and sea ecosystems by 2030</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/21/treaty-protect-deep-ocean-high-seas-bbnj-entry-force-ratification/\">Treaty to protect deep ocean reaches key threshold for entry into force</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "As governments bet on carbon trading, Japan’s early scheme spotlights pitfalls",
+      "link": "https://www.climatechangenews.com/2025/09/18/as-governments-bet-on-carbon-trading-japans-early-scheme-spotlights-pitfalls/",
+      "pubDate": "Thu, 18 Sep 2025 22:59:00 +0000",
+      "description": "<p>Analysis by Climate Home News of Japan’s current projects under Article 6.2 - from forest protection to energy-saving lights in Uniqlo stores - raises questions over the climate benefits of some of the offsets</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/18/as-governments-bet-on-carbon-trading-japans-early-scheme-spotlights-pitfalls/\">As governments bet on carbon trading, Japan’s early scheme spotlights pitfalls</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "EU ministers fail to agree climate targets, raising risk leaders will weaken them",
+      "link": "https://www.climatechangenews.com/2025/09/18/eu-ministers-fail-to-agree-climate-targets-raising-risk-leaders-will-weaken-them/",
+      "pubDate": "Thu, 18 Sep 2025 18:38:53 +0000",
+      "description": "<p>EU countries' leaders make decisions based on unanimity, potentially allowing laggards to block ambition on climate targets</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/18/eu-ministers-fail-to-agree-climate-targets-raising-risk-leaders-will-weaken-them/\">EU ministers fail to agree climate targets, raising risk leaders will weaken them</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "UN raises COP30 allowance to help with Belém accommodation crisis",
+      "link": "https://www.climatechangenews.com/2025/09/18/un-raises-cop30-allowance-to-help-with-belem-accommodation-crisis/",
+      "pubDate": "Thu, 18 Sep 2025 15:25:07 +0000",
+      "description": "<p>But funding shortfalls risk reducing the number of government negotiators who can receive the payment unless more money is put on the table</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/18/un-raises-cop30-allowance-to-help-with-belem-accommodation-crisis/\">UN raises COP30 allowance to help with Belém accommodation crisis</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Can COP30 turn adaptation talks into real-world investments?",
+      "link": "https://www.climatechangenews.com/2025/09/18/can-cop30-turn-adaptation-discussions-into-real-world-investments/",
+      "pubDate": "Thu, 18 Sep 2025 14:16:01 +0000",
+      "description": "<p>Brazil's COP30 presidency team wants adaptation high on the agenda in Belem, to move from technical negotiations to action on the ground</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/18/can-cop30-turn-adaptation-discussions-into-real-world-investments/\">Can COP30 turn adaptation talks into real-world investments?</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "IEA says some oil and gas projects must shut early to meet 1.5C limit",
+      "link": "https://www.climatechangenews.com/2025/09/17/iea-says-some-oil-and-gas-projects-must-shut-early-to-meet-1-5c-limit/",
+      "pubDate": "Wed, 17 Sep 2025 15:31:32 +0000",
+      "description": "<p>To keep global warming to 1.5C and avoid oversupply of oil and gas, the International Energy Agency says some high-cost production will need to be closed down ahead of time</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/17/iea-says-some-oil-and-gas-projects-must-shut-early-to-meet-1-5c-limit/\">IEA says some oil and gas projects must shut early to meet 1.5C limit</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "“Public health emergency”: Report shows fossil fuel impacts on every stage of life",
+      "link": "https://www.climatechangenews.com/2025/09/16/public-health-emergency-report-shows-fossil-fuel-impacts-on-every-stage-of-life/",
+      "pubDate": "Tue, 16 Sep 2025 13:40:48 +0000",
+      "description": "<p>The Global Climate and Health Alliance documents how fossil fuel extraction and use harms people throughout their lives, with the worst effects on marginalised groups</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/16/public-health-emergency-report-shows-fossil-fuel-impacts-on-every-stage-of-life/\">“Public health emergency”: Report shows fossil fuel impacts on every stage of life</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Diplomacy accelerated shipping climate action; it’s time to seal the deal",
+      "link": "https://www.climatechangenews.com/2025/09/16/diplomacy-accelerated-shipping-climate-action-its-time-to-seal-the-deal/",
+      "pubDate": "Tue, 16 Sep 2025 11:37:39 +0000",
+      "description": "<p>Governments should support the adoption of the International Maritime Organization's Net-Zero framework, to transition shipping to clean energy sources</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/16/diplomacy-accelerated-shipping-climate-action-its-time-to-seal-the-deal/\">Diplomacy accelerated shipping climate action; it’s time to seal the deal</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP observers invited to reveal who is bank-rolling their participation at climate talks",
+      "link": "https://www.climatechangenews.com/2025/09/15/cop-observers-invited-to-reveal-who-is-bank-rolling-their-participation-at-climate-talks/",
+      "pubDate": "Mon, 15 Sep 2025 16:22:40 +0000",
+      "description": "<p>As UN climate change body introduces new voluntary transparency measures, campaigners welcome \"much needed step\" to keep fossil fuel influence out of the talks</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/15/cop-observers-invited-to-reveal-who-is-bank-rolling-their-participation-at-climate-talks/\">COP observers invited to reveal who is bank-rolling their participation at climate talks</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Banned from the US: The voices missing at New York Climate Week",
+      "link": "https://www.climatechangenews.com/2025/09/15/banned-from-the-us-the-voices-missing-at-new-york-climate-week-visas/",
+      "pubDate": "Mon, 15 Sep 2025 14:02:11 +0000",
+      "description": "<p>How can there be climate justice when people from some of the world's most vulnerable countries are shut out of the conversation by Trump's travel ban?</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/15/banned-from-the-us-the-voices-missing-at-new-york-climate-week-visas/\">Banned from the US: The voices missing at New York Climate Week</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Industry says carbon capture still an expensive last resort to cut emissions",
+      "link": "https://www.climatechangenews.com/2025/09/15/carbon-capture-still-an-expensive-last-resort/",
+      "pubDate": "Mon, 15 Sep 2025 09:56:59 +0000",
+      "description": "<p>Carbon capture players told a recent global conference that the technology remains a costly way to reduce CO2 and needs more government support</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/15/carbon-capture-still-an-expensive-last-resort/\">Industry says carbon capture still an expensive last resort to cut emissions</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "How COP30 could deliver an ambitious outcome on global finance flows",
+      "link": "https://www.climatechangenews.com/2025/09/12/how-cop30-could-deliver-an-ambitious-outcome-on-global-finance-flows/",
+      "pubDate": "Fri, 12 Sep 2025 12:37:27 +0000",
+      "description": "<p>Top-level political momentum from the UN climate talks is needed to encourage investors to put their money behind a low-carbon, climate-resilient transition</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/09/12/how-cop30-could-deliver-an-ambitious-outcome-on-global-finance-flows/\">How COP30 could deliver an ambitious outcome on global finance flows </a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    }
+  ]
 }
