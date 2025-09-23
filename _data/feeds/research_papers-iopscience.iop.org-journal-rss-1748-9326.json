@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-09-23T16:30:56.744135",
+  "fetched_at": "2025-09-23T17:25:59.765873",
   "items": [
     {
       "title": "The co-evolution of collective groundwater management: understanding the interdependencies between user-based organizations, remote sensing and state agency support in the La Mancha Oriental Aquifer, Spain",
@@ -99,6 +99,38 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0503",
       "pubDate": "",
       "description": "Electricity consumption (EC) is highly dependent on outside temperatures in regions where electricity is used for heating, for example in northern Europe during winter. Wind power generation also heavily depends on weather conditions, which affect wind speed. Winter weather in northern Europe is influenced by the polar vortex, a strong westerly wind dominating the wintertime polar stratosphere. The polar vortex can temporarily collapse during sudden stratospheric warming (SSW), which is often followed by cold and windless weather in northern Europe, including Finland. In this paper, we examine the influence of SSWs on wintertime EC and wind power generation in Finland. We show that cold temperature and low wind speed anomalies are more often observed in winters when an SSW happens and the so-called quasi-biennial oscillation of equatorial stratospheric winds is in the easterly phase. These changes are associated with higher EC and lower wind power generation. In contrast, winters without an SSW tend to have warm temperature and high wind speed anomalies, and thus, lower EC and higher wind power generation. When the probability of an SSW event is known, the results of this study show that it is possible to predict winter EC and wind power generation several months in advance.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Projected population exposure to dangerous heat stress around Lake Victoria under a high-end climate change scenario",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae05b1",
+      "pubDate": "",
+      "description": "Recent global temperature increases and extreme heat events have raised concerns about their impact on health, particularly in vulnerable regions like Africa. This study assesses future heat stress and population exposure in the Lake Victoria region under the high-emission SSP5-8.5 climate change scenario, using a convection-permitting climate model, heat stress indices (humidex and heat index), and high-resolution population projections under the high-emission SSP5-8.5 scenario, interpreted here as the high-end of the climate change signal. Results indicate a substantial increase in the duration of dangerous heat stress. By the end of the century, up to 122 million people, or around 44 of the population may experience dangerous heat stress for more than 5 of the time annually (i.e. ∼18 days), compared to 1 of the population or around 1 million people for the period 2005–2016. Up to 28 of the population (∼78 million people) would even experience dangerous heat for 15 of the time (i.e. ∼55 days). 66 of this increased population exposure can be attributed to the combined effect of increasing temperatures and total population in the region. High heat-risk areas include the northern and southern shores of Lake Victoria and urban areas. The study highlights the need to consider both climate and population dynamics when assessing heat stress, and underscores the urgency of adaptation in the Lake Victoria region.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Driving electrification: the impact of electricity pricing on heat pump adoption, electric vehicle charging, and building energy technologies",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae06b6",
+      "pubDate": "",
+      "description": "Decarbonizing the building and transport sectors requires electricity pricing designs that can effectively support the adoption of heat pumps (HPs) and electric vehicles (EVs). To inform electricity pricing design, techno-economic optimization modeling can help identify which pricing structures most effectively support the economic viability of electrification across different building characteristics and modeled EV plug-in behavior over the long term. In this paper, we explore the interplay between EV plug-in behavior, building energy system investment decisions, and electricity pricing design, testing electricity tariffs with varying energy and grid components. Using a comprehensive techno-economic optimization framework, we analyze how various combinations of energy and grid charges impact HP adoption across six diverse Swiss residential buildings from 2025 to 2050. We incorporate three distinct EV plug-in behavior scenarios modeled from real-world travel data. Our findings reveal that time-of-use energy charges consistently lead to the highest HP adoption rates across all building types, outperforming both flat and hourly energy pricing structures. Among grid charges, increasing block charges generally support heating electrification more effectively than peak or volumetric charges. Building characteristics substantially affect HP adoption, while EV plug-in behavior has more impact on the choice of charging infrastructure. Overall, our results show the importance of coordinated electricity tariff designs that account for the diversity of building characteristics and user behaviors to enable cost-effective electrification.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Quantifying potential contribution of tropical cyclones to oceanic near-inertial internal waves",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae06b9",
+      "pubDate": "",
+      "description": "Near-inertial internal waves (NIWs) play a crucial role in upper-ocean turbulent mixing through shear instabilities. Tropical cyclones (TCs), with their intense variable winds, contribute significantly to NIWs, yet their global impact has been poorly quantified due to observational and methodological challenges. In this study, we developed a novel data-driven model that integrates hourly satellite-tracked surface drifter data and refined TC records to provide a high-resolution global estimate of TC-induced near-inertial wind power (NIWP), representing a major energy source for the generation of NIWs. Our results show that TCs contribute 0.019–0.024 TW annually to global NIWP, with nearly 45% of this in low-latitude oceans. Moreover, a notable NIW-induced enhancement in thermocline mixing during TC events is identified in subtropical regions, particularly in the northwestern Pacific, based on fine-scale parameterization. Our findings uncover the episodic yet potentially important role of TCs in powering NIWs, with implications for ocean turbulent mixing.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Social identity and pro-environmental behavior—a scoping review",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae06ba",
+      "pubDate": "",
+      "description": "Leveraging social identities (SIs) is a promising strategy to foster pro-environmental behavior (PEB), but research on the SI–PEB association is fragmented, making synthesis challenging. This scoping review systematically maps empirical research on the association between SIs and PEB based on 82 studies. Most studies utilized quantitative-descriptive designs and self-report measures, assessing a wide range of specific SIs and various types of PEBs. Eight categories of SIs based on their content were identified, spanning SIs referring to the environment, specific groups, or places, with most showing positive associations with PEB. To gain a clearer understanding of these categories, they can be further grouped based on two criteria: (1) whether the SIs refer to an external environment (e.g. a specific place) or a social group of people (e.g. an activist group), and (2) whether the SIs have an obvious link to the environment and/or environmental issues (e.g. environmental identity) or not (e.g. national identity). This review emphasizes the importance of focusing on single SI categories to delve deeper into the mechanisms and potential variations within and between the categories. It also recommends future research to improve the practical applicability of these findings as most studies relied on self-report measures, and few were conducted in real-world settings. By providing a structured overview and highlighting key research directions, this review establishes a foundation for advancing the research field and combating climate change.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
