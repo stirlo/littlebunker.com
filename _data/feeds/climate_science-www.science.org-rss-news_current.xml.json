@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-09-24T21:20:33.805109",
+  "fetched_at": "2025-09-24T22:21:57.186112",
   "items": [
+    {
+      "title": "A ‘solar bump’ could help data centers recover wasted energy",
+      "link": "https://www.science.org/content/article/solar-bump-could-help-data-centers-recover-wasted-energy",
+      "pubDate": "",
+      "description": "Solar water heaters could recoup 8% of the electricity needs of AI computer farms",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Storied atom-smasher that makes tiny Big Bangs wraps up mission",
       "link": "https://www.science.org/content/article/storied-atom-smasher-makes-tiny-big-bangs-wraps-mission",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/under-trump-nsf-faces-worst-crisis-its-75-year-history",
       "pubDate": "",
       "description": "Political directives have undermined agency's independence and record of supporting the best basic research",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Researchers customize AI tools at global ‘hackathon’",
-      "link": "https://www.science.org/content/article/researchers-customize-ai-tools-global-hackathon",
-      "pubDate": "",
-      "description": "More than 1200 scientists and developers explore how large language models can be applied to materials science and chemistry",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
