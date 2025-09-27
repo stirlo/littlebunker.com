@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-09-27T16:26:47.103315",
+  "fetched_at": "2025-09-27T17:18:03.440226",
   "items": [
+    {
+      "title": "Tiny stones rewrite Earth’s evolution story",
+      "link": "https://www.sciencedaily.com/releases/2025/09/250926035026.htm",
+      "pubDate": "Fri, 26 Sep 2025 19:30:19 EDT",
+      "description": "Scientists have uncovered an unexpected witness to Earth’s distant past: tiny iron oxide stones called ooids. These mineral snowballs lock away traces of ancient carbon, revealing that oceans between 1,000 and 541 million years ago held far less organic carbon than previously thought. This discovery challenges long-standing theories linking carbon levels, oxygen surges, and the emergence of complex life.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Toxic waste could become the next clean energy breakthrough",
       "link": "https://www.sciencedaily.com/releases/2025/09/250926035016.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250905112308.htm",
       "pubDate": "Fri, 05 Sep 2025 13:12:47 EDT",
       "description": "Scientists found that Red Sea corals can endure warming seas but grow much smaller and weaken under long-term heat stress. Though recovery is possible in cooler months, rising global temperatures may outpace their resilience, endangering reefs and the people who depend on them.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earth’s inner core exists only because of carbon",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250904103920.htm",
-      "pubDate": "Thu, 04 Sep 2025 14:31:26 EDT",
-      "description": "New research reveals that carbon made it possible for Earth’s molten core to freeze into a solid heart, stabilizing the magnetic field that protects our planet. Without it, Earth’s deep interior — and life above — might look very different.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
