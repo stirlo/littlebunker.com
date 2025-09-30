@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-09-30T19:18:36.195968",
+  "fetched_at": "2025-09-30T20:26:25.185494",
   "items": [
+    {
+      "title": "U.S. scientists gird for yet another government shutdown",
+      "link": "https://www.science.org/content/article/u-s-scientists-gird-yet-another-government-shutdown",
+      "pubDate": "",
+      "description": "Political impasse to hobble research agencies—and perhaps enable layoffs",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Insects aren’t ‘little robots’—so scientists are rethinking their welfare",
       "link": "https://www.science.org/content/article/insects-aren-t-little-robots-so-scientists-are-rethinking-their-welfare",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/researchers-are-relieved-trump-s-likely-pick-national-cancer-institute",
       "pubDate": "",
       "description": "Harvard physician-scientist Anthony Letai is poised to head world’s largest cancer research agency",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "How fungus-farming termites control weeds",
-      "link": "https://www.science.org/content/article/how-fungus-farming-termites-control-weeds",
-      "pubDate": "",
-      "description": "Termites enlist microbes to defend their crops from undesirable fungi",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
