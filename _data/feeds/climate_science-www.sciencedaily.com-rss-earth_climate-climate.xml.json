@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-01T15:25:05.262738",
+  "fetched_at": "2025-10-01T16:30:19.372711",
   "items": [
+    {
+      "title": "The billion-year reign of fungi that predated plants and made Earth livable",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251001092208.htm",
+      "pubDate": "Wed, 01 Oct 2025 10:53:40 EDT",
+      "description": "Fungi may have shaped Earth’s landscapes long before plants appeared. By combining rare gene transfers with fossil evidence, researchers have traced fungal origins back nearly a billion years earlier than expected. These ancient fungi may have partnered with algae, recycling nutrients, breaking down rock, and creating primitive soils. Far from being silent background players, fungi were ecosystem engineers that prepared Earth’s surface for plants, fundamentally altering the course of life’s history.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Tiny stones rewrite Earth’s evolution story",
       "link": "https://www.sciencedaily.com/releases/2025/09/250926035026.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250905180728.htm",
       "pubDate": "Fri, 05 Sep 2025 18:42:09 EDT",
       "description": "UC Santa Barbara researchers project that human impacts on oceans will double by 2050, with warming seas and fisheries collapse leading the charge. The tropics and poles face the fastest changes, and coastal regions will be hardest hit, threatening food and livelihoods worldwide.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Even the toughest corals are shrinking in warming seas",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250905112308.htm",
-      "pubDate": "Fri, 05 Sep 2025 13:12:47 EDT",
-      "description": "Scientists found that Red Sea corals can endure warming seas but grow much smaller and weaken under long-term heat stress. Though recovery is possible in cooler months, rising global temperatures may outpace their resilience, endangering reefs and the people who depend on them.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
