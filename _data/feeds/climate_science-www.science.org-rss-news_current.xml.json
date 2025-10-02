@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-10-02T20:26:10.786641",
+  "fetched_at": "2025-10-02T21:20:12.195080",
   "items": [
+    {
+      "title": "Renowned U.S. climate center trims staff ahead of expected budget cuts",
+      "link": "https://www.science.org/content/article/renowned-u-s-climate-center-trims-staff-ahead-expected-budget-cuts",
+      "pubDate": "",
+      "description": "NSF-funded National Center for Atmospheric Research is already shuttered during shutdown",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "New radioactive isotope therapies promise more targeted attacks on cancer",
       "link": "https://www.science.org/content/article/new-radioactive-isotope-therapies-promise-more-targeted-attacks-cancer",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/ancient-dna-horses-slaughtered-neanderthals-sheds-light-equine-evolution",
       "pubDate": "",
       "description": "300,000-year-old genes are oldest ever recovered from open-air site",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "AI-generated ‘participants’ can lead social science experiments astray, study finds",
-      "link": "https://www.science.org/content/article/ai-generated-participants-can-lead-social-science-experiments-astray-study-finds",
-      "pubDate": "",
-      "description": "Data produced by “silicon samples” depends on researchers’ exact choice of models, prompts, and settings",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
