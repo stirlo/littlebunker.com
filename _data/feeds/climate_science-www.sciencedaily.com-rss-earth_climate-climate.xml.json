@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-03T03:00:23.530463",
+  "fetched_at": "2025-10-03T04:27:13.387968",
   "items": [
+    {
+      "title": "Scientists just recreated a wildfire that made its own weather",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251002074001.htm",
+      "pubDate": "Thu, 02 Oct 2025 22:57:01 EDT",
+      "description": "In 2020, California’s Creek Fire became so intense that it generated its own thunderstorm, a phenomenon called a pyrocumulonimbus cloud. For years, scientists struggled to replicate these explosive fire-born storms in climate models, leaving major gaps in understanding their global effects. Now, a new study has finally simulated them successfully, reproducing the Creek Fire’s storm and others like it.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "1,000 Swiss glaciers already gone, and the melting is speeding up",
       "link": "https://www.sciencedaily.com/releases/2025/10/251001092211.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250906013453.htm",
       "pubDate": "Sat, 06 Sep 2025 01:34:53 EDT",
       "description": "Satellite data reveals sea-level rise has unfolded almost exactly as predicted by 1990s climate models, with one key underestimation: melting ice sheets. Researchers stress the importance of refining local projections as seas continue to rise faster than before.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists made plastic that eats carbon",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250905180736.htm",
-      "pubDate": "Fri, 05 Sep 2025 22:22:50 EDT",
-      "description": "A team of chemists has discovered how to transform PET plastic waste into BAETA, a material that captures CO2 with remarkable efficiency. Instead of ending up as microplastics in the environment, discarded bottles and textiles could become tools to combat climate change. The method is energy-friendly, scalable, and potentially lucrative, offering industries both sustainability and practicality.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
