@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-10-03T22:21:06.745522",
+  "fetched_at": "2025-10-03T23:20:10.073089",
   "items": [
     {
       "title": "Public attitudes and community engagement in large-scale solar siting",
@@ -83,46 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf981",
       "pubDate": "",
       "description": "From improving health outcomes and health inequalities to ensuring energy and income security, the mitigation of and adaptation to climate change has extensive and diverse benefits. This paper describes a systematic evidence synthesis of climate action (co)benefits and trade-offs as well as the development of a decision-support tool that enables policy makers to explore that evidence-base. The term ‘(co)benefit’ is used deliberately to encompass both the direct benefits of averted impacts due to climate change as well as the indirect or ancillary benefits resulting from mitigation and adaptation interventions. We conducted a systematic search of the peer-reviewed literature in the IPCC 6th Assessment Report, Web of Science, and the Lancet Countdown on Health and Climate Change Reports. Our search strategy prioritised synthesised evidence (e.g. reviews, assessments) excluding primary studies and single case-studies. Data were extracted from 74 distinct records meeting our inclusion criteria and a total of 1785 rows of evidence were analysed. Scientific and technical teams then worked together to develop a tool interface that underwent iterative testing among a small group of potential users. The resulting (Co)Benefits Portal presents an assessment of the available scientific evidence of health, ecosystem, economic, energy, and socio-cultural (co)benefits and trade-offs associated with 40 different mitigation and adaptation actions for both global and regional scales. We then apply the (Co)Benefits Portal into a UK context, in combination with national policy documents and departmental guidance, to connect evidence about relevant climate interventions and reveal cross-sectoral policy implications that are essential for optimising opportunities and avoiding risks. We discuss how evidence-based tools can be developed to bridge critical climate adaptation and mitigation research, policy, and decision-making gaps.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Corrigendum: Shutdown of northern Atlantic overturning after 2100 following deep mixing collapse in CMIP6 projections (2025 Environ. Res. Lett. 20 094062)",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae09bd",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A dipole pattern bias in marine heatwave intensity in the Kuroshio Extension simulated by the CMIP6 models: a role of northward shift of the Kuroshio Current",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0806",
-      "pubDate": "",
-      "description": "Climate models are essential for investigating and predicting marine heatwaves (MHWs), but their inherent biases pose challenges for accurately analyzing and projecting MHWs. As global warming intensifies, MHWs are expected to become more extreme, emphasizing the need for precise model evaluations and deeper understanding of the underlying causes of bias to improve MHW simulations. In this study, we evaluated the MHW intensity simulated by 30 Coupled Model Intercomparison Project Phase 6 (CMIP6) models in the North Pacific Ocean by comparing them with the optimum interpolation sea surface temperature (OISST) dataset over a 33 year period (1982–2014). Over 80% of the CMIP6 models showed a dipole-pattern bias in the mean MHW intensity over the Kuroshio Extension, characterized by overestimation to the north and underestimation to the south. Hierarchical clustering based on the spatial pattern of the intensity bias in the Kuroshio Extension identifies four distinct clusters: two showing a dipole-pattern bias with slightly different magnitudes and the other two showing weaker or stronger intensity. The separation latitude based on the maximum surface current revealed that the models with the dipole bias pattern simulated the northward overshooting of the Kuroshio Current. This northward overshooting likely enhanced the transport of warmer sea surface temperatures to higher latitudes, thereby intensifying the MHWs. These findings highlight the critical role of ocean currents in the simulation of MHW in the western boundary current regions, including the Kuroshio region.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Non-linear response of catch rates to increasing salinity levels in a small-scale fishery",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0952",
-      "pubDate": "",
-      "description": "Gear and catch diversification can provide natural insurance to fishers by stabilising catch rates, thanks to the differential response of fish species to varying environmental conditions. The effectiveness of diversification, however, may be diminished if there is a threshold above which compensatory changes are weakened and species abundance tends to move in the same direction. We analyse this hypothesis using data from an open-access artisanal fishery in an estuarine ecosystem, located in a Colombian Biosphere. Reserve. We find evidence of a threshold in salinity levels in the 25–30 g kg−1 range for most gears employed in the fishery. Below the threshold, catch diversification stabilises the mean catch rate, but above it, catch rates decline. The evidence of a threshold defining a high salinity conditions regime calls for the adoption of adaptive fishery management strategies, as well as social protection mechanisms for vulnerable fishers.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Biases in ENSO response to greenhouse warming induced by ensemble-mean detrending in large ensemble simulations",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0953",
-      "pubDate": "",
-      "description": "Quantifying projected changes in the El Niño–southern oscillation (ENSO) requires an appropriate removal of greenhouse warming-induced trend in associated sea surface temperature (SST) field. Multi-member ensemble average over single-model large ensemble (LE) simulations is frequently used to isolate an externally-forced climate response from internal variability, but whether it can cleanly extract the forced ENSO response to greenhouse warming remains unclear. Using eight LE models, here we show that compared to low-frequency fitting methods that can be applied directly to observation and a single-member simulation, the ensemble-mean detrending approach induces spurious SST variability in the equatorial Pacific, resulting in an underestimated ENSO amplitude response to greenhouse warming. The source of spurious variability relates to a residual effect associated with ENSO nonlinear rectification, which is inherently unavoidable though its influence decreases with ensemble size. Our finding highlights the importance of ENSO nonlinearity in choosing specific ways of detrending for ENSO-related projection studies.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Characterizing blocking mobility and its role in Northern Hemisphere cold extremes",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0957",
-      "pubDate": "",
-      "description": "Atmospheric blocking events, commonly studied as quasi-stationary regional phenomena, are often observed with zonal movement influenced by the background flow, retrograding Rossby waves, and sea ice cover. However, the effects of these movements on cold extremes remain understudied. This study classifies the movements of atmospheric blocking into westward-moving, eastward-moving, and quasi-stationary across different regions during winters from 1979/80–2020/21 and investigates their respective impacts on surface air temperature. We found that, in the western North Pacific, westward-moving blocking events exhibited the highest frequency, while other regions showed quasi-stationary blocking occurring most frequently. These results reveal the regional difference in the frequency of blocking movement types, but the blocking persistence showed a common characteristic across all regions, with westward-moving blocking events persisting longer compared to other types. Interestingly, these long-lasting and westward-moving blockings were associated with notable cold temperature anomalies in downstream areas during blocking dissipation phase. This arises from the enhanced advection of high-latitude mean cold temperature by blocking-induced wind anomalies at low levels, despite their relatively low occurrences. These characteristics were successfully reproduced in Community Earth System Model version 1 Large Ensemble (CESM1-LENS) simulations, suggesting that better understanding of blocking mobility can improve our ability to predict extreme cold winters.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
