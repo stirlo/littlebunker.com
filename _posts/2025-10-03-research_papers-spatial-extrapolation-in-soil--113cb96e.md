@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Spatial extrapolation in soil salinity and future land cover using hybrid machine learning and land change modeler: case study in the Mekong Delta and the Red River Delta"
+date: 2025-10-03 21:20:49 +0000
+categories: [research_papers]
+tags: ['sea-level-rise', 'coastal-impacts', 'year-2023']
+keywords: ['spatial', 'soil', 'sea-level-rise', 'coastal-impacts', 'extrapolation', 'year-2023']
+description: "Assessing agricultural areas impacted by soil salinity change is very important to support decision-makers or planners in sustainable land use planning"
+external_url: http://iopscience.iop.org/article/10.1088/1748-9326/ae0a6d
+is_feed: true
+source_feed: "Environmental Research Letters - latest papers"
+feed_category: "research_papers"
+---
+
+Soil salinity is a major ecological challenge that affects agricultural productivity, posed significant challenges on the ecological system, especially in the deltaic region vulnerable to human alterations and sea level rise. Assessing agricultural areas impacted by soil salinity change is very important to support decision-makers or planners in sustainable land use planning. To overcome limitations in current spatial extrapolation methods for a reliable prediction of salinity trends across extensive river deltas, an advanced synthesis approach was developed with the use of machine learning (ML) particularly appropriate to account for a multitude of factors representing land cover conditions, processes, and interactions. This study aims to: (i) address the extrapolation challenge in ML-based soil salinity mapping, and (ii) predict land cover changes due to soil salinity. The Mekong River Delta (MRD) and Red River Delta (RRD) were selected as case studies. A hybrid ML approach and land change modeler were used to analyze 39 contributing factors. To resolve the spatial extrapolation issue in soil salinity monitoring, we used 109 salinity-affected locations in the MRD and 72 in the RRD. Land cover data from 2000 and 2023, along with salinity maps, were used to project the 2050 land cover. Multiple ML models were used to cross-verify and obtain robust results. All models achieved R2 scores above 0.85, with the best model exceeding 0.93, demonstrating high predictive performance. Among the models, XGR-particle swarm optimization achieved the highest accuracy (R2 = 0.939), followed closely by XGR-fennec fox optimization, XGR-coati optimization algorithm (R2 = 0.932), and XGR-osprey optimization algorithm (R2 = 0.921), respectively, highlighting the robustness of optimization-enhanced XGBoost models. Future projections show that cropland will decline from 67% of the area (in 2000) to 64% (2023) and about 60% (2050) under the influence of salinity, with approximately 41 km2 of cropland converted to aquaculture by 2050, mostly in high-salinity coastal zones. This study develops a powerful synthesis framework to address the problem of spatial extrapolation challenges related to natural hazard mapping in general and soil salinity mapping in particular, based on ML and on accurate prediction of land cover/land use change under effects of soil salinity in the context of climate change. Results from the synthesis approach help accurately identify areas affected by salinity intrusion, useful for the development of effective solutions in space and time towards the goal of sustainable development.
+
+[Read original article](http://iopscience.iop.org/article/10.1088/1748-9326/ae0a6d)
