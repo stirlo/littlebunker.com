@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-05T05:21:23.490277",
+  "fetched_at": "2025-10-05T06:32:20.072173",
   "items": [
+    {
+      "title": "From gentle giants to ghostly hunters, sharks face an unseen peril",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251004092909.htm",
+      "pubDate": "Sun, 05 Oct 2025 01:35:56 EDT",
+      "description": "New research reveals that deep-sea mining could dramatically threaten 30 species of sharks, rays, and ghost sharks whose habitats overlap with proposed mining zones. Many of these species, already at risk of extinction, could face increased dangers from seafloor disruptions and sediment plumes caused by mining activity.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Japan’s hot springs hold clues to the origins of life on Earth",
       "link": "https://www.sciencedaily.com/releases/2025/10/251002074009.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250907024546.htm",
       "pubDate": "Sun, 07 Sep 2025 16:53:33 EDT",
       "description": "Cambridge scientists discovered that thin, weak zones in Earth’s plates helped spread Iceland’s mantle plume across the North Atlantic, explaining why volcanic activity once spanned thousands of kilometers. These ancient scars not only shaped the landscape but still influence earthquakes and could point to untapped geothermal energy.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earth’s safe zones are vanishing fast",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250906155053.htm",
-      "pubDate": "Sat, 06 Sep 2025 21:24:28 EDT",
-      "description": "A sweeping new study reveals that humanity has already pushed 60% of Earth’s land outside its safe biosphere zone, with 38% in a high-risk state. By analyzing centuries of data, researchers mapped how human demands on biomass—from farming to energy production—have destabilized ecosystems worldwide. Europe, Asia, and North America show the deepest disruptions, reflecting centuries of land-use change.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
