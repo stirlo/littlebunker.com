@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-07T14:25:58.174478",
+  "fetched_at": "2025-10-07T15:26:45.604906",
   "items": [
+    {
+      "title": "Ocean heatwaves are breaking Earth’s hidden climate engine",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251007081819.htm",
+      "pubDate": "Tue, 07 Oct 2025 09:22:05 EDT",
+      "description": "Marine heatwaves can jam the ocean’s natural carbon conveyor belt, preventing carbon from reaching the deep sea. Researchers studying two major heatwaves in the Gulf of Alaska found that plankton shifts caused carbon to build up near the surface instead of sinking. This disrupted the ocean’s ability to store carbon for millennia and intensified climate feedbacks. The study highlights the urgent need for continuous, collaborative ocean observation.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "From gentle giants to ghostly hunters, sharks face an unseen peril",
       "link": "https://www.sciencedaily.com/releases/2025/10/251004092909.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250907172647.htm",
       "pubDate": "Mon, 08 Sep 2025 02:39:03 EDT",
       "description": "Once thought to be sailors’ myths, rogue waves gained credibility after a towering 80-foot wall of water struck the Draupner oil platform in 1995. New research shows that these extreme waves don’t need mysterious forces to form—they emerge when ordinary ocean behaviors like wave alignment and nonlinear stretching converge at the wrong moment.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just cracked a 60-million-year-old volcanic mystery",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250907024546.htm",
-      "pubDate": "Sun, 07 Sep 2025 16:53:33 EDT",
-      "description": "Cambridge scientists discovered that thin, weak zones in Earth’s plates helped spread Iceland’s mantle plume across the North Atlantic, explaining why volcanic activity once spanned thousands of kilometers. These ancient scars not only shaped the landscape but still influence earthquakes and could point to untapped geothermal energy.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
