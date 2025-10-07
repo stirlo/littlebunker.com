@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Call for Applications: Chapter Scientists to support the IPCC Seventh Assessment Report (AR7)"
+date: 2025-10-07 14:25:01 +0000
+categories: [climate_science]
+tags: ['year-2025', 'ipcc', 'urgent', 'climate-science']
+keywords: ['year-2025', 'call', 'urgent', 'ipcc', 'applications', 'chapter', 'climate-science']
+description: "The Intergovernmental Panel on Climate Change (IPCC) is in the process of preparing its Seventh Assessment Report (AR7)"
+external_url: https://www.ipcc.ch/2025/10/07/callchptr/
+is_feed: true
+source_feed: "IPCC"
+feed_category: "climate_science"
+---
+
+The Intergovernmental Panel on Climate Change (IPCC) is in the process of preparing its Seventh Assessment Report (AR7). The IPCC Working Groups are seeking highly motivated early-career researchers from developing countries and countries in transition to apply as Chapter Scientists to support author teams for the AR7. The call for applications is being coordinated by International Centre for Theoretical Physics (ICTP) External Activities Unit, together with the InterAcademy Partnership (IAP), organizations with extensive track records for supporting sustainable science in the global South. Applicants may apply to only one Working Group and to a maximum of three Chapters. Successful applicants will be required to work under the general rules and procedures of the IPCC.&nbsp; Chapter Scientists will be acknowledged in the IPCC report. The role of a Chapter Scientist is an excellent opportunity for early-career researchers to participate in the IPCC process. The primary role of a Chapter Scientist is to provide technical support to the author teams in the Working Groups. This can involve a wide range of support tasks, including literature review, figure drafting, reference checking and compilation, traceability checking, identification of overlaps or inconsistencies across chapters, and technical editing, facilitating communication between the author team, organization of chapter teleconferences and more. We are looking for applicants with an advanced university degree related to climate change, its physical science basis, impacts, adaptation, vulnerability, mitigation. Applicants must also be a citizen of a developing country or economies in transition at the time of application. We highly encourage researchers and citizens of Least Developed Countries (LDCs) and Small Island Developing States (SIDS) to apply. Please refer to the website for the full list of eligibility. Chapter Scientists will not be employees of IPCC, or IPCC Working Groups’ Technical Support Units and will be expected to work from their home institutions (if applicable) or be based in a country where they have legal standing to work independently. Contractual arrangements for the Chapter Scientists role, which includes a stipend over the course of 4 years, as well as equipment and IT support, will be managed by ICTP. They will also receive support for travel and subsistence for their participation in Lead Author Meetings, which occur twice per year. Attendance at the IPCC author meetings is an excellent opportunity to meet and work with a diverse set of high-profile scientists from multiple countries. Note: Deadline for applications is on 18 October 2025. For more information and to register, please refer to the following website: https://www.ictp.it/opportunity/ipcc-ar7-chapter-scientists For any further questions, contact oea@ictp.it
+
+[Read original article](https://www.ipcc.ch/2025/10/07/callchptr/)
