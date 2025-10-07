@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-10-07T10:25:46.839499",
+  "fetched_at": "2025-10-07T11:19:29.896720",
   "items": [
+    {
+      "title": "Physics Nobel awarded for macro demonstration of quantum effects",
+      "link": "https://www.science.org/content/article/physics-nobel-awarded-macro-demonstration-quantum-effects",
+      "pubDate": "",
+      "description": "John Clarke, Michel Devoret, and John Martinis honored for work on quantum mechanical tunneling",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Big U.S. West Coast earthquakes could come as a one-two punch",
       "link": "https://www.science.org/content/article/big-u-s-west-coast-earthquakes-could-come-one-two-punch",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/made-order-bioweapon-ai-designed-toxins-slip-through-safety-checks-used-companies",
       "pubDate": "",
       "description": "Researchers expose flaws in safeguards intended to block rogue actors from making bioweapons",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Could technology reduce fractures in racehorses?",
-      "link": "https://www.science.org/content/article/could-technology-reduce-fractures-racehorses",
-      "pubDate": "",
-      "description": "AI promises advance warnings, and mathematical models point to a simple prevention strategy",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
