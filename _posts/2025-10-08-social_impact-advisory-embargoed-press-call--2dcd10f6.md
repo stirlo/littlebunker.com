@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "ADVISORY: Embargoed Press Call on the State of Climate Action 2025 Report"
+date: 2025-10-08 11:18:32 +0000
+categories: [social_impact]
+tags: ['agriculture', 'year-2025', 'food-security', 'climate-policy', 'paris-agreement']
+keywords: ['agriculture', 'year-2025', 'press', 'food-security', 'climate-policy', 'embargoed', 'advisory', 'paris-agreement']
+description: "WASHINGTON (October 8, 2025) –&nbsp;Join an embargoed press call to preview&nbsp;the State of Climate Action 2025 report on Thursday, October 16, 2025, from ..."
+external_url: https://www.wri.org/news/advisory-embargoed-press-call-state-climate-action-2025-report
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+WASHINGTON (October 8, 2025) –&nbsp;Join an embargoed press call to preview&nbsp;the State of Climate Action 2025 report on Thursday, October 16, 2025, from 9:00–10:00 a.m. ET / 3:00–4:00 p.m. CEST, hosted by&nbsp;Systems Change Lab partners — the Bezos Earth Fund, Climate Analytics and World Resources Institute.&nbsp;&nbsp;Released in the lead-up to COP30 and ahead of the Paris Agreement’s tenth anniversary, the State of Climate Action 2025&nbsp;offers the world’s most comprehensive roadmap for how every major sector must close the climate action gap and help limit warming to 1.5°C.&nbsp;&nbsp;The report translates this Paris Agreement temperature goal into clear, sector-by-sector targets for 2030, 2035, and 2050 — across power, buildings, industry, transport, forests and land, and food and agriculture — and assesses whether the world is on pace to meet them. It also evaluates progress made in scaling technological carbon dioxide removal (CDR) and climate finance, both of which are essential for achieving global climate goals.&nbsp;&nbsp;During the call, report authors will share key findings, sector insights and discuss the report’s relevance to global climate efforts, including updated national climate commitments (NDCs), the Global Stocktake and COP30. Following the presentations, we’ll open the floor to questions from the media.&nbsp;REGISTER HERE&nbsp;&nbsp;The findings in the State of Climate Action 2025 report are strictly embargoed until Wednesday, October 22, 2025, at 00:01 ET / 06:01 CEST. Embargoed materials will be available upon request starting Monday, October 13. Please contact Darla van Hoorn at Darla.vanhoorn@wri.org&nbsp; to request access.&nbsp;&nbsp;WHEN &nbsp;Thursday, October 16, 2025, from 9:00–10:00 a.m. ET / 3:00–4:00 p.m. CEST&nbsp;WHO &nbsp;Speakers&nbsp;Kelly Levin, Chief of Science, Data and Systems Change, the Bezos Earth Fund; Co-Director of Systems Change Lab Clea Schumer, Research Associate, Systems Change Lab, World Resources Institute&nbsp; Sophie Boehm, Senior Research Associate, Systems Change Lab, World Resources Institute Alison Cinnamond (moderator), Strategic Communications and Media Director, World Resources Institute&nbsp;Expert respondents&nbsp;Neil Grant, Senior Climate and Energy Analyst, Climate Analytics Joel Jaeger, Senior Research Associate, Systems Change Lab, World Resources Institute Anderson Lee, Research Associate II, World Resources Institute&nbsp;&nbsp;RSVP &nbsp;Please RSVP at the following Zoom link. This call is open to journalists only.&nbsp;&nbsp;&nbsp;
+
+[Read original article](https://www.wri.org/news/advisory-embargoed-press-call-state-climate-action-2025-report)
