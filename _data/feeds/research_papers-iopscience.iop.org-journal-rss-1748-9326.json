@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-10-08T13:33:38.874469",
+  "fetched_at": "2025-10-08T14:25:49.160865",
   "items": [
+    {
+      "title": "A health impact assessment of changes in NDVI on all-cause mortality across 1041 global cities",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0954",
+      "pubDate": "",
+      "description": "Urban greenspaces are associated with improved health and climate resiliency. Large scale health impact assessments of urban greenspace and mortality have been limited to American and European cities. We estimated changes in mortality associated with observed differences in population-weighted greenest season normalized difference vegetation index (NDVI) between 2014–2018 and 2019–2023 across 1041 global cities representing 174 countries. We used publicly available high-resolution satellite-derived estimates of NDVI and population, baseline disease rates from the Global Burden of Disease study, and a hazard ratio of the association between NDVI and all-cause mortality from an epidemiological meta-analysis. We found that urban greenspace varies substantially across cities (NDVI mean: 0.270, range: 0.072, 0.580) and by climate classification and geographic region. Despite modest global average changes in NDVI from 2014–2018 to 2019–2023, NDVI has changed by over ±20% in individual cities. Median regional changes were largest in South-eastern Asia (−0.022), Sub-Saharan Africa (−0.010) and Eastern Asia (+0.014) and most stable in arid climates (<0.000). These changes were associated with a global mean of 0.19 (95% CI: 0.12, 0.27) additional annual deaths per 100 000 in the 2020 population, ranging from 24.44 fewer to 21.84 more deaths per 100 000 across cities. Health impact assessments of NDVI and all-cause mortality have largely been conducted in European and North American cities, where we found NDVI was generally higher and more stable. Our results highlight large heterogeneity in urban greenspace extent and variability across global cities and the importance of characterizing the relationship between health and NDVI in more diverse contexts.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Climate hazard experience linked to increased climate risk perception worldwide",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0ae9",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0b93",
       "pubDate": "",
       "description": "Carbon dioxide removal (CDR) technologies are increasingly recognized as necessary complements to decarbonization efforts; however, public acceptance remains a critical implementation challenge. This study investigates the impact of educational exposure on perceptions of CDR methods among individuals with a pre-existing interest in climate solutions. We conducted a quasi-experimental study with pre- and post-surveys of participants (n = 366 pre-survey, n = 83 post-survey, n = 29 matched pairs) enrolled in a six-week online CDR curriculum. Baseline comparisons with previous studies confirmed that participants were more knowledgeable about CDR and held more positive environmental attitudes than nationally representative population samples. Following the educational intervention, participants demonstrated significant increases in self-reported CDR knowledge and more favourable risk-benefit assessments across all CDR technologies, with the largest gains for enhanced weathering and biochar. Qualitative analysis revealed that, rather than simple endorsement, education fostered more nuanced evaluation capabilities, with participants developing greater appreciation for both benefits and method-specific limitations. Notably, participants shifted away from technology-specific preferences and towards more portfolio-based thinking, recognizing the complementary roles of different CDR approaches. These findings suggest that informed engagement with CDR technologies produces sophisticated rather than uncritical assessment frameworks, with implications for how CDR communication and engagement strategies might be designed to support constructive public dialogue about these emerging technologies.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Amplified agricultural impacts from more frequent and intense sequential heat events",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae06b8",
-      "pubDate": "",
-      "description": "As the climate warms, interacting weather extremes such as sequential heat events pose complex risks to societies. Regarding global agriculture, laboratory experiments suggest that early crop exposure to heat may either confer tolerance or enhance vulnerability to subsequent heat during the critical crop flowering stage. We show that warm early-seasons improve crop yield potential, particularly for soybean and maize, but also increase the impacts of subsequent heat by 5%–55% compared to years with average early-season temperatures. The impacts of this increased yield sensitivity outweigh the benefits of early season heat when mid-season temperature anomalies exceed 0.7 C–5 C (depending on the crop). Analyzing projected temperatures under the Shared Socioeconomic Pathway 3-7.0, we find a tenfold increase in the likelihood of experiencing sequential heat in early and mid-season crop growth stages, defined as a joint 90th percentile event. Accounting for the interactive effects of early and mid-season warming increases projected temperature-related crop yield losses by 2%–44%, depending on crop and region. These results underline the emerging nonlinear risks from sequential heat extremes to food systems, which can largely be avoided when limiting warming to 1.5 C globally.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
