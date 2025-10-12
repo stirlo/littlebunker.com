@@ -4,8 +4,24 @@
   "description": "Pulitzer Prize-winning, nonpartisan reporting on the biggest crisis facing our planet.",
   "category": "environmental_news",
   "source_url": "https://insideclimatenews.org/feed/",
-  "fetched_at": "2025-10-12T08:27:58.188971",
+  "fetched_at": "2025-10-12T09:21:16.519869",
   "items": [
+    {
+      "title": "A Short-Lived Win in a Never-Ending Fight Over Forever Chemicals",
+      "link": "https://insideclimatenews.org/news/12102025/forever-war-nc-activists-fight-chemours-pfas-water-pollution/",
+      "pubDate": "Sun, 12 Oct 2025 09:00:00 +0000",
+      "description": "Forever War, Part 1: This story is published in partnership with The Assembly and with WHQR, a nonprofit radio station and NPR affiliate in Wilmington. It is the first in a series of stories about the PFAS crisis in North Carolina.  Listen to an audio version of this story below. OAK ISLAND, N.C.—Emily Donovan stood […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "The Forever War",
+      "link": "https://insideclimatenews.org/news/12102025/icn-sunday-morning-forever-war/",
+      "pubDate": "Sun, 12 Oct 2025 08:50:00 +0000",
+      "description": "Environmentalists have been fighting for over a decade to get PFAS out of Cape Fear River in eastern North Carolina. The insidious chemicals have eluded traditional water treatment systems and flowed through the taps of hundreds of thousands of people.  Advocates scored a brief victory last year when the EPA announced new regulations to reduce […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
     {
       "title": "Climate Change Comes for the House of the Seven Gables",
       "link": "https://insideclimatenews.org/news/12102025/climate-change-comes-for-the-house-of-the-seven-gables/",
@@ -67,22 +83,6 @@
       "link": "https://insideclimatenews.org/news/10102025/texas-grid-operators-and-regulators-iron-out-new-rules-for-data-centers/",
       "pubDate": "Fri, 10 Oct 2025 08:21:00 +0000",
       "description": "Texas Gov. Greg Abbott signed a law in June that empowers the state’s grid operator to remotely disconnect data centers and other large energy users if the grid is under extreme stress. The so-called “kill switch” is just one aspect of the wide-ranging state legislation meant to govern the growing number of energy-intensive supercomputer warehouses […]",
-      "category": "environmental_news",
-      "source_url": "https://insideclimatenews.org/feed/"
-    },
-    {
-      "title": "Senate Nixes Management Plans for Public Lands, Expanding Access for Fossil Fuels",
-      "link": "https://insideclimatenews.org/news/09102025/congress-management-plans/",
-      "pubDate": "Thu, 09 Oct 2025 21:54:16 +0000",
-      "description": "Congress took the unprecedented step this week of repealing management plans for public lands in three states in an effort to expand access to fossil fuel mining and drilling. Critics of the move warn it could inject a new level of uncertainty into management of these areas and open a wave of litigation over leasing […]",
-      "category": "environmental_news",
-      "source_url": "https://insideclimatenews.org/feed/"
-    },
-    {
-      "title": "Shuttered Canadian Marine Park Warns It May Euthanize 30 Beluga Whales, Prompting a Global Outcry",
-      "link": "https://insideclimatenews.org/news/09102025/canadian-marine-park-could-euthanize-30-beluga-whales/",
-      "pubDate": "Thu, 09 Oct 2025 19:41:23 +0000",
-      "description": "The uncertain future of 30 beluga whales still living in tanks at Marineland—a shuttered aquarium and amusement park in Niagara Falls, Ontario—has drawn global outcry from animal rights activists this week after park officials warned they may euthanize the animals without immediate financial aid from the government.  “The idea that one would consider euthanizing them […]",
       "category": "environmental_news",
       "source_url": "https://insideclimatenews.org/feed/"
     }
