@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "ADVISORY: ACT2025 Press Call on Climate-Vulnerable Nations' Expectations for COP30"
+date: 2025-10-13 13:50:26 +0000
+categories: [social_impact]
+tags: ['year-2025', 'urgent', 'paris-agreement', 'climate-policy']
+keywords: ['paris-agreement', 'call', 'climate-policy', 'press', 'year-2025', 'advisory', 'urgent']
+description: "WASHINGTON (October 21, 2025) — Join Allied for Climate Transformation by 2025 (ACT2025) on Tuesday, October 21 from 8:30 a"
+external_url: https://www.wri.org/news/advisory-act2025-press-call-climate-vulnerable-nations-expectations-cop30
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+WASHINGTON (October 21, 2025) — Join Allied for Climate Transformation by 2025 (ACT2025) on Tuesday, October 21 from 8:30 a.m. - 9:30 a.m. EDT (see additional time zones below) for a press briefing featuring expert voices from countries on the frontlines of the climate crisis. Speakers will outline what COP30 must deliver to meet urgent adaptation, finance and loss and damage needs.&nbsp;ACT2025 is a consortium of think tanks and experts from Africa, Asia, Latin America and the Caribbean. The group works to amplify the priorities of climate-vulnerable countries and drive ambitious, just, and equitable outcomes at UN climate talks.&nbsp;&nbsp;Speakers will discuss key priorities shaping the COP30 agenda, including:&nbsp;Finalizing the Global Goal on Adaptation and closing the adaptation finance gap Assessing countries’ NDCs and their impact on the Paris Agreement’s temperature goals Delivering on the new climate finance goal&nbsp; Advancing global support for loss and damage&nbsp; Strengthening multilateralism amid geopolitical tension Implications of the recent ICJ Advisory Opinion on Climate Change for COP30&nbsp;Following brief presentations, we’ll open the floor for questions from the media.&nbsp;&nbsp;WHAT:&nbsp;&nbsp;A press briefing by the ACT2025 Consortium on what COP30 must achieve to meet the urgent needs of developing countries most affected by climate change.&nbsp;&nbsp;WHEN:&nbsp;&nbsp;Tuesday, October 21st, 2025&nbsp;8:30 a.m. EDT / 6:30 a.m. CST / 1:30 p.m. WAT / 3:30 p.m. EAT / 8:30 p.m. PHT / 2:30 p.m. CESTWHO:Panelists (in speaking order):&nbsp;Mohamed Adow, Director, Power Shift Africa (Kenya) Dr. Mark Bynoe, Director, Business Strategy and Regional Coordination, Caribbean Community Climate Change Centre (Belize/ Guyana) Alejandra López Carbajal, Head of Climate Diplomacy, Transforma&nbsp;(Colombia/ Mexico) Chukwumerije Okereke, Director, Centre for Climate Change and Development at Alex Ekwueme Federal University Ndufu-Alike (Nigeria) Tony La Viña, Associate Director for Climate Policy and International Relations, Manila Observatory (Philippines) Moderator: Alison Cinnamond, Global Director for Strategic Communications, World Resources Institute&nbsp;Q&amp;A Respondents:&nbsp;&nbsp;Amy Giliam Thorp, Program Manager/ Adaptation Lead, Power Shift Africa Gabrielle Swaby, Senior Manager, Allied for Climate Transformation by 2025 (ACT2025), World Resources Institute &nbsp;RSVP&nbsp;This press call is open to journalists only. Please RSVP here to receive Zoom access details.&nbsp;Media Contact&nbsp;Sophie Brady, sophie.brady@wri.org.&nbsp;Learn more about ACT2025 and its work ahead of COP30 here.&nbsp;
+
+[Read original article](https://www.wri.org/news/advisory-act2025-press-call-climate-vulnerable-nations-expectations-cop30)
