@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-10-14T15:27:30.913111",
+  "fetched_at": "2025-10-14T16:31:18.562766",
   "items": [
+    {
+      "title": "Fertilizing potential of nitrogen in human excreta across diverse countries and food systems",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0cdf",
+      "pubDate": "",
+      "description": "Human excreta represent a significant but underutilized source of nitrogen (N) for agriculture. Few studies have quantified the full fertilizing potential of human excreta across national contexts, or under a range of diverse food systems. This study provides the first systematic assessment of the potential contribution of N in human excreta to current cropland fertilization in a wide range of countries, covering 80% of the global population. Using food supply and demographic data, we estimate N in human excreta for each country and compare it to current cropland total N inputs, including synthetic fertilizers, manure, biological fixation, and atmospheric deposition. Assuming a 100% recovery rate of human excreta to estimate an upper-bound potential, under the current situation, we find that human excreta (37 MtN at the global scale) could provide 15%–30% of current cropland N inputs in most countries, 30%–50% in sub-Saharan Africa, and over 50% in major agricultural importers (e.g. Japan, Korea, Algeria). In contrast, large agricultural exporters with high external inputs, such as Argentina or the United States, show lower potential (5%–10%). For the whole world, the rate is 20%. For most countries, N excreted by humans is also of the same order of magnitude as (and often superior to) livestock manure currently applied to croplands. In addition to an analysis of the current situation, we assess how improved food system efficiency-via more vegetarian diets, reduced losses and increased manure recycling thanks to better coupling of husbandry and crop cultivation-could affect the potential contribution. Under deeply transformative agro-ecological scenarios, the global contribution of human excreta to N fertilization could exceed 30%. This work focuses on maximum potentials; future research should focus on realistic recovery rates ( 100%) and adjust our results accordingly.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Arctic extreme precipitation changes from 1980 to 2022 in response to sea ice decline and enhanced atmospheric rivers",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0504",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0e39",
       "pubDate": "",
       "description": "Adaptation is crucial for minimizing the societal impacts of tropical cyclones amid climate change. Using 3.56 billion high-resolution foot-traffic records from mobile devices, we analyzed human mobility patterns during Hurricanes Helene and Milton, which struck the southeastern United States in 2024. We observed marked differences in adaptive mobility responses across geographic regions with varying levels of historical hurricane exposure. Milton primarily impacted coastal areas with frequent hurricane exposure and prompted sharp increases in out-region travel prior to landfall and sustained elevated mobility in the post-disaster period. In contrast, Helene affected mostly inland areas, where mobility changes were modest and largely within natural variation. Within Helene-affected regions, coastal counties showed stronger mobility responses than inland counties. Our findings underscore the need for tailoring disaster preparedness and response strategies to the specific characteristics of affected populations.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A system dynamics model to evaluate historical and future trend of water scarcity in Beijing",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0e86",
-      "pubDate": "",
-      "description": "Water scarcity assessments are crucial for sustainable water management in the future. Previously, such assessments were mainly conducted through simple statistical analyses and water resource models, which apply minimal observational data on socioeconomic factors. Here, we present a data-driven method to evaluate water scarcity, and reveal the interplaying mechanisms between its key driving factors. We selected Beijing as a case study for its complex human–water system representative of other megacities. We collected annual parameters from government’s statistics and yearbooks during 2000–2021 and designed a system dynamics (SD) framework to characterize the key human–water coupling components. The framework was then used to project water demand and supply changes under different shared socioeconomic pathways (SSPs) (2024–2050) using meteorological forcing from CMIP6. Results show that the SD framework performs reasonably in reproducing historical water supply and demand variability, showing continuously mitigated water scarcity severity due to government efforts to constrain agricultural and industrial water demand. Future projections indicate that water scarcity severity will be gradually mitigated until 2030, particularly under SSP1, SSP2, and SSP3 scenarios. After 2030, water scarcity is intensified across all scenarios except for SSP5. This is associated with increased (decreased) sectoral water demand, together with reduced (increased) total water supply under each scenario. Sensitivity analyses, by keeping key parameters constant, highlight the distinct roles of climatological and socioeconomic factors in shaping the timing and variability of water scarcity, and offer valuable policy implications. The SD framework in this study has unique strength in simulating the temporal evolutions of sectoral water demands and their complex interactions, and thus can improve the realism of water demand estimation, which is essential for water resource modeling and assessment studies.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
