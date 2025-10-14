@@ -4,16 +4,8 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-10-14T17:20:15.250970",
+  "fetched_at": "2025-10-14T18:35:27.554102",
   "items": [
-    {
-      "title": "Correction: Exposure to climate risks and youth engagement with climate change",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1706771",
-      "pubDate": "2025-10-14T00:00:00Z",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
     {
       "title": "Building Africa’s climate resilience: understanding the impacts and future strategies in the face of climate change",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1619799",
@@ -23,10 +15,26 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
+      "title": "Correction: Exposure to climate risks and youth engagement with climate change",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1706771",
+      "pubDate": "2025-10-14T00:00:00Z",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
       "title": "Green credit and corporate environmental violations: evidence from regulatory arbitrage in China",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1643192",
       "pubDate": "2025-10-09T00:00:00Z",
       "description": "IntroductionWe test whether identity-based green credit improves or worsens firms' environmental compliance under discretionary enforcement.MethodsUsing a firm-year panel of 2,376 listed firms, we link banks' green-credit status to environmental penalty records and estimate fixed-effects models aided by a shift-share instrument, alongside extensive falsification and robustness checks.ResultsRelative to comparable firms, green-credit recipients are 19.7% more likely to receive environmental penalties, with stronger effects among privately owned firms; greater enforcement standardization attenuates this pattern.DiscussionIdentity-based green credit can backfire under discretionary enforcement; performance-based eligibility and more standardized enforcement can mitigate the risk.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "Regional ocean biogeochemical modeling challenges for predicting the effectiveness of marine carbon dioxide removal",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1640617",
+      "pubDate": "2025-10-08T00:00:00Z",
+      "description": "Effectively scaling diverse marine carbon dioxide removal (mCDR) technologies from pilot-scale demonstrations to industrial-scale deployments requires a quantitative understanding of how much additional carbon a given deployment will sequester compared to a scenario with no mCDR intervention and the long-term durability of the stored carbon. Given the high environmental variability and vast size of the ocean carbon pool, observations alone cannot resolve the amount, rate, and fate of mCDR-associated carbon sequestration. Likewise, when conducting an mCDR deployment it is impossible to observe a counterfactual scenario with no mCDR deployment performed. For this reason, ocean biogeochemical models are expected to play a key role in advancing mCDR deployments by informing observational requirements, defining uncertainty envelopes, and ultimately verifying durable carbon sequestration. However, current models, which are designed to capture basic ocean processes, have limitations when being used for this new application—simulating perturbations to the ocean system ranging in scale. Here, we describe our perspective on the most critical ocean biogeochemistry model process representations that need to be refined or added to accurately simulate the impact of a subset of mCDR approaches on carbon uptake and ocean biogeochemistry.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -43,14 +51,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1674565",
       "pubDate": "2025-10-08T00:00:00Z",
       "description": "India’s semi-arid regions covering 37% of is geographical area were among the most climate-vulnerable ecosystems globally characterized by erratic rainfall, intense heat and fragile livelihoods. Despite extensive research, few studies have comprehensively investigated household vulnerability, resilience and their interplay in these dry regions. This study formulates the “adaptation triangle” framework to examine the interlinkages among livelihood strategies, vulnerability and resilience. Employing a multistage stratified random sampling methodology, primary data was collected from 375 households in Rajasthan, Telangana and Tamil Nadu, encompassing 69 socioeconomic, environmental and institutional factors. Composite indices for household livelihood vulnerability (HLVI) and resilience (HRI) were constructed in accordance with IPCC and FAO guidelines. Multivariate linear regression was employed to investigate the influence of 13 livelihood strategies on HLVI and HRI, while multinomial logistic regression evaluated their effect on household transitions within the vulnerability-resilience matrix’s four quadrants. National-level data indicates moderate vulnerability (HLVI = 0.517) and low resilience (HRI = 0.489) with 37.07% of households categorized in the most at-risk high vulnerability-low resilience (HVLR) quadrant. Key adaptive strategies such as income diversification, rainwater harvesting, adjusting sowing dates and adoption of crop and livestock insurance were found to substantially reduce vulnerability and enhance resilience. Households dependent on casual labor face heightened climate risk was also found to be significant. This study reinforces that livelihood choices are not only survival responses but pivotal levers in shaping climate adaptation outcomes. Policy recommendations include promoting diversified and climate-resilient livelihoods, expanding social safety nets, scaling up insurance access, microfinances and investing in water harvesting and agro-ecological infrastructure. The adaptation triangle framework provides a valuable lens to inform targeted interventions and build long-term resilience among vulnerable populations in India’s semi-arid regions.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Regional ocean biogeochemical modeling challenges for predicting the effectiveness of marine carbon dioxide removal",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1640617",
-      "pubDate": "2025-10-08T00:00:00Z",
-      "description": "Effectively scaling diverse marine carbon dioxide removal (mCDR) technologies from pilot-scale demonstrations to industrial-scale deployments requires a quantitative understanding of how much additional carbon a given deployment will sequester compared to a scenario with no mCDR intervention and the long-term durability of the stored carbon. Given the high environmental variability and vast size of the ocean carbon pool, observations alone cannot resolve the amount, rate, and fate of mCDR-associated carbon sequestration. Likewise, when conducting an mCDR deployment it is impossible to observe a counterfactual scenario with no mCDR deployment performed. For this reason, ocean biogeochemical models are expected to play a key role in advancing mCDR deployments by informing observational requirements, defining uncertainty envelopes, and ultimately verifying durable carbon sequestration. However, current models, which are designed to capture basic ocean processes, have limitations when being used for this new application—simulating perturbations to the ocean system ranging in scale. Here, we describe our perspective on the most critical ocean biogeochemistry model process representations that need to be refined or added to accurately simulate the impact of a subset of mCDR approaches on carbon uptake and ocean biogeochemistry.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -79,6 +79,14 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
+      "title": "The heat, the heart and beyond: a narrative review of the many ways climate change impacts human health",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1647942",
+      "pubDate": "2025-10-03T00:00:00Z",
+      "description": "This article provides a narrative review of recent literature on the health impacts of climate change, synthesizing epidemiological findings, mechanistic insights, and policy implications across major exposure domains. Anthropogenic climate change is fundamentally altering global climate systems, with significant and multifaceted implications for human health. Epidemiological data indicate a strong correlation between ambient temperature fluctuations and cardiovascular mortality. Moreover, the frequency and severity of wildfires have intensified due to climate change, contributing to elevated levels of fine particulate matter (PM2.5) and resulting in substantial premature mortality. Climate change is modifying the geographic distribution and seasonality of vector-borne and zoonotic diseases, posing new challenges for infectious disease control. Air quality degradation alongside heightened UV radiation, contributes to a higher incidence of respiratory diseases, skin cancers, and ocular disorders. Climate-induced disruptions to agricultural systems are undermining food security, leading to increased malnutrition and related morbidity. Additionally, the psychological burden of climate-related events, including natural disasters and displacement, has been linked to rising rates of anxiety, post-traumatic stress disorder (PTSD), and affective disorders. These effects are more evident in vulnerable populations, including the elderly, individuals with pre-existing health conditions, those of lower socioeconomic status, and populations residing in low-income countries. Urgent mitigation strategies targeting greenhouse gas emissions are required to limit further climate-related health burdens. Concurrently, adaptive strategies must be implemented to bolster resilience across ecological, infrastructural, and health systems. Although public health systems are critical in addressing these challenges, a coordinated, multidisciplinary research agenda is imperative to elucidate the complex pathways linking climate change and health, and to develop evidence-based interventions aimed to reduce its negative impacts on human health.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
       "title": "How positive peace might enhance the success and adequacy of climate change adaptation in the global south",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1639479",
       "pubDate": "2025-10-03T00:00:00Z",
@@ -91,14 +99,6 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1670360",
       "pubDate": "2025-10-03T00:00:00Z",
       "description": "The digital economy, as a sustainable and innovative mechanism for economic change, has emerged as a crucial national strategic driver for China’s attainment of high-quality development and low-carbon transition. Assessing the digital economy’s contribution to both high-quality development and carbon reduction, as well as evaluating the extent of its effects, can offer accurate decision-making assistance for prioritizing development sectors and optimizing resource distribution. This research utilizes the Entropy Weight TOPSIS approach and spatial autocorrelation analysis to investigate the spatiotemporal characteristics of the digital economy and high-quality development in Guangdong Province. A coupling coordination model evaluates the extent of coordination between the two, while a Spatial Durbin Model (SDM) is utilized to estimate the coefficients regarding the digital economy’s influence on both high-quality development and carbon emission reduction at the prefecture-level city size. The primary findings of the study are as follows: (1) Both the digital economy and high-quality development in Guangdong Province have progressively advanced, demonstrating notable spatial autocorrelation (Global Moran’s I ranging from 0.21 to 0.36, p < 0.01). Nonetheless, development r is uneven, with the Pearl River Delta region significantly outpacing other areas. (2) The coupling coordination level between the digital economy and high-quality development exhibits fluctuating stability and significant regional disparities. The Pearl River Delta, particularly Shenzhen and Guangzhou, consistently achieves a coordination quality level exceeding 0.90, whereas Meizhou and Maoming frequently fall below 0.20, indicating severe discoordination. (3) The digital economy has a substantial beneficial impact and spatial spillover effect on both high-quality development and carbon reduction. The SDM findings reveal that the digital economy exerts a substantial direct influence on high-quality development (coefficient = 0.4837, p < 0.01), while demonstrating a slight negative impact on carbon emissions (coefficient = −0.2012, p < 0.05), thereby affirming that its impact on high-quality development is predominantly more pronounced than its influence on low-carbon development. This report recommends focused ways to enhance the digital economy’s fundamental role in fostering high-quality development while also realizing its promise for low-carbon synergy.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "The heat, the heart and beyond: a narrative review of the many ways climate change impacts human health",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1647942",
-      "pubDate": "2025-10-03T00:00:00Z",
-      "description": "This article provides a narrative review of recent literature on the health impacts of climate change, synthesizing epidemiological findings, mechanistic insights, and policy implications across major exposure domains. Anthropogenic climate change is fundamentally altering global climate systems, with significant and multifaceted implications for human health. Epidemiological data indicate a strong correlation between ambient temperature fluctuations and cardiovascular mortality. Moreover, the frequency and severity of wildfires have intensified due to climate change, contributing to elevated levels of fine particulate matter (PM2.5) and resulting in substantial premature mortality. Climate change is modifying the geographic distribution and seasonality of vector-borne and zoonotic diseases, posing new challenges for infectious disease control. Air quality degradation alongside heightened UV radiation, contributes to a higher incidence of respiratory diseases, skin cancers, and ocular disorders. Climate-induced disruptions to agricultural systems are undermining food security, leading to increased malnutrition and related morbidity. Additionally, the psychological burden of climate-related events, including natural disasters and displacement, has been linked to rising rates of anxiety, post-traumatic stress disorder (PTSD), and affective disorders. These effects are more evident in vulnerable populations, including the elderly, individuals with pre-existing health conditions, those of lower socioeconomic status, and populations residing in low-income countries. Urgent mitigation strategies targeting greenhouse gas emissions are required to limit further climate-related health burdens. Concurrently, adaptive strategies must be implemented to bolster resilience across ecological, infrastructural, and health systems. Although public health systems are critical in addressing these challenges, a coordinated, multidisciplinary research agenda is imperative to elucidate the complex pathways linking climate change and health, and to develop evidence-based interventions aimed to reduce its negative impacts on human health.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -127,14 +127,6 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "The Greater Bay Area as a hotspot: interacting impacts of urbanization and extreme events on wet-bulb temperatures in Guangdong Province",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1653561",
-      "pubDate": "2025-09-23T00:00:00Z",
-      "description": "Amidst rapid urbanization and an increasing frequency of extreme events, urban climate stress is intensifying and potentially affecting wet-bulb temperature (WBT), a key indicator of human-perceived thermal stress. This study examined the combined effects of urbanization and extreme events on the WBT dynamics in Guangdong Province, a humid tropical region in China. Using long-term meteorological data spanning five decades and urbanization metrics, we systematically analyzed urban–rural WBT differences using paired station comparisons and quantified the contribution of urbanization. Key findings highlight urban–rural WBT differences across three distinct urbanization stages: (a) Initial urbanization, where heat island effects dominate and amplify WBT differences; (b) Rapid urbanization, characterized by impervious surface expansion that widens WBT disparities to their peak, with the urban–rural difference increasing by 0.0027° C decade−1 (p < 0.001); and (c) Mature urbanization (e.g., Guangdong-Hong Kong-Macao Greater Bay Area, GBA), where dry island effects reduce humidity, thereby narrowing urban–rural gaps. Furthermore, extreme weather events alter these urban–rural WBT patterns. High-temperature and compound heat-drought events can reduce WBT differences, in some cases by a factor of three, while periods of extreme precipitation can amplify them. These findings underscore the critical impacts of urbanization and extreme events on urban thermal stress. This understanding is crucial for evaluating human heat stress and informing urban risk planning, particularly in the context of advancing urbanization and climate change in urban agglomerations.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "How biodiversity conservation adapts to climate change: from a cross-spatial scale framework",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1646318",
       "pubDate": "2025-09-23T00:00:00Z",
@@ -143,10 +135,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "What regional agricultural actors want to know about carbon dioxide removal in Northern Germany",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1627432",
-      "pubDate": "2025-09-22T00:00:00Z",
-      "description": "Many countries, including Germany, have made their climate targets dependent on the implementation of methods for removing carbon dioxide from the atmosphere. Actors in the agricultural sector can contribute to this implementation. However, there is a knowledge gap regarding carbon dioxide removal (CDR) among agricultural actors. In this study, we interviewed 34 agricultural actors at the micro, meso, and macro levels to identify the factors hindering the implementation of CDR practices, namely soil carbon sequestration, biochar, and agroforestry. We identified 22 information needs related to the dimensions of Climate change mitigation, Technological conditions, Environmental impacts, Economics, Policy & government, and Social aspects from the interviews. Farmers expressed more information needs compared with representatives from farming associations or local and regional administrations. Across all interviews, recommendations for action were most requested, with a high preference for information in digital online formats. Our findings provide a checklist for future research in the form of co-developed actionable knowledge between researchers and agricultural actors to increase the knowledge but especially the use of agricultural practices to remove carbon dioxide from the atmosphere.",
+      "title": "The Greater Bay Area as a hotspot: interacting impacts of urbanization and extreme events on wet-bulb temperatures in Guangdong Province",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1653561",
+      "pubDate": "2025-09-23T00:00:00Z",
+      "description": "Amidst rapid urbanization and an increasing frequency of extreme events, urban climate stress is intensifying and potentially affecting wet-bulb temperature (WBT), a key indicator of human-perceived thermal stress. This study examined the combined effects of urbanization and extreme events on the WBT dynamics in Guangdong Province, a humid tropical region in China. Using long-term meteorological data spanning five decades and urbanization metrics, we systematically analyzed urban–rural WBT differences using paired station comparisons and quantified the contribution of urbanization. Key findings highlight urban–rural WBT differences across three distinct urbanization stages: (a) Initial urbanization, where heat island effects dominate and amplify WBT differences; (b) Rapid urbanization, characterized by impervious surface expansion that widens WBT disparities to their peak, with the urban–rural difference increasing by 0.0027° C decade−1 (p < 0.001); and (c) Mature urbanization (e.g., Guangdong-Hong Kong-Macao Greater Bay Area, GBA), where dry island effects reduce humidity, thereby narrowing urban–rural gaps. Furthermore, extreme weather events alter these urban–rural WBT patterns. High-temperature and compound heat-drought events can reduce WBT differences, in some cases by a factor of three, while periods of extreme precipitation can amplify them. These findings underscore the critical impacts of urbanization and extreme events on urban thermal stress. This understanding is crucial for evaluating human heat stress and informing urban risk planning, particularly in the context of advancing urbanization and climate change in urban agglomerations.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -155,6 +147,14 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1629509",
       "pubDate": "2025-09-22T00:00:00Z",
       "description": "This study investigates key determinants influencing donor fulfillment rates (DFR) in the context of global climate finance. Using panel data analysis, the study examines the impact of pledged and deposited funds, EU membership, and fund type on donor fulfillment. The Random Effects model was validated through a Hausman test and used to interpret the main results. The analysis reveals that higher pledged amounts are significantly associated with lower fulfillment rates, while actual deposited funds positively and strongly affect DFR. EU membership consistently improves donor fulfillment, suggesting that institutional alignment matters, whereas fund type showed no significant influence in the RE model. The findings suggest a need for more realistic pledging practices, stronger monitoring and accountability mechanisms, and institutional frameworks that promote follow-through on financial commitments. This study introduces a novel empirical variable—EU membership—to assess how regional affiliation influences donor behavior. This study offers a new lens to evaluate the effectiveness of international climate finance commitments. The research advances the Principal–Agent Theory, Institutional Theory, and Rational Choice Theory to explain donor behavior. It fills a critical gap in empirical literature by distinguishing between the effects of pledges versus actual deposits, highlighting the role of regional institutional contexts.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "What regional agricultural actors want to know about carbon dioxide removal in Northern Germany",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1627432",
+      "pubDate": "2025-09-22T00:00:00Z",
+      "description": "Many countries, including Germany, have made their climate targets dependent on the implementation of methods for removing carbon dioxide from the atmosphere. Actors in the agricultural sector can contribute to this implementation. However, there is a knowledge gap regarding carbon dioxide removal (CDR) among agricultural actors. In this study, we interviewed 34 agricultural actors at the micro, meso, and macro levels to identify the factors hindering the implementation of CDR practices, namely soil carbon sequestration, biochar, and agroforestry. We identified 22 information needs related to the dimensions of Climate change mitigation, Technological conditions, Environmental impacts, Economics, Policy & government, and Social aspects from the interviews. Farmers expressed more information needs compared with representatives from farming associations or local and regional administrations. Across all interviews, recommendations for action were most requested, with a high preference for information in digital online formats. Our findings provide a checklist for future research in the form of co-developed actionable knowledge between researchers and agricultural actors to increase the knowledge but especially the use of agricultural practices to remove carbon dioxide from the atmosphere.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
