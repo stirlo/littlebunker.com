@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-16T13:35:37.847142",
+  "fetched_at": "2025-10-16T14:25:30.913223",
   "items": [
+    {
+      "title": "Asteroid Ryugu’s hidden waters could explain how Earth got its oceans",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251015230955.htm",
+      "pubDate": "Thu, 16 Oct 2025 09:24:37 EDT",
+      "description": "Ryugu’s samples reveal that water activity on asteroids lasted far longer than scientists thought, possibly reshaping theories of how Earth gained its oceans. A billion-year-old impact may have melted ancient ice, keeping asteroids wet and influential far into solar system history.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Forged in fire: The 900°C heat that built Earth’s stable continents",
       "link": "https://www.sciencedaily.com/releases/2025/10/251015230947.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250918225010.htm",
       "pubDate": "Fri, 19 Sep 2025 02:45:02 EDT",
       "description": "MIT scientists have unraveled the hidden energy balance of earthquakes by recreating them in the lab. Their findings show that while only a sliver of energy goes into the shaking we feel on the surface, the overwhelming majority is released as heat—sometimes hot enough to melt surrounding rock in an instant.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Why Alaska’s salmon streams are suddenly bleeding orange",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918011602.htm",
-      "pubDate": "Thu, 18 Sep 2025 01:16:02 EDT",
-      "description": "Warming Arctic permafrost is unlocking toxic metals, turning Alaska’s once-clear rivers into orange, acid-laced streams. The shift, eerily similar to mine pollution but entirely natural, threatens fish, ecosystems, and communities that depend on them—with no way to stop the process once it starts.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
