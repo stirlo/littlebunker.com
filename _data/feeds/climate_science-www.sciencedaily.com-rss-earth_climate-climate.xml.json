@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-17T09:26:47.417279",
+  "fetched_at": "2025-10-17T10:26:26.043203",
   "items": [
+    {
+      "title": "MIT finds traces of a lost world deep within planet Earth",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251016223056.htm",
+      "pubDate": "Fri, 17 Oct 2025 05:31:35 EDT",
+      "description": "Researchers have discovered chemical fingerprints of Earth's earliest incarnation, preserved in ancient mantle rocks. A unique imbalance in potassium isotopes points to remnants of “proto Earth” material that survived the planet’s violent formation. The study suggests the original building blocks of Earth remain hidden beneath its surface, offering a direct glimpse into our planet’s ancient origins.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Asteroid Ryugu’s hidden waters could explain how Earth got its oceans",
       "link": "https://www.sciencedaily.com/releases/2025/10/251015230955.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250918225016.htm",
       "pubDate": "Fri, 19 Sep 2025 07:53:58 EDT",
       "description": "Wildfires are no longer a seasonal nuisance but a deadly, nationwide health crisis. Fueled by climate change, smoke is spreading farther and lingering longer, with new research warning of tens of thousands of additional deaths annually by mid-century. The health costs alone could surpass all other climate damages combined, revealing wildfire smoke as one of the most underestimated threats of our warming world.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earthquakes release blistering heat that can melt rock in an instant",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250918225010.htm",
-      "pubDate": "Fri, 19 Sep 2025 02:45:02 EDT",
-      "description": "MIT scientists have unraveled the hidden energy balance of earthquakes by recreating them in the lab. Their findings show that while only a sliver of energy goes into the shaking we feel on the surface, the overwhelming majority is released as heat—sometimes hot enough to melt surrounding rock in an instant.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
