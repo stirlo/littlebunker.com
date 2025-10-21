@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-21T07:24:52.285366",
+  "fetched_at": "2025-10-21T08:34:43.394957",
   "items": [
+    {
+      "title": "Scientists just found hidden life thriving beneath the Arctic ice",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251020092826.htm",
+      "pubDate": "Tue, 21 Oct 2025 02:36:47 EDT",
+      "description": "Melting Arctic ice is revealing a hidden world of nitrogen-fixing bacteria beneath the surface. These microbes, not the usual cyanobacteria, enrich the ocean with nitrogen, fueling algae growth that supports the entire marine food chain. As ice cover declines, both algae production and CO2 absorption may increase, altering the region’s ecological balance. The discovery could force scientists to revise predictions about Arctic climate feedbacks.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A clue to ancient life? What scientists found inside Mars’ frozen vortex",
       "link": "https://www.sciencedaily.com/releases/2025/10/251018102124.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250922074949.htm",
       "pubDate": "Mon, 22 Sep 2025 21:32:34 EDT",
       "description": "A team at RMIT University has created a cement-free construction material using only cardboard, soil, and water. Strong enough for low-rise buildings, it reduces emissions, costs, and waste compared to concrete. The lightweight, on-site process makes it ideal for remote areas, while its thermal properties naturally cool buildings. Researchers see it as a key step toward greener, more resilient architecture.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The shocking reason Arctic rivers are turning rusty orange",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250922074938.htm",
-      "pubDate": "Mon, 22 Sep 2025 09:09:33 EDT",
-      "description": "Researchers found that ice can trigger stronger chemical reactions than liquid water, dissolving iron minerals in extreme cold. Freeze-thaw cycles amplify the effect, releasing iron into rivers and soils. With climate change accelerating these cycles, Arctic waterways may face major transformations.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
