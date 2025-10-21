@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-21T15:25:21.275854",
+  "fetched_at": "2025-10-21T16:31:25.778438",
   "items": [
+    {
+      "title": "Scientists say dimming the sun could spark global chaos",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251021083631.htm",
+      "pubDate": "Tue, 21 Oct 2025 09:29:34 EDT",
+      "description": "Scientists are taking the once-radical concept of dimming the sun through stratospheric aerosol injection (SAI) seriously, but a Columbia University team warns that reality is far messier than models suggest. Their study reveals how physical, geopolitical, and economic constraints could derail even the best-intentioned attempts to cool the planet. From unpredictable monsoon disruptions to material shortages and optical inefficiencies, every step introduces new risks.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists just found hidden life thriving beneath the Arctic ice",
       "link": "https://www.sciencedaily.com/releases/2025/10/251020092826.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250924012229.htm",
       "pubDate": "Wed, 24 Sep 2025 08:56:57 EDT",
       "description": "Diamonds hitch a ride to the surface through explosive kimberlite eruptions, powered by volatile-rich magmas. New simulations show that carbon dioxide and water are the secret ingredients that make these eruptions possible.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "This surprising building material is strong, cheap, and sustainable",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250922074949.htm",
-      "pubDate": "Mon, 22 Sep 2025 21:32:34 EDT",
-      "description": "A team at RMIT University has created a cement-free construction material using only cardboard, soil, and water. Strong enough for low-rise buildings, it reduces emissions, costs, and waste compared to concrete. The lightweight, on-site process makes it ideal for remote areas, while its thermal properties naturally cool buildings. Researchers see it as a key step toward greener, more resilient architecture.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
