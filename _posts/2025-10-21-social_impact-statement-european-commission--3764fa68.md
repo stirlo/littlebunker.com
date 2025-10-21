@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "STATEMENT: European Commission Protects EUDR’s Core Principles"
+date: 2025-10-21 16:52:40 +0000
+categories: [social_impact]
+tags: ['year-2025']
+keywords: ['european', 'statement', 'year-2025', 'commission']
+description: "Brussels (October 21, 2025) — The European Commission today put forward a formal proposal to simplify the EU Deforestation Regulation (EUDR) for micro and sm..."
+external_url: https://www.wri.org/news/statement-european-commission-protects-eudrs-core-principles
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+Brussels (October 21, 2025) — The European Commission today put forward a formal proposal to simplify the EU Deforestation Regulation (EUDR) for micro and small enterprises, as well as downstream operators.These companies will have reduced obligations under the EUDR, and the formal entry into application for micro and small enterprises will be delayed until December 2026. For all other companies, the overall entry into force date remains December 30, 2025, but a 6-month grace period for checks and enforcement will be granted in light of IT issues.&nbsp;The EUDR aims to prevent commodities linked to deforestation — such as coffee, cocoa, soy, beef, leather, palm oil, rubber, and wood — from entering the EU market. The new proposal exempts certain actors, including small-scale farmers and foresters selling locally, from submitting due diligence statements. It also exempts downstream companies from this requirement, allowing businesses that use or resell these covered products to rely on the due diligence conducted by the importer or first trader.Following is a statement by Stientje van Veldhoven, Vice President and Regional Director for Europe of World Resources Institute:“With this proposal, the Commission is creating a workaround to allow compliance with the EUDR to begin at the end of December 2025. While no tampering would have been preferable, this approach is far better than delaying enforcement another year or gutting the regulation, as some have called for.“The Commission appears focused on reducing burdens where the impact is small, while maintaining rigor where the stakes are high. An exemption only for micro enterprises — not including small enterprises — would have had less impact. Yet this package could strike a robust compromise: businesses that have already invested won't see their efforts wasted, and those betting on future delays will not be rewarded.“Crucially, it rejects the most harmful proposals like exempting entire countries. The proposal exempts small companies from submitting due diligence declarations, while making sure their products aren't sourced from land deforested or degraded after the cutoff date and comply with local laws. As such, the proposal addresses the issues with the IT system, but retains the EUDR’s core elements and maintains its predictability.“It's important the European Parliament and Council give businesses clear guidance — and avoid adding uncertainty with further changes to the law. Forests are vital for climate stability, yet last year we lost 6.7 million hectares — 18 football fields every minute. With just 7% of the global population, the EU drives up to 16% of deforestation through imports. The EU bears a disproportionate responsibility to lead.”
+
+[Read original article](https://www.wri.org/news/statement-european-commission-protects-eudrs-core-principles)
