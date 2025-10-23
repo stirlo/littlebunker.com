@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-23T06:36:23.648456",
+  "fetched_at": "2025-10-23T07:24:18.177854",
   "items": [
+    {
+      "title": "They were drilling off Oregon. What they found could shake all of California",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251022023130.htm",
+      "pubDate": "Wed, 22 Oct 2025 02:31:30 EDT",
+      "description": "Scientists have uncovered evidence that megaquakes in the Pacific Northwest might trigger California’s San Andreas Fault. A research ship’s navigational error revealed paired sediment layers showing both fault systems moved together in the past. This finding hints that the next “Big One” could set off a devastating one-two seismic punch along the coast.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists say dimming the sun could spark global chaos",
       "link": "https://www.sciencedaily.com/releases/2025/10/251021083631.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/09/250926035016.htm",
       "pubDate": "Fri, 26 Sep 2025 07:49:30 EDT",
       "description": "Bio-tar, once seen as a toxic waste, can be transformed into bio-carbon with applications in clean energy and environmental protection. This innovation could reduce emissions, create profits, and solve a major bioenergy industry problem.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists crack the explosive secret of how diamonds reach the surface",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250924012229.htm",
-      "pubDate": "Wed, 24 Sep 2025 08:56:57 EDT",
-      "description": "Diamonds hitch a ride to the surface through explosive kimberlite eruptions, powered by volatile-rich magmas. New simulations show that carbon dioxide and water are the secret ingredients that make these eruptions possible.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
