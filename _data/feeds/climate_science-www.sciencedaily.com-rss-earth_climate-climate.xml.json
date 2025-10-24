@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-24T13:35:08.822827",
+  "fetched_at": "2025-10-24T14:25:42.265819",
   "items": [
+    {
+      "title": "El Niño could soon turn deadly predictable, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251024041753.htm",
+      "pubDate": "Fri, 24 Oct 2025 09:49:26 EDT",
+      "description": "Scientists have discovered that El Niño and La Niña could become far more powerful and predictable as the planet warms. By 2050, the tropical Pacific may hit a tipping point, locking ENSO into strong, rhythmic oscillations that synchronize with other global climate patterns. The result could be intensified rainfall extremes and greater risk of “climate whiplash” across multiple continents.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "China’s coastal cities are sinking as seas rise at record speed",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251023031627.htm",
+      "pubDate": "Thu, 23 Oct 2025 23:11:04 EDT",
+      "description": "Sea levels are rising faster than at any time in 4,000 years, scientists report, with China’s major coastal cities at particular risk. The rapid increase is driven by warming oceans and melting ice, while human activities like groundwater pumping make it worse. In some areas, the land itself is sinking faster than the ocean is rising. Still, researchers see progress as cities like Shanghai adopt new technologies to stabilize the ground and prepare for the future.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "They were drilling off Oregon. What they found could shake all of California",
       "link": "https://www.sciencedaily.com/releases/2025/10/251022023130.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251001092208.htm",
       "pubDate": "Wed, 01 Oct 2025 10:53:40 EDT",
       "description": "Fungi may have shaped Earth’s landscapes long before plants appeared. By combining rare gene transfers with fossil evidence, researchers have traced fungal origins back nearly a billion years earlier than expected. These ancient fungi may have partnered with algae, recycling nutrients, breaking down rock, and creating primitive soils. Far from being silent background players, fungi were ecosystem engineers that prepared Earth’s surface for plants, fundamentally altering the course of life’s history.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Tiny stones rewrite Earth’s evolution story",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250926035026.htm",
-      "pubDate": "Fri, 26 Sep 2025 19:30:19 EDT",
-      "description": "Scientists have uncovered an unexpected witness to Earth’s distant past: tiny iron oxide stones called ooids. These mineral snowballs lock away traces of ancient carbon, revealing that oceans between 1,000 and 541 million years ago held far less organic carbon than previously thought. This discovery challenges long-standing theories linking carbon levels, oxygen surges, and the emergence of complex life.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Toxic waste could become the next clean energy breakthrough",
-      "link": "https://www.sciencedaily.com/releases/2025/09/250926035016.htm",
-      "pubDate": "Fri, 26 Sep 2025 07:49:30 EDT",
-      "description": "Bio-tar, once seen as a toxic waste, can be transformed into bio-carbon with applications in clean energy and environmental protection. This innovation could reduce emissions, create profits, and solve a major bioenergy industry problem.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
