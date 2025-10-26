@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-26T08:29:01.202165",
+  "fetched_at": "2025-10-26T09:22:22.883507",
   "items": [
     {
       "title": "Earth is splitting open beneath the Pacific Northwest",
       "link": "https://www.sciencedaily.com/releases/2025/10/251025084611.htm",
       "pubDate": "Sat, 25 Oct 2025 10:39:13 EDT",
       "description": "For the first time, scientists have seen a subduction zone actively breaking apart beneath the Pacific Northwest. Seismic data show the oceanic plate tearing into fragments, forming microplates in a slow, step-by-step collapse. This process, once only theorized, explains mysterious fossil plates found elsewhere and offers new clues about earthquake risks. The dying subduction zone is revealing Earth’s tectonic life cycle in real time.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Glaciers’ secret cooling power won’t last much longer",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251025084606.htm",
+      "pubDate": "Sun, 26 Oct 2025 00:34:27 EDT",
+      "description": "Scientists have uncovered that glaciers can temporarily cool the air around them, delaying some effects of global warming. This self-cooling, driven by katabatic winds, is nearing its peak and will likely reverse in the next two decades. Once glaciers lose enough mass, they will heat up faster, speeding their decline. The team urges immediate global action to curb emissions and manage dwindling water resources wisely.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251002074001.htm",
       "pubDate": "Thu, 02 Oct 2025 22:57:01 EDT",
       "description": "In 2020, California’s Creek Fire became so intense that it generated its own thunderstorm, a phenomenon called a pyrocumulonimbus cloud. For years, scientists struggled to replicate these explosive fire-born storms in climate models, leaving major gaps in understanding their global effects. Now, a new study has finally simulated them successfully, reproducing the Creek Fire’s storm and others like it.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "1,000 Swiss glaciers already gone, and the melting is speeding up",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251001092211.htm",
-      "pubDate": "Thu, 02 Oct 2025 03:00:27 EDT",
-      "description": "Swiss glaciers lost nearly 3% of their volume in 2025, following a snow-poor winter and scorching summer heatwaves. The melt has been so extreme that some glaciers lost more than two meters of ice thickness in a single season. Scientists caution that the decline is destabilizing mountains, raising risks of rock and ice avalanches. Long-term monitoring efforts are now more critical than ever.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
