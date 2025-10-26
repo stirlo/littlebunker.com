@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-26T15:22:07.988747",
+  "fetched_at": "2025-10-26T16:28:22.511912",
   "items": [
+    {
+      "title": "Hippos once roamed frozen Germany with mammoths",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251026021740.htm",
+      "pubDate": "Sun, 26 Oct 2025 08:29:01 EDT",
+      "description": "New research shows that hippos lived in central Europe tens of thousands of years longer than previously thought. Ancient DNA and radiocarbon dating confirm they survived in Germany’s Upper Rhine Graben during a milder Ice Age phase. Closely related to modern African hippos, they shared the landscape with cold-adapted giants like mammoths. The finding rewrites Ice Age history and suggests regional climates were far more diverse.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Earth is splitting open beneath the Pacific Northwest",
       "link": "https://www.sciencedaily.com/releases/2025/10/251025084611.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251002074009.htm",
       "pubDate": "Fri, 03 Oct 2025 03:31:11 EDT",
       "description": "Billions of years ago, Earth’s atmosphere was hostile, with barely any oxygen and toxic conditions for life. Researchers from the Earth-Life Science Institute studied Japan’s iron-rich hot springs, which mimic the ancient oceans, to uncover how early microbes survived. They discovered communities of bacteria that thrived on iron and tiny amounts of oxygen, forming ecosystems that recycled elements like carbon, nitrogen, and sulfur.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just recreated a wildfire that made its own weather",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251002074001.htm",
-      "pubDate": "Thu, 02 Oct 2025 22:57:01 EDT",
-      "description": "In 2020, California’s Creek Fire became so intense that it generated its own thunderstorm, a phenomenon called a pyrocumulonimbus cloud. For years, scientists struggled to replicate these explosive fire-born storms in climate models, leaving major gaps in understanding their global effects. Now, a new study has finally simulated them successfully, reproducing the Creek Fire’s storm and others like it.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
