@@ -4,8 +4,16 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2025-10-27T05:26:51.067808",
+  "fetched_at": "2025-10-27T06:40:09.149484",
   "items": [
+    {
+      "title": "Influence of relative user satisfaction and critical success factors on sustainability of climate change adaptation practices in Chamwino and Igunga, Tanzania",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1671911",
+      "pubDate": "2025-10-27T00:00:00Z",
+      "description": "Climate change impacts have driven initiatives like eco-village projects to implement Climate Change Adaptation (CCA) practices in vulnerable communities. However, their sustainability post-funding is uncertain. This study investigates how Relative User Satisfaction (RUS) and Critical Success Factors (CSF) influence CCA practice sustainability in Chamwino and Igunga agro-ecological zones, Tanzania. Using the Technology Acceptance Model (TAM) and Pinto’s Project Success Theory, we assessed RUS and CSFs’ comparative effects on sustainability. Data from 295 respondents implementing CCA practices were collected via using household surveys, Key Informant Interviews, and focus group discussion. Polychoric correlations, Multiple Correspondence Analysis, and multivariate ordered logit modeling evaluated sustainability (low, medium, high). Soil water conservation showed the highest sustainability (70.3%), followed by tree planting (66.3%), while energy-efficient cooking stoves had the lowest (48.7%). Strong correlations existed between soil water conservation, ox-drawn tillage, and tree planting (p < 0.001), with weaker correlations for energy-efficient stoves (p < 0.01). Perceived Image strongly influenced sustainability (β = 0.912–1.198, p < 0.001), especially for tree planting, followed by Accountability (β = 0.876–1.152, p < 0.001) and Transparency (β = 0.567–0.784, p < 0.01). Self-efficacy (β = 0.567–0.912, p < 0.05) and Usability (β = 0.645–0.812, p < 0.001) also impacted sustainability, while Individual Performance had minimal effect. CSFs like Self-efficacy, Perceived Image, Accountability, and Transparency increased sustainability probability by 16.5–19.4%. Low sustainability reflects social and governance barriers. RUS and CSF significantly influenced CCA practice sustainability, enhancing resilience through user perceptions and institutional support. Policymakers should integrate RUS and CSFs into CCA strategies, prioritizing community engagement, institutional support, and targeted interventions like subsidies and training to enhance post-funding sustainability. These findings highlight the critical role of user-focused governance in sustaining CCA practices long-term.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
     {
       "title": "Using magnesium hydroxide for ocean alkalinity enhancement: elucidating the role of formation conditions on material properties and dissolution kinetics",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1616362",
@@ -23,10 +31,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Waterborne diseases in flood compromised WASH conditions in Malaysia: a planetary health perspective",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1646753",
+      "title": "Africa’s regional and local climate response to stratospheric aerosol injection characteristics",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1599405",
       "pubDate": "2025-10-22T00:00:00Z",
-      "description": "Floods are one of the major climate events that disrupt vital built systems such as water drainage and sanitation facilities. These conditions make it extremely difficult to obtain clean water and sanitation. The lack of safe and clean water, sanitation, and hygiene (WASH) has detrimental effects on the community, for example, the spread of a wide range of infectious illnesses, particularly waterborne illnesses. This review examines the major disease spread and difficulties encountered in a compromised WASH situation in Malaysia during flood catastrophes. We reviewed the literature on the Web of Science, SciELO Citation Index, PubMed, and Scopus databases for articles published between 1972 and 2024. Among the 41 identified articles, 10 were eligible for inclusion based on writing in English, removing duplicate literature, and observing that the study was conducted in Malaysia. This study discusses these issues and the WASH framework in Malaysia. Food poisoning, cholera, hepatitis A, diarrhea, and typhoid fever are among the most common ailments that flood victims are diagnosed with. Enhancing the WASH practices and infrastructure in Malaysia is crucial for reducing the risk of these illnesses. This requires a multifaceted strategy that includes sustainable technology, community involvement, and governmental action.",
+      "description": "Future climate projections indicate that Africa will experience significant increases in both mean and extreme temperature indices. These changes will be accompanied by notable shifts in precipitation patterns under a high-emission scenario (RCP8.5). Using climate simulations, this study assesses the potential impact of stratospheric aerosol injection (SAI) on projected mean and extreme temperature and precipitation across the continent. We analysed data from the Stratospheric Aerosol Geoengineering Large Ensemble (GLENS) project, which simulates a set of SAI experiments under RCP8.5 emission scenarios with SO2 injection into the tropical stratosphere at 22.8–25 km altitude (GLENS) and around 1 km above the tropopause (GLENS_low) and near the equator at around 20–25 km above ground (GLENS_eq). The results show that all SAI experiments (GLENS, GLENS_eq, and GLENS_low) exhibit substantial cooling effects, with GLENS_eq emerging as the most effective in reducing temperature extremes, particularly over Central and Southern Africa. However, despite successfully offsetting much of the RCP8.5-induced warming, the effectiveness of SAI varies across regions, leaving some regions, such as the Sahel and North Africa, with residual warming. In addition to its cooling effects, SAI could significantly alter precipitation patterns, introducing widespread drying and thereby reducing flood risks across the continent. While SAI could offset the projected increase in extreme precipitation under RCP8.5, it could simultaneously exacerbate drying trends over Central, Southern, and Northern Africa. These findings highlight critical trade-offs associated with SAI deployment, particularly for regions where agriculture and water resources depend heavily on rainfall, underscoring the need for regionally optimised geoengineering strategies that balance temperature moderation with hydrological stability. This study provides the first comparative analysis of tropical, equatorial, and low-altitude SAI impacts on the climate, revealing critical trade-offs for precipitation-dependent regions. The findings presented here are, however, specific to the SAI scenarios analysed (GLENS experiments), as a different SAI deployment scenario would lead to different conclusions.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -39,18 +47,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Africa’s regional and local climate response to stratospheric aerosol injection characteristics",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1599405",
+      "title": "Waterborne diseases in flood compromised WASH conditions in Malaysia: a planetary health perspective",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1646753",
       "pubDate": "2025-10-22T00:00:00Z",
-      "description": "Future climate projections indicate that Africa will experience significant increases in both mean and extreme temperature indices. These changes will be accompanied by notable shifts in precipitation patterns under a high-emission scenario (RCP8.5). Using climate simulations, this study assesses the potential impact of stratospheric aerosol injection (SAI) on projected mean and extreme temperature and precipitation across the continent. We analysed data from the Stratospheric Aerosol Geoengineering Large Ensemble (GLENS) project, which simulates a set of SAI experiments under RCP8.5 emission scenarios with SO2 injection into the tropical stratosphere at 22.8–25 km altitude (GLENS) and around 1 km above the tropopause (GLENS_low) and near the equator at around 20–25 km above ground (GLENS_eq). The results show that all SAI experiments (GLENS, GLENS_eq, and GLENS_low) exhibit substantial cooling effects, with GLENS_eq emerging as the most effective in reducing temperature extremes, particularly over Central and Southern Africa. However, despite successfully offsetting much of the RCP8.5-induced warming, the effectiveness of SAI varies across regions, leaving some regions, such as the Sahel and North Africa, with residual warming. In addition to its cooling effects, SAI could significantly alter precipitation patterns, introducing widespread drying and thereby reducing flood risks across the continent. While SAI could offset the projected increase in extreme precipitation under RCP8.5, it could simultaneously exacerbate drying trends over Central, Southern, and Northern Africa. These findings highlight critical trade-offs associated with SAI deployment, particularly for regions where agriculture and water resources depend heavily on rainfall, underscoring the need for regionally optimised geoengineering strategies that balance temperature moderation with hydrological stability. This study provides the first comparative analysis of tropical, equatorial, and low-altitude SAI impacts on the climate, revealing critical trade-offs for precipitation-dependent regions. The findings presented here are, however, specific to the SAI scenarios analysed (GLENS experiments), as a different SAI deployment scenario would lead to different conclusions.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
-      "title": "Framework for assessing the climate vulnerability of unpaved roads in Sierra Leone",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1608176",
-      "pubDate": "2025-10-21T00:00:00Z",
-      "description": "IntroductionUnpaved roads make up 80% of the global road network and 90% in developing countries. In Sierra Leone—one of the world’s most climate-vulnerable nations—secondary unpaved roads account for 96% of the core network, serving as vital links for rural access, markets, and social inclusion. Yet, no structured framework currently guides the management of climate risks to these roads.MethodsThis study reviewed international climate risk and vulnerability assessment frameworks and identified their limited applicability in resource-constrained contexts due to heavy data demands, proprietary software, and high computing requirements. To address this gap, a five-phase, context-specific framework was developed, adapted from the IPCC vulnerability model. The framework employs cost-effective, open-source tech tools (QGIS, QField, PostGIS, cloud storage, and Microsoft Power BI) and integrates index-based, spatial, and stakeholder-driven approaches to generate composite indicators of road condition deficiency, maintenance efficacy, and roads’ criticality.ResultsApplication of the framework in Sierra Leone demonstrated its ability to identify climate-vulnerable unpaved road segments and highlight priority areas for adaptation. The framework proved practical under local data and institutional constraints, avoiding reliance on costly proprietary tools or high-end computing infrastructure.DiscussionNationally, the framework offers the first structured approach for integrating climate resilience into road management in Sierra Leone, supporting the National Roads Agency. Globally, it contributes a transferable, resource-efficient, and community-driven methodology for embedding climate adaptation into transport planning across the Global South. It aligned with national and international policies (Sierra Leone National Adaptation Plan (NAP), Sierra Leone Nationally Determined Contributions (NDC), UN Sustainable Development Goas (SDGs 9, 11 and 13).",
+      "description": "Floods are one of the major climate events that disrupt vital built systems such as water drainage and sanitation facilities. These conditions make it extremely difficult to obtain clean water and sanitation. The lack of safe and clean water, sanitation, and hygiene (WASH) has detrimental effects on the community, for example, the spread of a wide range of infectious illnesses, particularly waterborne illnesses. This review examines the major disease spread and difficulties encountered in a compromised WASH situation in Malaysia during flood catastrophes. We reviewed the literature on the Web of Science, SciELO Citation Index, PubMed, and Scopus databases for articles published between 1972 and 2024. Among the 41 identified articles, 10 were eligible for inclusion based on writing in English, removing duplicate literature, and observing that the study was conducted in Malaysia. This study discusses these issues and the WASH framework in Malaysia. Food poisoning, cholera, hepatitis A, diarrhea, and typhoid fever are among the most common ailments that flood victims are diagnosed with. Enhancing the WASH practices and infrastructure in Malaysia is crucial for reducing the risk of these illnesses. This requires a multifaceted strategy that includes sustainable technology, community involvement, and governmental action.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -63,18 +63,18 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Climate change, marriage and health",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1665070",
-      "pubDate": "2025-10-20T00:00:00Z",
-      "description": "Few studies to date have examined the triadic relationship between climate change, marriage dynamics, and health. This review will investigate the speculated causal pathway originating from climate change, influencing marriage rates, and ultimately resulting in adverse health outcomes. We first summarize climate-health links, marriage-health links, then the sparse literature on the climate-marriage link; before offering a conceptual framework for future work. Due to the nascent nature of this research area, there is a lack of a unified perspective on these matters. More research is warranted to explore the public health implications of climate change and increasing singlehood. Furthermore, policy adjustments can be tailored to the research findings. For example, distinct public health policies could be applied to men and women if future studies show a significant sex difference in the proposed causal pathway.",
+      "title": "Framework for assessing the climate vulnerability of unpaved roads in Sierra Leone",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1608176",
+      "pubDate": "2025-10-21T00:00:00Z",
+      "description": "IntroductionUnpaved roads make up 80% of the global road network and 90% in developing countries. In Sierra Leone—one of the world’s most climate-vulnerable nations—secondary unpaved roads account for 96% of the core network, serving as vital links for rural access, markets, and social inclusion. Yet, no structured framework currently guides the management of climate risks to these roads.MethodsThis study reviewed international climate risk and vulnerability assessment frameworks and identified their limited applicability in resource-constrained contexts due to heavy data demands, proprietary software, and high computing requirements. To address this gap, a five-phase, context-specific framework was developed, adapted from the IPCC vulnerability model. The framework employs cost-effective, open-source tech tools (QGIS, QField, PostGIS, cloud storage, and Microsoft Power BI) and integrates index-based, spatial, and stakeholder-driven approaches to generate composite indicators of road condition deficiency, maintenance efficacy, and roads’ criticality.ResultsApplication of the framework in Sierra Leone demonstrated its ability to identify climate-vulnerable unpaved road segments and highlight priority areas for adaptation. The framework proved practical under local data and institutional constraints, avoiding reliance on costly proprietary tools or high-end computing infrastructure.DiscussionNationally, the framework offers the first structured approach for integrating climate resilience into road management in Sierra Leone, supporting the National Roads Agency. Globally, it contributes a transferable, resource-efficient, and community-driven methodology for embedding climate adaptation into transport planning across the Global South. It aligned with national and international policies (Sierra Leone National Adaptation Plan (NAP), Sierra Leone Nationally Determined Contributions (NDC), UN Sustainable Development Goas (SDGs 9, 11 and 13).",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Can index insurance keep up with climate change? Rethinking historical data models",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1649540",
-      "pubDate": "2025-10-15T00:00:00Z",
-      "description": "",
+      "title": "Climate change, marriage and health",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1665070",
+      "pubDate": "2025-10-20T00:00:00Z",
+      "description": "Few studies to date have examined the triadic relationship between climate change, marriage dynamics, and health. This review will investigate the speculated causal pathway originating from climate change, influencing marriage rates, and ultimately resulting in adverse health outcomes. We first summarize climate-health links, marriage-health links, then the sparse literature on the climate-marriage link; before offering a conceptual framework for future work. Due to the nascent nature of this research area, there is a lack of a unified perspective on these matters. More research is warranted to explore the public health implications of climate change and increasing singlehood. Furthermore, policy adjustments can be tailored to the research findings. For example, distinct public health policies could be applied to men and women if future studies show a significant sex difference in the proposed causal pathway.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -87,10 +87,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Building Africa’s climate resilience: understanding the impacts and future strategies in the face of climate change",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1619799",
-      "pubDate": "2025-10-14T00:00:00Z",
-      "description": "Climate change is reshaping Africa’s environmental, economic, and social landscapes, intensifying vulnerabilities across agriculture, water resources, public health, and socioeconomic stability. This paper examines the multifaceted impacts of a changing climate on key sectors in Africa and highlights the urgent need for integrated adaptation strategies. Through the synthesis of traditional wisdom and modern innovations, the study showcases how indigenous knowledge, community-led initiatives, and climate-smart agricultural practices contribute to enhanced resilience. Case studies from diverse regions demonstrate the effectiveness of combining traditional practices with advanced technologies, while policy and governance frameworks emphasize the importance of inclusive, data-driven decision-making. The research further addresses critical investment gaps and advocates for robust financial and technical support to empower local communities in managing climate risks. By leveraging established frameworks such as the African Climate Resilience Acceleration roadmap and fostering cross-sectoral collaboration, the paper outlines forward-looking strategies that could mitigate immediate climate threats and lay the groundwork for sustainable development. Ultimately, through coordinated efforts and strategic investments, African nations can transform the challenges of climate change into opportunities for resilience and growth.",
+      "title": "Can index insurance keep up with climate change? Rethinking historical data models",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1649540",
+      "pubDate": "2025-10-15T00:00:00Z",
+      "description": "",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -99,6 +99,14 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1706771",
       "pubDate": "2025-10-14T00:00:00Z",
       "description": "",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "Building Africa’s climate resilience: understanding the impacts and future strategies in the face of climate change",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1619799",
+      "pubDate": "2025-10-14T00:00:00Z",
+      "description": "Climate change is reshaping Africa’s environmental, economic, and social landscapes, intensifying vulnerabilities across agriculture, water resources, public health, and socioeconomic stability. This paper examines the multifaceted impacts of a changing climate on key sectors in Africa and highlights the urgent need for integrated adaptation strategies. Through the synthesis of traditional wisdom and modern innovations, the study showcases how indigenous knowledge, community-led initiatives, and climate-smart agricultural practices contribute to enhanced resilience. Case studies from diverse regions demonstrate the effectiveness of combining traditional practices with advanced technologies, while policy and governance frameworks emphasize the importance of inclusive, data-driven decision-making. The research further addresses critical investment gaps and advocates for robust financial and technical support to empower local communities in managing climate risks. By leveraging established frameworks such as the African Climate Resilience Acceleration roadmap and fostering cross-sectoral collaboration, the paper outlines forward-looking strategies that could mitigate immediate climate threats and lay the groundwork for sustainable development. Ultimately, through coordinated efforts and strategic investments, African nations can transform the challenges of climate change into opportunities for resilience and growth.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -143,14 +151,6 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Editorial: Climate mobility modeling: methodological advances and future prospects",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1704343",
-      "pubDate": "2025-10-06T00:00:00Z",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "Correction: Perspectives on climate change and adaptation in Fijian villages contemplating relocation",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1701971",
       "pubDate": "2025-10-06T00:00:00Z",
@@ -159,10 +159,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "The heat, the heart and beyond: a narrative review of the many ways climate change impacts human health",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1647942",
-      "pubDate": "2025-10-03T00:00:00Z",
-      "description": "This article provides a narrative review of recent literature on the health impacts of climate change, synthesizing epidemiological findings, mechanistic insights, and policy implications across major exposure domains. Anthropogenic climate change is fundamentally altering global climate systems, with significant and multifaceted implications for human health. Epidemiological data indicate a strong correlation between ambient temperature fluctuations and cardiovascular mortality. Moreover, the frequency and severity of wildfires have intensified due to climate change, contributing to elevated levels of fine particulate matter (PM2.5) and resulting in substantial premature mortality. Climate change is modifying the geographic distribution and seasonality of vector-borne and zoonotic diseases, posing new challenges for infectious disease control. Air quality degradation alongside heightened UV radiation, contributes to a higher incidence of respiratory diseases, skin cancers, and ocular disorders. Climate-induced disruptions to agricultural systems are undermining food security, leading to increased malnutrition and related morbidity. Additionally, the psychological burden of climate-related events, including natural disasters and displacement, has been linked to rising rates of anxiety, post-traumatic stress disorder (PTSD), and affective disorders. These effects are more evident in vulnerable populations, including the elderly, individuals with pre-existing health conditions, those of lower socioeconomic status, and populations residing in low-income countries. Urgent mitigation strategies targeting greenhouse gas emissions are required to limit further climate-related health burdens. Concurrently, adaptive strategies must be implemented to bolster resilience across ecological, infrastructural, and health systems. Although public health systems are critical in addressing these challenges, a coordinated, multidisciplinary research agenda is imperative to elucidate the complex pathways linking climate change and health, and to develop evidence-based interventions aimed to reduce its negative impacts on human health.",
+      "title": "Editorial: Climate mobility modeling: methodological advances and future prospects",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1704343",
+      "pubDate": "2025-10-06T00:00:00Z",
+      "description": "",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     }
