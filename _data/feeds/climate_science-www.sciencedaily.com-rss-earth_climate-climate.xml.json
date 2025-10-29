@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-10-29T13:37:02.984918",
+  "fetched_at": "2025-10-29T14:26:50.092924",
   "items": [
+    {
+      "title": "Earth has hit its first climate tipping point, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251029002920.htm",
+      "pubDate": "Wed, 29 Oct 2025 04:26:38 EDT",
+      "description": "Global scientists warn that humanity is on the verge of crossing irreversible climate thresholds, with coral reefs already at their tipping point and polar ice sheets possibly beyond recovery. The Global Tipping Points Report 2025 reveals how rising temperatures could trigger a cascade of system collapses, from the Amazon rainforest turning to savanna to the potential shutdown of the Atlantic Ocean circulation.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Antarctic robot ‘Lassie’ uncovers thousands of icefish nests beneath Antarctic ice",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251029002847.htm",
+      "pubDate": "Wed, 29 Oct 2025 03:45:40 EDT",
+      "description": "Beneath the ice of Antarctica’s Weddell Sea, scientists discovered a vast, organized city of fish nests revealed after the colossal A68 iceberg broke away. Using robotic explorers, they found over a thousand circular nests forming geometric patterns, each guarded by yellowfin noties. The expedition, initially aimed at studying the ice shelf and locating Shackleton’s Endurance, instead unveiled a thriving, structured ecosystem in one of the harshest places on Earth.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Before plants or animals, fungi conquered Earth’s surface",
       "link": "https://www.sciencedaily.com/releases/2025/10/251027224841.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251011105527.htm",
       "pubDate": "Sun, 12 Oct 2025 05:44:02 EDT",
       "description": "Geophysicists have modeled how Earth’s magnetic field could form even when its core was fully liquid. By removing the effects of viscosity in their simulation, they revealed a self-sustaining dynamo that mirrors today’s mechanism. The results illuminate Earth’s early history, life’s origins, and the magnetism of other planets. Plus, it could help forecast future changes to our planet’s protective shield.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "They’re smaller than dust, but crucial for Earth’s climate",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251010091548.htm",
-      "pubDate": "Fri, 10 Oct 2025 09:54:52 EDT",
-      "description": "Coccolithophores, tiny planktonic architects of Earth’s climate, capture carbon, produce oxygen, and leave behind geological records that chronicle our planet’s history. European scientists are uniting to honor them with International Coccolithophore Day on October 10. Their global collaboration highlights groundbreaking research into how these microscopic organisms link ocean chemistry, climate regulation, and carbon storage. The initiative aims to raise awareness that even the smallest ocean dwellers have planetary impact.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Record Amazon fires release more carbon than an entire country",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251008030932.htm",
-      "pubDate": "Wed, 08 Oct 2025 07:18:54 EDT",
-      "description": "The Amazon has suffered its most destructive fire season in more than two decades, releasing a staggering 791 million tons of carbon dioxide—on par with Germany’s annual emissions. Scientists found that for the first time, fire-driven degradation, not deforestation, was the main source of carbon emissions, signaling a dangerous shift in the rainforest’s decline. Using advanced satellite systems and rigorous simulations, researchers uncovered vast damage across Brazil and Bolivia, exposing the fragility of the Amazon’s ecosystems.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
