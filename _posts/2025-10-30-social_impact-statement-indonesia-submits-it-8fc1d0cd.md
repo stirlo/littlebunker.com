@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "STATEMENT: Indonesia Submits Its National Climate Commitment With New Emissions Targets Ahead of COP30"
+date: 2025-10-30 15:15:15 +0000
+categories: [social_impact]
+tags: ['public-health', 'clean-energy', 'economic-impacts', 'year-2025', 'climate-costs', 'climate-health', 'renewable-energy']
+keywords: ['public-health', 'clean-energy', 'indonesia', 'statement', 'economic-impacts', 'year-2025', 'climate-costs', 'submits']
+description: "49 gigatonnes of carbon dioxide equivalent (GtCO₂e) by 2035 under two economic growth scenarios"
+external_url: https://www.wri.org/news/statement-indonesia-submits-its-national-climate-commitment-new-emissions-targets-ahead-cop30
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+JAKARTA (October 30, 2025) – Ahead of COP30, Indonesia has recently submitted its new nationally determined contribution (NDC), projecting that emissions will peak by 2030 and then decline to 1.26 and 1.49 gigatonnes of carbon dioxide equivalent (GtCO₂e) by 2035 under two economic growth scenarios.&nbsp;Following is a statement from Nirarta \\"Koni\\" Samadhi, Country Director, WRI Indonesia:“Indonesia’s new climate plan marks an important step forward, building on earlier commitments with an absolute target to reduce emissions by 2035. It strengthens transparency and accountability, and signals the country's commitment to tackling climate change. The plan also rightly recognizes the need to prepare for worsening climate impacts, while supporting workers through a just transition.”&nbsp;“The emissions reduction scenarios in the NDC are a welcome step, but both pathways show slower reductions through 2035, meaning steeper cuts will be needed after 2035 to stay on track for net-zero by 2060 or earlier.“Bright spots in the plan include expanded coverage of potent greenhouse gases such as hydrofluorocarbons and new forestry and land use measures, including the use of harvested wood products, blue carbon initiatives such as mangroves and seagrass, and ambitious 2030 targets to restore millions of hectares of degraded land. It also aims to improve reforestation accounting through enhanced monitoring, reporting, and verification, while accelerating the energy transition with a target of 70–72% renewable energy in the national supply by 2060.“Still, there is room for improvement. Greater clarity on the 2019 emissions baseline – currently reported with varying figures in its UN biennial update report – would make progress easier to track and increase transparency. It is also essential to align national plans with other key frameworks, including the Just Energy Transition Partnership (JETP) Comprehensive Investment Plan and Policy (CIPP) and the National Energy Policy (NEP), which show there’s room to be even more ambitious. &nbsp;“Recent WRI analysis finds that aligning the NEP with the JETP CIPP scenario would reduce greenhouse gas emissions while delivering socio-economic benefits, including better health outcomes, increased investment and job creation – ultimately boosting economic growth. Indonesia's Just Transition approach is currently limited to workers, with less attention to communities and regional economic losses. A broader, more inclusive approach is needed across all climate action efforts, covering both mitigation and adaptation.”&nbsp;
+
+[Read original article](https://www.wri.org/news/statement-indonesia-submits-its-national-climate-commitment-new-emissions-targets-ahead-cop30)
