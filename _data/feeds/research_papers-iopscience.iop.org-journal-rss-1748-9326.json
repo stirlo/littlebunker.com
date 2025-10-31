@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-10-31T17:23:09.044702",
+  "fetched_at": "2025-10-31T18:36:48.182318",
   "items": [
+    {
+      "title": "Assessing the potential for solar development on coal mine land in India",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf979",
+      "pubDate": "",
+      "description": "India’s solar electricity generation capacity is concentrated in its western and southern states, while coal mining is concentrated in central and eastern India. Previous studies have found that increasing solar capacity in India’s coal belt may ameliorate the distributional consequences of electricity decarbonization, but we lack detailed assessments of the tradeoffs involved. Here, we evaluate the costs and emissions reduction benefits associated with building solar photovoltaic (PV) capacity on land currently used for opencast (OC) coal mining in India. We use 50 years of weather data to quantify the P10, P50, and P90 capacity factors and levelized cost of electricity (LCOE) for identically configured PV arrays at the 100 largest OC mines. At 97 mines, the expected LCOE is higher than at the Pavagada Solar Park in southern India that we use as a benchmark. When adjusted for the value of avoided emissions, 49 mines spread across Chhattisgarh, Jharkhand, Madhya Pradesh, Tamil Nadu, and Uttar Pradesh have lower social costs of solar generation than Pavagada. For the 50 largest mines, we compile acreage information and estimate that they can support up to 28 GW of new solar PV capacity, approximately one-third of India’s total solar PV capacity today. This capacity would avoid approximately 47 Mt , or US$2.4 billion in damages, per year at abatement costs between US$15–28/t . Mines expected to be depleted by 2025 may support annual abatement of up to 4.8 Mt  yr−1, with additional abatement of 6.5 Mt  yr−1 and 8.6 Mt  yr−1 possible at mines closing between 2025–30 and 2030–35, respectively. Our results show that depleted mine land in India’s coal belt can play a meaningful role in an electricity capacity mix that minimizes the combination of private costs and damages.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Projected land use change due to goals and trends for utility scale solar in New York State",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0da4",
+      "pubDate": "",
+      "description": "Governments worldwide are adopting ambitious policies to reduce greenhouse gas (GHG) emissions. A New York State (NYS) legislative mandate requires net zero statewide GHG emissions by 2050 in part through decarbonizing electricity generation. However, increasing renewable energy capacity, including utility scale solar (USS), competes with land-uses such as agriculture and forestry. This case study evaluates USS historic land use to project future demand for land to meet NYS’s 2050 GHG goal. Data collected from open-source solar databases were combined with USS boundaries obtained through manual and automated digitization and Monte-Carlo and Maximum Entropy modeling were used to project the likely area and land use characteristics of future sites built to meet the projected 2050 demand for electricity. Demand for solar energy in NYS is projected to reach 116–125 terawatt hours per year by 2050, when electrification of current fossil-fueled heating and transportation sectors is taken into account. By analyzing the performance of over 300 existing USS sites across NYS, we project that approximately 100 GWDC of USS capacity can meet this demand. We found an average power density of 0.62 MWDC/ha of land for fixed axis sites and 0.59 MWDC/ha for single axis tracked sites. Stochastic modeling of power density trends over time indicates that the 2050 mandate will require between 71,072 and 128,784 hectares (ha) depending on siting variables. If trends continue, we project that between 21 386 and 27 233 ha of cropland and between 14,985 and 18,463 ha of forest could be converted to USS. For future scenarios in which conversion of annual row crop land and high-quality soils were limited, there was an increase in distance to transmission lines, number of parcels required, and complexity of site shapes, which would likely increase solar development costs. These results help bound the likely land use changes that will occur to meet electric sector GHG mitigation mandates. These results also provide information about the benefits and trade-offs of restricting the conversion of current agricultural land to solar energy production. Additionally, the approach we developed, combining analysis of fenced area, capacity factors, trends in power density over time, and projecting likely future locations for solar stochastically is applicable to many global regions with solar development on agricultural lands.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Universal hydrological trends post-wildfire are obscured by local watershed variability",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae114d",
@@ -147,22 +163,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae13bd",
       "pubDate": "",
       "description": "Adopting individual behavioural changes to achieve a low-carbon lifestyle is a key strategy for addressing climate change. However, related studies have generally been conducted in Western contexts. Drawing upon a comprehensive national survey conducted in Taiwan, we developed a sociopsychological model to explain the motivation to alter behaviour to mitigate climate change and to engage in specific mitigation behaviours, including adopting plant-based diets, using public transportation, and donating to environmental nongovernmental organisations. We used a repeated cross-sectional survey design to test our model seven times to investigate general motivation and two times to investigate behaviour-specific motivation. Samples are representative of the Taiwanese population, collected between August 2021 and June 2024 (N = 4446). Our results confirm the validity and stability of the proposed model, demonstrating its potential to advance the understanding of how behavioural changes can mitigate climate change in non-Western contexts. Issues on psychological distance and seasonal changes on climate change risk perceptions are also discussed.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Canada’s landscape fires spreading into uncharted territory",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1495",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Technology–finance integration and energy system resilience: the moderating role of climate policy uncertainty",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1497",
-      "pubDate": "",
-      "description": "This study examines the impact of the Pilot Programs of the Combination of Technology and Finance (PPCTF) on energy system resilience (ESR) in China, with particular attention to the moderating role of climate policy uncertainty (CPU). Using panel data from 280 cities during 2010–2022 and employing a double machine learning approach, we find that the PPCTF significantly enhances ESR, with robust results from various tests. The mediation effect reveals that RAO and green technology innovation are vital influential channels. Moreover, CPU amplifies the positive effect of the PPCTF on ESR, particularly in non-resource-based, strictly regulated, and high-governance cities. These findings highlight the importance of integrating technology and finance initiatives with climate policy considerations to foster sustainable and resilient energy systems. Policy implications are also discussed.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
