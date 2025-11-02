@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-02T08:27:52.418886",
+  "fetched_at": "2025-11-02T09:21:52.767234",
   "items": [
+    {
+      "title": "Scientists uncover what delayed Earth’s oxygen boom for a billion years",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102011144.htm",
+      "pubDate": "Sun, 02 Nov 2025 03:50:48 EST",
+      "description": "Researchers uncovered that trace compounds like nickel and urea may have delayed Earth’s oxygenation for millions of years. Experiments mimicking early Earth revealed how their concentrations controlled cyanobacterial growth, dictating when oxygen began to accumulate. As nickel declined and urea stabilized, photosynthetic life thrived, sparking the Great Oxidation Event. The findings could also guide the search for biosignatures on distant worlds.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists shocked by reversed electric field around Earth",
       "link": "https://www.sciencedaily.com/releases/2025/10/251030075141.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251015230955.htm",
       "pubDate": "Thu, 16 Oct 2025 09:24:37 EDT",
       "description": "Ryugu’s samples reveal that water activity on asteroids lasted far longer than scientists thought, possibly reshaping theories of how Earth gained its oceans. A billion-year-old impact may have melted ancient ice, keeping asteroids wet and influential far into solar system history.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Forged in fire: The 900°C heat that built Earth’s stable continents",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251015230947.htm",
-      "pubDate": "Thu, 16 Oct 2025 03:05:54 EDT",
-      "description": "New research reveals that Earth’s continents owe their stability to searing heat deep in the planet’s crust. At more than 900°C, radioactive elements shifted upward, cooling and strengthening the landmasses that support life. This ancient heat engine also distributed valuable minerals, giving scientists new clues for exploration and for spotting potentially habitable planets.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
