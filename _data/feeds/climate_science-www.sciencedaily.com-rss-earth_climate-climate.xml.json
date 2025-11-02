@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-02T14:20:23.642662",
+  "fetched_at": "2025-11-02T15:22:15.744755",
   "items": [
+    {
+      "title": "A warming Earth could accidentally trigger a deep freeze",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102011216.htm",
+      "pubDate": "Sun, 02 Nov 2025 05:02:16 EST",
+      "description": "Earth’s climate balance isn’t just governed by the slow weathering of silicate rocks, which capture carbon and stabilize temperature over eons. New research reveals that biological and oceanic feedback loops—especially involving algae, phosphorus, and oxygen—can swing the planet’s temperature far more dramatically.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists uncover what delayed Earth’s oxygen boom for a billion years",
       "link": "https://www.sciencedaily.com/releases/2025/11/251102011144.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251016223056.htm",
       "pubDate": "Fri, 17 Oct 2025 05:31:35 EDT",
       "description": "Researchers have discovered chemical fingerprints of Earth's earliest incarnation, preserved in ancient mantle rocks. A unique imbalance in potassium isotopes points to remnants of “proto Earth” material that survived the planet’s violent formation. The study suggests the original building blocks of Earth remain hidden beneath its surface, offering a direct glimpse into our planet’s ancient origins.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Asteroid Ryugu’s hidden waters could explain how Earth got its oceans",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251015230955.htm",
-      "pubDate": "Thu, 16 Oct 2025 09:24:37 EDT",
-      "description": "Ryugu’s samples reveal that water activity on asteroids lasted far longer than scientists thought, possibly reshaping theories of how Earth gained its oceans. A billion-year-old impact may have melted ancient ice, keeping asteroids wet and influential far into solar system history.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
