@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-03T13:35:16.226879",
+  "fetched_at": "2025-11-03T14:26:04.571175",
   "items": [
+    {
+      "title": "Scientists predict a wetter, greener future for the Sahara Desert",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102205025.htm",
+      "pubDate": "Mon, 03 Nov 2025 04:22:31 EST",
+      "description": "UIC researchers predict that the Sahara Desert could see up to 75% more rain by the end of this century due to rising global temperatures. Using 40 climate models, the team found widespread precipitation increases across Africa, though some regions may dry out. The results suggest a major rebalancing of the continent’s climate. Scientists stress that adaptation planning is essential to prepare for both wetter and drier futures.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A warming Earth could accidentally trigger a deep freeze",
       "link": "https://www.sciencedaily.com/releases/2025/11/251102011216.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251018102124.htm",
       "pubDate": "Sun, 19 Oct 2025 11:46:27 EDT",
       "description": "Mars’ north polar vortex locks its atmosphere in extreme cold and darkness, freezing out water vapor and triggering a dramatic rise in ozone. Scientists found that the lack of sunlight and moisture lets ozone build up unchecked. This discovery, made with data from ESA’s and NASA’s orbiters, could reveal clues about Mars’ past atmospheric chemistry and potential for life.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "MIT finds traces of a lost world deep within planet Earth",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251016223056.htm",
-      "pubDate": "Fri, 17 Oct 2025 05:31:35 EDT",
-      "description": "Researchers have discovered chemical fingerprints of Earth's earliest incarnation, preserved in ancient mantle rocks. A unique imbalance in potassium isotopes points to remnants of “proto Earth” material that survived the planet’s violent formation. The study suggests the original building blocks of Earth remain hidden beneath its surface, offering a direct glimpse into our planet’s ancient origins.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
