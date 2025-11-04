@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-11-04T07:25:30.715246",
+  "fetched_at": "2025-11-04T08:35:39.031119",
   "items": [
+    {
+      "title": "Techno-economic assessment of floating offshore wind in California",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae16bf",
+      "pubDate": "",
+      "description": "California legislation has set ambitious goals of reaching 2–5 gigawatts of floating offshore wind (FOSW) by 2030, and 25 GW by 2045. FOSW remains an emerging technology with significant uncertainty surrounding its future development. We estimate the electricity output, levelized cost of energy (LCOE) and levelized cost of transmission (LCOT) for two locations in California where offshore wind projects are currently planned (Humboldt and Morro Bay). We use data collected in a prior extensive expert elicitation, complemented by publicly available data. Assuming a 30 year lifetime and a 5.69% discount rate for the offshore components, and a 60 year lifetime and 4.40% discount rate for onshore transmission infrastructure, and under the ranges of input values provided by the experts, we find that the 2035 median levelized costs of energy and transmission (LCOE + LCOT) range from $95 to $121 per MWh. Operation and maintenance costs, turbines, and floating foundations are the largest contributors to levelized costs. In addition to a base-case analysis, we perform single-parameter sensitivity analyses and show that the results are highly sensitive to discount rate, lifetime, and farm power density. To further understand the overall uncertainty, we perform a Monte Carlo simulation assuming uniform distributions for each component-cost, finding combined LCOE + LCOT ranging from $95 to $200 per MWh. For all scenarios, transmission represents a small portion of total project costs. This analysis emphasizes the importance of strategic planning and investment in FOSW to meet California’s renewable energy goals.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Assessing the potential for solar development on coal mine land in India",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/adf979",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae16c1",
       "pubDate": "",
       "description": "The energy transition hinges on the availability of critical minerals. China dominates the global critical minerals supply chain. Deep-sea mining (DSM) is proposed as an alternative to domestic land-based mining. While DSM could reduce China’s control over critical minerals and avoid local pollution from land-based mining, it could potentially harm the ocean ecosystem. We explore whether support for DSM depends on how its benefits/costs are framed, and how this support varies between the mass public and environmental non-governmental organizations (ENGOs). We administered an identical (pre-registered) online survey to US individuals (n = 1142) and separately to ENGO professionals (n = 278). This unique research design assesses whether the support for these two groups for DSM is influenced by how the DSM spillovers are framed in terms of (1) preventing land-based water pollution and habitat degradation from land-based mines (+), (2) reducing US dependence on China for critical minerals (+), and (3) hurting fisheries which are a key food source (−). Among the mass public, we find that support for DSM mining increases with the security frame only. However, among ENGO respondents, support for DSM does not change for any frame. Men in both samples support DSM, but we do not find differences in DSM support along race or partisan affiliations.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Reconciling natural habitat size loss and quality enhancement: the dual effects of urbanization in China’s Loess Plateau",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1753",
-      "pubDate": "",
-      "description": "Amid accelerating urbanization and severe biodiversity loss in global drylands, reconciling urbanization with habitat conservation is crucial for sustainable development. Focused on China’s Loess Plateau (LP), a typical arid to semi-arid region, this study quantified the dual effects of urbanization on both the size and quality of natural habitats (NHs) from 1990 to 2050 by multi-scenario land cover simulations with the system dynamics PLUS model, combining landscape indices and habitat quality (HQ) analysis. The study revealed that urbanization directly consumed 3470 km2 of NHs and indirectly resulted in the loss of 4706.4 km2 between 1990 and 2020. Under the SSP5–8.5 scenario, direct and indirect NHs losses are projected to increases of 7.75 and 7.39 times respectively, from 2020 to 2050. Nevertheless, LP’s landscape pattern exhibited an optimizing trend: the increasing aggregation index of urban patches, coupled with an enhanced largest patch index for forests and grasslands, indicates that intensified urbanization can mitigate the disordered encroachment on NHs, reduce landscape fragmentation, and preserve larger and more contiguous habitat patches, thereby improving overall HQ. The LP case demonstrates urbanization and NHs conservation are not inherently antagonistic; well-planned urbanization can catalyze NHs protection. We further proposed strategies including spatially concentrated urbanization to advance sustainable urbanization and enhance HQ, fostering synergies between social progress and ecological preservation in global arid regions.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
