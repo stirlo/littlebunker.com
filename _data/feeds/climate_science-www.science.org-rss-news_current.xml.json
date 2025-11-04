@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-04T20:28:56.375685",
+  "fetched_at": "2025-11-04T21:22:48.905116",
   "items": [
+    {
+      "title": "Forests are migrating up mountain peaks",
+      "link": "https://www.science.org/content/article/forests-are-migrating-mountain-peaks",
+      "pubDate": "",
+      "description": "Satellite imagery reveals an unexpected shift in tree lines—but it may not have anything to do with climate change",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Australia’s red rocks hold mysteriously detailed fossils. We finally know how they formed",
       "link": "https://www.science.org/content/article/australia-s-red-rocks-hold-mysteriously-detailed-fossils-we-finally-know-how-they",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/exclusive-future-chronic-disease-journal-limbo-after-cuts-cdc",
       "pubDate": "",
       "description": "Researchers dismayed by the targeting of <em>Preventing Chronic Disease</em>’s editorial staff",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Tree rings from ancient coffins offer clues to Earth’s past",
-      "link": "https://www.science.org/content/article/tree-rings-ancient-coffins-offer-clues-earth-s-past",
-      "pubDate": "",
-      "description": "Wood from gravesites can help reconstruct historic temperatures, floods, and droughts",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
