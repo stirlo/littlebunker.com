@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-05T01:59:54.780764",
+  "fetched_at": "2025-11-05T03:17:28.743223",
   "items": [
+    {
+      "title": "Even climate fixes might not save coffee, chocolate, and wine, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251104094139.htm",
+      "pubDate": "Tue, 04 Nov 2025 21:23:44 EST",
+      "description": "Even with futuristic geoengineering methods like Stratospheric Aerosol Injection, the fate of wine, coffee, and cacao crops remains uncertain. Scientists found that while this intervention could slightly cool the planet, it cannot stabilize the erratic rainfall and humidity that devastate yields. The findings reveal that only a fraction of major growing regions might benefit, leaving most producers exposed to volatile harvests and economic instability.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists predict a wetter, greener future for the Sahara Desert",
       "link": "https://www.sciencedaily.com/releases/2025/11/251102205025.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251020092826.htm",
       "pubDate": "Tue, 21 Oct 2025 02:36:47 EDT",
       "description": "Melting Arctic ice is revealing a hidden world of nitrogen-fixing bacteria beneath the surface. These microbes, not the usual cyanobacteria, enrich the ocean with nitrogen, fueling algae growth that supports the entire marine food chain. As ice cover declines, both algae production and CO2 absorption may increase, altering the region’s ecological balance. The discovery could force scientists to revise predictions about Arctic climate feedbacks.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A clue to ancient life? What scientists found inside Mars’ frozen vortex",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251018102124.htm",
-      "pubDate": "Sun, 19 Oct 2025 11:46:27 EDT",
-      "description": "Mars’ north polar vortex locks its atmosphere in extreme cold and darkness, freezing out water vapor and triggering a dramatic rise in ozone. Scientists found that the lack of sunlight and moisture lets ozone build up unchecked. This discovery, made with data from ESA’s and NASA’s orbiters, could reveal clues about Mars’ past atmospheric chemistry and potential for life.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
