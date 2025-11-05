@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-05T12:53:50.891430",
+  "fetched_at": "2025-11-05T13:36:42.008821",
   "items": [
+    {
+      "title": "Frozen for 6 million years, Antarctic ice rewrites Earth’s climate story",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251105050716.htm",
+      "pubDate": "Wed, 05 Nov 2025 05:07:16 EST",
+      "description": "Scientists discovered 6-million-year-old ice in Antarctica, offering the oldest direct record of Earth’s ancient atmosphere and climate. The finding reveals a dramatic cooling trend and promises insights into greenhouse gas changes over millions of years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Even climate fixes might not save coffee, chocolate, and wine, scientists warn",
       "link": "https://www.sciencedaily.com/releases/2025/11/251104094139.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251021083631.htm",
       "pubDate": "Tue, 21 Oct 2025 09:29:34 EDT",
       "description": "Scientists are taking the once-radical concept of dimming the sun through stratospheric aerosol injection (SAI) seriously, but a Columbia University team warns that reality is far messier than models suggest. Their study reveals how physical, geopolitical, and economic constraints could derail even the best-intentioned attempts to cool the planet. From unpredictable monsoon disruptions to material shortages and optical inefficiencies, every step introduces new risks.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just found hidden life thriving beneath the Arctic ice",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251020092826.htm",
-      "pubDate": "Tue, 21 Oct 2025 02:36:47 EDT",
-      "description": "Melting Arctic ice is revealing a hidden world of nitrogen-fixing bacteria beneath the surface. These microbes, not the usual cyanobacteria, enrich the ocean with nitrogen, fueling algae growth that supports the entire marine food chain. As ice cover declines, both algae production and CO2 absorption may increase, altering the region’s ecological balance. The discovery could force scientists to revise predictions about Arctic climate feedbacks.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
