@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "World leaders welcomed to first COP in the Amazon"
+date: 2025-11-06 13:08:33 +0000
+categories: [environmental_news]
+tags: ['year-2025', 'rainforest', 'climate-policy', 'amazon', 'paris-agreement']
+keywords: ['world', 'welcomed', 'rainforest', 'climate-policy', 'year-2025', 'leaders', 'amazon', 'paris-agreement']
+description: "Today, around 60 of them are listed to speak one after another"
+external_url: https://www.climatechangenews.com/2025/11/06/world-leaders-welcomed-to-first-cop-in-the-amazon/
+is_feed: true
+source_feed: "Climate Home News"
+feed_category: "environmental_news"
+---
+
+Leaders from around the world have hopped off their jets on the edge of the Amazon rainforest to hold meetings and deliver speeches at the COP30 UN climate summit in the Brazilian city of Belém this Thursday and Friday. Today, around 60 of them are listed to speak one after another. Brazil’s President Lula will open the session as host, and leaders from the UK, France, the EU and South Africa, as well as China’s vice-premier, are among those following. Some leaders will break off from the main room for a lunch meeting on the Tropical Forest Forever Facility &#8211; an innovative but controversial Brazilian proposal to tap financial markets and pay governments to keep their forests standing. A later roundtable of leaders will cover climate and nature, covering oceans and, again &#8211; as it’s the Amazon COP &#8211; forests. The symbolism of having COP on the edge of the rainforest has come at a price. A shortage of accommodation has prevented many &#8211; particularly from poorer countries &#8211; from travelling to Belém despite subsidies from wealthy governments and philanthropies. Nov 5, 2025 News Five big questions hanging over COP30 From insufficient ambition on cutting emissions to gaps in adaptation finance, here&#8217;s a look at some of the thorny issues facing the pivotal UN climate summit in Belém Read more Nov 5, 2025 Finance Roadmap to $1.3 trillion seeks to tip climate finance scales but way forward unclear A new report shows how the world could deliver a big funding boost for developing nations by 2035, yet lacks a firm plan to implement its ideas Read more Nov 4, 2025 Science UN accepts overshooting 1.5C warming limit &#8211; at least temporarily &#8211; is &#8220;inevitable&#8221; UN chief António Guterres says the world&#8217;s temperature will rise by more than 1.5C over pre-industrial levels but can be brought down Read more The unusual timing of the leaders’ summit &#8211; a few days ahead of the official start of COP30 on Monday &#8211; was an attempt to improve the accommodation situation by smoothing out the peak in demand. It also means that the presidents and prime ministers present will not cross over in Belém with the non-VIPs &#8211; the climate campaigners, government officials, journalists and business executives who make up the bulk of COP attendees. With fewer leaders showing up than in recent years, and the UN already having admitted that the world will overshoot the 1.5C warming limit governments signed up to in the Paris Agreement, expect a sober start to proceedings in Belém. We&#8217;ll be updating Climate Home News readers with the day&#8217;s key developments here, so please check back for more as the action unfolds. The post World leaders welcomed to first COP in the Amazon appeared first on Climate Home News.
+
+[Read original article](https://www.climatechangenews.com/2025/11/06/world-leaders-welcomed-to-first-cop-in-the-amazon/)
