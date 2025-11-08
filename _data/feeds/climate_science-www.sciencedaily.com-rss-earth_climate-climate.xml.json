@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-08T06:33:40.795930",
+  "fetched_at": "2025-11-08T07:21:43.247063",
   "items": [
+    {
+      "title": "Laser satellites expose a secret Antarctic carbon burst",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251108014024.htm",
+      "pubDate": "Sat, 08 Nov 2025 01:57:09 EST",
+      "description": "A new study shows that the Southern Ocean releases far more carbon dioxide in winter than once thought. By combining laser satellite data with AI analysis, scientists managed to “see” through the polar darkness for the first time. The results reveal a 40% undercount in winter emissions, changing how researchers view the ocean’s carbon balance and its impact on climate models.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Antarctica’s collapse may already be unstoppable, scientists warn",
       "link": "https://www.sciencedaily.com/releases/2025/11/251106003941.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251024041753.htm",
       "pubDate": "Fri, 24 Oct 2025 09:49:26 EDT",
       "description": "Scientists have discovered that El Niño and La Niña could become far more powerful and predictable as the planet warms. By 2050, the tropical Pacific may hit a tipping point, locking ENSO into strong, rhythmic oscillations that synchronize with other global climate patterns. The result could be intensified rainfall extremes and greater risk of “climate whiplash” across multiple continents.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "China’s coastal cities are sinking as seas rise at record speed",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251023031627.htm",
-      "pubDate": "Thu, 23 Oct 2025 23:11:04 EDT",
-      "description": "Sea levels are rising faster than at any time in 4,000 years, scientists report, with China’s major coastal cities at particular risk. The rapid increase is driven by warming oceans and melting ice, while human activities like groundwater pumping make it worse. In some areas, the land itself is sinking faster than the ocean is rising. Still, researchers see progress as cities like Shanghai adopt new technologies to stabilize the ground and prepare for the future.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
