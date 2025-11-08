@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-08T08:29:40.293373",
+  "fetched_at": "2025-11-08T09:23:11.612897",
   "items": [
     {
       "title": "Laser satellites expose a secret Antarctic carbon burst",
       "link": "https://www.sciencedaily.com/releases/2025/11/251108014024.htm",
       "pubDate": "Sat, 08 Nov 2025 01:57:09 EST",
       "description": "A new study shows that the Southern Ocean releases far more carbon dioxide in winter than once thought. By combining laser satellite data with AI analysis, scientists managed to “see” through the polar darkness for the first time. The results reveal a 40% undercount in winter emissions, changing how researchers view the ocean’s carbon balance and its impact on climate models.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Deep-sea mining starves life in the ocean’s twilight zone",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251108012850.htm",
+      "pubDate": "Sat, 08 Nov 2025 02:37:59 EST",
+      "description": "Scientists have discovered that deep-sea mining plumes can strip vital nutrition from the ocean’s twilight zone, replacing natural food with nutrient-poor sediment. The resulting “junk food” effect could starve life across entire marine ecosystems.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251025084606.htm",
       "pubDate": "Sun, 26 Oct 2025 00:34:27 EDT",
       "description": "Scientists have uncovered that glaciers can temporarily cool the air around them, delaying some effects of global warming. This self-cooling, driven by katabatic winds, is nearing its peak and will likely reverse in the next two decades. Once glaciers lose enough mass, they will heat up faster, speeding their decline. The team urges immediate global action to curb emissions and manage dwindling water resources wisely.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "El Niño could soon turn deadly predictable, scientists warn",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251024041753.htm",
-      "pubDate": "Fri, 24 Oct 2025 09:49:26 EDT",
-      "description": "Scientists have discovered that El Niño and La Niña could become far more powerful and predictable as the planet warms. By 2050, the tropical Pacific may hit a tipping point, locking ENSO into strong, rhythmic oscillations that synchronize with other global climate patterns. The result could be intensified rainfall extremes and greater risk of “climate whiplash” across multiple continents.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
