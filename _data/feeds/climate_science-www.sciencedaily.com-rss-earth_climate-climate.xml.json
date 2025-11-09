@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-09T10:23:46.046157",
+  "fetched_at": "2025-11-09T11:18:28.566200",
   "items": [
+    {
+      "title": "Meet the desert survivor that grows faster the hotter it gets",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251109032410.htm",
+      "pubDate": "Sun, 09 Nov 2025 04:01:43 EST",
+      "description": "In Death Valley’s relentless heat, Tidestromia oblongifolia doesn’t just survive—it thrives. Michigan State University scientists discovered that the plant can quickly adjust its photosynthetic machinery to endure extreme temperatures that would halt most species. Its cells reorganize, its genes switch on protective functions, and it even reshapes its chloroplasts to keep producing energy. The findings could guide the creation of crops capable of withstanding future heat waves.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "9,000-year-old ice melt shows how fast Antarctica can fall apart",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251109032406.htm",
+      "pubDate": "Sun, 09 Nov 2025 03:56:56 EST",
+      "description": "Around 9,000 years ago, East Antarctica went through a dramatic meltdown that was anything but isolated. Scientists have discovered that warm deep ocean water surged beneath the region’s floating ice shelves, causing them to collapse and unleashing a domino effect of ice loss across the continent. This process created a “cascading positive feedback,” where melting in one area sped up melting elsewhere through interconnected ocean currents.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Laser satellites expose a secret Antarctic carbon burst",
       "link": "https://www.sciencedaily.com/releases/2025/11/251108014024.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251026021740.htm",
       "pubDate": "Sun, 26 Oct 2025 08:29:01 EDT",
       "description": "New research shows that hippos lived in central Europe tens of thousands of years longer than previously thought. Ancient DNA and radiocarbon dating confirm they survived in Germany’s Upper Rhine Graben during a milder Ice Age phase. Closely related to modern African hippos, they shared the landscape with cold-adapted giants like mammoths. The finding rewrites Ice Age history and suggests regional climates were far more diverse.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earth is splitting open beneath the Pacific Northwest",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251025084611.htm",
-      "pubDate": "Sat, 25 Oct 2025 10:39:13 EDT",
-      "description": "For the first time, scientists have seen a subduction zone actively breaking apart beneath the Pacific Northwest. Seismic data show the oceanic plate tearing into fragments, forming microplates in a slow, step-by-step collapse. This process, once only theorized, explains mysterious fossil plates found elsewhere and offers new clues about earthquake risks. The dying subduction zone is revealing Earth’s tectonic life cycle in real time.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Glaciers’ secret cooling power won’t last much longer",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251025084606.htm",
-      "pubDate": "Sun, 26 Oct 2025 00:34:27 EDT",
-      "description": "Scientists have uncovered that glaciers can temporarily cool the air around them, delaying some effects of global warming. This self-cooling, driven by katabatic winds, is nearing its peak and will likely reverse in the next two decades. Once glaciers lose enough mass, they will heat up faster, speeding their decline. The team urges immediate global action to curb emissions and manage dwindling water resources wisely.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
