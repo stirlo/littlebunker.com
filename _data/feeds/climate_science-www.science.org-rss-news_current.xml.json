@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-11T21:22:25.623778",
+  "fetched_at": "2025-11-11T22:24:29.148281",
   "items": [
+    {
+      "title": "Australia’s unprecedented toxic algal bloom has a surprise culprit",
+      "link": "https://www.science.org/content/article/australia-s-unprecedented-toxic-algal-bloom-has-surprise-culprit",
+      "pubDate": "",
+      "description": "A relatively unknown species is producing a notorious neurotoxin, devastating sea life",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "New, more stable qubits could simplify dreamed-of quantum computers",
       "link": "https://www.science.org/content/article/new-more-stable-qubits-could-simplify-dreamed-quantum-computers",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/biologist-david-sabatini-loses-again-legal-fight-against-whitehead-institute",
       "pubDate": "",
       "description": "Judge dismisses final claim against scientist’s former employer and curtails lawsuit directed at woman who accused him of sexual harassment",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "U.S. Congress considers sweeping ban on Chinese collaborations",
-      "link": "https://www.science.org/content/article/u-s-congress-considers-sweeping-ban-chinese-collaborations",
-      "pubDate": "",
-      "description": "Researchers speak out against proposal that would bar funding for U.S. scientists working with Chinese partners or training Chinese students",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
