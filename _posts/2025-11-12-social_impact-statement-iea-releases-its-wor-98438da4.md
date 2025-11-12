@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "STATEMENT: IEA Releases Its World Energy Outlook 2025"
+date: 2025-11-12 19:30:15 +0000
+categories: [social_impact]
+tags: ['economic-impacts', 'climate-costs', 'year-2025']
+keywords: ['economic-impacts', 'world', 'statement', 'releases', 'year-2025', 'climate-costs']
+description: "This surge is being driven by transport and industrial electrification, heating, cooling, data centers, and rising demand in emerging economies"
+external_url: https://www.wri.org/news/statement-iea-releases-its-world-energy-outlook-2025
+is_feed: true
+source_feed: "wri.org blog posts"
+feed_category: "social_impact"
+---
+
+Paris (November 12, 2025) – Today, the International Energy Agency (IEA) released its flagship&nbsp;World Energy Outlook report, projecting that global electricity demand will outpace previous growth expectations. This surge is being driven by transport and industrial electrification, heating, cooling, data centers, and rising demand in emerging economies.&nbsp;&nbsp;The report shows both the opportunities presented by the global energy transition as well as the risks of inaction.&nbsp;Following is a statement from Taryn Fransen, Director of Global Research and Data, WRI Polsky Center for the Global Energy Transition:&nbsp;“A clean, reliable, affordable, and abundant energy future is possible – but we need to make smart investments today to get on the right path.&nbsp;The IEA projects rapid&nbsp;growth of electricity demand driven by electric transport, data centers, and air conditioning. Power systems around the world could struggle to keep up – but with the right policies, this challenge could become an opportunity to accelerate the global energy transition.&nbsp;&nbsp;“Investments in grids are critical. Strengthening and modernizing transmission, distribution and storage will make power systems more reliable and enable clean energy to scale to meet growing demand. Global investment in grids is rising, but more is needed, especially for high-voltage transmission. &nbsp;“Policymakers and regulators should work with&nbsp;large buyers of electricity – particularly in countries with rapidly growing data centers – to find ways to meet demand without falling back on dirty fuels or driving up costs.&nbsp;&nbsp;“The clean energy transition depends on&nbsp;critical minerals, but there are risks as countries rush to expand the currently concentrated mining supply chain. &nbsp;Reducing the need for mining through better design and improving recycling and circularity can help manage these risks as we take steps to ensure mining is done responsibly.&nbsp;“The global energy transition should ensure no one is left behind – from the hundreds of millions of people who still lack electricity and clean cooking to consumers facing rising bills. Policymakers can also embrace new economic opportunities through workforce development and clean energy jobs.&nbsp;&nbsp;“As world leaders gather at COP30, the choices made today will determine the future of our energy system. Without careful management, households will face higher energy bills, communities and businesses will see more blackouts and emissions will continue to climb. But with the right decisions, we can cut emissions, further unleash the benefits of a booming clean energy sector, and bring reliable, affordable power to households and communities around the world.” &nbsp;&nbsp;
+
+[Read original article](https://www.wri.org/news/statement-iea-releases-its-world-energy-outlook-2025)
