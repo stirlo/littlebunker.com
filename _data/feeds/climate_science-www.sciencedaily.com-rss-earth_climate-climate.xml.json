@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-12T07:24:55.340681",
+  "fetched_at": "2025-11-12T08:34:49.796064",
   "items": [
+    {
+      "title": "Earth is slowly peeling its continents from below, fueling ocean volcanoes",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251112011806.htm",
+      "pubDate": "Wed, 12 Nov 2025 02:51:52 EST",
+      "description": "Researchers discovered that continents don’t just split at the surface—they also peel from below, feeding volcanic activity in the oceans. Simulations reveal that slow mantle waves strip continental roots and push them deep into the oceanic mantle. Data from the Indian Ocean confirms this hidden recycling process, which can last tens of millions of years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Meet the desert survivor that grows faster the hotter it gets",
       "link": "https://www.sciencedaily.com/releases/2025/11/251109032410.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251027023806.htm",
       "pubDate": "Mon, 27 Oct 2025 04:50:26 EDT",
       "description": "A massive crater hidden beneath the Atlantic seafloor has been confirmed as the result of an asteroid strike from 66 million years ago. The new 3D seismic data reveals astonishing details about the violent minutes following impact—towering tsunamis, liquefied rock, and shifting seabeds. Researchers call it a once-in-a-lifetime look at how oceanic impacts unfold.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Melting ice is hiding a massive climate secret beneath Antarctica",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251027023802.htm",
-      "pubDate": "Mon, 27 Oct 2025 04:32:56 EDT",
-      "description": "The Southern Ocean absorbs nearly half of all ocean-stored human CO2, but its future role is uncertain. Despite models predicting a decline, researchers found that freshening surface waters are currently keeping deep CO2 trapped below. This stratification effect may be only temporary, as intensifying winds bring deep, carbon-rich water closer to the surface. If mixing increases, the Southern Ocean could begin releasing more CO2 than it absorbs.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
