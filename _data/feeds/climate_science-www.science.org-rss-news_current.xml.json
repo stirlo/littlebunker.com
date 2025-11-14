@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-14T17:23:04.795824",
+  "fetched_at": "2025-11-14T18:36:10.850040",
   "items": [
+    {
+      "title": "Mammoth mummies up to 50,000 years old yield oldest RNA yet found",
+      "link": "https://www.science.org/content/article/forty-thousand-year-old-mammoth-mummies-yield-oldest-rna-yet-found",
+      "pubDate": "",
+      "description": "Ancient RNA promises to shed light on how genes functioned in extinct animals",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Deal to end U.S. shutdown includes good news for farm science funding",
       "link": "https://www.science.org/content/article/deal-end-u-s-shutdown-includes-good-news-farm-science-funding",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/new-more-stable-qubits-could-simplify-dreamed-quantum-computers",
       "pubDate": "",
       "description": "Advance underscores the importance of materials science for quantum computing",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "That’s no spider! It’s a decoy",
-      "link": "https://www.science.org/content/article/s-no-spider-it-s-decoy",
-      "pubDate": "",
-      "description": "Arachnids build large lookalikes to ward off predators",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
