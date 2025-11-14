@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-11-14T09:28:08.507949",
+  "fetched_at": "2025-11-14T10:28:22.773017",
   "items": [
+    {
+      "title": "Corrigendum: Divergent impacts of crop diversity on caloric and economic yield stability (2022 Environ. Res. Lett. 17 124015)",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1851",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Wheat breeding trials will lose climate relevance in Europe",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0e38",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae198b",
       "pubDate": "",
       "description": "Although precipitation increases have been observed in different areas of the globe and at various temporal resolutions, changes in precipitation can be difficult to detect and attribute to anthropogenic forcing in observational records due to the significant influence of natural variability. Here, we quantify the influence of large-scale atmospheric circulation variability on total winter precipitation for Europe using dynamical adjustment with synoptic-scale weather patterns (WPs). Variability in atmospheric dynamics, through frequency changes in WPs, is shown to be a significant driver of observed wetting and drying trends, linked to observed trends in the North Atlantic jet stream. After removing dynamical variability, trends emerge in non-dynamical winter precipitation which are attributable to anthropogenic forcing: a north-south signal of a drying Mediterranean and increasingly wetter mid-to-high latitudes. Although this spatial pattern is well-represented by CMIP6 models, the magnitude of observed changes is approximately 23 years ahead of the CMIP6 multi-model mean predictions. Our results suggest that current adaptation strategies, based on multi-model means, may underestimate the near-term risk of climate-related hazards, and therefore require critical re-evaluation.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Stratospheric aerosol climate intervention could reduce crop nutritional value",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1151",
-      "pubDate": "",
-      "description": "The deliberate addition of sulfur dioxide in the stratosphere to form reflective sulfate aerosols, reflect sunlight, and reduce surface temperatures is increasingly being considered as an option for minimizing the impacts of climate change. This strategy would create an unprecedented climate where the relationship between surface temperature and carbon dioxide concentration is decoupled. The implications of stratospheric aerosol intervention (SAI) for global crop protein concentrations have not yet been explored. While elevated CO2 concentrations are expected to reduce crop protein, higher temperatures may increase crop protein concentrations. Here we report changes of maize, rice, soybean, and wheat protein concentrations under a medium emissions climate change scenario and a SAI scenario to maintain global average temperatures at 1.5 °C above preindustrial levels, as simulated by three global gridded crop models. We show that using SAI to offset surface temperature increases would create decreases in the global protein concentrations of maize and rice, with minimal impact on wheat and soybean. Some already protein-deficient and malnourished nations that rely heavily on these crops to meet protein demands would show large decreases in protein intake under SAI with the current diet pattern, which could exacerbate their nutrient scarcity. The range of results between crop models highlights the need for a more comprehensive analysis using additional crop models, climate models, a broader range of climate intervention scenarios, and advancements in crop models to better represent protein responses to climate changes.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
