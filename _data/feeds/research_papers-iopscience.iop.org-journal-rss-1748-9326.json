@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-11-17T11:22:48.538877",
+  "fetched_at": "2025-11-17T12:54:10.114761",
   "items": [
+    {
+      "title": "High populations near fossil fuel energy infrastructure across the supply chain and implications for an equitable energy transition",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0da6",
+      "pubDate": "",
+      "description": "Fossil fuel energy infrastructure poses health risks for local communities, primarily due to the presence of air pollution emissions and other hazards. There is also evidence of racial/ethnic disparities in the siting of this infrastructure for select components. However, population counts and demographic composition near fossil fuel energy infrastructure have not been systematically characterized across all types, supply chain stages, and predominant fuel types. Here, we construct a dataset of 25 elements of fossil fuel energy infrastructure and characterize the populations living near this infrastructure (defined as within 800 m [∼0.5 mile] or 1.6 km [∼1 mile]). We estimated that 46.6 million people in the contiguous U.S., representing 14.1% of the population, live within 1.6 km of at least one piece of energy infrastructure, with racial/ethnic disparities observed across nearly all stages of the supply chain. End use infrastructure has the most people residing within 1.6 km, with 20.9 million people, followed by extraction (20.3 million), and storage (6.16 million). Storage infrastructure has an average of ∼2,900 people living within 1.6 km of each element; end use infrastructure has an average of 1,900 people residing within 1.6 km of each element; extraction infrastructure has an average of 17 people residing within 1.6 km of each element. Almost 90% of the population near end use, transportation, refining, and storage infrastructure are in urban areas. Our results represent a substantial population in the U.S. that is potentially exposed to hazards that are not well-characterized, with unknown cumulative impacts, and which constitute a major environmental justice issue.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Corrigendum: Divergent impacts of crop diversity on caloric and economic yield stability (2022 Environ. Res. Lett. 17 124015)",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1851",
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae17db",
       "pubDate": "",
       "description": "Reducing within-region income inequality is a global priority that must be urgently addressed to promote human development and enhance global access to energy and food. This could lead to higher energy-related emissions by lower-income consumers, potentially creating some conflicts with climate change mitigation objectives. Using an enhanced version of the Global Change Analysis Model, we simulate reductions of within-region income inequality that allow for narrowing differences in energy and food demand across deciles by 2050 in a Paris-compliant world. The energy demand increase by lower-income consumers is greater than the decline in demand by wealthier and more satiated income groups, leading to an overall rise in total demand. Nevertheless, the projected higher energy demand in the proposed more egalitarian societies only slightly increases the regional carbon prices and mitigation costs associated with the emission targets, therefore posing minimal impact on the achievement of the existing portfolio of climate pledges.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Dynamical adjustment reveals spatial patterns of wetting and drying in European winter precipitation",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae198b",
-      "pubDate": "",
-      "description": "Although precipitation increases have been observed in different areas of the globe and at various temporal resolutions, changes in precipitation can be difficult to detect and attribute to anthropogenic forcing in observational records due to the significant influence of natural variability. Here, we quantify the influence of large-scale atmospheric circulation variability on total winter precipitation for Europe using dynamical adjustment with synoptic-scale weather patterns (WPs). Variability in atmospheric dynamics, through frequency changes in WPs, is shown to be a significant driver of observed wetting and drying trends, linked to observed trends in the North Atlantic jet stream. After removing dynamical variability, trends emerge in non-dynamical winter precipitation which are attributable to anthropogenic forcing: a north-south signal of a drying Mediterranean and increasingly wetter mid-to-high latitudes. Although this spatial pattern is well-represented by CMIP6 models, the magnitude of observed changes is approximately 23 years ahead of the CMIP6 multi-model mean predictions. Our results suggest that current adaptation strategies, based on multi-model means, may underestimate the near-term risk of climate-related hazards, and therefore require critical re-evaluation.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
