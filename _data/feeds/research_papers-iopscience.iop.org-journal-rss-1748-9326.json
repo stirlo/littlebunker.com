@@ -4,13 +4,21 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-11-17T15:28:53.075333",
+  "fetched_at": "2025-11-17T16:35:35.870865",
   "items": [
     {
       "title": "High populations near fossil fuel energy infrastructure across the supply chain and implications for an equitable energy transition",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae0da6",
       "pubDate": "",
       "description": "Fossil fuel energy infrastructure poses health risks for local communities, primarily due to the presence of air pollution emissions and other hazards. There is also evidence of racial/ethnic disparities in the siting of this infrastructure for select components. However, population counts and demographic composition near fossil fuel energy infrastructure have not been systematically characterized across all types, supply chain stages, and predominant fuel types. Here, we construct a dataset of 25 elements of fossil fuel energy infrastructure and characterize the populations living near this infrastructure (defined as within 800 m [∼0.5 mile] or 1.6 km [∼1 mile]). We estimated that 46.6 million people in the contiguous U.S., representing 14.1% of the population, live within 1.6 km of at least one piece of energy infrastructure, with racial/ethnic disparities observed across nearly all stages of the supply chain. End use infrastructure has the most people residing within 1.6 km, with 20.9 million people, followed by extraction (20.3 million), and storage (6.16 million). Storage infrastructure has an average of ∼2,900 people living within 1.6 km of each element; end use infrastructure has an average of 1,900 people residing within 1.6 km of each element; extraction infrastructure has an average of 17 people residing within 1.6 km of each element. Almost 90% of the population near end use, transportation, refining, and storage infrastructure are in urban areas. Our results represent a substantial population in the U.S. that is potentially exposed to hazards that are not well-characterized, with unknown cumulative impacts, and which constitute a major environmental justice issue.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "How important is the damping effect of phytoplankton on ENSO?",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae16bd",
+      "pubDate": "",
+      "description": "The El Niño–Southern Oscillation (ENSO) is a key driver of global climate variability, and its impact on phytoplankton concentrations in the eastern equatorial Pacific via nutrient supply changes is well established. However, the extent to which phytoplankton feedback influences ENSO remains unclear. Chlorophyll in phytoplankton warms the upper ocean by absorbing solar radiation, and this effect weakens during El Niño and strengthens during La Niña, yet its overall impact is not well quantified. Using a simple nitrogen-based Nitrate–Phytoplankton–Zooplankton–Detritus pelagic model, here we show that phytoplankton concentration anomalies significantly dampen ENSO by cooling sea surface temperature by 0.69 °C during El Niño development and warming it by 1.09 °C during La Niña, with mean amplitudes of 1.71 °C and 1.42 °C, respectively. This may partially contributes to the amplitude asymmetry of ENSO, and accounts for 16.8% of total shortwave radiation-related damping during El Niño and 17.4% during La Niña. Our offline modeling approach successfully isolates this direct heating effect by excluding indirect dynamical effects of phytoplankton to physical variables.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -75,14 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1752",
       "pubDate": "",
       "description": "The dramatic impacts of global climate change have driven marine carbon dioxide removal innovation, including ocean alkalinity enhancement (OAE), in an attempt to keep global warming under 2 °C. We conducted a laboratory experiment to assess the impacts of brucite inspired alkalinity addition (BIAA) as an OAE approach on the carbonate chemistry, biogeochemistry, and composition of the natural Santa Barbara Channel phytoplankton community sourced from a spring upwelling event. The BIAA treatment used MgCl2 * 6H2O and NaOH to yield a total alkalinity (TA) concentration of ∼3000 μmol kg−1, in contrast with the untreated seawater controls (TA = ∼ 2300 μmol kg−1). Our results suggest that BIAA altered the phytoplankton community composition, including reduced contribution of diatoms and enhanced numbers of Prymnesiophyceae (coccolithophores and Phaeocystis sp.). These results are in agreement with observations that biogenic silica content was lower under BIAA treatment. While the concentration of particulate inorganic carbon was consistently higher compared to controls, these differences were not statistically significant. Results revealed no differences between control and BIAA treatment in particulate organic carbon and particulate organic nitrogen (PON) concentrations. The proxy for cellular photosynthetic health Fv/Fm revealed that cells were photosynthetically healthy for both control and BIAA treatments, but values were lower in the BIAA treatment at the beginning of the exponential phase. While statistical power limitations of laboratory results might restrict applicability to other systems, our overall results suggest that BIAA has a differential impact on phytoplankton functional groups and their biogeochemical performance.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Enhancing energy and food access through reduction of income inequality does not jeopardize the achievement of existing climate pledges",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae17db",
-      "pubDate": "",
-      "description": "Reducing within-region income inequality is a global priority that must be urgently addressed to promote human development and enhance global access to energy and food. This could lead to higher energy-related emissions by lower-income consumers, potentially creating some conflicts with climate change mitigation objectives. Using an enhanced version of the Global Change Analysis Model, we simulate reductions of within-region income inequality that allow for narrowing differences in energy and food demand across deciles by 2050 in a Paris-compliant world. The energy demand increase by lower-income consumers is greater than the decline in demand by wealthier and more satiated income groups, leading to an overall rise in total demand. Nevertheless, the projected higher energy demand in the proposed more egalitarian societies only slightly increases the regional carbon prices and mitigation costs associated with the emission targets, therefore posing minimal impact on the achievement of the existing portfolio of climate pledges.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
