@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.climatejusticealliance.org/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Internal server error</span>\n                <span class=\"code-label\">Error code 500</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatejusticealliance.org\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-11-18 14:27:23 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatejusticealliance.org\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatejusticealliance.org\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.climatejusticealliance.org</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>There is an internal server error on Cloudflare's network.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9a0825f758232a9f</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">20.169.75.194</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatejusticealliance.org\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>",
+  "title": "Climate Justice Alliance",
+  "link": "https://climatejusticealliance.org/",
+  "description": "Working Towards a Just Transition",
   "category": "social_impact",
   "source_url": "https://www.climatejusticealliance.org/feed/",
-  "fetched_at": "2025-11-18T14:27:23.434744",
-  "items": []
+  "fetched_at": "2025-11-18T15:29:40.866829",
+  "items": [
+    {
+      "title": "Climate Justice Alliance Calls on Congress to Put People and Planet First as Shutdown Ends",
+      "link": "https://climatejusticealliance.org/climate-justice-alliance-shutdown/",
+      "pubDate": "Thu, 13 Nov 2025 16:36:42 +0000",
+      "description": "<p>As the US Congress returns to Washington, D.C. today to vote to end the government shut down, Climate Justice Alliance executive director, KD Chavez, issued the following statement: “As this intentional shutdown comes to a close, we must acknowledge that harm on hard-working families, our local communities, and the natural places we all love continues. […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/climate-justice-alliance-shutdown/\">Climate Justice Alliance Calls on Congress to Put People and Planet First as Shutdown Ends</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Over 140 Environmental Organizations Demand EPA Withdraw of Rollback of Greenhouse Gas Reporting Program",
+      "link": "https://climatejusticealliance.org/over-140-orgs-demand-withdraw-of-rollback-of-greenhouse-gas-reporting-program/",
+      "pubDate": "Tue, 04 Nov 2025 14:32:04 +0000",
+      "description": "<p>Groups say EPA’s rollback threatens transparency and community right-to-know. Contact: kayla@unbendablemedia.com Washington, D.C. — Today, Climate Justice Alliance, GreenLatinos, and WE ACT for Environmental Justice, together with more than 140 partner organizations, primarily Environmental Justice and Tribal organizations, submitted formal comments opposing the U.S. Environmental Protection Agency’s (EPA) proposal to repeal and suspend the Greenhouse […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/over-140-orgs-demand-withdraw-of-rollback-of-greenhouse-gas-reporting-program/\">Over 140 Environmental Organizations Demand EPA Withdraw of Rollback of Greenhouse Gas Reporting Program</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Environmental Justice Leaders Submit Joint Opposition to EPA’s Methane Rule Delay",
+      "link": "https://climatejusticealliance.org/environmental-justice-leaders-submit-joint-opposition-to-epas-methane-rule-delay/",
+      "pubDate": "Thu, 02 Oct 2025 13:12:34 +0000",
+      "description": "<p>Contact: kayla@unbendablemedia.com Washington, D.C. — GreenLatinos, WE ACT for Environmental Justice, and the Climate Justice Alliance, together with 106 partner organizations — primarily environmental justice and Tribal organizations — submitted formal comments opposing the U.S. Environmental Protection Agency’s (EPA) proposal to delay compliance deadlines under the Section 111 Methane Rule. The coalition’s letter urges EPA […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/environmental-justice-leaders-submit-joint-opposition-to-epas-methane-rule-delay/\">Environmental Justice Leaders Submit Joint Opposition to EPA’s Methane Rule Delay</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Hundreds of Environmental Justice Organizations Tell EPA: Revoking Endangerment Finding Puts All Our Communities in Danger",
+      "link": "https://climatejusticealliance.org/hundreds-of-environmental-justice-organizations-tell-epa-revoking-endangerment-finding-puts-all-our-communities-in-danger/",
+      "pubDate": "Tue, 30 Sep 2025 17:49:01 +0000",
+      "description": "<p>Contact: Kayla Ritchie, kayla@unbendablemedia.com (CJA) / Ashley Sullivan, ashley.sullivan@weact.org, (917) 837-1183 (WE ACT/EJLF) / Isella Ramirez, info@movingforwardnetwork.com, (323) 854-1857 (MFN) / Prerna Sampat, psampat@ceed.org (CEED/Equitable & Just National Climate Platform) / Stephanie Herron, sherron@comingcleaninc.org, 802-251-0203 ext.707 (EJHA) NATIONWIDE – In response to the Environmental Protection Agency (EPA) seeking to remove the Endangerment Finding and revoke vehicle […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/hundreds-of-environmental-justice-organizations-tell-epa-revoking-endangerment-finding-puts-all-our-communities-in-danger/\">Hundreds of Environmental Justice Organizations Tell EPA: Revoking Endangerment Finding Puts All Our Communities in Danger</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Climate Justice Alliance, GreenLatinos, Indigenous Environmental Network, and WE ACT for Environmental Justice Lead 89 Organizations in Opposing DOE’S NEPA Rollback",
+      "link": "https://climatejusticealliance.org/89-orgs-oppose-does-nepa-rollback/",
+      "pubDate": "Tue, 05 Aug 2025 12:03:00 +0000",
+      "description": "<p>Indigenous and Environmental Justice Groups Warn the Rollback Would Strip Communities of Legal Recourse and Critical Safeguards Contact: Climate Justice Alliance: kayla@unbendablemedia.com WE ACT for Environmental Justice: ashley.sullivan@weact.org GreenLatinos: Meiseigonzalez@greenlatinos.org Washington, D.C. – Yesterday evening, Climate Justice Alliance, GreenLatinos, Indigenous Environmental Network, and WE ACT for Environmental Justice submitted a formal comment letter to the […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/89-orgs-oppose-does-nepa-rollback/\">Climate Justice Alliance, GreenLatinos, Indigenous Environmental Network, and WE ACT for Environmental Justice Lead 89 Organizations in Opposing DOE’S NEPA Rollback</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Latest Permitting Proposal is a Wolf in Sheep’s Clothing",
+      "link": "https://climatejusticealliance.org/speed-act/",
+      "pubDate": "Sat, 26 Jul 2025 13:42:49 +0000",
+      "description": "<p>Contact: kayla@unbendablemedia.com  In response to the introduction of the SPEED Act today by Natural Resources Committee Chair Bruce Westerman (R-Ark.) and Rep. Jared Golden (D-ME), Climate Justice Alliance Executive Director KD Chavez, issued the following statement. “This permitting bill is a wolf in sheep’s clothing. It claims to speed up environmental review and infrastructure projects, […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/speed-act/\">Latest Permitting Proposal is a Wolf in Sheep’s Clothing</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Housing Justice Is Climate Justice: Trump’s Executive Order Criminalizes the Unhoused and Ignores the Root Causes",
+      "link": "https://climatejusticealliance.org/housing-justice-is-climate-justice/",
+      "pubDate": "Fri, 25 Jul 2025 00:21:44 +0000",
+      "description": "<p>Housing Justice Is Climate Justice</p>\n<p>The post <a href=\"https://climatejusticealliance.org/housing-justice-is-climate-justice/\">Housing Justice Is Climate Justice: Trump’s Executive Order Criminalizes the Unhoused and Ignores the Root Causes</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "We Must Respect–Not Repeal–Hard-fought Community Protections like the Endangerment Finding",
+      "link": "https://climatejusticealliance.org/endangerment-finding/",
+      "pubDate": "Thu, 24 Jul 2025 22:59:32 +0000",
+      "description": "<p>The EPA Must Be Allowed to Continue Setting Limits on Greenhouse Gas Emissions UPDATE September 22: Climate Justice Alliance, Just Solutions, and 72 organizations tel the Environmental Protection Agency (EPA) to protect the Endangerment Finding  Contact: kayla@unbendablemedia.com  Washington DC – In the coming days, the Trump administration is expected to move forward with a repeal […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/endangerment-finding/\">We Must Respect–Not Repeal–Hard-fought Community Protections like the Endangerment Finding</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "Climate Justice Alliance Supports a People’s AI Action Plan",
+      "link": "https://climatejusticealliance.org/climate-justice-alliance-supports-a-peoples-ai-action-plan/",
+      "pubDate": "Wed, 23 Jul 2025 17:28:33 +0000",
+      "description": "<p>We need an AI Plan that protects people and the planet, not a plan that accelerates extraction Contact: kayla@unbendablemedia.com Today, the Trump Administration released an AI plan that would fast-track industry growth by  rapidly expanding data centers, many of them in already climate-vulnerable environmental justice regions and creating exponential demand for dirty and dangerous energy. […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/climate-justice-alliance-supports-a-peoples-ai-action-plan/\">Climate Justice Alliance Supports a People’s AI Action Plan</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    },
+    {
+      "title": "House Funding Bills are a Payout to Polluters",
+      "link": "https://climatejusticealliance.org/house-fy26-approps/",
+      "pubDate": "Wed, 16 Jul 2025 11:56:18 +0000",
+      "description": "<p>Contact: kayla@unbendablemedia.com In response to a slew of anti-environmental appropriations bills, including the House Interior, Environment and Related Agencies and the Energy and Water Development and Related Agencies FY 2026 Bills, Climate Justice Alliance (CJA) issued the following statement: Washington, D.C. – Increased food, water, air, and economic insecurity already await us thanks to Trump’s […]</p>\n<p>The post <a href=\"https://climatejusticealliance.org/house-fy26-approps/\">House Funding Bills are a Payout to Polluters</a> appeared first on <a href=\"https://climatejusticealliance.org\">Climate Justice Alliance</a>.</p>",
+      "category": "social_impact",
+      "source_url": "https://www.climatejusticealliance.org/feed/"
+    }
+  ]
 }

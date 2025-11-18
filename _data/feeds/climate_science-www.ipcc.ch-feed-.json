@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.ipcc.ch/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Internal server error</span>\n                <span class=\"code-label\">Error code 500</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.ipcc.ch\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-11-18 14:26:44 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.ipcc.ch\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.ipcc.ch\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.ipcc.ch</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>There is an internal server error on Cloudflare's network.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9a0825021857862c</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">20.169.75.194</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.ipcc.ch\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>",
+  "title": "IPCC",
+  "link": "https://www.ipcc.ch",
+  "description": "Intergovernmental Panel on Climate Change",
   "category": "climate_science",
   "source_url": "https://www.ipcc.ch/feed/",
-  "fetched_at": "2025-11-18T14:26:44.191946",
-  "items": []
+  "fetched_at": "2025-11-18T15:29:02.508556",
+  "items": [
+    {
+      "title": "IPCC Chair remarks – COP30 – Earth Information Day 2025",
+      "link": "https://www.ipcc.ch/2025/11/10/cop30eid/",
+      "pubDate": "Mon, 10 Nov 2025 19:12:15 +0000",
+      "description": "10 November 2025, video address CHECK AGAINST DELIVERY Your Excellencies, distinguished delegates, colleagues and friends, ladies and gentlemen, On behalf of the Intergovernmental Panel on Climate Change – the IPCC – I would like to thank you for the invitation to address the opening of the Earth Information Day at COP30. Although I am not […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "Remarks by IPCC Chair during the Opening ceremony COP30",
+      "link": "https://www.ipcc.ch/2025/11/10/remarks-by-ipcc-chair-during-the-opening-ceremony-cop30/",
+      "pubDate": "Mon, 10 Nov 2025 15:17:33 +0000",
+      "description": "10 November 2025, video address CHECK AGAINST DELIVERY Your Excellencies, distinguished delegates, colleagues and friends, ladies and gentlemen, Thank you for the invitation to the Intergovernmental Panel on Climate Change – the IPCC – to address the opening of COP 30. As the Chair of the UN body mandated to assess the scientific knowledge related […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "IPCC agrees on the scientific content of the remaining methodology report in the seventh assessment cycle and 2026 workplan for the three key climate reports",
+      "link": "https://www.ipcc.ch/2025/10/31/pr-ipcc63-final/",
+      "pubDate": "Fri, 31 Oct 2025 02:15:35 +0000",
+      "description": "LIMA, Oct 30 – The member governments of the Intergovernmental Panel on Climate Change (IPCC) agreed on the scientific content of the 2027 Methodology Report on Carbon Dioxide Removal Technologies, Carbon Capture Utilization and Storage at the Panel’s 63rd Plenary session, which closed this evening in Lima, Peru. This is one of two methodology reports […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "IPCC opens 63rd Plenary Session in Lima to advance work on key climate reports",
+      "link": "https://www.ipcc.ch/2025/10/27/press-release-ipcc-opens-63-session/",
+      "pubDate": "Mon, 27 Oct 2025 20:32:21 +0000",
+      "description": "LIMA, PERU, Oct 27 – The Intergovernmental Panel on Climate Change (IPCC) today opened its 63rd Plenary Session in Lima, Peru, bringing together some 300 delegates from IPCC member governments and observer organizations to advance its work in the seventh assessment cycle. Over the four-day session, the Panel will continue discussions on the timelines for […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "Opening Remarks by IPCC Chair Jim Skea at the 63rd Session of the IPCC",
+      "link": "https://www.ipcc.ch/2025/10/27/ipcc63-opening-remarks-ipcc-chair-jim-skea/",
+      "pubDate": "Mon, 27 Oct 2025 15:27:20 +0000",
+      "description": "27 October 2025, Lima, Peru. Check against delivery Your Excellency, Minister of Foreign Affairs, Ambassador Hugo de Zela, Deputy Minister of Strategic Development of Natural Resources at the Ministry of Environment, Ms Raquel Hilianova Soto Torres, Director of Climate Change Division of the UN Environment Programme, Martin Krause, Distinguished delegates, dear colleagues, ladies and gentlemen, […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "Upcoming IPCC’s Sixty-third Plenary in Lima, Peru",
+      "link": "https://www.ipcc.ch/2025/10/23/media-advisory-ipcc63/",
+      "pubDate": "Thu, 23 Oct 2025 14:31:09 +0000",
+      "description": "The representatives of member governments and observer organizations of the Intergovernmental Panel on Climate Change (IPCC) will be meeting in Lima, Peru, from 27 to 30 October 2025. The Panel, comprising 195 member governments, is expected to continue discussions on the workplan of the Working Group contributions to the Seventh Assessment Report, as well as […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "Science and Capacity Officer in the IPCC Working Group II Technical Support Unit",
+      "link": "https://www.ipcc.ch/2025/10/10/science-and-capacity-officer-wg2-tsu/",
+      "pubDate": "Fri, 10 Oct 2025 10:12:13 +0000",
+      "description": "Working Group II of the Intergovernmental Panel on Climate Change is filling the position of Science and Capacity Officer Deadline: to apply before November 3, 2025 Help support the authors of the IPCC in their task to deliver the comprehensive and policy-relevant assessment reports. Do you have expertise in scientific capacity building, empowerment and co-creation […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "Call for Applications: Chapter Scientists to support the IPCC Seventh Assessment Report (AR7)",
+      "link": "https://www.ipcc.ch/2025/10/07/callchptr/",
+      "pubDate": "Tue, 07 Oct 2025 14:25:01 +0000",
+      "description": "The Intergovernmental Panel on Climate Change (IPCC) is in the process of preparing its Seventh Assessment Report (AR7). The IPCC Working Groups are seeking highly motivated early-career researchers from developing countries and countries in transition to apply as Chapter Scientists to support author teams for the AR7. The call for applications is being coordinated by […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "IPCC Working Group I Vice-Chair Sonia Seneviratne to receive prestigious German Environmental Award for excellent innovative climate research",
+      "link": "https://www.ipcc.ch/2025/09/18/dbussv/",
+      "pubDate": "Thu, 18 Sep 2025 14:57:18 +0000",
+      "description": "Prof. Dr. Sonia Isabelle Seneviratne, Vice-Chair of the IPCC Working Group I and a professor at ETH Zürich, is this year’s co-laureate of the prestigious German Environmental Award presented by the German Federal Environmental Foundation (DBU). The DBU award is among the most notable in Europe and comes with a €500,000 purse, which this year […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    },
+    {
+      "title": "IPCC seeks experts to review the first draft of the Special Report on Climate Change and Cities",
+      "link": "https://www.ipcc.ch/2025/09/17/prfod1225/",
+      "pubDate": "Wed, 17 Sep 2025 13:10:55 +0000",
+      "description": "GENEVA, September 17 – The Intergovernmental Panel on Climate Change (IPCC) opened today the registration for experts to serve as Expert Reviewers on the First-Order Draft (FOD) of the Special Report on Climate Change and Cities. Following the Second Lead Author Meeting this August, authors of this Special Report have prepared a first draft, which […]",
+      "category": "climate_science",
+      "source_url": "https://www.ipcc.ch/feed/"
+    }
+  ]
 }

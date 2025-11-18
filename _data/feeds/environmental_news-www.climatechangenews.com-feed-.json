@@ -1,9 +1,170 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.climatechangenews.com/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Internal server error</span>\n                <span class=\"code-label\">Error code 500</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-11-18 14:26:43 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.climatechangenews.com</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>There is an internal server error on Cloudflare's network.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9a0824fe4958f7bb</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">20.169.75.194</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.climatechangenews.com\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>\n&&",
+  "title": "Climate Home News",
+  "link": "https://www.climatechangenews.com/",
+  "description": "Climate change news, analysis, commentary, video and podcasts focused on developments in global climate politics",
   "category": "environmental_news",
   "source_url": "https://www.climatechangenews.com/feed/",
-  "fetched_at": "2025-11-18T14:26:43.580051",
-  "items": []
+  "fetched_at": "2025-11-18T15:29:01.121378",
+  "items": [
+    {
+      "title": "COP Bulletin Day 8: Pope keeps faith in 1.5C",
+      "link": "https://www.climatechangenews.com/2025/11/18/cop-bulletin-day-8-pope-keeps-faith-in-1-5c/",
+      "pubDate": "Tue, 18 Nov 2025 11:48:37 +0000",
+      "description": "<p>Pope Leo XIV told cardinals gathered in Belém last night that warming can be kept below 1.5C and urged solidarity on the Paris Agreement</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/18/cop-bulletin-day-8-pope-keeps-faith-in-1-5c/\">COP Bulletin Day 8: Pope keeps faith in 1.5C</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Global Goal on Adaptation: Weighing the cow won’t make it fatter",
+      "link": "https://www.climatechangenews.com/2025/11/17/global-goal-on-adaptation-weighing-the-cow-wont-make-it-fatter/",
+      "pubDate": "Mon, 17 Nov 2025 16:46:50 +0000",
+      "description": "<p>COP30's Global Goal on Adaptation will be a white elephant if it is not paired with predictable, grant-based finance</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/17/global-goal-on-adaptation-weighing-the-cow-wont-make-it-fatter/\">Global Goal on Adaptation: Weighing the cow won’t make it fatter</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 7: Brazil sets out options to agree a Belém package",
+      "link": "https://www.climatechangenews.com/2025/11/17/cop30-bulletin-day-7-brazil-outlines-options-for-a-possible-deal-in-belem/",
+      "pubDate": "Mon, 17 Nov 2025 15:18:16 +0000",
+      "description": "<p>The COP30 presidency signposts how governments could land a political decision covering climate finance, trade measures and the emissions cuts needed to limit warming to 1.5C</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/17/cop30-bulletin-day-7-brazil-outlines-options-for-a-possible-deal-in-belem/\">COP30 Bulletin Day 7: Brazil sets out options to agree a Belém package</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 6: First week ends with a colourful march and much work left to do",
+      "link": "https://www.climatechangenews.com/2025/11/15/cop30-bulletin-day-6-adaptation-talks-held-hostage-by-finance/",
+      "pubDate": "Sat, 15 Nov 2025 19:52:09 +0000",
+      "description": "<p>UN climate chief Simon Stiell tells governments \"to give a little to get a lot\", as many thorny issues remain for ministers to resolve next week</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/15/cop30-bulletin-day-6-adaptation-talks-held-hostage-by-finance/\">COP30 Bulletin Day 6: First week ends with a colourful march and much work left to do</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30: Spain’s unions say just transition means renewing communities beyond jobs",
+      "link": "https://www.climatechangenews.com/2025/11/15/cop30-spains-unions-say-just-transition-means-renewing-communities-not-just-jobs/",
+      "pubDate": "Sat, 15 Nov 2025 14:51:33 +0000",
+      "description": "<p>Spain has made good progress in supporting workers to transition away from fossil fuels. But trade unions are pushing for stronger efforts to renew rural life</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/15/cop30-spains-unions-say-just-transition-means-renewing-communities-not-just-jobs/\">COP30: Spain’s unions say just transition means renewing communities beyond jobs</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 draft text includes energy transition minerals in UN climate first",
+      "link": "https://www.climatechangenews.com/2025/11/14/cop30-draft-text-includes-energy-transition-minerals-in-un-climate-first/",
+      "pubDate": "Fri, 14 Nov 2025 19:06:48 +0000",
+      "description": "<p>A draft negotiating text on defining principles for a just transition to clean energy systems recognises the social and environmental risks associated with mining critical minerals</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/14/cop30-draft-text-includes-energy-transition-minerals-in-un-climate-first/\">COP30 draft text includes energy transition minerals in UN climate first</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Africa wants wiggle room on energy transition as funds fall short",
+      "link": "https://www.climatechangenews.com/2025/11/14/__trashed-2/",
+      "pubDate": "Fri, 14 Nov 2025 17:29:45 +0000",
+      "description": "<p>African nations say a just transition away from oil, gas and coal should give them scope to use their fossil fuel resources to fund economic development</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/14/__trashed-2/\">Africa wants wiggle room on energy transition as funds fall short</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 5: COP30 could greenlight work on a fossil fuel transition roadmap",
+      "link": "https://www.climatechangenews.com/2025/11/14/cop30-bulletin-day-5-indigenous-peoples-blockade-talks-to-defend-territories/",
+      "pubDate": "Fri, 14 Nov 2025 15:36:50 +0000",
+      "description": "<p>At the climate talks in Belém, governments are considering whether to launch a process to craft a roadmap and how that might look</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/14/cop30-bulletin-day-5-indigenous-peoples-blockade-talks-to-defend-territories/\">COP30 Bulletin Day 5: COP30 could greenlight work on a fossil fuel transition roadmap</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Despite record turnout, only 14% of Indigenous Brazilians get access to COP30 decision-making spaces",
+      "link": "https://www.climatechangenews.com/2025/11/13/despite-record-turnout-only-14-of-indigenous-brazilians-get-access-to-cop30-decision-making-spaces/",
+      "pubDate": "Thu, 13 Nov 2025 21:45:35 +0000",
+      "description": "<p>Around 2,500 Indigenous people from across Brazil have gathered in Belém, with leaders demanding a bigger role in the negotiations</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/13/despite-record-turnout-only-14-of-indigenous-brazilians-get-access-to-cop30-decision-making-spaces/\">Despite record turnout, only 14% of Indigenous Brazilians get access to COP30 decision-making spaces</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "At COP30, roadmap away from fossil fuels gains ground – but next step unclear",
+      "link": "https://www.climatechangenews.com/2025/11/13/cop30-roadmap-away-fossil-fuels-support-next-step-unclear-belem-brazil/",
+      "pubDate": "Thu, 13 Nov 2025 20:18:34 +0000",
+      "description": "<p>Ministers from Brazil, Germany and UK - with support from five more countries - expressed support for a roadmap away from fossil fuels at COP30</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/13/cop30-roadmap-away-fossil-fuels-support-next-step-unclear-belem-brazil/\">At COP30, roadmap away from fossil fuels gains ground – but next step unclear</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 4: African and Arab groups want adaptation indicator delay",
+      "link": "https://www.climatechangenews.com/2025/11/13/cop30-bulletin-day-4-african-and-arab-groups-want-adaptation-indicator-delay/",
+      "pubDate": "Thu, 13 Nov 2025 16:38:23 +0000",
+      "description": "<p>The groups are concerned that the current indicators will pressure them to spend more of their own governments' scarce funds on adaptation</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/13/cop30-bulletin-day-4-african-and-arab-groups-want-adaptation-indicator-delay/\">COP30 Bulletin Day 4: African and Arab groups want adaptation indicator delay</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "“Water is worth more than lithium,” Indigenous Argentine community tells COP30",
+      "link": "https://www.climatechangenews.com/2025/11/13/water-is-worth-more-than-lithium-indigenous-argentine-community-tells-cop30/",
+      "pubDate": "Thu, 13 Nov 2025 14:13:27 +0000",
+      "description": "<p>Rich in lithium but poor in water, traditional Andean communities want the world to recognise the pitfalls of surging demand for minerals vital to the global energy transition</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/13/water-is-worth-more-than-lithium-indigenous-argentine-community-tells-cop30/\">“Water is worth more than lithium,” Indigenous Argentine community tells COP30</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "“They are killing us too”: Amazon flotilla raises Indigenous concerns at COP30",
+      "link": "https://www.climatechangenews.com/2025/11/13/they-are-killing-us-too-amazon-flotilla-raises-indigenous-concerns-at-cop30/",
+      "pubDate": "Thu, 13 Nov 2025 11:10:54 +0000",
+      "description": "<p>Indigenous activists onboard the flotilla to COP30 criticised the impacts of agriculture, fossil fuel extraction and mining on their Amazon communities</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/13/they-are-killing-us-too-amazon-flotilla-raises-indigenous-concerns-at-cop30/\">“They are killing us too”: Amazon flotilla raises Indigenous concerns at COP30 </a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "“Sustainable fuels” pose high risks to Lula’s promised roadmap away from fossil fuels",
+      "link": "https://www.climatechangenews.com/2025/11/12/sustainable-fuels-pose-high-risks-to-lulas-promised-roadmap-away-from-fossil-fuels/",
+      "pubDate": "Wed, 12 Nov 2025 15:41:37 +0000",
+      "description": "<p>Brazilian President Lula's call to move away from fossil fuels could boost biofuels and cause forests to be chopped down and hunger to worsen</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/12/sustainable-fuels-pose-high-risks-to-lulas-promised-roadmap-away-from-fossil-fuels/\">“Sustainable fuels” pose high risks to Lula’s promised roadmap away from fossil fuels</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Bad COP to good COP: Blocking fossil-fuelled disinformation in Belém and beyond",
+      "link": "https://www.climatechangenews.com/2025/11/12/bad-cop-to-good-cop-blocking-fossil-fueled-disinformation-in-belem-and-beyond/",
+      "pubDate": "Wed, 12 Nov 2025 12:37:58 +0000",
+      "description": "<p>Fossil fuel companies should be barred from COP climate talks, where they attempt to derail discussions, and their disinformation must be tackled</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/12/bad-cop-to-good-cop-blocking-fossil-fueled-disinformation-in-belem-and-beyond/\">Bad COP to good COP: Blocking fossil-fuelled disinformation in Belém and beyond</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 3: Brazil tries to find a home for tricky issues",
+      "link": "https://www.climatechangenews.com/2025/11/12/cop30-bulletin-day-3-protesters-break-into-summit-venue-clashing-with-security/",
+      "pubDate": "Wed, 12 Nov 2025 11:30:13 +0000",
+      "description": "<p>Brazil is trying to craft a compromise package on several contentious issues and has dismissed the idea of a roadmap away from fossil fuels</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/12/cop30-bulletin-day-3-protesters-break-into-summit-venue-clashing-with-security/\">COP30 Bulletin Day 3: Brazil tries to find a home for tricky issues</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Climate-hit nations hail loss and damage fund’s debut call for proposals",
+      "link": "https://www.climatechangenews.com/2025/11/11/climate-hit-nations-hail-loss-and-damage-funds-debut-call-for-proposals/",
+      "pubDate": "Tue, 11 Nov 2025 17:43:31 +0000",
+      "description": "<p>Developing countries say the launch of the fund's operations at COP30 is a long-awaited step towards justice, but activists warn it lacks the resources to meet colossal needs </p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/11/climate-hit-nations-hail-loss-and-damage-funds-debut-call-for-proposals/\">Climate-hit nations hail loss and damage fund’s debut call for proposals</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Climate is MIA in Australia and Türkiye’s bids to host COP31",
+      "link": "https://www.climatechangenews.com/2025/11/11/climate-is-mia-in-australia-and-turkiyes-bids-to-host-cop31/",
+      "pubDate": "Tue, 11 Nov 2025 16:15:37 +0000",
+      "description": "<p>Neither Australia or Türkiye have set out how they would use their COP31 presidency to accelerate climate action</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/11/climate-is-mia-in-australia-and-turkiyes-bids-to-host-cop31/\">Climate is MIA in Australia and Türkiye’s bids to host COP31</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 Bulletin Day 2: Ethiopia picked as COP32 host, while COP31 standoff continues",
+      "link": "https://www.climatechangenews.com/2025/11/11/cop30-bulletin-day-2-indias-targets-missing-but-korea-and-mexico-make-pledges/",
+      "pubDate": "Tue, 11 Nov 2025 14:39:53 +0000",
+      "description": "<p>African nations backed Ethiopia’s bid to host the 2027 summit over Nigeria’s, while Australia and Türkiye remain deadlocked over next year’s host decision</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/11/cop30-bulletin-day-2-indias-targets-missing-but-korea-and-mexico-make-pledges/\">COP30 Bulletin Day 2: Ethiopia picked as COP32 host, while COP31 standoff continues</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Carbon market supporters risk cheating the nature they wish to protect",
+      "link": "https://www.climatechangenews.com/2025/11/11/carbon-market-supporters-risk-cheating-the-nature-they-wish-to-protect/",
+      "pubDate": "Tue, 11 Nov 2025 13:51:59 +0000",
+      "description": "<p>Efforts to dilute Article 6 rules risk turning the new UN carbon market mechanism into a false climate solution that harms both nature and global climate action</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2025/11/11/carbon-market-supporters-risk-cheating-the-nature-they-wish-to-protect/\">Carbon market supporters risk cheating the nature they wish to protect</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    }
+  ]
 }

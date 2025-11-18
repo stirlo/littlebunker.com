@@ -1,9 +1,170 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">Internal server error</span>\n                <span class=\"code-label\">Error code 500</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.sciencedaily.com\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2025-11-18 14:26:46 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.sciencedaily.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Los Angeles</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.sciencedaily.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.sciencedaily.com</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p>There is an internal server error on Cloudflare's network.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    <p class=\"mb-6\">Please try again in a few minutes.</p>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9a08250ece0e3434</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">20.169.75.194</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_500&utm_campaign=www.sciencedaily.com\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>",
+  "title": "Climate News -- ScienceDaily",
+  "link": "https://www.sciencedaily.com/news/earth_climate/climate/",
+  "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-18T14:26:46.226358",
-  "items": []
+  "fetched_at": "2025-11-18T15:29:03.340343",
+  "items": [
+    {
+      "title": "Scientists uncover a massive hidden crater in China that rewrites Earth’s recent history",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251114041210.htm",
+      "pubDate": "Fri, 14 Nov 2025 09:14:54 EST",
+      "description": "A massive, well-preserved impact crater has been uncovered in Guangdong, revealing the signature of a powerful meteorite strike during the Holocene. Measuring 900 meters across, it dwarfs other known craters from the same era. Shock-damaged quartz confirms the intense forces involved. Its survival in a high-erosion environment makes it a geological rarity.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Massive hidden waves are rapidly melting Greenland’s glaciers",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251113071623.htm",
+      "pubDate": "Fri, 14 Nov 2025 03:35:45 EST",
+      "description": "Researchers in Greenland used a 10-kilometer fiber-optic cable to track how iceberg calving stirs up warm seawater. The resulting surface tsunamis and massive hidden underwater waves intensify melting at the glacier face. This powerful mixing effect accelerates ice loss far more than previously understood. The work highlights how fragile the Greenland ice system has become as temperatures rise.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Satellite images reveal the fastest Antarctic glacier retreat ever",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251113071611.htm",
+      "pubDate": "Fri, 14 Nov 2025 03:09:57 EST",
+      "description": "Hektoria Glacier’s sudden eight-kilometer collapse stunned scientists, marking the fastest modern ice retreat ever recorded in Antarctica. Its flat, below-sea-level ice plain allowed huge slabs of ice to detach rapidly once retreat began. Seismic activity confirmed this wasn’t just floating ice but grounded mass contributing to sea level rise. The event raises alarms that other fragile glaciers may be poised for similar, faster-than-expected collapses.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "A 400-million-year-old plant creates water so weird it looks alien",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251112111032.htm",
+      "pubDate": "Thu, 13 Nov 2025 03:31:03 EST",
+      "description": "Researchers discovered that living horsetails act like natural distillation towers, producing bizarre oxygen isotope signatures more extreme than anything previously recorded on Earth—sometimes resembling meteorite water. By tracing these isotopic shifts from the plant base to its tip, scientists unlocked a new way to decode ancient humidity and climate, using both modern plants and fossilized phytoliths that preserve isotopic clues for millions of years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Space dust reveals how fast the Arctic is changing",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251112111015.htm",
+      "pubDate": "Thu, 13 Nov 2025 03:44:11 EST",
+      "description": "Arctic sea ice is disappearing fast, and scientists have turned to an unexpected cosmic clue—space dust—to uncover how ice has changed over tens of thousands of years. By tracking helium-3–bearing dust trapped (or blocked) by ancient ice, researchers built a remarkably detailed history of Arctic coverage stretching back 30,000 years. Their findings reveal powerful links between sea ice, nutrient availability, and the Arctic food web, offering hints about how future warming may reshape everything from plankton blooms to geopolitics.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Earth is slowly peeling its continents from below, fueling ocean volcanoes",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251112011806.htm",
+      "pubDate": "Wed, 12 Nov 2025 02:51:52 EST",
+      "description": "Researchers discovered that continents don’t just split at the surface—they also peel from below, feeding volcanic activity in the oceans. Simulations reveal that slow mantle waves strip continental roots and push them deep into the oceanic mantle. Data from the Indian Ocean confirms this hidden recycling process, which can last tens of millions of years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Meet the desert survivor that grows faster the hotter it gets",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251109032410.htm",
+      "pubDate": "Sun, 09 Nov 2025 04:01:43 EST",
+      "description": "In Death Valley’s relentless heat, Tidestromia oblongifolia doesn’t just survive—it thrives. Michigan State University scientists discovered that the plant can quickly adjust its photosynthetic machinery to endure extreme temperatures that would halt most species. Its cells reorganize, its genes switch on protective functions, and it even reshapes its chloroplasts to keep producing energy. The findings could guide the creation of crops capable of withstanding future heat waves.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "9,000-year-old ice melt shows how fast Antarctica can fall apart",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251109032406.htm",
+      "pubDate": "Sun, 09 Nov 2025 03:56:56 EST",
+      "description": "Around 9,000 years ago, East Antarctica went through a dramatic meltdown that was anything but isolated. Scientists have discovered that warm deep ocean water surged beneath the region’s floating ice shelves, causing them to collapse and unleashing a domino effect of ice loss across the continent. This process created a “cascading positive feedback,” where melting in one area sped up melting elsewhere through interconnected ocean currents.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Microbes that breathe rust could help save Earth’s oceans",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251109013252.htm",
+      "pubDate": "Sun, 09 Nov 2025 09:41:02 EST",
+      "description": "Researchers from the University of Vienna discovered MISO bacteria that use iron minerals to oxidize toxic sulfide, creating energy and producing sulfate. This biological process reshapes how scientists understand global sulfur and iron cycles. By outpacing chemical reactions, these microbes could help stop the spread of oceanic dead zones and maintain ecological balance.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Laser satellites expose a secret Antarctic carbon burst",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251108014024.htm",
+      "pubDate": "Sat, 08 Nov 2025 01:57:09 EST",
+      "description": "A new study shows that the Southern Ocean releases far more carbon dioxide in winter than once thought. By combining laser satellite data with AI analysis, scientists managed to “see” through the polar darkness for the first time. The results reveal a 40% undercount in winter emissions, changing how researchers view the ocean’s carbon balance and its impact on climate models.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Deep-sea mining starves life in the ocean’s twilight zone",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251108012850.htm",
+      "pubDate": "Sat, 08 Nov 2025 02:37:59 EST",
+      "description": "Scientists have discovered that deep-sea mining plumes can strip vital nutrition from the ocean’s twilight zone, replacing natural food with nutrient-poor sediment. The resulting “junk food” effect could starve life across entire marine ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Antarctica’s collapse may already be unstoppable, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251106003941.htm",
+      "pubDate": "Thu, 06 Nov 2025 11:23:51 EST",
+      "description": "Researchers warn Antarctica is undergoing abrupt changes that could trigger global consequences. Melting ice, collapsing ice shelves, and disrupted ocean circulation threaten sea levels, ecosystems, and climate stability. Wildlife such as penguins and krill face growing extinction risks. Scientists stress that only rapid emission reductions can avert irreversible damage.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Frozen for 6 million years, Antarctic ice rewrites Earth’s climate story",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251105050716.htm",
+      "pubDate": "Wed, 05 Nov 2025 05:07:16 EST",
+      "description": "Scientists discovered 6-million-year-old ice in Antarctica, offering the oldest direct record of Earth’s ancient atmosphere and climate. The finding reveals a dramatic cooling trend and promises insights into greenhouse gas changes over millions of years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Turning CO2 into clean fuel faster and cheaper",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251105050712.htm",
+      "pubDate": "Wed, 05 Nov 2025 08:56:16 EST",
+      "description": "A new copper-magnesium-iron catalyst transforms CO2 into CO at low temperatures with record-breaking efficiency and stability. The discovery paves the way for affordable, scalable production of carbon-neutral synthetic fuels.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Even climate fixes might not save coffee, chocolate, and wine, scientists warn",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251104094139.htm",
+      "pubDate": "Tue, 04 Nov 2025 21:23:44 EST",
+      "description": "Even with futuristic geoengineering methods like Stratospheric Aerosol Injection, the fate of wine, coffee, and cacao crops remains uncertain. Scientists found that while this intervention could slightly cool the planet, it cannot stabilize the erratic rainfall and humidity that devastate yields. The findings reveal that only a fraction of major growing regions might benefit, leaving most producers exposed to volatile harvests and economic instability.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists predict a wetter, greener future for the Sahara Desert",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102205025.htm",
+      "pubDate": "Mon, 03 Nov 2025 04:22:31 EST",
+      "description": "UIC researchers predict that the Sahara Desert could see up to 75% more rain by the end of this century due to rising global temperatures. Using 40 climate models, the team found widespread precipitation increases across Africa, though some regions may dry out. The results suggest a major rebalancing of the continent’s climate. Scientists stress that adaptation planning is essential to prepare for both wetter and drier futures.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "A warming Earth could accidentally trigger a deep freeze",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102011216.htm",
+      "pubDate": "Sun, 02 Nov 2025 05:02:16 EST",
+      "description": "Earth’s climate balance isn’t just governed by the slow weathering of silicate rocks, which capture carbon and stabilize temperature over eons. New research reveals that biological and oceanic feedback loops—especially involving algae, phosphorus, and oxygen—can swing the planet’s temperature far more dramatically.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists uncover what delayed Earth’s oxygen boom for a billion years",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251102011144.htm",
+      "pubDate": "Sun, 02 Nov 2025 03:50:48 EST",
+      "description": "Researchers uncovered that trace compounds like nickel and urea may have delayed Earth’s oxygenation for millions of years. Experiments mimicking early Earth revealed how their concentrations controlled cyanobacterial growth, dictating when oxygen began to accumulate. As nickel declined and urea stabilized, photosynthetic life thrived, sparking the Great Oxidation Event. The findings could also guide the search for biosignatures on distant worlds.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists shocked by reversed electric field around Earth",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251030075141.htm",
+      "pubDate": "Fri, 31 Oct 2025 01:12:13 EDT",
+      "description": "Earth’s magnetosphere, once thought to have a simple electric polarity pattern, has revealed a surprising twist. New satellite data and advanced simulations show that the morning side of the magnetosphere carries a negative charge, not positive as long believed. Researchers from Kyoto, Nagoya, and Kyushu Universities found that while the polar regions retain the expected polarity, the equatorial areas flip it entirely.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Those Halloween fireballs might be more dangerous than you think",
+      "link": "https://www.sciencedaily.com/releases/2025/10/251030075121.htm",
+      "pubDate": "Fri, 31 Oct 2025 02:18:06 EDT",
+      "description": "The Taurid meteor shower, born from Comet Encke, delights skywatchers but may conceal hidden risks. Research led by Mark Boslough examines potential Taurid swarms that could increase impact danger in 2032 and 2036. Using planetary defense modeling and telescope data, scientists assess these threats while fighting misinformation and promoting preparedness.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    }
+  ]
 }
