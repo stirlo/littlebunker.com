@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-18T18:37:40.541191",
+  "fetched_at": "2025-11-18T19:20:28.247228",
   "items": [
+    {
+      "title": "Radar data find no decline in insect numbers—but there’s a catch",
+      "link": "https://www.science.org/content/article/radar-data-find-no-decline-insect-numbers-there-s-catch",
+      "pubDate": "",
+      "description": "Study of continental U.S. sees stable population of bugs, but it may be missing important pieces of the puzzle",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "High-resolution climate model forecasts a wet, turbulent future",
       "link": "https://www.science.org/content/article/high-resolution-climate-model-forecasts-wet-turbulent-future",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/deal-end-u-s-shutdown-includes-good-news-farm-science-funding",
       "pubDate": "",
       "description": "Lawmakers reject Trump’s request for deep cuts to research programs",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "The Trump administration is dismantling efforts to fight the next pandemic",
-      "link": "https://www.science.org/content/article/trump-administration-dismantling-efforts-fight-next-pandemic",
-      "pubDate": "",
-      "description": "A retreat from investments in drugs and vaccines leaves U.S. less prepared for the next viral scourge, experts warn",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
