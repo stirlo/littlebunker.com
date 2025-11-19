@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-19T01:59:30.663743",
+  "fetched_at": "2025-11-19T03:17:40.470206",
   "items": [
+    {
+      "title": "Secret chemical traces reveal life on Earth 3. 3 billion years ago",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251118212035.htm",
+      "pubDate": "Tue, 18 Nov 2025 21:37:29 EST",
+      "description": "Researchers have discovered chemical traces of life in rocks older than 3.3 billion years, offering a rare look at Earth’s earliest biology. By combining advanced chemical methods with artificial intelligence, scientists were able to detect faint molecular patterns left behind long after the original biomolecules disappeared. Newly analyzed fossils, including ancient seaweed from Canada’s Yukon Territory, helped validate the method and deepen understanding of early ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists uncover a massive hidden crater in China that rewrites Earth’s recent history",
       "link": "https://www.sciencedaily.com/releases/2025/11/251114041210.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/10/251030075141.htm",
       "pubDate": "Fri, 31 Oct 2025 01:12:13 EDT",
       "description": "Earth’s magnetosphere, once thought to have a simple electric polarity pattern, has revealed a surprising twist. New satellite data and advanced simulations show that the morning side of the magnetosphere carries a negative charge, not positive as long believed. Researchers from Kyoto, Nagoya, and Kyushu Universities found that while the polar regions retain the expected polarity, the equatorial areas flip it entirely.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Those Halloween fireballs might be more dangerous than you think",
-      "link": "https://www.sciencedaily.com/releases/2025/10/251030075121.htm",
-      "pubDate": "Fri, 31 Oct 2025 02:18:06 EDT",
-      "description": "The Taurid meteor shower, born from Comet Encke, delights skywatchers but may conceal hidden risks. Research led by Mark Boslough examines potential Taurid swarms that could increase impact danger in 2032 and 2036. Using planetary defense modeling and telescope data, scientists assess these threats while fighting misinformation and promoting preparedness.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
