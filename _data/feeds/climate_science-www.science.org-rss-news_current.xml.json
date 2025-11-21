@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-21T13:32:33.244877",
+  "fetched_at": "2025-11-21T14:25:16.548964",
   "items": [
+    {
+      "title": "Exclusive: CDC to end all monkey research",
+      "link": "https://www.science.org/content/article/exclusive-cdc-end-all-monkey-research",
+      "pubDate": "",
+      "description": "Studies related to HIV and other infectious diseases will be phased out, sources say; fate of the agency's animals remains unclear",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "In red states, many academic researchers feel fear–and resolve",
       "link": "https://www.science.org/content/article/red-states-many-academic-researchers-feel-fear-and-resolve",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/curious-gravitational-wave-may-be-hint-primordial-black-holes-or-just-noise",
       "pubDate": "",
       "description": "Astronomers approach unusual observation with caution and excitement",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Lab-grown models of human brains are advancing rapidly. Can ethics keep pace?",
-      "link": "https://www.science.org/content/article/lab-grown-models-human-brains-are-advancing-rapidly-can-ethics-keep-pace",
-      "pubDate": "",
-      "description": "Whether neural organoids feel pain or should be placed in animals are among the questions swirling around biology’s hot new technology",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
