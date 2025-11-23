@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-23T18:34:11.036575",
+  "fetched_at": "2025-11-23T19:19:40.009922",
   "items": [
+    {
+      "title": "Scientists may have found the planet that made the Moon",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251123115431.htm",
+      "pubDate": "Sun, 23 Nov 2025 13:03:07 EST",
+      "description": "About 4.5 billion years ago, a colossal impact between the young Earth and a mysterious planetary body called Theia changed everything—reshaping Earth, forming the Moon, and scattering clues across space rocks. By examining subtle isotopic fingerprints in Earth and Moon samples, scientists have reconstructed Theia’s possible composition and birthplace.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Solar Superstorm Gannon crushed Earth’s plasmasphere to a record low",
       "link": "https://www.sciencedaily.com/releases/2025/11/251122234723.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251105050716.htm",
       "pubDate": "Wed, 05 Nov 2025 05:07:16 EST",
       "description": "Scientists discovered 6-million-year-old ice in Antarctica, offering the oldest direct record of Earth’s ancient atmosphere and climate. The finding reveals a dramatic cooling trend and promises insights into greenhouse gas changes over millions of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Turning CO2 into clean fuel faster and cheaper",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251105050712.htm",
-      "pubDate": "Wed, 05 Nov 2025 08:56:16 EST",
-      "description": "A new copper-magnesium-iron catalyst transforms CO2 into CO at low temperatures with record-breaking efficiency and stability. The discovery paves the way for affordable, scalable production of carbon-neutral synthetic fuels.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
