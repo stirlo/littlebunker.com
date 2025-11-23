@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-23T08:31:07.393077",
+  "fetched_at": "2025-11-23T09:24:06.819324",
   "items": [
+    {
+      "title": "Solar Superstorm Gannon crushed Earth’s plasmasphere to a record low",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251122234723.htm",
+      "pubDate": "Sun, 23 Nov 2025 01:00:14 EST",
+      "description": "A massive solar storm in May 2024 gave scientists an unprecedented look at how Earth’s protective plasma layer collapses under intense space weather. With the Arase satellite in a perfect observing position, researchers watched the plasmasphere shrink to a fraction of its usual size and take days to rebuild. The event pushed auroras far beyond their normal boundaries and revealed that a rare “negative storm” in the ionosphere dramatically slowed the atmosphere’s ability to recover. These observations offer valuable insight into how extreme solar activity disrupts satellites, GPS signals, and communication systems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "New report reveals major risks in turning oceans into carbon sinks",
       "link": "https://www.sciencedaily.com/releases/2025/11/251120002832.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251105050712.htm",
       "pubDate": "Wed, 05 Nov 2025 08:56:16 EST",
       "description": "A new copper-magnesium-iron catalyst transforms CO2 into CO at low temperatures with record-breaking efficiency and stability. The discovery paves the way for affordable, scalable production of carbon-neutral synthetic fuels.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Even climate fixes might not save coffee, chocolate, and wine, scientists warn",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251104094139.htm",
-      "pubDate": "Tue, 04 Nov 2025 21:23:44 EST",
-      "description": "Even with futuristic geoengineering methods like Stratospheric Aerosol Injection, the fate of wine, coffee, and cacao crops remains uncertain. Scientists found that while this intervention could slightly cool the planet, it cannot stabilize the erratic rainfall and humidity that devastate yields. The findings reveal that only a fraction of major growing regions might benefit, leaving most producers exposed to volatile harvests and economic instability.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
