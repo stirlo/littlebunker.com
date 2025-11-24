@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-11-24T17:24:56.020852",
+  "fetched_at": "2025-11-24T18:38:39.901535",
   "items": [
     {
       "title": "Unraveling drought propagation dynamics using causal inference from time series",
@@ -35,6 +35,14 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1c53",
       "pubDate": "",
       "description": "Farms in the US Midwest are experiencing disruptive heavy rainfall during the spring planting window and more intense droughts during the summer growing season. Recent analyses of field experiments suggest that increasing crop rotational complexity (RC) builds resilience to climate change, especially when rotations include overwintering cover crops that assimilate and retain nutrients and increase organic matter inputs to soil. However, evidence from working farms is lacking. We used field-scale remote sensing to assess relationships between crop diversification and agroecosystem climate resilience from 2008 to 2019 in Michigan, the most agriculturally diverse state in the US Midwest. Using panel fixed effects models and linear regressions, we assessed how corn and soybean yield and temporal yield stability (measured as the coefficient of variation) respond to: (1) an index of crop RC that encompasses species turnover and functional diversity, and (2) replacing bare fallows with winter cover crops. We also tested how cover crops influence corn and soybean planting dates as an indicator of resilience to heavy spring rainfall. We found that crop diversification was linked to higher corn and soybean yields, but cover crops showed more promise for improving yield stability than overall RC. Cover crops reduced planting delays associated with heavy spring rainfall, and did not interfere with primary crop planting under average weather conditions. However, cover crop benefits for resilience took multiple years to appear on farms, highlighting the importance of technical and financial support during the early phases of transition. Together these findings may promote cover crop adoption by reducing concerns that cover crops interfere with primary crop planting, and instead showing that they are a crucial tool for minimizing risk from increasingly variable and extreme climatic conditions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Heatwaves reduce intra- and intercity human mobility in China",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1e13",
+      "pubDate": "",
+      "description": "Existing evidence on the societal impacts of heatwaves has largely centered on human health and labor productivity. This study contributes new evidence to this body of literature by showing that heatwaves significantly reduce human mobility, a high-frequency indicator of economic activity and social interaction, in and between Chinese cities. Using a set of fixed-effects panel-regression models estimated with mobile phone-derived human mobility data, coupled with daily meteorological and air quality data, we find that heatwaves, on average, reduce the intracity trip rate and inbound trips in Chinese cities by 1.5% and 1.6%, respectively. Notably, nearly one-third of the heatwave-induced decline in the intracity trip rate can be attributed to the added effect of sustained periods of extreme heat beyond the temperature–mobility relationship. Back-of-the-envelope calculations based on these estimates suggest that the 2023 Chinese summer heatwave led to nationwide mobility reductions on a scale equivalent to suspending all intracity and inbound trips in Shanghai, one of China’s largest and busiest cities, for an entire week. Moreover, the adverse impacts of heatwaves on human mobility are particularly pronounced in cities of small size and with limited economic resources and green spaces, highlighting the urgent need to enhance the heatwave resilience of these cities.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -155,14 +163,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae19fe",
       "pubDate": "",
       "description": "Fluvial floods characterized by either large volume or prolonged duration severely impede the sustainable development of socio-ecological systems, which may intensify with global warming. However, the co-evolution dynamics of joint fluvial flood characteristics and their socioeconomic implications under different global warming targets are poorly understood. Here, we combine a deep learning (DL)-constrained hybrid model, a statistical approach and climate models to evaluate future flood occurrence within a bivariate framework (i.e. volume and duration) across 8735 catchments. After evaluating the performance of the DL-constrained hybrid model, we project a doubling of bivariate fluvial flood hazard under 3.0 °C warming. We assess the uncertainty of fluvial flood projections and reveal that the global climate models and coupled factors are the major uncertainty sources. Global warming from 1.5 °C to 3.0 °C tends to amplify flood exposure of gross domestic product, population and agricultural area, by ∼97%, ∼46%, and ∼67% under a medium emission scenario (SSP370), respectively.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Adapting urban water supply infrastructure and policies for wildfire in the 21st century",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1a9a",
-      "pubDate": "",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
