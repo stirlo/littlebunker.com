@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-25T17:25:19.811925",
+  "fetched_at": "2025-11-25T18:38:42.225832",
   "items": [
+    {
+      "title": "Giant hidden heat blob slowly travels beneath the U. S.",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251125081916.htm",
+      "pubDate": "Tue, 25 Nov 2025 12:16:48 EST",
+      "description": "An immense pocket of hot rock deep beneath the Appalachians may be a wandering relic of the breakup between Greenland and North America 80 million years ago. Researchers suggest this slow-moving “mantle wave” drifted over 1,800 km to reach its current position, gradually reshaping the continent from below and even helping prop up the Appalachian Mountains long after tectonic activity at the surface ceased.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists may have found the planet that made the Moon",
       "link": "https://www.sciencedaily.com/releases/2025/11/251123115431.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251106003941.htm",
       "pubDate": "Thu, 06 Nov 2025 11:23:51 EST",
       "description": "Researchers warn Antarctica is undergoing abrupt changes that could trigger global consequences. Melting ice, collapsing ice shelves, and disrupted ocean circulation threaten sea levels, ecosystems, and climate stability. Wildlife such as penguins and krill face growing extinction risks. Scientists stress that only rapid emission reductions can avert irreversible damage.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Frozen for 6 million years, Antarctic ice rewrites Earth’s climate story",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251105050716.htm",
-      "pubDate": "Wed, 05 Nov 2025 05:07:16 EST",
-      "description": "Scientists discovered 6-million-year-old ice in Antarctica, offering the oldest direct record of Earth’s ancient atmosphere and climate. The finding reveals a dramatic cooling trend and promises insights into greenhouse gas changes over millions of years.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
