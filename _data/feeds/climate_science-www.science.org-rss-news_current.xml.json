@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-11-24T23:24:11.870428",
+  "fetched_at": "2025-11-25T02:01:02.612673",
   "items": [
+    {
+      "title": "NIH shake-up to grant decision-making draws concerns of political meddling",
+      "link": "https://www.science.org/content/article/nih-shake-grant-decision-making-draws-concerns-political-meddling",
+      "pubDate": "",
+      "description": "Policy drops “paylines” based on peer-review scores and requires geography and other factors to guide approvals",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Popular obesity drug fails in hotly anticipated Alzheimer’s trials",
       "link": "https://www.science.org/content/article/popular-obesity-drug-fails-hotly-anticipated-alzheimer-s-trials",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/pigeons-sense-earth-s-magnetic-field-entirely-new-way",
       "pubDate": "",
       "description": "Specialized hair cells pick electric currents induced by magnetism",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "‘This is censorship.’ Conference requires abstracts to comply with Trump anti-DEI order",
-      "link": "https://www.science.org/content/article/censorship-conference-requires-abstracts-comply-trump-anti-dei-order",
-      "pubDate": "",
-      "description": "NASA-funded planetary science institute previously scrubbed hundreds of records from its archive",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
