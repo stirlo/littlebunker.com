@@ -4,13 +4,29 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-26T08:35:12.397533",
+  "fetched_at": "2025-11-26T09:29:37.595122",
   "items": [
     {
-      "title": "Giant hidden heat blob slowly travels beneath the U. S.",
+      "title": "Scientists discover a hidden deep sea hotspot bursting with life",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251125081928.htm",
+      "pubDate": "Wed, 26 Nov 2025 04:11:22 EST",
+      "description": "Beneath the waters off Papua New Guinea lies an extraordinary deep-sea environment where scorching hydrothermal vents and cool methane seeps coexist side by side — a pairing never before seen. This unusual chemistry fuels a vibrant oasis teeming with mussels, tube worms, shrimp, and even purple sea cucumbers, many of which may be unknown to science. The rocks themselves shimmer with traces of gold, silver, and other metals deposited by past volcanic activity.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Giant hidden heat blob slowly travels beneath the U.S.",
       "link": "https://www.sciencedaily.com/releases/2025/11/251125081916.htm",
-      "pubDate": "Tue, 25 Nov 2025 12:16:48 EST",
+      "pubDate": "Tue, 25 Nov 2025 08:19:16 EST",
       "description": "An immense pocket of hot rock deep beneath the Appalachians may be a wandering relic of the breakup between Greenland and North America 80 million years ago. Researchers suggest this slow-moving “mantle wave” drifted over 1,800 km to reach its current position, gradually reshaping the continent from below and even helping prop up the Appalachian Mountains long after tectonic activity at the surface ceased.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "A global shipping detour just revealed a hidden climate twist",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251125081914.htm",
+      "pubDate": "Wed, 26 Nov 2025 03:55:02 EST",
+      "description": "Rerouted shipping during Red Sea conflicts accidentally created a massive real-world experiment, letting scientists study how new low-sulfur marine fuels affect cloud formation. The sudden surge of ships around the Cape of Good Hope revealed that cleaner fuels dramatically weaken the ability of ship emissions to seed bright, reflective clouds—cutting this cloud-boosting effect by about two-thirds.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251108014024.htm",
       "pubDate": "Sat, 08 Nov 2025 01:57:09 EST",
       "description": "A new study shows that the Southern Ocean releases far more carbon dioxide in winter than once thought. By combining laser satellite data with AI analysis, scientists managed to “see” through the polar darkness for the first time. The results reveal a 40% undercount in winter emissions, changing how researchers view the ocean’s carbon balance and its impact on climate models.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Deep-sea mining starves life in the ocean’s twilight zone",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251108012850.htm",
-      "pubDate": "Sat, 08 Nov 2025 02:37:59 EST",
-      "description": "Scientists have discovered that deep-sea mining plumes can strip vital nutrition from the ocean’s twilight zone, replacing natural food with nutrient-poor sediment. The resulting “junk food” effect could starve life across entire marine ecosystems.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Antarctica’s collapse may already be unstoppable, scientists warn",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251106003941.htm",
-      "pubDate": "Thu, 06 Nov 2025 11:23:51 EST",
-      "description": "Researchers warn Antarctica is undergoing abrupt changes that could trigger global consequences. Melting ice, collapsing ice shelves, and disrupted ocean circulation threaten sea levels, ecosystems, and climate stability. Wildlife such as penguins and krill face growing extinction risks. Scientists stress that only rapid emission reductions can avert irreversible damage.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
