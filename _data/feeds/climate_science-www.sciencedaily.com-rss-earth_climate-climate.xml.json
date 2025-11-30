@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-11-30T11:19:54.329375",
+  "fetched_at": "2025-11-30T12:49:30.671306",
   "items": [
+    {
+      "title": "Scientists find coastal seas acidifying shockingly fast",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251129044522.htm",
+      "pubDate": "Sun, 30 Nov 2025 05:00:52 EST",
+      "description": "New findings show that some coastal regions will become far more acidic than scientists once thought, with upwelling systems pulling deep, CO2-rich waters to the surface and greatly intensifying acidification. Historic coral chemistry and advanced modeling reveal that these regions are acidifying much faster than expected from atmospheric CO2 alone, raising serious concerns for fisheries, marine ecosystems, and coastal economies.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Polluted air quietly erases the benefits of exercise",
       "link": "https://www.sciencedaily.com/releases/2025/11/251128050457.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251109032406.htm",
       "pubDate": "Sun, 09 Nov 2025 03:56:56 EST",
       "description": "Around 9,000 years ago, East Antarctica went through a dramatic meltdown that was anything but isolated. Scientists have discovered that warm deep ocean water surged beneath the region’s floating ice shelves, causing them to collapse and unleashing a domino effect of ice loss across the continent. This process created a “cascading positive feedback,” where melting in one area sped up melting elsewhere through interconnected ocean currents.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Microbes that breathe rust could help save Earth’s oceans",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251109013252.htm",
-      "pubDate": "Sun, 09 Nov 2025 09:41:02 EST",
-      "description": "Researchers from the University of Vienna discovered MISO bacteria that use iron minerals to oxidize toxic sulfide, creating energy and producing sulfate. This biological process reshapes how scientists understand global sulfur and iron cycles. By outpacing chemical reactions, these microbes could help stop the spread of oceanic dead zones and maintain ecological balance.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
