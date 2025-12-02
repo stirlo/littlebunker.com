@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-02T08:37:36.658867",
+  "fetched_at": "2025-12-02T09:33:07.191632",
   "items": [
+    {
+      "title": "Quantifying US metropolitan level environmental burdens & benefits from greater localization of vegetable farming",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1622",
+      "pubDate": "",
+      "description": "Several US urban food action plans propose increasing local and regional vegetable production for the presumed environmental and nutritional benefits. However, such efforts, if applied nationwide, can propagate environmental benefits or disbenefits to other geographies that have not been previously evaluated. Our paper quantifies the environmental benefits and disbenefits at the metropolitan scale nationwide from various localization scenarios ranging in scope (e.g., meeting 25%–100% of local vegetable dietary demand through local production). For the first time, these localization targets are modeled nationwide with consistent methodology across 378 metropolitan areas, considering three different land reutilization scenarios: (1) shifting current commodity cropland to vegetables, (2) leveraging marginal urban land, and (3) a novel strategy of repurposing parking lots and roads, anticipating the future deployment of shared autonomous vehicle fleets. These scenarios, implemented nationwide, diffusing current, concentrated vegetable production, are evaluated in the context of land availability constraints and two critical environmental burdens: groundwater overdraft and fertilizer-related PM2.5 emissions. Broadly across the conterminous US metros, scenarios find few significant land constraints and reveal net environmental benefits to both groundwater overdraft and fertilizer-related PM2.5 emissions in 11%–55% of metros (scenario-dependent). The model also reveals where relocalization of vegetable farming would exacerbate existing environmental vulnerabilities. Such spatially disaggregated nationwide urban agriculture localization models can inform environmentally friendly urban agricultural planning across US metro regions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Can digital monitoring, reporting, and verification (dMRV) unlock industrial CO2 capture and removal in carbon markets?",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20ad",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Are the alternative ecosystem states produced by positive fire-flammability feedbacks reversible?",
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae18e7",
@@ -67,22 +83,6 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f6",
       "pubDate": "",
       "description": "The rise in atmospheric carbon dioxide (CO2) concentrations requires scalable and effective carbon dioxide removal (CDR) strategies. pyrogenic carbon capture and storage relies on the pyrolysis of biomass and the non-oxidative use of biochar, e.g. in soils. Enhanced rock weathering (ERW) captures CO2 by forming dissolved bicarbonate. In addition to CDR, both methods may offer soil improvement as a co-benefit. However, their interaction and combined CDR potential remain largely unexplored. Here, we investigate their individual and combined effects on carbon dynamics in a temperate agricultural soil. Using the process-based LiDELSv2 model calibrated against data from the lysimeter experiment, we simulate 1000 year impacts of applying 4.2 wt% wood biochar, 2 wt% basanite rock powder (RP), their co-application, and co-pyrolyzed material (rock-enhanced biochar, RE-biochar) on soil organic carbon (SOC), net primary production (NPP), net CO2 ecosystem exchange (NEE), and calcium (Ca2+) leaching in a northern German sandy soil. Biochar alone led to the highest increase in SOC and achieved a modeled NEE of −200 g C ha−1 yr−1 per ton of biochar throughout 1000 years, acting as a long-term carbon sink. Co-application and RE-biochar increased SOC too, but to a lesser extent. Rock powder alone reduced SOC by 7%. Although RP enhanced Ca2+ leaching, this did not result in net CO2 removal. Ecosystem respiration and NPP remained stable in the long term. Our results suggest that, when accounting for assumed application rates, biochar is the primary driver of long-term soil-based CDR, while ERW provides only minor co-benefits. This highlights the need to tailor interventions to specific soil and climate conditions.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Economic benefits and cost competitiveness of green hydrogen in decarbonizing China’s electricity and hard-to-electrify sectors",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1b1f",
-      "pubDate": "",
-      "description": "Green hydrogen has the potential to address two critical challenges in a zero-carbon energy system: balancing seasonal variability of solar and wind in the electricity sector, and replacing fossil fuels in hard-to-electrify sectors. In this study, focusing on China, we deploy a provincial-scale energy system planning and operation model to examine the technical and cost-optimal potential of green hydrogen to fully remove carbon-based fuels in the electricity and hard-to-electrify sectors by 2050. Our results show that green hydrogen infrastructure can enable more cost-effective decarbonization of both the electricity and hard-to-electrify sectors. First, in the zero-carbon electricity sector alone, utilizing green hydrogen as long-duration storage enables a 17% reduction in the electricity-only cost (ZE scenario) relative to one without hydrogen. However, cost savings hinge on the availability of underground hydrogen storage. Second, coupling the electricity and hard-to-electrify sectors by sharing green hydrogen infrastructure reduces the combined energy system cost by 6% compared to a decoupled energy system. Third, the coupled energy system also makes green hydrogen comparable to fossil fuel-based gray and blue hydrogen costs in China. Allocating the entire savings realized in the coupled energy system to just the hydrogen used as fuel/feedstock in hard-to-electrify sectors yields a 24% reduction in the hydrogen-only cost relative to the cost under the decoupled system. Last, coupling hydrogen infrastructure between electricity and hard-to-electrify sectors yields a substantially different spatial pattern of hydrogen production. In the decoupled energy system, 80% of hydrogen demand in electricity and hard-to-electrify sectors is produced locally within the same provinces, but the coupled energy system cuts local production to 30%, shifting production to high renewable energy generating provinces. Understanding the spatial patterns of optimal hydrogen infrastructure siting will help plan an integrated electricity and hydrogen system that can cost-effectively decarbonize multiple sectors and China’s broader economy.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Climate benefits of afforestation and reforestation with varying species mixtures and densities in the north-western boreal lands",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1d95",
-      "pubDate": "",
-      "description": "The boreal forest is a vital carbon sink. Using 250 year simulations for Canada’s Taiga Plains, a priority of the 2 billion trees program, we tested afforestation and reforestation (A/R) strategies that combine species mix, planting density and surface albedo. Medium-density (600–1400 trees ha−1) mixed stands with ∼25%–40% deciduous trees stored 15%–30% more net ecosystem carbon than conifer monocultures by coupling rapid early growth with long-term retention and greater disturbance resilience. Replanting under-stocked stands with these mixtures raised long-term storage by 18%–30% over business-as-usual. Accounting for albedo showed pure evergreen or deciduous stands lost 6%–20% of their climate benefit, whereas mixed stands yielded net cooling and the highest sequestration (≈ 4.6–4.7 tCO2e ha−1 yr−1). Partial harvesting plus replanting preserved, and sometimes increased, ecosystem carbon (≈ 300–340 tC ha−1) and productivity (≈ 1.6–2.0 tC ha−1 yr−1) without raising risk. Blending fast-growing deciduous trees with long-lived conifers at intermediate density maximizes boreal A/R climate value and informs reforestation policy elsewhere.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
