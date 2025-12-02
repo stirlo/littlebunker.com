@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-02T10:30:38.291123",
+  "fetched_at": "2025-12-02T11:25:35.939782",
   "items": [
     {
       "title": "Satellites spot rapid “Doomsday Glacier” collapse",
       "link": "https://www.sciencedaily.com/releases/2025/11/251130205511.htm",
       "pubDate": "Mon, 01 Dec 2025 01:44:02 EST",
       "description": "Two decades of satellite and GPS data show the Thwaites Eastern Ice Shelf slowly losing its grip on a crucial stabilizing point as fractures multiply and ice speeds up. Scientists warn this pattern could spread to other vulnerable Antarctic shelves.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "New research reveals the hidden organism behind Lake Erie’s toxic blooms",
+      "link": "https://www.sciencedaily.com/releases/2025/11/251130205503.htm",
+      "pubDate": "Tue, 02 Dec 2025 02:18:04 EST",
+      "description": "Dolichospermum, a type of cyanobacteria thriving in Lake Erie’s warming waters, has been identified as the surprising culprit behind the lake’s dangerous saxitoxins—some of the most potent natural neurotoxins known. Using advanced genome sequencing, researchers uncovered that only certain strains produce the toxin, and that warmer temperatures and low ammonium levels may tip the ecological balance in their favor.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251112011806.htm",
       "pubDate": "Wed, 12 Nov 2025 02:51:52 EST",
       "description": "Researchers discovered that continents don’t just split at the surface—they also peel from below, feeding volcanic activity in the oceans. Simulations reveal that slow mantle waves strip continental roots and push them deep into the oceanic mantle. Data from the Indian Ocean confirms this hidden recycling process, which can last tens of millions of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Meet the desert survivor that grows faster the hotter it gets",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251109032410.htm",
-      "pubDate": "Sun, 09 Nov 2025 04:01:43 EST",
-      "description": "In Death Valley’s relentless heat, Tidestromia oblongifolia doesn’t just survive—it thrives. Michigan State University scientists discovered that the plant can quickly adjust its photosynthetic machinery to endure extreme temperatures that would halt most species. Its cells reorganize, its genes switch on protective functions, and it even reshapes its chloroplasts to keep producing energy. The findings could guide the creation of crops capable of withstanding future heat waves.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
