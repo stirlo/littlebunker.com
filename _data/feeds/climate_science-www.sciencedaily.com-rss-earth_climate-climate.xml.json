@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-03T14:28:27.868656",
+  "fetched_at": "2025-12-03T15:30:41.438556",
   "items": [
+    {
+      "title": "Early Earth’s sky may have created the first ingredients for life",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251203010207.htm",
+      "pubDate": "Wed, 03 Dec 2025 01:49:28 EST",
+      "description": "Researchers recreated conditions from billions of years ago and found that Earth’s young atmosphere could make key molecules linked to life. These sulfur-rich compounds, including certain amino acids, may have formed naturally in the sky. The results suggest early Earth wasn’t starting from zero but may have already been stocked with essential ingredients.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A hidden Antarctic shift unleashed the carbon that warmed the world",
       "link": "https://www.sciencedaily.com/releases/2025/12/251202052209.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251112111032.htm",
       "pubDate": "Thu, 13 Nov 2025 03:31:03 EST",
       "description": "Researchers discovered that living horsetails act like natural distillation towers, producing bizarre oxygen isotope signatures more extreme than anything previously recorded on Earth—sometimes resembling meteorite water. By tracing these isotopic shifts from the plant base to its tip, scientists unlocked a new way to decode ancient humidity and climate, using both modern plants and fossilized phytoliths that preserve isotopic clues for millions of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Space dust reveals how fast the Arctic is changing",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251112111015.htm",
-      "pubDate": "Thu, 13 Nov 2025 03:44:11 EST",
-      "description": "Arctic sea ice is disappearing fast, and scientists have turned to an unexpected cosmic clue—space dust—to uncover how ice has changed over tens of thousands of years. By tracking helium-3–bearing dust trapped (or blocked) by ancient ice, researchers built a remarkably detailed history of Arctic coverage stretching back 30,000 years. Their findings reveal powerful links between sea ice, nutrient availability, and the Arctic food web, offering hints about how future warming may reshape everything from plankton blooms to geopolitics.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
