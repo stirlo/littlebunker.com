@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-04T10:31:37.051071",
+  "fetched_at": "2025-12-04T11:25:40.855171",
   "items": [
     {
       "title": "Can data-driven weather models accurately forecast atmospheric rivers?",
@@ -19,6 +19,38 @@
       "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20a6",
       "pubDate": "",
       "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Can we predict the extreme? Assessing the skill of seasonal forecasts in capturing the 2024 European heatwave",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f7",
+      "pubDate": "",
+      "description": "Eastern Europe experienced a pronounced warming trend in the summer of 2024, with average maximum temperature anomalies reaching 3.35 ∘C in June and 3.73 ∘C in July, and minimum temperature anomalies averaging 2.17 ∘C in June and 2.60 ∘C in July, significantly exceeding the 1991–2020 climatological baseline. Moreover, three distinct heatwave events were identified: 3–11 June (9 days), 17 June–1 July (15 days), and 6–21 July (16 days), highlighting the prolonged and intense nature of the heat stress. Seasonal forecasting systems (GCFS, SEAS5, and Météo-France) consistently demonstrated the capability to predict above-climatological-mean temperatures over the Eastern Mediterranean, particularly the Balkan Peninsula, showcasing robust regional warming trend capture, though with variations in accuracy across lead times. The accurate prediction of subtropical influences, as evidenced by consistent positive temperature anomaly forecasts over North Africa and the Iberian Peninsula, underscores the forecasting systems’ capacity to represent large-scale circulation patterns, yet the predictive skill for midlatitude blocking events and their spatial extent remains subject to limitations and model-specific variations. Despite the inherent limitations in long-range meteorological predictability, particularly concerning heatwave timing and location, the study emphasizes the critical imperative for continued refinement of seasonal forecasting models to enhance societal resilience against the escalating impacts of climate change, particularly through improved representation of synoptic atmospheric drivers.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "On biodiversity-inclusive carbon crediting in agriculture: insights from crop residue burning",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2492",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Warm and wet anomalies persist across the pan-Arctic after carbon dioxide removal",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae24f2",
+      "pubDate": "",
+      "description": "The pan-Arctic region is experiencing rapid climate change under global warming, with Arctic amplification occurring at a rate 2–3 times faster than the global average. This study investigates Pan-Arctic climate responses to carbon dioxide removal (CDR) using nine CMIP6 models from the CDR Model Intercomparison Project (CDRMIP) and also analyzes two ScenarioMIP pathways, SSP126 and SSP534-over, which feature declining CO2 concentrations. Our results reveal significant hysteresis and asymmetric responses in both temperature and precipitation during CO2 increase and decrease phases. The multi-model mean shows that when CO2 concentrations return to pre-industrial levels, the pan-Arctic region retains a warming of approximately 1.5 °C and increased precipitation of about 0.1 mm d−1 compared to initial conditions. Notably, temperature and precipitation changes in the pan-Arctic at peak CO2 are approximately twice the global average. We identify substantial inter-model uncertainties, primarily driven by divergent representations of Atlantic meridional overturning circulation (AMOC) responses and associated North Atlantic cooling patterns in the ramp-up period. Two models (CESM2 and NorESM2-LM) simulate particularly strong AMOC weakening during the ramp-up phase, resulting in reduced warming and wetting trends across the pan-Arctic. A similar persistence of warmer and wetter conditions is also found under the SSP126 and SSP534-over scenarios. These findings highlight the irreversible nature of Arctic climate change even under aggressive CDR scenarios and emphasize the need for improved representation of Arctic processes in climate models to reduce uncertainties in climate projection and mitigation strategy design.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Long-range transport of Siberian wildfire emissions reduces NO x in downwind regions",
+      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2526",
+      "pubDate": "",
+      "description": "Wildfires are widely known to increase atmospheric pollutant concentrations, deteriorating air quality. However, several studies have reported that wildfires can also reduce the concentrations of certain gaseous species. This study investigated the impacts of smoke plumes from wildfires that occurred in late July 2014 in Siberia, Russia, on downwind gaseous pollutants such as carbon monoxide (CO), nitrogen oxides (NOx), volatile organic compounds (VOCs), and ozone (O3). The Community Multi-scale Air Quality model was employed for air quality simulations, and wildfire emissions were obtained from the Fire INventory from the National Center for Atmospheric Research. Wildfire-induced CO, VOCs, and O3 were transported to Northeast China (NEC), the Yellow Sea (YS), and the Korean Peninsula (KP), resulting in elevated pollutant levels in these downwind regions. Interestingly, despite the transport of plumes, surface-level NOx concentrations over NEC, YS, and KP even decreased. Such reductions were not evident near the Siberian source areas but became apparent after the plumes reached the NEC region. In these regions, NO was converted through reactions with wildfire-induced VOCs (84.54%) and NO3 radicals (13.18%), while NO2 was primarily transformed into NO3 radicals via reactions with O3 (90.08%) or into organic nitrates through reactions with VOCs (9.92%). We found that the observed conversions in NOx concentrations were attributable to anthropogenic sources, as the conversion patterns varied depending on the level of anthropogenic NOx emissions in the sensitivity experiments. These results suggest that wildfire-driven NOx concentration changes in downwind regions cannot be fully explained by wildfire emissions alone. This study underscores the importance of accurately characterizing anthropogenic emission sources in regions affected by smoke plume transport to predict changes in gaseous pollutant concentrations following wildfire events. We expect that this study will enhance future wildfire-related research by improving the prediction of the spatial distribution and atmospheric behavior of gaseous pollutants.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
