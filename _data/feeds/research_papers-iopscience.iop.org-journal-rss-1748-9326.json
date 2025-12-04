@@ -1,14 +1,14 @@
 {
   "title": "Environmental Research Letters - latest papers",
-  "link": "http://iopscience.iop.org/journal/rss/1748-9326",
+  "link": "https://iopscience.iop.org/journal/rss/1748-9326",
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-04T14:28:41.953142",
+  "fetched_at": "2025-12-04T15:31:50.239866",
   "items": [
     {
       "title": "Can data-driven weather models accurately forecast atmospheric rivers?",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1e8e",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1e8e",
       "pubDate": "",
       "description": "The rapid rise of data-driven weather forecasting has prompted increasing interest in how such models perform relative to traditional numerical weather prediction systems. While recent studies have highlighted the formers’ superior skill on standard forecast metrics, questions remain regarding their ability to forecast physically complex, derived variables, particularly in the context of extreme events. In this study, we assess the performance of two leading operational data-driven models (GraphCast and Pangu-Weather) in forecasting integrated vapour transport (IVT) and atmospheric rivers (ARs), using ECMWF’s IFS-HRES as a reference physics-based forecast. Forecasts are evaluated against ERA5 reanalysis over one year of global data, using three AR detection algorithms and lead times ranging from 1 to 10 days. Results show that data-driven models achieved root-mean-square errors for IVT comparable to or slightly better than IFS-HRES, particularly in the tropics and at shorter lead times. However, they achieved a poorer representation of the higher quantiles of the IVT distribution. A case study of a high-impact AR event revealed that all models could forecast the main event characteristics up to five days in advance. However, AR characteristics and detection performance varied substantially across detection algorithms. Notably, the geometrically stricter detection method highlighted a clearer advantage for IFS-HRES, especially in the midlatitudes and at shorter leads. Overall, while no model systematically outperformed the others across all AR detection algorithms, the results suggest that physics-based models may retain advantages in forecasting geometrically and physically consistent derived features like ARs, particularly under strict detection criteria. These findings underscore the importance of targeted evaluation frameworks for derived and extreme phenomena as data-driven models become more central in operational forecasting.",
       "category": "research_papers",
@@ -16,7 +16,7 @@
     },
     {
       "title": "Circulation analogues cannot identify changes in rainfall extremes",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20a6",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20a6",
       "pubDate": "",
       "description": "",
       "category": "research_papers",
@@ -24,7 +24,7 @@
     },
     {
       "title": "Evolving regional transport of PM2.5 in Beijing–Tianjin–Hebei and its surrounding areas from 2013 to 2020",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2143",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2143",
       "pubDate": "",
       "description": "China’s successful implementation of two phases of stringent clean air actions from 2013 to 2020 (Phase I: 2013–2017; Phase II: 2018–2020) has substantially reduced PM2.5 concentration in Beijing–Tianjin–Hebei and its surrounding areas (BTHSA)—one of China’s most polluted regions. However, the specific role of regional transport in this improvement remains unclear. Here, we investigated the drivers of PM2.5 mitigation in the BTHSA and systematically quantified the contribution of regional transport during 2013–2020, by conducting multi-scenario analysis using a combination of a bottom–up emission inventory and a chemical transport model with an embedded source apportionment module. The simulated regional average PM2.5 concentration across the BTHSA declined by 56.1% from 2013 to 2020, primarily driven by anthropogenic emission control (78.1%), while the remaining 21.9% explained by meteorological variability. Within the anthropogenic impacts, reductions in local emissions, intra-regional transport, and extra-regional transport accounted for 49.0%, 32.9%, and 18.1%, respectively. Nevertheless, the relative importance of these drivers shifted, with local contributions declining while regional transport influences intensified and surpassed local abatement in Phase II, where intra-regional transport remained dominant, but the influence of extra-regional transport rose markedly to 1.4 times its Phase I level. Spatially, emission reductions in Hebei and Shandong contributed the most to the regional PM2.5 decline, representing over 50% of the transport-related improvement. Trends in regional contributions to Beijing, the core city of the BTHSA region, suggest the need for dynamically adjusting joint control policies, expanding coordinated mitigation efforts to extra-regional cities in Southern Shandong, as well as to key regions like the Yangtze River Delta. These findings underscore the growing importance of regional transport in air quality improvement and support more adaptive regional collaboration strategies moving forward.",
       "category": "research_papers",
@@ -32,7 +32,7 @@
     },
     {
       "title": "Can we predict the extreme? Assessing the skill of seasonal forecasts in capturing the 2024 European heatwave",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f7",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae21f7",
       "pubDate": "",
       "description": "Eastern Europe experienced a pronounced warming trend in the summer of 2024, with average maximum temperature anomalies reaching 3.35 ∘C in June and 3.73 ∘C in July, and minimum temperature anomalies averaging 2.17 ∘C in June and 2.60 ∘C in July, significantly exceeding the 1991–2020 climatological baseline. Moreover, three distinct heatwave events were identified: 3–11 June (9 days), 17 June–1 July (15 days), and 6–21 July (16 days), highlighting the prolonged and intense nature of the heat stress. Seasonal forecasting systems (GCFS, SEAS5, and Météo-France) consistently demonstrated the capability to predict above-climatological-mean temperatures over the Eastern Mediterranean, particularly the Balkan Peninsula, showcasing robust regional warming trend capture, though with variations in accuracy across lead times. The accurate prediction of subtropical influences, as evidenced by consistent positive temperature anomaly forecasts over North Africa and the Iberian Peninsula, underscores the forecasting systems’ capacity to represent large-scale circulation patterns, yet the predictive skill for midlatitude blocking events and their spatial extent remains subject to limitations and model-specific variations. Despite the inherent limitations in long-range meteorological predictability, particularly concerning heatwave timing and location, the study emphasizes the critical imperative for continued refinement of seasonal forecasting models to enhance societal resilience against the escalating impacts of climate change, particularly through improved representation of synoptic atmospheric drivers.",
       "category": "research_papers",
@@ -40,7 +40,7 @@
     },
     {
       "title": "On biodiversity-inclusive carbon crediting in agriculture: insights from crop residue burning",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2492",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2492",
       "pubDate": "",
       "description": "",
       "category": "research_papers",
@@ -48,7 +48,7 @@
     },
     {
       "title": "Warm and wet anomalies persist across the pan-Arctic after carbon dioxide removal",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae24f2",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae24f2",
       "pubDate": "",
       "description": "The pan-Arctic region is experiencing rapid climate change under global warming, with Arctic amplification occurring at a rate 2–3 times faster than the global average. This study investigates Pan-Arctic climate responses to carbon dioxide removal (CDR) using nine CMIP6 models from the CDR Model Intercomparison Project (CDRMIP) and also analyzes two ScenarioMIP pathways, SSP126 and SSP534-over, which feature declining CO2 concentrations. Our results reveal significant hysteresis and asymmetric responses in both temperature and precipitation during CO2 increase and decrease phases. The multi-model mean shows that when CO2 concentrations return to pre-industrial levels, the pan-Arctic region retains a warming of approximately 1.5 °C and increased precipitation of about 0.1 mm d−1 compared to initial conditions. Notably, temperature and precipitation changes in the pan-Arctic at peak CO2 are approximately twice the global average. We identify substantial inter-model uncertainties, primarily driven by divergent representations of Atlantic meridional overturning circulation (AMOC) responses and associated North Atlantic cooling patterns in the ramp-up period. Two models (CESM2 and NorESM2-LM) simulate particularly strong AMOC weakening during the ramp-up phase, resulting in reduced warming and wetting trends across the pan-Arctic. A similar persistence of warmer and wetter conditions is also found under the SSP126 and SSP534-over scenarios. These findings highlight the irreversible nature of Arctic climate change even under aggressive CDR scenarios and emphasize the need for improved representation of Arctic processes in climate models to reduce uncertainties in climate projection and mitigation strategy design.",
       "category": "research_papers",
@@ -56,7 +56,7 @@
     },
     {
       "title": "Long-range transport of Siberian wildfire emissions reduces NO x in downwind regions",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2526",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2526",
       "pubDate": "",
       "description": "Wildfires are widely known to increase atmospheric pollutant concentrations, deteriorating air quality. However, several studies have reported that wildfires can also reduce the concentrations of certain gaseous species. This study investigated the impacts of smoke plumes from wildfires that occurred in late July 2014 in Siberia, Russia, on downwind gaseous pollutants such as carbon monoxide (CO), nitrogen oxides (NOx), volatile organic compounds (VOCs), and ozone (O3). The Community Multi-scale Air Quality model was employed for air quality simulations, and wildfire emissions were obtained from the Fire INventory from the National Center for Atmospheric Research. Wildfire-induced CO, VOCs, and O3 were transported to Northeast China (NEC), the Yellow Sea (YS), and the Korean Peninsula (KP), resulting in elevated pollutant levels in these downwind regions. Interestingly, despite the transport of plumes, surface-level NOx concentrations over NEC, YS, and KP even decreased. Such reductions were not evident near the Siberian source areas but became apparent after the plumes reached the NEC region. In these regions, NO was converted through reactions with wildfire-induced VOCs (84.54%) and NO3 radicals (13.18%), while NO2 was primarily transformed into NO3 radicals via reactions with O3 (90.08%) or into organic nitrates through reactions with VOCs (9.92%). We found that the observed conversions in NOx concentrations were attributable to anthropogenic sources, as the conversion patterns varied depending on the level of anthropogenic NOx emissions in the sensitivity experiments. These results suggest that wildfire-driven NOx concentration changes in downwind regions cannot be fully explained by wildfire emissions alone. This study underscores the importance of accurately characterizing anthropogenic emission sources in regions affected by smoke plume transport to predict changes in gaseous pollutant concentrations following wildfire events. We expect that this study will enhance future wildfire-related research by improving the prediction of the spatial distribution and atmospheric behavior of gaseous pollutants.",
       "category": "research_papers",
@@ -64,7 +64,7 @@
     },
     {
       "title": "Welfare-based allocation of telecoupled biodiversity loss in global crop trade",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2528",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2528",
       "pubDate": "",
       "description": "Crop cultivation occupies substantial areas of land globally, contributing to biodiversity loss. In the context of globalization, the transnational flow of biodiversity loss footprints caused by international crop trade has raised questions about the allocation of ecological responsibility. However, most existing research tends to attribute such loss exclusively to either consumers or producers, which overlooks a more equitable perspective that integrates both parties’ responsibilities. By drawing upon welfare economics, this study allocates the biodiversity loss arising from crop trade between producers and consumers. We developed a high-resolution distribution map illustrating the allocation of export-induced biodiversity loss among consumers and producers. We also trace the origin of biodiversity loss allocated to consumers. These findings provide a basis for global ecological compensation initiatives and assist policymakers in optimizing land-use strategies.",
       "category": "research_papers",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Quantifying US metropolitan level environmental burdens & benefits from greater localization of vegetable farming",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1622",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1622",
       "pubDate": "",
       "description": "Several US urban food action plans propose increasing local and regional vegetable production for the presumed environmental and nutritional benefits. However, such efforts, if applied nationwide, can propagate environmental benefits or disbenefits to other geographies that have not been previously evaluated. Our paper quantifies the environmental benefits and disbenefits at the metropolitan scale nationwide from various localization scenarios ranging in scope (e.g., meeting 25%–100% of local vegetable dietary demand through local production). For the first time, these localization targets are modeled nationwide with consistent methodology across 378 metropolitan areas, considering three different land reutilization scenarios: (1) shifting current commodity cropland to vegetables, (2) leveraging marginal urban land, and (3) a novel strategy of repurposing parking lots and roads, anticipating the future deployment of shared autonomous vehicle fleets. These scenarios, implemented nationwide, diffusing current, concentrated vegetable production, are evaluated in the context of land availability constraints and two critical environmental burdens: groundwater overdraft and fertilizer-related PM2.5 emissions. Broadly across the conterminous US metros, scenarios find few significant land constraints and reveal net environmental benefits to both groundwater overdraft and fertilizer-related PM2.5 emissions in 11%–55% of metros (scenario-dependent). The model also reveals where relocalization of vegetable farming would exacerbate existing environmental vulnerabilities. Such spatially disaggregated nationwide urban agriculture localization models can inform environmentally friendly urban agricultural planning across US metro regions.",
       "category": "research_papers",
@@ -80,7 +80,7 @@
     },
     {
       "title": "Economic development, air conditioning and adaptation to warming",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae1f2a",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1f2a",
       "pubDate": "",
       "description": "Rising global temperatures increase the potential for heat-related adverse impacts, while economic growth, by enabling greater adoption of air conditioning, can help reduce them. This makes it unclear in which countries the net effect will lead to a worsening or easing of these potential impacts as the climate and economies change. We define a Cooling Deficit Index as the product of cooling degree days and the fraction of the population without air conditioning to indicate the extent to which high temperatures are experienced without access to cooling. We used this index to investigate the relationship between global warming, economic growth, and the fraction of population exposed to high temperatures without the benefits of air conditioning. We find that populations in lower-income countries tend to experience the greatest number of high-temperature days without access to cooling and are likely to face the largest increases in such days as global temperatures rise. These countries would require GDP growth rates that exceed historical rates to avoid increasing numbers of days with high temperatures experienced without air conditioning. Reducing or reversing greenhouse gas emissions, increasing economic growth, and lowering the cost of cooling technologies could all contribute to decreasing the number of days with high temperatures experienced without air conditioning, particularly in low-income countries.",
       "category": "research_papers",
@@ -88,7 +88,7 @@
     },
     {
       "title": "Urban and socioeconomic disparities in PM2.5 exposure across 340 Latin American cities",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20a4",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20a4",
       "pubDate": "",
       "description": "Background. Fine particulate matter (PM2.5) is a leading global health risk. Latin American cities exhibit some of the world’s highest urban PM2.5 levels, yet studies of neighborhood-level PM2.5 exposure and associated disparities in the region are limited. Methods. We conducted a cross-sectional ecological analysis of 53 041 neighborhoods across 340 cities in eight Latin American countries, leveraging the Salud Urbana en America Latina study dataset. Annual PM2.5 concentrations were derived from satellite data and linked to socioeconomic and urban characteristics. A multilevel model analyzed associations between neighborhood PM2.5 levels and neighborhood- and city-level characteristics. Results. The median annual neighborhood PM2.5 concentration was 18.49 μg m−3. Of the 256 million residents, all lived in neighborhoods with ambient PM2.5 concentrations that exceeded the 2021 World Health Organization guidelines (5 μg m−3). Variability was greatest between cities (54.3% of total variance), but substantial within-city variation (26% of variance) was observed. Higher neighborhood PM2.5 levels were associated with higher neighborhood educational attainment (mean difference [MD] comparing top to bottom tertile = 0.17 μg m−3), higher neighborhood intersection density (MD comparing top to bottom tertile = 0.17 μg m−3), and older cities (MD comparing top to bottom tertile = 1.45 μg m−3). Lower neighborhood PM2.5 levels were related to higher neighborhood population density (MD comparing top to bottom tertile = − 0.55 μg m−3), more greenness (MD comparing top to bottom tertile = − 0.76 μg m−3), and larger distance from city centers (MD comparing top to bottom tertile = − 0.86 μg m−3). Conclusions. Neighborhoods with higher PM2.5 concentrations tended to have higher educational attainment, more intersections, and be located in older cities, while lower concentrations were associated with denser populations, more green space, and greater distance from city centers. Our findings reveal important within-city heterogeneity in PM2.5 and the factors associated with it, suggesting strategies to mitigate air pollution within cities.",
       "category": "research_papers",
@@ -96,7 +96,7 @@
     },
     {
       "title": "A scalable tool for farm-level carbon accounting: evidence from UK agriculture",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20ab",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20ab",
       "pubDate": "",
       "description": "Accurately quantifying greenhouse gas (GHG) emissions at the farm level is crucial for agricultural decarbonisation, yet doing so remains challenging—particularly for smaller farming operations that lack resources for comprehensive data collection. To address this gap, we present a new framework to predict farm-level direct emission intensities (tCO2e/£) from a minimal set of input variables. Our approach leverages a unique and comprehensive dataset that integrates survey based GHG audits from 482 farms across the United Kingdom (UK) with financial transaction data, obtained through a collaboration with a major high-street bank and a leading UK charity promoting sustainable agriculture. By combining granular farm-level emissions metrics with financial records, we demonstrate that a limited set of input variables focused on the highest impact areas—particularly dairy and beef cattle intensities—yield robust predictions that can explain up to 91% of the variation in farm-level emissions. Although this model does not replace the depth and specificity of established carbon calculators, it provides a pragmatic, scalable alternative for emissions reporting. It offers farms a clear entry-point to carbon accounting and provides financial institutions with a data-efficient method for more accurate assessments of the environmental impact of their agricultural portfolios.",
       "category": "research_papers",
@@ -104,7 +104,7 @@
     },
     {
       "title": "Can digital monitoring, reporting, and verification (dMRV) unlock industrial CO2 capture and removal in carbon markets?",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae20ad",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20ad",
       "pubDate": "",
       "description": "",
       "category": "research_papers",
@@ -112,7 +112,7 @@
     },
     {
       "title": "Carbon sequestration potential from sustainable management of arable land in the EU",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2140",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2140",
       "pubDate": "",
       "description": "Carbon sequestration in arable soils is gaining increasing attention in global policymaking initiatives for climate-change mitigation. Large-scale assessments of soil organic carbon development in arable land are affected by the scarcity of reliable time series of soil organic carbon monitoring data and often fail to replicate observed trends or appreciate any effects induced by changes in soil management. This study quantifies C loss from contemporary soil management on specialist crop farms in the EU and the potential societal benefits from C sequestration and avoided C loss due to improved management. Our analysis is based on an evidence pool of 214 independent long-term time series of soil organic carbon measurements spanning a wide range of climatic conditions and soil types, and considers the implementation of reduced tillage, organic amendments, soil cover during winter, and crop rotations. Overall, we estimate the potential for C sequestration from improved soil management on specialist crop farms, representing 40% of all the arable land in the EU, to be 48 ( 15) million tonnes CO2 equivalents yearly, which corresponds to 17% ( 8) of the target for additional carbon removals in the soil and forest sinks under the Fit for 55 package. In addition, our results show high spatial variability in C losses due to current soil management practices and potential C sequestration from improvements. The annual climate-change mitigation value per unit of land with improved management shows a four-fold variation across countries, with Finland exhibiting the highest value and Cyprus the lowest. This demonstrates that a C payment eco-scheme should be adjusted spatially to achieve cost-effective soil organic carbon sequestration in arable soils in the EU.",
       "category": "research_papers",
@@ -120,7 +120,7 @@
     },
     {
       "title": "A tropical cyclone-induced and satellite-detected chlorophyll a elevation accompanied by phytoplankton biomass decrease",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f3",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae21f3",
       "pubDate": "",
       "description": "Satellite observations have traditionally associated tropical cyclones (TCs) with phytoplankton blooms through elevated chlorophyll-a (Chla) concentrations, yet this relationship masks complex underlying ecological processes. Through a integration of satellite data and in-situ bio-optical measurements, we reveal a counterintuitive ecological response to TC ‘Chaba’ in 2022 that challenges conventional understanding. While satellite-detected Chla concentrations increased and phytoplankton division rates accelerated following TC passage, we surprisingly documented simultaneous declines in phytoplankton biomass and carbon-to-chlorophyll (C:Chl) ratios. Our analysis demonstrates that physiological regulation, rather than biomass accumulation, dominated high-Chla zones during and after TC disturbance, with C:Chl anomalies contributing over 60% to elevated Chla areas. This research presents a paradigm-shifting scenario: phytoplankton biomass began accumulating initiated pre-TC, yet increased loss rates during/after TC actually reduced phytoplankton biomass despite enhanced division rates. The fundamental decoupling between TC-induced Chla enhancement and phytoplankton biomass dynamics we document has profound implications for oceanic carbon cycling models and climate predictions, necessitating a recalibration of how we interpret satellite Chla signals in storm-affected marine ecosystems.",
       "category": "research_papers",
@@ -128,7 +128,7 @@
     },
     {
       "title": "Societal and environmental interconnections: future directions for flood inundation models",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f4",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae21f4",
       "pubDate": "",
       "description": "Flooding stands as one of the world’s most devastating natural hazards, accounting for lost lives, economic damage, and ecosystem degradation. Over the past five decades, flood inundation models have emerged as essential tools for flood forecasting and risk management. Through an analysis of publications from 1970 to 2023, this review provides a foundational understanding of state-of-the-science flood model developments. The evolution of flood models in recent decades has been marked by significant technological advances, including enhancing traditional numerical modeling approaches and deploying them with widespread use of large-scale simulation and satellite remote sensing. The field has matured substantially over the past 50 years, and it seems to have reached an inflection point at which major research is poised to progress. The most ambitious research directions are those that involve coupling flood models with models in diverse fields and involve: (1) atmospheric sciences to construct a two-way coupled flood-land surface-atmosphere model, (2) epidemiology to assess the health impacts of floods, (3) economics to help develop a flood model damage footprint framework to quantify financial harm to those who occupy urban and agricultural land, (4) ecology to evaluate and quantify flood-induced ecological damage, (5) further development of groundwater flooding, glacial lake outburst flooding, sedimentation-induced flooding, plus investigation of the joint impact of multiple compounding flood types, (6) responsible advancement of AI-based flood models, (7) greater assimilation of multiple data sources that include high resolution satellite and drone imagery, crowdsourcing, and video data. Building on the broad foundation of flood-modeling research conducted over many decades, these eight avenues offer promising opportunities to further address the combined challenges of escalating climate, land-use, and demographic changes.",
       "category": "research_papers",
@@ -136,7 +136,7 @@
     },
     {
       "title": "Quantitative assessment of building losses in China’s coastal regions due to sea-level rise under extreme climate conditions",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae21f8",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae21f8",
       "pubDate": "",
       "description": "Against the backdrop of global climate change, the superposition of extreme sea level events and long-term sea-level rise poses a severe threat to coastal regions. However, there is currently a lack of large-scale and detailed quantitative assessments for building losses caused by sea-level rise. This study takes 14 coastal provinces (autonomous regions, municipalities, and special administrative regions) in China as the research area. By integrating extreme sea level data, a digital elevation model, and building data, and by utilizing Python scripts and ArcGIS Pro software, this research quantitatively assesses the spatial distribution characteristics of land inundation and building loss under the combined effects of storm surges and tides, aiming to advance the quantitative study of building inundation exposure in coastal areas. The study finds that under sea-level rise resulting from a 100 year return period of extreme climate, the total potentially inundated area in China’s coastal provinces reaches 49 366.22 km2. Among these areas, buildings in 93 cities face varying degrees of inundation exposure. The losses are primarily concentrated in economically developed regions such as Jiangsu and Guangdong. In some areas, the potential density of inundated buildings exceeds 200 buildings/km2, which, coupled with high housing prices and dense construction, leads to extremely severe economic losses. The results of this study emphasize that adaptive protection measures based on local conditions should be formulated to mitigate the comprehensive threats of sea-level rise induced by extreme weather.",
       "category": "research_papers",
@@ -144,7 +144,7 @@
     },
     {
       "title": "Stratospheric aerosol injection does not cause stronger Asian monsoon drying than greenhouse gas mitigation",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae2282",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2282",
       "pubDate": "",
       "description": "Stratospheric aerosol injection (SAI) is a potential approach to limit global mean surface temperature (GMST) rise, buying time for mitigation. Yet, concerns persist that SAI may substantially reduce Asian monsoon (ASM) rainfall, a vital water resource for nearly half of the global population. Using idealized simulations from six climate models participating in the Geoengineering Model Intercomparison Project Phase 6 (GeoMIP6), we show that both greenhouse gas (GHG) mitigation and equatorial SAI lead to an overall reduction in ASM rainfall, primarily through thermodynamic effects associated with decreased atmospheric moisture as GMST cools. Importantly, equatorial SAI produces no extra drying over the ASM region compared with GHG mitigation for the same magnitude of GMST cooling. Relative to a baseline with comparable GMST, all six models show no substantial drying over the ASM region beyond internal variability. A major part of the inter-model spread arises from differences of the changes in meridional insolation gradient, which may depend on the spatial distribution of aerosols. Smaller (larger) insolation reductions over the ASM region relative to the equator favor enhanced (suppressed) ascent air motion and rainfall over the ASM region, a relationship confirmed by single-model simulations with aerosol injections at varying latitudes. These results suggest that well-designed SAI deployment strategies could minimize risk of monsoon failure.",
       "category": "research_papers",
@@ -152,7 +152,7 @@
     },
     {
       "title": "Are the alternative ecosystem states produced by positive fire-flammability feedbacks reversible?",
-      "link": "http://iopscience.iop.org/article/10.1088/1748-9326/ae18e7",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae18e7",
       "pubDate": "",
       "description": "Forest communities that have a positive flammability feedback to fire can enter a ‘landscape trap’ if disturbance levels are too frequent. It is not known whether this landscape trap constitutes an alternative stable state, or whether a forest can return to its original state when disturbance levels are reduced. Here, we examine a likely landscape trap caused by the frequent burning of a 528 343 ha forest environment in Australia and previously shown to have a positive fire-flammability feedback. We ask whether the now flammable landscape can be returned to its original low-flammability state, or if the transition is irreversible in the warming climate. Using site-specific empirical models of biophysical and climatic influences on fire frequency, we predict fire frequency up to the year 2100 for three shared socioeconomic pathways (SSPs) in the context of different management approaches. A warming climate primarily increased wildfire area in our study area by increasing the frequency of synoptic changes, likely reflecting increased rates of escape from suppression firing efforts. Declining winter rainfall had the opposite effect, reducing wildfire area consistent with trends in other seasonally dry environments. The overall effect of warming was therefore a small but significant increase in wildfire area that was more severe under higher GHG emission scenarios. In contrast, removing prescribed burning and incentives for suppression firing had an effect size 2–5 times larger than did the increasing emissions scenarios, demonstrating that the landscape trap was reversible even under the worst-case emissions scenario (SSP3-7.0). Correcting fire management policies immediately reduced annual fire area by 87%, of which 77% was prescribed fire, and 43% of the remaining wildfire proportion was a by-product of the two policies. This allowed forests to escape their flammable age range, reversing a landscape trap. Our study is the first to demonstrate that such states are reversible.",
       "category": "research_papers",
