@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-05T23:24:27.876502",
+  "fetched_at": "2025-12-06T01:57:35.702200",
   "items": [
     {
       "title": "Estimates of global surface water dynamics harnessing near real-time land cover observations and open science geospatial capabilities",
@@ -107,62 +107,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2528",
       "pubDate": "",
       "description": "Crop cultivation occupies substantial areas of land globally, contributing to biodiversity loss. In the context of globalization, the transnational flow of biodiversity loss footprints caused by international crop trade has raised questions about the allocation of ecological responsibility. However, most existing research tends to attribute such loss exclusively to either consumers or producers, which overlooks a more equitable perspective that integrates both parties’ responsibilities. By drawing upon welfare economics, this study allocates the biodiversity loss arising from crop trade between producers and consumers. We developed a high-resolution distribution map illustrating the allocation of export-induced biodiversity loss among consumers and producers. We also trace the origin of biodiversity loss allocated to consumers. These findings provide a basis for global ecological compensation initiatives and assist policymakers in optimizing land-use strategies.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Quantifying US metropolitan level environmental burdens & benefits from greater localization of vegetable farming",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1622",
-      "pubDate": "",
-      "description": "Several US urban food action plans propose increasing local and regional vegetable production for the presumed environmental and nutritional benefits. However, such efforts, if applied nationwide, can propagate environmental benefits or disbenefits to other geographies that have not been previously evaluated. Our paper quantifies the environmental benefits and disbenefits at the metropolitan scale nationwide from various localization scenarios ranging in scope (e.g., meeting 25%–100% of local vegetable dietary demand through local production). For the first time, these localization targets are modeled nationwide with consistent methodology across 378 metropolitan areas, considering three different land reutilization scenarios: (1) shifting current commodity cropland to vegetables, (2) leveraging marginal urban land, and (3) a novel strategy of repurposing parking lots and roads, anticipating the future deployment of shared autonomous vehicle fleets. These scenarios, implemented nationwide, diffusing current, concentrated vegetable production, are evaluated in the context of land availability constraints and two critical environmental burdens: groundwater overdraft and fertilizer-related PM2.5 emissions. Broadly across the conterminous US metros, scenarios find few significant land constraints and reveal net environmental benefits to both groundwater overdraft and fertilizer-related PM2.5 emissions in 11%–55% of metros (scenario-dependent). The model also reveals where relocalization of vegetable farming would exacerbate existing environmental vulnerabilities. Such spatially disaggregated nationwide urban agriculture localization models can inform environmentally friendly urban agricultural planning across US metro regions.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Economic development, air conditioning and adaptation to warming",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1f2a",
-      "pubDate": "",
-      "description": "Rising global temperatures increase the potential for heat-related adverse impacts, while economic growth, by enabling greater adoption of air conditioning, can help reduce them. This makes it unclear in which countries the net effect will lead to a worsening or easing of these potential impacts as the climate and economies change. We define a Cooling Deficit Index as the product of cooling degree days and the fraction of the population without air conditioning to indicate the extent to which high temperatures are experienced without access to cooling. We used this index to investigate the relationship between global warming, economic growth, and the fraction of population exposed to high temperatures without the benefits of air conditioning. We find that populations in lower-income countries tend to experience the greatest number of high-temperature days without access to cooling and are likely to face the largest increases in such days as global temperatures rise. These countries would require GDP growth rates that exceed historical rates to avoid increasing numbers of days with high temperatures experienced without air conditioning. Reducing or reversing greenhouse gas emissions, increasing economic growth, and lowering the cost of cooling technologies could all contribute to decreasing the number of days with high temperatures experienced without air conditioning, particularly in low-income countries.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Urban and socioeconomic disparities in PM2.5 exposure across 340 Latin American cities",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20a4",
-      "pubDate": "",
-      "description": "Background. Fine particulate matter (PM2.5) is a leading global health risk. Latin American cities exhibit some of the world’s highest urban PM2.5 levels, yet studies of neighborhood-level PM2.5 exposure and associated disparities in the region are limited. Methods. We conducted a cross-sectional ecological analysis of 53 041 neighborhoods across 340 cities in eight Latin American countries, leveraging the Salud Urbana en America Latina study dataset. Annual PM2.5 concentrations were derived from satellite data and linked to socioeconomic and urban characteristics. A multilevel model analyzed associations between neighborhood PM2.5 levels and neighborhood- and city-level characteristics. Results. The median annual neighborhood PM2.5 concentration was 18.49 μg m−3. Of the 256 million residents, all lived in neighborhoods with ambient PM2.5 concentrations that exceeded the 2021 World Health Organization guidelines (5 μg m−3). Variability was greatest between cities (54.3% of total variance), but substantial within-city variation (26% of variance) was observed. Higher neighborhood PM2.5 levels were associated with higher neighborhood educational attainment (mean difference [MD] comparing top to bottom tertile = 0.17 μg m−3), higher neighborhood intersection density (MD comparing top to bottom tertile = 0.17 μg m−3), and older cities (MD comparing top to bottom tertile = 1.45 μg m−3). Lower neighborhood PM2.5 levels were related to higher neighborhood population density (MD comparing top to bottom tertile = − 0.55 μg m−3), more greenness (MD comparing top to bottom tertile = − 0.76 μg m−3), and larger distance from city centers (MD comparing top to bottom tertile = − 0.86 μg m−3). Conclusions. Neighborhoods with higher PM2.5 concentrations tended to have higher educational attainment, more intersections, and be located in older cities, while lower concentrations were associated with denser populations, more green space, and greater distance from city centers. Our findings reveal important within-city heterogeneity in PM2.5 and the factors associated with it, suggesting strategies to mitigate air pollution within cities.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A scalable tool for farm-level carbon accounting: evidence from UK agriculture",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20ab",
-      "pubDate": "",
-      "description": "Accurately quantifying greenhouse gas (GHG) emissions at the farm level is crucial for agricultural decarbonisation, yet doing so remains challenging—particularly for smaller farming operations that lack resources for comprehensive data collection. To address this gap, we present a new framework to predict farm-level direct emission intensities (tCO2e/£) from a minimal set of input variables. Our approach leverages a unique and comprehensive dataset that integrates survey based GHG audits from 482 farms across the United Kingdom (UK) with financial transaction data, obtained through a collaboration with a major high-street bank and a leading UK charity promoting sustainable agriculture. By combining granular farm-level emissions metrics with financial records, we demonstrate that a limited set of input variables focused on the highest impact areas—particularly dairy and beef cattle intensities—yield robust predictions that can explain up to 91% of the variation in farm-level emissions. Although this model does not replace the depth and specificity of established carbon calculators, it provides a pragmatic, scalable alternative for emissions reporting. It offers farms a clear entry-point to carbon accounting and provides financial institutions with a data-efficient method for more accurate assessments of the environmental impact of their agricultural portfolios.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Can digital monitoring, reporting, and verification (dMRV) unlock industrial CO2 capture and removal in carbon markets?",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae20ad",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Carbon sequestration potential from sustainable management of arable land in the EU",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2140",
-      "pubDate": "",
-      "description": "Carbon sequestration in arable soils is gaining increasing attention in global policymaking initiatives for climate-change mitigation. Large-scale assessments of soil organic carbon development in arable land are affected by the scarcity of reliable time series of soil organic carbon monitoring data and often fail to replicate observed trends or appreciate any effects induced by changes in soil management. This study quantifies C loss from contemporary soil management on specialist crop farms in the EU and the potential societal benefits from C sequestration and avoided C loss due to improved management. Our analysis is based on an evidence pool of 214 independent long-term time series of soil organic carbon measurements spanning a wide range of climatic conditions and soil types, and considers the implementation of reduced tillage, organic amendments, soil cover during winter, and crop rotations. Overall, we estimate the potential for C sequestration from improved soil management on specialist crop farms, representing 40% of all the arable land in the EU, to be 48 ( 15) million tonnes CO2 equivalents yearly, which corresponds to 17% ( 8) of the target for additional carbon removals in the soil and forest sinks under the Fit for 55 package. In addition, our results show high spatial variability in C losses due to current soil management practices and potential C sequestration from improvements. The annual climate-change mitigation value per unit of land with improved management shows a four-fold variation across countries, with Finland exhibiting the highest value and Cyprus the lowest. This demonstrates that a C payment eco-scheme should be adjusted spatially to achieve cost-effective soil organic carbon sequestration in arable soils in the EU.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A tropical cyclone-induced and satellite-detected chlorophyll a elevation accompanied by phytoplankton biomass decrease",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae21f3",
-      "pubDate": "",
-      "description": "Satellite observations have traditionally associated tropical cyclones (TCs) with phytoplankton blooms through elevated chlorophyll-a (Chla) concentrations, yet this relationship masks complex underlying ecological processes. Through a integration of satellite data and in-situ bio-optical measurements, we reveal a counterintuitive ecological response to TC ‘Chaba’ in 2022 that challenges conventional understanding. While satellite-detected Chla concentrations increased and phytoplankton division rates accelerated following TC passage, we surprisingly documented simultaneous declines in phytoplankton biomass and carbon-to-chlorophyll (C:Chl) ratios. Our analysis demonstrates that physiological regulation, rather than biomass accumulation, dominated high-Chla zones during and after TC disturbance, with C:Chl anomalies contributing over 60% to elevated Chla areas. This research presents a paradigm-shifting scenario: phytoplankton biomass began accumulating initiated pre-TC, yet increased loss rates during/after TC actually reduced phytoplankton biomass despite enhanced division rates. The fundamental decoupling between TC-induced Chla enhancement and phytoplankton biomass dynamics we document has profound implications for oceanic carbon cycling models and climate predictions, necessitating a recalibration of how we interpret satellite Chla signals in storm-affected marine ecosystems.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
