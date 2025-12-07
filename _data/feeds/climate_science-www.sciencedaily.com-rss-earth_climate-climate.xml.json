@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-07T17:20:38.702666",
+  "fetched_at": "2025-12-07T18:34:23.652164",
   "items": [
+    {
+      "title": "Researchers solve a century-old North Atlantic cold spot mystery",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251207031333.htm",
+      "pubDate": "Sun, 07 Dec 2025 12:04:42 EST",
+      "description": "A century-old North Atlantic cold patch is now linked to a long-term slowdown in the AMOC, the climate-regulating conveyor belt of ocean water. Only weakened-AMOC models match observed temperature and salinity patterns, overturning recent model trends. This slowdown affects weather systems, jet streams, and marine life throughout the Northern Hemisphere. The discovery sharpens climate forecasts and highlights a major shift already underway.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "3.3 billion-year-old crystals reveal a shockingly active early Earth",
       "link": "https://www.sciencedaily.com/releases/2025/12/251204024245.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251114041210.htm",
       "pubDate": "Fri, 14 Nov 2025 09:14:54 EST",
       "description": "A massive, well-preserved impact crater has been uncovered in Guangdong, revealing the signature of a powerful meteorite strike during the Holocene. Measuring 900 meters across, it dwarfs other known craters from the same era. Shock-damaged quartz confirms the intense forces involved. Its survival in a high-erosion environment makes it a geological rarity.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Massive hidden waves are rapidly melting Greenland’s glaciers",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251113071623.htm",
-      "pubDate": "Fri, 14 Nov 2025 03:35:45 EST",
-      "description": "Researchers in Greenland used a 10-kilometer fiber-optic cable to track how iceberg calving stirs up warm seawater. The resulting surface tsunamis and massive hidden underwater waves intensify melting at the glacier face. This powerful mixing effect accelerates ice loss far more than previously understood. The work highlights how fragile the Greenland ice system has become as temperatures rise.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
