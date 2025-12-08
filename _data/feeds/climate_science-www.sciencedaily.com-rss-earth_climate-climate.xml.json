@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-08T08:38:43.470074",
+  "fetched_at": "2025-12-08T09:34:55.738963",
   "items": [
+    {
+      "title": "Scientists uncover a volcanic trigger behind the Black Death",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251208014623.htm",
+      "pubDate": "Mon, 08 Dec 2025 03:29:31 EST",
+      "description": "A newly analyzed set of climate data points to a major volcanic eruption that may have played a key role in the Black Death’s arrival. Cooling and crop failures across Europe pushed Italian states to bring in grain from the Black Sea. Those shipments may have carried plague-infected fleas. The study ties together tree rings, ice cores, and historical writings to reframe how the pandemic began.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Researchers solve a century-old North Atlantic cold spot mystery",
       "link": "https://www.sciencedaily.com/releases/2025/12/251207031333.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251118212035.htm",
       "pubDate": "Tue, 18 Nov 2025 21:37:29 EST",
       "description": "Researchers have discovered chemical traces of life in rocks older than 3.3 billion years, offering a rare look at Earth’s earliest biology. By combining advanced chemical methods with artificial intelligence, scientists were able to detect faint molecular patterns left behind long after the original biomolecules disappeared. Newly analyzed fossils, including ancient seaweed from Canada’s Yukon Territory, helped validate the method and deepen understanding of early ecosystems.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists uncover a massive hidden crater in China that rewrites Earth’s recent history",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251114041210.htm",
-      "pubDate": "Fri, 14 Nov 2025 09:14:54 EST",
-      "description": "A massive, well-preserved impact crater has been uncovered in Guangdong, revealing the signature of a powerful meteorite strike during the Holocene. Measuring 900 meters across, it dwarfs other known craters from the same era. Shock-damaged quartz confirms the intense forces involved. Its survival in a high-erosion environment makes it a geological rarity.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
