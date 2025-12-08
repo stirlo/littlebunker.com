@@ -5,7 +5,7 @@ date: 2025-10-06 20:58:20 +0000
 categories: [environmental_news]
 tags: []
 keywords: ['river', 'along', 'banks']
-description: "A judge barred the landfill from sending its   "leachate  " wastewater to treatment plants in the region"
+description: "A judge barred the landfill from sending its leachate wastewater to treatment plants in the region"
 external_url: https://insideclimatenews.org/news/06102025/along-the-banks-of-the-mon-river-fracking-waste-in-a-landfill-once-again-poses-a-pollution-problem/
 is_feed: true
 source_feed: "Inside Climate News"
