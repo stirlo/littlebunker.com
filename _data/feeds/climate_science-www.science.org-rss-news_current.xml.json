@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-12-10T22:26:13.632001",
+  "fetched_at": "2025-12-10T23:23:35.749049",
   "items": [
+    {
+      "title": "A new preprint server welcomes papers written and reviewed by AI",
+      "link": "https://www.science.org/content/article/new-preprint-server-welcomes-papers-written-and-reviewed-ai",
+      "pubDate": "",
+      "description": "With human peer review struggling to keep pace with machine-generated science, aiXiv enlists bots to help",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "U.S. military funds AI tools to speed modeling of viral outbreaks",
       "link": "https://www.science.org/content/article/u-s-military-funds-ai-tools-speed-modeling-viral-outbreaks",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/journal-retracts-weed-killer-study-backed-monsanto-citing-serious-ethical-concerns",
       "pubDate": "",
       "description": "Highly cited paper was used as evidence that the widely used herbicide Roundup is safe",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "What’s the fuss about aluminum in vaccines?",
-      "link": "https://www.science.org/content/article/what-s-fuss-about-aluminum-vaccines",
-      "pubDate": "",
-      "description": "Despite extensive safety record, U.S. health advisers are set to discuss claimed link to asthma",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
