@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-10T13:42:40.925679",
+  "fetched_at": "2025-12-10T14:29:31.864718",
   "items": [
     {
       "title": "Rising temperatures are slowing early childhood development",
       "link": "https://www.sciencedaily.com/releases/2025/12/251209234247.htm",
       "pubDate": "Wed, 10 Dec 2025 00:59:03 EST",
       "description": "Researchers discovered that unusually high temperatures can hinder early childhood development. Children living in hotter conditions were less likely to reach key learning milestones, especially in reading and basic math skills. Those facing economic hardship or limited resources were hit the hardest. The study underscores how climate change may shape children’s learning long before they reach school age.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists discover a new state of matter at Earth’s center",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251209043053.htm",
+      "pubDate": "Wed, 10 Dec 2025 08:32:41 EST",
+      "description": "New research reveals that Earth’s solid inner core is actually in a superionic state, where carbon atoms flow freely through a solid iron lattice. This unusual behavior makes the core soft, matching seismic observations that have puzzled scientists for decades. The mobility of these light elements may also contribute energy to Earth’s magnetic field. The findings reshape models of Earth’s interior and could apply to other rocky planets.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251118220054.htm",
       "pubDate": "Wed, 19 Nov 2025 03:56:56 EST",
       "description": "Massive Sargassum blooms sweeping across the Caribbean and Atlantic are fueled by a powerful nutrient partnership: phosphorus pulled to the surface by equatorial upwelling and nitrogen supplied by cyanobacteria living directly on the drifting algae. Coral cores reveal that this nutrient engine has intensified over the past decade, perfectly matching surges in Sargassum growth since 2011. By ruling out older theories involving Saharan dust and river runoff, researchers uncovered a climate-driven process that shapes when and where these colossal seaweed mats form.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Ancient bogs reveal a hidden 15,000-year climate shift",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251118220043.htm",
-      "pubDate": "Wed, 19 Nov 2025 03:00:30 EST",
-      "description": "Researchers discovered that ancient peat bogs grew rapidly when the Southern Westerly Winds suddenly shifted thousands of years ago. These wind changes affected both peatland carbon storage and how the Southern Ocean absorbed CO2. Today the winds are shifting southward again, driven by climate change. Scientists warn this could disrupt natural carbon sinks and worsen droughts and wildfires.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
