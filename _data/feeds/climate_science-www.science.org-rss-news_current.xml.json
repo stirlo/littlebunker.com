@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-12-10T21:28:50.883975",
+  "fetched_at": "2025-12-10T22:26:13.632001",
   "items": [
+    {
+      "title": "U.S. military funds AI tools to speed modeling of viral outbreaks",
+      "link": "https://www.science.org/content/article/u-s-military-funds-ai-tools-speed-modeling-viral-outbreaks",
+      "pubDate": "",
+      "description": "DARPA program could yield models of disease spread in days instead of weeks",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Replenishing sapped groundwater could trigger small earthquakes",
       "link": "https://www.science.org/content/article/replenishing-sapped-groundwater-could-trigger-small-earthquakes",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/what-s-fuss-about-aluminum-vaccines",
       "pubDate": "",
       "description": "Despite extensive safety record, U.S. health advisers are set to discuss claimed link to asthma",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "100 years on, quantum mechanics is redefining reality—with us at the center",
-      "link": "https://www.science.org/content/article/100-years-quantum-mechanics-redefining-reality-us-center",
-      "pubDate": "",
-      "description": "Increasingly popular theories hold that experimental outcomes really do depend on the observer",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
