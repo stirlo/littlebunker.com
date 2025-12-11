@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-11T17:31:49.376270",
+  "fetched_at": "2025-12-11T18:38:56.408920",
   "items": [
+    {
+      "title": "Scientists find a massive hidden CO2 sponge beneath the ocean floor",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251211100631.htm",
+      "pubDate": "Thu, 11 Dec 2025 12:42:22 EST",
+      "description": "Researchers found that eroded lava rubble beneath the South Atlantic can trap enormous amounts of CO2 for tens of millions of years. These porous breccia deposits store far more carbon than previously sampled ocean crust. The discovery reshapes how scientists view the long-term balance of carbon between the ocean, rocks, and atmosphere. It also reveals a hidden mechanism that helps stabilize Earth’s climate over geological timescales.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "The deep ocean is fixing carbon in ways no one expected",
       "link": "https://www.sciencedaily.com/releases/2025/12/251210092024.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/11/251120002832.htm",
       "pubDate": "Thu, 20 Nov 2025 01:52:08 EST",
       "description": "Experts say the ocean could help absorb carbon dioxide, but today’s technologies are too uncertain to be scaled up safely. New findings released during COP30 highlight the risks of rushing into marine carbon removal without proper monitoring and verification. With the 1.5°C threshold approaching, researchers stress that emissions cuts must remain the top priority. Ocean-based methods may play a role later, but they need careful oversight first.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Massive hidden structures deep inside Earth may explain how life began",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251120002558.htm",
-      "pubDate": "Thu, 20 Nov 2025 11:32:45 EST",
-      "description": "Scientists may finally be closing in on the origins of two colossal, mysterious structures buried nearly 1,800 miles inside Earth—hidden formations that have puzzled researchers for decades. New modeling suggests that slow leakage of elements from Earth’s core into the mantle prevented the planet from developing strong chemical layers after its primordial magma-ocean era.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
