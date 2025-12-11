@@ -4,8 +4,16 @@
   "description": "25 Years on the Climate Beat",
   "category": "environmental_news",
   "source_url": "https://grist.org/feed/",
-  "fetched_at": "2025-12-11T09:32:08.865567",
+  "fetched_at": "2025-12-11T10:32:07.760053",
   "items": [
+    {
+      "title": "How a species of bamboo could help protect the South from future floods",
+      "link": "https://grist.org/solutions/how-rivercane-a-native-bamboo-could-help-protect-the-south-from-future-floods/",
+      "pubDate": "Thu, 11 Dec 2025 09:45:00 +0000",
+      "description": "",
+      "category": "environmental_news",
+      "source_url": "https://grist.org/feed/"
+    },
     {
       "title": "The EPA website got the basics of climate science right. Until last week.",
       "link": "https://grist.org/politics/epa-website-erases-climate-science-basics/",
@@ -155,14 +163,6 @@
       "link": "https://grist.org/regulation/dismantling-the-endangered-species-act-will-hurt-a-lot-more-than-just-wildlife/",
       "pubDate": "Tue, 25 Nov 2025 09:15:00 +0000",
       "description": "",
-      "category": "environmental_news",
-      "source_url": "https://grist.org/feed/"
-    },
-    {
-      "title": "How to make data centers less thirsty",
-      "link": "https://grist.org/energy/how-to-make-data-centers-less-thirsty/",
-      "pubDate": "Mon, 24 Nov 2025 09:45:00 +0000",
-      "description": "Researchers at Lawrence Berkeley National Laboratory have found that, in 2023, data centers consumed roughly 17 billion gallons of water for their operations in the U.S. alone. But a much, much larger share of data center water-intensity is indirect, a byproduct of the facilities’ enormous appetites for energy. That’s because most power plants themselves require huge amounts of water to operate.<br /><br />This off-site, indirect water consumption amounted to a whopping 211 billion gallons in the Berkeley lab’s 2023 tally — well over 10 times the direct on-site usage. As Silicon Valley continues to pour hundreds of billions of dollars into artificial intelligence and demand for data centers grows, these water needs are only going to grow in tandem.<br /><br />However, new research from Cornell University shows that there’s a way to mitigate both the climate <em>and</em> water footprints of these facilities: build them in places with lots of wind and solar energy.",
       "category": "environmental_news",
       "source_url": "https://grist.org/feed/"
     }
