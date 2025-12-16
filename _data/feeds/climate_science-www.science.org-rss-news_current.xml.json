@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-12-15T23:26:30.570355",
+  "fetched_at": "2025-12-16T02:07:59.132910",
   "items": [
+    {
+      "title": "Hack reveals reviewer identities for huge AI conference",
+      "link": "https://www.science.org/content/article/hack-reveals-reviewer-identities-huge-ai-conference",
+      "pubDate": "",
+      "description": "Software bug leads to exposure of peer-review records for 10,000 papers",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Seafloor telecom cable transformed into giant earthquake detector",
       "link": "https://www.science.org/content/article/seafloor-telecom-cable-transformed-giant-earthquake-detector",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/new-preprint-server-welcomes-papers-written-and-reviewed-ai",
       "pubDate": "",
       "description": "With human peer review struggling to keep pace with machine-generated science, aiXiv enlists bots to help",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "U.S. military funds AI tools to speed modeling of viral outbreaks",
-      "link": "https://www.science.org/content/article/u-s-military-funds-ai-tools-speed-modeling-viral-outbreaks",
-      "pubDate": "",
-      "description": "DARPA program could yield models of disease spread in days instead of weeks",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
