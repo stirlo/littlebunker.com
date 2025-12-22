@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-22T05:30:40.389410",
+  "fetched_at": "2025-12-22T06:43:59.369128",
   "items": [
+    {
+      "title": "Global warming could trigger the next ice age",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251221043231.htm",
+      "pubDate": "Sun, 21 Dec 2025 11:02:49 EST",
+      "description": "Scientists have uncovered a missing feedback in Earth’s carbon cycle that could cause global warming to overshoot into an ice age. As the planet warms, nutrient-rich runoff fuels plankton blooms that bury huge amounts of carbon in the ocean. In low-oxygen conditions, this process can spiral out of control, cooling Earth far beyond its original state. While this won’t save us from modern climate change, it may explain Earth’s most extreme ancient ice ages.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists found climate change hidden in old military air samples",
       "link": "https://www.sciencedaily.com/releases/2025/12/251219093325.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251202052209.htm",
       "pubDate": "Tue, 02 Dec 2025 05:22:09 EST",
       "description": "As the last Ice Age waned and the Holocene dawned, deep-ocean circulation around Antarctica underwent dramatic shifts that helped release long-stored carbon back into the atmosphere. Deep-sea sediments show that ancient Antarctic waters once trapped vast amounts of carbon, only to release it during two major warming pulses at the end of the Ice Age. Understanding these shifts helps scientists predict how modern Antarctic melt may accelerate future climate change.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Satellites spot rapid “Doomsday Glacier” collapse",
-      "link": "https://www.sciencedaily.com/releases/2025/11/251130205511.htm",
-      "pubDate": "Mon, 01 Dec 2025 01:44:02 EST",
-      "description": "Two decades of satellite and GPS data show the Thwaites Eastern Ice Shelf slowly losing its grip on a crucial stabilizing point as fractures multiply and ice speeds up. Scientists warn this pattern could spread to other vulnerable Antarctic shelves.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
