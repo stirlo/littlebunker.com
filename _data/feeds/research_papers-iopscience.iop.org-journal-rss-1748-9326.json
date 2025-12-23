@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-23T14:28:09.641265",
+  "fetched_at": "2025-12-23T15:29:14.714968",
   "items": [
+    {
+      "title": "The effectiveness of heat prevention plans in reducing heat-related mortality across Europe",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2775",
+      "pubDate": "",
+      "description": "Heat-health warning systems and action plans, referred to as heat prevention plans (HPPs), are key public health interventions aimed at reducing heat-related mortality. Despite their importance, prior assessments of their effectiveness have yielded inconsistent results. The objective of this study is to systematically assess the effectiveness of HPPs in reducing heat-related mortality risk across Europe. We analysed daily mortality and mean temperature data from 102 locations in 14 European countries between 1990 and 2019. Using data from national experts, we identified the year of HPP implementation and categorised their development class. A three-stage analysis was conducted: (1) quasi-Poisson time series models were used to estimate location-specific warm-season exposure-response functions in 3 year subperiods; (2) mixed-effect meta-regression models with multilevel longitudinal structures were employed to quantify changes in pooled exposure-response functions due to HPP implementation, adjusted for long-term trends in heat-related mortality risks; and (3) the heat-related excess mortality due to HPP was calculated by comparing factual (with HPP) and counterfactual (without HPP) scenarios. Estimates are reported by country, region, and HPP class. HPP implementation was associated with a 25.2% [95% CI: 19.8% to 31.9%] reduction in excess deaths attributable to extreme heat, corresponding to 1.8 [95% CI: 1.3–2.4] avoided deaths annually per 100 000 inhabitants. This equates to an estimated 14 551 [95% CI: 10 118–19 072] total deaths avoided across all study locations following HPP implementation. No significant differences in HPP effectiveness were observed by European region or HPP class. Our findings provide robust evidence that HPPs substantially reduce heat-related mortality across Europe, accounting for temporal changes and geographical differences in risks. These results emphasise the importance of monitoring and evaluating HPPs to enhance adaptation to a warming climate.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Editorial essay: ERL focus issue on technology and global change",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2ac0",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae27e8",
       "pubDate": "",
       "description": "Population heat exposure has increased substantially, resulting in serious effects on human health. However, all previous assessments on global-scale heat exposure focused on the daily scale, limiting accurate estimation of heat duration and the related extent of spatial disparity of population heat exposure. Here, based on high-spatial-resolution hourly temperature and age-group population datasets, we unveil the global hourly population exposure to extreme heat in the last decades. The results show that extreme heat (≥46 °C) hours per heat day have increased by 0.4 h between 1979 and 2023. As the number of heat hours and population have increased, surface air temperature-based extreme heat exposure increased by about 60% (from 3.7 × 1011 person-hours to 5.9 × 1011 person-hours), and universal thermal climate index (UTCI)-based extreme heat exposure increased by about 70% (from 1.5 × 1012 person-hours to 2.6 × 1012 person-hours) between 2000 and 2020. There is a large disparity between the hourly and daily extreme heat exposures, stemming from the change in the number of heat hours per heat day. The most pronounced discrepancy is in UTCI-based very strong heat exposure, with an average disparity equivalent to 2.6 × 1010 person-days. Moreover, global hourly population heat exposure exhibits a distinct inverted-pyramidal structure with increase in age. This is attributed to young people exposed to heat stress outnumbering the elderly, and disproportionately more young people residing in hotter regions. For heat exposure of all age groups, the population effect and interaction effect are dominant factors for the increased heat exposure in tropical regions, while the warming effect primarily drives that in temperate zones. Our study highlights the need for and urgency of health risk assessment based on hourly heat exposure.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Shaming climate wrongdoers",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae287d",
-      "pubDate": "",
-      "description": "Climate law, policy, and governance have grown substantially in recent years, yet these efforts have achieved only modest success. This article spotlights an underexplored complementary strategy in policy, governance, and legal domains: climate shaming—the use of public condemnation to encourage climate-responsible behaviour among governments, corporations, and their leaders. While shaming has been studied and applied as a regulatory and governance tool in other contexts, only a small but growing body of scholarship has begun to examine its potential in the climate arena. Drawing on multidisciplinary research from the social sciences, the humanities, and law, we review and map the main strands of this emerging literature to show the diverse forms and potential of shaming mechanisms, actors, and messages in the climate domain. Based on this analysis, we identify several gaps in the literature and practice of climate shaming, including explicit regulatory shaming, intergovernmental shaming, shaming of regulators by civil-society actors, and regulatory shaming of industry leaders. We propose expanding the conceptual framework of climate shaming to encompass these neglected dimensions, with the aim of encouraging further research as well as policy and governance experimentation in this evolving field.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
