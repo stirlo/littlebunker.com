@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
+  "title": "Environmental Research Letters - latest papers",
   "link": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "description": "",
+  "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2025-12-25T10:30:12.273922",
-  "items": []
+  "fetched_at": "2025-12-25T11:23:36.137231",
+  "items": [
+    {
+      "title": "The effectiveness of heat prevention plans in reducing heat-related mortality across Europe",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2775",
+      "pubDate": "",
+      "description": "Heat-health warning systems and action plans, referred to as heat prevention plans (HPPs), are key public health interventions aimed at reducing heat-related mortality. Despite their importance, prior assessments of their effectiveness have yielded inconsistent results. The objective of this study is to systematically assess the effectiveness of HPPs in reducing heat-related mortality risk across Europe. We analysed daily mortality and mean temperature data from 102 locations in 14 European countries between 1990 and 2019. Using data from national experts, we identified the year of HPP implementation and categorised their development class. A three-stage analysis was conducted: (1) quasi-Poisson time series models were used to estimate location-specific warm-season exposure-response functions in 3 year subperiods; (2) mixed-effect meta-regression models with multilevel longitudinal structures were employed to quantify changes in pooled exposure-response functions due to HPP implementation, adjusted for long-term trends in heat-related mortality risks; and (3) the heat-related excess mortality due to HPP was calculated by comparing factual (with HPP) and counterfactual (without HPP) scenarios. Estimates are reported by country, region, and HPP class. HPP implementation was associated with a 25.2% [95% CI: 19.8% to 31.9%] reduction in excess deaths attributable to extreme heat, corresponding to 1.8 [95% CI: 1.3–2.4] avoided deaths annually per 100 000 inhabitants. This equates to an estimated 14 551 [95% CI: 10 118–19 072] total deaths avoided across all study locations following HPP implementation. No significant differences in HPP effectiveness were observed by European region or HPP class. Our findings provide robust evidence that HPPs substantially reduce heat-related mortality across Europe, accounting for temporal changes and geographical differences in risks. These results emphasise the importance of monitoring and evaluating HPPs to enhance adaptation to a warming climate.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Editorial essay: ERL focus issue on technology and global change",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2ac0",
+      "pubDate": "",
+      "description": "The ERL Focus Issue on Technology and Global Change brings together 19 research articles, 4 perspectives, and 2 topical reviews on wide-ranging topics including innovation, policy, poverty alleviation, digitalisation, and modelling. Collectively, these 25 new articles help advance understanding of technology and global change, building on work 25 years ago by Arnulf Grübler whose system perspective in turn built on pioneering scholarship in evolutionary and institutional economics. In this editorial essay, we survey the 25 contributions to this Focus Issue and draw out some of the themes and ideas that define the research frontiers in this field.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Protocol intercomparison project highlights non-equivalent carbon crediting across agricultural land management protocols",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae19ff",
+      "pubDate": "",
+      "description": "Voluntary markets for agricultural carbon credits are expanding, promoting climate-smart practices purported to increase soil carbon and reduce greenhouse gas emissions. To contribute effectively to climate mitigation, markets must deliver credits that meet international standards guaranteeing credits are additional, conservative, and equivalent to at least 1 ton of CO2. Yet protocols for quantifying credits make different assumptions, raising questions about whether protocols meet the ‘equivalency standard’. We test for equivalency using a common dataset of 4988 US Midwestern corn-soybean fields, representing a carbon market project, to estimate credit issuances for adoption of no-till plus cover cropping practices. We find issuances, across the three major protocols being used for US croplands, differing for this common project by up to ∼130 000 credits per year. Our ‘Protocol Intercomparison Project’ reveals how quantitative evaluations can identify assumptions generating marked differences in crediting, thereby guiding research that informs protocol revisions to build confidence in mitigation and demonstrating paths forward for protocol harmonization efforts.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A model-based assessment of the regional safe aerosol boundary for the South Asian monsoon region",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2345",
+      "pubDate": "",
+      "description": "Recent papers on planetary and safe Earth System boundaries have proposed a limit of 0.25 for regional aerosol optical depth (AOD) in South Asia (SA) with a zone of uncertainty of 0.25–0.50 to avoid major disruptions to regional hydrology. These values are based on expert judgment, and a rigorous model-based confirmation of these boundary values is lacking in literature. In this paper, we address this important research gap using idealized climate model simulations. We analyze the response of the South Asian summer monsoon precipitation when the regional mean AOD is increased from the modeled present-day value of 0.14 to the proposed planetary boundary values of 0.25 and 0.5. Our simulations confirm that a regional AOD of 0.25 could indeed lead to drought conditions (>10% mean precipitation reduction) in India, while an AOD of 0.5 reduces Indian summer monsoon precipitation by about 19%. The reduction in the summer monsoon precipitation is driven by both fast adjustments (rapid adjustment of the atmosphere to aerosol radiative forcing) and slow responses (responses to changes in sea surface temperature). The rapid adjustment to anthropogenic aerosols, predominantly sulfates, involves enhanced atmospheric stability, subsidence, and suppressed cloud formation and precipitation. The slow response involves zonal surface temperature gradients between the North Indian Ocean and Western Pacific Ocean leading to changes in the Walker circulation, anomalous subsidence over SA, and a decrease in monsoon precipitation. Enhanced aerosol loading over SA reduces monsoon precipitation, regardless of aerosol composition, though the magnitude of reduction depends on whether the aerosols are primarily reflective or absorbing. Our findings confirm the risk of major disruptions to regional hydrology in SA when regional aerosol loading exceeds the boundary values. Future studies should assess the robustness of our results using other climate models and for other monsoon regions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Uncovering unprecedented storm surges in European and Mediterranean coastlines",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2529",
+      "pubDate": "",
+      "description": "Recent research has considerably advanced our ability to model extreme surges. Yet, simulating unprecedented events, i.e. events which are more extreme than observed in historical datasets, remains challenging. To some extent, anticipating such events is possible by accounting for the full range of climate variability. Using a 525-year synthetic dataset from a seasonal reforecast archive, this study uncovers potential unprecedented storm surge events for European and Mediterranean coastlines, focussing on their magnitude, spatial extent and seasonality. We identify Germany, the Netherlands and western UK as hotspot regions that could experience unprecedented storm surge levels that are more than half a meter higher than historical events. Spatially unprecedented extreme peak surges, affecting more provinces within a 3 d time window than previously recorded, may impact up to 49% of the provinces, with simultaneous effects in the Mediterranean and the Atlantic regions. Additionally, countries including the Netherlands, Germany and the UK may experience at least one temporally unprecedented surge during the summer months. Understanding these different dimensions of unprecedented events represents a significant advance in our knowledge of coastal flood risk in Europe and supports improved coastal flood risk management decisions, including enhanced flood defence standards, disaster risk management and planning of coastal operations.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Measuring electric vehicle owners’ willingness to participate in smart charging programs",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2597",
+      "pubDate": "",
+      "description": "As power systems transition to renewable energy, integrating battery electric vehicles (BEVs) into grid operations presents new opportunities and challenges for managing electricity demand and the associated environmental impacts from BEV charging. This study examines two grid-integration strategies: supplier-managed charging (SMC), which gives utilities control over charging timing, and vehicle-to-grid (V2G), which transforms BEVs into distributed energy storage resources. Using a discrete choice experiment with 1,356 current BEV owners, we quantify how program attributes influence enrollment decisions. Using multinomial logit models, results suggest that SMC participants predominantly value operational flexibility and recurring payments while V2G participants prefer monetary incentives, indicating a willingness to provide grid services for compensation. Through simulation analysis, we identify program ‘attribute equivalencies’ that quantify changes needed in attributes to achieve equivalent enrollment levels. These findings can be used in the design of market mechanisms and policy frameworks that accelerate BEV integration into future energy systems.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Where does Sweden’s nitrogen go? Building a comprehensive national nitrogen budget",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2697",
+      "pubDate": "",
+      "description": "We present Sweden’s first comprehensive National Nitrogen Budget (NNB), quantifying reactive nitrogen (Nr) inputs, outputs, and intersectoral transfers across eight key subpools, including agriculture, energy, industry, and waste. For the reference year 2015, we estimate that approximately 848 kt N entered Sweden in reactive forms, primarily through import of goods, ‘import’ of air pollution from upwind areas outside Sweden, and from nitrogen fixation. We estimate that 269 kt Nr is annually released to atmosphere or hydrosphere as a pollution, while 311 kt N is converted back to inert N2 gas. The analysis identifies nitrogen losses to the environment, and opportunities for improved nitrogen use efficiency across sectors. The Swedish NNB is compared to calculations done for Austria, Germany and Switzerland. The study contributes to international efforts to harmonize nitrogen accounting and strengthen transboundary environmental governance.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "An impact-oriented framework for a deep learning–based composite drought index considering potential economic losses",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae269a",
+      "pubDate": "",
+      "description": "Droughts significantly impact socioeconomic systems globally. As a complex and multifaceted phenomenon, drought is characterized through various indices—meteorological, agricultural, and hydrological- each capturing different aspects of the phenomenon. This diversity has led to growing demand for integrated drought monitoring tools that offer a more holistic understanding of drought conditions. Traditionally, newly developed composite drought indices are assessed through the comparison with existing indices. However, this model-by-model validation approach does not necessarily reflect real-world accuracy or relevance. Therefore, a paradigm shift is needed—from comparative validation among indices to impact-oriented evaluation—emphasizing the capacity of drought indices to capture actual societal and environmental consequences. In this study, we propose a novel drought index derived from deep learning, evaluated through an impact-oriented lens using drought-induced economic losses as the primary performance metric. The index is computed using advanced deep learning techniques and a range of drought-related variables. To enhance model accuracy and robustness, we employ different self-supervised learning architectures, including convolutional neural networks, artificial neural networks, and variational autoencoders. The analysis utilizes ERA5 reanalysis data (1989–2024) for Italy, integrated with economic loss records from the EM-DAT database. Each model’s performance is assessed based on its ability to estimate potential economic losses caused by drought. The proposed framework allows users to select the most suitable index based on a guided analysis, balancing data collection effort and predictive reliability.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Five methodological updates of the Danish Pesticide Load Indicator to support EU-wide pesticide risk reduction policies",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae269b",
+      "pubDate": "",
+      "description": "The effectiveness of pesticide reduction policies in the European Union (EU) depends critically on robust, scientifically grounded indicators that can reliably monitor pesticide-related risks across Member States. The Pesticide Load Indicator (PLI), developed in Denmark in the 2000s, offers a transparent and policy-relevant framework for assessing pesticide risk. Although it has successfully supported Denmark’s national strategies for over a decade and is drawing attention in other EU countries, several methodological limitations hinder its broader applicability. This letter identifies five such limitations and proposes corresponding updates to enhance the indicator’s scientific robustness and scalability across the EU: (1) consistent hazard assessment across compartments, (2) precautionary treatment of missing data, (3) updated hazard metric selection, (4) harmonised normalisation procedures and (5) a statistically grounded weighting protocol. These methodological updates aim to establish a harmonised PLI suitable for EU-wide policy applications, such as fiscal instruments (e.g. differentiated taxation based on hazard levels) and pesticide risk assessments.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Inverted age-pyramidal global hourly population heat exposure",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae27e8",
+      "pubDate": "",
+      "description": "Population heat exposure has increased substantially, resulting in serious effects on human health. However, all previous assessments on global-scale heat exposure focused on the daily scale, limiting accurate estimation of heat duration and the related extent of spatial disparity of population heat exposure. Here, based on high-spatial-resolution hourly temperature and age-group population datasets, we unveil the global hourly population exposure to extreme heat in the last decades. The results show that extreme heat (≥46 °C) hours per heat day have increased by 0.4 h between 1979 and 2023. As the number of heat hours and population have increased, surface air temperature-based extreme heat exposure increased by about 60% (from 3.7 × 1011 person-hours to 5.9 × 1011 person-hours), and universal thermal climate index (UTCI)-based extreme heat exposure increased by about 70% (from 1.5 × 1012 person-hours to 2.6 × 1012 person-hours) between 2000 and 2020. There is a large disparity between the hourly and daily extreme heat exposures, stemming from the change in the number of heat hours per heat day. The most pronounced discrepancy is in UTCI-based very strong heat exposure, with an average disparity equivalent to 2.6 × 1010 person-days. Moreover, global hourly population heat exposure exhibits a distinct inverted-pyramidal structure with increase in age. This is attributed to young people exposed to heat stress outnumbering the elderly, and disproportionately more young people residing in hotter regions. For heat exposure of all age groups, the population effect and interaction effect are dominant factors for the increased heat exposure in tropical regions, while the warming effect primarily drives that in temperate zones. Our study highlights the need for and urgency of health risk assessment based on hourly heat exposure.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    }
+  ]
 }
