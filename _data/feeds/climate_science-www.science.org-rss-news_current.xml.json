@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2025-12-26T15:27:57.846611",
+  "fetched_at": "2025-12-26T16:31:53.194801",
   "items": [
+    {
+      "title": "<cite>Science</cite> editors pick 2025’s stories that stood out",
+      "link": "https://www.science.org/content/article/science-editors-pick-2025-s-stories-stood-out",
+      "pubDate": "",
+      "description": "From ancient humans to modern woes, these are the stories that stuck with our News editors this year",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Five things to know about NSF’s new rules on merit review",
       "link": "https://www.science.org/content/article/five-things-know-about-nsf-s-new-rules-merit-review",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/watch-these-raindrops-turn-rolling-sandballs",
       "pubDate": "",
       "description": "Discovery suggests raindrops can be up to 100 times more erosive than once thought",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Sun’s gravitational lens could reveal alien planets’ surfaces",
-      "link": "https://www.science.org/content/article/sun-s-gravitational-lens-could-reveal-alien-planets-surfaces",
-      "pubDate": "",
-      "description": "Bold concept calls for sending telescopes 10 times farther than Pluto",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
