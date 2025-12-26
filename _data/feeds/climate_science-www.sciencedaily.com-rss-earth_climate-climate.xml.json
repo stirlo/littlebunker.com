@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2025-12-26T06:40:54.436738",
+  "fetched_at": "2025-12-26T07:27:18.267657",
   "items": [
+    {
+      "title": "How Earth endured a planet-wide inferno: The secret water vault under our feet",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251225080727.htm",
+      "pubDate": "Fri, 26 Dec 2025 01:09:12 EST",
+      "description": "When Earth was a molten inferno, water may have been locked safely underground rather than lost to space. Researchers discovered that bridgmanite deep in the mantle can store far more water at high temperatures than previously believed. During Earth’s cooling, this hidden reservoir could have held water volumes comparable to today’s oceans. Over time, that buried water helped drive geology and rebuild the planet’s surface environment.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Oceans are supercharging hurricanes past Category 5",
       "link": "https://www.sciencedaily.com/releases/2025/12/251225080725.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251204024231.htm",
       "pubDate": "Thu, 04 Dec 2025 09:16:45 EST",
       "description": "This year’s ozone hole over Antarctica ranked among the smallest since the early 1990s, reflecting steady progress from decades of global action under the Montreal Protocol. Declining chlorine levels and warmer stratospheric temperatures helped limit ozone destruction. Scientists say the layer remains on track to recover later this century.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Early Earth’s sky may have created the first ingredients for life",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251203010207.htm",
-      "pubDate": "Wed, 03 Dec 2025 01:49:28 EST",
-      "description": "Researchers recreated conditions from billions of years ago and found that Earth’s young atmosphere could make key molecules linked to life. These sulfur-rich compounds, including certain amino acids, may have formed naturally in the sky. The results suggest early Earth wasn’t starting from zero but may have already been stocked with essential ingredients.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
