@@ -1,9 +1,90 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://insideclimatenews.org/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"cf-alert cf-alert-error cf-cookie-error\" id=\"cookie-alert\">Please enable cookies.</div>\n    <div class=\"cf-error-details-wrapper\" id=\"cf-error-details\">\n      <div class=\"cf-wrapper cf-header cf-error-overview\">\n        <h1>Sorry, you have been blocked</h1>\n        <h2 class=\"cf-subheadline\"><span>You are unable to access</span> insideclimatenews.org</h2>\n      </div>\n\n      <div class=\"cf-section cf-highlight\">\n        <div class=\"cf-wrapper\">\n          <div class=\"cf-screenshot-container cf-screenshot-full\">\n            \n              <span class=\"cf-no-screenshot error\"></span>\n            \n          </div>\n        </div>\n      </div>\n\n      <div class=\"cf-section cf-wrapper\">\n        <div class=\"cf-columns two\">\n          <div class=\"cf-column\">\n            <h2>Why have I been blocked?</h2>\n\n            <p>This website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.</p>\n          </div>\n\n          <div class=\"cf-column\">\n            <h2>What can I do to resolve this?</h2>\n\n            <p>You can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.</p>\n          </div>\n        </div>\n      </div>\n\n      <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n  <p class=\"text-13\">\n    <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9b505d5e89f6e25a</strong></span>\n    <span class=\"cf-footer-separator sm:hidden\">•</span>\n    <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n      Your IP:\n      <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n      <span class=\"hidden\" id=\"cf-footer-ip\">135.232.201.51</span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n    </span>\n    <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n    \n  </p>\n  &&&&&&\n</div>\n\n\n    </div>\n  </div>",
+  "title": "Inside Climate News",
+  "link": "https://insideclimatenews.org/",
+  "description": "Pulitzer Prize-winning, nonpartisan reporting on the biggest crisis facing our planet.",
   "category": "environmental_news",
   "source_url": "https://insideclimatenews.org/feed/",
-  "fetched_at": "2025-12-28T10:27:22.059765",
-  "items": []
+  "fetched_at": "2025-12-28T11:22:18.015977",
+  "items": [
+    {
+      "title": "The Year in Climate: Attacks on Science, the Start of Trump’s Second Term and Surging Electricity Demand Foreshadow a Future Filled with Uncertainty",
+      "link": "https://insideclimatenews.org/news/28122025/2025-year-in-climate/",
+      "pubDate": "Sun, 28 Dec 2025 10:00:00 +0000",
+      "description": "That was rough. The past year had a combination of policy fiascos, natural disasters and a steady march toward a future that is too hot. Many of the major events of 2025 flowed from the decision by U.S. voters to return Donald Trump to the White House with Republican majorities in Congress. The Trump administration’s […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "ICN Sunday Morning: Let’s Talk About 2025",
+      "link": "https://insideclimatenews.org/news/28122025/icn-sunday-morning-2025-climate-review/",
+      "pubDate": "Sun, 28 Dec 2025 09:50:00 +0000",
+      "description": "What a year: policy fiascos, natural disasters and a steady march toward a future that is too hot. The Trump administration’s dismantling of environmental protection rules exceeded expectations, and on the world stage, the United States largely ceded its leadership role in climate policy to China. Each December, Inside Climate News takes a look back […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "After a Hard Year for Environmental Justice, Chicago Communities Are Picking Up the Pieces",
+      "link": "https://insideclimatenews.org/news/27122025/chicago-environmental-justice-grant-cuts/",
+      "pubDate": "Sat, 27 Dec 2025 10:00:00 +0000",
+      "description": "In her 40 years as an environmental justice organizer, Cheryl Johnson had never seen environmental funding as revolutionary as the Community Change grant.  “It gave real money to disinvested communities like mine, funding to clean up and to revitalize our communities,” Johnson said. “And then a stroke of another pen from the current administration just […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "How George Wallace and Bull Connor Set the Stage for Alabama’s Sky-High Electric Rates",
+      "link": "https://insideclimatenews.org/news/26122025/george-wallace-bull-connor-set-stage-for-alabama-sky-high-electric-rates/",
+      "pubDate": "Fri, 26 Dec 2025 10:00:00 +0000",
+      "description": "Wired for Profit: Second in a series about Alabama Power’s influence over electric rates, renewable energy, pollution and politics in the Yellowhammer State. MONTGOMERY, Ala.—There’s a curious sight on the far-left wall of the Alabama Public Service Commission’s main hearing room.  Framed 8-by-10-inch photos of the previous commissioners dating back to 1881 line the wall. […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "Scenes From an Unfolding Climate Drama",
+      "link": "https://insideclimatenews.org/news/26122025/a-decade-of-the-united-nations-climate-change-conference/",
+      "pubDate": "Fri, 26 Dec 2025 09:55:00 +0000",
+      "description": "The last 10 global climate summits have played out on vastly different stages: from the hopeful consensus of the Paris Agreement through a subsequent pandemic shock, petrostate spectacles and a hoped-for reckoning with environmental justice in the Amazon. But the new scripts often seem like reruns, with minor plot twists; a new villain, a new […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "A New Jersey Buyout Program for Flood-Prone Homes Is a National Model",
+      "link": "https://insideclimatenews.org/news/25122025/new-jersey-flood-prone-homes-buyout-program/",
+      "pubDate": "Thu, 25 Dec 2025 10:00:00 +0000",
+      "description": "MANVILLE, N.J.—Richard Onderko said he will never forget the terrifying Saturday morning back in 1971 when the water rose so swiftly at his childhood home here that he and his brother had to be rescued by boat as the torrential rain from the remnants of Hurricane Doria swept through the neighborhood.  It wasn’t the first […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "Lessons on Scaling Gift Economies—and How It Can Help the Planet",
+      "link": "https://insideclimatenews.org/news/25122025/gift-economies-can-help-the-planet/",
+      "pubDate": "Thu, 25 Dec 2025 09:55:00 +0000",
+      "description": "From our collaborating partner Living on Earth, public radio’s environmental news magazine, an interview by Jenni Doering with “The Serviceberry” author Robin Wall Kimmerer.  Robin Wall Kimmerer is perhaps best known as the author of “Braiding Sweetgrass,” a book about living in a reciprocal relationship with other beings and the gifts of the Earth. And […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "Nonprofit Center Works with Rural Maine Towns to Prepare for and Protect Against Extreme Weather",
+      "link": "https://insideclimatenews.org/news/24122025/rural-maine-center-for-an-ecology-based-economy/",
+      "pubDate": "Wed, 24 Dec 2025 10:00:00 +0000",
+      "description": "The December 2023 flood. The 2022 Halloween storm. The Patriots Day storm of 2007. The Great Ice Storm of 1998.  These dates are shared memories in the Appalachian foothills of western Maine. Not every resident believes in climate change but nearly all can recount days and weeks of weather extremes in their hometowns—and know the […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "In the Great Lakes Region, a Push to Grow Water-Focused Startups Amid Federal Funding Uncertainty",
+      "link": "https://insideclimatenews.org/news/24122025/great-lakes-water-focused-startups/",
+      "pubDate": "Wed, 24 Dec 2025 09:55:00 +0000",
+      "description": "When it comes to cleaning up dirty water, tiny bubbles can pack a big punch. When Nano Gas Environmental was called to clean up ponds and lagoons in a community in West Texas, they found thick algae and bugs walking on top of sludge islands. Digging the muck out of the ponds would have cost […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    },
+    {
+      "title": "Indigenous Groups Fight to Save Rediscovered Settlement Site on an Industrial Waterfront in Texas",
+      "link": "https://insideclimatenews.org/news/23122025/texas-indigenous-groups-fight-to-save-site-on-industrial-waterfront/",
+      "pubDate": "Tue, 23 Dec 2025 10:00:00 +0000",
+      "description": "INGLESIDE, Texas—The rediscovery of an ancient settlement site, sandwiched between industrial complexes on Corpus Christi Bay, has spurred a campaign for its preservation by Native American groups in South Texas. Hundreds of such sites were once documented around nearby bays but virtually all have been destroyed as cities, refineries and petrochemical plants spread along the […]",
+      "category": "environmental_news",
+      "source_url": "https://insideclimatenews.org/feed/"
+    }
+  ]
 }
