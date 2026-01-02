@@ -4,7 +4,7 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-02T04:06:09.810221",
+  "fetched_at": "2026-01-02T05:32:08.830449",
   "items": [
     {
       "title": "Scientists found a dangerous feedback loop accelerating Arctic warming",
@@ -19,6 +19,14 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251227082724.htm",
       "pubDate": "Sat, 27 Dec 2025 12:33:56 EST",
       "description": "Scientists have built the most detailed 3D models yet of temperatures deep beneath Greenland. The results reveal uneven heat hidden below the ice, shaped by Greenland’s ancient path over a volcanic hotspot. This underground warmth affects how the ice sheet moves and melts today. Understanding it could sharpen predictions of future sea level rise.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Did an exploding comet wipe out the mammoths?",
+      "link": "https://www.sciencedaily.com/releases/2025/12/251225080736.htm",
+      "pubDate": "Thu, 01 Jan 2026 23:12:42 EST",
+      "description": "Scientists are uncovering new clues that a cosmic explosion may have rocked Earth at the end of the last ice age. At major Clovis-era sites, researchers found shocked quartz—evidence of intense heat and pressure consistent with a comet airburst rather than volcanism or human activity. The event could have sparked massive fires, blocked sunlight, and triggered a rapid return to ice-age conditions. These harsh changes may explain the sudden loss of megafauna and the disappearance of the Clovis culture.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251209043053.htm",
       "pubDate": "Wed, 10 Dec 2025 08:32:41 EST",
       "description": "New research reveals that Earth’s solid inner core is actually in a superionic state, where carbon atoms flow freely through a solid iron lattice. This unusual behavior makes the core soft, matching seismic observations that have puzzled scientists for decades. The mobility of these light elements may also contribute energy to Earth’s magnetic field. The findings reshape models of Earth’s interior and could apply to other rocky planets.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists uncover a volcanic trigger behind the Black Death",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251208014623.htm",
-      "pubDate": "Mon, 08 Dec 2025 03:29:31 EST",
-      "description": "A newly analyzed set of climate data points to a major volcanic eruption that may have played a key role in the Black Death’s arrival. Cooling and crop failures across Europe pushed Italian states to bring in grain from the Black Sea. Those shipments may have carried plague-infected fleas. The study ties together tree rings, ice cores, and historical writings to reframe how the pandemic began.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
