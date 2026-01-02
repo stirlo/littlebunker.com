@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-02T12:55:01.574297",
+  "fetched_at": "2026-01-02T13:37:18.889234",
   "items": [
     {
       "title": "Simulated Earth system response to acid downwelling as a form of ocean alkalinity enhancement",
@@ -87,10 +87,26 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Obvious and obscure actors are planting trees in rural Africa",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2d75",
+      "pubDate": "",
+      "description": "Tree planting is expanding across sub-Saharan Africa, spurred by the demand for tree products and new environmental policies. Identifying key actors is important for land use theory and for determining whether tree planting can improve rural livelihoods while contributing to environmental goals. To date, tree-planting analyses focus on obvious actors: large-scale businesses (plantations) and rural smallholders (woodlots). However, absentee, urban-based domestic investors are also engaged. Using southern Tanzania as a case study, we attribute tree planting across plantations and woodlots then analyze the potential contribution of the absentee landowners (absentee treefarms). We quantified plantations’ extent by creating and manually verifying a spatial database of planted areas (ca. 2019). We estimated woodlots’ extent by performing a bootstrap extrapolation of average woodlot area based on field surveys of 3436 smallholders across 163 villages. We estimated absentee treefarms’ extent based on interviews with village leaders (n = 36). We corroborated plantations, woodlots, and absentee treefarms against total planted tree cover as observed from remote sensing. The plantations database corresponded well to remote sensing (R = 0.82), but less so for woodlots (R = 0.48). A linear model with only plantations and woodlots explained 38% of the remotely sensed planted tree cover while one that included absentee treefarms explained 54%. Unexplained variation is partly due to omission errors for woodlots: 57% of villages (n = 88) had more woodlots based on interview estimates than based on remote sensing analysis. Villages with far more remotely sensed planted trees compared to interview estimates (11%, n = 17) included absentee treefarm sites. Our findings reveal the role of absentee, urban-based domestic investors in tree planting. More broadly, we show that trees planted in rural areas, even in small patches (5–500 ha) are not necessarily owned by rural residents. Land use attribution must incorporate absentee owners. Similarly, funding for tree planting, particularly when intended to alleviate rural poverty, must address who benefits and not just where tree planting occurs. We recommend triangulating remote sensing with field assessments to attribute ownership to improve the equity and efficacy of tree-planting campaigns.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Quantifying the hidden carbon cost of floods: a stochastic and uncertainty-based valuation framework",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2d76",
       "pubDate": "",
       "description": "Flood damage repairs to the built environment generate substantial greenhouse gas (GHG) emissions, yet these indirect climate impacts are rarely integrated into flood consequence assessments. In this study, we present a fragility-based modeling framework to estimate material replacement needs for building components damaged at specific flood depths. We develop fragility curves for each building component using a triangular cumulative distribution derived from expert judgment due to the lack of empirical data on flood losses, especially at the component level. By combining these estimates with life cycle GHG emissions for each component in a Monte Carlo simulation, we derive probabilistic, emissions-based damage curves for single-family residential structures which comprehensively account for uncertainty in the estimates. We then applied these damage curves to estimate the GHG emissions caused by a 100-year flood in two testbed regions in the Mississippi River Valley. Our results show that including the social costs of GHG emissions can increase the valuation of total flood damages by over 6%. Our results also show that flood impact estimates are highly uncertain our model can be used by planners in cost-benefit analyses of flood risk management projects to show that such projects are more economically efficient than current methods would report.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Harnessing satellite data for the next generation of agri-environmental policies",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2d77",
+      "pubDate": "",
+      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -119,6 +135,14 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Borealization of tundra ecosystems with climate and land-use change",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e18",
+      "pubDate": "",
+      "description": "As the colder regions of the planet warm, species are moving northward and upward from the boreal forest to the tundra biome, a process that has been referred to as borealization. Here, we examine the diverse uses of the term borealization and propose the concept of ‘tundra borealization’ for terrestrial environments to specifically describe shifts and increases in abundance of boreal species into the tundra. We summarize the evidence to date for borealization of plant and animal communities in tundra ecosystems and the different approaches that can be used to quantify borealization. We discuss how land-use change is interacting with climate change, leading to species and community reorganization in colder biomes, and the consequences of borealization for food webs, ecosystem functions and northern livelihoods. Our review brings together the different definitions and lines of evidence for tundra borealization in terrestrial ecosystems to emphasize this important ecological process and rapidly evolving area of research.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Increasing glacial lake outburst flood hazard on the eastern Tibetan Plateau and implications for the Sichuan–Tibet Railway",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e19",
       "pubDate": "",
@@ -131,6 +155,14 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e1b",
       "pubDate": "",
       "description": "Understanding long-term evolution of groundwater storage (GWS) is critical for water security in high mountain Asia (HMA), where hydrological systems are heavily dependent on glacier-fed recharges. However, the impacts of climate changes and human activities on historical and future GWS remain insufficiently quantified. Here, we integrate remote sensing, Earth system modeling, and artificial intelligence (AI) to assess historical trends and project future evolutions in GWS across HMA. Remote sensing reveals that approximately 69% of the regions experienced GWS declines during 2003–2020, with annual losses totaling −24.2 Gt, particularly in densely populated and irrigated downstream basins such as Ganges–Brahmaputra and Indus. Using a Transformer-based framework, we attribute 47% of GWS variability to direct climate drivers and an additional 15% to cryospheric processes, while human activities contribute up to 38% of declines. The identified GWS decline in downstream basins along with its intensifying pattern is further corroborated by 2554 in situ groundwater well observations. Our data-driven projections further indicate a sustained climate-induced threat to groundwater sustainability in high-risk basins through the end of the century when maintaining current water-use levels. While cryospheric melt may temporarily offset losses until the 2060s, this buffering effect will diminish over time and lead to accelerated depletion under climate warming. This study demonstrates the value of combining remote sensing with explainable AI to improve groundwater assessment and support climate-resilient water management in high mountain regions worldwide.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Synthesizing energy system investment portfolio performance across climate models to address the practitioner’s dilemma",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2f74",
+      "pubDate": "",
+      "description": "Alternative but equally plausible future climate realizations can necessitate different energy system investments, posing a dilemma to practitioners when making investment decisions. Addressing this dilemma requires quantitative methods to synthesize information across climate realizations, which are lacking in the energy systems community. This research presents a decision-making framework that centers a variability index to quantify resource adequacy (RA) contributions of investments across potential climate realizations. The research framework is applied to the Western U.S. power system, with a focus on California RA outcomes, by integrating dynamically downscaled data from five climate models with an RA model that simulates generator outages and optimizes transmission and storage operations. This framework finds investment portfolios can have highly variable RA contributions between climate models. For instance, a wind-and-battery portfolio reduces expected unserved energy by 78% in one climate model but by only 47% in another. This range of behaviors yields a variability index of 0.65 for the wind-and-battery investment, much higher than a variability index of 0.2 for a solar-only investment portfolio that achieves more consistent RA reductions. By combining the variability index with a benefit metric, this work shows a frontier of investment options that illuminate trade-offs for decision-makers and synthesize outcomes across plausible climate realizations.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
