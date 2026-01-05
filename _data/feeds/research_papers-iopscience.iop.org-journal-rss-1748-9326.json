@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-05T11:26:36.870164",
+  "fetched_at": "2026-01-05T13:00:39.371372",
   "items": [
+    {
+      "title": "Indirect nitrous oxide emission factors of shallow eutrophic lakes: the importance of dissolved organic carbon and nitrate",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1e92",
+      "pubDate": "",
+      "description": "Lakes are an important source of nitrous oxide (N2O). However, the indirect N2O emission factor (EF) model, applied by the Intergovernmental Panel on Climate Change (IPCC) for estimating inland water N2O emissions, is inadequate for lakes due to uncertainties in the N2O production pathways and significant spatiotemporal variations in EF values. Herein, we combined in situ N2O emission investigations, metagenomic sequencing, and isotopic mapping techniques to determine the pathway of N2O production and environmental control of EF values in shallow eutrophic lakes along the middle and lower reaches of the Yangtze River. Dissolved N2O concentration exhibited a significant correlation with nitrate (NO3−-N), coupled with a positive relationship between the (nirK+ nirS)/nosZ ratio and N2O fluxes. Furthermore, a δ15NSP-δ18ON2O mapping approach model verified that 94.0 ± 9.1% of the total N2O production was contributed by denitrification. These observations jointly demonstrated that denitrification dominated the N2O production in the studied lacustrine system. Based on these findings, the nitrogen source (NO3−-N) concentration for denitrification and the ratio of the carbon source (dissolved organic carbon (DOC)) to NO3−-N concentration (DOC/NO3−-N) were incorporated into a model, both of which showed high correlations with EF values in the studied lacustrine system and global meta-analysis dataset. This model, which provides a good fit, corrects N2O emission overestimations from IPCC models by using easily obtained water quality variables.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Rising heavy precipitation amid decreasing typhoon contribution in Southeast Asia",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e1a",
@@ -155,14 +163,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e16",
       "pubDate": "",
       "description": "China has been vigorously developing the solar photovoltaic (PV) industry to address climate change and air pollution. While aerosols constitute a significant air pollutant that impairs PV generation efficiency, few studies have examined how China’s clean air action (CAA) plan has influenced solar PV performance. To address this gap, we employ the PVLIB-Python model to quantify PV capacity factors and power generation changes across China, due to the CAA plan in China from 2013 to 2020. We find that improved air quality has substantially enhanced PV generation, particularly in eastern China, generating up to 41.3 TWh additional electricity per year, estimated with current PV capacity. The largest increases are in provinces such as Shandong and Henan, with heavier air pollution and higher PV installation. By employing multiple CMIP6 models, we also estimate potential future PV power generation changes in China. We find that with sustainable development and strong climate change mitigation policies, the reduced air pollution and increased solar radiation can potentially increase the PV power generation by 37.4–52.6 TWh per year by the 2050s, without even considering the newly installed PV facilities.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Borealization of tundra ecosystems with climate and land-use change",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e18",
-      "pubDate": "",
-      "description": "As the colder regions of the planet warm, species are moving northward and upward from the boreal forest to the tundra biome, a process that has been referred to as borealization. Here, we examine the diverse uses of the term borealization and propose the concept of ‘tundra borealization’ for terrestrial environments to specifically describe shifts and increases in abundance of boreal species into the tundra. We summarize the evidence to date for borealization of plant and animal communities in tundra ecosystems and the different approaches that can be used to quantify borealization. We discuss how land-use change is interacting with climate change, leading to species and community reorganization in colder biomes, and the consequences of borealization for food webs, ecosystem functions and northern livelihoods. Our review brings together the different definitions and lines of evidence for tundra borealization in terrestrial ecosystems to emphasize this important ecological process and rapidly evolving area of research.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
