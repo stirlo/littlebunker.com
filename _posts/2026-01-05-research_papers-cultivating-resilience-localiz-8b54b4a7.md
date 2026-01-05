@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Cultivating resilience: localized insights into climate impacts and gendered adaptation strategies in smallholder farming in Ghana"
+date: 2026-01-05 00:00:00 +0000
+categories: [research_papers]
+tags: ['year-2023']
+keywords: ['cultivating', 'localized', 'resilience', 'year-2023']
+description: "This study explores gendered perspectives on climate adaptation in the Ejura-Sekyedumase Municipality"
+external_url: https://www.frontiersin.org/articles/10.3389/fclim.2025.1727893
+is_feed: true
+source_feed: "Frontiers in Climate | New and Recent Articles"
+feed_category: "research_papers"
+---
+
+BackgroundSmallholder farmers bear disproportionate climate-related risks due to heavy reliance on natural resources and limited access to adaptive technologies. Male and female farmers experience climate change impacts differently, yet there remains limited localized understanding of gender-specific adaptation strategies in Ghana. This study explores gendered perspectives on climate adaptation in the Ejura-Sekyedumase Municipality. It addresses essential knowledge gaps in how structural inequalities, indigenous knowledge systems, and institutional access intersect to shape differentiated adaptive pathways among smallholder farming communities.MethodsGrounded in Feminist Political Ecology and Adaptive Capacity theory, we employed an exploratory qualitative design from June–August 2023. Using purposive sampling, we conducted semi-structured interviews (n = 40), focus group discussions (n = 3), and field observations with smallholder farmers across three sub-districts: Ejura, Hiawoanwu, and Sekyedumase. Data were thematically analyzed following Braun and Clarke's approach, with data integration enhancing validity and contextual depth. Verbatim quotations were employed to preserve research participants' voices and validate emergent themes.ResultsFindings revealed profound gender disparities in access to land, credit, and extension services that systematically constrain women's adaptive capacity. Male farmers engaged in larger-scale, capital-intensive practices such as mechanized ridging, enabled by institutional connections and cooperative membership. Conversely, women developed innovative, smaller-scale strategies including mulching, seed preservation, food processing, and water conservation that required minimal external inputs yet demonstrated ecological sustainability and community focus. Women's adaptation operated through informal knowledge-sharing networks, collective labor arrangements, and indigenous forecasting methods. These practices reveal adaptive agency despite structural marginalization. Spatial inequalities across sub-districts and intergenerational tensions between traditional knowledge and technological innovation further shaped adaptation dynamics.ConclusionThis study demonstrates that effective climate adaptation requires gender-transformative policies addressing structural inequalities in land tenure, credit access, and institutional support. It also emphasizes recognizing and scaling women's ecologically grounded innovations. The research advances Sustainable Development Goals 2, 5, and 13 by revealing their fundamental interdependence. It emphasizes that climate-resilient food systems cannot be achieved without dismantling gender inequalities that constrain adaptive capacity among smallholder farmers.
+
+[Read original article](https://www.frontiersin.org/articles/10.3389/fclim.2025.1727893)
