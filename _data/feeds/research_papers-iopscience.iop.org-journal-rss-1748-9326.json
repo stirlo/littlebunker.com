@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-05T08:42:35.586401",
+  "fetched_at": "2026-01-05T09:39:53.922833",
   "items": [
+    {
+      "title": "Rising heavy precipitation amid decreasing typhoon contribution in Southeast Asia",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e1a",
+      "pubDate": "",
+      "description": "Understanding long-term precipitation changes in Southeast Asia (SEA) is important because the region is highly vulnerable to precipitation-related disasters. This study examines typhoon and non-typhoon heavy precipitation over SEA during 1960–2024 using a typhoon track dataset and three high-resolution precipitation products. Results show a significant decrease in typhoon-precipitation contribution to total precipitation across the entire SEA, both in its continental and maritime regions, especially during the boreal summer half-year. This trend persists under heavy precipitation conditions (95th and 99th percentiles). In contrast, based on tracking results, non-typhoon heavy precipitation shows increases in precipitation area but decreases in lifespan intensity, yielding more total precipitation per event. Our findings indicate a shifting hazard regime: a decrease in typhoon-related rainfall is being offset by a spatial expansion of non-typhoon heavy precipitation, introducing a new regional risk. The findings provide critical insights into the change of regional precipitation patterns and have implications for disaster management and adaptation in SEA.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Simulated Earth system response to acid downwelling as a form of ocean alkalinity enhancement",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2105",
@@ -155,14 +163,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e18",
       "pubDate": "",
       "description": "As the colder regions of the planet warm, species are moving northward and upward from the boreal forest to the tundra biome, a process that has been referred to as borealization. Here, we examine the diverse uses of the term borealization and propose the concept of ‘tundra borealization’ for terrestrial environments to specifically describe shifts and increases in abundance of boreal species into the tundra. We summarize the evidence to date for borealization of plant and animal communities in tundra ecosystems and the different approaches that can be used to quantify borealization. We discuss how land-use change is interacting with climate change, leading to species and community reorganization in colder biomes, and the consequences of borealization for food webs, ecosystem functions and northern livelihoods. Our review brings together the different definitions and lines of evidence for tundra borealization in terrestrial ecosystems to emphasize this important ecological process and rapidly evolving area of research.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Increasing glacial lake outburst flood hazard on the eastern Tibetan Plateau and implications for the Sichuan–Tibet Railway",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e19",
-      "pubDate": "",
-      "description": "Glacial lake outburst floods (GLOFs) are a severe natural hazard on the eastern Tibetan Plateau, posing a risk to infrastructure safety (e.g. the Sichuan–Tibet Railway) and regional socioeconomic development. However, previous GLOF studies often neglected GLOFs’ return periods when evaluating their magnitudes. In this study, we developed a probabilistic modeling framework to quantify the peak discharges and flood volumes of potential GLOFs with return periods ranging from 10 to 500 years for the eastern Tibetan Plateau with over 11 000 glacial lakes. The results indicate that the GLOF peak discharge increases from 0.5 × 103 m3 s−1 at a 10 year return period to over ∼8.6 × 103 m3 s−1 at a 500 year return period, whereas the flood volume increases from ∼1.42 × 106 m3 to ∼20.17 × 106 m3. Future climate change will likely increase the GLOF magnitude, with peak discharge (100 year return period) increasing from ∼3.3 × 103 m3 s−1 in 2015 to ∼3.8 × 103 m3 s−1 in 2100 under the RCP8.5. We further evaluated the GLOF magnitude along the Sichuan–Tibet Railway and identified railway segments crossing the Yarlung Zangbo, Salween, and Jinsha rivers as high hazard areas, where the projected peak discharge exceeded ∼2.5 × 103 m3 s−1 and flood volume surpassed ∼9.1 × 106 m3 in 2100 under RCP8.5. These results underscore the urgent need to integrate GLOF hazards into infrastructure design and enhance the predictive capacity for potential GLOF impacts on river ecosystems, water quality and landscape evolution.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
