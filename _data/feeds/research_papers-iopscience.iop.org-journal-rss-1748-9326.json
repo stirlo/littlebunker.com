@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-06T15:30:21.951647",
+  "fetched_at": "2026-01-06T16:38:02.078226",
   "items": [
     {
       "title": "Importance of beginning industrial-era climate simulations in the eighteenth century",
@@ -39,6 +39,38 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Synthesis study of evapotranspiration evolution in the Mekong Delta induced by land use and land cover changes in the decades of 1990–2020",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae301c",
+      "pubDate": "",
+      "description": "Evapotranspiration (ET) plays a key role in the water cycle and balance, and its estimation is of paramount importance in hydrological studies. This variable is also strongly influenced by the land use and land cover (LULC). This study use a synthesis approach to analyse the relationship between ET variation and LULC transformation in the period 1990–2020. The study area represents a major agricultural region in the Mekong Delta of Vietnam between the Mekong and Bassac rivers. The multivariate dataset was ingested into the hydrological model Soil and Water Assessment Tool to examine the multidecadal ET evolution across the study region. The ET evolution is investigated together with LULC changes to identify the primary drivers of the ET change. The results reveal an increase in landscape fragmentation together with a decrease in ET. The reduction in ET is associated with the decrease in water surfaces corresponding to upstream dam operations and with the construction of new urban areas. In the coastal area, a conversion from natural areas (i.e. mangroves cover) to aquaculture has been observed, leading to a slight increase in ET.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "China’s future dietary transition and environmental sustainability: regional projections and impacts",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae301e",
+      "pubDate": "",
+      "description": "The vast heterogeneity in dietary practices and demographic structures across China has led to pronounced regional disparities in food demand and environmental impacts. Yet, most existing assessments remain at the national level, overlooking regional diversity and differences in nutritional intake. This study integrates provincial dietary preferences, age–gender–residence–specific energy requirements, and environmental constraints on cropland, blue water, and greenhouse gas (GHG) emissions under the shared socio-economic pathways (SSPs). By 2050, national food demand is projected at 403–510 Mt, requiring 53–66 Mha of cropland, 128–148 km3 of blue water, and 544–790 MtCO2e of GHG emissions. Diets with carbohydrate-derived energy exceeding 55% exhibit lower environmental pressures and greater alignment with sustainability goals than the Chinese Dietary Guidelines. The findings offer critical insights into regional diet-environment linkages and support the development of food management strategies tailored to diverse regional conditions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Comprehensive assessment of flood risk and community impact of concentrated animal feeding operations in Iowa",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3095",
+      "pubDate": "",
+      "description": "Flooding presents a significant risk to concentrated animal feeding operations (CAFOs), especially in regions increasingly affected by extreme weather events. This study uses advanced geospatial analysis techniques to assess the environmental and economic vulnerabilities of 12 703 CAFOs across Iowa, United States. We focused on the exposure of CAFOs to 100 year and 500 year floodplains, integrating floodplain maps with location data operational characteristics, and livestock types (cattle and swine) to assess flood risk. The analysis also considered the size and construction year of each CAFO, offering insights into how older and larger operations are disproportionately vulnerable. The results indicate that over 1.9 million animal units (13% of total), are located within the 100 year floodplain. In the 500 year flood floodplain, it increases to 2.05 million animal units, representing 14% of the state’s total. Sioux, Lyon, and Hancock counties were identified as having particularly high potential flood exposure, with over 16% of animal units in Sioux County located within the 100 year floodplain, increasing to 17% within the 500 year floodplain. The study shows that larger CAFOs, particularly those built before 2004, were often located in flood-prone areas and, if either a 100- or 500 year flood occurs, would potentially affect a larger number of animal units due to their operational scale. These risks not only threaten livestock but also have far-reaching economic consequences, including significant operational disruptions, infrastructure damage, and cascading effects on supply chains and market stability. As extreme weather events become more frequent due to climate change, these findings highlight the need for heightened awareness of CAFO vulnerabilities and call for further research into adaptive strategies to protect Iowa’s agricultural sector.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Key drivers and predictability of the unprecedented 2024 United Arab Emirates flood",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3096",
+      "pubDate": "",
+      "description": "In mid-April 2024, the Arabian Peninsula was struck by an extreme rainfall event, during which some areas received an entire year’s worth of precipitation within just 24 h. The United Arab Emirates was the hardest hit, experiencing widespread flooding, four fatalities, and economic damages exceeding USD 544 million. Analysis of multiple precipitation datasets confirmed that this was the most intense daily rainfall event ever recorded in the region. To investigate the system responsible, a state-of-the-art storm-tracking algorithm was applied to reconstruct the evolution of the mesoscale convective system that caused the hazard. Findings revealed that peak intensity occurred on 16 April, contributing more than 70% of the total event rainfall. Synoptic-scale diagnostics pointed to the rare convergence of two key drivers: enhanced low-level moisture transport via a strengthened Somali low-level jet (SLLJ) and an unusually strong Arabian Cold Vortex in the mid-troposphere. Long-term reanalysis data indicate that such a combination is extremely rare, observed on only 0.006% of all days in the 1940–2024 daily record, previously exceeded only during the 2019 Iran floods. However, forecasts from 11 models in the International Grand Global Ensemble (TIGGE) archive consistently underestimated rainfall (mean bias of −63.6%), due to the severe underestimation of the SLLJ and the moderate overestimation of 500 hPa geopotential height. These results underscore the growing threat of extreme precipitation in arid regions and emphasize the urgent need to improve model capabilities in forecasting moisture dynamics and upper-level disturbances under the changing climate.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Indirect nitrous oxide emission factors of shallow eutrophic lakes: the importance of dissolved organic carbon and nitrate",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae1e92",
       "pubDate": "",
@@ -59,30 +91,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2e1a",
       "pubDate": "",
       "description": "Understanding long-term precipitation changes in Southeast Asia (SEA) is important because the region is highly vulnerable to precipitation-related disasters. This study examines typhoon and non-typhoon heavy precipitation over SEA during 1960–2024 using a typhoon track dataset and three high-resolution precipitation products. Results show a significant decrease in typhoon-precipitation contribution to total precipitation across the entire SEA, both in its continental and maritime regions, especially during the boreal summer half-year. This trend persists under heavy precipitation conditions (95th and 99th percentiles). In contrast, based on tracking results, non-typhoon heavy precipitation shows increases in precipitation area but decreases in lifespan intensity, yielding more total precipitation per event. Our findings indicate a shifting hazard regime: a decrease in typhoon-related rainfall is being offset by a spatial expansion of non-typhoon heavy precipitation, introducing a new regional risk. The findings provide critical insights into the change of regional precipitation patterns and have implications for disaster management and adaptation in SEA.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Simulated Earth system response to acid downwelling as a form of ocean alkalinity enhancement",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2105",
-      "pubDate": "",
-      "description": "‘Acid downwelling’ (AD) is a proposed marine carbon dioxide removal (CDR) method, which describes the idea of electrochemically splitting open ocean surface water into an alkaline solution to remain at the surface ocean and cause additional ocean CO2 uptake, and into an acidic solution that is pumped down into the deep ocean for disposal via vertical pipes. In this study, we simulate idealized large-scale AD in an Earth system model of intermediate complexity with different acid injection depths and downwelling intensities and find a maximum marine CDR (mCDR) potential for continuous AD (0.25 Pmol yr−1) of 320 Pg C until the end of the millennium under an extended RCP 4.5 CO2 emissions scenario. However, the acidity temporarily stored at depth resurfaces primarily around the Southern Ocean via ocean circulation and causes regional CO2 outgassing. Furthermore, too intense downwelling of warm surface water leads to an increase in ocean interior temperatures causing further Earth system feedbacks and accelerates the re-emergence of downwelled acidity to the surface. However, the extent to which this re-emergence causes CO2 outgassing into the atmosphere is emissions scenario dependent. This study highlights that large-scale ocean circulation, the investigated time frame, and the future CO2 emission scenario all need to be considered in order to determine the mCDR potential of AD.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Drawing the line: how levee accreditation shapes flood insurance winners and losers",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2495",
-      "pubDate": "",
-      "description": "Millions of Californians live behind levees constructed to redirect water and prevent floods. Accurate assessments of these levees are crucial in flood hazard maps, which underpin federal floodplain regulations and insurance rates provided by the National Flood Insurance Program. However, when the federal government digitized California’s flood maps in the 2000s, it used a simplistic binary procedure that assessed levees as either meeting the minimum standards for accreditation or not. This study investigates the consequences of the ‘without levee’ procedure, which mapped flood risk as if non-accredited levees did not exist and shaped the 100 year flood zone in California. We combine publicly available datasets on levee systems, flood insurance enrollment, and demographics behind levees. We find that non-accredited levees outnumber accredited levees by a factor of 10-to-1, but accredited levees are concentrated in urban areas and protect more people and assets. Our results demonstrate that households behind non-accredited levees effectively cross-subsidize flood insurance costs in leveed areas—between 2009 and 2020, households behind non-accredited levees paid twice as much for flood insurance premiums than if their levee were accredited and they were removed from the flood zone. While Risk Rating 2.0 insurance pricing is narrowing the premium gap, accreditation continues to shape the 100 year flood zone, with enduring economic implications.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Contextualising seasonal forecasts to accelerate their uptake for agricultural decision-making",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2a52",
-      "pubDate": "",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
