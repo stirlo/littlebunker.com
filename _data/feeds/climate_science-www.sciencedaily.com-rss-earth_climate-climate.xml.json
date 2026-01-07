@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-07T05:31:37.445178",
+  "fetched_at": "2026-01-07T06:43:33.496970",
   "items": [
+    {
+      "title": "Wildfires are polluting the air far more than thought",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260107012114.htm",
+      "pubDate": "Wed, 07 Jan 2026 01:34:01 EST",
+      "description": "Scientists have discovered that wildfires release far more air-polluting gases than previously estimated. Many of these hidden emissions can transform into fine particles that are dangerous to breathe. The study shows wildfire pollution rivals human-made emissions in some parts of the world. This helps explain why wildfire smoke can linger and worsen air quality long after the flames are gone.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "This simple math trick could transform earthquake science",
       "link": "https://www.sciencedaily.com/releases/2026/01/260106001918.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251211100618.htm",
       "pubDate": "Fri, 12 Dec 2025 04:28:03 EST",
       "description": "A sudden, unexplained mass die-off is decimating sea urchins around the world, including catastrophic losses in the Canary Islands. Key reef-grazing species are reaching historic lows, and their ability to reproduce has nearly halted in some regions. Scientists suspect a pathogen but haven’t yet confirmed the culprit. The fate of these reefs may hinge on solving this unfolding pandemic.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The deep ocean is fixing carbon in ways no one expected",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251210092024.htm",
-      "pubDate": "Wed, 10 Dec 2025 11:23:29 EST",
-      "description": "Researchers have uncovered surprising evidence that the deep ocean’s carbon-fixing engine works very differently than long assumed. While ammonia-oxidizing archaea were thought to dominate carbon fixation in the sunless depths, experiments show that other microbes—especially heterotrophs—are doing far more of the work than expected. This discovery reshapes our understanding of how carbon moves through the deep ocean and stabilizes Earth’s climate.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
