@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-07T04:04:52.073209",
+  "fetched_at": "2026-01-07T05:31:37.445178",
   "items": [
+    {
+      "title": "This simple math trick could transform earthquake science",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260106001918.htm",
+      "pubDate": "Tue, 06 Jan 2026 23:15:15 EST",
+      "description": "Earthquakes happen daily, sometimes with devastating consequences, yet predicting them remains out of reach. What scientists can do is map the hidden layers beneath the surface that control how strongly the ground shakes. A new approach speeds up complex seismic simulations by a factor of about 1,000, making risk assessments far more practical. While it won’t forecast the next quake, it could help cities better prepare for one.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A Greenland glacier is cracking open in real time",
       "link": "https://www.sciencedaily.com/releases/2026/01/260104202818.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251210092024.htm",
       "pubDate": "Wed, 10 Dec 2025 11:23:29 EST",
       "description": "Researchers have uncovered surprising evidence that the deep ocean’s carbon-fixing engine works very differently than long assumed. While ammonia-oxidizing archaea were thought to dominate carbon fixation in the sunless depths, experiments show that other microbes—especially heterotrophs—are doing far more of the work than expected. This discovery reshapes our understanding of how carbon moves through the deep ocean and stabilizes Earth’s climate.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Rising temperatures are slowing early childhood development",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251209234247.htm",
-      "pubDate": "Wed, 10 Dec 2025 00:59:03 EST",
-      "description": "Researchers discovered that unusually high temperatures can hinder early childhood development. Children living in hotter conditions were less likely to reach key learning milestones, especially in reading and basic math skills. Those facing economic hardship or limited resources were hit the hardest. The study underscores how climate change may shape children’s learning long before they reach school age.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
