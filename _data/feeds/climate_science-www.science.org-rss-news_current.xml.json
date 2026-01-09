@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-09T10:30:58.831966",
+  "fetched_at": "2026-01-09T11:25:39.089929",
   "items": [
+    {
+      "title": "World’s oldest whale harpoons discovered in Brazil",
+      "link": "https://www.science.org/content/article/world-s-oldest-whale-harpoons-discovered-brazil",
+      "pubDate": "",
+      "description": "Far from the icy Arctic, ancient South Americans hunted whales using whalebone tools",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "The Trump administration says some approved childhood vaccines need better studies. Scientists disagree",
       "link": "https://www.science.org/content/article/trump-administration-says-some-approved-childhood-vaccines-need-better-studies",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/fresh-conflicts-erupt-around-giant-database-flu-and-covid-19-sequences",
       "pubDate": "",
       "description": "Critics say “autocratic” behavior by GISAID could hamper response to a future pandemic",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Appeals court agrees that NIH cannot reduce overhead payments to academic institutions",
-      "link": "https://www.science.org/content/article/appeals-court-agrees-nih-cannot-reduce-overhead-payments-academic-institutions",
-      "pubDate": "",
-      "description": "Judges uphold injunction by lower court against a 15% flat rate for indirect costs",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
