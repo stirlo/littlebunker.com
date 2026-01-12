@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-12T14:32:33.308640",
+  "fetched_at": "2026-01-12T15:33:11.081691",
   "items": [
+    {
+      "title": "The oxygen you breathe depends on a tiny ocean ingredient",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260112001034.htm",
+      "pubDate": "Mon, 12 Jan 2026 09:01:37 EST",
+      "description": "Microscopic ocean algae produce a huge share of Earth’s oxygen—but they need iron to do it. New field research shows that when iron is scarce, phytoplankton waste energy and photosynthesis falters. Climate-driven changes may reduce iron delivery to the oceans, weakening the base of marine food chains. Over time, this could mean fewer krill and fewer whales, seals, and penguins.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "3.7-billion-year-old rocks reveal how Earth and the Moon were born",
       "link": "https://www.sciencedaily.com/releases/2026/01/260108231825.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251211100633.htm",
       "pubDate": "Fri, 12 Dec 2025 10:20:47 EST",
       "description": "New research shows that crops are far more vulnerable when too much rainfall originates from land rather than the ocean. Land-sourced moisture leads to weaker, less reliable rainfall, heightening drought risk. The U.S. Midwest and East Africa are particularly exposed due to soil drying and deforestation. Protecting forests and improving land management could help stabilize rainfall and crop yields.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists find a massive hidden CO2 sponge beneath the ocean floor",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251211100631.htm",
-      "pubDate": "Thu, 11 Dec 2025 12:42:22 EST",
-      "description": "Researchers found that eroded lava rubble beneath the South Atlantic can trap enormous amounts of CO2 for tens of millions of years. These porous breccia deposits store far more carbon than previously sampled ocean crust. The discovery reshapes how scientists view the long-term balance of carbon between the ocean, rocks, and atmosphere. It also reveals a hidden mechanism that helps stabilize Earth’s climate over geological timescales.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
