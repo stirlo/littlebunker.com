@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-13T14:32:46.526754",
+  "fetched_at": "2026-01-13T15:33:36.864837",
   "items": [
+    {
+      "title": "Atmospheric forcing uncertainty contributes to divergent estimates of China’s terrestrial carbon dynamics",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2af8",
+      "pubDate": "",
+      "description": "Accurate quantification of terrestrial carbon dynamics is essential for assessing ecosystem–climate feedbacks and informing climate mitigation in the Anthropocene. China, as both the world’s largest emitter and a region of rapid ecological change, plays a key role in the global carbon cycle. Yet uncertainties in atmospheric forcing datasets remain a significant source of uncertainty in land surface model simulations and are rarely assessed systematically. Here, we assess China’s terrestrial carbon budget (1979–2014) using the Community Land Model (CLM5.0) driven by three widely used meteorological datasets: CRUNCEP, the Global Soil Wetness Project Phase 3 (GSWP3), and the China Meteorological Forcing Dataset (CMFD), and evaluated against more than 800 FLUXNET site-months and nine eddy covariance towers. Forcing choice strongly alters the magnitude and trend of carbon fluxes, and China’s terrestrial ecosystems acted as either a weak carbon sink or a net source, depending on the forcing. GSWP3 performed best overall in simulating gross primary productivity (GPP), CRUNCEP relatively poorly, and CMFD best in high-altitude and cold-dry regions. Total ecosystem carbon storage was estimated at 86.30–90.00 PgC, primarily in soil (84.1%) and vegetation (15.9%). Interannual GPP variability was mainly controlled by precipitation (29.4%), followed by temperature (17.2%), while shortwave radiation had negative effects (11.5%). Shapley additive explanations analysis further showed that moisture-related variables (precipitation and humidity) dominate interannual GPP variability. By combining process-based modeling and machine learning, this study shows how uncertainties in meteorological inputs affect terrestrial carbon dynamics. These findings underscore the limitations of single-forcing simulations in Earth system modeling and highlight the need for improved meteorological inputs to support robust carbon budgeting and climate neutrality goals.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Alkalinity enhancement in subduction regions and the global ocean: efficiency, earth system feedbacks, and scenario sensitivity",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae293b",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3193",
       "pubDate": "",
       "description": "Lake hot events (months with abnormally high lake surface water temperature) and dry events (months with abnormally low lake surface extent) can individually cause significant stress to lake ecosystems. When these events occur simultaneously, as compound hot-dry events, their impacts can be even more severe, particularly in dryland regions. Yet, their frequency, long-term dynamics, and driving factors remain poorly understood. Here, we leverage model-derived lake surface water temperature and satellite-derived surface area datasets to identify and analyze hot events, dry events, and compound hot-dry events in 2,338 lakes across global drylands from 1985 to 2020. We find that the occurrence of compound hot-dry event has significantly increased in 520 lakes, while 240 lakes have shown a significant decrease. Hot events and dry events individually increased in 1007 and 767 lakes, respectively. Furthermore, in most lakes, the temporal changes in compound hot-dry events are primarily driven by changes in dry event frequency, rather than hot events or their co-occurrence. These findings underscore the growing compound stress on dryland lake systems and emphasize the need for targeted adaptation and resilience strategies.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "A critique of climate objectivity in the context of global injustice",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae301b",
-      "pubDate": "",
-      "description": "As climate science intersects with rising political urgency and global ecological crisis, calls for ‘neutrality’ risk obscuring the field’s entanglement with systems of power, historical dispossession, and structural inequality. This article challenges conventional framings of scientific objectivity, arguing that justice, accountability, and epistemic pluralism are not threats to scientific credibility but conditions of its ethical and societal relevance. Drawing on interdisciplinary insights, it advances a vision of climate science that is reflexive, engaged, and responsive to the unequal burdens of climate disruption. Amid compounding climate injustices, detachment is not a position of neutrality but a failure to engage with the responsibilities of knowledge production.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
