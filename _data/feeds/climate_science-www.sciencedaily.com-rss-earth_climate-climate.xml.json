@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-13T07:30:46.243950",
+  "fetched_at": "2026-01-13T08:39:10.729753",
   "items": [
+    {
+      "title": "Scientists discover what’s linking floods and droughts across the planet",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260112214304.htm",
+      "pubDate": "Tue, 13 Jan 2026 02:45:55 EST",
+      "description": "Scientists tracking Earth’s water from space discovered that El Niño and La Niña are synchronizing floods and droughts across continents. When these climate cycles intensify, far-apart regions can become unusually wet or dangerously dry at the same time. The study also found a global shift about a decade ago, with dry extremes becoming more common than wet ones. Together, the results show that water crises are part of a global pattern, not isolated events.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "The oxygen you breathe depends on a tiny ocean ingredient",
       "link": "https://www.sciencedaily.com/releases/2026/01/260112001034.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251212022244.htm",
       "pubDate": "Fri, 12 Dec 2025 02:58:26 EST",
       "description": "Fossils from Qatar have revealed a small, newly identified sea cow species that lived in the Arabian Gulf more than 20 million years ago. The site contains the densest known collection of fossil sea cow bones, showing that these animals once thrived in rich seagrass meadows. Their ecological role mirrors that of modern dugongs, which still reshape the Gulf’s seafloor as they graze. The findings may help researchers understand how seagrass ecosystems respond to long-term environmental change.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists find hidden rainfall pattern that could reshape farming",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251211100633.htm",
-      "pubDate": "Fri, 12 Dec 2025 10:20:47 EST",
-      "description": "New research shows that crops are far more vulnerable when too much rainfall originates from land rather than the ocean. Land-sourced moisture leads to weaker, less reliable rainfall, heightening drought risk. The U.S. Midwest and East Africa are particularly exposed due to soil drying and deforestation. Protecting forests and improving land management could help stabilize rainfall and crop yields.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
