@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-13T13:01:09.782565",
+  "fetched_at": "2026-01-13T14:32:33.302640",
   "items": [
+    {
+      "title": "Extreme heat is breaking honey bees’ natural cooling system",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260112214306.htm",
+      "pubDate": "Tue, 13 Jan 2026 03:31:37 EST",
+      "description": "Honey bees can normally keep their hives perfectly climate-controlled, but extreme heat can overwhelm their defenses. During a scorching Arizona summer, researchers found that high temperatures caused damaging temperature fluctuations inside hives, leading to population declines. Smaller colonies were hit hardest, experiencing the most severe swings. As global temperatures rise, heat waves could pose a growing threat to bees and the pollination they provide.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists discover what’s linking floods and droughts across the planet",
       "link": "https://www.sciencedaily.com/releases/2026/01/260112214304.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251215084159.htm",
       "pubDate": "Tue, 16 Dec 2025 07:11:05 EST",
       "description": "A rare, ultra-long earthquake in Myanmar revealed that mature faults can deliver their full force directly to the surface. The discovery could mean stronger shaking near faults like California’s San Andreas than current models predict.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "New fossils in Qatar reveal a tiny sea cow hidden for 21 million years",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251212022244.htm",
-      "pubDate": "Fri, 12 Dec 2025 02:58:26 EST",
-      "description": "Fossils from Qatar have revealed a small, newly identified sea cow species that lived in the Arabian Gulf more than 20 million years ago. The site contains the densest known collection of fossil sea cow bones, showing that these animals once thrived in rich seagrass meadows. Their ecological role mirrors that of modern dugongs, which still reshape the Gulf’s seafloor as they graze. The findings may help researchers understand how seagrass ecosystems respond to long-term environmental change.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
