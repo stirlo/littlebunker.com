@@ -4,7 +4,7 @@
   "description": "RSS Feed for Frontiers in Climate | New and Recent Articles",
   "category": "research_papers",
   "source_url": "https://www.frontiersin.org/journals/climate/rss",
-  "fetched_at": "2026-01-15T13:48:37.808136",
+  "fetched_at": "2026-01-15T14:32:03.030554",
   "items": [
     {
       "title": "A robust deep learning framework for predicting carbon dioxide-water alternating gas injection performance and optimization",
@@ -31,18 +31,18 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Ocean alkalinity enhancement in an estuary",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1665329",
-      "pubDate": "2026-01-12T00:00:00Z",
-      "description": "A high-resolution numerical ocean model is used to assess ocean alkalinity enhancement (OAE) in the San Francisco Bay (SFB) estuary. A novel tracer-based approach is introduced to simulate alkalinity release and the subsequent CO2 ingassing. The model is run for 6 days and accurately reproduces observational data of currents, density, and tides. Estuarine dynamics induce mixing, advect buoyant water out of the Bay, and transport the added alkalinity from deep in the estuary to the surface of the open ocean. Over 80% of the tracer remains in the upper 15 m throughout the simulation. The estimated air-sea equilibration rate of the added alkalinity is approximately 2% per day. Alkalinity exported to the open ocean plays a disproportionately large role in increasing the CO2 ingassing rate compared to that in the estuary. This rate is relatively fast compared to open-ocean OAE studies due to the San Francisco Bay buoyant plume, which confines the released alkalinity to the surface mixed layer. While estuaries offer many benefits for OAE releases, further studies are needed to quantify their biogeochemical and ecosystem impacts.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "An uncertainty-aware framework for solid-phase measurement and verification of enhanced weathering",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1688361",
       "pubDate": "2026-01-12T00:00:00Z",
       "description": "Reliable verification of enhanced weathering as a carbon dioxide removal strategy requires accurate quantification of feedstock dissolution in amended soils. However, spatial heterogeneity introduces significant uncertainty, particularly in sampling designs that rely on sparse or repeated measurements at fixed locations. Here, we develop a probabilistic framework to evaluate how spatial uncertainty in solid-phase geochemical measurements influences the precision of feedstock dissolution estimates derived from an element-element mixing model. We first quantify how variance in soil compositions affects errors in modeled feedstock dissolution and apply distance-based sensitivity analysis to identify the measurement variance thresholds required to achieve desired uncertainty levels. Next, we simulate spatially heterogeneous soil conditions and various composite sampling configurations to identify the optimal sampling strategy likely to meet specified uncertainty criteria. Our findings underscore the necessity of accurately estimating field-scale variance in baseline soil concentrations prior to developing sampling plans. Analysis of data from existing high-density soil sampling campaigns indicates that geochemical variance is likely too high for element-element mixing models to serve as effective near-term constraints on feedstock dissolution. The framework presented here can be further extended to other solid- and multi-phase measurement models for enhanced weathering verification.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "Ocean alkalinity enhancement in an estuary",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1665329",
+      "pubDate": "2026-01-12T00:00:00Z",
+      "description": "A high-resolution numerical ocean model is used to assess ocean alkalinity enhancement (OAE) in the San Francisco Bay (SFB) estuary. A novel tracer-based approach is introduced to simulate alkalinity release and the subsequent CO2 ingassing. The model is run for 6 days and accurately reproduces observational data of currents, density, and tides. Estuarine dynamics induce mixing, advect buoyant water out of the Bay, and transport the added alkalinity from deep in the estuary to the surface of the open ocean. Over 80% of the tracer remains in the upper 15 m throughout the simulation. The estimated air-sea equilibration rate of the added alkalinity is approximately 2% per day. Alkalinity exported to the open ocean plays a disproportionately large role in increasing the CO2 ingassing rate compared to that in the estuary. This rate is relatively fast compared to open-ocean OAE studies due to the San Francisco Bay buoyant plume, which confines the released alkalinity to the surface mixed layer. While estuaries offer many benefits for OAE releases, further studies are needed to quantify their biogeochemical and ecosystem impacts.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -127,14 +127,6 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Anti-racist reorientations to land through gardening with newcomer youth of color",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1639059",
-      "pubDate": "2025-12-15T00:00:00Z",
-      "description": "Our paper seeks to dis/orient normative scholarship on climate migration and climate refugees that reify misleading claims about the relationship between mass migration and climate change, which have been shown to further marginalization of people from the Global South. We orient our attention to a topic that has received considerably less attention in the literature on critical environmental studies: how newcomer (refugee) youth of color (re)establish relationships with more-than-human life, land, air, and water in their newly adopted home in the Global North. Drawing from a three-year-long, community gardening project co-created with the youth, we offer a qualitative analysis of the youths’ participatory, embodied, and discursive work over the first 2 years of creating and caring for the community garden. From a pragmatic perspective, our work arises from the concern that families and youth of color in North America are intersectionally disadvantaged in terms of accessing city resources and public spaces during their resettlement, as noted by critical sociologists of race, migration and gender. Our study reveals how the youths’ participation was centered in the garden through adopting an anti-racist praxis, while also offering an expansive vision of how race and climate are implicated in migration.",
-      "category": "research_papers",
-      "source_url": "https://www.frontiersin.org/journals/climate/rss"
-    },
-    {
       "title": "Enhancing public health through ocean research—a model for global partnership",
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1670665",
       "pubDate": "2025-12-15T00:00:00Z",
@@ -143,10 +135,10 @@
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
     {
-      "title": "Assessing climate change impact on storm surge and funding strategies in east peninsular Malaysia",
-      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1634062",
-      "pubDate": "2025-12-11T00:00:00Z",
-      "description": "Climate change is intensifying storm surge risks in Southeast Asia, particularly along Malaysia’s east coast facing the South China Sea. This study uses the d4PDF climate dataset to simulate maximum storm surge heights under 2 °C and 4 °C global warming scenarios. Results show that projected surge heights exceed 1 meter at all key coastal stations, with localized surges reaching up to 1.8 meters. By integrating these projections with 2014–2024 flood loss statistics and national budget allocations, the study identifies a concerning mismatch between increasing storm surge risks and current mitigation investments, suggesting that existing policy frameworks are underfunded and may lack the capacity to adequately protect high-risk coastal areas. To address this, the study recommends the development of a unified regional storm surge prediction and response system that integrates real-time data and supports cross-border coordination. It also proposes the establishment of standardized infrastructure guidelines tailored to storm surge resilience, and calls for increased investment in community-based risk mapping powered by artificial intelligence (AI). These strategies provide an actionable framework for strengthening disaster management, improving policy responsiveness, and enhancing coastal resilience across Malaysia and Southeast Asia.",
+      "title": "Anti-racist reorientations to land through gardening with newcomer youth of color",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1639059",
+      "pubDate": "2025-12-15T00:00:00Z",
+      "description": "Our paper seeks to dis/orient normative scholarship on climate migration and climate refugees that reify misleading claims about the relationship between mass migration and climate change, which have been shown to further marginalization of people from the Global South. We orient our attention to a topic that has received considerably less attention in the literature on critical environmental studies: how newcomer (refugee) youth of color (re)establish relationships with more-than-human life, land, air, and water in their newly adopted home in the Global North. Drawing from a three-year-long, community gardening project co-created with the youth, we offer a qualitative analysis of the youths’ participatory, embodied, and discursive work over the first 2 years of creating and caring for the community garden. From a pragmatic perspective, our work arises from the concern that families and youth of color in North America are intersectionally disadvantaged in terms of accessing city resources and public spaces during their resettlement, as noted by critical sociologists of race, migration and gender. Our study reveals how the youths’ participation was centered in the garden through adopting an anti-racist praxis, while also offering an expansive vision of how race and climate are implicated in migration.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
@@ -155,6 +147,14 @@
       "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1707039",
       "pubDate": "2025-12-11T00:00:00Z",
       "description": "At the razor’s edge of the Anthropocene, Fiji offers the world not a plea for help, but a masterclass in survival: turning existential threat into a radical blueprint for planetary endurance. This review interrogates Fiji’s holistic climate resilience framework as a frontline small island developing state. The central research question asks: How has Fiji integrated national legislation, catalytic climate finance, rights-based mobility, and strategic diplomacy to construct a comprehensive governance model, and to what extent can this emergent architecture serve as a transferable blueprint for anticipatory adaptation in the Anthropocene? A systematic synthesis of scientific literature, policy texts, and institutional reports deconstructs Fiji’s multi-scalar response into a coherent conceptual model. The analysis advances the “Archipelagic Resilience Model,” structured around four interdependent pillars. Geopolitical Acupuncture leverages Fiji’s moral authority to exert influence in global climate governance. Braided Resilience entwines indigenous ecological knowledge, particularly the Vanua worldview, with contemporary climate science. Catalytic Finance mobilizes resources through innovative mechanisms such as sovereign blue and green bonds. Socially-Just Climate Mobility pioneers a rights-based relocation framework that safeguards dignity and cultural continuity. While innovative, this model exposes tensions, including the development–adaptation paradox and risks of maladaptation. By articulating both synergies and contradictions, the study reframes Fiji as a norm entrepreneur and blueprint for planetary resilience. It establishes a forward-looking research agenda to quantify braided systems and scale equitable adaptation pathways in vulnerable contexts.",
+      "category": "research_papers",
+      "source_url": "https://www.frontiersin.org/journals/climate/rss"
+    },
+    {
+      "title": "Assessing climate change impact on storm surge and funding strategies in east peninsular Malaysia",
+      "link": "https://www.frontiersin.org/articles/10.3389/fclim.2025.1634062",
+      "pubDate": "2025-12-11T00:00:00Z",
+      "description": "Climate change is intensifying storm surge risks in Southeast Asia, particularly along Malaysia’s east coast facing the South China Sea. This study uses the d4PDF climate dataset to simulate maximum storm surge heights under 2 °C and 4 °C global warming scenarios. Results show that projected surge heights exceed 1 meter at all key coastal stations, with localized surges reaching up to 1.8 meters. By integrating these projections with 2014–2024 flood loss statistics and national budget allocations, the study identifies a concerning mismatch between increasing storm surge risks and current mitigation investments, suggesting that existing policy frameworks are underfunded and may lack the capacity to adequately protect high-risk coastal areas. To address this, the study recommends the development of a unified regional storm surge prediction and response system that integrates real-time data and supports cross-border coordination. It also proposes the establishment of standardized infrastructure guidelines tailored to storm surge resilience, and calls for increased investment in community-based risk mapping powered by artificial intelligence (AI). These strategies provide an actionable framework for strengthening disaster management, improving policy responsiveness, and enhancing coastal resilience across Malaysia and Southeast Asia.",
       "category": "research_papers",
       "source_url": "https://www.frontiersin.org/journals/climate/rss"
     },
