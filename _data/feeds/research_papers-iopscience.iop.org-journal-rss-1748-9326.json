@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-16T15:31:22.090203",
+  "fetched_at": "2026-01-16T16:37:45.064600",
   "items": [
     {
       "title": "Compounding of 100-year coastal floods by rainfall in an urban environment",
@@ -35,6 +35,14 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae301d",
       "pubDate": "",
       "description": "Carbon monitoring is needed to track the exchange of carbon between the land and atmosphere. However, comprehensive monitoring of terrestrial ecosystems is challenging, partially because of the fine-scale spatial heterogeneity of land cover and vegetation structure. While forest ecosystems are relatively well studied, knowledge of trees outside forests (TOFs) is limited, even though TOF contribute substantially to many ecosystem services. In this study, we leveraged advances in remote sensing and modeling to quantify TOF and their contribution to the 2011–2023 Maryland state carbon budget. Specifically, the Ecosystem Demography model was initialized with 1 m airborne optical and LiDAR data. These datasets were combined with 30 m National Land Cover Database maps to identify and monitor TOF statewide. In the base year, TOF contributed to 22.86% (2795.59 km2) of the total tree cover, 14.70% (15.98 Tg C) of the total aboveground live tree carbon stocks, and 22.56% (0.39 Tg C yr−1) of the corresponding carbon fluxes in the state, with variation by land cover class. TOF on developed and planted/cultivated lands contributed approximately 90% of the total TOF tree cover and carbon stocks, as well as over 96% of the total TOF carbon fluxes. Most TOF occurred as polygons smaller than 1 km2 and were within 600 m distance from forests. From 2011–2023, persistent TOF carbon stocks were estimated to increase by 5.15 Tg C, representing 23.71% of the state’s total increase in tree carbon stocks over the interval, with substantial interannual variability in carbon fluxes. These results suggest TOF are an important contribution to statewide tree cover and produce carbon stocks and fluxes that should be highlighted in carbon budgets for effective monitoring and assessment. Moving forward, efforts are needed to expand the availability and application of high-resolution remote sensing data and models needed for TOF quantification in carbon budgets.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Emergent constraints on future change projections of mean and extreme temperature and precipitation in the global maize harvesting area",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3194",
+      "pubDate": "",
+      "description": "Maize cultivation faces increasing risks from climate change, particularly because of increasing temperatures and extreme weather events. This study investigates whether the ‘hot’ Earth system models (ESMs) of the Coupled Model Intercomparison Project Phase 6, whose past warming trends are typically greater than the observations, tend to overestimate future temperature and precipitation changes across the global maize harvesting areas. By applying an emergent constraint (EC) approach to 30 ESMs, we assess the future mean and extreme temperature (ΔTave and ΔTmax) and precipitation (ΔPave and ΔPmax) changes during maize growing seasons. We find that ΔTave, ΔTmax, and ΔPmax averaged over the global harvesting regions are significantly correlated with the past global mean temperature trends, indicating that hot ESMs tend to overestimate the future changes in these variables. ECs reduce the inter-ESM variances in these projections by 43%, 39%, and 18%, respectively. Notably, the regions with the highest maize production, such as the USA and China, are projected to experience the greatest increases in ΔTave and ΔTmax. The fraction of the global maize production exposed to historically rare high temperatures increases substantially in the raw projections but is moderated when ECs are applied. These findings suggest that the use of hot ESMs may lead to overestimated impacts of climate change on maize and that EC methods offer a robust pathway for refining impact assessments.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
