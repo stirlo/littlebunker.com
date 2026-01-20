@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-20T21:28:00.370389",
+  "fetched_at": "2026-01-20T22:28:40.736220",
   "items": [
+    {
+      "title": "NASA is making last-ditch attempt to contact tumbling Mars orbiter",
+      "link": "https://www.science.org/content/article/nasa-making-last-ditch-attempt-contact-tumbling-mars-orbiter",
+      "pubDate": "",
+      "description": "After 12 years studying the Red Planet’s atmosphere, MAVEN has gone perilously quiet",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Final funding bill for NIH pushes back against Trump cuts",
       "link": "https://www.science.org/content/article/final-funding-bill-nih-pushes-back-against-trump-cuts",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/what-s-below-antarctica-s-ice-new-map-provides-clearest-view-yet",
       "pubDate": "",
       "description": "Technique could improve models of how ice flows, bolstering predictions of sea level rise",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "In fish, low doses of common pesticide speed aging and death",
-      "link": "https://www.science.org/content/article/fish-low-doses-common-pesticide-speed-aging-and-death",
-      "pubDate": "",
-      "description": "Polluted lakes and lab experiments highlight harms of chronic exposure to chlorpyrifos",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
