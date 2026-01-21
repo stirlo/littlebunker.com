@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-21T10:36:50.622120",
+  "fetched_at": "2026-01-21T11:30:02.518388",
   "items": [
+    {
+      "title": "This new building material pulls carbon out of the air",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260121034148.htm",
+      "pubDate": "Wed, 21 Jan 2026 03:41:48 EST",
+      "description": "A new building material developed by engineers at Worcester Polytechnic Institute could change how the world builds. Made using an enzyme that turns carbon dioxide into solid minerals, the material cures in hours and locks away carbon instead of releasing it. It’s strong, repairable, recyclable, and far cleaner than concrete. If adopted widely, it could slash emissions across the construction industry.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "The world’s mountains are warming faster than anyone expected",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260120000259.htm",
+      "pubDate": "Wed, 21 Jan 2026 00:37:23 EST",
+      "description": "Mountain regions around the world are heating up faster than the lands below them, triggering dramatic shifts in snow, rain, and water supply that could affect over a billion people. A major global review finds that rising temperatures are turning snowfall into rain, shrinking glaciers, and making mountain weather more extreme and unpredictable. These changes threaten water sources for huge populations, including those in China and India, while also increasing risks of floods, ecosystem collapse, and deadly weather events.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Microplastics are undermining the ocean’s power to absorb carbon",
       "link": "https://www.sciencedaily.com/releases/2026/01/260116035322.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251221043231.htm",
       "pubDate": "Sun, 21 Dec 2025 11:02:49 EST",
       "description": "Scientists have uncovered a missing feedback in Earth’s carbon cycle that could cause global warming to overshoot into an ice age. As the planet warms, nutrient-rich runoff fuels plankton blooms that bury huge amounts of carbon in the ocean. In low-oxygen conditions, this process can spiral out of control, cooling Earth far beyond its original state. While this won’t save us from modern climate change, it may explain Earth’s most extreme ancient ice ages.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists found climate change hidden in old military air samples",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251219093325.htm",
-      "pubDate": "Sun, 21 Dec 2025 01:10:14 EST",
-      "description": "Old military air samples turned out to be a treasure trove of biological DNA, allowing scientists to track moss spores over 35 years. The results show mosses now release spores up to a month earlier than in the 1990s. Even more surprising, the timing depends more on last year’s climate than current spring conditions. It’s a striking example of how fast ecosystems are adjusting to a warming world.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A stunning new forecast shows when thousands of glaciers will vanish",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251219030455.htm",
-      "pubDate": "Fri, 19 Dec 2025 03:19:31 EST",
-      "description": "New research reveals when glaciers around the world will vanish and why every fraction of a degree of warming could decide their fate.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
