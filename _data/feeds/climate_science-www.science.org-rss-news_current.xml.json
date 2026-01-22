@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-22T19:30:14.902418",
+  "fetched_at": "2026-01-22T20:35:54.122493",
   "items": [
+    {
+      "title": "Falling space junk can be tracked from its sonic booms",
+      "link": "https://www.science.org/content/article/falling-space-junk-can-be-tracked-its-sonic-booms",
+      "pubDate": "",
+      "description": "Seismic stations can accurately map re-entering debris with high accuracy",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Hulking kangaroo ancestors could hop just like their nimble descendants",
       "link": "https://www.science.org/content/article/hulking-kangaroo-ancestors-could-hop-just-their-nimble-descendants",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/spacecraft-captures-solar-flare-it-builds-explosive-outburst",
       "pubDate": "",
       "description": "Europe’s Solar Orbiter is helping researchers understand what causes the Sun to blast out radiation and particles",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "NASA ends support for planetary science advisory groups",
-      "link": "https://www.science.org/content/article/nasa-ends-support-planetary-science-advisory-groups",
-      "pubDate": "",
-      "description": "Culling limits agency’s ability to tap independent advice",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
