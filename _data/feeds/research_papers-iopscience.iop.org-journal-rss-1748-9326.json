@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-01-27T15:36:38.433098",
+  "fetched_at": "2026-01-27T16:38:26.878770",
   "items": [
     {
       "title": "Diagnosing the representation of surface and layered soil moisture in Earth system models",
@@ -99,6 +99,14 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae384b",
       "pubDate": "",
       "description": "Gridded climate data products have facilitated research in climate and ecology by providing meteorological data continuously across large spatial scales. However, the sensitivity of scientific outcomes to dataset choice remains poorly understood, and evaluation using station-based records can favor datasets built heavily on weather stations. Here, we evaluate seven high-resolution daily gridded datasets covering the contiguous United States using independent meteorology from the FLUXNET2015 dataset, with a focus on the implications of dataset choice for process-based tree growth modeling. We find that gridded products tend to capture temperature accurately while consistently overestimating the magnitude and frequency of precipitation and its extremes. Moreover, datasets vary in how they define a ‘day,’ which significantly affects temporal alignment with FLUXNET2015 observations. Despite differences among the datasets, the interannual variability in tree ring simulations is insensitive to dataset choice, likely because daily-scale biases are averaged out through accumulated growth across several months. However, inaccuracies in temperature and precipitation can significantly bias modeled xylem cell production, with systematically higher annual precipitation in the gridded datasets leading to greater xylem production compared to simulations using in situ data. Our results suggest that model applications, especially those that integrate to time scales longer than one day, are likely insensitive to climate dataset choice, but applications that are sensitive to daily climate variations or to absolute climate values need to carefully consider biases in gridded climate products.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Total cost of ownership of electric and gasoline used vehicles",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae38f8",
+      "pubDate": "",
+      "description": "We assess the total cost of ownership (TCO) of internal combustion engine (ICEV), hybrid (HEV), plug-in hybrid (PHEV), and battery electric vehicles (BEVs) in the United States. As previous studies have shown, we find that current new BEVs, with some exceptions for smaller or shorter-range vehicles, have a higher TCO than conventional alternatives. However, we also present the first comparative analysis of the TCO of used vehicles, which make up 70% of all vehicle purchases in the U.S. We find that for used vehicles, BEVs have the lowest TCO among all powertrains. As vehicle TCO varies spatially and with use patterns, we test 5 different vehicle classes, 17 different U.S. cities, and 5 different charging strategies. The finding that BEVs have the lowest total cost for used vehicles is robust across these variables and is largely driven by vehicle depreciation patterns. We conduct a regression analysis based on 260 000 publicly available used vehicle listings, collected from January to December of 2024. We find that BEVs depreciate more rapidly than other powertrains in the first several years of vehicle life but follow similar depreciation patterns afterwards. With a 7 year ownership period, buying a used (3 year-old) midsize SUV vs a new midsize SUV has a TCO savings of approximately $3000 for an ICEV, $1000 for an HEV or PHEV, and $13 000 for a BEV. These results highlight an opportunity for savings via BEV adoption among used vehicle purchasers.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
