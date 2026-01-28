@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-28T18:46:11.056482",
+  "fetched_at": "2026-01-28T19:35:34.238161",
   "items": [
+    {
+      "title": "Earth-size planet spotted with yearlong orbit",
+      "link": "https://www.science.org/content/article/earth-size-planet-spotted-yearlong-orbit",
+      "pubDate": "",
+      "description": "Long-overlooked Kepler signal discovered by citizen scientists reveals promising world worth a closer look",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "A motley crew of fossils illuminates an ancient, mysterious extinction event",
       "link": "https://www.science.org/content/article/motley-crew-fossils-illuminates-ancient-mysterious-extinction-event",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/tidal-waves-lava-may-slosh-around-alien-worlds",
       "pubDate": "",
       "description": "Waves of molten rock could be confounding observations of atmospheres on distant planets",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Bird flu antibodies found in cow in the Netherlands, a first outside of U.S.",
-      "link": "https://www.science.org/content/article/bird-flu-antibodies-found-cow-netherlands-first-outside-u-s",
-      "pubDate": "",
-      "description": "Dead cat led to discovery, but officials stress no further spread of H5N1 has been detected",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
