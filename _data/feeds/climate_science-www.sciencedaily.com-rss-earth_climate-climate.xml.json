@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-29T09:52:27.610039",
+  "fetched_at": "2026-01-29T10:45:32.031236",
   "items": [
+    {
+      "title": "A breakthrough that turns exhaust CO2 into useful materials",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260128230509.htm",
+      "pubDate": "Thu, 29 Jan 2026 00:28:18 EST",
+      "description": "Scientists have created a device that captures carbon dioxide and transforms it into a useful chemical in a single step. The new electrode works with realistic exhaust gases rather than requiring purified CO2. It converts the captured gas into formic acid, which is used in energy and manufacturing. The system even functions at CO2 levels found in normal air.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists finally explain Earth’s strangest fossils",
       "link": "https://www.sciencedaily.com/releases/2026/01/260127010151.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251225080725.htm",
       "pubDate": "Thu, 25 Dec 2025 11:03:27 EST",
       "description": "Deep ocean hot spots packed with heat are making the strongest hurricanes and typhoons more likely—and more dangerous. These regions, especially near the Philippines and the Caribbean, are expanding as climate change warms ocean waters far below the surface. As a result, storms powerful enough to exceed Category 5 are appearing more often, with over half occurring in just the past decade. Researchers say recognizing a new “Category 6” could improve public awareness and disaster planning.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Microplastics are leaking invisible chemical clouds into water",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251224032408.htm",
-      "pubDate": "Wed, 31 Dec 2025 10:47:35 EST",
-      "description": "Microplastics in rivers, lakes, and oceans aren’t just drifting debris—they’re constantly leaking invisible clouds of chemicals into the water. New research shows that sunlight drives this process, causing different plastics to release distinct and evolving mixtures of dissolved organic compounds as they weather. These chemical plumes are surprisingly complex, often richer and more biologically active than natural organic matter, and include additives, broken polymer fragments, and oxidized molecules.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
