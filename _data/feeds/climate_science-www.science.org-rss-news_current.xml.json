@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-29T16:52:11.549123",
+  "fetched_at": "2026-01-29T17:42:09.584154",
   "items": [
+    {
+      "title": "In a twist, polar bears are getting fatter in the Norwegian Arctic",
+      "link": "https://www.science.org/content/article/twist-polar-bears-are-getting-fatter-norwegian-arctic",
+      "pubDate": "",
+      "description": "With sea ice dwindling, the massive predators are relying more on land-based food sources such as reindeer",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Earth-size planet spotted with yearlong orbit",
       "link": "https://www.science.org/content/article/earth-size-planet-spotted-yearlong-orbit",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/earthquake-sensors-buried-quietest-spot-earth",
       "pubDate": "",
       "description": "Deep beneath the South Pole, two seismometers will monitor the planet’s interior and the movement of Antarctic ice",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Tidal waves of lava may slosh around alien worlds",
-      "link": "https://www.science.org/content/article/tidal-waves-lava-may-slosh-around-alien-worlds",
-      "pubDate": "",
-      "description": "Waves of molten rock could be confounding observations of atmospheres on distant planets",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
