@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-01-29T13:12:15.689879",
+  "fetched_at": "2026-01-29T14:43:58.264205",
   "items": [
+    {
+      "title": "Ancient oceans stayed oxygen rich despite extreme warming",
+      "link": "https://www.sciencedaily.com/releases/2026/01/260129080422.htm",
+      "pubDate": "Thu, 29 Jan 2026 09:12:18 EST",
+      "description": "Scientists studying ancient ocean fossils found that the Arabian Sea was better oxygenated 16 million years ago, even though the planet was warmer than today. Oxygen levels only plunged millions of years later, after the climate cooled, defying expectations. Powerful monsoons and ocean circulation appear to have delayed oxygen loss in this region compared to the Pacific. The discovery suggests future ocean oxygen levels may not follow a simple warming-equals-deoxygenation rule.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A breakthrough that turns exhaust CO2 into useful materials",
       "link": "https://www.sciencedaily.com/releases/2026/01/260128230509.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251225080727.htm",
       "pubDate": "Fri, 26 Dec 2025 01:09:12 EST",
       "description": "When Earth was a molten inferno, water may have been locked safely underground rather than lost to space. Researchers discovered that bridgmanite deep in the mantle can store far more water at high temperatures than previously believed. During Earth’s cooling, this hidden reservoir could have held water volumes comparable to today’s oceans. Over time, that buried water helped drive geology and rebuild the planet’s surface environment.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Oceans are supercharging hurricanes past Category 5",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251225080725.htm",
-      "pubDate": "Thu, 25 Dec 2025 11:03:27 EST",
-      "description": "Deep ocean hot spots packed with heat are making the strongest hurricanes and typhoons more likely—and more dangerous. These regions, especially near the Philippines and the Caribbean, are expanding as climate change warms ocean waters far below the surface. As a result, storms powerful enough to exceed Category 5 are appearing more often, with over half occurring in just the past decade. Researchers say recognizing a new “Category 6” could improve public awareness and disaster planning.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
