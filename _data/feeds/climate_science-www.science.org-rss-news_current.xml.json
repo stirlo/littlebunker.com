@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-01-30T19:37:25.309527",
+  "fetched_at": "2026-01-30T20:38:20.554607",
   "items": [
+    {
+      "title": "Trump slump? Attendance plummets at some science meetings, but others hold steady",
+      "link": "https://www.science.org/content/article/trump-slump-attendance-plummets-some-science-meetings-others-hold-steady",
+      "pubDate": "",
+      "description": "Amid travel bans, a government shutdown, and funding crunches, 2025 was a turbulent year for U.S. scientific societies",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "U.K. physics community braces for deep funding cuts",
       "link": "https://www.science.org/content/article/u-k-physics-community-braces-deep-funding-cuts",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/congress-set-cut-defense-science-funding",
       "pubDate": "",
       "description": "But lawmakers reject Trump’s call for deeper downsizing and boost applied and medical research",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "U.S. government has lost more than 10,000 STEM Ph.D.s since Trump took office",
-      "link": "https://www.science.org/content/article/u-s-government-has-lost-more-10-000-stem-ph-d-s-trump-took-office",
-      "pubDate": "",
-      "description": "A <cite>Science</cite> analysis reveals how many were fired, retired, or quit across 14 agencies",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
