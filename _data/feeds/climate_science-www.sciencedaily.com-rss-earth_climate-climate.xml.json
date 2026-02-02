@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-02T15:43:25.121271",
+  "fetched_at": "2026-02-02T16:50:59.847751",
   "items": [
+    {
+      "title": "Hundreds of new species found in a hidden world beneath the Pacific",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260201231230.htm",
+      "pubDate": "Mon, 02 Feb 2026 10:22:57 EST",
+      "description": "As demand for critical metals grows, scientists have taken a rare, close look at life on the deep Pacific seabed where mining may soon begin. Over five years and 160 days at sea, researchers documented nearly 800 species, many previously unknown. Test mining reduced animal abundance and diversity significantly, though the overall impact was smaller than expected. The study offers vital clues for how future mining could reshape one of the planet’s most fragile ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "750-year-old Indian poems reveal a landscape scientists got wrong",
       "link": "https://www.sciencedaily.com/releases/2026/01/260131084622.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251227082724.htm",
       "pubDate": "Sat, 27 Dec 2025 12:33:56 EST",
       "description": "Scientists have built the most detailed 3D models yet of temperatures deep beneath Greenland. The results reveal uneven heat hidden below the ice, shaped by Greenland’s ancient path over a volcanic hotspot. This underground warmth affects how the ice sheet moves and melts today. Understanding it could sharpen predictions of future sea level rise.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Did an exploding comet wipe out the mammoths?",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251225080736.htm",
-      "pubDate": "Thu, 01 Jan 2026 23:12:42 EST",
-      "description": "Scientists are uncovering new clues that a cosmic explosion may have rocked Earth at the end of the last ice age. At major Clovis-era sites, researchers found shocked quartz—evidence of intense heat and pressure consistent with a comet airburst rather than volcanism or human activity. The event could have sparked massive fires, blocked sunlight, and triggered a rapid return to ice-age conditions. These harsh changes may explain the sudden loss of megafauna and the disappearance of the Clovis culture.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
