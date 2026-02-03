@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-03T11:39:43.396146",
+  "fetched_at": "2026-02-03T13:16:07.542642",
   "items": [
+    {
+      "title": "New catalyst turns carbon dioxide into clean fuel source",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260203030548.htm",
+      "pubDate": "Tue, 03 Feb 2026 06:08:34 EST",
+      "description": "Researchers have found that manganese, an abundant and inexpensive metal, can be used to efficiently convert carbon dioxide into formate, a potential hydrogen source for fuel cells. The key was a clever redesign that made the catalyst last far longer than similar low-cost materials. Surprisingly, the improved manganese catalyst even beat many expensive precious-metal options. The discovery could help turn greenhouse gas into clean energy ingredients.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Hundreds of new species found in a hidden world beneath the Pacific",
       "link": "https://www.sciencedaily.com/releases/2026/02/260201231230.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2025/12/251228020008.htm",
       "pubDate": "Mon, 29 Dec 2025 17:21:39 EST",
       "description": "The Arctic is changing rapidly, and scientists have uncovered a powerful mix of natural and human-driven processes fueling that change. Cracks in sea ice release heat and pollutants that form clouds and speed up melting, while emissions from nearby oil fields alter the chemistry of the air. These interactions trigger feedback loops that let in more sunlight, generate smog, and push warming even further. Together, they paint a troubling picture of how fragile the Arctic system has become.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Hidden heat beneath Greenland could change sea level forecasts",
-      "link": "https://www.sciencedaily.com/releases/2025/12/251227082724.htm",
-      "pubDate": "Sat, 27 Dec 2025 12:33:56 EST",
-      "description": "Scientists have built the most detailed 3D models yet of temperatures deep beneath Greenland. The results reveal uneven heat hidden below the ice, shaped by Greenland’s ancient path over a volcanic hotspot. This underground warmth affects how the ice sheet moves and melts today. Understanding it could sharpen predictions of future sea level rise.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
