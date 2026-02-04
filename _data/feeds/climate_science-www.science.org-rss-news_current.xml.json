@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-02-04T18:59:29.522905",
+  "fetched_at": "2026-02-04T19:45:25.878325",
   "items": [
+    {
+      "title": "Open-source AI program can answer science questions better than humans",
+      "link": "https://www.science.org/content/article/open-source-ai-program-can-answer-science-questions-better-humans",
+      "pubDate": "",
+      "description": "Developed by and for academics, OpenScholar aims to improve searches of the ballooning scientific literature",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Loss of ‘hunger hormone’ has made snakes masters of fasting",
       "link": "https://www.science.org/content/article/loss-hunger-hormone-has-made-snakes-masters-fasting",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/u-k-physics-community-braces-deep-funding-cuts",
       "pubDate": "",
       "description": "Research council to slash funding for particle physics, nuclear physics, and astronomy by 30%, prompting alarm across the research community",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "As humans return to the Moon, scientists confront the dangers of deep-space radiation",
-      "link": "https://www.science.org/content/article/humans-return-moon-scientists-confront-dangers-deep-space-radiation",
-      "pubDate": "",
-      "description": "Shields and biological countermeasures could help protect astronauts during prolonged missions beyond Earth's magnetic bubble",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
