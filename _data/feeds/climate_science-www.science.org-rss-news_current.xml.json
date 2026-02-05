@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-02-04T23:34:45.821305",
+  "fetched_at": "2026-02-05T02:41:06.813447",
   "items": [
+    {
+      "title": "Space dust reveals rapid evolution after dino-killing asteroid",
+      "link": "https://www.science.org/content/article/space-dust-reveals-rapid-evolution-after-dino-killing-asteroid",
+      "pubDate": "",
+      "description": "New data detail how tiny forms of life rebounded much more quickly than previously believed",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Open-source AI program can answer science questions better than humans",
       "link": "https://www.science.org/content/article/open-source-ai-program-can-answer-science-questions-better-humans",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/trump-slump-attendance-plummets-some-science-meetings-others-hold-steady",
       "pubDate": "",
       "description": "Amid travel bans, a government shutdown, and funding crunches, 2025 was a turbulent year for U.S. scientific societies",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "U.K. physics community braces for deep funding cuts",
-      "link": "https://www.science.org/content/article/u-k-physics-community-braces-deep-funding-cuts",
-      "pubDate": "",
-      "description": "Research council to slash funding for particle physics, nuclear physics, and astronomy by 30%, prompting alarm across the research community",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
