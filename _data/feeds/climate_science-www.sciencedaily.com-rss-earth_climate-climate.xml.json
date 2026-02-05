@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-05T11:39:56.684862",
+  "fetched_at": "2026-02-05T13:17:28.035052",
   "items": [
+    {
+      "title": "Scientists discover hidden deep-Earth structures shaping the magnetic field",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260205050039.htm",
+      "pubDate": "Thu, 05 Feb 2026 05:53:59 EST",
+      "description": "Deep inside Earth, two massive hot rock structures have been quietly shaping the planet’s magnetic field for millions of years. Using ancient magnetic records and advanced simulations, scientists discovered that these formations influence the movement of liquid iron in Earth’s core. Some parts of the magnetic field remained stable over vast stretches of time, while others changed dramatically.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Melting Antarctic ice may weaken a major carbon sink",
       "link": "https://www.sciencedaily.com/releases/2026/02/260204042457.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260106001918.htm",
       "pubDate": "Tue, 06 Jan 2026 23:15:15 EST",
       "description": "Earthquakes happen daily, sometimes with devastating consequences, yet predicting them remains out of reach. What scientists can do is map the hidden layers beneath the surface that control how strongly the ground shakes. A new approach speeds up complex seismic simulations by a factor of about 1,000, making risk assessments far more practical. While it won’t forecast the next quake, it could help cities better prepare for one.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A Greenland glacier is cracking open in real time",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260104202818.htm",
-      "pubDate": "Mon, 05 Jan 2026 16:49:31 EST",
-      "description": "A meltwater lake that formed in the mid-1990s on Greenland’s 79°N Glacier has been draining in sudden, dramatic bursts through cracks and vertical ice shafts. These events have accelerated in recent years, creating strange triangular fracture patterns and flooding the glacier’s base with water in just hours. Some drainages even pushed the ice upward from below, like a blister forming under the glacier. Scientists now wonder whether the glacier can ever return to its previous seasonal rhythm.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
