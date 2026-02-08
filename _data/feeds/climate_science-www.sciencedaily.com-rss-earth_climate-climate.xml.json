@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-08T06:59:08.460568",
+  "fetched_at": "2026-02-08T07:44:38.638115",
   "items": [
+    {
+      "title": "Scientists warn climate models are missing a key ocean player",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260208011024.htm",
+      "pubDate": "Sun, 08 Feb 2026 01:36:40 EST",
+      "description": "Tiny marine plankton that build calcium carbonate shells play an outsized role in regulating Earth’s climate, quietly pulling carbon from the atmosphere and helping lock it away in the deep ocean. New research shows these microscopic engineers are largely missing from the climate models used to forecast our planet’s future, meaning scientists may be underestimating how the ocean responds to climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "New forecasts offer early warning of Arctic sea ice loss",
       "link": "https://www.sciencedaily.com/releases/2026/02/260206232249.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260112001034.htm",
       "pubDate": "Mon, 12 Jan 2026 09:01:37 EST",
       "description": "Microscopic ocean algae produce a huge share of Earth’s oxygen—but they need iron to do it. New field research shows that when iron is scarce, phytoplankton waste energy and photosynthesis falters. Climate-driven changes may reduce iron delivery to the oceans, weakening the base of marine food chains. Over time, this could mean fewer krill and fewer whales, seals, and penguins.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "3.7-billion-year-old rocks reveal how Earth and the Moon were born",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260108231825.htm",
-      "pubDate": "Thu, 08 Jan 2026 23:18:25 EST",
-      "description": "Crystals hidden in Australia’s oldest rocks have revealed new clues about how Earth and the Moon formed. The study suggests Earth’s continents didn’t begin growing until hundreds of millions of years after the planet itself formed. When scientists compared the rocks with Moon samples from the Apollo missions, they found a remarkable match. The results support the idea that a massive cosmic impact gave birth to the Moon.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
