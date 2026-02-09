@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-02-09T19:25:12.038285",
+  "fetched_at": "2026-02-09T20:50:50.166974",
   "items": [
+    {
+      "title": "NASA greenlights two earth science missions, to researchers’ relief",
+      "link": "https://www.science.org/content/article/nasa-greenlights-two-earth-science-missions-researchers-relief",
+      "pubDate": "",
+      "description": "Orbiting satellites will monitor changes in the stratosphere and on the planet’s surface",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Fire at German particle accelerator could delay multibillion-dollar project",
       "link": "https://www.science.org/content/article/fire-german-particle-accelerator-could-delay-multibillion-dollar-project",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/hack-proof-internet-quantum-encryption-could-be-key",
       "pubDate": "",
       "description": "Team in China sends data with entangled atoms, neutralizing backdoor hardware threats",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Sharp cutbacks in field tests could threaten quality of 2030 U.S. census",
-      "link": "https://www.science.org/content/article/sharp-cutbacks-field-tests-could-threaten-quality-2030-u-s-census",
-      "pubDate": "",
-      "description": "Efforts to correct historic undercount of poor, immigrant, rural, and minority populations are at risk, critics say",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
