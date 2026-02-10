@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-10T15:05:58.538944",
+  "fetched_at": "2026-02-10T17:10:27.924467",
   "items": [
+    {
+      "title": "Methane spiked after 2020 and the cause was unexpected",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260210082917.htm",
+      "pubDate": "Tue, 10 Feb 2026 08:48:02 EST",
+      "description": "Methane levels in Earth’s atmosphere surged faster than ever in the early 2020s, and scientists say the reason was a surprising mix of chemistry and climate. A temporary slowdown in the atmosphere’s ability to break down methane allowed the gas to linger, while unusually wet conditions boosted emissions from wetlands, rivers, lakes, and rice fields around the world. Pandemic-related changes in air pollution played a key role, indirectly weakening the atmosphere’s natural “clean-up” process.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists uncover the climate shock that reshaped Easter Island",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260210040611.htm",
+      "pubDate": "Tue, 10 Feb 2026 10:01:48 EST",
+      "description": "Around 1550, life on Rapa Nui began changing in ways long misunderstood. New research reveals that a severe drought, lasting more than a century, dramatically reduced rainfall on the already water-scarce island, reshaping how people lived, worshiped, and organized society. Instead of collapsing, Rapanui communities adapted—shifting rituals, power structures, and sacred spaces in response to climate stress.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Forests are changing fast and scientists are deeply concerned",
       "link": "https://www.sciencedaily.com/releases/2026/02/260208233836.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260115220612.htm",
       "pubDate": "Thu, 15 Jan 2026 22:31:47 EST",
       "description": "New research shows tropical forests can recover twice as fast after deforestation when their soils contain enough nitrogen. Scientists followed forest regrowth across Central America for decades and found that nitrogen plays a decisive role in how quickly trees return. Faster regrowth also means more carbon captured from the atmosphere. The study points to smarter reforestation strategies that work with nature rather than relying on fertilizers.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A 3,000-year high: Alaska’s Arctic is entering a dangerous new fire era",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260114084119.htm",
-      "pubDate": "Wed, 14 Jan 2026 08:41:19 EST",
-      "description": "For thousands of years, wildfires on Alaska’s North Slope were rare. That changed sharply in the 20th century, when warming temperatures dried soils and fueled the spread of shrubs, setting the stage for intense fires. Peat cores and satellite data reveal that fire activity since the 1950s has reached record levels. The findings suggest the Arctic is entering a new, more dangerous fire era.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The ocean absorbed a stunning amount of heat in 2025",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260114080328.htm",
-      "pubDate": "Wed, 14 Jan 2026 08:36:08 EST",
-      "description": "Earth’s oceans reached their highest heat levels on record in 2025, absorbing vast amounts of excess energy from the atmosphere. This steady buildup has accelerated since the 1990s and is now driving stronger storms, heavier rainfall, and rising sea levels. While surface temperatures fluctuate year to year, the ocean’s long-term warming trend shows no sign of slowing.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
