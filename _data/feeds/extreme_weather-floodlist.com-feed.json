@@ -1,9 +1,42 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://floodlist.com/feed",
-  "description": "",
+  "title": "FloodList",
+  "link": "https://floodlist.com",
+  "description": "Floods and flooding news from around the world",
   "category": "extreme_weather",
   "source_url": "https://floodlist.com/feed",
-  "fetched_at": "2026-02-10T21:52:10.460714",
-  "items": []
+  "fetched_at": "2026-02-10T22:50:48.420418",
+  "items": [
+    {
+      "title": "Germany – Thousands Evacuate Floods in Bavaria and Baden-Wuerttemberg",
+      "link": "https://floodlist.com/europe/germany-bavaria-baden-wuerttemberg-floods-june-2024",
+      "pubDate": "Mon, 03 Jun 2024 14:45:11 +0000",
+      "description": "Thousands of people have evacuated their homes in southern Germany after heavy rain caused multiple rivers to break their banks. At least two people have died and another is reported…",
+      "category": "extreme_weather",
+      "source_url": "https://floodlist.com/feed"
+    },
+    {
+      "title": "Afghanistan – Devastating Flash Floods Claim Hundreds of Lives in Northern Provinces",
+      "link": "https://floodlist.com/asia/afghanistan-floods-may-2024",
+      "pubDate": "Mon, 13 May 2024 10:56:10 +0000",
+      "description": "Flash floods triggered by heavy rains have left a trail of devastation in northern Afghanistan, claiming the lives of hundreds of people. The catastrophic floods struck on 10 to 11…",
+      "category": "extreme_weather",
+      "source_url": "https://floodlist.com/feed"
+    },
+    {
+      "title": "Oman – Dozens Rescued, 12 Dead After Heavy Rain Triggers Flash Floods",
+      "link": "https://floodlist.com/asia/oman-floods-april-2024",
+      "pubDate": "Mon, 15 Apr 2024 09:47:43 +0000",
+      "description": "Heavy rainfall has caused widespread flash flooding in parts of Oman where authorities report at least 12 people have died. According to figures from Oman’s National Committee for Emergency Management,…",
+      "category": "extreme_weather",
+      "source_url": "https://floodlist.com/feed"
+    },
+    {
+      "title": "Uruguay – Thousands Evacuate As River Reaches Record High in Florida Department",
+      "link": "https://floodlist.com/america/uruguay-florida-floods-march-2024",
+      "pubDate": "Fri, 22 Mar 2024 11:17:38 +0000",
+      "description": "Flooding in the department of Florida in the south of Uruguay has displaced almost 2,000 people after the Santa Lucía Chico River reached record highs. Six temporary evacuation centres have…",
+      "category": "extreme_weather",
+      "source_url": "https://floodlist.com/feed"
+    }
+  ]
 }
