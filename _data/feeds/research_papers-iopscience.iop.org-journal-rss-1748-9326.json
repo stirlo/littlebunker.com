@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-10T11:00:59.824806",
+  "fetched_at": "2026-02-10T11:57:15.498577",
   "items": [
+    {
+      "title": "U.S. clean energy supply chains after the Inflation Reduction Act",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2698",
+      "pubDate": "",
+      "description": "The Inflation Reduction Act (IRA) represented a milestone in U.S. industrial policy that transformed the clean energy manufacturing landscape in the United States. Two of the principal goals of the IRA were to onshore clean energy manufacturing and to make supply chains more resilient to geopolitical shocks. This article presents data for the solar and battery supply chains to assess what progress had been made toward these goals before the passage of the One Big Beautiful Bill Act called many IRA provisions into question. The results reveal significant successes, but also persistent challenges, in building these supply chains. While the U.S. was slated to produce 61% of expected solar module demand in 2025, it would have produced only 37% of the cells and 11% of the ingots and wafers needed for those modules. In batteries, the U.S. could have realistically produced 100% of expected cell demand in 2025, but announced projects accounted for only 47% of the cathode, 23% of the anode, and 24% of the precursors. U.S. supply would have slightly increased as a percent of expected demand in 2030, but the situation would have remained broadly the same. There are four implications of the analysis. First, it demonstrates the difficulties of onshoring, especially in upstream components. Second, it shows that expected U.S. production would have, rather than exclude other countries, created global demand-pull. Third, it reveals that Biden’s tariffs would have likely increased the cost of U.S.-made panels and cells. We propose an alternative policy instrument.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Refining land-use-specific carbon emission factors for commodity-driven deforestation monitoring in Colombia",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae36c3",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3788",
       "pubDate": "",
       "description": "Ambient formaldehyde (HCHO) is a leading contributor to cancer risk among the 187 hazardous air pollutants (HAPs) regulated in the United States (U.S.). Fires emit HCHO and its precursors and enhance secondary HCHO formation downwind, raising concerns about health impacts. However, the contribution of fire to ambient HCHO remains poorly quantified because ground-based monitoring is sparse and largely urban. Here, we present the first satellite-based quantification of fire-attributable HCHO enhancement and associated health risks across the contiguous U.S. from 2020–2023. We improve TROPOMI retrievals of HCHO columns to account for smoke aerosol effects, and evaluate the changes in column and surface HCHO under fire smoke using NOAA’s HMS smoke product. Annual mean HCHO shows a distinct increase under fire smoke, with vertical column density increased by 6%–16% and surface HCHO by 6%–11%. The spatial distribution of this enhancement aligns with major wildfire activities across California in 2020, the Pacific Northwest in 2021 and the Southern U.S. in 2022, and is most extensive in 2023, likely reflecting the combined influence of Canadian fire smoke intrusions, U.S. wildfires and elevated temperatures. Exposure at 2020–2023 levels translates to an estimated 275–482 excess lifetime cancer cases, indicating a non-negligible health burden from fire-related HCHO even in years of moderate fire activity.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "The role of projects of common interest in reaching Europe’s energy policy targets",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3846",
-      "pubDate": "",
-      "description": "The European Union aims to achieve climate-neutrality by 2050, with interim 2030 targets including 55% greenhouse gas emissions reduction compared to 1990 levels, 10 Mt of domestic green hydrogen production, and 50 Mt of domestic CO2 injection capacity annually. To support these targets, projects of common and mutual interest (PCI-PMI)—large infrastructure projects for electricity, hydrogen and CO2 transport, and storage—have been identified by the European Commission. This study focuses on PCI-PMI projects related to hydrogen and carbon value chains, assessing their long-term system value and the impact of pipeline delays and shifting policy targets using the sector-coupled energy system model PyPSA-Eur. Our study shows that PCI-PMI projects enable a more cost-effective transition to a net-zero energy system compared to scenarios without any pipeline expansion. Hydrogen pipelines help distribute affordable green hydrogen from renewable-rich regions in the north and southwest to high-demand areas in central Europe, while CO2 pipelines link major industrial emitters with offshore storage sites. Although these projects are not essential in 2030, they begin to significantly reduce annual system costs by more than €26 billion from 2040 onward. Delaying implementation beyond 2040 could increase system costs by up to €24.2 billion per year, depending on the extent of additional infrastructure development. Moreover, our results show that PCI-PMI projects reduce the need for excess wind and solar capacity and lower reliance on individual CO2 removal technologies, such as direct air capture, by 13–136 Mt annually, depending on the build-out scenario.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
