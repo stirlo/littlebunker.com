@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-12T14:54:38.472889",
+  "fetched_at": "2026-02-12T15:59:31.375403",
   "items": [
+    {
+      "title": "Europe’s “untouched” wilderness was shaped by Neanderthals and hunter-gatherers",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260212025613.htm",
+      "pubDate": "Thu, 12 Feb 2026 09:14:45 EST",
+      "description": "Long before agriculture, humans were transforming Europe’s wild landscapes. Advanced simulations show that hunting and fire use by Neanderthals and Mesolithic hunter-gatherers reshaped forests and grasslands in measurable ways. By reducing populations of giant herbivores, people indirectly altered how dense vegetation became. The findings challenge the idea that prehistoric Europe was an untouched natural world.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "The worst coral bleaching event ever recorded damaged over 50% of reefs",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260212025554.htm",
+      "pubDate": "Thu, 12 Feb 2026 07:55:48 EST",
+      "description": "Coral reefs, worth an estimated $9.8 trillion a year to humanity, are in far worse shape than previously realized. A massive international study found that during the 2014–2017 global marine heatwave, more than half of the world’s reefs suffered significant bleaching, and many experienced large-scale coral death.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Snowball Earth was not completely frozen, new study reveals",
       "link": "https://www.sciencedaily.com/releases/2026/02/260212025545.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260121034148.htm",
       "pubDate": "Wed, 21 Jan 2026 03:41:48 EST",
       "description": "A new building material developed by engineers at Worcester Polytechnic Institute could change how the world builds. Made using an enzyme that turns carbon dioxide into solid minerals, the material cures in hours and locks away carbon instead of releasing it. It’s strong, repairable, recyclable, and far cleaner than concrete. If adopted widely, it could slash emissions across the construction industry.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "The world’s mountains are warming faster than anyone expected",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260120000259.htm",
-      "pubDate": "Wed, 21 Jan 2026 00:37:23 EST",
-      "description": "Mountain regions around the world are heating up faster than the lands below them, triggering dramatic shifts in snow, rain, and water supply that could affect over a billion people. A major global review finds that rising temperatures are turning snowfall into rain, shrinking glaciers, and making mountain weather more extreme and unpredictable. These changes threaten water sources for huge populations, including those in China and India, while also increasing risks of floods, ecosystem collapse, and deadly weather events.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Microplastics are undermining the ocean’s power to absorb carbon",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260116035322.htm",
-      "pubDate": "Sat, 17 Jan 2026 21:58:02 EST",
-      "description": "Tiny plastic particles drifting through the oceans may be quietly weakening one of Earth’s most powerful climate defenses. New research suggests microplastics are disrupting marine life that helps oceans absorb carbon dioxide, while also releasing greenhouse gases as they break down. By interfering with plankton, microbes, and natural carbon cycles, these pollutants reduce the ocean’s ability to regulate global temperatures.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
