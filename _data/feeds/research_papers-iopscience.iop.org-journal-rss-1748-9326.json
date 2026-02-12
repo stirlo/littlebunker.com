@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-12T16:00:24.366705",
+  "fetched_at": "2026-02-12T17:11:58.104699",
   "items": [
+    {
+      "title": "Drought impacts on global crop production decline despite its frequency and severity intensifying",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4114",
+      "pubDate": "",
+      "description": "Climate change is intensifying the frequency and severity of droughts, posing a significant threat to global crop production. Accurately quantifying drought impacts is challenging and critical for mitigation. Here, we use a high-resolution, bottom–up assessment framework to analyze drought impacts on yields of four major crops—maize, soybean, rice, and wheat—at county, provincial, and national levels over 1997–2021. Results show yield losses escalate dramatically with spatial granularity, from 3.3% at the national level to 10.8% at the county level, with soybeans (16.3%) and maize (11.4%) being the most vulnerable. Despite an increase in drought frequency, drought-induced crop losses declined significantly, owing to the improvements in irrigation. Notably, a 10% increase in agricultural water use was significantly associated with a 1.71% reduction in yield losses. Our findings not only highlight the critical importance of scale-dependent risk assessments but also provide robust evidence and spatial pattern for the significant role of irrigation in mitigating drought risks.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Eurasia’s transition from colder winters to hotter summers driven by North Atlantic air–sea interaction and Arctic sea ice anomalies",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4116",
+      "pubDate": "",
+      "description": "Extreme cold winters and hot summers over Eurasia are intensifying under global warming, posing substantial risks to agriculture, ecosystems, and human health. Here, we show that a colder winter tends to be followed by a hotter summer over Eurasia. This winter-summer extreme temperature reversal is linked to the phase switch of the Arctic oscillation (AO) from winter to summer, which is driven by the North Atlantic air–sea interaction and Arctic sea ice-atmosphere coupling. Specifically, a negative AO in winter weakens high-latitude westerlies, causing cold extremes over Eurasia. Negative AO also induces a tripolar sea surface temperature anomaly in the North Atlantic that persists into the following summer and triggers positive AO-like atmospheric anomalies, leading to a hotter summer across Eurasia. Moreover, winter atmospheric anomalies reduce the Barents–Kara sea ice through horizontal moisture transport. This sea ice loss persists into summer and contributes to the formation of positive AO-like atmospheric anomalies. These processes establish a cross-seasonal transition from extreme cold winters to extreme hot summers over Eurasia, offering new insight into the prediction of summer extreme events.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "U.S. clean energy supply chains after the Inflation Reduction Act",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2698",
@@ -75,14 +91,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4115",
       "pubDate": "",
       "description": "Climate change is expected to increase the frequency and size of large uncontrollable fires. The impact of this trend on forest vegetation is still poorly understood, especially in areas not commonly subject to recurrent fires, i.e. in areas where tree species may not be adapted to fire and where flammability may increase as warming decreases moisture. Here we use recent advances in remote sensing to simulate burned area development until the end of the century under different climate scenarios. We then combine these projections with an European forest resources model to assess the impact of projected fire regimes on forests in three major biomes in Europe (i.e. Mediterranean, temperate and boreal forests, here represented by three countries: Spain, Germany and Sweden). Burned area was projected to increase in all regions in the 21st century, with the biggest increase and highest absolute damage in the Mediterranean region under the most severe climate scenario. Furthermore, we found that future fire disproportionately affects temperate forests, where a higher level of damage occurs for the same relative increase in burned area, compared to the other biomes. This was mostly due to the combination of increasingly favourable weather conditions for fire and large standing biomass, which drove the increased susceptibility of temperate regions to emerging wildfire regimes. Our findings call for mainstreaming fire and fuel management strategies into forest planning to increase resilience to fires, particularly in temperate regions with limited past fire occurrence and a projected increase in favourable fire weather.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Refining land-use-specific carbon emission factors for commodity-driven deforestation monitoring in Colombia",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae36c3",
-      "pubDate": "",
-      "description": "Deforestation remains one of the most significant sources of greenhouse gas emissions globally. Tropical regions are particularly critical to climate mitigation due to their high carbon density and ongoing conversion to agricultural uses. While earth observation (EO) has become fundamental for assessing land-use change over time and space, key gaps persist in understanding associated carbon emissions (CE) and their distribution across production systems, information required by diverse international and European policy frameworks targeting greenhouse gas reduction and deforestation. To address this, the study integrates satellite-derived aboveground biomass (AGB) with machine learning-based land-use modeling to quantify commodity-specific CE from deforestation in Colombia. Our key findings reveal that pasture expansion for livestock dominates emissions (>67% in the Amazonas and Orinoquía regions, approximately 25% nationally), while cocoa and coffee, despite smaller cultivation areas, exhibit high emission factors (>25% of subregional totals in the Andes, Pacífico, and Caribe). Smallholder croplands contribute up to 16.7% regionally, and oil palm plays a modest role nationally. These results underscore the importance of targeting both extensive pasture systems and high-emission perennial crops in deforestation-free supply chain policies, while considering the diverse regional land-use dynamics. In conclusion, our framework offers spatially explicit, crop-specific emission estimates that address essential gaps in EO-based CE quantification. It provides clear, actionable baselines for monitoring policies aimed at promoting deforestation-free supply chains, such as the EU Deforestation Regulation (EUDR), across tropical landscapes. Ultimately, this data supports the creation of a comprehensive database of country-specific emission factors, a resource critical for enhancing national carbon inventories, guiding policy decisions related to high-risk deforestation commodities, and ensuring more transparent and traceable zero-deforestation supply chains.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
