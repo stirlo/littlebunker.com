@@ -4,8 +4,32 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-12T17:11:58.104699",
+  "fetched_at": "2026-02-12T19:12:13.396470",
   "items": [
+    {
+      "title": "Inconsistency between mixed layer depth and near sea surface stratification over the global ocean",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3cab",
+      "pubDate": "",
+      "description": "Mixed layer depth (MLD) and near-surface stratification (derived from bulk and subskin density) are crucial variables for defining stability within the upper ocean. Conventional paradigms generally describe the relationship between MLD and stratification for the subsurface layer or the upper ocean below 5 m, where a weak stratification is associated with a deeper MLD, and a strong stratification with a shallower MLD. In this study, satellite-based and in situ-based monthly data from 2011 to 2021 reveal a positive relationship between monthly-averaged near-surface stratification (above the bulk layer) and MLD. That is, on a monthly timescale, a weaker near-surface stratification co-occurs with a shallower MLD, and vice versa. This observed pattern deviates from the conventional expectation. Analysis shows that this phase synchronization is primarily driven by density variations in the bulk layer, which exceed those in the subskin layer. Further investigation using wind stress and buoyancy flux data indicates that MLD deepening aligns with enhanced stratification above the bulk layer. These findings refine the traditional understanding by emphasizing the distinct roles of vertical layers (subskin vs bulk). They underscore the necessity to incorporate layer-specific dynamics when using satellite-derived stratification to parameterize MLD dynamics in climate models. Such refinement is critical for optimizing predictions of ocean-atmosphere interactions and climate variability. Future work should leverage the fusion of satellite and in situ data to advance multi-layer ocean stability diagnostics.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Regional trains and air pollution: estimating avoided NO2 concentrations through a natural experiment",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3fb2",
+      "pubDate": "",
+      "description": "Regional rail services offer a cleaner alternative to private road vehicles, contributing to environmental quality in terms of reduced pollution. However, air pollutant concentrations reductions are not observable, and the related environmental benefits provided by the train service might be underestimated. Our research quantifies the emission reductions attributable to regional rail services by exploiting a natural experiment. We leverage an unexpected accident in Florence that temporarily disrupted part of the Tuscan railway network. We find that affected areas experienced, on average, a 25% increase in NO2 pollution compared to counterfactual areas where train services remained operational. This increase was most pronounced during peak commuting hours. These findings are consistent with the assumption of substitutability between public and private transport: when regional trains were unavailable, more people had to switch to private vehicles to commute, causing a rise in local pollution. Our study provides an indirect measure of the positive environmental impact of public transport.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "How extremes in surface incident solar radiation shape its long-term trends in China and Europe",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4112",
+      "pubDate": "",
+      "description": "Although extremes of surface incident solar radiation (Rs) are critical for climate and energy assessments, their long-term variations and contributions to Rs trends remain poorly understood. Leveraging the recently homogenized daily Rs data at ∼2600 stations across China and Europe during 1961–2022, this study provided the first quantification of long-term variations in extremely low (Rs10p) and high (Rs90p) Rs and their contributions to Rs trends. During the dimming period, increasing Rs10p and decreasing Rs90p frequencies, along with increased magnitudes, jointly led to the dimming over China and Europe. Europe began to steadily brighten after 1980, due to early air pollution emission controls and reduced cloud cover, which reversed the frequency trends of Rs10p and Rs90p and intensified the severities of both extremes. In contrast, dimming in China persisted until 2014, only transitioning to brightening after the implementation of stricter emission controls which increased Rs90p frequencies but attenuated the severities of both extremes. Overall, Rs extremes jointly regulated Rs trends: China’s brightening was positively contributed by both extremes, while Europe’s brightening was dominated by Rs90p but partially offset by Rs10p. These findings underscore the pivotal role of extremes in shaping overall Rs trends and highlight their importance for accurately assessing regional solar energy availability under global climate change.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Drought impacts on global crop production decline despite its frequency and severity intensifying",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4114",
