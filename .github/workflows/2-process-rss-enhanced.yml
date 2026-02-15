@@ -438,5 +438,7 @@ jobs:
         run: |
           git config --global user.name 'Climate RSS Bot - Multi-Category with SEO'
           git config --global user.email 'action@github.com'
-          git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Step 2: Process RSS feeds with smart SEO tags" && git push)
+           git add -A
+            if git diff --quiet --staged; then
+              git commit -m "..." && git push
+            fi
