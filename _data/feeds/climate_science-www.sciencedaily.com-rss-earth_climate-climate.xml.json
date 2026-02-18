@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-18T08:55:14.806814",
+  "fetched_at": "2026-02-18T09:57:25.535965",
   "items": [
+    {
+      "title": "Ancient microbes may have used oxygen 500 million years before it filled Earth’s atmosphere",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260218031609.htm",
+      "pubDate": "Wed, 18 Feb 2026 03:50:31 EST",
+      "description": "Life on Earth may have learned to breathe oxygen long before oxygen filled the skies. MIT researchers traced a key oxygen-processing enzyme back hundreds of millions of years before the Great Oxidation Event. Early microbes living near oxygen-producing cyanobacteria may have quickly used up the gas as it formed, slowing its rise in the atmosphere. The results suggest life was adapting to oxygen far earlier — and far more creatively — than once thought.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A satellite illusion hid the true scale of Arctic snow loss",
       "link": "https://www.sciencedaily.com/releases/2026/02/260217005803.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260128230509.htm",
       "pubDate": "Thu, 29 Jan 2026 00:28:18 EST",
       "description": "Scientists have created a device that captures carbon dioxide and transforms it into a useful chemical in a single step. The new electrode works with realistic exhaust gases rather than requiring purified CO2. It converts the captured gas into formic acid, which is used in energy and manufacturing. The system even functions at CO2 levels found in normal air.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists finally explain Earth’s strangest fossils",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260127010151.htm",
-      "pubDate": "Tue, 27 Jan 2026 03:46:28 EST",
-      "description": "The Ediacara Biota are some of the strangest fossils ever found—soft-bodied organisms preserved in remarkable detail where preservation shouldn’t be possible. Scientists now think their survival in sandstone came from unusual ancient seawater chemistry that created clay “cements” around their bodies after burial. This process captured delicate shapes that would normally vanish. The finding helps clarify how complex life emerged before the Cambrian Explosion.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
