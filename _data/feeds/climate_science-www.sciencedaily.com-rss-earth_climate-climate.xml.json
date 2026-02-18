@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-18T06:09:41.564844",
+  "fetched_at": "2026-02-18T07:54:45.903606",
   "items": [
+    {
+      "title": "A satellite illusion hid the true scale of Arctic snow loss",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260217005803.htm",
+      "pubDate": "Tue, 17 Feb 2026 22:58:00 EST",
+      "description": "For years, satellite data suggested that autumn snow cover in the Northern Hemisphere was actually increasing — a surprising twist in a warming world. But a new analysis reveals that this apparent growth was an illusion caused by improving satellite technology that became better at detecting thin snow over time. In reality, snow cover has been shrinking by about half a million square kilometers per decade.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Europe’s “untouched” wilderness was shaped by Neanderthals and hunter-gatherers",
       "link": "https://www.sciencedaily.com/releases/2026/02/260212025613.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/01/260127010151.htm",
       "pubDate": "Tue, 27 Jan 2026 03:46:28 EST",
       "description": "The Ediacara Biota are some of the strangest fossils ever found—soft-bodied organisms preserved in remarkable detail where preservation shouldn’t be possible. Scientists now think their survival in sandstone came from unusual ancient seawater chemistry that created clay “cements” around their bodies after burial. This process captured delicate shapes that would normally vanish. The finding helps clarify how complex life emerged before the Cambrian Explosion.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Rare rocks beneath Australia reveal the origins of a critical metal",
-      "link": "https://www.sciencedaily.com/releases/2026/01/260122074028.htm",
-      "pubDate": "Fri, 23 Jan 2026 07:07:44 EST",
-      "description": "Rare rocks buried deep in central Australia have revealed how a valuable niobium deposit formed during the breakup of an ancient supercontinent. More than 800 million years ago, tectonic rifting opened pathways that allowed metal-rich magma to rise from the mantle. These unusual rocks contain niobium, a key ingredient in high-strength steel, electric vehicles, and emerging energy technologies. The discovery offers fresh insight into how some of Earth’s most important mineral resources reach the surface.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
