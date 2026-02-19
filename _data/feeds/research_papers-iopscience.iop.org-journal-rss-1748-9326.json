@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-19T08:55:28.349097",
+  "fetched_at": "2026-02-19T09:57:24.127574",
   "items": [
+    {
+      "title": "The implications of overshooting 1.5 °C on Earth system tipping elements—a review",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3cad",
+      "pubDate": "",
+      "description": "Due to insufficient emission reductions in recent years, it is increasingly likely that global warming will exceed the 1.5 °C temperature limit in the late 2020s or 2030s. As a result, several Earth system tipping elements could, at least temporarily, have their tipping points surpassed, posing risks of large-scale and profound structural change. Tipping does not always occur immediately upon crossing such a critical threshold. If the length of time the driver is beyond the critical level is short enough, tipping could still be avoided for some slow-responding elements of the climate system. An improved understanding is therefore needed of whether tipping remains avoidable, for which systems, and under what conditions. Here, we review how minimising the magnitude and duration of any temperature overshoot beyond 1.5 °C could decrease tipping risks. Tipping elements with fast response times, such as warm-water coral reefs, are especially vulnerable to overshoot. In contrast, those with slow response times, such as polar ice sheets, may be less sensitive to temporary overshoot. Potential interactions between tipping elements and additional human pressures, such as deforestation in the Amazon or pollution and overfishing of coral reef habitats, may further lower tipping points, narrowing the range of overshoot trajectories that can still avoid it. The vulnerability of many tipping elements, even under shorter overshoot conditions, underscores that global warming must peak below 2 °C above pre-industrial levels, return to below 1.5 °C as quickly as possible (i.e. within this century), and to around 1 °C thereafter to limit tipping point risks.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Protected areas are effective at conserving carbon sink capacity even in fire-prone terrestrial ecosystems",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3783",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3cab",
       "pubDate": "",
       "description": "Mixed layer depth (MLD) and near-surface stratification (derived from bulk and subskin density) are crucial variables for defining stability within the upper ocean. Conventional paradigms generally describe the relationship between MLD and stratification for the subsurface layer or the upper ocean below 5 m, where a weak stratification is associated with a deeper MLD, and a strong stratification with a shallower MLD. In this study, satellite-based and in situ-based monthly data from 2011 to 2021 reveal a positive relationship between monthly-averaged near-surface stratification (above the bulk layer) and MLD. That is, on a monthly timescale, a weaker near-surface stratification co-occurs with a shallower MLD, and vice versa. This observed pattern deviates from the conventional expectation. Analysis shows that this phase synchronization is primarily driven by density variations in the bulk layer, which exceed those in the subskin layer. Further investigation using wind stress and buoyancy flux data indicates that MLD deepening aligns with enhanced stratification above the bulk layer. These findings refine the traditional understanding by emphasizing the distinct roles of vertical layers (subskin vs bulk). They underscore the necessity to incorporate layer-specific dynamics when using satellite-derived stratification to parameterize MLD dynamics in climate models. Such refinement is critical for optimizing predictions of ocean-atmosphere interactions and climate variability. Future work should leverage the fusion of satellite and in situ data to advance multi-layer ocean stability diagnostics.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Regional trains and air pollution: estimating avoided NO2 concentrations through a natural experiment",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3fb2",
-      "pubDate": "",
-      "description": "Regional rail services offer a cleaner alternative to private road vehicles, contributing to environmental quality in terms of reduced pollution. However, air pollutant concentrations reductions are not observable, and the related environmental benefits provided by the train service might be underestimated. Our research quantifies the emission reductions attributable to regional rail services by exploiting a natural experiment. We leverage an unexpected accident in Florence that temporarily disrupted part of the Tuscan railway network. We find that affected areas experienced, on average, a 25% increase in NO2 pollution compared to counterfactual areas where train services remained operational. This increase was most pronounced during peak commuting hours. These findings are consistent with the assumption of substitutability between public and private transport: when regional trains were unavailable, more people had to switch to private vehicles to commute, causing a rise in local pollution. Our study provides an indirect measure of the positive environmental impact of public transport.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
