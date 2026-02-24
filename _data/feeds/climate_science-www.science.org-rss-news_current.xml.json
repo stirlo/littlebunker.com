@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-02-24T21:41:37.217327",
+  "fetched_at": "2026-02-24T22:40:11.919604",
   "items": [
+    {
+      "title": "Allegations of a Chinese nuclear blast may reignite weapons testing",
+      "link": "https://www.science.org/content/article/allegations-chinese-nuclear-blast-may-reignite-weapons-testing",
+      "pubDate": "",
+      "description": "As new global arms race looms, accusation highlights limits to monitoring low-yield tests",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Could dewdrops explain why plants are flowering earlier?",
       "link": "https://www.science.org/content/article/could-dewdrops-explain-why-plants-are-flowering-earlier",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/new-energy-department-science-advisory-committee-reflects-trump-s-ai-push",
       "pubDate": "",
       "description": "DOE’s 21-member Office of Science Advisory Committee is well-qualified but lacks disciplinary breadth, observers say",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "ChatGPT spits out surprising insight in particle physics",
-      "link": "https://www.science.org/content/article/chatgpt-spits-out-surprising-insight-particle-physics",
-      "pubDate": "",
-      "description": "Physicists combined human acumen and AI-assisted math to show that a doubted particle interaction is possible after all",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
