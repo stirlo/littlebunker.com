@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-26T08:58:04.461492",
+  "fetched_at": "2026-02-26T10:01:01.878967",
   "items": [
+    {
+      "title": "Wildfire smoke increases assaults: evidence from Seattle",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae436c",
+      "pubDate": "",
+      "description": "Wildfires are increasing in frequency and severity due to climate change, becoming a major contributor to particulate matter air pollution (PM2.5) in many regions of the globe. This study investigates whether daily exposure to wildfire-derived PM2.5 increases violent assaults in Seattle, Washington, between 2013 and 2023. Using ground-level wildfire smoke presence as an instrument for PM2.5 and crime report data from the Seattle Police Department, this study estimates a robust relationship between air pollution and urban violence. Over the study period, an average smoke-impacted day increased mean ambient PM2.5 by 7.0 μg m−3, which corresponds to 3.6% more assaults. The findings contribute to the emerging literature linking environmental change to social tensions and demonstrate that climate-driven pollution may increase violence even in relatively low-pollution, high-capacity urban settings like Seattle. The study establishes the first direct estimate of a causal effect of wildfire smoke on assaults, leveraging eleven years of daily data and high-resolution smoke exposure data. As wildfires become a globally relevant source of pollution under future climate scenarios, these results underscore the societal benefits of climate change mitigation.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Pathways of bio-jet adoption in the US aviation industry with implications for the overall transportation and energy sectors: an integrated, multi-sectoral analysis of future scenarios",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae440e",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4411",
       "pubDate": "",
       "description": "Quasi-decadal variability (QDV) in tropical cyclone (TC) genesis (TCG) over the western North Pacific is a critical yet insufficiently explored aspect of TC climate variability. This study identified distinct QDV in TCG during June–October, characterized by two leading empirical orthogonal function (EOF) modes. The first mode (EOF1) exhibits a north-south dipole pattern and is indirectly modulated by solar variability through circulation anomalies over the mid-latitude North Pacific. The second mode (EOF2) exhibits a west-east dipole pattern and is driven by internal variability linked to the Pacific Quasi-decadal Oscillation (PQDO), represented by sea surface temperature anomalies (SSTa) in the tropical central Pacific (TCP). Both modes strongly correlate (r > 0.83) with key regional indicators: regional mean 200 hPa geopotential height (150° E–180°, 34° N–44° N) and SSTa (164° E–164° W, 10° S–10° N). The direct influence of solar variability on TCG is weak, primarily due to offsetting effects of solar-associated in-phase SSTa between the mid-latitude North Pacific and the TCP. Solar variability and PQDO affect TCG primarily through dynamic factors, explaining about 85% of TCG changes, with relative vorticity contributing around 30%. These findings highlight the complex interplay between solar and internal forcings in modulating TCG, providing valuable insights for improving long-term TC forecasts.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Enhanced intraseasonal rainfall variability over Northeast Australia",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae44af",
-      "pubDate": "",
-      "description": "Understanding changes in intraseasonal rainfall variability is critical for improving sub-seasonal prediction. While the amplification of intraseasonal rainfall variability across Australia has been reported, the spatial heterogeneity of this intensification has been overlooked. Here, we observe that the intraseasonal rainfall variability has been intensified, particularly over northeastern Australia during the wet season (November–April) over the past four decades. The intensified intraseasonal rainfall variability is primarily attributed to enhanced intensity of precipitation events, rather than drier spells. Moisture budget analysis indicates that the intensification of intraseasonal abnormal rainfall events over northeastern Australia is primarily due to the strengthened vertical advection of background moisture caused by the intraseasonal vertical motion anomalies. In this process, the strengthening of intraseasonal vertical velocity driven by changes in intraseasonal wind convergence plays a dominant role, accounting for over 90%, whereas the effect of background moisture changes is relatively less significant. Our findings highlight northeastern Australia as a hotspot for amplified intraseasonal rainfall variability, rather than the whole of Australia. This study provides fundamental insights into northern Australia’s changing climate, and highlights the important role of intraseasonal circulation on northeastern Australia rainfall variability.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
