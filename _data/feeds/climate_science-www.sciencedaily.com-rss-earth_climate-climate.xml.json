@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-02-26T17:11:44.211903",
+  "fetched_at": "2026-02-26T19:01:14.934564",
   "items": [
+    {
+      "title": "Antarctica just saw the fastest glacier collapse ever recorded",
+      "link": "https://www.sciencedaily.com/releases/2026/02/260226042454.htm",
+      "pubDate": "Thu, 26 Feb 2026 11:47:11 EST",
+      "description": "Antarctica’s Hektoria Glacier stunned scientists by retreating eight kilometers in just two months, with nearly half of it collapsing in record time. The rapid breakup was driven by a flat, underwater bedrock surface that allowed the glacier to suddenly float and fracture from below. Satellite and seismic data captured the dramatic chain reaction in near real time. The findings raise concerns that much larger glaciers could one day collapse just as quickly.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A giant weak spot in Earth’s magnetic field is now half the size of Europe",
       "link": "https://www.sciencedaily.com/releases/2026/02/260224023221.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260206232249.htm",
       "pubDate": "Fri, 06 Feb 2026 23:56:20 EST",
       "description": "Arctic sea ice helps cool the planet and influences weather patterns around the world, but it is disappearing faster than ever as the climate warms. Scientists have now developed a new forecasting method that can predict how much Arctic sea ice will remain months in advance, focusing on September when ice levels are at their lowest. By combining long-term climate patterns, seasonal cycles, and short-term weather shifts, the model delivers real-time predictions that outperform existing approaches.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "An invisible chemical rain is falling across the planet",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260206020847.htm",
-      "pubDate": "Fri, 06 Feb 2026 03:17:32 EST",
-      "description": "A new study reveals that chemicals used to replace ozone-damaging CFCs are now driving a surge in a persistent “forever chemical” worldwide. The pollutant, called trifluoroacetic acid, is falling out of the atmosphere into water, land, and ice, including in remote regions like the Arctic. Even as older chemicals are phased out, their long lifetimes mean pollution is still rising.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }

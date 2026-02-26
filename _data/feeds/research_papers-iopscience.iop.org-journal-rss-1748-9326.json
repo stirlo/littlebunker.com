@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-02-26T17:12:03.212412",
+  "fetched_at": "2026-02-26T19:01:37.603670",
   "items": [
     {
       "title": "Assessing the impact of nature-based solutions on soil health in sub-Saharan Africa through farmer-centred methods",
@@ -55,6 +55,14 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "River ice phenology across Alaska: Geospatial patterns and temporal change",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae46b2",
+      "pubDate": "",
+      "description": "River ice is a vital component of the cryosphere, influencing hydrology, ecology, and society. When adequately thick and stable, river ice serves as a key transportation corridor for residents of remote Arctic and sub-Arctic communities. Climate change is altering the timing, extent, and duration of river ice cover, impacting both environmental processes and human activities. This study examines regional variability and temporal change in river ice phenology across Alaska using satellite observations and climate-driven modeling. We extracted reach-scale surface water extent from the Landsat archive to characterize river ice cover at sub-monthly time scales, capturing spatial heterogeneity and seasonal transitions during freeze-up and break-up. We then developed statistical models driven by ERA5-Land climate reanalysis to reconstruct annual metrics identifying the beginning, end, and duration of ice-covered conditions from water years 1979–2023. Model results show that typical river ice duration varied strongly along climatic gradients, ranging from 2.4 months in a southern coastal region to 7.3 months in northern Alaska (2000–2023). Decadal comparisons show that river ice duration during 2014–2023 was substantially shorter than in the 1980s across much of the state, with reductions exceeding three weeks within western and southwestern Alaska. These recent declines reflect the combined influence of delayed freeze-up and, to a lesser extent, earlier break-up onset. Long-term trend analyses (1979–2023) reveal persistent declines in ice duration, primarily driven by later freeze-up, with rates of change from 3–5 d decade−1 where trends are significant. Together, these findings demonstrate substantial, regionally structured changes in Alaska’s river ice regimes and underscore growing challenges in transportation, public safety, and access in river-dependent communities.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Pathways of bio-jet adoption in the US aviation industry with implications for the overall transportation and energy sectors: an integrated, multi-sectoral analysis of future scenarios",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae440e",
       "pubDate": "",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae34cc",
       "pubDate": "",
       "description": "Full impact assessment of tropical cyclones each year requires a comprehensive sociodemographic analysis. We evaluated the sociodemographic characteristics of tropical cyclone-impacted regions during the 2024 calendar year in the recent historical context of 1980–2024. In 2024, tropical cyclone-force winds affected an estimated 429 902 820 people (5.5% of global population), the 12th highest since 1980, in disproportionately more deprived areas. Hurricane-force winds affected an estimated 59 672 600 people (0.8%), the 10th highest since 1980, in disproportionately less deprived areas. Our findings provide a global context for tropical cyclones to better guide resilience and recovery efforts.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Are urban impacts on heavy rainfall amplified in mountainous regions?",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae38f9",
-      "pubDate": "",
-      "description": "Global evidence indicates that orography can exert a strong influence on rainfall, thereby giving rise to natural hazards such as flooding in mountain areas. Alongside orographic influences, urban areas can also act to intensify storms, but their impact on heavy rainfall in high elevations has not yet been investigated in detail. Here, we quantify the contribution of a high-altitude city to both rainfall intensification and its daytime and nighttime patterns, focusing on the city of Cuenca in the Ecuadorian Andes. Modeling several observed storms with and without the city suggests that the urban area can enhance downstream precipitation by over 20% over a pre-existing hotspot of orographically induced precipitation. This urban-induced rainfall intensification seems to exceed that observed for cities of comparable size outside mountainous regions. This may be explained by Cuenca’s valley setting and its high humidity compared to its surroundings, suggesting that high-altitude cities with similar morphologies could amplify combined orographic-dynamic and urban-thermodynamic effects.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
