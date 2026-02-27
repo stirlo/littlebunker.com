@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-02-27T21:35:03.234362",
+  "fetched_at": "2026-02-27T22:31:15.229872",
   "items": [
+    {
+      "title": "How will we know if AI is smart enough to do science?",
+      "link": "https://www.science.org/content/article/how-will-we-know-if-ai-smart-enough-do-science",
+      "pubDate": "",
+      "description": "New tests gauge whether large language models can use their deep troves of knowledge to actually make discoveries",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Suspended small business research programs derail development of gene therapies, hip implants, and more",
       "link": "https://www.science.org/content/article/suspended-small-business-research-programs-derail-development-gene-therapies-hip",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/moon-s-ancient-magnetic-field-may-have-flickered",
       "pubDate": "",
       "description": "Billions of years ago, melting rocks deep inside the Moon could have led to bursts of surprisingly strong magnetism",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Censorship and safety concerns cloud China’s plans to host science journalism conference",
-      "link": "https://www.science.org/content/article/censorship-and-safety-concerns-cloud-china-s-plans-host-science-journalism-conference",
-      "pubDate": "",
-      "description": "Organizers of the 2029 World Conference of Science Journalists defend Beijing meeting as opportunity to connect with Chinese scientists",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
