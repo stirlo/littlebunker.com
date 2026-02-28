@@ -1,9 +1,74 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.nature.com/nclimate.rss",
-  "description": "<div id=\"wrapper\">\n    <div id=\"content\">\n      <h1>Service Unavailable</h1>\n      <p>This Springer Nature service is currently unavailable.  This could be due to abnormal network traffic or problems with our systems.  We are working to resolve the issue.</p>\n      <p><em>Error details: 503 first byte timeout<br />\n             Server: cache-bur-kbur8200071-BUR\n      </em></p>\n      <p>Please try again later and thank-you for your patience.</p>\n    </div>\n  </div>",
+  "title": "Nature Climate Change",
+  "link": "http://feeds.nature.com/nclimate/rss/current",
+  "description": "Nature Climate Change is a monthly journal dedicated to publishing high-quality research papers that describe the most significant and cutting-edge research on the causes, impacts and wider implications of global climate change. The journal publishes climate research across the physical, biological and social sciences and strives to integrate and communicate interdisciplinary research. The journal aims to play a leading role in: providing accessibility to a broad audience to research published both within and outside the journal; raising the visibility of climate change research in related research communities as well as the mainstream media; and offering a forum for discussion of the challenges faced by researchers and policy makers (and other interested parties) in understanding the complex mechanisms and impacts associated with the Earth’s changing climate.",
   "category": "research_papers",
   "source_url": "https://www.nature.com/nclimate.rss",
-  "fetched_at": "2026-02-27T23:32:08.025271",
-  "items": []
+  "fetched_at": "2026-02-28T02:28:33.739490",
+  "items": [
+    {
+      "title": "Prospects and challenges of risk-based insurance pricing for disaster adaptation",
+      "link": "https://www.nature.com/articles/s41558-026-02577-1",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 27 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02577-1\">doi:10.1038/s41558-026-02577-1</a></p>Regulation of property insurance pricing involves trade-offs that will determine how disaster risks impact households’ budgets. Allowing prices to reflect property-specific risks offers several benefits, but may cause a range of negative unintended consequences associated with declines in coverage.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Melt channelization stronger than previously recognized",
+      "link": "https://www.nature.com/articles/s41558-026-02568-2",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 27 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02568-2\">doi:10.1038/s41558-026-02568-2</a></p>Melting beneath floating Antarctic ice shelves is a major driver of ice-shelf mass loss and is projected to increase over the coming century. High-resolution maps of Antarctic basal-melt rates reveal stronger melt within narrow basal channels than previously recognized, making some ice shelves more vulnerable to additional melt channelization.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Implications of overshoot for climate mitigation strategies",
+      "link": "https://www.nature.com/articles/s41558-026-02563-7",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 27 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02563-7\">doi:10.1038/s41558-026-02563-7</a></p>A temporary breach of the temperature target, or overshoot, is unavoidable. The authors review the history of how overshoot evolved in mitigation pathways, the magnitude and outcomes of potential physical and socio-economic impacts, and priorities for future model and scenario development.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Climate change on television reaches the engaged but misses distant audiences",
+      "link": "https://www.nature.com/articles/s41558-026-02575-3",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 25 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02575-3\">doi:10.1038/s41558-026-02575-3</a></p>Although widely used, television is underexplored in climate communication. Here analysis of German television programmes and audience perceptions shows that climate change coverage is concentrated in news formats and engages climate supporters, but misses climate-distant audiences drawn to entertainment.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Weighting for net zero",
+      "link": "https://www.nature.com/articles/s41558-026-02556-6",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 24 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02556-6\">doi:10.1038/s41558-026-02556-6</a></p>Policy and planning increasingly depend on large ensembles of climate and energy scenarios, but these collections can be biased and hard to interpret. A new weighting framework aims to make these ensembles more transparent, balanced and decision relevant.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "The hard road back from overshoot",
+      "link": "https://www.nature.com/articles/s41558-026-02573-5",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 24 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02573-5\">doi:10.1038/s41558-026-02573-5</a></p>As global temperatures move beyond 1.5 °C, overshoot now defines the landscape ahead, sharpening legal claims, exposing economic risks and revealing how far politics still trail the pace of change.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "Emotional responses to state repression predict collective climate action intentions",
+      "link": "https://www.nature.com/articles/s41558-026-02570-8",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 24 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02570-8\">doi:10.1038/s41558-026-02570-8</a></p>As climate activists escalate disruptive protest, authorities respond by intensifying restrictions on protest. This study examines how protest repression shapes climate activism and indicates distinct effects across collective action types and repression experience, with emotions as mediators.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    },
+    {
+      "title": "A weighting framework to improve the use of emissions scenario ensembles of opportunity",
+      "link": "https://www.nature.com/articles/s41558-026-02565-5",
+      "pubDate": "",
+      "description": "<p>Nature Climate Change, Published online: 24 February 2026; <a href=\"https://www.nature.com/articles/s41558-026-02565-5\">doi:10.1038/s41558-026-02565-5</a></p>Scenario ensembles are widely used in climate change research, while their opportunistic nature could lead to biased outcomes in following analysis. Focusing on relevance, quality and diversity, researchers develop a simple and transparent weighting framework to address these challenges.",
+      "category": "research_papers",
+      "source_url": "https://www.nature.com/nclimate.rss"
+    }
+  ]
 }
