@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-02T16:57:44.496765",
+  "fetched_at": "2026-03-02T17:53:16.956473",
   "items": [
+    {
+      "title": "Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
+      "pubDate": "Mon, 02 Mar 2026 11:27:11 EST",
+      "description": "K’gari’s iconic lakes have existed for tens of thousands of years—but they haven’t always been full. New research shows that about 7,500 years ago, during a time of high rainfall, several of the island’s deepest lakes mysteriously vanished. Scientists believe changing wind patterns may have redirected rain away from the island. As the climate shifts again, the lakes’ long-term survival is no longer guaranteed.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Massive asteroid impact 6.3 million years ago left giant glass field in Brazil",
       "link": "https://www.sciencedaily.com/releases/2026/02/260228093512.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260208233836.htm",
       "pubDate": "Mon, 09 Feb 2026 02:17:56 EST",
       "description": "Forests around the world are quietly transforming, and not for the better. A massive global analysis of more than 31,000 tree species reveals that forests are becoming more uniform, increasingly dominated by fast-growing “sprinter” trees, while slow-growing, long-lived species are disappearing. These slower species act as the backbone of forest ecosystems, storing carbon, stabilizing environments, and supporting rich webs of life—especially in tropical regions where biodiversity is highest.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Why this rust-like mineral is one of Earth’s best carbon vaults",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260208233823.htm",
-      "pubDate": "Mon, 09 Feb 2026 01:25:12 EST",
-      "description": "A common iron mineral hiding in soil turns out to be far better at trapping carbon than scientists realized. Its surface isn’t uniform — it’s a nanoscale patchwork of positive and negative charges that can grab many different organic molecules. Instead of relying on a single weak attraction, the mineral uses several bonding strategies to hold carbon tightly in place. This helps explain how soils store enormous amounts of carbon for the long term.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
