@@ -4,13 +4,21 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-03T17:52:47.211180",
+  "fetched_at": "2026-03-03T20:40:23.767568",
   "items": [
     {
       "title": "Solar irrigation in Nepal: subsidy design, farmer adoption, and utilization patterns",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae2281",
       "pubDate": "",
       "description": "Solar irrigation pumps (SIPs) are central to Nepal’s strategy for sustainable irrigation and reducing reliance on diesel pumps. The Alternative Energy Promotion Centre (AEPC) officially provides a 60% subsidy for SIPs under a demand-driven program. This study assesses (i) SIP subsidy delivery and adoption processes, and (ii) utilization patterns and their drivers, using a household survey of 630 farmers and a phone survey of 404 SIP owners. In practice, farmers contributed only 4% of total SIP costs on average, as local governments frequently topped up AEPC’s subsidy, making SIPs nearly free. While this boosted affordability, the scheme is only weakly progressive: large farmers also benefit from near-complete subsidization, raising equity and fiscal concerns. The applicant pool is dominated by educated, wealthier, and socially advantaged groups, while marginalized farmers are often excluded due to weak information and institutional gatekeeping. Utilization is moderate, with SIPs operating around 745 h annually—well below their technical potential. Breakdowns, long repair delays (averaging 110 d), and missing after-sales services reduce use. Training in operation and maintenance increases utilization by 38%, while cultivation of water-intensive crops also drives higher use. Transparent communication of the full subsidy package, progressive cost-sharing to prioritize smallholders, and stronger investment in training and rapid-repair services are essential. Without such reforms, the program risks under-utilization and elite capture of subsidies, undermining SIPs’ transformative potential for agricultural resilience and low-carbon growth.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "ERRATUM: Global soil organic carbon sequestration potential under sustainable food system and climate mitigation (2025 Environ. Res. Lett. 20 124062)",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4732",
+      "pubDate": "",
+      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -47,6 +55,14 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Emergent turnover time and temperature sensitivity of global soil carbon cycling",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4765",
+      "pubDate": "",
+      "description": "Soils hold vast amounts of organic carbon and play a pivotal role in the global carbon cycle. The turnover time (τ) and temperature sensitivity of the soil carbon cycle—commonly expressed as Q10—are critical parameters for projecting climate–carbon feedbacks under climate change. However, the temperature dependency of soil Q10 remains controversial, with reported values varying widely across studies. Here, we synthesize global datasets of soil organic carbon stocks and heterotrophic respiration to evaluate turnover time and Q10. Our analysis of harmonized global maps shows that the soil carbon turnover time decreases with increasing temperature and the soil carbon-weighted mean τ for the 0–100 cm layer is 83.3 years. Analysis of the temperature dependence of turnover time indicates that the emergent temperature dependency of Q10 is weak, with limited divergence across climate zones. These findings suggest that, despite large carbon stocks, the temperature-driven vulnerability of soil carbon in cold regions may be lower than previously assumed. The emergent turnover time and temperature sensitivity derived in this study provide new constraints for Earth system models.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "A path to intelligent watersheds: coordinating the data to decision pipeline",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4816",
       "pubDate": "",
@@ -79,10 +95,10 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
-      "title": "Assessing the impact of nature-based solutions on soil health in sub-Saharan Africa through farmer-centred methods",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae3975",
+      "title": "Post-disturbance ice-wedge degradation in Alaskan tundra fire scars using space-for-time substitution remote sensing",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae491a",
       "pubDate": "",
-      "description": "Soils underpin many ecosystem services, including food production, through functions such as organic matter decomposition. These functions are increasingly threatened by soil degradation, especially in climate-vulnerable regions, such as sub-Saharan Africa, where unstable soils are prone to severe erosion. As soils continue to degrade, farmers face multiple challenges; they cannot afford accurate tests to assess soil, their livelihoods are constrained by demand for food, fuel and water, and competition for valuable resources hampers farming. Hence, there is a pressing need for accessible tools to assess soil health and methods to provide tailored advice on resilient, climate-smart agricultural management and optimal use of resources. This narrative review offers a comprehensive overview of key issues and potential solutions. We highlight tools and approaches that can support farmers to improve soil and secure livelihoods. Practical indicators and field-ready tests are evaluated, with examples from Ethiopia, but tailored to support farmers and advisors across sub-Saharan Africa and other developing countries. A wide range of tests are reviewed, including physical, biological, chemical, function and service-related tests, drawing on scientific and farmers knowledge. Science-based tests require expertise, equipment and incur costs, while locally-derived tests are affordable and seamlessly applicable. We also review Nature-based Solutions for improving soil quality, and assess them against factors such as labour, costs, and crop production. There is no single universally applicable practice; suitability depends on farmers’ priorities and circumstances. Therefore, we explore predictive methods—mechanistic, process-based soil models, data- and knowledge-driven Artificial Intelligence and systems models—to simulate the impact of practices on soil and farm dynamics. Promising approaches include hybrid approaches assimilating data, physics and knowledge through digital soil mapping. Overall, this review emphasizes the need to empower farmers with accessible tools and methods to harness Nature-based Solutions, build climate resilience and secure sustainable futures for generations ahead.",
+      "description": "The severity and frequency of tundra fires in Arctic permafrost landscapes is expected to increase with ongoing climate change. By burning the insulating organic layer of soils, tundra fires impact the soil thermal regime for underlying permafrost and can accelerate thaw in the years following the burn. In this paper, we address the scarcity of long-term studies on post-fire permafrost degradation in ice-wedge landscapes by using a space-for-time substitution analysis spanning a chronosequence (pseudo-time series) of up to 67 years of remote sensing data from Alaskan tundra fire scars. We use computer vision and graph analysis on high-resolution digital elevation models derived from airborne lidar of fire-affected areas in Western Alaska to investigate the effects of tundra fires on the post-fire development of microtopography and surface hydrology in polygonal ice-wedge landscapes. Our analysis indicates a modest overall trend toward recovery of polygonal surface structure over timescales of 70+ years, though considerable variability among fire scars highlights that post-fire trajectories are not uniform.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
