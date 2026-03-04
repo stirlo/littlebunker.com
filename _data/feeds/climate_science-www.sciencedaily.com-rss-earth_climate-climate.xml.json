@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-04T19:47:05.105987",
+  "fetched_at": "2026-03-04T20:38:22.342794",
   "items": [
+    {
+      "title": "Climate models may be missing massive carbon emissions from boreal wildfires",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
+      "pubDate": "Wed, 04 Mar 2026 12:50:50 EST",
+      "description": "Northern wildfires may be more dangerous for the climate than they appear. Researchers found that fires in boreal forests can burn deep into peat soils, releasing ancient carbon stored for hundreds or thousands of years. These slow, smoldering fires often look small from space, causing climate models to underestimate their emissions.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
       "link": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260210040611.htm",
       "pubDate": "Tue, 10 Feb 2026 10:01:48 EST",
       "description": "Around 1550, life on Rapa Nui began changing in ways long misunderstood. New research reveals that a severe drought, lasting more than a century, dramatically reduced rainfall on the already water-scarce island, reshaping how people lived, worshiped, and organized society. Instead of collapsing, Rapanui communities adapted—shifting rituals, power structures, and sacred spaces in response to climate stress.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Forests are changing fast and scientists are deeply concerned",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260208233836.htm",
-      "pubDate": "Mon, 09 Feb 2026 02:17:56 EST",
-      "description": "Forests around the world are quietly transforming, and not for the better. A massive global analysis of more than 31,000 tree species reveals that forests are becoming more uniform, increasingly dominated by fast-growing “sprinter” trees, while slow-growing, long-lived species are disappearing. These slower species act as the backbone of forest ecosystems, storing carbon, stabilizing environments, and supporting rich webs of life—especially in tropical regions where biodiversity is highest.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
