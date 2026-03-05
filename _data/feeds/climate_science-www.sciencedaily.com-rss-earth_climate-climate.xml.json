@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-05T05:53:59.456054",
+  "fetched_at": "2026-03-05T07:01:45.968001",
   "items": [
+    {
+      "title": "Half of Amazon insects could face dangerous heat stress",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260304184224.htm",
+      "pubDate": "Thu, 05 Mar 2026 00:47:53 EST",
+      "description": "A sweeping new study of more than 2,000 insect species reveals a troubling reality: many insects may be far less capable of coping with rising temperatures than scientists once hoped. Researchers found that while some species living at higher altitudes can temporarily boost their heat tolerance, many insects in tropical lowlands—where biodiversity is highest—lack this flexibility. Because insects play essential roles as pollinators, decomposers, and predators, their vulnerability could ripple through entire ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Climate models may be missing massive carbon emissions from boreal wildfires",
       "link": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260210082917.htm",
       "pubDate": "Tue, 10 Feb 2026 08:48:02 EST",
       "description": "Methane levels in Earth’s atmosphere surged faster than ever in the early 2020s, and scientists say the reason was a surprising mix of chemistry and climate. A temporary slowdown in the atmosphere’s ability to break down methane allowed the gas to linger, while unusually wet conditions boosted emissions from wetlands, rivers, lakes, and rice fields around the world. Pandemic-related changes in air pollution played a key role, indirectly weakening the atmosphere’s natural “clean-up” process.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists uncover the climate shock that reshaped Easter Island",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260210040611.htm",
-      "pubDate": "Tue, 10 Feb 2026 10:01:48 EST",
-      "description": "Around 1550, life on Rapa Nui began changing in ways long misunderstood. New research reveals that a severe drought, lasting more than a century, dramatically reduced rainfall on the already water-scarce island, reshaping how people lived, worshiped, and organized society. Instead of collapsing, Rapanui communities adapted—shifting rituals, power structures, and sacred spaces in response to climate stress.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
