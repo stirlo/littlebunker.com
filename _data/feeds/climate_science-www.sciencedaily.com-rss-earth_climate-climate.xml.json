@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-07T11:26:22.140060",
+  "fetched_at": "2026-03-07T13:01:11.015917",
   "items": [
+    {
+      "title": "Antarctica has a strange gravity hole and scientists finally know why",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260306224213.htm",
+      "pubDate": "Sat, 07 Mar 2026 00:45:53 EST",
+      "description": "Gravity may seem constant, but it actually varies across the planet—and one of the strangest places is Antarctica, where gravity is slightly weaker than expected. Scientists have traced this “gravity hole” to slow, deep movements of rock inside Earth that unfolded over tens of millions of years. Using earthquake data to essentially create a CT scan of the planet’s interior, researchers reconstructed how the anomaly evolved and discovered that it strengthened between about 50 and 30 million years ago.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Ocean temperatures may be protecting Earth from a planet-wide drought",
       "link": "https://www.sciencedaily.com/releases/2026/03/260304184229.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260212025545.htm",
       "pubDate": "Thu, 12 Feb 2026 03:48:58 EST",
       "description": "Even when Earth was locked in its most extreme deep freeze, the planet’s climate may not have been as silent and still as once believed. New research from ancient Scottish rocks reveals that during Snowball Earth — when ice sheets reached the tropics and the planet resembled a giant snowball from space — climate rhythms similar to today’s seasons, solar cycles, and even El Niño–like patterns were still pulsing beneath the ice.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Tracking global water circulation using atomic fingerprints",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260210231553.htm",
-      "pubDate": "Sun, 15 Feb 2026 08:12:50 EST",
-      "description": "Scientists have developed a powerful new way to trace the journey of water across the planet by reading tiny atomic clues hidden inside it. Slightly heavier versions of hydrogen and oxygen, called isotopes, shift in predictable ways as water evaporates and moves through the atmosphere. By combining eight advanced climate models into a single ensemble, researchers created the most accurate large-scale simulation yet of how water circulates worldwide.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
