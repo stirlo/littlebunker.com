@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-09T23:34:45.746066",
+  "fetched_at": "2026-03-10T02:36:59.682577",
   "items": [
+    {
+      "title": "Scientists detect a sudden acceleration in global warming",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+      "pubDate": "Mon, 09 Mar 2026 20:26:55 EDT",
+      "description": "Global warming has picked up speed in the past decade, according to a new analysis from the Potsdam Institute for Climate Impact Research (PIK). By removing short term natural influences such as El Niño, volcanic eruptions, and solar cycles from temperature records, researchers uncovered a clear acceleration in the planet’s long term warming trend beginning around 2015.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Antarctica has a strange gravity hole and scientists finally know why",
       "link": "https://www.sciencedaily.com/releases/2026/03/260306224213.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260212025554.htm",
       "pubDate": "Thu, 12 Feb 2026 07:55:48 EST",
       "description": "Coral reefs, worth an estimated $9.8 trillion a year to humanity, are in far worse shape than previously realized. A massive international study found that during the 2014–2017 global marine heatwave, more than half of the world’s reefs suffered significant bleaching, and many experienced large-scale coral death.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Snowball Earth was not completely frozen, new study reveals",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260212025545.htm",
-      "pubDate": "Thu, 12 Feb 2026 03:48:58 EST",
-      "description": "Even when Earth was locked in its most extreme deep freeze, the planet’s climate may not have been as silent and still as once believed. New research from ancient Scottish rocks reveals that during Snowball Earth — when ice sheets reached the tropics and the planet resembled a giant snowball from space — climate rhythms similar to today’s seasons, solar cycles, and even El Niño–like patterns were still pulsing beneath the ice.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
