@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-14T11:30:27.025082",
+  "fetched_at": "2026-03-14T13:07:04.565102",
   "items": [
+    {
+      "title": "Scientists discover giant swirling plumes hidden deep inside Greenland’s ice sheet",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260314030446.htm",
+      "pubDate": "Sat, 14 Mar 2026 08:00:08 EDT",
+      "description": "Scientists may have finally solved the mystery of strange plume-like structures hidden deep inside the Greenland ice sheet. New research suggests they form through thermal convection—slow, swirling motions driven by temperature differences inside the ice. This means the deep ice could be far softer than scientists once believed. Understanding this hidden movement could improve predictions about how Greenland’s ice sheet behaves in a warming world.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists discover a universal temperature curve that governs all life",
       "link": "https://www.sciencedaily.com/releases/2026/03/260311213448.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260221000325.htm",
       "pubDate": "Sun, 22 Feb 2026 02:51:51 EST",
       "description": "Deep in the Arctic north, drained peatlands—once massive carbon vaults built over thousands of years—are quietly leaking greenhouse gases into the atmosphere. But new field research from northern Norway suggests there’s a powerful way to slow that loss: raise the water level. In a two-year study, scientists found that restoring higher groundwater levels in cultivated Arctic peatlands dramatically cut carbon dioxide emissions, and in some cases even tipped the balance so the land absorbed more CO2 than it released.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just mapped mysterious earthquakes deep inside Earth",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260219040818.htm",
-      "pubDate": "Fri, 20 Feb 2026 08:05:28 EST",
-      "description": "Scientists at Stanford have unveiled the first-ever global map of rare earthquakes that rumble deep within Earth’s mantle rather than its crust. Long debated and notoriously difficult to confirm, these elusive quakes turn out to cluster in regions like the Himalayas and near the Bering Strait. By developing a breakthrough method that distinguishes mantle quakes using subtle differences in seismic waves, researchers identified hundreds of these hidden tremors worldwide.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
