@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-16T05:51:50.970230",
+  "fetched_at": "2026-03-16T07:40:41.642849",
   "items": [
+    {
+      "title": "Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
+      "pubDate": "Sun, 15 Mar 2026 00:44:14 EDT",
+      "description": "The asteroid impact that wiped out the dinosaurs didn’t keep life down for long. New research shows that microscopic plankton began evolving into new species within just a few thousand years—and possibly in under 2,000 years—after the disaster. Scientists uncovered this rapid rebound by using a rare isotope marker to more accurately measure time in ancient sediments. The discovery suggests life recovered far faster than previously thought.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists just discovered a tiny signal that volcanoes send before they erupt",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260315004411.htm",
+      "pubDate": "Sun, 15 Mar 2026 19:51:35 EDT",
+      "description": "A new detection method called “Jerk” could dramatically improve how scientists forecast volcanic eruptions. By using a single broadband seismometer, the system can detect extremely subtle ground movements caused by magma pushing underground—often hours before an eruption begins. Tested for more than a decade at the Piton de la Fournaise volcano on La Réunion, the tool successfully predicted 92% of eruptions between 2014 and 2023, sometimes giving up to eight hours of warning.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists discover giant swirling plumes hidden deep inside Greenland’s ice sheet",
       "link": "https://www.sciencedaily.com/releases/2026/03/260314030446.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260224023201.htm",
       "pubDate": "Tue, 24 Feb 2026 08:16:20 EST",
       "description": "Deep in the Congo Basin, vast peatlands quietly store enormous amounts of Earth’s carbon — but new research suggests this ancient vault may be leaking. Scientists studying Africa’s largest blackwater lakes discovered that significant amounts of carbon dioxide bubbling into the atmosphere come not just from recent plant life, but from peat that has been locked away for thousands of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Space lasers reveal oceans rising faster than ever",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260222092321.htm",
-      "pubDate": "Tue, 24 Feb 2026 00:08:38 EST",
-      "description": "A new 30-year analysis reveals that melting land ice is now the main force behind rising global sea levels. Researchers discovered that oceans rose about 90 millimeters since 1993, with most of the increase coming from added water mass rather than just warming expansion. Ice loss from Greenland and mountain glaciers accounts for the vast majority of this gain. Even more concerning, the rate of sea-level rise is accelerating.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A simple water shift could turn Arctic farmland into a carbon sink",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260221000325.htm",
-      "pubDate": "Sun, 22 Feb 2026 02:51:51 EST",
-      "description": "Deep in the Arctic north, drained peatlands—once massive carbon vaults built over thousands of years—are quietly leaking greenhouse gases into the atmosphere. But new field research from northern Norway suggests there’s a powerful way to slow that loss: raise the water level. In a two-year study, scientists found that restoring higher groundwater levels in cultivated Arctic peatlands dramatically cut carbon dioxide emissions, and in some cases even tipped the balance so the land absorbed more CO2 than it released.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
