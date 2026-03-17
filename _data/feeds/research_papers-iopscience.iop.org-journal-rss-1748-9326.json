@@ -4,8 +4,16 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-17T09:02:15.364293",
+  "fetched_at": "2026-03-17T10:58:19.062643",
   "items": [
+    {
+      "title": "High-resolution models better simulate historical snowpack declines in the Upper Colorado River Basin",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4113",
+      "pubDate": "",
+      "description": "The Colorado River supplies water to 40 million people, 4.5 million acres of irrigated land, seven US states, over two dozen federally recognized and sovereign tribes and Mexico. River discharge is strongly controlled by snowpack accumulation and melt in the headwater regions, making upper-basin snow dynamics a primary driver of water availability throughout the basin. Therefore, changes in snow water equivalent (SWE) are critical for water resources planning in the Upper Colorado River Basin (UCRB), yet there is considerable uncertainty even in historical SWE trends. We compare historical UCRB SWE trends across various gridded snow products, including new Weather Research and Forecasting simulations at 45, 9, and 3 km resolution, against snow telemetry station data. We find that SWE trends are systematically amplified with higher model resolution and that high resolution (<10 km) is needed to accurately capture not only SWE amounts but also historical SWE declines across high-elevation mountains. Trend amplification primarily results from higher resolution simulations having higher snowfall due to stronger orographic forcing, an effect further modulated by synoptics. This is confirmed in a set of alternative historical realizations from a downscaled climate model large ensemble, which, despite a tendency for SWE declines, highlight the important role of internal variability in historical UCRB SWE trends. These results demonstrate that model resolution plays an important role in shaping assessments of snow-related climate change, with implications for a wide range of impact studies.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Mapping the supply of nature’s contributions to people on Mount Kilimanjaro",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae45bd",
@@ -75,14 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4ca6",
       "pubDate": "",
       "description": "Reliable sub-basin seasonal forecasts of tropical cyclone (TC) activity are fundamental in helping stakeholders make informed decisions and minimize economic and societal losses. While several institutions routinely release TC seasonal forecasts for traditionally studied basins, only a few provide global coverage, limiting confidence for other densely populated regions. Here, we apply a probabilistic clustering approach to identify track patterns across five basins (North Atlantic, Eastern and Western North Pacific, South Indian, and South Pacific) over the period 1993–2016 in retrospective seasonal forecasts produced by the Euro-Mediterranean Center on Climate Change Seasonal Prediction System 3.5. Despite a hemispheric bias in TC frequency—overestimated in the Southern Hemisphere and underestimated in the Northern Hemisphere—the spatial distribution of TC tracks is skilfully represented across all basins. Moreover, predicted and observed year-to-year variability are significantly correlated (p < 0.1) for most clusters in the North Atlantic, Eastern Pacific and South Indian, while limited to one third of clusters in the Western and South Pacific. Conversely, skill for subtropical clusters is absent across all basins. An analysis of the North Atlantic reveals that cluster skill is mainly attributable to the representation of the ENSO-TC teleconnection, suggesting it may represent a primary driver of cluster predictability across basins. These findings demonstrate that sub-basin forecast skill can improve basin-wide performance in dynamical models, underscoring the value of regional forecasts for refining seasonal outlooks.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "CORRIGENDUM: Mining expansion as new driver of deforestation in Côte d’Ivoire (Prince D Valé et al 2025 Environ. Res. Lett. 20 124081)",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae499e",
-      "pubDate": "",
-      "description": "",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
