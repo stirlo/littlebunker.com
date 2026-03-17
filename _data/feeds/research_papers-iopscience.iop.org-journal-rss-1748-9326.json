@@ -4,7 +4,7 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-17T15:04:09.406518",
+  "fetched_at": "2026-03-17T17:10:32.944437",
   "items": [
     {
       "title": "High-resolution models better simulate historical snowpack declines in the Upper Colorado River Basin",
@@ -15,10 +15,26 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Land use and land cover change intensified soil moisture drought: evidence from CMIP6-LUMIP",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4ca5",
+      "pubDate": "",
+      "description": "Soil moisture drought (SMD) critically constrains terrestrial ecosystems and agricultural productivity, yet the long-term contribution of historical land use and land cover change (LULCC) to global drought trends remains insufficiently quantified. We quantify the impacts of historical LULCC on SMD characteristics (event number, duration, severity, intensity) over 1901–2014 using seven offline land surface simulations from the CMIP6 Land Use Model Intercomparison Project (LUMIP). LULCC intensifies SMD over more than half of the global land area, with the strongest increases in mid-latitude regions, particularly in central North America. The drought-affected area expanded throughout the twentieth century, with drought events becoming increasingly prolonged and severe. Diagnostic analyses of SMD during the boreal growing season, based on CESM2 experiments, indicate that the transition from natural vegetation to cropland and pasture slightly reduces surface net radiation while enhancing latent heat flux at the expense of sensible heat flux. This biophysical shift depletes soil water storage, thereby increasing SMD occurrence and intensity. Our findings demonstrate that historical LULCC is a critical amplifier of SMD, underscoring the need to account for land-use dynamics in drought attribution, future risk assessment and adaptation planning.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Tracking shifts in European drought hotspots",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4ca7",
       "pubDate": "",
       "description": "Drought is a complex hazard with far-reaching socio-economic and ecological impacts that are often inadequately captured by conventional indices based solely on hydroclimatic anomalies. To bridge this gap, this study develops novel impact-based combined drought indices (iCDIs) that directly relate hydroclimatic drivers to remotely sensed vegetation stress, here used as a proxy for observed agricultural impacts. The proposed framework employs a machine learning framework to optimize the selection of hydroclimatic predictors including precipitation, temperature, and soil moisture across distinct hydrological clusters of the European domain. This bottom-up machine learning-based approach outperforms traditional indices in reproducing observed vegetation responses across European river basins. Crucially, future projections of iCDIs under warming scenarios unveil a distinct northward shift in drought impacts, with Central Europe emerging as an increasingly vulnerable hotspot. Notably, this contrasts with patterns suggested by standardized indices, which typically emphasize Mediterranean regions as the primary areas of concern. This spatial reconfiguration of risk underscores the urgency of adopting impact-oriented drought diagnostics to support climate-resilient planning and adaptive risk governance in a rapidly changing climate.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Spatial patterns of environmental injustice in social vulnerability and ambient dust levels across Australia",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4d5d",
+      "pubDate": "",
+      "description": "Ambient dust exposure has been associated with several adverse health outcomes. Unlike ambient air pollution, the vulnerability of subpopulations to ambient dust has not yet been explored. As the driest inhabited continent, Australia provides a natural laboratory for studying large-scale dust exposure. This study aimed to examine environmental injustice in the ambient dust of ⩽10 μm particle size and vulnerability of subpopulations in Australia, which has not been studied previously. A nationwide cross-sectional design was employed by linking a highly spatially resolved census-derived composite measure of social vulnerability index (a wide range of factors measuring susceptibility, and a more complex capacity of individuals and society to cope with hazards and damage) to 2021 annual mean ambient dust concentrations in Australia. Global and local spatial autocorrelations, bivariate spatial correlations, and generalised additive logistic regression with spatial smoothing were applied to investigate geographic variation and the association between social vulnerability and ambient dust at the Australian Census’ most precise geographical unit. The results indicated geographical inequalities of social vulnerability and ambient dust exposure, with a positive association and more elevated in urban areas than in rural areas. Those with high social vulnerability were 13% more likely to reside in areas with the highest dust exposure (OR 1.13, 95% CI: 1.03, 1.23). High dust exposure was especially elevated in urban areas (OR 1.74, 95% CI: 1.42, 2.13) and areas with relatively high cultural and minority vulnerability (OR 3.55, 95% CI: 3.20, 3.94) and housing vulnerability (OR 2.63, 95% CI: 2.38, 2.90). Social vulnerability is associated with greater exposure to ambient dust with identified hotspots, particularly in urban areas and communities with elevated cultural and housing vulnerability. These areas could be prioritised for policies and interventions to reduce the health burden of ambient dust, as initial steps to addressing environmental injustice in Australia.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -67,22 +83,6 @@
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4819",
       "pubDate": "",
       "description": "Permafrost degradation in Arctic and Subarctic regions, accelerating due to rapid climate change, exposes vast extents of ice- and organic matter-rich soils directly to the atmosphere. This ancient permafrost is known to harbor metabolically active microbes, including potentially harmful pathogens that have survived for thousands of years under extreme environmental conditions. The release and subsequent long-range dispersal of these organisms via atmospheric transport presents a significant, yet often neglected, pathway for novel disease emergence. Here, we develop a quantitative risk framework to geographically identify downwind areas in the Palearctic region potentially reached by air-transported pathogens emerging from Siberian retrogressive thaw slumps. We simulate air-mass trajectories to derive a hazard metric that accounts for the accelerating rate of slumps thawing. This hazard is coupled with the distribution of humans, major crops, or livestock representing the exposure term. We evaluate the associated health risk by introducing a novel hierarchical Pareto ranking approach, which prioritizes locations based on the joint effect of hazard and exposure without applying subjective weights. The results indicate that high risks are not only concentrated near source areas, but also extend to distant, densely populated urban centers in Russia, China, and Japan, and impact key agricultural regions. Given the increasing rates of permafrost thawing and the consequent risk of exposure of distant host populations, we call for a better characterization of the pathosphere in Arctic frozen grounds and for the development of credible models to identify and monitor specific One Health risk hotspots for plant, animal, and human populations.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Beliefs about EU 2030 climate commitments across public, expert, and policy audiences",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae491b",
-      "pubDate": "",
-      "description": "The European Union (EU) has adopted ambitious climate policies to reduce greenhouse gas emissions by 55% by 2030. While technical, economic, and political feasibility have been widely analyzed, far less is known about a critical enabling factor: whether key societal actors perceive these targets as credible and achievable. In this study, we elicit probabilistic beliefs about future EU emission reductions from a sample of citizens designed to be representative across 12 EU member states and compare them with the expectations of climate policymakers and experts. Our findings reveal that all three groups anticipate substantial progress compared to current levels. At the same time, citizens are more skeptical about achieving the target and substantially more uncertain than elites, expecting, on average, a 43% reduction by 2030 compared to the EU’s 55% reference. Moreover, we identify a notable misalignment: elites tend to systematically underestimate public skepticism. This gap underscores the need to improve policy communication, directly address citizens’ concerns, and foster a shared understanding to enhance the perceived credibility and political sustainability of the EU’s climate goals.",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Sustained weakening in the Atlantic Niño/Niña variability post 2100",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae49a1",
-      "pubDate": "",
-      "description": "The Atlantic Niño/Niña, akin to the Pacific El Niño-Southern Oscillation (ENSO) and the Indian Ocean Dipole (IOD), is a dominant mode of interannual climate variability, exerting profound impacts on the global climate. Previous studies show reversed changes in ENSO and IOD variability before and after 2100. However, the projected evolution of the Atlantic Niño/Niña beyond 2100 remains unknown. Here, we find that the Atlantic Niño/Niña variability displays a sustained weakening toward the 23rd century under high- and low- emission scenarios. On the one hand, atmospheric stratification is stabilized in the equatorial Atlantic, reducing the sensitivity of zonal wind to the anomalous sea surface temperature (SST) gradient. On the other hand, weakened equatorial upwelling decreases SST sensitivity to thermocline anomalies. These changes suppress the Bjerknes feedback in the tropical Atlantic, leading to a sustained weakening of Atlantic Niño/Niña variability under persistent greenhouse warming, in sharp contrast to ENSO and the IOD. Such weakening in variability may further influence the predictability and global impacts of the Atlantic Niño/Niña, with potentially far-reaching ramifications.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     }
