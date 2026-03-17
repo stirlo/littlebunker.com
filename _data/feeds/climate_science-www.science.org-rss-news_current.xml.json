@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-17T13:26:42.791212",
+  "fetched_at": "2026-03-17T15:03:52.306260",
   "items": [
+    {
+      "title": "Research on fruit flies and other ‘model’ organisms may be declining",
+      "link": "https://www.science.org/content/article/research-fruit-flies-and-other-model-organisms-may-be-declining",
+      "pubDate": "",
+      "description": "Analysis of published papers on eight widely studied species suggests work on them is fading, but not everyone is worried",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Can potatoes grow on the Moon?",
       "link": "https://www.science.org/content/article/can-potatoes-grow-moon",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/united-states-cutting-ties-influential-global-cancer-agency",
       "pubDate": "",
       "description": "Trump’s pullout from WHO bars federal scientists from working with the International Agency for Research on Cancer and could slash its funding",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "NASA kills future x-ray mission",
-      "link": "https://www.science.org/content/article/nasa-kills-future-x-ray-mission",
-      "pubDate": "",
-      "description": "$1 billion AXIS proposal fell victim to agency upheaval, principal investigator says",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
