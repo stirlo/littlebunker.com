@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-18T22:38:32.868396",
+  "fetched_at": "2026-03-18T23:36:01.287436",
   "items": [
+    {
+      "title": "ArXiv, the pioneering preprint server, declares independence from Cornell",
+      "link": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
+      "pubDate": "",
+      "description": "As an independent nonprofit, it hopes to raise funds to cope with exploding submissions and “AI slop”",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "China demands evidence that traditional medicine injections really work",
       "link": "https://www.science.org/content/article/china-demands-evidence-traditional-medicine-injections-really-work",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/research-fruit-flies-and-other-model-organisms-may-be-declining",
       "pubDate": "",
       "description": "Analysis of published papers on eight widely studied species suggests work on them is fading, but not everyone is worried",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Can potatoes grow on the Moon?",
-      "link": "https://www.science.org/content/article/can-potatoes-grow-moon",
-      "pubDate": "",
-      "description": "Experiments show the crop can survive in lunar soil—with a lot of help",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
