@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-18T08:58:35.059677",
+  "fetched_at": "2026-03-18T10:05:01.235546",
   "items": [
+    {
+      "title": "Computer science’s ‘Nobel Prize’ goes quantum",
+      "link": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+      "pubDate": "",
+      "description": "Charles Bennett and Gilles Brassard share this year’s $1 million A.M. Turing Award for work on quantum information",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Scientific conferences can be a bore. Can jokes liven them up?",
       "link": "https://www.science.org/content/article/scientific-conferences-can-be-bore-can-jokes-liven-them",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/india-s-national-ai-platform-tackles-country-s-many-tongues",
       "pubDate": "",
       "description": "Bhashini aims to put the power of AI in the hands of all Indians",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "A Brazilian scientist’s experimental paralysis therapy is fueling hope—and hype",
-      "link": "https://www.science.org/content/article/brazilian-scientist-s-experimental-paralysis-therapy-fueling-hope-and-hype",
-      "pubDate": "",
-      "description": "Spinal cord injury patients are scrambling for access to the injection, but researchers say preliminary evidence is weak",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
