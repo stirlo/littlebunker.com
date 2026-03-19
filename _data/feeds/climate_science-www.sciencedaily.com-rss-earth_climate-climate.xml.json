@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-19T06:07:12.115794",
+  "fetched_at": "2026-03-19T07:51:25.909167",
   "items": [
+    {
+      "title": "Wildfires in carbon-rich tropical peatlands hit 2000-year high",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260319005110.htm",
+      "pubDate": "Thu, 19 Mar 2026 01:18:39 EDT",
+      "description": "Tropical peatlands, some of the planet’s largest underground carbon stores, are now burning at levels never seen in at least 2,000 years. By analyzing charcoal preserved in peat across multiple continents, scientists discovered that fires had actually been declining for more than a thousand years, largely shaped by natural climate patterns like drought. That long trend suddenly reversed in the 20th century, with a sharp surge in wildfires—especially in Southeast Asia and Australasia.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "These strange pink rocks just revealed a hidden giant beneath Antarctica",
       "link": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260224023209.htm",
       "pubDate": "Tue, 24 Feb 2026 09:09:35 EST",
       "description": "Scientists have proposed a surprising connection between solar flares and earthquakes. When solar activity disturbs the ionosphere, it may generate electric fields that penetrate fragile fracture zones in Earth’s crust. If a fault is already critically stressed, this extra electrostatic pressure could help trigger a quake. The idea doesn’t claim direct causation, but it offers a fresh way to think about how space weather and seismic events might interact.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Lost fossils reveal sea monsters that took over after Earth’s greatest extinction",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260224023203.htm",
-      "pubDate": "Wed, 25 Feb 2026 05:20:53 EST",
-      "description": "A lost cache of 250-million-year-old fossils from Australia has rewritten part of the story of life after Earth’s worst mass extinction. Instead of a single marine amphibian species, researchers uncovered evidence of a surprisingly diverse community of early ocean predators. One of these creatures had relatives stretching from the Arctic to Madagascar, showing that some of the first sea-going tetrapods spread across the globe with remarkable speed.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
