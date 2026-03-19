@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-19T16:00:03.999299",
+  "fetched_at": "2026-03-19T17:10:02.245767",
   "items": [
+    {
+      "title": "Floating wetlands boost water quality, slash greenhouse emissions",
+      "link": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
+      "pubDate": "",
+      "description": "Fabricated platforms at an Australian wastewater lagoon soak up water pollution and methane",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "ArXiv, the pioneering preprint server, declares independence from Cornell",
       "link": "https://www.science.org/content/article/arxiv-pioneering-preprint-server-declares-independence-cornell",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/hot-pink-cricket-no-mutant",
       "pubDate": "",
       "description": "<em>Arota festae</em>’s unusual hue may help it blend in with immature plants",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Research on fruit flies and other ‘model’ organisms may be declining",
-      "link": "https://www.science.org/content/article/research-fruit-flies-and-other-model-organisms-may-be-declining",
-      "pubDate": "",
-      "description": "Analysis of published papers on eight widely studied species suggests work on them is fading, but not everyone is worried",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
