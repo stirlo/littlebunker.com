@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-21T07:37:26.695660",
+  "fetched_at": "2026-03-21T08:41:27.415430",
   "items": [
+    {
+      "title": "Tectonic shift: Earth was already moving 3.5 billion years ago",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260321012636.htm",
+      "pubDate": "Sat, 21 Mar 2026 03:37:27 EDT",
+      "description": "Scientists have uncovered the oldest direct evidence yet that Earth’s tectonic plates were on the move 3.5 billion years ago. By analyzing magnetic fingerprints in ancient rocks, they reconstructed how parts of the planet slowly drifted and even rotated over time. This challenges long-standing ideas that early Earth may have had a rigid, unmoving surface. Instead, it suggests the planet was already dynamic—and possibly setting the stage for life—much earlier than expected.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists solve 12,800-year-old climate mystery hidden in Greenland ice",
       "link": "https://www.sciencedaily.com/releases/2026/03/260319044714.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260226042454.htm",
       "pubDate": "Thu, 26 Feb 2026 11:47:11 EST",
       "description": "Antarctica’s Hektoria Glacier stunned scientists by retreating eight kilometers in just two months, with nearly half of it collapsing in record time. The rapid breakup was driven by a flat, underwater bedrock surface that allowed the glacier to suddenly float and fracture from below. Satellite and seismic data captured the dramatic chain reaction in near real time. The findings raise concerns that much larger glaciers could one day collapse just as quickly.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A giant weak spot in Earth’s magnetic field is now half the size of Europe",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260224023221.htm",
-      "pubDate": "Wed, 25 Feb 2026 10:45:43 EST",
-      "description": "Earth’s magnetic shield is shifting in dramatic ways. New data from ESA’s Swarm satellites show that the South Atlantic Anomaly — a vast weak spot in Earth’s magnetic field — has grown by nearly half the size of continental Europe since 2014. Even more striking, a region southwest of Africa has begun weakening even faster in recent years, hinting at unusual activity deep within Earth’s molten outer core.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
