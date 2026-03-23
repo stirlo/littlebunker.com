@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-23T09:05:57.783206",
+  "fetched_at": "2026-03-23T10:58:57.392693",
   "items": [
+    {
+      "title": "Microplastics are falling from the sky and polluting forests",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260323005535.htm",
+      "pubDate": "Mon, 23 Mar 2026 04:34:53 EDT",
+      "description": "Tiny plastic particles aren’t just choking oceans and cities—they’re quietly infiltrating forests too. Scientists discovered that most microplastics arrive through the air, settling onto treetops before being washed or dropped to the forest floor in rain and falling leaves. Once there, natural processes like leaf decay help bury and store these particles deep in the soil. The findings reveal forests as hidden reservoirs of airborne pollution—and potentially a new frontline in the growing microplastics crisis.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Beavers are turning rivers into powerful carbon sinks",
       "link": "https://www.sciencedaily.com/releases/2026/03/260322020245.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/02/260228093512.htm",
       "pubDate": "Sun, 01 Mar 2026 11:29:33 EST",
       "description": "For the first time ever, scientists have uncovered a vast field of tektites in Brazil — mysterious glassy fragments forged when a powerful extraterrestrial object slammed into Earth about 6.3 million years ago. Named “geraisites” after Minas Gerais, where they were first found, these dark, aerodynamic droplets of natural glass stretch across more than 900 kilometers and may mark one of South America’s most significant ancient impact events.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "A major climate hope in Antarctica just melted away",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260228082714.htm",
-      "pubDate": "Sat, 28 Feb 2026 09:59:08 EST",
-      "description": "A popular climate theory suggested that melting Antarctic glaciers would release iron into the ocean, sparking algae blooms that pull carbon dioxide from the air. New field data from West Antarctica reveal that meltwater provides far less iron than scientists once believed. Instead, most of the iron comes from deep ocean water and sediments, not from the melting ice itself. The discovery raises new questions about how Antarctica influences climate change.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
