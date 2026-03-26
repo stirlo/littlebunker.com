@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-26T21:37:38.875890",
+  "fetched_at": "2026-03-26T22:38:23.648168",
   "items": [
+    {
+      "title": "Abnormal behaviors in lab monkeys may reflect a lifetime of stressful experiences",
+      "link": "https://www.science.org/content/article/abnormal-behaviors-lab-monkeys-may-reflect-lifetime-stressful-experiences",
+      "pubDate": "",
+      "description": "Pacing and hair pulling may develop after multiple experiments, years of relative isolation, and more",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "‘Resurrection plants’ bounce back after years of drought. Do they hold lessons for crops?",
       "link": "https://www.science.org/content/article/resurrection-plants-bounce-back-after-years-drought-do-they-hold-lessons-crops",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/nasa-plans-send-nuclear-powered-spacecraft-mars-2028",
       "pubDate": "",
       "description": "Spacecraft would release helicopters to explore martian surface",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Dueling AI agents could reveal keys to restoring consciousness",
-      "link": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
-      "pubDate": "",
-      "description": "A new study probes consciousness with models that simulate and classify brain activity. A neuroscientist behind the work explains its ambitions",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
