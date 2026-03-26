@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-26T05:12:13.364741",
+  "fetched_at": "2026-03-26T07:19:20.305115",
   "items": [
+    {
+      "title": "Scientists open a million-year-old time capsule beneath New Zealand",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260325005924.htm",
+      "pubDate": "Thu, 26 Mar 2026 00:58:43 EDT",
+      "description": "Deep inside a cave, scientists uncovered fossils from 16 species, including a newfound kākāpō ancestor that may have been able to fly. These remains reveal that New Zealand’s ecosystems were constantly disrupted by volcanic eruptions and rapid climate shifts. Long before humans, waves of extinction and replacement reshaped the islands’ wildlife. It’s a rare window into a missing chapter of natural history.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Microplastics are falling from the sky and polluting forests",
       "link": "https://www.sciencedaily.com/releases/2026/03/260323005535.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
       "pubDate": "Mon, 02 Mar 2026 11:27:11 EST",
       "description": "K’gari’s iconic lakes have existed for tens of thousands of years—but they haven’t always been full. New research shows that about 7,500 years ago, during a time of high rainfall, several of the island’s deepest lakes mysteriously vanished. Scientists believe changing wind patterns may have redirected rain away from the island. As the climate shifts again, the lakes’ long-term survival is no longer guaranteed.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Massive asteroid impact 6.3 million years ago left giant glass field in Brazil",
-      "link": "https://www.sciencedaily.com/releases/2026/02/260228093512.htm",
-      "pubDate": "Sun, 01 Mar 2026 11:29:33 EST",
-      "description": "For the first time ever, scientists have uncovered a vast field of tektites in Brazil — mysterious glassy fragments forged when a powerful extraterrestrial object slammed into Earth about 6.3 million years ago. Named “geraisites” after Minas Gerais, where they were first found, these dark, aerodynamic droplets of natural glass stretch across more than 900 kilometers and may mark one of South America’s most significant ancient impact events.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
