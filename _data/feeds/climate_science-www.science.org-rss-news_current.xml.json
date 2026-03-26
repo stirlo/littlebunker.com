@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-26T15:13:26.622346",
+  "fetched_at": "2026-03-26T17:11:01.764741",
   "items": [
+    {
+      "title": "Long-standing volcanic eruption theory might be backward",
+      "link": "https://www.science.org/content/article/long-standing-volcanic-eruption-theory-might-be-backward",
+      "pubDate": "",
+      "description": "Eruptions could be triggered when bubbles vanish into magma—not when they burst out",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "NASA revives next-generation flagship Earth-observing missions",
       "link": "https://www.science.org/content/article/nasa-revives-next-generation-flagship-earth-observing-missions",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
       "pubDate": "",
       "description": "Given autonomous control of other software, programs shared private medical details and deleted files without permission",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Iran’s internet shutdown muddies global efforts to track damage to historical sites",
-      "link": "https://www.science.org/content/article/iran-s-internet-shutdown-muddies-global-efforts-track-damage-historical-sites",
-      "pubDate": "",
-      "description": "At least 56 cultural sites have been damaged since strikes began in February—but internet blackouts and academic isolation are obscuring the true toll",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
