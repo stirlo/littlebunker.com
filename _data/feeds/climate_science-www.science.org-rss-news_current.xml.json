@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-03-27T13:21:39.332878",
+  "fetched_at": "2026-03-27T14:57:48.972385",
   "items": [
+    {
+      "title": "Jupiter’s weather forecast: cloudy with a chance of nukes",
+      "link": "https://www.science.org/content/article/jupiter-s-weather-forecast-cloudy-chance-nukes",
+      "pubDate": "",
+      "description": "The planet’s lightning storms can unleash the force of multiple nuclear weapons every minute",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Abnormal behaviors in lab monkeys may reflect a lifetime of stressful experiences",
       "link": "https://www.science.org/content/article/abnormal-behaviors-lab-monkeys-may-reflect-lifetime-stressful-experiences",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/genes-giant-viruses-help-polar-algae-survive-frigid-waters-and-harsh-sun",
       "pubDate": "",
       "description": "A prior infection may create lasting, beneficial evolutionary change in these hardy microbes",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "NASA plans to send a nuclear-powered spacecraft to Mars in 2028",
-      "link": "https://www.science.org/content/article/nasa-plans-send-nuclear-powered-spacecraft-mars-2028",
-      "pubDate": "",
-      "description": "Spacecraft would release helicopters to explore martian surface",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
