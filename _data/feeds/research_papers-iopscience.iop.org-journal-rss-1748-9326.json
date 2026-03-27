@@ -4,8 +4,32 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-27T17:06:05.338230",
+  "fetched_at": "2026-03-27T19:04:27.908562",
   "items": [
+    {
+      "title": "Potential for reducing greenhouse gas emissions from cropping in India: where (district), which (crop), and who (farmers)",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae499c",
+      "pubDate": "",
+      "description": "India is among the largest emitters of agricultural greenhouse gases (GHGs) in the world and is dominated by small-scale farmers who are highly vulnerable to climate change. To help target interventions most likely to reduce emissions from croplands while benefiting farmers, we estimate emissions of three different GHGs for 44 crops at a district level using an ensemble of models connected to clear management actions: nitrous-oxide (N2O) linked to nutrient management, methane (CH4) linked to water management and organic inputs in rice, and both N2O and CH4 emissions from burning crop residue. Results vary across districts (where), suggesting a tailored rather than one-size-fits-all approach for interventions. Rice production (which) is the largest source of net GHG emissions; improving water management to reduce emissions would have multiple co-benefits, including reduced strain on water resources at the landscape scale. Because small farms (<2 ha) (who) have the highest emission intensity, driven by rice-dominated systems with low crop diversity and higher rates of nitrogen application, they present the most potential for triple wins. Improving the management of organic inputs, reducing excess synthetic fertilizer use, and diversifying crops for small farms would help reduce national emissions while strengthening climate resilience and livelihoods. The data and results from this paper can help develop district-level targeted interventions to minimize crop GHG emissions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Record decline and slowing down of canopy-greenness in Amazonia during the 2023/2024 drought",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4e4b",
+      "pubDate": "",
+      "description": "Over the period 2023/2024 Amazonia has experienced a record drought. So far, only few studies have quantified the overall impact of this drought on the Amazon rainforest emphasizing declining canopy-greenness and gross primary production. While these studies provide valuable insights, they neither included the second peak of drought in September 2024 nor did they study post-event trajectories. To fill this gap, we here present analyses based on observations spanning 23 years of canopy-greenness at an unprecedented spatial resolution of 21.4 hectares per pixel. Specifically, we compare the impact of the 2023/2024 drought with previous major droughts (2005, 2010, 2015/2016) and quantify long-term trends of enhanced vegetation index (EVI), extending previous investigations by more than a year of observations. Moreover, we evaluate temporal autocorrelation (TAC) and variance (VAR) as measures of slowing down and reduced forest resilience. Finally, we assess how drought severity and extent as well as water-table depth have impacted canopy-greenness dynamics. Our results indicate record low canopy greenness and declining forest resilience as indicated by relatively low EVI and rising TAC and VAR during and after the 2023/2024 drought. In particular, the area featuring more than 10% EVI decline reached a record spatial extent of 14% early in 2025, while the spatial shares of regions featuring high TAC and VAR were 2 and 3.4 times higher than anticipated from uniform distributions. Furthermore, we identify significant effects of the drought extent and severity on canopy greenness dynamics as well as a buffering effect of shallow water tables. Taken together, this study points at an unprecedented slowing down of canopy greenness dynamics in Amazonia up until September 2025, indicating the necessity to closely monitor the further recovery of the Amazon rainforest.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Is the recently enhanced mesoscale convective systems in East Asia due to global warming or decadal variability?",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4fe6",
+      "pubDate": "",
+      "description": "Since the beginning of 21st century, mesoscale convective systems (MCSs) precipitation in the Yangtze River Basin (YRB) has increased by approximately 25% per decade. Given the concurrent global warming, it is crucial to distinguish the relative roles of anthropogenic warming and decadal variability in driving this change. With a pair of high-resolution experiments in pseudo global warming approach, we found that the increasing trend of MCS precipitation does not require the presence of a warming trend. The rise in MCS frequency, a factor largely independent of warming trend, accounts for most of the precipitation increase. In contrast, the MCS rain rate tends to intensify only in a warming scenario, slightly reinforcing the major contribution of MCS frequency. Furthermore, we analyzed CMIP6 piControl circulation and found that the atmospheric circulation trends resembling the observed pattern, which drive increases in MCS precipitation, occur frequently in internal-forcing-only scenarios (piControl). This indicates that the circulation trends observed in recent decades are likely manifestations of decadal variability. Overall, while global warming provides a smaller, overlying contribution, the observed increase in MCS precipitation in the YRB is mainly driven by a circulation trend likely arising from decadal variability.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Radiative forcing-based accounting (RFA): a dynamic framework to replace static GWPs in carbon markets",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae5075",
@@ -15,10 +39,26 @@
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
     {
+      "title": "Limited evidence for the impact of climate change on the recent range expansion of the malaria vector Anopheles stephensi in the Horn of Africa",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae51a7",
+      "pubDate": "",
+      "description": "During the last decade, the Horn of Africa has experienced an unexpected surge in urban malaria cases, with annual outbreaks intensifying each year in some countries. The trend began in 2012 in Djibouti City, followed by outbreaks in 2016 in Ethiopia and Sudan. Research involving mosquito surveillance revealed the presence of Anopheles stephensi, a species originating in Asia and well-adapted to urban environments. The World Health Organisation subsequently issued a vector alert, urging increased mosquito surveillance in the affected areas. Here, we analysed a database of geo-referenced records of An. stephensi collected across its native range to explore whether the recent range expansion of this vector in the Horn of Africa could be attributed to climate change. To this end, we implemented a boosted regression tree approach to train ecological niche models and investigated changes in the distribution of areas ecologically suitable for An. stephensi. We compare estimates derived from climate data spanning 1901–2019 with those from a counterfactual baseline in which climate trends were removed for the same period. Overall, our results indicated that factors other than climate change likely contributed to the expansion range of An. stephensi on the African continent. The association between lower pasture density and higher ecological suitability points to a potential link with expanding urban environments, where this vector is known to thrive. These findings highlight the need for further investigation into the ecological and anthropogenic drivers shaping the spread of An. stephensi to inform targeted and effective malaria control strategies.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
       "title": "Global human population has surpassed Earth’s sustainable carrying capacity",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae51aa",
       "pubDate": "",
       "description": "The ecological concept of human carrying capacity is necessarily complicated because human beings are the ‘ultimate ecosystem engineers’ who moderate the environment for their benefit. For at least the last few hundred years, human ingenuity, access to massive stocks of fossil fuels, and technological development have driven facilitation whereby increasing human abundance has promoted higher population growth rates. However, this positive relationship broke down during the 1950s, and by 1962, the global human population entered a phase where the growth rate consistently declined as population increased. The onset of this negative phase occurred 8 years before a global biocapacity deficit began in 1970. The onset of the negative phase also varies regionally, with the lowest-income and highest fertility regions entering this phase later than higher-income regions. A Ricker logistic model fitted to the negative phase predicts that the global population could reach 11.7–12.4 billion people between 2067 and 2076. The same model fitted to the facilitation phase predicts a maximum population of 2.5 billion people that Earth might be able to maintain. The negative phase also correlates strongly with the trend in global temperature anomaly, ecological footprint, and total emissions, with more of their variation explained by increasing population size rather than increasing per-capita consumption. The Earth cannot sustain the future human population, or even today’s, without a major overhaul of socio-cultural practices for using land, water, energy, biodiversity, and other resources.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A decadal turning point in the CO2 sensitivity of the land carbon sink",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae51ac",
+      "pubDate": "",
+      "description": "The terrestrial carbon sink is a critical buffer in the climate system, yet its persistence under rising atmospheric CO2 remains a major uncertainty in Earth system projections. Using an ensemble of 20 dynamic global vegetation models from the TRENDY v12 project, we decompose the CO2 sensitivity of the land carbon sink, represented by net biome production (NBP), to diagnose long-term changes in intrinsic efficiency. We identify a robust, emergent turning point in the simulated intrinsic CO2 sensitivity of NBP, shifting from a significant multi-decadal increase to a sustained decline around 1980. This reversal is reproduced in both carbon-only and coupled carbon–nitrogen model classes and is consistent with a progressive decoupling between CO2 sensitivities of carbon inputs and losses (net primary production, NPP versus heterotrophic respiration, Rh). In contrast, the turning point is not readily detectable in the total apparent sensitivity, reflecting both the dominance of high-frequency climate and land-use variability and interacting environmental effects that may partially offset intrinsic CO2 responses. Together, these results point to a weakening intrinsic efficiency of the terrestrial carbon sink, implying diminishing marginal land uptake per unit CO2 increase and a potentially more constrained resilience of future land carbon sequestration than suggested by raw sink magnitudes alone.",
       "category": "research_papers",
       "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
     },
@@ -121,14 +161,6 @@
     {
       "title": "The wellbeing of reindeer—a crucial and underutilized indicator for the integrity of boreal forests in the European Union",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae5310",
-      "pubDate": "",
-      "description": "",
-      "category": "research_papers",
-      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
-    },
-    {
-      "title": "Recycling paradox: another piece of the plastic pollution problem",
-      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae5312",
       "pubDate": "",
       "description": "",
       "category": "research_papers",
