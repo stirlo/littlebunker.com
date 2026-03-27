@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-27T11:47:10.898688",
+  "fetched_at": "2026-03-27T13:21:39.511694",
   "items": [
+    {
+      "title": "The ice protecting Alaska is vanishing faster than expected",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260326075546.htm",
+      "pubDate": "Fri, 27 Mar 2026 03:04:02 EDT",
+      "description": "Stable sea ice along Alaska’s coast is disappearing faster than expected, with the season shrinking by weeks and even months in recent decades. The ice is forming later in the fall and, in some places, breaking away earlier in spring. This trend is now hitting areas like the Beaufort Sea that were once relatively stable. For local communities, it means more dangerous travel, uncertain hunting conditions, and greater exposure to coastal erosion.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists open a million-year-old time capsule beneath New Zealand",
       "link": "https://www.sciencedaily.com/releases/2026/03/260325005924.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
       "pubDate": "Wed, 04 Mar 2026 12:50:50 EST",
       "description": "Northern wildfires may be more dangerous for the climate than they appear. Researchers found that fires in boreal forests can burn deep into peat soils, releasing ancient carbon stored for hundreds or thousands of years. These slow, smoldering fires often look small from space, causing climate models to underestimate their emissions.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
-      "pubDate": "Mon, 02 Mar 2026 11:27:11 EST",
-      "description": "K’gari’s iconic lakes have existed for tens of thousands of years—but they haven’t always been full. New research shows that about 7,500 years ago, during a time of high rainfall, several of the island’s deepest lakes mysteriously vanished. Scientists believe changing wind patterns may have redirected rain away from the island. As the climate shifts again, the lakes’ long-term survival is no longer guaranteed.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
