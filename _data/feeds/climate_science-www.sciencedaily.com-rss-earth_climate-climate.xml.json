@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-03-28T11:34:11.898052",
+  "fetched_at": "2026-03-28T13:09:44.971111",
   "items": [
+    {
+      "title": "This new carbon material could make carbon capture far more affordable",
+      "link": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
+      "pubDate": "Sat, 28 Mar 2026 08:05:36 EDT",
+      "description": "Scientists have created a new kind of carbon material that could make carbon capture much cheaper and more efficient. By carefully controlling how nitrogen atoms are arranged, they found certain structures capture CO2 better and release it using far less heat. One version works at temperatures below 60 °C, meaning it could run on waste heat instead of costly energy. The discovery offers a powerful new blueprint for next-generation climate technology.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "The ice protecting Alaska is vanishing faster than expected",
       "link": "https://www.sciencedaily.com/releases/2026/03/260326075546.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260304184224.htm",
       "pubDate": "Thu, 05 Mar 2026 00:47:53 EST",
       "description": "A sweeping new study of more than 2,000 insect species reveals a troubling reality: many insects may be far less capable of coping with rising temperatures than scientists once hoped. Researchers found that while some species living at higher altitudes can temporarily boost their heat tolerance, many insects in tropical lowlands—where biodiversity is highest—lack this flexibility. Because insects play essential roles as pollinators, decomposers, and predators, their vulnerability could ripple through entire ecosystems.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Climate models may be missing massive carbon emissions from boreal wildfires",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
-      "pubDate": "Wed, 04 Mar 2026 12:50:50 EST",
-      "description": "Northern wildfires may be more dangerous for the climate than they appear. Researchers found that fires in boreal forests can burn deep into peat soils, releasing ancient carbon stored for hundreds or thousands of years. These slow, smoldering fires often look small from space, causing climate models to underestimate their emissions.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
