@@ -4,8 +4,24 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-30T13:56:32.429145",
+  "fetched_at": "2026-03-30T15:12:43.572504",
   "items": [
+    {
+      "title": "Directed causal coupling between urban heat and air pollution in U.S. cities",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae53fd",
+      "pubDate": "",
+      "description": "Urban air quality and temperature are closely linked through coupled physical and chemical processes. However, most existing evidence relies on correlation-based associations lacking directionality, or process-based models whose causal pathways depend on model structure and parameterizations. Here we apply a nonlinear causal inference method to quantify directed coupling between near-surface air temperature and three major air pollutants (PM2.5, ozone, and NO2) across 481 U.S. urban areas using 14 years of daily data. We identify distinct diurnal and seasonal regimes of temperature–pollution coupling not captured by linear correlation. Temperature–PM2.5 and temperature–O3 coupling strengthens in summer, whereas temperature–NO2 coupling intensifies in winter. Ozone shows the most consistent causal structure among all pollutants, with temperature dominant in roughly 80% of urban areas in both seasons. PM2.5 exhibits balanced and spatially heterogeneous coupling, while NO2 shifts from mixed behavior in summer to pronounced temperature dominance in winter. Across pollutants, linear correlations frequently overestimate coupling strength, especially for winter NO2. As the first continental-scale causal assessment of urban temperature–pollution interactions in the U.S., this study offers a data-driven complement to process-based modeling. The identified pollutant-specific sensitivities and their regional, diurnal, and seasonal variability provide new insight for understanding and managing urban heat stress and air quality.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Clear-air turbulence-aware flight routing over the North Atlantic using weather regimes",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae5673",
+      "pubDate": "",
+      "description": "Clear-air turbulence (CAT) is one of the most significant hazards to aviation during the cruise phase. Under climate change, CAT is projected to increase in frequency and severity in certain key areas for aviation, posing growing challenges for flight safety and operational efficiency. This study focuses on the North Atlantic region and investigates how large-scale atmospheric circulation characterised by weather regimes influences the spatial distribution of moderate-or-Greater CAT (MOG-CAT) occurrences. Using ERA5 reanalysis data from 1979 to 2020, we classify daily winter circulation into four weather regimes and compute the MOG-CAT climatology associated with each regime. We then integrate this information into a flight planning model to minimise fuel consumption whilst avoiding areas subject to frequent MOG-CAT. The flights between London Heathrow and New York JFK airports are used as an example. Results show strong regime-dependent variations in MOG-CAT occurrence, reflecting shifts in jet stream position and intensity. For three of the regimes (the negative phase of the North Atlantic Oscillation NAO−, Atlantic ridge and Scandinavian blocking), CAT-aware routing offers turbulence avoidance with minimal fuel and time penalties. In contrast, under NAO+, avoiding MOG-CAT areas can increase round-trip fuel consumption by up to 8%, highlighting a trade-off between safety and efficiency in this high-hazard regime. This regime-based approach has the potential to support CAT hazard assessment and flight route optimisation weeks in advance, thus opening new opportunities for safer and more fuel-efficient flight route planning.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Potential for reducing greenhouse gas emissions from cropping in India: where (district), which (crop), and who (farmers)",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae499c",
