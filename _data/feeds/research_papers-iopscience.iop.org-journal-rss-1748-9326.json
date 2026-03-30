@@ -4,8 +4,40 @@
   "description": "Latest articles for Environmental Research Letters",
   "category": "research_papers",
   "source_url": "https://iopscience.iop.org/journal/rss/1748-9326",
-  "fetched_at": "2026-03-30T15:12:43.572504",
+  "fetched_at": "2026-03-30T17:05:49.609748",
   "items": [
+    {
+      "title": "CORRIGENDUM: Quantifying responsibility for cross-state air pollution: an airshed approach (2025 Environ. Res. Lett. 20 124063)",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae52f0",
+      "pubDate": "",
+      "description": "",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Long-term socioeconomic trends and climate variability as drivers of virtual water scarcity in China",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae4abd",
+      "pubDate": "",
+      "description": "Water scarcity can have far-reaching sectoral impacts beyond its physical location through the propagation of virtual water flows. Socioeconomic and hydroclimatic changes affect local and virtual water scarcity by altering availability and demand. Yet most studies of this phenomenon focus on volumetric footprints, and the few on water scarcity risk have not examined hydroclimatic variability beyond long-term trends. In this study, we ask how gross domestic product (GDP) and population changes, long-term meteorological trends, sea surface temperature (SST) patterns, and interannual meteorological variability affect water scarcity in China, both locally (through the local water scarcity risk index, LWSR) and remotely (through the virtual water scarcity risk index, VWSR). Counterfactual scenarios were compared in a regression-and-simulation framework, with the socioeconomic and meteorological drivers varying over 1923–2019 and the multi-regional input–output structure staying fixed at 2017. Relative to a 5 year baseline centered on 2017, GDP and population changes have induced a cumulative 17%–50% increase in LWSR and 13%–21% increase in VWSR, outweighing the effect of long-term meteorological trends. phase change in one of two examined SST patterns induce 4%–13% differences in LWSR and 1%–4% differences in VWSR. Interannual meteorological variability induces 10%–20% standard deviations in LWSR and 3%–7% in VWSR. The findings highlight the importance of using longer time series to accurately assess local and virtual water scarcity situations. Water scarcity management should prioritize socioeconomic factors when planning at century-long timescales and prioritize hydroclimatic factors at multidecadal or shorter timescales. water managers should consider interannual variabilities in LWSR and VWSR and plan for potential occurrences of extreme conditions.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "Effect of regional marine cloud brightening on land climate",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae51a8",
+      "pubDate": "",
+      "description": "Marine cloud brightening (MCB) is one of the proposed climate intervention methods aiming to reduce anthropogenic warming. In this study, we use the CESM Earth system model to examine the land climate consequences of regional MCB. MCB is implemented from year 2031 by seeding sea salt aerosols into low-level clouds over 5% of the global area that is most susceptible to cloud brightening. Under the background scenario of SSP2-4.5, this MCB deployment stabilizes global mean temperature at approximately 1.5 °C above pre-industrial levels. MCB cools most land areas with heterogeneous regional responses in precipitation, soil moisture, and direct and diffuse solar radiation. By the middle of this century, relative to SSP2-4.5, MCB reduces drought stress over 55% of the land area, measured in terms of the standardized precipitation evapotranspiration index. By year 2100, compared to SSP2-4.5, MCB increases sunlit and shaded terrestrial gross primary production by 4% and 3%, respectively, as a result of MCB-induced land climate change. A sudden termination of MCB has far-reaching effects on the land climate. The decade following an abrupt termination of MCB experiences a mean land warming rate approximately four times greater than that under the SSP scenario without MCB, with many regions experiencing warming rates exceeding 1 °C per decade. Consequently, an MCB termination would subject more than 90% of global land area to a temperature velocity surpassing 2 km yr−1, posing significant risks to many species’ ability to adapt to their habitats. Our findings demonstrate that regional implementation of MCB would have widespread climate effects over land—a critical consideration for designing and evaluating MCB as a proposed method to counteract human-caused climate change.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
+    {
+      "title": "A recent significant increase in tropical cyclone-induced precipitation in the North China Plain",
+      "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae51ad",
+      "pubDate": "",
+      "description": "Tropical cyclone (TC) precipitation exhibits strong regional dependence and arises from complex mechanisms. Here, our analysis of hourly data from 278 observational stations reveals a significant increasing trend in TC precipitation over the North China Plain from 1981 to 2024. The long-term increase is primarily driven by a remarkable surge in TC-induced precipitation amount since 2018. Specifically, the annual mean TC precipitation nearly quadrupled, rising from 23.62 mm during 1981–2017 to 90.76 mm in 2018–2024. A similar upward trend is also observed in TC-induced extreme precipitation, indicating that TCs contribute increasingly to the region’s total extreme precipitation. Mechanistically, the precipitation intensification results not from a slowdown in TC translation speed but rather from the significant elongation of individual TC tracks, which are characterized by a westward extension and deeper inland penetration. Such track alteration is attributed to an anomalous easterly steering flow linked to a mid-to-upper-level anticyclonic anomaly near Japan.",
+      "category": "research_papers",
+      "source_url": "https://iopscience.iop.org/journal/rss/1748-9326"
+    },
     {
       "title": "Directed causal coupling between urban heat and air pollution in U.S. cities",
       "link": "https://iopscience.iop.org/article/10.1088/1748-9326/ae53fd",
