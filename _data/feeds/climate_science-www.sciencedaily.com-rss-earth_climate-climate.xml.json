@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-02T13:42:16.292614",
+  "fetched_at": "2026-04-02T15:03:41.151205",
   "items": [
+    {
+      "title": "Earth’s magnetic field went wild 600 million years ago and scientists finally know why",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260401071927.htm",
+      "pubDate": "Thu, 02 Apr 2026 08:54:48 EDT",
+      "description": "Hundreds of millions of years ago, Earth’s magnetic field behaved in a way that has long baffled scientists, showing wild and seemingly chaotic shifts unlike anything seen before or since. A new study suggests this chaos may actually hide a deeper pattern: instead of random fluctuations, the magnetic field may have followed a global, organized structure.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "This new carbon material could make carbon capture far more affordable",
       "link": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260304184229.htm",
       "pubDate": "Thu, 05 Mar 2026 15:51:47 EST",
       "description": "Ocean temperatures may be quietly protecting the world from a global drought catastrophe. By analyzing more than a century of climate data, researchers discovered that droughts rarely spread across the planet at the same time, affecting only about 1.8%–6.5% of global land simultaneously—far less than earlier estimates. The reason lies largely in shifting ocean patterns such as El Niño and La Niña, which create a patchwork of drought conditions across continents instead of one massive worldwide dry spell.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Half of Amazon insects could face dangerous heat stress",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260304184224.htm",
-      "pubDate": "Thu, 05 Mar 2026 00:47:53 EST",
-      "description": "A sweeping new study of more than 2,000 insect species reveals a troubling reality: many insects may be far less capable of coping with rising temperatures than scientists once hoped. Researchers found that while some species living at higher altitudes can temporarily boost their heat tolerance, many insects in tropical lowlands—where biodiversity is highest—lack this flexibility. Because insects play essential roles as pollinators, decomposers, and predators, their vulnerability could ripple through entire ecosystems.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
