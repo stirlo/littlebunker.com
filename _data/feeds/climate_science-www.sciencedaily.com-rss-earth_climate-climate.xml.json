@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-05T03:22:03.696750",
+  "fetched_at": "2026-04-05T05:47:28.402752",
   "items": [
+    {
+      "title": "A massive arctic thaw is unleashing carbon frozen for thousands of years",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260404191033.htm",
+      "pubDate": "Sat, 04 Apr 2026 19:17:48 EDT",
+      "description": "A sweeping new study reveals that as Arctic permafrost thaws, it is dramatically reshaping rivers and releasing vast amounts of ancient carbon that had been locked away for thousands of years. By analyzing decades of high-resolution data across northern Alaska, scientists found that runoff is increasing, rivers are carrying more dissolved carbon, and the thawing season is stretching further into the fall. This carbon eventually reaches the ocean, where some of it turns into carbon dioxide, intensifying global warming.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Most U.S. states are warming but not in the way you think",
       "link": "https://www.sciencedaily.com/releases/2026/04/260403224502.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260311004708.htm",
       "pubDate": "Wed, 11 Mar 2026 02:38:22 EDT",
       "description": "As deep-sea waters warm, scientists expected trouble for the microbes that help keep ocean chemistry in balance. Instead, researchers found that Nitrosopumilus maritimus can adapt to warmer, iron-limited conditions by using iron more efficiently. Because these microbes control key nitrogen reactions that support marine life, their adaptability could help sustain ocean productivity. In a warming world, they may play an even bigger role in shaping marine nutrient cycles.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists detect a sudden acceleration in global warming",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
-      "pubDate": "Mon, 09 Mar 2026 20:26:55 EDT",
-      "description": "Global warming has picked up speed in the past decade, according to a new analysis from the Potsdam Institute for Climate Impact Research (PIK). By removing short term natural influences such as El Niño, volcanic eruptions, and solar cycles from temperature records, researchers uncovered a clear acceleration in the planet’s long term warming trend beginning around 2015.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
