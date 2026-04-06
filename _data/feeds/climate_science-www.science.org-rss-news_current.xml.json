@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-06T11:52:34.026434",
+  "fetched_at": "2026-04-06T13:25:06.055813",
   "items": [
+    {
+      "title": "AIs can ‘memorize’ data they shouldn’t. Can they be forced to forget?",
+      "link": "https://www.science.org/content/article/ais-can-memorize-data-they-shouldn-t-can-they-be-forced-forget",
+      "pubDate": "",
+      "description": "New tool could help researchers probe how models “unlearn” sensitive training material",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "U.S. Forest Service unveils extensive closures of research facilities",
       "link": "https://www.science.org/content/article/u-s-forest-service-unveils-extensive-closures-research-facilities",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/some-black-holes-are-forbidden-ripples-spacetime-reveal",
       "pubDate": "",
       "description": "Analysis of gravitational waves supports theory that some stars explode without leaving behind black holes",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Across the social sciences, half of research doesn’t replicate",
-      "link": "https://www.science.org/content/article/across-social-sciences-half-research-doesn-t-replicate",
-      "pubDate": "",
-      "description": "Ambitious effort tested whether more than 100 papers held up on multiple types of “repeatability” tests",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
