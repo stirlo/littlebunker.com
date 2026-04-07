@@ -6,6 +6,10 @@ on:
     types: [completed]
   workflow_dispatch:
 
+concurrency:
+  group: process-rss-bunker
+  cancel-in-progress: false
+
 jobs:
   process-feeds:
     runs-on: ubuntu-latest
@@ -438,7 +442,9 @@ jobs:
         run: |
           git config --global user.name 'Climate RSS Bot - Multi-Category with SEO'
           git config --global user.email 'action@github.com'
-           git add -A
-            if git diff --quiet --staged; then
-              git commit -m "..." && git push
-            fi
+          git add -A
+          if git diff --quiet --staged; then
+            echo "No new posts to commit"
+          else
+            git commit -m "RSS posts update [skip ci] - $(date '+%Y-%m-%d %H:%M UTC')" && git push
+          fi
