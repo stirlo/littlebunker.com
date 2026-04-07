@@ -75,18 +75,18 @@ jobs:
                   co2 = metrics.get('co2', {})
                   current = co2.get('current', 'N/A')
                   change = co2.get('change', 'N/A')
-                  return f"🌍 CO2: {current} ppm (+{change}/year)\n\nCurrent atmospheric carbon dioxide levels continue rising"
+                  return f"🌍 CO2 Update\n\n{current} ppm atmospheric CO₂ (+{change} ppm/year)\n\nCarbon dioxide concentration continues to rise.\n\nhttps://littlebunker.com"
 
               elif post_type == 1:  # CH4 post
                   ch4 = metrics.get('ch4', {})
                   current = ch4.get('current', 'N/A')
                   change = ch4.get('change', 'N/A')
-                  return f"🔥 CH4: {current} ppb (+{change}/year)\n\nMethane concentration accelerating climate change"
+                  return f"🔥 Methane Update\n\n{current} ppb atmospheric CH₄ (+{change} ppb/year)\n\nMethane concentration accelerating climate change.\n\nhttps://littlebunker.com"
 
               elif post_type == 2:  # Temperature post
                   temp = metrics.get('temperature', {})
                   overshoot = temp.get('overshoot', 'N/A')
-                  return f"🌡️ Temperature: +{overshoot}°C overshoot\n\nGlobal warming exceeding safe limits"
+                  return f"🌡️ Temperature Overshoot\n\n+{overshoot}°C above pre-industrial baseline\n\nGlobal average temperature tracking above safe limits.\n\nhttps://littlebunker.com"
 
               return None
 
@@ -174,26 +174,55 @@ jobs:
 
                           title = entry.get('title', '').strip()
                           link = entry.get('link', '')
+                          summary = entry.get('summary', '') or entry.get('description', '')
+                          category = entry.get('tags', [{}])[0].get('term', '') if entry.get('tags') else ''
 
-                          # Smart content formatting
-                          if link:
-                              content_to_post = f"{title}\n\n{link}"
+                          # Strip HTML from summary
+                          summary = re.sub(r'<[^>]+>', '', summary).strip()
+                          # Collapse whitespace
+                          summary = re.sub(r'\s+', ' ', summary)
+
+                          # Category → emoji + label
+                          cat_lower = category.lower().replace('_', '-').replace(' ', '-')
+                          if any(w in cat_lower for w in ['extreme', 'weather', 'hurricane', 'flood', 'fire', 'drought']):
+                              lead = "⚠️ Extreme Weather"
+                          elif any(w in cat_lower for w in ['research', 'paper', 'science']):
+                              lead = "🔬 Research"
+                          elif any(w in cat_lower for w in ['social', 'impact', 'community']):
+                              lead = "👥 Social Impact"
+                          elif any(w in cat_lower for w in ['arctic', 'polar', 'ice']):
+                              lead = "🧊 Polar"
                           else:
-                              content_to_post = title
+                              lead = "🌍 Climate"
 
-                          # Handle length limits intelligently
-                          if len(content_to_post) > 290:
-                              if link:
-                                  max_title_length = 280 - len(f"\n\n{link}")
-                                  truncated_title = title[:max_title_length-3] + "..." if len(title) > max_title_length else title
-                                  content_to_post = f"{truncated_title}\n\n{link}"
-                              else:
-                                  content_to_post = title[:287] + "..."
+                          # Build post: lead + title + excerpt + link
+                          # Bluesky limit is 300 chars
+                          title_line = title if len(title) <= 120 else title[:117] + "..."
+
+                          # Try to fit a short excerpt
+                          excerpt = ""
+                          if summary and len(summary) > 20:
+                              max_excerpt = 280 - len(lead) - len(title_line) - len(link) - 6
+                              if max_excerpt > 40:
+                                  excerpt = summary[:max_excerpt].rsplit(' ', 1)[0]
+                                  if len(excerpt) < len(summary[:max_excerpt]):
+                                      excerpt += "…"
+
+                          # Assemble
+                          if excerpt:
+                              content_to_post = f"{lead}\n\n{title_line}\n\n{excerpt}\n\n{link}"
+                          else:
+                              content_to_post = f"{lead}\n\n{title_line}\n\n{link}"
+
+                          # Hard trim to 300
+                          if len(content_to_post) > 300:
+                              # Drop excerpt if too long
+                              content_to_post = f"{lead}\n\n{title_line}\n\n{link}"[:300]
 
                           # Attempt to post
                           posted_successfully = post_to_bluesky(content_to_post)
                           if posted_successfully:
-                              print(f"📝 Posted RSS content: {title[:50]}...")
+                              print(f"📝 Posted: {title[:50]}...")
                               break
                           else:
                               print(f"❌ Failed to post, trying next entry...")
