@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-07T03:15:59.500769",
+  "fetched_at": "2026-04-07T05:49:48.601328",
   "items": [
+    {
+      "title": "Earth’s most powerful ocean current didn’t form the way we thought",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
+      "pubDate": "Tue, 07 Apr 2026 00:07:40 EDT",
+      "description": "A colossal ocean current encircling Antarctica—stronger than all the world’s rivers combined—played a far more complex role in shaping Earth’s climate than scientists once thought. New research shows it didn’t form just because ocean gateways opened, but required shifting continents and powerful winds to align. This shift helped pull carbon dioxide out of the atmosphere, contributing to a major cooling event that transformed Earth into the ice-covered world we know today.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A massive arctic thaw is unleashing carbon frozen for thousands of years",
       "link": "https://www.sciencedaily.com/releases/2026/04/260404191033.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260311213435.htm",
       "pubDate": "Thu, 12 Mar 2026 19:34:52 EDT",
       "description": "Decades of data from over 80,000 great tits reveal that extreme weather can shape the fate of baby birds. Cold snaps soon after hatching and heavy rain later in development shrink nestling body mass and reduce survival odds. But moderate warm spells can actually help chicks grow by boosting insect activity and feeding opportunities. Birds that breed earlier in the season seem better protected from these weather shocks.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Ocean warming may supercharge a tiny microbe that controls marine nutrients",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260311004708.htm",
-      "pubDate": "Wed, 11 Mar 2026 02:38:22 EDT",
-      "description": "As deep-sea waters warm, scientists expected trouble for the microbes that help keep ocean chemistry in balance. Instead, researchers found that Nitrosopumilus maritimus can adapt to warmer, iron-limited conditions by using iron more efficiently. Because these microbes control key nitrogen reactions that support marine life, their adaptability could help sustain ocean productivity. In a warming world, they may play an even bigger role in shaping marine nutrient cycles.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
