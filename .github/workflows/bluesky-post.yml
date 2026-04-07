@@ -1,13 +1,14 @@
 name: Post to Bluesky
 
 on:
-  workflow_run:
-    workflows: ["Update RSS Feeds"]
-    types:
-      - completed
   schedule:
-    - cron: '30 */3 * * *'
+    - cron: '30 */3 * * *'  # Every 3 hours (8x per day)
   workflow_dispatch:
+
+# Prevent parallel runs from double-posting
+concurrency:
+  group: bluesky-poster-bunker
+  cancel-in-progress: false
 
 jobs:
   post-to-bluesky:
@@ -225,5 +226,6 @@ jobs:
         run: |
           git config --global user.name 'Bluesky Bot'
           git config --global user.email 'action@github.com'
+          git pull --rebase origin main
           git add -A
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Bluesky posting tracking" && git push)
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Bluesky posting tracking [skip ci]" && git push)
