@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-07T21:51:28.199058",
+  "fetched_at": "2026-04-07T22:47:49.397659",
   "items": [
+    {
+      "title": "Department of Energy’s AI push squeezes funding for research grants",
+      "link": "https://www.science.org/content/article/department-energy-s-ai-push-squeezes-funding-research-grants",
+      "pubDate": "",
+      "description": "Tapping already strained budgets, Genesis Mission gives scientists just weeks to apply for first awards",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Artemis II captures an ‘Earthset’ and stunning views of the Moon",
       "link": "https://www.science.org/content/article/artemis-ii-captures-earthset-and-stunning-views-moon",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/history-and-mystery-surround-nasa-s-2028-nuclear-mars-mission",
       "pubDate": "",
       "description": "Fission-powered space flight, a 60-year dream, would supercharge outer Solar System exploration",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Offering scientists cash to spot errors in published papers doesn’t work",
-      "link": "https://www.science.org/content/article/offering-scientists-cash-spot-errors-published-papers-doesn-t-work",
-      "pubDate": "",
-      "description": "The ERROR project tried enticing reviewers with payments. Now, it’s launching a journal—and promising papers as rewards",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
