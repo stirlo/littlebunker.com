@@ -1,0 +1,145 @@
+---
+layout: default
+title: "404 – Observation Not Found"
+permalink: /404.html
+---
+
+<style>
+  .bunker-404 {
+    max-width: 580px;
+    margin: 60px auto;
+    text-align: center;
+    padding: 0 20px;
+  }
+  .bunker-404 h1 {
+    font-size: 5em;
+    margin: 0;
+    font-weight: 900;
+    line-height: 1;
+    /* Ice palette in light mode, lava in dark */
+    color: #4682b4;
+  }
+  @media (prefers-color-scheme: dark) {
+    .bunker-404 h1 { color: #ff4500; }
+    .bunker-404-btn { background: rgba(255,69,0,0.15) !important; border-color: rgba(255,69,0,0.4) !important; color: #ff8c00 !important; }
+    .bunker-404-btn:hover { background: rgba(255,69,0,0.28) !important; }
+    #b404-notice { background: rgba(255,69,0,0.1); border-color: rgba(255,69,0,0.3); color: #ffb380; }
+  }
+  .bunker-404 h2 {
+    font-size: 1.25em;
+    margin: 12px 0 8px;
+    font-weight: 700;
+  }
+  .bunker-404-status {
+    font-size: 0.92em;
+    color: var(--text-color, #4a2a3a);
+    opacity: 0.75;
+    margin-bottom: 28px;
+    min-height: 1.4em;
+  }
+  .bunker-404-status.searching::after {
+    content: '';
+    display: inline-block;
+    width: 6px; height: 6px;
+    background: currentColor;
+    border-radius: 50%;
+    margin-left: 8px;
+    animation: b404blink 0.9s ease-in-out infinite;
+    vertical-align: middle;
+  }
+  @keyframes b404blink {
+    0%, 100% { opacity: 1; } 50% { opacity: 0.15; }
+  }
+  .bunker-404-btn {
+    display: inline-block;
+    background: rgba(70,130,180,0.12);
+    border: 1px solid rgba(70,130,180,0.35);
+    color: #4682b4;
+    padding: 12px 26px;
+    border-radius: 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.88em;
+    letter-spacing: 0.03em;
+    margin: 6px;
+    transition: background 0.2s ease;
+  }
+  .bunker-404-btn:hover { background: rgba(70,130,180,0.22); text-decoration: none; }
+  #b404-btns { display: none; margin-top: 8px; }
+  #b404-notice {
+    display: none;
+    background: rgba(70,130,180,0.1);
+    border: 1px solid rgba(70,130,180,0.3);
+    border-radius: 8px;
+    padding: 12px 18px;
+    margin-bottom: 20px;
+    font-size: 0.88em;
+    color: #2a5a8a;
+  }
+</style>
+
+<div class="bunker-404">
+  <h1>404</h1>
+  <h2>Observation Not Found 🔭</h2>
+  <div id="b404-notice"></div>
+  <p class="bunker-404-status searching" id="b404-status">Searching the archive…</p>
+  <div id="b404-btns">
+    <a href="/" class="bunker-404-btn">🏚️ Home</a>
+    <a href="/observations" class="bunker-404-btn">📋 Observations</a>
+    <a href="/events" class="bunker-404-btn">⚡ Events</a>
+  </div>
+</div>
+
+<script>
+(function () {
+  function lev(a, b) {
+    if (!a.length) return b.length;
+    if (!b.length) return a.length;
+    let prev = [...Array(b.length + 1).keys()];
+    for (let i = 1; i <= a.length; i++) {
+      const cur = [i];
+      for (let j = 1; j <= b.length; j++) {
+        cur[j] = a[i-1] === b[j-1] ? prev[j-1] : 1 + Math.min(prev[j], cur[j-1], prev[j-1]);
+      }
+      prev = cur;
+    }
+    return prev[b.length];
+  }
+
+  function getSlug() {
+    return window.location.pathname.replace(/\/+$/, '').toLowerCase()
+      .split('/').filter(p => !/^\d{1,4}$/.test(p) && p).pop() || '';
+  }
+
+  function setStatus(msg, searching) {
+    const el = document.getElementById('b404-status');
+    el.textContent = msg;
+    el.className = 'bunker-404-status' + (searching ? ' searching' : '');
+  }
+
+  async function go() {
+    const slug = getSlug();
+    if (!slug) { setStatus('Page not found.'); document.getElementById('b404-btns').style.display = 'block'; return; }
+    try {
+      const slugs = await fetch('/slugs.json').then(r => { if (!r.ok) throw 0; return r.json(); });
+      let best = null, bestD = Infinity;
+      slugs.forEach(e => { const d = lev(slug, e.slug || ''); if (d < bestD) { bestD = d; best = e; } });
+      const threshold = Math.max(2, Math.floor(slug.length * 0.3));
+      if (best && bestD <= threshold) {
+        const n = document.getElementById('b404-notice');
+        n.style.display = 'block';
+        n.innerHTML = 'Found a close match — redirecting to <strong>' + (best.title || best.url) + '</strong>…';
+        setStatus('Redirecting…');
+        setTimeout(() => location.replace(best.url), 1300);
+      } else {
+        setStatus('That observation doesn\'t seem to exist.');
+        document.getElementById('b404-btns').style.display = 'block';
+      }
+    } catch (_) {
+      setStatus('Page not found.');
+      document.getElementById('b404-btns').style.display = 'block';
+    }
+  }
+  go();
+})();
+</script>
