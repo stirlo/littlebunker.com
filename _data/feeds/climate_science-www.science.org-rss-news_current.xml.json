@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-08T15:18:14.590415",
+  "fetched_at": "2026-04-08T17:12:51.517148",
   "items": [
+    {
+      "title": "Pesticides may wreak havoc on the gut microbiome",
+      "link": "https://www.science.org/content/article/pesticides-may-wreak-havoc-gut-microbiome",
+      "pubDate": "",
+      "description": "Disruption of intestinal ecosystem could contribute to diabetes and other health issues, scientists say",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Department of Energy’s AI push squeezes funding for research grants",
       "link": "https://www.science.org/content/article/department-energy-s-ai-push-squeezes-funding-research-grants",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/slasher-sequel-trump-again-proposes-major-cuts-u-s-science-spending",
       "pubDate": "",
       "description": "Science advocates urge Congress to reject 2027 budget plan",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "History and mystery surround NASA’s 2028 nuclear Mars mission",
-      "link": "https://www.science.org/content/article/history-and-mystery-surround-nasa-s-2028-nuclear-mars-mission",
-      "pubDate": "",
-      "description": "Fission-powered space flight, a 60-year dream, would supercharge outer Solar System exploration",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
