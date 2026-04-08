@@ -1,12 +1,15 @@
 ---
-layout: feed_item
-title: "Enhanced Rap1 small GTPase activity in the ventral hippocampus drives stress-induced anxiety | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt3163
 is_feed: true
-source_feed: "https://advances.sciencemag.org/rss/current.xml"
+layout: feed_item
+source_feed: https://advances.sciencemag.org/rss/current.xml
+title: Enhanced Rap1 small GTPase activity in the ventral hippocampus drives stress-induced
+  anxiety | Science Advances
 ---
+
 
 Abstract
    

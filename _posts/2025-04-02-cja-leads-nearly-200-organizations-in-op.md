@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "CJA Leads Nearly 200 Organizations in Opposing NEPA Rollback"
+categories:
+- social_impact
 date: 2025-04-02 15:00:27 +0000
-categories: [social-impact]
 external_url: https://climatejusticealliance.org/nepa-rollback/
 is_feed: true
+layout: feed_item
+title: CJA Leads Nearly 200 Organizations in Opposing NEPA Rollback
 ---
+
 
 CJA Coalition Signs Letter Condemning White House Proposal to Revoke Key Environmental Safeguards, Warns of Harm to Vulnerable Communities and Environmental Justice
 Washington, D.C. – The Climate Justice Alliance (CJA), in partnership with GreenLatinos and WeAct, has led a coalition of nearly 200 organizations in condemning the White House’s recent proposal to repeal all versions of the National Environmental Policy Act (NEPA). These organizations have collectively signed a letter criticizing the Center for Environmental Quality (CEQ) for undermining these critical safeguards that benefit everyone in the face of powerful industry. Since the 1970s, NEPA has been a critical safeguard, providing protection and recourse for communities affected by pollution and harmful industrial practices.

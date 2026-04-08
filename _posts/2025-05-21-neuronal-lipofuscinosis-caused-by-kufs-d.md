@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Neuronal lipofuscinosis caused by Kufs disease/CLN4 DNAJC5 mutations but not by a CSPα/DNAJC5 deficiency | Science Advances"
+categories:
+- climate_science
 date: 2025-05-21 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.ads3393
 is_feed: true
+layout: feed_item
+title: Neuronal lipofuscinosis caused by Kufs disease/CLN4 DNAJC5 mutations but not
+  by a CSPα/DNAJC5 deficiency | Science Advances
 ---
+
 
 Abstract
    

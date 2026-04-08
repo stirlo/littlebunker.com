@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Helical coassembly enables full-color efficient circularly polarized light emission from carbon dots with high dissymmetry factors | Science Advances"
+categories:
+- climate_science
 date: 2025-05-16 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt8219
 is_feed: true
+layout: feed_item
+title: Helical coassembly enables full-color efficient circularly polarized light
+  emission from carbon dots with high dissymmetry factors | Science Advances
 ---
+
 
 Abstract
    

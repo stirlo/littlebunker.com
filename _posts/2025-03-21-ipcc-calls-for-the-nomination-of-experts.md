@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "IPCC calls for the nomination of experts for its Task-Group on Data Support"
+categories:
+- climate_science
 date: 2025-03-21 20:27:44 +0000
-categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/21/tg-data-nominations/
 is_feed: true
+layout: feed_item
+title: IPCC calls for the nomination of experts for its Task-Group on Data Support
 ---
+
 
 GENEVA, Mar 21 – The Intergovernmental Panel on Climate Change (IPCC) is&nbsp; inviting&nbsp; its member governments and accredited observer organizations to nominate experts to serve as Co-Chairs and members of the Task Group on Data Support for Climate Change Assessments (TG-Data). A call for nominations of experts by governments and observer organizations to serve as TG-Data members has been launched. Nominations should be submitted by Thursday 17 April 2025 (midnight CEST).
 

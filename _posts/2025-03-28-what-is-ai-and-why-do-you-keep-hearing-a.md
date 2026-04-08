@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "What is AI and why do you keep hearing about it? And what are data centers? How are they connected?"
+categories:
+- social_impact
 date: 2025-03-28 14:11:27 +0000
-categories: [social-impact]
 external_url: https://climatejusticealliance.org/ai/
 is_feed: true
+layout: feed_item
+title: What is AI and why do you keep hearing about it? And what are data centers?
+  How are they connected?
 ---
+
 
 AI is short for Artificial Intelligence. AI uses algorithms, or a set of rules/instructions, to analyze and process data with the end goal of identifying patterns and being able to make decisions. AI requires the “feeding” of lots of data in order to replicate the processes of human intelligence.
 Data centers are buildings which house rows of computers and equipment, which store, process, and transmit massive amounts of data. Certain data centers, called AI data centers are built specifically for the purpose of training, deploying, and delivering AI services.

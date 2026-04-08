@@ -1,12 +1,16 @@
 ---
-layout: feed_item
-title: "Alcohol molecule coupling: A universal approach to modulating amorphousness in vanadium-based cathodes for high-rate and durable aqueous zinc-ion batteries | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt7502
 is_feed: true
-source_feed: "https://advances.sciencemag.org/rss/current.xml"
+layout: feed_item
+source_feed: https://advances.sciencemag.org/rss/current.xml
+title: 'Alcohol molecule coupling: A universal approach to modulating amorphousness
+  in vanadium-based cathodes for high-rate and durable aqueous zinc-ion batteries
+  | Science Advances'
 ---
+
 
 Abstract
    

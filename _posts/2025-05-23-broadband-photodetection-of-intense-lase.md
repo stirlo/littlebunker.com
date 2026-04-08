@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Broadband photodetection of intense lasers via exciton-enhanced high-order multiphoton-absorption optoelectronics in 2D hybrid perovskite | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt9952
 is_feed: true
+layout: feed_item
+title: Broadband photodetection of intense lasers via exciton-enhanced high-order
+  multiphoton-absorption optoelectronics in 2D hybrid perovskite | Science Advances
 ---
+
 
 Abstract
    

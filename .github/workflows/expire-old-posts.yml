@@ -1,0 +1,55 @@
+name: "Auto-expire old environmental_news posts"
+
+on:
+  schedule:
+    - cron: '0 3 * * 0'  # Weekly, Sunday 3am
+  workflow_dispatch:
+
+concurrency:
+  group: expire-old-posts
+  cancel-in-progress: false
+
+jobs:
+  expire-posts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Delete environmental_news posts older than 180 days
+        run: |
+          python3 << 'EOF'
+          import glob, yaml, os
+          from pathlib import Path
+          from datetime import datetime, timedelta
+
+          cutoff = (datetime.now() - timedelta(days=180)).strftime('%Y-%m-%d')
+          posts = sorted(Path('_posts').glob('*.md'))
+          deleted = 0
+
+          for p in posts:
+              content = p.read_text(encoding='utf-8', errors='replace')
+              parts = content.split('---', 2)
+              if len(parts) < 3: continue
+              try:
+                  fm = yaml.safe_load(parts[1]) or {}
+              except: continue
+              cats = fm.get('categories', [])
+              if isinstance(cats, str): cats = [cats]
+              cat_set = set(c.replace('-','_') for c in cats)
+              if cat_set & {'environmental_news'} and p.name[:10] < cutoff:
+                  p.unlink()
+                  deleted += 1
+                  print(f"Deleted: {p.name}")
+
+          print(f"\nTotal deleted: {deleted}")
+          remaining = len(list(Path('_posts').glob('*.md')))
+          print(f"Posts remaining: {remaining}")
+          EOF
+
+      - name: Commit if posts were deleted
+        run: |
+          git config --global user.name 'Expire Bot'
+          git config --global user.email 'action@github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || \
+            (git pull --rebase && git commit -m "chore: expire old environmental_news posts [skip ci]" && git push)

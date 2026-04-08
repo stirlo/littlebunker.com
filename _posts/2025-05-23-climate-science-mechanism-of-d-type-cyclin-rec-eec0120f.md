@@ -1,12 +1,15 @@
 ---
-layout: feed_item
-title: "Mechanism of D-type cyclin recognition by the AMBRA1 E3 ligase receptor | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adu8708
 is_feed: true
-source_feed: "https://advances.sciencemag.org/rss/current.xml"
+layout: feed_item
+source_feed: https://advances.sciencemag.org/rss/current.xml
+title: Mechanism of D-type cyclin recognition by the AMBRA1 E3 ligase receptor | Science
+  Advances
 ---
+
 
 Abstract
    

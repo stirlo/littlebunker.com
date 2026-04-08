@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "2025 IPCC Scholarship programme open for applications"
+categories:
+- climate_science
 date: 2025-03-21 12:11:45 +0000
-categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/21/2025-ipcc-scholarship-awards/
 is_feed: true
+layout: feed_item
+title: 2025 IPCC Scholarship programme open for applications
 ---
+
 
 GENEVA, Mar 20 – The Intergovernmental Panel on Climate Change (IPCC) is inviting applications for the IPCC Scholarship Programme from doctoral degree students who have been enrolled for at least a year, as well as those conducting post-doctoral research.
 

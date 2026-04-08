@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "CJA Black Caucus Regranting Program"
+categories:
+- social_impact
 date: 2025-02-27 20:01:30 +0000
-categories: [social-impact]
 external_url: https://climatejusticealliance.org/cja-black-caucus-regranting-program/
 is_feed: true
+layout: feed_item
+title: CJA Black Caucus Regranting Program
 ---
+
 
 Climate Justice Alliance’s Black Caucus announced the recipients of its regranting program. A total of $170,000 will be regranted to 11 organizations spanning 9 states to make a meaningful impact within Black communities. Each organization has the flexibility to allocate the funds as they see fit, provided they are used to benefit Black members of the organization or the surrounding Black community.
 Despite the barrage of negative news and policy moves aimed to stun and immobilize us, environmental justice communities continue to find a way, through no way. These funds will ensure that Black communities and the critical work being carried out to combat environmental racism continue, as we build just solutions that protect and safeguard our people and community members.

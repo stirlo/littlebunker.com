@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Countering dangerous narratives in dangerous times"
+categories:
+- social_impact
 date: 2025-03-17 14:17:03 +0000
-categories: [social-impact]
 external_url: https://climatemigration.org.uk/countering-dangerous-narratives-in-dangerous-times/
 is_feed: true
+layout: feed_item
+title: Countering dangerous narratives in dangerous times
 ---
+
 
 Countering dangerous narratives in dangerous times
 				

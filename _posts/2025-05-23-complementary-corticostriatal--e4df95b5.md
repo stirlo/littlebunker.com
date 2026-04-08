@@ -1,12 +1,15 @@
 ---
-layout: feed_item
-title: "Complementary corticostriatal circuits orchestrate action repetition and switching | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt0854
 is_feed: true
-source_feed: "https://advances.sciencemag.org/rss/current.xml"
+layout: feed_item
+source_feed: https://advances.sciencemag.org/rss/current.xml
+title: Complementary corticostriatal circuits orchestrate action repetition and switching
+  | Science Advances
 ---
+
 
 Abstract
    

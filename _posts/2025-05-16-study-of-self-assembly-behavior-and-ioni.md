@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Study of self-assembly behavior and ionic conductivity of conjugated liquid crystals with T-shaped facial-polyphilic structure | Science Advances"
+categories:
+- climate_science
 date: 2025-05-16 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt8303
 is_feed: true
+layout: feed_item
+title: Study of self-assembly behavior and ionic conductivity of conjugated liquid
+  crystals with T-shaped facial-polyphilic structure | Science Advances
 ---
+
 
 Abstract
    

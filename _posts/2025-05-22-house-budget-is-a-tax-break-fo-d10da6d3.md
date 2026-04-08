@@ -1,12 +1,15 @@
 ---
-layout: feed_item
-title: "House Budget is a Tax Break for the Ultra-Rich,  CJA Calls on Senators to Do Better"
+categories:
+- social_impact
 date: 2025-05-22 16:34:50 +0000
-categories: [social-impact]
 external_url: https://climatejusticealliance.org/house-budget-tax-break-for-the-rich/
 is_feed: true
-source_feed: "https://www.climatejusticealliance.org/feed/"
+layout: feed_item
+source_feed: https://www.climatejusticealliance.org/feed/
+title: House Budget is a Tax Break for the Ultra-Rich,  CJA Calls on Senators to Do
+  Better
 ---
+
 
 Statement from Climate Justice Alliance Executive Director, KD Chavez:
 &#8220;This bill gives massive tax breaks to the wealthiest while hurting working families. The nonpartisan Congressional Budget Office confirms it: low-income families will lose hundreds, even thousands of dollars, while the top 0.1% get a windfall in extra income next year. 

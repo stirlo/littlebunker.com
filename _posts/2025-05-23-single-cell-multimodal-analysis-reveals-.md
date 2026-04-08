@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Single-cell multimodal analysis reveals tumor microenvironment predictive of treatment response in non–small cell lung cancer | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adu2151
 is_feed: true
+layout: feed_item
+title: Single-cell multimodal analysis reveals tumor microenvironment predictive of
+  treatment response in non–small cell lung cancer | Science Advances
 ---
+
 
 Abstract
    

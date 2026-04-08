@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Obituary: Dr Mannava V.K. Sivakumar"
+categories:
+- climate_science
 date: 2025-04-11 13:11:00 +0000
-categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/04/11/obituary-sivakumar/
 is_feed: true
+layout: feed_item
+title: 'Obituary: Dr Mannava V.K. Sivakumar'
 ---
+
 
 With great sadness, the Intergovernmental Panel
 on Climate Change (IPCC) has learned of the death of Dr Mannava V.K. Sivakumar,

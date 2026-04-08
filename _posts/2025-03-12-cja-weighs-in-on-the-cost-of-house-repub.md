@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "CJA Weighs in on the Cost of House Republican’s Disastrous Continuing Resolution and the Continued Undermining of Environmental Justice"
+categories:
+- social_impact
 date: 2025-03-12 21:26:15 +0000
-categories: [social-impact]
 external_url: https://climatejusticealliance.org/cja-weighs-in-on-budget-and-ej/
 is_feed: true
+layout: feed_item
+title: CJA Weighs in on the Cost of House Republican’s Disastrous Continuing Resolution
+  and the Continued Undermining of Environmental Justice
 ---
+
 
 Contact: Kayla@unbendablemedia.com
 Washington, D.C. — Ahead of congressional votes on the partisan Republican-led Continuing Resolution and the recent announcement regarding the closures of all Environmental Justice offices by the Environmental Protection Agency (EPA), the Climate Justice Alliance (CJA) released the following statement from KD Chavez, executive director of Climate Justice Alliance:

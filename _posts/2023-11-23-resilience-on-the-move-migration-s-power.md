@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Resilience on the move: Migration’s powerful role in creating climate resilience"
+categories:
+- social_impact
 date: 2023-11-23 10:28:38 +0000
-categories: [social-impact]
 external_url: https://climatemigration.org.uk/resilience-on-the-move-migrations-powerful-role-in-creating-climate-resilience/
 is_feed: true
+layout: feed_item
+title: 'Resilience on the move: Migration’s powerful role in creating climate resilience'
 ---
+
 
 Resilience on the move: Migration’s powerful role in creating climate resilience
 				

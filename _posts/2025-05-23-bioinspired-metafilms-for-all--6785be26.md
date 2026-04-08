@@ -1,12 +1,15 @@
 ---
-layout: feed_item
-title: "Bioinspired metafilms for all-weather energy harvesting: Adaptive thermal regulation and raindrop electricity generation | Science Advances"
+categories:
+- climate_science
 date: 2025-05-23 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adu2895
 is_feed: true
-source_feed: "https://advances.sciencemag.org/rss/current.xml"
+layout: feed_item
+source_feed: https://advances.sciencemag.org/rss/current.xml
+title: 'Bioinspired metafilms for all-weather energy harvesting: Adaptive thermal
+  regulation and raindrop electricity generation | Science Advances'
 ---
+
 
 Abstract
    

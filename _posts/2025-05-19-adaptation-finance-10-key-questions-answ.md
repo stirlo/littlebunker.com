@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Adaptation Finance: 10 Key Questions, Answered"
+categories:
+- social_impact
 date: 2025-05-19 10:00:00 +0000
-categories: [social-impact]
 external_url: https://www.wri.org/insights/adaptation-finance-explained
 is_feed: true
+layout: feed_item
+title: 'Adaptation Finance: 10 Key Questions, Answered'
 ---
+
 
 People around the world are feeling the effects of climate change in the form of severe floods, long-term droughts, worsening forest fires, intensifying storms, extreme heat and more. It's essential that communities invest in reducing and avoiding these impacts. For example, improved building methods can be the difference between a house withstanding a storm or crumbling to rubble.The critical question is: How do we pay for it?This is where adaptation finance comes in.Particularly in low-income countries, adaptation finance is sorely needed to help make people — and the infrastructure and ecosystems they rely on — more resilient to the impacts of climate change. Yet with each passing year the gap between the adaptation finance needed and what is available grows.Closing this gap is essential as climate change continues to escalate. But there are varying definitions about what counts as adaptation finance, as well as different means of providing and tracking funds. Here, we answer key questions:1) What Is Adaptation Finance?Adaptation finance is aimed at helping communities reduce the risks they face and harm they might suffer from climate hazards like storms or droughts. It pays for things like strengthening housing and infrastructure to withstand extreme weather; developing drought-tolerant crops; creating social safety nets (like cash, food or insurance to help with recovery from climate-related disasters); or improving access to climate information for better management of climate-related risks.Adaptation finance includes funds flowing from developed to developing countries as well as finance that governments — in both developing and developed countries — invest to build resilience to climate impacts within their own borders. Adaptation finance can also come from private sources, such as philanthropies, corporations and financial institutions. Businesses are increasingly investing in adaptation to protect their operations, supply chains and markets from exposure to climate-related risks.Adaptation finance often overlaps with development finance, as investments aimed at reducing communities' economic or social vulnerability often also enhance resilience to climate change, in addition to other benefits. However, for funding to be classified as adaptation finance, it must be explicitly intended to enhance resilience to actual or expected climate risks.For example, funding a new road may boost a community's resilience by making it easier for people to access markets, hospitals and assistance during extreme weather. To count as adaptation finance, however, the road needs to be deliberately built with climate impacts and the needs of vulnerable people in mind. A vulnerability analysis could reveal the need for a more durable road so people living in informal settlements can safely evacuate ahead of severe storms. And the road would need to be situated where it will not be directly exposed to storm surges and erosion, or elevated so that it remains passable when flooding occurs.
 

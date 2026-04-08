@@ -1,10 +1,12 @@
 ---
-layout: feed_item
-title: "Managing for climate and production goals on crop-lands"
+categories:
+- research_papers
 date: 2025-05-24 09:18:44 +0000
-categories: [research-papers]
 external_url: https://www.nature.com/articles/s41558-025-02337-7
 is_feed: true
+layout: feed_item
+title: Managing for climate and production goals on crop-lands
 ---
+
 
 Nature Climate Change, Published online: 19 May 2025; doi:10.1038/s41558-025-02337-7Climate mitigation through natural climate solutions in crop-lands may be a way to reconcile climate goals with food security. However, here the authors show that some natural climate solution practices tend to lower yields and that maintaining yields lowers the potential GHG mitigation.

@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Record High Temps vs. Record Low Temps"
+categories:
+- extreme_weather
 date: 2016-03-22 15:38:37 +0000
-categories: [extreme-weather]
 external_url: https://www.climatesignals.org/data/record-high-temps-vs-record-low-temps
 is_feed: true
+layout: feed_item
+title: Record High Temps vs. Record Low Temps
 ---
+
 
 Record High Temps vs. Record Low Temps
 

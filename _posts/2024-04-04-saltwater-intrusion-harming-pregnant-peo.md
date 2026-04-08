@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Saltwater Intrusion Harming Pregnant People In Bangladesh"
+categories:
+- extreme_weather
 date: 2024-04-04 13:14:05 +0000
-categories: [extreme-weather]
 external_url: https://www.climatesignals.org/headlines/saltwater-intrusion-harming-pregnant-people-bangladesh
 is_feed: true
+layout: feed_item
+title: Saltwater Intrusion Harming Pregnant People In Bangladesh
 ---
+
 
 Saltwater Intrusion Harming Pregnant People In Bangladesh
 

@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Individual clown anemonefish shrink to survive heat stress and social conflict | Science Advances"
+categories:
+- climate_science
 date: 2025-05-21 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt7079
 is_feed: true
+layout: feed_item
+title: Individual clown anemonefish shrink to survive heat stress and social conflict
+  | Science Advances
 ---
+
 
 Abstract
    

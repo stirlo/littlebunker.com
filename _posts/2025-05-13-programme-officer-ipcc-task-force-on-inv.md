@@ -1,11 +1,13 @@
 ---
-layout: feed_item
-title: "Programme Officer, IPCC Task Force on Inventories Technical Support Unit"
+categories:
+- climate_science
 date: 2025-05-13 09:10:00 +0000
-categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/05/13/programme-officer-ipcc-task-force-on-inventories-technical-support-unit/
 is_feed: true
+layout: feed_item
+title: Programme Officer, IPCC Task Force on Inventories Technical Support Unit
 ---
+
 
 The Technical Support Unit of the IPCC Task Force on National Greenhouse Gas Inventories (TFI TSU) wishes to recruit for a position at the Associate Staff level.&nbsp; This will be a fixed term appointment until June 2028 located in Hayama, Japan.&nbsp; Preferred commencement date is September 2025.&nbsp; 
 

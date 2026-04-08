@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Empowering refugee and migrant led organisations – recommendations to grant-giving foundations"
+categories:
+- social_impact
 date: 2021-09-28 09:15:43 +0000
-categories: [social-impact]
 external_url: https://climatemigration.org.uk/empowering-refugee-and-migrant-led-organisations-recommendations-to-grant-giving-foundations/
 is_feed: true
+layout: feed_item
+title: Empowering refugee and migrant led organisations – recommendations to grant-giving
+  foundations
 ---
+
 
 Empowering refugee and migrant led organisations &#8211; recommendations to grant-giving foundations
 				

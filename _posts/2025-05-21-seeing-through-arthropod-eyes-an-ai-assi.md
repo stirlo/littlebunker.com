@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Seeing through arthropod eyes: An AI-assisted, biomimetic approach for high-resolution, multi-task imaging | Science Advances"
+categories:
+- climate_science
 date: 2025-05-21 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt3505
 is_feed: true
+layout: feed_item
+title: 'Seeing through arthropod eyes: An AI-assisted, biomimetic approach for high-resolution,
+  multi-task imaging | Science Advances'
 ---
+
 
 Abstract
    

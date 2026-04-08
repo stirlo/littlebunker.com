@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Astrocytes-derived LCN2 triggers EV-A71–induced muscle soreness via accumulating lactate | Science Advances"
+categories:
+- climate_science
 date: 2025-05-16 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adt9837
 is_feed: true
+layout: feed_item
+title: Astrocytes-derived LCN2 triggers EV-A71–induced muscle soreness via accumulating
+  lactate | Science Advances
 ---
+
 
 Abstract
    

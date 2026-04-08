@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "The end-Cretaceous mass extinction restructured functional diversity but failed to configure the modern marine biota | Science Advances"
+categories:
+- climate_science
 date: 2025-05-21 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.adv1171
 is_feed: true
+layout: feed_item
+title: The end-Cretaceous mass extinction restructured functional diversity but failed
+  to configure the modern marine biota | Science Advances
 ---
+
 
 Abstract
    

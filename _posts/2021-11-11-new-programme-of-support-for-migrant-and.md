@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "New programme of support for migrant and refugee rights groups working on climate change"
+categories:
+- social_impact
 date: 2021-11-11 10:18:00 +0000
-categories: [social-impact]
 external_url: https://climatemigration.org.uk/support_programme/
 is_feed: true
+layout: feed_item
+title: New programme of support for migrant and refugee rights groups working on climate
+  change
 ---
+
 
 New programme of support for migrant and refugee rights groups working on climate change
 				

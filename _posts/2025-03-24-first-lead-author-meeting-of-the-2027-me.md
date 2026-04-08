@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "First Lead Author Meeting of the 2027 Methodology Report on Short-Lived Climate Forcers"
+categories:
+- climate_science
 date: 2025-03-24 18:15:24 +0000
-categories: [climate-science]
 external_url: https://www.ipcc.ch/2025/03/24/first-lead-author-meeting-2027-methodology-report-slcf/
 is_feed: true
+layout: feed_item
+title: First Lead Author Meeting of the 2027 Methodology Report on Short-Lived Climate
+  Forcers
 ---
+
 
 GENEVA, Mar 24 – Over 100 experts from more than 40 countries are meeting in Bilbao, Spain this week for the first meeting of authors and review editors of the 2027 IPCC Methodology Report on Inventories for Short-lived Climate Forcers (SLCF). This will be the first methodology report released by IPCC in the seventh assessment cycle and it is being prepared by the Task Force on National Greenhouse Gas Inventories (TFI).
 

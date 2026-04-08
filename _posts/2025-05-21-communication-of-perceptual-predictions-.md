@@ -1,11 +1,14 @@
 ---
-layout: feed_item
-title: "Communication of perceptual predictions from the hippocampus to the deep layers of the parahippocampal cortex | Science Advances"
+categories:
+- climate_science
 date: 2025-05-21 13:01:00 +0000
-categories: [climate-science]
 external_url: https://www.science.org/doi/10.1126/sciadv.ads4970
 is_feed: true
+layout: feed_item
+title: Communication of perceptual predictions from the hippocampus to the deep layers
+  of the parahippocampal cortex | Science Advances
 ---
+
 
 Abstract
    
