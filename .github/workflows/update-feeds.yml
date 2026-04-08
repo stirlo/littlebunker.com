@@ -80,12 +80,23 @@ jobs:
                   return False
 
           def clean_title(title):
-              return title.replace('"', '\\"')
+              import html, re
+              title = html.unescape(str(title))
+              title = title.replace('"', '\u201c').replace('\\"', '\u201c').replace("\\'", "\u2019")
+              title = title.replace('{{', '{ {').replace('}}', '} }')
+              title = title.replace('{%', '{ %').replace('%}', '% }')
+              title = re.sub(r'[\x00-\x1f\x7f]', '', title)
+              return re.sub(r'\s+', ' ', title).strip()
 
           def clean_content(content):
+              import html as html_mod, re
+              content = html_mod.unescape(content)
               content = re.sub(r'<[^>]+>', '', content)
-              content = content.replace('"', '\\"')
-              return content
+              content = content.replace('"', '\u201c').replace('\\"', '\u201c')
+              content = content.replace('{{', '{ {').replace('}}', '} }')
+              content = content.replace('{%', '{ %').replace('%}', '% }')
+              content = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f]', '', content)
+              return re.sub(r'\s+', ' ', content).strip()
 
           def fetch_feed(url):
               try:
