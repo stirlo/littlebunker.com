@@ -1,6 +1,8 @@
-# Extreme Weather - Weather events and monitoring
-https://www.wunderground.com/cat6/feed
-https://www.climatesignals.org/rss.xml
-https://www.preventionweb.net/english/professional/news/rss.php
-https://phys.org/rss-feed/earth-sciences/earth-sciences-news/
-https://floodlist.com/feed
+# Extreme Weather - Disasters, hazards, weather events
+# Verified working: 2026-04-08
+# Note: wunderground cat6, climatesignals, preventionweb, phys.org, floodlist all dead/stale
+https://reliefweb.int/disasters/rss.xml
+https://reliefweb.int/updates/rss.xml?query=climate
+https://reliefweb.int/updates/rss.xml?query=weather+hazards
+https://disasterphilanthropy.org/feed/
+https://phys.org/rss-feed/earth-sciences/environment/
