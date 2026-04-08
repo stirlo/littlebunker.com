@@ -13,17 +13,17 @@ theme: minima
 markdown: kramdown
 permalink: /:year/:month/:day/:title/
 
-# Collections
-collections:
-  events:
-    output: true
-    permalink: /events/:path/
-  observations:
-    output: true
-    permalink: /observations/:path/
-  topics:
-    output: true
-    permalink: /topics/:path/
+# Collections (defined but not yet populated - disabled to avoid build overhead)
+# collections:
+#   events:
+#     output: true
+#     permalink: /events/:path/
+#   observations:
+#     output: true
+#     permalink: /observations/:path/
+#   topics:
+#     output: true
+#     permalink: /topics/:path/
 
 # Default front matter
 defaults:
