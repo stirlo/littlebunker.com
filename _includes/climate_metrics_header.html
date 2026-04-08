@@ -1,276 +1,77 @@
 <!-- _includes/climate_metrics_header.html -->
 <header class="site-header">
-    <!-- Parallax Background Layer -->
-    <div class="header-parallax">
-        <img src="{{ '/assets/images/bunker-logo.svg' | relative_url }}" 
-             alt="" 
-             class="parallax-bg"
-             loading="lazy"
-             aria-hidden="true">
-    </div>
 
-    <!-- Content Layer -->
-    <div class="container">
-        <div class="header-content">
-            <div class="site-title">
-                <h1>Observations from the Little Bunker</h1>
-                <p class="last-update">
-                    Last updated: 
-                    {% if site.data.metrics.last_updated %}
-                        {{ site.data.metrics.last_updated | date: "%B %d, %Y %I:%M %p" }}
-                    {% else %}
-                        {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}
-                    {% endif %}
-                </p>
-            </div>
+  <!-- Frosted glass shimmer bar at top -->
+  <div class="header-shimmer-bar"></div>
 
-            <div class="metrics-dashboard">
-                <div class="metric-card co2">
-                    <h3>Atmospheric CO₂</h3>
-                    <div class="current-value critical" id="co2-value">
-                        {{ site.data.metrics.co2.current | default: "421.5" }} <span class="unit">ppm</span>
-                    </div>
-                    <div class="trend">
-                        <span class="change">+{{ site.data.metrics.co2.change | default: "2.5" }}</span>
-                        <span class="period">ppm/year</span>
-                    </div>
-                </div>
+  <div class="container">
+    <div class="header-content">
 
-                <div class="metric-card ch4">
-                    <h3>Atmospheric CH₄</h3>
-                    <div class="current-value warning" id="ch4-value">
-                        {{ site.data.metrics.ch4.current | default: "1908" }} <span class="unit">ppb</span>
-                    </div>
-                    <div class="trend">
-                        <span class="change">+{{ site.data.metrics.ch4.change | default: "8.5" }}</span>
-                        <span class="period">ppb/year</span>
-                    </div>
-                </div>
+      <!-- Wordmark + title -->
+      <div class="site-title">
+        <a href="/" class="header-logo-link" aria-label="Little Bunker home">
+          <img src="{{ '/assets/images/bunker-logo.svg' | relative_url }}"
+               alt="Little Bunker"
+               class="header-wordmark"
+               width="220" height="55"
+               loading="eager">
+        </a>
+        <p class="last-update">
+          Last updated:
+          {% if site.data.metrics.last_updated %}
+            {{ site.data.metrics.last_updated | date: "%B %d, %Y %I:%M %p" }}
+          {% else %}
+            {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}
+          {% endif %}
+        </p>
+      </div>
 
-               <div class="metric-card temperature">
-                    <h3>Global Temperature</h3>
-                    <div class="current-value critical" id="temp-value">
-                        +{{ site.data.metrics.temperature.current | default: "1.2" }} <span class="unit">°C</span>
-                    </div>
-                    <div class="trend">
-                        <span class="target critical">Peak: +{{ site.data.metrics.temperature.recent_peak | default: "1.5" }}°C</span>
-                    </div>
-                </div>
-
-                <div class="metric-card population">
-                    <h3>World Population</h3>
-                    <div class="current-value" id="pop-value">
-                        {{ site.data.metrics.population.total | default: "8.1" }} <span class="unit">billion</span>
-                    </div>
-                    <div class="trend">
-                        <span class="change">+{{ site.data.metrics.population.growth | default: "67" }}</span>
-                        <span class="period">million/year</span>
-                    </div>
-                </div>
-            </div>
+      <!-- Metrics dashboard -->
+      <div class="metrics-dashboard">
+        <div class="metric-card co2">
+          <h3>CO₂</h3>
+          <div class="current-value critical">
+            {{ site.data.metrics.co2.current | default: "421.5" }}<span class="unit">ppm</span>
+          </div>
+          <div class="trend">
+            <span class="change">+{{ site.data.metrics.co2.change | default: "2.5" }}</span>
+            <span class="period">/ year</span>
+          </div>
         </div>
+
+        <div class="metric-card ch4">
+          <h3>CH₄</h3>
+          <div class="current-value warning">
+            {{ site.data.metrics.ch4.current | default: "1908" }}<span class="unit">ppb</span>
+          </div>
+          <div class="trend">
+            <span class="change">+{{ site.data.metrics.ch4.change | default: "8.5" }}</span>
+            <span class="period">/ year</span>
+          </div>
+        </div>
+
+        <div class="metric-card temperature">
+          <h3>Temp</h3>
+          <div class="current-value critical">
+            +{{ site.data.metrics.temperature.current | default: "1.2" }}<span class="unit">°C</span>
+          </div>
+          <div class="trend">
+            <span class="target critical">Peak +{{ site.data.metrics.temperature.recent_peak | default: "1.5" }}°C</span>
+          </div>
+        </div>
+
+        <div class="metric-card population">
+          <h3>Population</h3>
+          <div class="current-value">
+            {{ site.data.metrics.population.total | default: "8.1" }}<span class="unit">B</span>
+          </div>
+          <div class="trend">
+            <span class="change">+{{ site.data.metrics.population.growth | default: "67" }}M</span>
+            <span class="period">/ year</span>
+          </div>
+        </div>
+      </div>
+
     </div>
+  </div>
 </header>
-
-<style>
-/* === Original Metric Styles (Preserved) === */
-.site-header {
-    background: var(--metric-background, var(--light-bg));
-    padding: 1rem 0;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-    /* Add for parallax */
-    position: relative;
-    overflow: hidden;
-}
-
-.header-content {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-}
-
-.site-title {
-    text-align: center;
-}
-
-.site-title h1 {
-    margin: 0;
-    font-size: 1.8rem;
-    color: var(--primary-color, var(--light-tertiary));
-}
-
-.last-update {
-    font-size: 0.9rem;
-    color: var(--secondary-color, var(--light-secondary));
-    margin: 0.5rem 0 0 0;
-}
-
-.metrics-dashboard {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    flex-wrap: wrap;
-}
-
-.metric-card {
-    background: var(--background-color, var(--light-highlight));
-    padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    min-width: 180px;
-    text-align: center;
-}
-
-.metric-card h3 {
-    margin: 0 0 0.5rem 0;
-    font-size: 1rem;
-    color: var(--secondary-color, var(--light-secondary));
-}
-
-.current-value {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--primary-color, var(--light-tertiary));
-}
-
-.critical {
-    color: var(--critical, #ff4444);
-    animation: pulse 2s infinite;
-}
-
-.target.critical {
-    font-weight: bold;
-    animation: pulse 2s infinite;
-}
-
-.warning {
-    color: var(--warning, #ffaa00);
-}
-
-.unit {
-    font-size: 1rem;
-    opacity: 0.8;
-}
-
-.trend {
-    font-size: 0.9rem;
-    color: var(--secondary-color, var(--light-secondary));
-    margin-top: 0.5rem;
-}
-
-.change {
-    color: #e74c3c;
-}
-
-@keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.7; }
-    100% { opacity: 1; }
-}
-
-/* === NEW: Parallax Styles Only === */
-.container {
-    position: relative;
-    z-index: 1;
-}
-
-.header-parallax {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: 100%;
-    z-index: 0;
-    pointer-events: none;
-}
-
-.parallax-bg {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    opacity: 0.08;
-    will-change: transform;
-}
-
-/* Mobile: Full width SVG */
-@media (max-width: 767px) {
-    .header-parallax {
-        width: 100vw;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .parallax-bg {
-        width: 100vw;
-        max-width: none;
-        height: auto;
-        min-height: 100%;
-        object-fit: cover;
-        object-position: center;
-    }
-
-    .metrics-dashboard {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-/* Desktop adjustments */
-@media (min-width: 768px) {
-    .header-content {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .site-title {
-        text-align: left;
-    }
-
-    .metrics-dashboard {
-        flex-wrap: nowrap;
-    }
-
-    .parallax-bg {
-        max-width: 1400px;
-    }
-}
-
-/* Ultra-wide screens */
-@media (min-width: 2000px) {
-    .parallax-bg {
-        max-width: 2000px;
-    }
-}
-</style>
-
-<script>
-// Parallax effect
-document.addEventListener('DOMContentLoaded', function() {
-    const parallaxBg = document.querySelector('.parallax-bg');
-    if (!parallaxBg) return;
-
-    let ticking = false;
-
-    function updateParallax() {
-        const scrolled = window.pageYOffset;
-        const speed = 1.3; // 1.3x faster than scroll
-        const yPos = -(scrolled * speed);
-
-        parallaxBg.style.transform = `translateY(${yPos}px)`;
-        ticking = false;
-    }
-
-    function requestTick() {
-        if (!ticking) {
-            window.requestAnimationFrame(updateParallax);
-            ticking = true;
-        }
-    }
-
-    // Check for reduced motion preference
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-        window.addEventListener('scroll', requestTick);
-    }
-});
-</script>

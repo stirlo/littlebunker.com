@@ -25,6 +25,10 @@ layout: default
 
       <div class="feed-grid">
         {%- for post in site.posts limit: 24 -%}
+        {%- if post.title == nil or post.title == '' -%}{%- continue -%}{%- endif -%}
+        {%- assign post_body = post.excerpt | strip_html | strip | strip_newlines -%}
+        {%- assign read_only = post_body | remove: 'Read original article' | strip -%}
+        {%- if read_only == '' and post.description == nil -%}{%- continue -%}{%- endif -%}
         <article class="feed-item" data-categories="{{ post.categories | join: ' ' }}">
           <div class="post-meta">
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>

@@ -71,8 +71,15 @@
    BASE STYLES WITH LIQUID GLASS
    ========================================================================== */
 
-* {
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+/* Targeted transitions only — never transition all on * (kills performance) */
+a, button, .glass-card, .metric-card, .feed-item, .tab-button,
+.tag-small, .category-tag, .bluesky-button, .read-original {
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.25s ease,
+              background-color 0.2s ease,
+              border-color 0.2s ease,
+              color 0.2s ease,
+              opacity 0.2s ease;
 }
 
 body {
@@ -102,63 +109,110 @@ body {
   -webkit-backdrop-filter: var(--backdrop-blur);
   border: 1px solid var(--glass-border) !important;
   border-radius: 16px !important;
-  box-shadow: 0 8px 32px var(--glass-shadow) !important;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow:
+    0 4px 16px var(--glass-shadow),
+    inset 0 1px 0 rgba(255,255,255,0.08) !important;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+              border-color 0.3s ease;
   position: relative;
   overflow: hidden;
 }
 
-.glass-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 16px 48px var(--glass-shadow) !important;
-  border-color: var(--primary-color) !important;
-}
-
+/* Top highlight edge — the Liquid Glass signature */
 .glass-card::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
+  top: 0; left: 10%; right: 10%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, var(--primary-color), transparent);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+  background: linear-gradient(90deg,
+    transparent,
+    rgba(255,255,255,0.35) 40%,
+    rgba(255,255,255,0.5) 50%,
+    rgba(255,255,255,0.35) 60%,
+    transparent);
+  border-radius: 1px;
+  pointer-events: none;
+  z-index: 1;
 }
 
-.glass-card:hover::before {
-  opacity: 1;
+.glass-card:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 12px 32px var(--glass-shadow),
+    inset 0 1px 0 rgba(255,255,255,0.12) !important;
+  border-color: var(--primary-color) !important;
 }
 
 /* ==========================================================================
    ENHANCED METRICS HEADER WITH LIQUID GLASS
    ========================================================================== */
 
+/* Shimmer bar across top of header */
+.header-shimmer-bar {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg,
+    var(--critical) 0%,
+    var(--warning) 30%,
+    #88cc44 60%,
+    #0088cc 100%);
+  opacity: 0.75;
+  z-index: 3;
+}
+
+/* Wordmark */
+.header-logo-link {
+  display: inline-block;
+  text-decoration: none !important;
+  line-height: 1;
+}
+
+.header-wordmark {
+  display: block;
+  width: 220px;
+  height: auto;
+  max-height: 55px;
+  /* Adapt tint to dark/light mode */
+  filter: brightness(1) saturate(1.1);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.header-wordmark:hover {
+  filter: brightness(1.15) saturate(1.3);
+  transform: translateY(-1px);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header-wordmark {
+    /* Fire palette tint in dark mode */
+    filter: hue-rotate(180deg) brightness(1.2) saturate(1.4);
+  }
+  .header-wordmark:hover {
+    filter: hue-rotate(175deg) brightness(1.35) saturate(1.6);
+  }
+}
+
 .site-header {
   background: var(--glass-bg) !important;
   backdrop-filter: var(--backdrop-blur);
   -webkit-backdrop-filter: var(--backdrop-blur);
-  border-bottom: 2px solid var(--glass-border) !important;
-  padding: 2rem 0 !important;
+  border-bottom: 1px solid var(--glass-border) !important;
+  padding: 1.5rem 0 !important;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 8px 32px var(--glass-shadow) !important;
-}
-
-.site-header::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 3px;
-  background: linear-gradient(90deg, 
-    var(--critical) 0%, 
-    var(--warning) 25%, 
-    #ffaa00 50%, 
-    #88cc00 75%, 
-    #00cc44 100%);
-  opacity: 0.8;
+  box-shadow: 0 4px 24px var(--glass-shadow) !important;
+  /* Subtle inner glow on top edge */
+  &::after {
+    content: '';
+    position: absolute;
+    top: 3px; left: 0; right: 0;
+    height: 40px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0.04), transparent);
+    pointer-events: none;
+    z-index: 1;
+  }
 }
 
 .header-content {
@@ -199,36 +253,35 @@ body {
   backdrop-filter: var(--backdrop-blur);
   -webkit-backdrop-filter: var(--backdrop-blur);
   border: 1px solid var(--glass-border) !important;
-  border-radius: 16px !important;
-  padding: 1.5rem !important;
+  border-radius: 14px !important;
+  padding: 1.1rem 1.25rem !important;
   text-align: center;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 16px var(--glass-shadow) !important;
+  box-shadow: 0 2px 12px var(--glass-shadow),
+              inset 0 1px 0 rgba(255,255,255,0.07) !important;
+  /* Top highlight */
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 15%; right: 15%;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    pointer-events: none;
+  }
 }
 
 .metric-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px var(--glass-shadow) !important;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px var(--glass-shadow) !important;
   border-color: var(--primary-color) !important;
 }
 
-.metric-card.co2 {
-  border-left: 4px solid var(--critical) !important;
-}
-
-.metric-card.temperature {
-  border-left: 4px solid #ff6600 !important;
-}
-
-.metric-card.ch4 {
-  border-left: 4px solid var(--warning) !important;
-}
-
-.metric-card.population {
-  border-left: 4px solid #0088cc !important;
-}
+.metric-card.co2    { border-left: 3px solid var(--critical) !important; }
+.metric-card.temperature { border-left: 3px solid #ff6600 !important; }
+.metric-card.ch4    { border-left: 3px solid var(--warning) !important; }
+.metric-card.population  { border-left: 3px solid #0088cc !important; }
 
 .metric-card h3 {
   margin: 0 0 1rem 0 !important;
@@ -293,26 +346,7 @@ body {
   font-size: 0.8rem;
 }
 
-/* Parallax Background Enhancement */
-.header-parallax {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.parallax-bg {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  opacity: 0.05;
-  will-change: transform;
-  filter: blur(1px);
-}
+/* Parallax Background — removed, replaced by wordmark */
 
 /* Critical Pulse Animation */
 @keyframes criticalPulse {
