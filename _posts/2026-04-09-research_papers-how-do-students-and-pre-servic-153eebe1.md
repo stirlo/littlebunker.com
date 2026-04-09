@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "How do students and pre-service teachers perceive the climate crisis and global warming through the IPCC Lens?"
+date: 2026-04-09 00:00:00 +0000
+categories: [research_papers]
+tags: ['ipcc', 'year-2024', 'urgent', 'climate-science']
+keywords: ['year-2024', 'students', 'climate-science', 'teachers', 'ipcc', 'urgent', 'service']
+description: "Conceptual clarity in climate-related terminology is essential for enabling individuals to accurately interpret environmental phenomena and develop well-grou..."
+external_url: https://www.frontiersin.org/articles/10.3389/fclim.2026.1794627
+is_feed: true
+source_feed: "Frontiers in Climate | New and Recent Articles"
+feed_category: "research_papers"
+---
+
+Conceptual clarity in climate-related terminology is essential for enabling individuals to accurately interpret environmental phenomena and develop well-grounded attitudes. Despite growing scholarly attention to climate perceptions, comparative studies examining how secondary school students and pre-service teachers simultaneously conceptualise both the climate crisis and global warming remain limited. This study addresses that gap by investigating these perceptions through the globally recognised framework of the Intergovernmental Panel on Climate Change (IPCC), which encompasses not only physical and scientific dimensions but also social, psychological, governance, and ecological ones. Employing a phenomenological research design, this study comparatively examined how 18 secondary school students from a public secondary school and 24 pre-service teachers from a public university in Türkiye conceptualised the climate crisis and global warming through metaphors during the 2024–2025 academic year. Data were collected via a semi-structured, open-ended Metaphor Perception Form and subjected to descriptive analysis grounded in an IPCC-derived thematic framework comprising six categories: Physical Threat and Scientific Findings; Social Vulnerability and Justice; Psychological Perception and Uncertainty; Adaptation and Mitigation Strategies; Science, Policy, and Decision-Making; and Ecosystem and Natural The study identified 12 distinct metaphors for the climate crisis and 14 for global warming among students, and 21 for the climate crisis and 22 for global warming among pre-service teachers. In both groups, metaphors most frequently corresponded to the Physical Threat and Scientific Findings category. Students produced no metaphors aligned with Social Vulnerability and Justice, Adaptation and Mitigation Strategies, or Science, Policy, and Decision-Making for either phenomenon. Pre-service teachers similarly produced no metaphors within Social Vulnerability and Justice for the climate crisis, nor within Social Vulnerability and Justice or Adaptation and Mitigation Strategies for global warming. The predominance of threat-centred metaphors across both groups suggests that climate-related learning remains anchored in physical and disaster-oriented frames, with justice, governance, and mitigation dimensions largely absent from participants' conceptual repertoires. These findings highlight the need for pedagogical approaches that move beyond disaster imagery toward climate justice, democratic agency, and active participation in solution processes within both secondary and teacher education contexts.
+
+[Read original article](https://www.frontiersin.org/articles/10.3389/fclim.2026.1794627)
