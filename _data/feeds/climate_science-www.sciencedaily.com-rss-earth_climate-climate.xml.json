@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-11T13:13:23.314565",
+  "fetched_at": "2026-04-11T14:41:27.723092",
   "items": [
+    {
+      "title": "Unusual airborne toxin detected in the U.S. for the first time",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260411084441.htm",
+      "pubDate": "Sat, 11 Apr 2026 08:58:31 EDT",
+      "description": "Scientists searching for air pollution clues stumbled onto something unexpected: toxic MCCPs drifting through the air for the first time in the Western Hemisphere. The likely source—fertilizer made from sewage sludge—points to a hidden route for contamination.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Earth’s most powerful ocean current didn’t form the way we thought",
       "link": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260311213444.htm",
       "pubDate": "Thu, 12 Mar 2026 01:53:19 EDT",
       "description": "Scientists at Curtin University have uncovered a new way to read the deep history of Earth’s landscapes using microscopic zircon crystals from ancient beach sands. These incredibly durable minerals trap traces of krypton gas created when cosmic rays strike them at Earth’s surface, effectively turning each crystal into a “cosmic clock.” By measuring that krypton, researchers can determine how long sediments lingered near the surface before burial, revealing how landscapes eroded, shifted, and stabilized over millions of years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Extreme weather is hitting baby birds hard in a 60-year study",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260311213435.htm",
-      "pubDate": "Thu, 12 Mar 2026 19:34:52 EDT",
-      "description": "Decades of data from over 80,000 great tits reveal that extreme weather can shape the fate of baby birds. Cold snaps soon after hatching and heavy rain later in development shrink nestling body mass and reduce survival odds. But moderate warm spells can actually help chicks grow by boosting insect activity and feeding opportunities. Birds that breed earlier in the season seem better protected from these weather shocks.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
