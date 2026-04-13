@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-13T13:56:41.848947",
+  "fetched_at": "2026-04-13T15:22:51.201619",
   "items": [
+    {
+      "title": "Africa’s forests have flipped from carbon sink to carbon source",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260413043135.htm",
+      "pubDate": "Mon, 13 Apr 2026 10:40:04 EDT",
+      "description": "Africa’s forests have undergone a shocking reversal, switching from carbon absorbers to carbon emitters after 2010. Researchers found that heavy deforestation in tropical regions has led to massive biomass losses, far outweighing any gains from regrowth elsewhere. This change could seriously undermine global efforts to slow climate change. Scientists warn that protecting forests is now more urgent than ever.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Gray whales are entering San Francisco Bay and many aren’t surviving",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260413043127.htm",
+      "pubDate": "Mon, 13 Apr 2026 09:09:27 EDT",
+      "description": "Gray whales are beginning to break their long-established migration patterns, venturing into risky new territory like San Francisco Bay as climate change disrupts their Arctic food supply. But this unexpected detour is proving deadly: nearly one in five whales that enter the Bay don’t survive, with many struck by ships in the crowded, foggy waters.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Unusual airborne toxin detected in the U.S. for the first time",
       "link": "https://www.sciencedaily.com/releases/2026/04/260411084441.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260314030446.htm",
       "pubDate": "Sat, 14 Mar 2026 08:00:08 EDT",
       "description": "Scientists may have finally solved the mystery of strange plume-like structures hidden deep inside the Greenland ice sheet. New research suggests they form through thermal convection—slow, swirling motions driven by temperature differences inside the ice. This means the deep ice could be far softer than scientists once believed. Understanding this hidden movement could improve predictions about how Greenland’s ice sheet behaves in a warming world.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists discover a universal temperature curve that governs all life",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260311213448.htm",
-      "pubDate": "Thu, 12 Mar 2026 21:58:51 EDT",
-      "description": "Researchers have uncovered a universal pattern showing how temperature affects life on Earth. Across thousands of species—from microbes to reptiles—performance rises gradually with warming until an optimal temperature is reached, after which it drops sharply. Although each species has its own preferred temperature range, they all follow the same underlying curve. This surprising constraint suggests evolution may have limited room to help species cope with rapid climate warming.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Cosmic rays turned ancient sand into a geological time machine",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260311213444.htm",
-      "pubDate": "Thu, 12 Mar 2026 01:53:19 EDT",
-      "description": "Scientists at Curtin University have uncovered a new way to read the deep history of Earth’s landscapes using microscopic zircon crystals from ancient beach sands. These incredibly durable minerals trap traces of krypton gas created when cosmic rays strike them at Earth’s surface, effectively turning each crystal into a “cosmic clock.” By measuring that krypton, researchers can determine how long sediments lingered near the surface before burial, revealing how landscapes eroded, shifted, and stabilized over millions of years.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
