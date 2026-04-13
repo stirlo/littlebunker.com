@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Philippines: PDRF, Baguio City ink Climate Resilience Agreement"
+date: 2026-04-13 08:38:59 +0000
+categories: [extreme_weather]
+tags: ['year-2026']
+keywords: ['baguio', 'pdrf', 'year-2026', 'philippines']
+description: "We're really glad that we have PDRF here to help us with our integrated water resource management program"
+external_url: https://reliefweb.int/report/philippines/pdrf-baguio-city-ink-climate-resilience-agreement
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Philippines Source: Philippine Disaster Resilience Foundation **April 13, 2026, BAGUIO CITY—**The Philippine Disaster Resilience Foundation (PDRF) and the City Government of Baguio City recently formalized their partnership for the implementation of the Building Resilience through Inclusive Development and Gender Equality (BRIDGE) Project through the signing of the Memorandum of Agreement at the Baguio City Hall. Through this partnership supported by the Government of Canada under a grant of Global Affairs Canada, PDRF will work with the local government to strengthen Baguio City's resilience to climate and disaster risks through inclusive, gender-responsive, and collaborative approaches, with a particular focus on integrated water resources management. We're really glad that we have PDRF here to help us with our integrated water resource management program. This is quite critical so far as it is considered, considering the fact that an average household only gets about two days of water every week. The IWRM, which I believe would probably be one of the valuable programs that we will undertake in the City of Baguio. And I'm really glad that we have this kind of program now being done here in the City of Baguio,' said Baguio City Mayor Benjamin Magalong, highlighting the BRIDGE Project's role in strengthening the local government's water resilience efforts. PDRF President Butch Meily and Executive Director Veronica Gabaldon attended the signing and delivered messages that underscored the important role of private-public collaboration in driving the country's disaster and climate resilience goals. 'Baguio City has changed and improved so much in recent years, but one of the challenges that persists to date is the City's lack of water. So our hope is to strengthen our partnership through the BRIDGE program, and with our combined strategies on climate change, adaptability, disaster risk reduction, and integrated water resource management, we hope that we can help make a difference,' said Meily. As part of the preparations for the full implementation of the BRIDGE Project in the City, the Project Team and the key personnel of the local government participated in a Synergy Workshop ahead of the MOA Signing on March 26, 2026. Through this workshop, the BRIDGE Project targets and timeline were aligned with the City's programmed activities to ensure the smooth and efficient rollout of activities. Parallel efforts are also being implemented with Antipolo City. In the next four years, PDRF will be implementing the BRIDGE Project in partnership with both the LGUs to enhance the disaster and climate resilience of water-stressed communities in both cities. ### Contact: Isabel Almenteros-Maravilles Communications Supervisor Email: malmenteros@pdrf.org.ph Reina Manongsong Communications Lead - BRIDGE Project Email: rdmanongsong@pdrf.org.ph
+
+[Read original article](https://reliefweb.int/report/philippines/pdrf-baguio-city-ink-climate-resilience-agreement)
