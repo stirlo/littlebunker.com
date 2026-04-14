@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "WHO's response in the occupied Palestinian territory (January - December 2025)"
+date: 2026-04-14 13:48:30 +0000
+categories: [extreme_weather]
+tags: ['year-2025', 'public-health', 'urgent', 'climate-health']
+keywords: ['public-health', 'climate-health', 'response', 'palestinian', 'urgent', 'occupied', 'year-2025']
+description: "Country: occupied Palestinian territory Source: World Health Organization Please refer to the attached file"
+external_url: https://reliefweb.int/report/occupied-palestinian-territory/whos-response-occupied-palestinian-territory-january-december-2025
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: occupied Palestinian territory Source: World Health Organization Please refer to the attached file. CURRENT SITUATION Gaza Strip Throughout 2025, although hostilities were less intense during the two established ceasefires (January-March and October to present), the Gaza Strip experienced catastrophic destruction and continued deterioration of its health system. During the year, local health authorities reported 25 718 deaths and more than 62 852 injuries. Cumulatively, by 31 December 2025, 71 271 people had been killed and 171 233 injured since October 2023. Nearly one quarter of those injured sustained life-altering trauma requiring long-term, specialized physical rehabilitation, placing sustained pressure on an already critically weakened health system. A 2025 WHO analysis of conflict-related traumatic injuries estimates that more than 5000 amputations have occurred since October 2023. Physical rehabilitation capacity remains limited. For example, at Al-Amal Hospital, operated by the Palestine Red Crescent Society (PRCS), over 400 patients are on the waiting list for just 90 rehabilitation beds available. Between October 2023 to December 2025, more than 930 attacks on health care had been documented by WHO1, significantly contributing to the degradation of the health system. As of late December 2025, all 36 hospitals had sustained damage, only about half were partially functional, and none were operational in North Gaza. Just 48% of primary health care centres (PHCCs) remained operational. Facilities were forced to operate well beyond capacity amid acute shortages of personnel and critical supplies. By December 2025, according to the Ministry of Health (MoH), 51% of essential medicines were out of stock, severely disrupting key services, including chemotherapy and treatment for blood diseases (66%), primary health care (61%), hemodialysis and renal medicine (46%), emergency and surgical care (40%), maternal and child health (44%), vaccines (42%), and mental health services (28%). Laboratory services were left largely non-functional following the destruction of the central health laboratory and most hospital and primary care-based laboratories, alongside severe shortages of functioning equipment. Extensive bureaucratic process continued to hinder movement at scale of medical supplies into the Gaza Strip. The situation was worsened by ongoing restrictions on the entry of some essential supplies categorized as dual-use. The health information system was severely compromised, undermining routine data collection, disease surveillance, medical record management and timely lifesaving decision-making.
+
+[Read original article](https://reliefweb.int/report/occupied-palestinian-territory/whos-response-occupied-palestinian-territory-january-december-2025)
