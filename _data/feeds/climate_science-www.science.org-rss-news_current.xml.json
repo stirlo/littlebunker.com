@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-15T11:58:59.949862",
+  "fetched_at": "2026-04-15T13:59:18.901437",
   "items": [
+    {
+      "title": "‘Invisible’ birds spotted with thermal imaging",
+      "link": "https://www.science.org/content/article/invisible-birds-spotted-thermal-imaging",
+      "pubDate": "",
+      "description": "Approach could help reveal which migrating species are most vulnerable to wind turbines and light pollution",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Fog is a vital water resource. Could it disappear in a warming world?",
       "link": "https://www.science.org/content/article/fog-vital-water-resource-could-it-disappear-warming-world",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/why-do-anglerfish-have-glowing-lures-it-might-be-sex",
       "pubDate": "",
       "description": "Species proliferated after evolving bioluminescence, possibly because mates could find each other more easily",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "A galaxy seems to host two giant black holes, poised to collide in a century",
-      "link": "https://www.science.org/content/article/galaxy-seems-host-two-giant-black-holes-poised-collide-century",
-      "pubDate": "",
-      "description": "Unusual radio signals could be long-sought smoking gun of galactic mergers",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
