@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-16T08:48:49.516991",
+  "fetched_at": "2026-04-16T10:20:28.297898",
   "items": [
+    {
+      "title": "Scientists discover hidden ocean methane source that could worsen global warming",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260415043615.htm",
+      "pubDate": "Thu, 16 Apr 2026 04:34:15 EDT",
+      "description": "Scientists have discovered that methane in the open ocean is produced by microbes under nutrient-poor conditions, solving a long-standing mystery. As warming oceans reduce nutrient mixing, these methane-producing microbes may thrive. This could lead to increased methane emissions from the sea. The result is a potential feedback loop that could intensify climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Africa’s forests have flipped from carbon sink to carbon source",
       "link": "https://www.sciencedaily.com/releases/2026/04/260413043135.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260315004411.htm",
       "pubDate": "Sun, 15 Mar 2026 19:51:35 EDT",
       "description": "A new detection method called “Jerk” could dramatically improve how scientists forecast volcanic eruptions. By using a single broadband seismometer, the system can detect extremely subtle ground movements caused by magma pushing underground—often hours before an eruption begins. Tested for more than a decade at the Piton de la Fournaise volcano on La Réunion, the tool successfully predicted 92% of eruptions between 2014 and 2023, sometimes giving up to eight hours of warning.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists discover giant swirling plumes hidden deep inside Greenland’s ice sheet",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260314030446.htm",
-      "pubDate": "Sat, 14 Mar 2026 08:00:08 EDT",
-      "description": "Scientists may have finally solved the mystery of strange plume-like structures hidden deep inside the Greenland ice sheet. New research suggests they form through thermal convection—slow, swirling motions driven by temperature differences inside the ice. This means the deep ice could be far softer than scientists once believed. Understanding this hidden movement could improve predictions about how Greenland’s ice sheet behaves in a warming world.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
