@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-17T11:55:59.363176",
+  "fetched_at": "2026-04-17T13:49:26.338980",
   "items": [
+    {
+      "title": "A “lost world” beneath the North Sea was once full of forests",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260416071959.htm",
+      "pubDate": "Fri, 17 Apr 2026 08:46:58 EDT",
+      "description": "Long before rising seas swallowed Doggerland beneath the North Sea, this lost landscape may have been a surprisingly lush and life-friendly haven. New DNA evidence reveals that forests of oak, elm, and hazel were already thriving there more than 16,000 years ago—thousands of years earlier than scientists thought possible. Even more astonishing, researchers detected traces of a tree species believed to have vanished from the region hundreds of thousands of years ago.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists warn of 3,100 “surging glaciers” that can trigger floods and avalanches",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260416071958.htm",
+      "pubDate": "Fri, 17 Apr 2026 08:28:25 EDT",
+      "description": "A hidden threat is emerging in the world’s glaciers: while most are shrinking, a rare group known as “surging glaciers” can suddenly accelerate, unleashing powerful and sometimes destructive events. Scientists have identified over 3,100 of these glaciers worldwide, with many clustered in high-risk regions like the Arctic and the Karakoram Mountains, where communities lie directly in their path.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists discover hidden ocean methane source that could worsen global warming",
       "link": "https://www.sciencedaily.com/releases/2026/04/260415043615.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260318033126.htm",
       "pubDate": "Wed, 18 Mar 2026 06:39:51 EDT",
       "description": "Pink granite boulders sitting mysteriously atop Antarctica’s Hudson Mountains have led scientists to a stunning discovery: a hidden granite mass buried beneath Pine Island Glacier, stretching nearly 100 km wide and 7 km thick. By dating the rocks to the Jurassic period and matching them with gravity signals detected from aircraft, researchers solved a decades-old puzzle about their origin.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
-      "pubDate": "Sun, 15 Mar 2026 00:44:14 EDT",
-      "description": "The asteroid impact that wiped out the dinosaurs didn’t keep life down for long. New research shows that microscopic plankton began evolving into new species within just a few thousand years—and possibly in under 2,000 years—after the disaster. Scientists uncovered this rapid rebound by using a rare isotope marker to more accurately measure time in ancient sediments. The discovery suggests life recovered far faster than previously thought.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists just discovered a tiny signal that volcanoes send before they erupt",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260315004411.htm",
-      "pubDate": "Sun, 15 Mar 2026 19:51:35 EDT",
-      "description": "A new detection method called “Jerk” could dramatically improve how scientists forecast volcanic eruptions. By using a single broadband seismometer, the system can detect extremely subtle ground movements caused by magma pushing underground—often hours before an eruption begins. Tested for more than a decade at the Piton de la Fournaise volcano on La Réunion, the tool successfully predicted 92% of eruptions between 2014 and 2023, sometimes giving up to eight hours of warning.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
