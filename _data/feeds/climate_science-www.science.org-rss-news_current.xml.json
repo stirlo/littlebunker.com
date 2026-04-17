@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-17T17:58:18.949377",
+  "fetched_at": "2026-04-17T19:14:39.292485",
   "items": [
+    {
+      "title": "Magnetic robots could help remove dangerous nanoplastics from water",
+      "link": "https://www.science.org/content/article/magnetic-robots-could-help-remove-dangerous-nanoplastics-water",
+      "pubDate": "",
+      "description": "Nanoscopic rods capture particles too small for conventional filters",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Artificially engineered sea ice grows—but can’t withstand the thaw",
       "link": "https://www.science.org/content/article/artificially-engineered-sea-ice-grows-can-t-withstand-thaw",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/fog-vital-water-resource-could-it-disappear-warming-world",
       "pubDate": "",
       "description": "California program promises serious attention to an “underdog” area of research",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "An interspecies grooming ritual may have been spotted in desert ants",
-      "link": "https://www.science.org/content/article/interspecies-grooming-ritual-may-have-been-spotted-desert-ants",
-      "pubDate": "",
-      "description": "First-of-its-kind observation suggests red harvester ants may look to smaller ants to pick off parasites",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
