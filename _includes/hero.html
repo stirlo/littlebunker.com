@@ -1,6 +1,23 @@
 <!-- _includes/hero.html — EXTREME v2 — single clean file, no chunking artifacts -->
 
 <div class="lb-hero">
+  <!-- Hidden SVG defs for gradients used in icon cutout -->
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <linearGradient id="lb-fire-grad" x1="0%" y1="100%" x2="50%" y2="0%">
+        <stop offset="0%" stop-color="#ff2200"/>
+        <stop offset="40%" stop-color="#ff6600"/>
+        <stop offset="70%" stop-color="#ffaa00"/>
+        <stop offset="100%" stop-color="#ffdd00"/>
+      </linearGradient>
+      <linearGradient id="lb-ice-grad" x1="0%" y1="100%" x2="50%" y2="0%">
+        <stop offset="0%" stop-color="#003388"/>
+        <stop offset="40%" stop-color="#0066cc"/>
+        <stop offset="70%" stop-color="#44aaff"/>
+        <stop offset="100%" stop-color="#aaddff"/>
+      </linearGradient>
+    </defs>
+  </svg>
   <canvas class="lb-particles" aria-hidden="true"></canvas>
   <div class="lb-heat-layer" aria-hidden="true"></div>
   <div class="lb-noise-layer" aria-hidden="true"></div>
@@ -16,7 +33,18 @@
 
   <div class="lb-centre container">
     <div class="lb-icon-wrap">
-      <div class="lb-icon-cutout" aria-hidden="true">🏚️</div>
+      <!-- SVG cutout: emoji shape clips the hero gradient, fire/ice bleeds through -->
+      <svg class="lb-icon-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <defs>
+          <clipPath id="lb-emoji-clip">
+            <text x="60" y="95" text-anchor="middle" font-size="90" font-family="Apple Color Emoji,Segoe UI Emoji,sans-serif">🏚️</text>
+          </clipPath>
+        </defs>
+        <!-- Fire/ice gradient bleeds through the emoji shape -->
+        <rect width="120" height="120" clip-path="url(#lb-emoji-clip)" class="lb-icon-fill"/>
+        <!-- Subtle outline glow -->
+        <text x="60" y="95" text-anchor="middle" font-size="90" font-family="Apple Color Emoji,Segoe UI Emoji,sans-serif" class="lb-icon-outline">🏚️</text>
+      </svg>
       <div class="lb-icon-glow" aria-hidden="true"></div>
     </div>
     <h1 class="lb-wordmark">little<span class="lb-wordmark-accent">bunker</span></h1>
@@ -235,35 +263,37 @@
   flex: 1;
 }
 
-/* Cutout icon */
+/* Cutout icon — SVG clip approach */
 .lb-icon-wrap {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -0.3rem;
 }
-.lb-icon-cutout {
-  font-size: clamp(3.5rem,10vw,5.5rem);
-  line-height: 1;
-  mix-blend-mode: var(--lb-blend);
-  position: relative;
-  z-index: 2;
+.lb-icon-svg {
+  width: clamp(80px, 14vw, 130px);
+  height: clamp(80px, 14vw, 130px);
   animation: lb-breathe 5s ease-in-out infinite;
-  user-select: none;
+  overflow: visible;
+  filter: drop-shadow(0 0 20px var(--lb-icon-shadow));
+}
+/* The clipped rect shows the gradient through the emoji shape */
+.lb-icon-fill {
+  fill: url(#lb-icon-grad);
+}
+/* Faint emoji outline so shape is readable when fill is subtle */
+.lb-icon-outline {
+  opacity: 0.12;
+  fill: var(--lb-text);
 }
 @media (prefers-color-scheme: dark) {
-  .lb-icon-cutout {
-    filter: contrast(1.6) brightness(1.3)
-      drop-shadow(0 0 18px rgba(255,100,0,.9))
-      drop-shadow(0 0 40px rgba(255,50,0,.5));
-  }
+  :root { --lb-icon-shadow: rgba(255,80,0,0.7); }
+  .lb-icon-fill { fill: url(#lb-fire-grad); }
 }
 @media (prefers-color-scheme: light) {
-  .lb-icon-cutout {
-    filter: contrast(1.3) brightness(1.1)
-      drop-shadow(0 0 14px rgba(80,180,255,.8))
-      drop-shadow(0 0 30px rgba(140,210,255,.4));
-  }
+  :root { --lb-icon-shadow: rgba(0,120,220,0.5); }
+  .lb-icon-fill { fill: url(#lb-ice-grad); }
 }
 .lb-icon-glow {
   position: absolute;
