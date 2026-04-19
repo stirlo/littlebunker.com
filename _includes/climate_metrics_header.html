@@ -1,30 +1,8 @@
 <!-- _includes/climate_metrics_header.html -->
-<header class="site-header">
-
-  <!-- Frosted glass shimmer bar at top -->
-  <div class="header-shimmer-bar"></div>
-
+<!-- Note: site title/nav now lives in hero.html — this is metrics only -->
+<div class="metrics-header-wrap">
   <div class="container">
-    <div class="header-content">
-
-      <!-- Wordmark + title -->
-      <div class="site-title">
-        <a href="/" class="header-logo-link" aria-label="Little Bunker home">
-          <img src="{{ '/assets/images/bunker-logo.svg' | relative_url }}"
-               alt="Little Bunker"
-               class="header-wordmark"
-               width="220" height="55"
-               loading="eager">
-        </a>
-        <p class="last-update">
-          Last updated:
-          {% if site.data.metrics.last_updated %}
-            {{ site.data.metrics.last_updated | date: "%B %d, %Y %I:%M %p" }}
-          {% else %}
-            {{ site.time | date: "%B %d, %Y %I:%M %p %Z" }}
-          {% endif %}
-        </p>
-      </div>
+    <div class="header-content metrics-only">
 
       <!-- Metrics dashboard -->
       <div class="metrics-dashboard">
@@ -74,4 +52,4 @@
 
     </div>
   </div>
-</header>
+</div>

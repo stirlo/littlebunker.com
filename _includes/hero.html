@@ -1,0 +1,368 @@
+<!-- _includes/hero.html -->
+<!-- Replaces: header.html nav logo + climate_metrics_header.html site-title -->
+<!-- Keep: metrics-dashboard cards in climate_metrics_header.html below this -->
+
+<div class="lb-hero">
+  <canvas class="lb-particles" aria-hidden="true"></canvas>
+
+  <!-- Nav sits inside hero -->
+  <nav class="lb-nav container">
+    <span class="lb-nav-spacer"></span>
+    <div class="lb-nav-links">
+      <a href="/archive.html">Archive</a>
+      <a href="https://bsky.app/profile/littlebunker.com" target="_blank" rel="noopener" class="lb-bsky">🦋 Bluesky</a>
+      <a href="/feed.xml">RSS</a>
+    </div>
+  </nav>
+
+  <!-- Wordmark + tagline + pulse strip -->
+  <div class="lb-centre container">
+    <div class="lb-wordmark-wrap">
+      <span class="lb-icon">🏚️</span>
+      <h1 class="lb-wordmark">little<span class="lb-wordmark-accent">bunker</span></h1>
+    </div>
+    <p class="lb-tagline">Methodically tracking the collapse.<br>
+      <span class="lb-tagline-sub">Climate data. Extreme weather. The long emergency.</span>
+    </p>
+    <div class="lb-pulse-strip">
+      <div class="lb-pulse-item">
+        <span class="lb-pulse-label">CO₂</span>
+        <span class="lb-pulse-value critical">{{ site.data.metrics.co2.current | default: "421.5" }}<small>ppm</small></span>
+      </div>
+      <div class="lb-pulse-divider"></div>
+      <div class="lb-pulse-item">
+        <span class="lb-pulse-label">CH₄</span>
+        <span class="lb-pulse-value warning">{{ site.data.metrics.ch4.current | default: "1908" }}<small>ppb</small></span>
+      </div>
+      <div class="lb-pulse-divider"></div>
+      <div class="lb-pulse-item">
+        <span class="lb-pulse-label">Δ Temp</span>
+        <span class="lb-pulse-value critical">+{{ site.data.metrics.temperature.current | default: "1.2" }}<small>°C</small></span>
+      </div>
+      <div class="lb-pulse-divider"></div>
+      <div class="lb-pulse-item">
+        <span class="lb-pulse-label">Local</span>
+        <span class="lb-pulse-value" id="lb-clock">--:--</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="lb-bottom-edge"></div>
+</div>
+
+<style>
+/* ============================================================
+   LITTLE BUNKER HERO — Jekyll Include
+   Fire (dark) / Ice (light) — prefers-color-scheme only
+   ============================================================ */
+:root {
+  --lb-font-display: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
+  --lb-font-mono: 'JetBrains Mono', 'Fira Mono', monospace;
+  --lb-transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --lb-hero-bg-1: #0a0200;
+    --lb-ember-1: #ff4500;
+    --lb-ember-2: #ff6b00;
+    --lb-text-hero: #ffe8d6;
+    --lb-text-sub: rgba(255, 140, 66, 0.75);
+    --lb-glass-bg: rgba(180, 40, 0, 0.12);
+    --lb-glass-border: rgba(255, 100, 0, 0.25);
+    --lb-glass-shine: rgba(255, 160, 60, 0.08);
+    --lb-accent-word: #ff6b00;
+    --lb-bottom-glow: rgba(255, 69, 0, 0.4);
+    --lb-shimmer-line: linear-gradient(90deg,transparent 0%,rgba(255,100,0,0.6) 30%,rgba(255,200,0,0.9) 50%,rgba(255,100,0,0.6) 70%,transparent 100%);
+    --lb-bg-gradient: radial-gradient(ellipse 120% 80% at 50% 120%,#3d0d00 0%,#1a0500 40%,#0a0200 100%);
+    --lb-wordmark-gradient: linear-gradient(135deg,#ff8c00 0%,#ff4500 40%,#cd2200 100%);
+    --lb-icon-filter: drop-shadow(0 0 12px rgba(255,100,0,0.8));
+  }
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --lb-hero-bg-1: #e8f4f8;
+    --lb-ember-1: #0066cc;
+    --lb-ember-2: #0099ff;
+    --lb-text-hero: #0a1a2e;
+    --lb-text-sub: rgba(0, 80, 140, 0.7);
+    --lb-glass-bg: rgba(180, 220, 255, 0.35);
+    --lb-glass-border: rgba(100, 180, 255, 0.5);
+    --lb-glass-shine: rgba(255, 255, 255, 0.7);
+    --lb-accent-word: #0055aa;
+    --lb-bottom-glow: rgba(0, 120, 220, 0.25);
+    --lb-shimmer-line: linear-gradient(90deg,transparent 0%,rgba(100,180,255,0.5) 30%,rgba(200,240,255,0.95) 50%,rgba(100,180,255,0.5) 70%,transparent 100%);
+    --lb-bg-gradient: radial-gradient(ellipse 120% 80% at 50% 0%,#c8e4ff 0%,#dceeff 40%,#e8f4f8 100%);
+    --lb-wordmark-gradient: linear-gradient(135deg,#0088ff 0%,#0055aa 50%,#003377 100%);
+    --lb-icon-filter: drop-shadow(0 0 10px rgba(0,120,220,0.5));
+  }
+}
+.lb-hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: var(--lb-bg-gradient);
+  min-height: 240px;
+  display: flex;
+  flex-direction: column;
+}
+.lb-particles {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.55;
+}
+.lb-nav {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.lb-nav-spacer { flex: 1; }
+.lb-nav-links { display: flex; gap: 1.5rem; align-items: center; }
+.lb-nav-links a {
+  color: var(--lb-text-sub);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  transition: color var(--lb-transition);
+}
+.lb-nav-links a:hover { color: var(--lb-ember-2); }
+.lb-bsky {
+  background: var(--lb-glass-bg);
+  border: 1px solid var(--lb-glass-border);
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.lb-centre {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 1.8rem;
+  padding-bottom: 2rem;
+  gap: 0.75rem;
+}
+.lb-wordmark-wrap { display: flex; align-items: center; gap: 0.5rem; line-height: 1; }
+.lb-icon {
+  font-size: 2.8rem;
+  filter: var(--lb-icon-filter);
+  animation: lb-icon-pulse 4s ease-in-out infinite;
+}
+.lb-wordmark {
+  font-family: var(--lb-font-display);
+  font-size: clamp(3rem, 8vw, 6rem);
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--lb-text-hero);
+  text-transform: uppercase;
+  line-height: 1;
+  margin: 0;
+}
+.lb-wordmark-accent {
+  background: var(--lb-wordmark-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.lb-tagline {
+  font-size: clamp(0.85rem, 2vw, 1.05rem);
+  color: var(--lb-text-sub);
+  line-height: 1.5;
+  max-width: 520px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.lb-tagline-sub { font-size: 0.85em; opacity: 0.75; font-style: italic; }
+.lb-pulse-strip {
+  display: flex;
+  align-items: center;
+  background: var(--lb-glass-bg);
+  border: 1px solid var(--lb-glass-border);
+  border-radius: 8px;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  overflow: hidden;
+  margin-top: 0.5rem;
+  box-shadow: inset 0 1px 0 var(--lb-glass-shine), 0 4px 24px rgba(0,0,0,0.15);
+}
+.lb-pulse-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.55rem 1.2rem;
+  gap: 0.15rem;
+  min-width: 80px;
+}
+.lb-pulse-divider { width: 1px; height: 36px; background: var(--lb-glass-border); flex-shrink: 0; }
+.lb-pulse-label {
+  font-family: var(--lb-font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--lb-text-sub);
+  opacity: 0.8;
+}
+.lb-pulse-value {
+  font-family: var(--lb-font-mono);
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--lb-text-hero);
+  line-height: 1;
+}
+.lb-pulse-value small { font-size: 0.6em; font-weight: 400; opacity: 0.7; margin-left: 1px; }
+.lb-pulse-value.critical { color: var(--critical, #ff4444); }
+.lb-pulse-value.warning  { color: var(--warning, #ffaa00); }
+.lb-bottom-edge {
+  height: 2px;
+  background: var(--lb-shimmer-line);
+  width: 100%;
+  margin-top: auto;
+  animation: lb-shimmer 3.5s ease-in-out infinite;
+  box-shadow: 0 0 12px var(--lb-bottom-glow);
+}
+@keyframes lb-icon-pulse {
+  0%,100% { transform: scale(1); opacity: 1; }
+  50%      { transform: scale(1.06); opacity: 0.85; }
+}
+@keyframes lb-shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+@media (prefers-color-scheme: dark) {
+  .lb-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 60% 40% at 50% 100%,rgba(200,50,0,0.18) 0%,transparent 70%);
+    animation: lb-heat 6s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+  @keyframes lb-heat {
+    0%   { opacity: 0.5; transform: scaleX(0.9); }
+    100% { opacity: 1;   transform: scaleX(1.1); }
+  }
+}
+@media (prefers-color-scheme: light) {
+  .lb-hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(ellipse 80% 50% at 50% 0%,rgba(150,210,255,0.3) 0%,transparent 70%);
+    animation: lb-aurora 8s ease-in-out infinite alternate;
+    pointer-events: none;
+  }
+  @keyframes lb-aurora {
+    0%   { opacity: 0.4; transform: scaleX(0.85); }
+    100% { opacity: 0.8; transform: scaleX(1.15); }
+  }
+}
+@media (max-width: 600px) {
+  .lb-centre { padding-top: 1.2rem; padding-bottom: 1.5rem; }
+  .lb-pulse-strip { flex-wrap: wrap; justify-content: center; }
+  .lb-pulse-divider { display: none; }
+  .lb-pulse-item { min-width: 72px; padding: 0.4rem 0.7rem; }
+  .lb-nav-links { gap: 1rem; }
+  .lb-nav-links a { font-size: 0.8rem; }
+  .lb-wordmark { font-size: clamp(2.5rem, 12vw, 4rem); }
+  .lb-icon { font-size: 2rem; }
+}
+</style>
+
+<script>
+(function() {
+  // Clock
+  const clockEl = document.getElementById('lb-clock');
+  function tickClock() {
+    if (!clockEl) return;
+    const n = new Date();
+    clockEl.textContent =
+      String(n.getHours()).padStart(2,'0') + ':' +
+      String(n.getMinutes()).padStart(2,'0') + ':' +
+      String(n.getSeconds()).padStart(2,'0');
+  }
+  tickClock();
+  setInterval(tickClock, 1000);
+
+  // Particles
+  const canvas = document.querySelector('.lb-particles');
+  if (!canvas) return;
+  const ctx = canvas.getContext('2d');
+  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+
+  function resize() { canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; }
+  resize();
+  window.addEventListener('resize', resize);
+
+  const COUNT = isDark ? 55 : 40;
+  const particles = [];
+
+  function mkParticle(spreadY) {
+    return {
+      x: Math.random() * canvas.width,
+      y: spreadY ? Math.random() * canvas.height : canvas.height + 10,
+      size: isDark ? 1.2 + Math.random() * 2.8 : 0.8 + Math.random() * 1.8,
+      speedY: isDark ? -(0.4 + Math.random() * 1.1) : -(0.2 + Math.random() * 0.7),
+      speedX: (Math.random() - 0.5) * (isDark ? 0.5 : 0.3),
+      opacity: 0.4 + Math.random() * 0.6,
+      life: 0,
+      maxLife: 90 + Math.random() * 120,
+      angle: Math.random() * Math.PI * 2,
+      spin: (Math.random() - 0.5) * 0.04,
+    };
+  }
+
+  for (let i = 0; i < COUNT; i++) particles.push(mkParticle(true));
+
+  function drawEmber(p) {
+    const a = p.opacity * (1 - p.life / p.maxLife);
+    const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size * 3);
+    g.addColorStop(0, `rgba(255,140,0,${a})`);
+    g.addColorStop(0.4, `rgba(255,60,0,${a * 0.6})`);
+    g.addColorStop(1, `rgba(255,0,0,0)`);
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.size * 3, 0, Math.PI * 2);
+    ctx.fillStyle = g; ctx.fill();
+    ctx.beginPath(); ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(255,220,100,${a})`; ctx.fill();
+  }
+
+  function drawCrystal(p) {
+    const a = p.opacity * (1 - p.life / p.maxLife);
+    const r = p.size * 2.5;
+    ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.angle);
+    ctx.beginPath();
+    for (let i = 0; i < 6; i++) {
+      const ang = (i * Math.PI) / 3;
+      i === 0 ? ctx.moveTo(Math.cos(ang)*r, Math.sin(ang)*r)
+              : ctx.lineTo(Math.cos(ang)*r, Math.sin(ang)*r);
+    }
+    ctx.closePath();
+    ctx.strokeStyle = `rgba(180,230,255,${a * 0.8})`; ctx.lineWidth = 0.7; ctx.stroke();
+    ctx.beginPath(); ctx.arc(0, 0, p.size * 0.6, 0, Math.PI * 2);
+    ctx.fillStyle = `rgba(220,245,255,${a})`; ctx.fill();
+    ctx.restore();
+  }
+
+  function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    particles.forEach((p, i) => {
+      p.x += p.speedX; p.y += p.speedY; p.life++;
+      if (isDark) p.speedX += (Math.random() - 0.5) * 0.06;
+      else p.angle += p.spin;
+      if (p.life >= p.maxLife || p.y < -20) { particles[i] = mkParticle(false); return; }
+      isDark ? drawEmber(p) : drawCrystal(p);
+    });
+    requestAnimationFrame(animate);
+  }
+  animate();
+})();
+</script>
