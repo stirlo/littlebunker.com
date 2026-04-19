@@ -1,14 +1,10 @@
-<!-- _includes/hero.html -->
-<!-- EXTREME v2 — post-apocalyptic fire/ice, cutout icon, dense particles, bottom ticker -->
-<!-- Nav, wordmark, compact pulse strip in hero. Full metrics ticker at bottom edge. -->
+<!-- _includes/hero.html — EXTREME v2 — single clean file, no chunking artifacts -->
 
 <div class="lb-hero">
-  <!-- Atmospheric layers -->
   <canvas class="lb-particles" aria-hidden="true"></canvas>
   <div class="lb-heat-layer" aria-hidden="true"></div>
   <div class="lb-noise-layer" aria-hidden="true"></div>
 
-  <!-- Nav -->
   <nav class="lb-nav container">
     <span class="lb-nav-spacer"></span>
     <div class="lb-nav-links">
@@ -18,23 +14,13 @@
     </div>
   </nav>
 
-  <!-- Centre: cutout icon + wordmark + tagline + compact pulse -->
   <div class="lb-centre container">
-
-    <!-- Cutout icon: emoji masked to show hero background through it -->
     <div class="lb-icon-wrap">
       <div class="lb-icon-cutout" aria-hidden="true">🏚️</div>
       <div class="lb-icon-glow" aria-hidden="true"></div>
     </div>
-
     <h1 class="lb-wordmark">little<span class="lb-wordmark-accent">bunker</span></h1>
-
-    <p class="lb-tagline">
-      Methodically tracking the collapse.
-      <span class="lb-tagline-sub"> Climate data. Extreme weather. The long emergency.</span>
-    </p>
-
-    <!-- Compact inline pulse strip -->
+    <p class="lb-tagline">Methodically tracking the collapse.<span class="lb-tagline-sub"> Climate data. Extreme weather. The long emergency.</span></p>
     <div class="lb-pulse-strip">
       <div class="lb-pulse-item">
         <span class="lb-pulse-label">CO₂</span>
@@ -58,7 +44,6 @@
     </div>
   </div>
 
-  <!-- Bottom ticker strip — full metrics scrolling -->
   <div class="lb-ticker-wrap" aria-label="Climate data ticker">
     <div class="lb-ticker-track">
       <span class="lb-tick-item critical">CO₂ {{ site.data.metrics.co2.current | default: "421.5" }} ppm</span>
@@ -73,11 +58,10 @@
       <span class="lb-tick-sep">◆</span>
       <span class="lb-tick-item critical">Peak +{{ site.data.metrics.temperature.recent_peak | default: "1.5" }}°C</span>
       <span class="lb-tick-sep">◆</span>
-      <span class="lb-tick-item">Population {{ site.data.metrics.population.total | default: "8.1" }}B</span>
+      <span class="lb-tick-item">Pop {{ site.data.metrics.population.total | default: "8.1" }}B</span>
       <span class="lb-tick-sep">◆</span>
       <span class="lb-tick-item">+{{ site.data.metrics.population.growth | default: "67" }}M / yr</span>
       <span class="lb-tick-sep">◆</span>
-      <!-- duplicate for seamless loop -->
       <span class="lb-tick-item critical">CO₂ {{ site.data.metrics.co2.current | default: "421.5" }} ppm</span>
       <span class="lb-tick-sep">◆</span>
       <span class="lb-tick-item">+{{ site.data.metrics.co2.change | default: "2.5" }} ppm / yr</span>
@@ -90,79 +74,57 @@
       <span class="lb-tick-sep">◆</span>
       <span class="lb-tick-item critical">Peak +{{ site.data.metrics.temperature.recent_peak | default: "1.5" }}°C</span>
       <span class="lb-tick-sep">◆</span>
-      <span class="lb-tick-item">Population {{ site.data.metrics.population.total | default: "8.1" }}B</span>
+      <span class="lb-tick-item">Pop {{ site.data.metrics.population.total | default: "8.1" }}B</span>
       <span class="lb-tick-sep">◆</span>
       <span class="lb-tick-item">+{{ site.data.metrics.population.growth | default: "67" }}M / yr</span>
       <span class="lb-tick-sep">◆</span>
     </div>
   </div>
-
 </div>
 
 <style>
-/* ============================================================
-   LITTLE BUNKER HERO — EXTREME v2
-   Cutout icon · Dense particles · Bottom ticker
-   Fire (dark) · Ice (light) · prefers-color-scheme only
-   ============================================================ */
-
 :root {
-  --lb-font-display: 'Bebas Neue', 'Impact', 'Arial Black', sans-serif;
-  --lb-font-mono: 'JetBrains Mono', 'Fira Mono', monospace;
-  --lb-ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --lb-font-display: 'Bebas Neue','Impact','Arial Black',sans-serif;
+  --lb-font-mono: 'JetBrains Mono','Fira Mono',monospace;
 }
-
-/* ── FIRE / DARK ── */
 @media (prefers-color-scheme: dark) {
   :root {
-    --lb-bg:          #080100;
-    --lb-bg-mid:      #1c0600;
-    --lb-bg-top:      #2e0900;
-    --lb-e1:          #ff4500;
-    --lb-e2:          #ff6b00;
-    --lb-e3:          #ffaa00;
-    --lb-text:        #ffe8d6;
-    --lb-sub:         rgba(255,138,60,0.72);
-    --lb-glass:       rgba(180,40,0,0.13);
-    --lb-border:      rgba(255,100,0,0.28);
-    --lb-shine:       rgba(255,160,60,0.09);
-    --lb-glow:        rgba(255,80,0,0.5);
-    --lb-tick-bg:     rgba(10,2,0,0.85);
+    --lb-e2: #ff6b00;
+    --lb-text: #ffe8d6;
+    --lb-sub: rgba(255,138,60,0.72);
+    --lb-glass: rgba(180,40,0,0.13);
+    --lb-border: rgba(255,100,0,0.28);
+    --lb-shine: rgba(255,160,60,0.09);
+    --lb-tick-bg: rgba(10,2,0,0.88);
     --lb-tick-border: rgba(255,80,0,0.35);
-    --lb-gradient:    radial-gradient(ellipse 140% 100% at 50% 115%, #4a1000 0%, #1c0600 45%, #080100 100%);
-    --lb-wm-grad:     linear-gradient(135deg, #ff9500 0%, #ff4500 45%, #c01800 100%);
-    --lb-shimmer:     linear-gradient(90deg, transparent 0%, rgba(255,100,0,0.7) 30%, rgba(255,210,0,1) 50%, rgba(255,100,0,0.7) 70%, transparent 100%);
-    --lb-noise:       0.04;
-    --lb-particle-mode: dark;
+    --lb-gradient: radial-gradient(ellipse 140% 100% at 50% 115%, #4a1000 0%, #1c0600 45%, #080100 100%);
+    --lb-wm-grad: linear-gradient(135deg,#ff9500 0%,#ff4500 45%,#c01800 100%);
+    --lb-noise: 0.04;
+    --lb-blend: screen;
+    --lb-fade-l: #080100;
+    --lb-fade-r: #080100;
   }
 }
-
-/* ── ICE / LIGHT ── */
 @media (prefers-color-scheme: light) {
   :root {
-    --lb-bg:          #ddf0fb;
-    --lb-bg-mid:      #c8e6f7;
-    --lb-bg-top:      #b0d8f2;
-    --lb-e1:          #0066cc;
-    --lb-e2:          #0099ff;
-    --lb-e3:          #66ccff;
-    --lb-text:        #071828;
-    --lb-sub:         rgba(0,75,135,0.68);
-    --lb-glass:       rgba(160,215,255,0.38);
-    --lb-border:      rgba(80,170,255,0.55);
-    --lb-shine:       rgba(255,255,255,0.75);
-    --lb-glow:        rgba(0,140,255,0.35);
-    --lb-tick-bg:     rgba(220,240,255,0.92);
+    --lb-e2: #0099ff;
+    --lb-text: #071828;
+    --lb-sub: rgba(0,75,135,0.68);
+    --lb-glass: rgba(160,215,255,0.38);
+    --lb-border: rgba(80,170,255,0.55);
+    --lb-shine: rgba(255,255,255,0.75);
+    --lb-tick-bg: rgba(220,240,255,0.92);
     --lb-tick-border: rgba(80,160,255,0.4);
-    --lb-gradient:    radial-gradient(ellipse 140% 100% at 50% -10%, #b0d8f2 0%, #c8e6f7 45%, #ddf0fb 100%);
-    --lb-wm-grad:     linear-gradient(135deg, #0099ff 0%, #0055bb 50%, #003388 100%);
-    --lb-shimmer:     linear-gradient(90deg, transparent 0%, rgba(80,170,255,0.6) 30%, rgba(200,240,255,1) 50%, rgba(80,170,255,0.6) 70%, transparent 100%);
-    --lb-noise:       0.025;
-    --lb-particle-mode: light;
+    --lb-gradient: radial-gradient(ellipse 140% 100% at 50% -10%, #b0d8f2 0%, #c8e6f7 45%, #ddf0fb 100%);
+    --lb-wm-grad: linear-gradient(135deg,#0099ff 0%,#0055bb 50%,#003388 100%);
+    --lb-noise: 0.025;
+    --lb-blend: multiply;
+    --lb-fade-l: #ddf0fb;
+    --lb-fade-r: #ddf0fb;
   }
 }
 
-/* ── HERO SHELL ── */
+/* Shell */
 .lb-hero {
   position: relative;
   width: 100%;
@@ -174,7 +136,7 @@
   isolation: isolate;
 }
 
-/* ── ATMOSPHERIC LAYERS ── */
+/* Particles canvas */
 .lb-particles {
   position: absolute;
   inset: 0;
@@ -184,6 +146,7 @@
   z-index: 1;
 }
 
+/* Heat/aurora layer */
 .lb-heat-layer {
   position: absolute;
   inset: 0;
@@ -199,25 +162,25 @@
     animation: lb-heat 7s ease-in-out infinite alternate;
   }
   @keyframes lb-heat {
-    0%   { opacity: 0.6; transform: scaleX(0.92) scaleY(0.97); }
-    100% { opacity: 1.0; transform: scaleX(1.08) scaleY(1.03); }
+    0%   { opacity:.6; transform:scaleX(.92) scaleY(.97); }
+    100% { opacity:1;  transform:scaleX(1.08) scaleY(1.03); }
   }
 }
 @media (prefers-color-scheme: light) {
   .lb-heat-layer {
     background:
-      radial-gradient(ellipse 80% 50% at 50% -5%, rgba(140,205,255,0.35) 0%, transparent 70%),
-      radial-gradient(ellipse 40% 30% at 15% 20%, rgba(180,225,255,0.2) 0%, transparent 60%),
-      radial-gradient(ellipse 40% 30% at 85% 15%, rgba(180,225,255,0.2) 0%, transparent 60%);
+      radial-gradient(ellipse 80% 50% at 50% -5%, rgba(140,205,255,.35) 0%, transparent 70%),
+      radial-gradient(ellipse 40% 30% at 15% 20%, rgba(180,225,255,.2) 0%, transparent 60%),
+      radial-gradient(ellipse 40% 30% at 85% 15%, rgba(180,225,255,.2) 0%, transparent 60%);
     animation: lb-aurora 9s ease-in-out infinite alternate;
   }
   @keyframes lb-aurora {
-    0%   { opacity: 0.5; transform: scaleX(0.88); }
-    100% { opacity: 0.9; transform: scaleX(1.12); }
+    0%   { opacity:.5; transform:scaleX(.88); }
+    100% { opacity:.9; transform:scaleX(1.12); }
   }
 }
 
-/* Subtle film grain overlay */
+/* Film grain */
 .lb-noise-layer {
   position: absolute;
   inset: 0;
@@ -228,9 +191,8 @@
   z-index: 3;
   mix-blend-mode: overlay;
 }
-</style>
 
-/* ── NAV ── */
+/* Nav */
 .lb-nav {
   position: relative;
   z-index: 10;
@@ -239,8 +201,8 @@
   align-items: center;
   padding: 1rem 0 0.4rem;
 }
-.lb-nav-spacer { flex: 1; }
-.lb-nav-links { display: flex; gap: 1.4rem; align-items: center; }
+.lb-nav-spacer { flex:1; }
+.lb-nav-links { display:flex; gap:1.4rem; align-items:center; }
 .lb-nav-links a {
   color: var(--lb-sub);
   text-decoration: none;
@@ -248,19 +210,19 @@
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  transition: color 0.3s;
+  transition: color .3s;
 }
 .lb-nav-links a:hover { color: var(--lb-e2); }
 .lb-bsky {
   background: var(--lb-glass);
   border: 1px solid var(--lb-border);
-  padding: 0.22rem 0.6rem;
+  padding: .22rem .6rem;
   border-radius: 3px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
 
-/* ── CENTRE BLOCK ── */
+/* Centre */
 .lb-centre {
   position: relative;
   z-index: 10;
@@ -269,79 +231,72 @@
   align-items: center;
   text-align: center;
   padding: 1.6rem 1rem 1.8rem;
-  gap: 0.7rem;
+  gap: .7rem;
   flex: 1;
 }
 
-/* ── CUTOUT ICON ── */
+/* Cutout icon */
 .lb-icon-wrap {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -0.2rem;
 }
-
-/* The emoji rendered large, then masked so the hero bg bleeds through */
 .lb-icon-cutout {
-  font-size: clamp(3.5rem, 10vw, 5.5rem);
+  font-size: clamp(3.5rem,10vw,5.5rem);
   line-height: 1;
-  /* Cutout effect: mix-blend-mode screen makes dark pixels transparent */
-  mix-blend-mode: screen;
-  filter: contrast(1.4) brightness(1.1);
+  mix-blend-mode: var(--lb-blend);
   position: relative;
   z-index: 2;
-  animation: lb-icon-breathe 5s ease-in-out infinite;
+  animation: lb-breathe 5s ease-in-out infinite;
   user-select: none;
 }
-
 @media (prefers-color-scheme: dark) {
   .lb-icon-cutout {
-    /* In dark/fire mode: emoji glows through the inferno */
-    filter: contrast(1.6) brightness(1.3) drop-shadow(0 0 18px rgba(255,100,0,0.9)) drop-shadow(0 0 40px rgba(255,50,0,0.5));
+    filter: contrast(1.6) brightness(1.3)
+      drop-shadow(0 0 18px rgba(255,100,0,.9))
+      drop-shadow(0 0 40px rgba(255,50,0,.5));
   }
 }
 @media (prefers-color-scheme: light) {
   .lb-icon-cutout {
-    /* In light/ice mode: emoji refracts cold light */
-    filter: contrast(1.3) brightness(1.1) drop-shadow(0 0 14px rgba(80,180,255,0.8)) drop-shadow(0 0 30px rgba(140,210,255,0.4));
+    filter: contrast(1.3) brightness(1.1)
+      drop-shadow(0 0 14px rgba(80,180,255,.8))
+      drop-shadow(0 0 30px rgba(140,210,255,.4));
   }
 }
-
-/* Ambient glow halo behind icon */
 .lb-icon-glow {
   position: absolute;
-  width: clamp(80px, 15vw, 120px);
-  height: clamp(80px, 15vw, 120px);
+  width: clamp(80px,15vw,120px);
+  height: clamp(80px,15vw,120px);
   border-radius: 50%;
   z-index: 1;
-  animation: lb-glow-pulse 5s ease-in-out infinite;
+  animation: lb-glow 5s ease-in-out infinite;
 }
 @media (prefers-color-scheme: dark) {
-  .lb-icon-glow { background: radial-gradient(circle, rgba(255,80,0,0.3) 0%, transparent 70%); }
+  .lb-icon-glow { background: radial-gradient(circle,rgba(255,80,0,.3) 0%,transparent 70%); }
 }
 @media (prefers-color-scheme: light) {
-  .lb-icon-glow { background: radial-gradient(circle, rgba(100,180,255,0.3) 0%, transparent 70%); }
+  .lb-icon-glow { background: radial-gradient(circle,rgba(100,180,255,.3) 0%,transparent 70%); }
+}
+@keyframes lb-breathe {
+  0%,100% { transform:scale(1) translateY(0); }
+  50%      { transform:scale(1.04) translateY(-3px); }
+}
+@keyframes lb-glow {
+  0%,100% { transform:scale(1);    opacity:.7; }
+  50%      { transform:scale(1.35); opacity:1; }
 }
 
-@keyframes lb-icon-breathe {
-  0%,100% { transform: scale(1) translateY(0); }
-  50%      { transform: scale(1.04) translateY(-3px); }
-}
-@keyframes lb-glow-pulse {
-  0%,100% { transform: scale(1);    opacity: 0.7; }
-  50%      { transform: scale(1.35); opacity: 1.0; }
-}
-
-/* ── WORDMARK ── */
+/* Wordmark */
 .lb-wordmark {
   font-family: var(--lb-font-display);
-  font-size: clamp(3.2rem, 9vw, 6.5rem);
+  font-size: clamp(3.2rem,9vw,6.5rem);
   font-weight: 400;
-  letter-spacing: 0.05em;
+  letter-spacing: .05em;
   text-transform: uppercase;
   color: var(--lb-text);
-  line-height: 0.95;
+  line-height: .95;
   margin: 0;
 }
 .lb-wordmark-accent {
@@ -351,24 +306,24 @@
   background-clip: text;
 }
 
-/* ── TAGLINE ── */
+/* Tagline */
 .lb-tagline {
-  font-size: clamp(0.8rem, 1.8vw, 1rem);
+  font-size: clamp(.8rem,1.8vw,1rem);
   color: var(--lb-sub);
   line-height: 1.55;
   max-width: 500px;
   font-weight: 500;
-  letter-spacing: 0.025em;
+  letter-spacing: .025em;
 }
 .lb-tagline-sub {
   display: block;
-  font-size: 0.82em;
-  opacity: 0.7;
+  font-size: .82em;
+  opacity: .7;
   font-style: italic;
-  margin-top: 0.1rem;
+  margin-top: .1rem;
 }
 
-/* ── COMPACT PULSE STRIP ── */
+/* Pulse strip */
 .lb-pulse-strip {
   display: flex;
   align-items: center;
@@ -378,29 +333,25 @@
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   overflow: hidden;
-  box-shadow: inset 0 1px 0 var(--lb-shine), 0 6px 30px rgba(0,0,0,0.2);
-  margin-top: 0.3rem;
+  box-shadow: inset 0 1px 0 var(--lb-shine), 0 6px 30px rgba(0,0,0,.2);
+  margin-top: .3rem;
 }
 .lb-pulse-item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0.5rem 1.1rem;
-  gap: 0.1rem;
+  padding: .5rem 1.1rem;
+  gap: .1rem;
   min-width: 76px;
 }
-.lb-pulse-div {
-  width: 1px; height: 32px;
-  background: var(--lb-border);
-  flex-shrink: 0;
-}
+.lb-pulse-div { width:1px; height:32px; background:var(--lb-border); flex-shrink:0; }
 .lb-pulse-label {
   font-family: var(--lb-font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.14em;
+  font-size: .6rem;
+  letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--lb-sub);
-  opacity: 0.75;
+  opacity: .75;
 }
 .lb-pulse-value {
   font-family: var(--lb-font-mono);
@@ -409,16 +360,11 @@
   color: var(--lb-text);
   line-height: 1;
 }
-.lb-pulse-value small {
-  font-size: 0.58em;
-  font-weight: 400;
-  opacity: 0.65;
-  margin-left: 1px;
-}
-.lb-pulse-value.critical { color: var(--critical, #ff4444); }
-.lb-pulse-value.warning  { color: var(--warning,  #ffaa00); }
+.lb-pulse-value small { font-size:.58em; font-weight:400; opacity:.65; margin-left:1px; }
+.lb-pulse-value.critical { color:var(--critical,#ff4444); }
+.lb-pulse-value.warning  { color:var(--warning,#ffaa00); }
 
-/* ── BOTTOM TICKER ── */
+/* Ticker */
 .lb-ticker-wrap {
   position: relative;
   z-index: 10;
@@ -430,334 +376,102 @@
   display: flex;
   align-items: center;
 }
-
-/* Fade edges */
 .lb-ticker-wrap::before,
 .lb-ticker-wrap::after {
-  content: '';
-  position: absolute;
-  top: 0; bottom: 0;
-  width: 60px;
-  z-index: 2;
-  pointer-events: none;
+  content:'';
+  position:absolute;
+  top:0; bottom:0;
+  width:60px;
+  z-index:2;
+  pointer-events:none;
 }
-@media (prefers-color-scheme: dark) {
-  .lb-ticker-wrap::before { left: 0;  background: linear-gradient(to right, #080100, transparent); }
-  .lb-ticker-wrap::after  { right: 0; background: linear-gradient(to left,  #080100, transparent); }
-}
-@media (prefers-color-scheme: light) {
-  .lb-ticker-wrap::before { left: 0;  background: linear-gradient(to right, #ddf0fb, transparent); }
-  .lb-ticker-wrap::after  { right: 0; background: linear-gradient(to left,  #ddf0fb, transparent); }
-}
-
+.lb-ticker-wrap::before { left:0;  background:linear-gradient(to right, var(--lb-fade-l), transparent); }
+.lb-ticker-wrap::after  { right:0; background:linear-gradient(to left,  var(--lb-fade-r), transparent); }
 .lb-ticker-track {
   display: flex;
   align-items: center;
-  gap: 0;
   white-space: nowrap;
   animation: lb-tick 40s linear infinite;
   will-change: transform;
 }
 .lb-tick-item {
   font-family: var(--lb-font-mono);
-  font-size: 0.72rem;
+  font-size: .72rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: .08em;
   color: var(--lb-sub);
-  padding: 0 0.8rem;
+  padding: 0 .8rem;
   text-transform: uppercase;
 }
-.lb-tick-item.critical { color: var(--critical, #ff4444); }
-.lb-tick-item.warning  { color: var(--warning,  #ffaa00); }
-.lb-tick-sep {
-  font-size: 0.5rem;
-  color: var(--lb-border);
-  flex-shrink: 0;
-}
-
+.lb-tick-item.critical { color:var(--critical,#ff4444); }
+.lb-tick-item.warning  { color:var(--warning,#ffaa00); }
+.lb-tick-sep { font-size:.5rem; color:var(--lb-border); flex-shrink:0; }
 @keyframes lb-tick {
-  0%   { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
+  0%   { transform:translateX(0); }
+  100% { transform:translateX(-50%); }
 }
 
-/* ── RESPONSIVE ── */
-@media (max-width: 600px) {
-  .lb-hero { min-height: 280px; }
-  .lb-centre { padding: 1rem 0.5rem 1.4rem; gap: 0.55rem; }
-  .lb-wordmark { font-size: clamp(2.8rem, 14vw, 4rem); }
-  .lb-icon-cutout { font-size: clamp(3rem, 13vw, 4.5rem); }
-  .lb-pulse-strip { flex-wrap: wrap; justify-content: center; }
-  .lb-pulse-div { display: none; }
-  .lb-pulse-item { min-width: 68px; padding: 0.35rem 0.6rem; }
-  .lb-nav-links { gap: 0.9rem; }
-  .lb-nav-links a { font-size: 0.75rem; }
-  .lb-ticker-wrap { height: 28px; }
-  .lb-tick-item { font-size: 0.65rem; padding: 0 0.6rem; }
+/* Responsive */
+@media (max-width:600px) {
+  .lb-hero { min-height:280px; }
+  .lb-centre { padding:1rem .5rem 1.4rem; gap:.55rem; }
+  .lb-wordmark { font-size:clamp(2.8rem,14vw,4rem); }
+  .lb-icon-cutout { font-size:clamp(3rem,13vw,4.5rem); }
+  .lb-pulse-strip { flex-wrap:wrap; justify-content:center; }
+  .lb-pulse-div { display:none; }
+  .lb-pulse-item { min-width:68px; padding:.35rem .6rem; }
+  .lb-nav-links { gap:.9rem; }
+  .lb-nav-links a { font-size:.75rem; }
+  .lb-ticker-wrap { height:28px; }
+  .lb-tick-item { font-size:.65rem; padding:0 .6rem; }
 }
 </style>
 
 <script>
-(function() {
-  /* ── CLOCK ── */
-  const clockEl = document.getElementById('lb-clock');
-  function tick() {
-    if (!clockEl) return;
-    const n = new Date();
-    clockEl.textContent =
-      String(n.getHours()).padStart(2,'0') + ':' +
-      String(n.getMinutes()).padStart(2,'0') + ':' +
-      String(n.getSeconds()).padStart(2,'0');
-  }
-  tick(); setInterval(tick, 1000);
+(function(){
+  /* Clock */
+  const cl=document.getElementById('lb-clock');
+  function tick(){if(!cl)return;const n=new Date();cl.textContent=String(n.getHours()).padStart(2,'0')+':'+String(n.getMinutes()).padStart(2,'0')+':'+String(n.getSeconds()).padStart(2,'0');}
+  tick();setInterval(tick,1000);
 
-  /* ── PARTICLES ── */
-  const canvas = document.querySelector('.lb-particles');
-  if (!canvas) return;
-  const ctx = canvas.getContext('2d');
-  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  /* Particles */
+  const canvas=document.querySelector('.lb-particles');
+  if(!canvas)return;
+  const ctx=canvas.getContext('2d');
+  const dark=window.matchMedia('(prefers-color-scheme: dark)').matches;
+  function resize(){canvas.width=canvas.offsetWidth;canvas.height=canvas.offsetHeight;}
+  resize();window.addEventListener('resize',resize);
 
-  function resize() {
-    canvas.width  = canvas.offsetWidth;
-    canvas.height = canvas.offsetHeight;
-  }
-  resize();
-  window.addEventListener('resize', resize);
+  /* Wind */
+  let wx=0,wt=0,wtime=0;
+  function wind(dt){wtime+=dt;if(wtime>3000){wt=(Math.random()-.5)*(dark?.4:.25);wtime=0;}wx+=(wt-wx)*.003;}
 
-  /* Wind simulation — gentle turbulence */
-  let windX = 0, windTarget = 0, windTime = 0;
-  function updateWind(dt) {
-    windTime += dt;
-    if (windTime > 3000) {
-      windTarget = (Math.random() - 0.5) * (isDark ? 0.4 : 0.25);
-      windTime = 0;
-    }
-    windX += (windTarget - windX) * 0.003;
-  }
+  /* Particle factories */
+  function ash(){return{type:'ash',x:Math.random()*canvas.width,y:Math.random()*canvas.height,size:.8+Math.random()*2.4,sy:-(0.15+Math.random()*.55),sx:(Math.random()-.5)*.3,op:.15+Math.random()*.55,life:Math.random()*200,max:150+Math.random()*200,wb:Math.random()*Math.PI*2,ws:.01+Math.random()*.02,ang:Math.random()*Math.PI*2,sp:(Math.random()-.5)*.05};}
+  function ember(){return{type:'ember',x:(.2+Math.random()*.6)*canvas.width,y:canvas.height+Math.random()*30,size:2+Math.random()*4,sy:-(0.8+Math.random()*2),sx:(Math.random()-.5)*.6,op:.6+Math.random()*.4,life:0,max:60+Math.random()*80,fl:Math.random()*Math.PI*2};}
+  function snow(){return{type:'snow',x:Math.random()*canvas.width,y:Math.random()*canvas.height,size:1.2+Math.random()*3,sy:.2+Math.random()*.6,sx:(Math.random()-.5)*.2,op:.2+Math.random()*.6,life:Math.random()*200,max:180+Math.random()*220,wb:Math.random()*Math.PI*2,ws:.008+Math.random()*.015};}
+  function crystal(){return{type:'crystal',x:Math.random()*canvas.width,y:-20-Math.random()*60,size:2.5+Math.random()*4,sy:.3+Math.random()*.8,sx:(Math.random()-.5)*.4,op:.3+Math.random()*.6,life:0,max:200+Math.random()*150,ang:Math.random()*Math.PI*2,sp:(Math.random()-.5)*.025};}
 
-  /* ─ DARK: ash + ember particles ─ */
-  const ASH_COUNT   = 120;
-  const EMBER_COUNT = 35;
+  /* Pool */
+  const pts=[];
+  if(dark){for(let i=0;i<160;i++)pts.push(ash());for(let i=0;i<55;i++)pts.push(ember());}
+  else{for(let i=0;i<100;i++)pts.push(snow());for(let i=0;i<35;i++)pts.push(crystal());}
 
-  function mkAsh() {
-    const sz = 0.8 + Math.random() * 2.4;
-    return {
-      type: 'ash',
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: sz,
-      speedY: -(0.15 + Math.random() * 0.55),  /* ash drifts up slowly */
-      speedX: (Math.random() - 0.5) * 0.3,
-      opacity: 0.15 + Math.random() * 0.55,
-      life: Math.random() * 200,
-      maxLife: 150 + Math.random() * 200,
-      wobble: Math.random() * Math.PI * 2,
-      wobbleSpeed: 0.01 + Math.random() * 0.02,
-      angle: Math.random() * Math.PI * 2,
-      spin: (Math.random() - 0.5) * 0.05,
-    };
-  }
+  /* Draw */
+  function dAsh(p){const f=1-p.life/p.max,a=p.op*f;if(a<=0)return;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.ang);ctx.beginPath();ctx.ellipse(0,0,p.size*1.4,p.size*.7,0,0,Math.PI*2);ctx.fillStyle=`rgba(180,120,80,${a*.6})`;ctx.fill();ctx.beginPath();ctx.arc(0,0,p.size*.5,0,Math.PI*2);ctx.fillStyle=`rgba(220,180,140,${a})`;ctx.fill();ctx.restore();}
+  function dEmber(p){const f=1-p.life/p.max,fl=.7+.3*Math.sin(p.fl+p.life*.15),a=p.op*f*fl;if(a<=0)return;const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.size*4);g.addColorStop(0,`rgba(255,160,20,${a})`);g.addColorStop(.3,`rgba(255,70,0,${a*.7})`);g.addColorStop(1,`rgba(200,0,0,0)`);ctx.beginPath();ctx.arc(p.x,p.y,p.size*5,0,Math.PI*2);ctx.fillStyle=g;ctx.fill();ctx.beginPath();ctx.arc(p.x,p.y,p.size*.8,0,Math.PI*2);ctx.fillStyle=`rgba(255,240,180,${a})`;ctx.fill();}
+  function dSnow(p){const f=1-p.life/p.max,a=p.op*f;if(a<=0)return;const g=ctx.createRadialGradient(p.x,p.y,0,p.x,p.y,p.size*2);g.addColorStop(0,`rgba(230,245,255,${a})`);g.addColorStop(.5,`rgba(190,225,255,${a*.6})`);g.addColorStop(1,`rgba(160,210,255,0)`);ctx.beginPath();ctx.arc(p.x,p.y,p.size*2,0,Math.PI*2);ctx.fillStyle=g;ctx.fill();}
+  function dCrystal(p){const f=1-p.life/p.max,a=p.op*f;if(a<=0)return;const r=p.size;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.ang);ctx.strokeStyle=`rgba(180,230,255,${a*.9})`;ctx.lineWidth=.8;for(let i=0;i<6;i++){const ang=(i*Math.PI)/3,bx=Math.cos(ang)*r*1.4,by=Math.sin(ang)*r*1.4,ba=ang+Math.PI/2;ctx.beginPath();ctx.moveTo(0,0);ctx.lineTo(Math.cos(ang)*r*2.5,Math.sin(ang)*r*2.5);ctx.moveTo(bx,by);ctx.lineTo(bx+Math.cos(ba)*r*.7,by+Math.sin(ba)*r*.7);ctx.moveTo(bx,by);ctx.lineTo(bx-Math.cos(ba)*r*.7,by-Math.sin(ba)*r*.7);ctx.stroke();}ctx.beginPath();ctx.arc(0,0,r*.55,0,Math.PI*2);ctx.fillStyle=`rgba(220,245,255,${a})`;ctx.fill();ctx.restore();}
 
-  function mkEmber() {
-    return {
-      type: 'ember',
-      x: (0.2 + Math.random() * 0.6) * canvas.width,
-      y: canvas.height + Math.random() * 30,
-      size: 1.5 + Math.random() * 3,
-      speedY: -(0.8 + Math.random() * 2),
-      speedX: (Math.random() - 0.5) * 0.6,
-      opacity: 0.6 + Math.random() * 0.4,
-      life: 0,
-      maxLife: 60 + Math.random() * 80,
-      flicker: Math.random() * Math.PI * 2,
-    };
-  }
-
-  /* ─ LIGHT: snow + ice crystal particles ─ */
-  const SNOW_COUNT    = 80;
-  const CRYSTAL_COUNT = 25;
-
-  function mkSnow() {
-    return {
-      type: 'snow',
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      size: 1.2 + Math.random() * 3,
-      speedY: 0.2 + Math.random() * 0.6,   /* snow falls DOWN */
-      speedX: (Math.random() - 0.5) * 0.2,
-      opacity: 0.2 + Math.random() * 0.6,
-      life: Math.random() * 200,
-      maxLife: 180 + Math.random() * 220,
-      wobble: Math.random() * Math.PI * 2,
-      wobbleSpeed: 0.008 + Math.random() * 0.015,
-    };
-  }
-
-  function mkCrystal() {
-    return {
-      type: 'crystal',
-      x: Math.random() * canvas.width,
-      y: -20 - Math.random() * 60,
-      size: 2.5 + Math.random() * 4,
-      speedY: 0.3 + Math.random() * 0.8,
-      speedX: (Math.random() - 0.5) * 0.4,
-      opacity: 0.3 + Math.random() * 0.6,
-      life: 0,
-      maxLife: 200 + Math.random() * 150,
-      angle: Math.random() * Math.PI * 2,
-      spin: (Math.random() - 0.5) * 0.025,
-    };
-  }
-
-  /* Initialise pool */
-  const particles = [];
-  if (isDark) {
-    for (let i = 0; i < ASH_COUNT;   i++) particles.push(mkAsh());
-    for (let i = 0; i < EMBER_COUNT; i++) particles.push(mkEmber());
-  } else {
-    for (let i = 0; i < SNOW_COUNT;    i++) particles.push(mkSnow());
-    for (let i = 0; i < CRYSTAL_COUNT; i++) particles.push(mkCrystal());
-  }
-
-  /* ── Draw functions ── */
-  function drawAsh(p) {
-    const fade = 1 - p.life / p.maxLife;
-    const a = p.opacity * fade;
-    if (a <= 0) return;
-    ctx.save();
-    ctx.translate(p.x, p.y);
-    ctx.rotate(p.angle);
-    /* Irregular ash flake shape */
-    ctx.beginPath();
-    ctx.ellipse(0, 0, p.size * 1.4, p.size * 0.7, 0, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(180,120,80,${a * 0.6})`;
-    ctx.fill();
-    ctx.beginPath();
-    ctx.arc(0, 0, p.size * 0.5, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(220,180,140,${a})`;
-    ctx.fill();
-    ctx.restore();
-  }
-
-  function drawEmber(p) {
-    const fade = 1 - p.life / p.maxLife;
-    const flick = 0.7 + 0.3 * Math.sin(p.flicker + p.life * 0.15);
-    const a = p.opacity * fade * flick;
-    if (a <= 0) return;
-    /* Outer glow */
-    const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size * 4);
-    g.addColorStop(0,   `rgba(255,160,20,${a})`);
-    g.addColorStop(0.3, `rgba(255,70,0,${a * 0.7})`);
-    g.addColorStop(1,   `rgba(200,0,0,0)`);
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.size * 4, 0, Math.PI * 2);
-    ctx.fillStyle = g; ctx.fill();
-    /* Hot core */
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.size * 0.8, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(255,240,180,${a})`; ctx.fill();
-  }
-
-  function drawSnow(p) {
-    const fade = 1 - p.life / p.maxLife;
-    const a = p.opacity * fade;
-    if (a <= 0) return;
-    /* Soft snowflake */
-    const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.size * 2);
-    g.addColorStop(0,   `rgba(230,245,255,${a})`);
-    g.addColorStop(0.5, `rgba(190,225,255,${a * 0.6})`);
-    g.addColorStop(1,   `rgba(160,210,255,0)`);
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, p.size * 2, 0, Math.PI * 2);
-    ctx.fillStyle = g; ctx.fill();
-  }
-
-  function drawCrystal(p) {
-    const fade = 1 - p.life / p.maxLife;
-    const a = p.opacity * fade;
-    if (a <= 0) return;
-    const r = p.size;
-    ctx.save();
-    ctx.translate(p.x, p.y);
-    ctx.rotate(p.angle);
-    /* 6-arm ice crystal */
-    ctx.strokeStyle = `rgba(180,230,255,${a * 0.9})`;
-    ctx.lineWidth = 0.8;
-    for (let i = 0; i < 6; i++) {
-      const ang = (i * Math.PI) / 3;
-      ctx.beginPath();
-      ctx.moveTo(0, 0);
-      ctx.lineTo(Math.cos(ang) * r * 2.5, Math.sin(ang) * r * 2.5);
-      /* Branch */
-      const bx = Math.cos(ang) * r * 1.4, by = Math.sin(ang) * r * 1.4;
-      const ba = ang + Math.PI / 2;
-      ctx.moveTo(bx, by);
-      ctx.lineTo(bx + Math.cos(ba) * r * 0.7, by + Math.sin(ba) * r * 0.7);
-      ctx.moveTo(bx, by);
-      ctx.lineTo(bx - Math.cos(ba) * r * 0.7, by - Math.sin(ba) * r * 0.7);
-      ctx.stroke();
-    }
-    /* Centre */
-    ctx.beginPath();
-    ctx.arc(0, 0, r * 0.55, 0, Math.PI * 2);
-    ctx.fillStyle = `rgba(220,245,255,${a})`; ctx.fill();
-    ctx.restore();
-  }
-
-  /* ── Animation loop ── */
-  let last = 0;
-  function animate(ts) {
-    const dt = ts - last; last = ts;
-    updateWind(dt);
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-    particles.forEach((p, i) => {
-      p.life++;
-      /* Apply wind */
-      p.speedX += windX * 0.05;
-      p.speedX *= 0.98; /* dampen */
-
-      if (p.type === 'ash') {
-        p.wobble += p.wobbleSpeed;
-        p.x += p.speedX + Math.sin(p.wobble) * 0.4;
-        p.y += p.speedY;
-        p.angle += p.spin;
-        if (p.life >= p.maxLife || p.y < -10) {
-          particles[i] = mkAsh();
-          particles[i].y = canvas.height + 5;
-        } else drawAsh(p);
-
-      } else if (p.type === 'ember') {
-        p.x += p.speedX;
-        p.y += p.speedY;
-        p.speedX += (Math.random() - 0.5) * 0.08;
-        p.flicker += 0.18;
-        if (p.life >= p.maxLife || p.y < -15) {
-          particles[i] = mkEmber();
-        } else drawEmber(p);
-
-      } else if (p.type === 'snow') {
-        p.wobble += p.wobbleSpeed;
-        p.x += p.speedX + Math.sin(p.wobble) * 0.5;
-        p.y += p.speedY;
-        if (p.life >= p.maxLife || p.y > canvas.height + 10) {
-          particles[i] = mkSnow();
-          particles[i].y = -5;
-          particles[i].x = Math.random() * canvas.width;
-        } else drawSnow(p);
-
-      } else if (p.type === 'crystal') {
-        p.x += p.speedX;
-        p.y += p.speedY;
-        p.angle += p.spin;
-        if (p.life >= p.maxLife || p.y > canvas.height + 15) {
-          particles[i] = mkCrystal();
-        } else drawCrystal(p);
-      }
-    });
-
-    requestAnimationFrame(animate);
-  }
-  requestAnimationFrame(animate);
-
+  /* Loop */
+  let last=0;
+  function frame(ts){const dt=ts-last;last=ts;wind(dt);ctx.clearRect(0,0,canvas.width,canvas.height);
+    pts.forEach((p,i)=>{p.life++;p.sx+=wx*.05;p.sx*=.98;
+      if(p.type==='ash'){p.wb+=p.ws;p.x+=p.sx+Math.sin(p.wb)*.4;p.y+=p.sy;p.ang+=p.sp;if(p.life>=p.max||p.y<-10){pts[i]=ash();pts[i].y=canvas.height+5;}else dAsh(p);}
+      else if(p.type==='ember'){p.x+=p.sx;p.y+=p.sy;p.sx+=(Math.random()-.5)*.08;p.fl+=.18;if(p.life>=p.max||p.y<-15){pts[i]=ember();}else dEmber(p);}
+      else if(p.type==='snow'){p.wb+=p.ws;p.x+=p.sx+Math.sin(p.wb)*.5;p.y+=p.sy;if(p.life>=p.max||p.y>canvas.height+10){pts[i]=snow();pts[i].y=-5;pts[i].x=Math.random()*canvas.width;}else dSnow(p);}
+      else if(p.type==='crystal'){p.x+=p.sx;p.y+=p.sy;p.ang+=p.sp;if(p.life>=p.max||p.y>canvas.height+15){pts[i]=crystal();}else dCrystal(p);}
+    });requestAnimationFrame(frame);}
+  requestAnimationFrame(frame);
 })();
 </script>
