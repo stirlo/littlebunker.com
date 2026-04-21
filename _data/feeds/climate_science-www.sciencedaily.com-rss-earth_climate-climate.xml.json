@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-21T03:28:33.078198",
+  "fetched_at": "2026-04-21T06:07:08.300531",
   "items": [
+    {
+      "title": "Hundreds of millions at risk as river deltas sink faster than rising seas",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260420014750.htm",
+      "pubDate": "Mon, 20 Apr 2026 03:20:42 EDT",
+      "description": "Many of the world’s largest river deltas—home to hundreds of millions of people—are sinking faster than rising seas, according to a sweeping global study. Using high-resolution satellite radar maps, researchers found that human activities like groundwater pumping, reduced sediment flow, and rapid urban growth are driving widespread land subsidence across 40 major deltas.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Greenland ice completely melted 7,000 years ago and could happen again",
       "link": "https://www.sciencedaily.com/releases/2026/04/260417224503.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260321012636.htm",
       "pubDate": "Sat, 21 Mar 2026 03:37:27 EDT",
       "description": "Scientists have uncovered the oldest direct evidence yet that Earth’s tectonic plates were on the move 3.5 billion years ago. By analyzing magnetic fingerprints in ancient rocks, they reconstructed how parts of the planet slowly drifted and even rotated over time. This challenges long-standing ideas that early Earth may have had a rigid, unmoving surface. Instead, it suggests the planet was already dynamic—and possibly setting the stage for life—much earlier than expected.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists solve 12,800-year-old climate mystery hidden in Greenland ice",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260319044714.htm",
-      "pubDate": "Fri, 20 Mar 2026 06:01:12 EDT",
-      "description": "A mysterious spike of platinum buried deep in Greenland’s ice has long fueled theories of a catastrophic comet or asteroid strike 12,800 years ago—possibly triggering a sudden return to icy conditions known as the Younger Dryas. But new research points to a far less dramatic, yet still powerful culprit: volcanic eruptions. Scientists found the platinum signal doesn’t match space debris and actually appeared decades after the cooling began, ruling out an impact as the trigger.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
