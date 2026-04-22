@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-21T23:40:59.830403",
+  "last_updated": "2026-04-22T03:26:25.793133",
   "total_categories": 6,
   "total_feeds": 29,
   "categories": {
@@ -9,22 +9,22 @@
         {
           "url": "https://www.pnas.org/action/showFeed?type=etoc&feed=rss&jc=pnas",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:00.162125"
+          "fetched_at": "2026-04-22T03:26:26.147164"
         },
         {
           "url": "https://agupubs.onlinelibrary.wiley.com/feed/19448007/most-recent",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:00.556107"
+          "fetched_at": "2026-04-22T03:26:26.733907"
         },
         {
           "url": "https://www.frontiersin.org/journals/climate/rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.024121"
+          "fetched_at": "2026-04-22T03:26:26.982665"
         },
         {
           "url": "https://www.nature.com/nclimate.rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.188721"
+          "fetched_at": "2026-04-22T03:26:27.070114"
         }
       ],
       "successful_fetches": 4,
@@ -36,27 +36,27 @@
         {
           "url": "https://reliefweb.int/disasters/rss.xml",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.387130"
+          "fetched_at": "2026-04-22T03:26:27.470550"
         },
         {
           "url": "https://reliefweb.int/updates/rss.xml?query=climate",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.507076"
+          "fetched_at": "2026-04-22T03:26:27.784664"
         },
         {
           "url": "https://reliefweb.int/updates/rss.xml?query=weather+hazards",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.599201"
+          "fetched_at": "2026-04-22T03:26:28.104976"
         },
         {
           "url": "https://disasterphilanthropy.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:01.919970"
+          "fetched_at": "2026-04-22T03:26:28.492810"
         },
         {
           "url": "https://phys.org/rss-feed/earth-sciences/environment/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:02.284512"
+          "fetched_at": "2026-04-22T03:26:28.898828"
         }
       ],
       "successful_fetches": 5,
@@ -68,22 +68,22 @@
         {
           "url": "https://www.wri.org/blog/rss.xml",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:02.605293"
+          "fetched_at": "2026-04-22T03:26:29.297295"
         },
         {
           "url": "https://climatemigration.org.uk/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:09.014270"
+          "fetched_at": "2026-04-22T03:26:35.601127"
         },
         {
           "url": "https://climatejusticealliance.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:09.378337"
+          "fetched_at": "2026-04-22T03:26:36.125781"
         },
         {
           "url": "https://350.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:09.773466"
+          "fetched_at": "2026-04-22T03:26:36.606055"
         }
       ],
       "successful_fetches": 4,
@@ -95,32 +95,32 @@
         {
           "url": "https://www.ipcc.ch/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:10.861805"
+          "fetched_at": "2026-04-22T03:26:37.483897"
         },
         {
           "url": "https://www.nature.com/nclimate.rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:10.923793"
+          "fetched_at": "2026-04-22T03:26:37.536304"
         },
         {
           "url": "https://www.science.org/rss/news_current.xml",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:11.119073"
+          "fetched_at": "2026-04-22T03:26:37.973036"
         },
         {
           "url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:11.365188"
+          "fetched_at": "2026-04-22T03:26:38.287294"
         },
         {
           "url": "https://earthobservatory.nasa.gov/feeds/natural-hazards.rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:11.634239"
+          "fetched_at": "2026-04-22T03:26:38.655298"
         },
         {
           "url": "https://earthobservatory.nasa.gov/feeds/earth-observatory.rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:11.975096"
+          "fetched_at": "2026-04-22T03:26:39.020249"
         }
       ],
       "successful_fetches": 6,
@@ -132,27 +132,27 @@
         {
           "url": "https://insideclimatenews.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:12.261343"
+          "fetched_at": "2026-04-22T03:26:39.281217"
         },
         {
           "url": "https://www.carbonbrief.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:12.661137"
+          "fetched_at": "2026-04-22T03:26:39.691980"
         },
         {
           "url": "https://www.theguardian.com/environment/climate-crisis/rss",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:12.774969"
+          "fetched_at": "2026-04-22T03:26:39.947367"
         },
         {
           "url": "https://grist.org/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:13.096820"
+          "fetched_at": "2026-04-22T03:26:40.316210"
         },
         {
           "url": "https://www.climatechangenews.com/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:15.216602"
+          "fetched_at": "2026-04-22T03:26:42.486442"
         }
       ],
       "successful_fetches": 5,
@@ -164,27 +164,27 @@
         {
           "url": "https://heated.world/feed",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:15.496140"
+          "fetched_at": "2026-04-22T03:26:42.756143"
         },
         {
           "url": "https://www.desmog.com/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:15.713234"
+          "fetched_at": "2026-04-22T03:26:42.977534"
         },
         {
           "url": "https://www.climatechangenews.com/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:17.854462"
+          "fetched_at": "2026-04-22T03:26:45.176929"
         },
         {
           "url": "https://e360.yale.edu/feed.xml",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:18.123451"
+          "fetched_at": "2026-04-22T03:26:45.419651"
         },
         {
           "url": "https://news.climate.columbia.edu/feed/",
           "status": "success",
-          "fetched_at": "2026-04-21T23:41:18.282905"
+          "fetched_at": "2026-04-22T03:26:45.574953"
         }
       ],
       "successful_fetches": 5,
@@ -194,6 +194,6 @@
   "fetch_summary": {
     "successful": 29,
     "failed": 0,
-    "total_items": 494
+    "total_items": 554
   }
 }
