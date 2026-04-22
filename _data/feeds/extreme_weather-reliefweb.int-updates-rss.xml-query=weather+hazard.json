@@ -4,8 +4,16 @@
   "description": "ReliefWeb - Updates",
   "category": "extreme_weather",
   "source_url": "https://reliefweb.int/updates/rss.xml?query=weather+hazards",
-  "fetched_at": "2026-04-22T16:13:27.036549",
+  "fetched_at": "2026-04-22T18:03:56.281370",
   "items": [
+    {
+      "title": "Cambodia: Southeast Asia | Severe weather and floods - DG ECHO Daily Map | 22/04/2026",
+      "link": "https://reliefweb.int/map/cambodia/southeast-asia-severe-weather-and-floods-dg-echo-daily-map-22042026",
+      "pubDate": "Wed, 22 Apr 2026 16:17:16 +0000",
+      "description": "<div class=\"tag country\">Countries: Cambodia, Lao People's Democratic Republic (the), Malaysia, Thailand, Viet Nam</div>\n                                      <div class=\"tag source\">Source: European Commission's Directorate-General for European Civil Protection and Humanitarian Aid Operations</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/20/7c/207c7dc0-6451-5bde-bb23-9d207492fb62.png\" /></p>\n                        <p>Please refer to the attached Map.</p>",
+      "category": "extreme_weather",
+      "source_url": "https://reliefweb.int/updates/rss.xml?query=weather+hazards"
+    },
     {
       "title": "WFP Dominican Republic April 2026 Country Brief",
       "link": "https://reliefweb.int/report/dominican-republic/wfp-dominican-republic-april-2026-country-brief",
@@ -155,14 +163,6 @@
       "link": "https://reliefweb.int/report/ghana/coastal-countries-ghana-monthly-statistics-31-march-2026",
       "pubDate": "Wed, 22 Apr 2026 13:03:19 +0000",
       "description": "<div class=\"tag country\">Country: Ghana</div>\n                                      <div class=\"tag source\">Source: UN High Commissioner for Refugees</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/3f/25/3f2571f2-8788-54d0-9da3-437e7ea78125.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
-      "category": "extreme_weather",
-      "source_url": "https://reliefweb.int/updates/rss.xml?query=weather+hazards"
-    },
-    {
-      "title": "Côte d'Ivoire: Pays côtiers Côte d’Ivoire : Statistiques mensuelles (au 31 mars 2026)",
-      "link": "https://reliefweb.int/report/cote-divoire/pays-cotiers-cote-divoire-statistiques-mensuelles-au-31-mars-2026",
-      "pubDate": "Wed, 22 Apr 2026 13:03:16 +0000",
-      "description": "<div class=\"tag country\">Countries: Côte d'Ivoire, World</div>\n                                      <div class=\"tag source\">Source: UN High Commissioner for Refugees</div>\n                                                                              <p><img alt=\"alt\" src=\"https://reliefweb.int/sites/default/files/styles/thumbnail/public/previews/b2/d4/b2d48794-7c2e-53f8-81cb-3aba53321132.png\" /></p>\n                        <p>Please refer to the attached Infographic.</p>",
       "category": "extreme_weather",
       "source_url": "https://reliefweb.int/updates/rss.xml?query=weather+hazards"
     }

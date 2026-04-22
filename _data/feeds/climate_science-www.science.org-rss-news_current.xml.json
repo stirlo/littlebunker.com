@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-22T16:13:37.760116",
+  "fetched_at": "2026-04-22T18:04:08.335326",
   "items": [
+    {
+      "title": "South America—the last continent to be settled—was peopled in surprisingly complex way",
+      "link": "https://www.science.org/content/article/people-settled-south-america-three-distinct-waves-surprising-genetic-diversity",
+      "pubDate": "",
+      "description": "Genetically diverse groups arrived in three waves, some potentially carrying genes acquired from long-ago Australasian ancestors",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Whistleblower alleges Finnish startup’s vaunted solid-state battery isn’t what it claims",
       "link": "https://www.science.org/content/article/whistleblower-alleges-finnish-startup-s-vaunted-solid-state-battery-isn-t-what-it",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/magnetic-robots-could-help-remove-dangerous-nanoplastics-water",
       "pubDate": "",
       "description": "Nanoscopic rods capture particles too small for conventional filters",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Artificially engineered sea ice grows—but tests are too small to combat melting",
-      "link": "https://www.science.org/content/article/artificially-engineered-sea-ice-grows-can-t-withstand-thaw",
-      "pubDate": "",
-      "description": "First Arctic trials show pumped seawater can bulk up ice, but results aren’t lasting—and may not scale",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
