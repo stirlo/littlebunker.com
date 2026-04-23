@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-23T06:10:44.363110",
+  "fetched_at": "2026-04-23T08:56:51.894991",
   "items": [
+    {
+      "title": "Scientists discover hidden forces are warping Earth deep beneath the surface",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260422044632.htm",
+      "pubDate": "Thu, 23 Apr 2026 01:29:21 EDT",
+      "description": "Scientists have mapped how Earth’s deepest mantle is being deformed—and the results point to long-lost tectonic plates buried thousands of kilometers underground. Using a massive global dataset of seismic waves, they found that most deformation happens in regions where these ancient slabs are thought to reside. The findings confirm long-standing theories but, for the first time, show the pattern on a global scale. It’s a major step toward understanding how the planet’s interior slowly churns over time.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "AI just revealed ocean currents we’ve never been able to see",
       "link": "https://www.sciencedaily.com/releases/2026/04/260421042803.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/03/260323005535.htm",
       "pubDate": "Mon, 23 Mar 2026 04:34:53 EDT",
       "description": "Tiny plastic particles aren’t just choking oceans and cities—they’re quietly infiltrating forests too. Scientists discovered that most microplastics arrive through the air, settling onto treetops before being washed or dropped to the forest floor in rain and falling leaves. Once there, natural processes like leaf decay help bury and store these particles deep in the soil. The findings reveal forests as hidden reservoirs of airborne pollution—and potentially a new frontline in the growing microplastics crisis.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Beavers are turning rivers into powerful carbon sinks",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260322020245.htm",
-      "pubDate": "Sun, 22 Mar 2026 07:21:20 EDT",
-      "description": "Beavers may be unlikely climate heroes, but new research suggests they could play a powerful role in fighting climate change. By building dams and transforming streams into wetlands, these industrious animals dramatically reshape how carbon moves and is stored in landscapes. Over just 13 years, a beaver-engineered wetland in Switzerland stored over a thousand tonnes of carbon—up to ten times more than similar areas without beavers.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
