@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Syria: Le Canada accorde un financement à l'Organisation pour l'interdiction des armes chimiques afin d'éliminer les armes chimiques en Syrie"
+date: 2026-04-23 02:40:14 +0000
+categories: [extreme_weather]
+tags: ['year-2026']
+keywords: ['canada', 'accorde', 'year-2026', 'syria']
+description: "Countries: Syrian Arab Republic, Canada Source: Government of Canada Le 22 avril 2026 – Ottawa (Ontario) – Affaires mondiales Canada Le Canada soutient les e..."
+external_url: https://reliefweb.int/report/syrian-arab-republic/le-canada-accorde-un-financement-lorganisation-pour-linterdiction-des-armes-chimiques-afin-deliminer-les-armes-chimiques-en-syrie
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Countries: Syrian Arab Republic, Canada Source: Government of Canada Le 22 avril 2026 – Ottawa (Ontario) – Affaires mondiales Canada Le Canada soutient les efforts internationaux visant à recenser et à détruire les armes chimiques qui se trouvent en Syrie, afin d'empêcher toute utilisation future. Aujourd'hui, la ministre des Affaires étrangères, l'honorable Anita Anand, a annoncé une contribution du Canada de 5 millions de dollars du Canada à l'Organisation pour l'interdiction des armes chimiques (OIAC) dans le cadre du Programme canadien de réduction de la menace liée aux armes. Ce financement permettra de soutenir les travaux de l'OIAC visant à vérifier l'étendue de l'ancien programme d'armes chimiques de la Syrie, à enquêter sur les utilisations passées d'armes chimiques et à préparer la destruction en toute sécurité des armes chimiques restantes, conformément à la Convention sur les armes chimiques. Ces travaux sont essentiels à la stabilité à long terme de la Syrie, car ils font progresser les efforts en matière de responsabilisation et réduisent le risque pour la population civile lié à toute utilisation future d'armes chimiques. Cette contribution s'inscrit dans le cadre du soutien que le Canada apporte depuis longtemps à l'OIAC afin de faire respecter l'interdiction mondiale des armes chimiques et de renforcer la responsabilisation internationale. Faits en bref L'OIAC est chargée de mettre e œuvre la Convention sur les armes chimiques, qui interdit la mise au point, la fabrication et l'emploi d'armes chimiques. La convention compte 193 États parties, dont le Canada. Depuis plus de deux décennies, le Programme de réduction de la menace liée aux armes — la contribution du Canada au Partenariat mondial dirigé par le G7 contre la prolifération des armes de destruction massive et des matières connexes — collabore avec l'OIAC et lui apporte son soutien pour vérifier, enquêter, sécuriser et détruire les armes chimiques, notamment celles mises au point et déployées par le régime d'Assad en Syrie. Le Canada collabore avec l'OIAC par l'intermédiaire de son représentant permanent à La Haye, aux Pays-Bas, ainsi que dans le cadre d'initiatives de coordination internationale axées sur la non-prolifération des armes chimiques, la lutte contre le terrorisme et la responsabilisation. Personnes-ressources Service des relations avec les médias Affaires mondiales Canadamedia@international.gc.ca Suivez-nous sur X : @CanadaPE Aimez-nous sur Facebook : La politique étrangère du Canada – Affaires mondiales Canada
+
+[Read original article](https://reliefweb.int/report/syrian-arab-republic/le-canada-accorde-un-financement-lorganisation-pour-linterdiction-des-armes-chimiques-afin-deliminer-les-armes-chimiques-en-syrie)
