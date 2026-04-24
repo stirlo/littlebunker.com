@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Social Cohesion in Bosnia and Herzegovina: Key Trends Based on Score BiH 2025 and 2020"
+date: 2026-04-24 13:03:09 +0000
+categories: [extreme_weather]
+tags: ['economic-impacts', 'climate-costs', 'year-2025']
+keywords: ['year-2025', 'cohesion', 'economic-impacts', 'climate-costs', 'social', 'bosnia']
+description: "Country: Bosnia and Herzegovina Source: SEED Please refer to the attached file"
+external_url: https://reliefweb.int/report/bosnia-and-herzegovina/social-cohesion-bosnia-and-herzegovina-key-trends-based-score-bih-2025-and-2020
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Bosnia and Herzegovina Source: SEED Please refer to the attached file. The 2025 Social Cohesion and Reconciliation (SCORE) Index in Bosnia and Herzegovina provides evidence-based assessment of how social cohesion is experienced across the country and how key elements have evolved since 2020. The analysis examines five core elements of social cohesion: Intergroup Harmony, Inclusive Belonging, Sense of Progress, Support for Bosnia and Herzegovina Institutions, and Constructive Citizenship. These are identified as core elements that are internal to the meta concept of social cohesion in Bosnia Herzegovina, rather than its drivers, due to their strong theoretical grounding in social cohesion literature and contextual relevance for Bosnia and Herzegovina informed by participatory stakeholder consultations. To ensure the robustness and representativeness of the findings, data were collected from approximately 3,8002 respondents primarily in November-December 20253 , via face-to-face Computer-Assisted Personal Interviewing (CAPI). Using a stratified sampling approach designed to capture variation across key demographic and geographic groups, survey covered all 16 regionalterritorial units of the country. The margin of error on the full sample level was <2%, for Federal Bosnia Herzegovina and Republika Srpska was <3% each, and for Brčko District, it was <9%. A central and encouraging finding is that Bosnia and Herzegovina in 2025 does not present the image of a 'collapsed social fabric' often portrayed in anecdotal external and internal narratives. The data shows moderate cohesion, above-average intergroup harmony and strong community cooperation at the local level. Inclusive civic identity and identification with Bosnia and Herzegovina remain strong enough to serve as an enabling platform. In other words, the data suggests a pattern of cautious coexistence, where every day intergroup relations are largely functional and stable, and where important foundations for inclusive sense of belonging are stronger than widely assumed, highlighting a society more resilient than often portrayed At the same time, the report identifies a second, equally important reality: pessimism about the country's direction remains widespread, shaped by concerns about political instability, economic uncertainty, and regional dynamics. This produces a defining feature of the current context: a gap between relatively positive local experiences and negative system-level perceptions. This gap is not merely a perception issue; it can shape behaviour, reduce civic engagement, and amplify vulnerability to divisive narratives.
+
+[Read original article](https://reliefweb.int/report/bosnia-and-herzegovina/social-cohesion-bosnia-and-herzegovina-key-trends-based-score-bih-2025-and-2020)
