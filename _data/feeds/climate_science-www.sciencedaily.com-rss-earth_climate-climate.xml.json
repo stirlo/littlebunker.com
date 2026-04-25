@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-25T15:47:39.670799",
+  "fetched_at": "2026-04-25T16:53:33.084815",
   "items": [
+    {
+      "title": "Scientists just discovered Africa is closer to breaking apart than we thought",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260424233204.htm",
+      "pubDate": "Sat, 25 Apr 2026 12:26:15 EDT",
+      "description": "Beneath East Africa’s Turkana Rift, scientists have found the crust is thinning to a critical point, suggesting the continent is gradually breaking apart. This “necking” process marks an advanced stage of rifting that could eventually lead to a new ocean forming millions of years from now. Surprisingly, the same geological forces that are splitting the land may also explain why the region holds such a rich fossil record. Instead of being the birthplace of humanity, Turkana may just be where the story was best preserved.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists just uncovered a 3 million-year climate mystery in Antarctic ice",
       "link": "https://www.sciencedaily.com/releases/2026/04/260423031552.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260401071927.htm",
       "pubDate": "Thu, 02 Apr 2026 08:54:48 EDT",
       "description": "Hundreds of millions of years ago, Earth’s magnetic field behaved in a way that has long baffled scientists, showing wild and seemingly chaotic shifts unlike anything seen before or since. A new study suggests this chaos may actually hide a deeper pattern: instead of random fluctuations, the magnetic field may have followed a global, organized structure.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "This new carbon material could make carbon capture far more affordable",
-      "link": "https://www.sciencedaily.com/releases/2026/03/260328043549.htm",
-      "pubDate": "Sat, 28 Mar 2026 08:05:36 EDT",
-      "description": "Scientists have created a new kind of carbon material that could make carbon capture much cheaper and more efficient. By carefully controlling how nitrogen atoms are arranged, they found certain structures capture CO2 better and release it using far less heat. One version works at temperatures below 60 °C, meaning it could run on waste heat instead of costly energy. The discovery offers a powerful new blueprint for next-generation climate technology.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
