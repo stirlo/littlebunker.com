@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-04-25T21:42:41.396398",
+  "fetched_at": "2026-04-25T22:46:10.860151",
   "items": [
+    {
+      "title": "Trump fires NSF's oversight board",
+      "link": "https://www.science.org/content/article/trump-fires-nsf-s-oversight-board",
+      "pubDate": "",
+      "description": "Dismissal of the National Science Board is widely seen as latest move to erase NSF’s independence",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "After pulling vaccine study, Bhattacharya criticizes long-running CDC publication",
       "link": "https://www.science.org/content/article/after-pulling-vaccine-study-bhattacharya-criticizes-long-running-cdc-publication",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/octopus-krakens-large-semi-trucks-stalked-ancient-seas",
       "pubDate": "",
       "description": "Giant cephalopods may have rivaled marine reptiles as apex predators during the age of the dinosaurs",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "As U.S. pushes to expand uranium mines, opponents warn of ‘ticking time bomb’",
-      "link": "https://www.science.org/content/article/u-s-pushes-expand-uranium-mines-opponents-warn-ticking-time-bomb",
-      "pubDate": "",
-      "description": "Method that leaches radioactive metal from aquifers can leave groundwater contaminated, researchers say",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
