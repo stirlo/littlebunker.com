@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-26T11:48:27.077358",
+  "fetched_at": "2026-04-26T13:20:32.400029",
   "items": [
+    {
+      "title": "DNA research just rewrote the origin of human species",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260426012255.htm",
+      "pubDate": "Sun, 26 Apr 2026 06:53:10 EDT",
+      "description": "Scientists have uncovered a surprising new picture of human origins that challenges the long-held idea of a single ancestral population in Africa. By analyzing genetic data from diverse modern African groups—especially the highly distinct Nama people—and comparing it with fossil evidence, researchers found that early humans likely evolved from multiple intermingling populations over hundreds of thousands of years. Rather than a clean split, these groups stayed connected, exchanging genes even after beginning to diverge around 120,000–135,000 years ago.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Warming waters are supercharging an invasive salmon predator in Alaska",
       "link": "https://www.sciencedaily.com/releases/2026/04/260424233219.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260403224502.htm",
       "pubDate": "Sat, 04 Apr 2026 08:25:07 EDT",
       "description": "Warming across the U.S. is far more uneven than it looks at first glance. While only about half of states show rising average temperatures, most are heating up in specific ways—like hotter highs or warmer lows. These hidden shifts vary by region, with the West seeing more extreme heat and the North losing cold extremes. The findings suggest climate change is playing out differently depending on where you live.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Meteor impacts may have sparked life on Earth, scientists say",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260403224449.htm",
-      "pubDate": "Fri, 03 Apr 2026 22:44:49 EDT",
-      "description": "Asteroid impacts may have helped kick-start life on Earth by creating hot, chemical-rich environments ideal for early biology. These impact-generated hydrothermal systems could have lasted thousands of years—long enough for life’s building blocks to form. Scientists now think these environments may have been common on early Earth, making them a strong candidate for where life began. The idea could also guide the search for life on other worlds.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
