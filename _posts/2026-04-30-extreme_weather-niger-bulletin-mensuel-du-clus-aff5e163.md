@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Niger: Bulletin mensuel du Cluster-Santé N°1 - 2026"
+date: 2026-04-30 16:02:58 +0000
+categories: [extreme_weather]
+tags: ['climate-health', 'year-2026', 'public-health']
+keywords: ['bulletin', 'niger', 'climate-health', 'public-health', 'year-2026', 'mensuel']
+description: "Country: Niger Source: World Health Organization Please refer to the attached file"
+external_url: https://reliefweb.int/report/niger/bulletin-mensuel-du-cluster-sante-ndeg1-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Niger Source: World Health Organization Please refer to the attached file. Contexte humanitaire Le Niger fait face à une conjonction de chocs humanitaires et sanitaires majeurs liés à la variabilité climatique, à l'insécurité persistante et aux déplacements massifs de populations. Les régions de Dosso, Tillabéri, Tahoua et Diffa sont particulièrement affectées par : Des inondations récurrentes, des épisodes de sécheresse et une dégradation continue des moyens d'existence ; Un contexte sécuritaire instable entraînant la fermeture d'unités sanitaires, une réduction du personnel qualifié et des contraintes d'accès pour les populations ; Une augmentation des épidémies et flambées de maladies telles que le choléra, la rougeole, le paludisme, la diphtérie, la coqueluche, les maladies hydriques, l'hépatite E, ainsi que des cas de poliovirus dérivé du vaccin (PVDV). Ces conditions se traduisent par une diminution de l'accès aux services de santé essentiels, une rupture de la continuité des soins, et une vulnérabilité accrue des femmes, des enfants, des personnes déplacées internes (PDI), des migrants et des communautés hôtes. Au 30 septembre 2025, le Niger comptait 938 000 personnes déplacées (personnes déplacées internes, réfugiés et retournés), soit une augmentation de 5,7 % par rapport à 2024. Les régions de Tillabéri, Diffa et Tahoua sont les plus touchées. La région de Dosso, limitrophe de Tillabéri au nord et du Nigéria au sud, connaît également une détérioration de la situation sécuritaire depuis 2024. La situation sanitaire est préoccupante. Le système de santé du Niger est confronté à plusieurs défis dont les principaux sont l'insuffisance de la couverture sanitaire géographique (56,6 pour cent), ce qui prive près de la moitié de la population de services de santé essentiels notamment dans les zones reculées ou difficiles d'accès. En 2025, le pays a fait face à des flambées épidémiques simultanées, aggravant une situation humanitaire déjà préoccupante, notamment les épidémies dues aux maladies évitables par la vaccination (poliomyélite, rougeole, méningite, fièvre jaune, diphtérie)3. Selon le ministère de la Santé et de l'Hygiène Publique, de janvier à novembre 2025, plus de 2 400 cas de méningite (dont 109 décès) ont été enregistrés, principalement parmi les enfants, 17 692 cas de rougeole, et 2 168 cas (dont 148 décès) de diphtérie avec un impact particulièrement sévère sur la population civile4. Une campagne de vaccination réactive contre la diphtérie a été organisée par le Gouvernement. Il faut noter que de nombreux besoins sanitaires des populations les plus vulnérables restent encore non couverts en raison du manque d'accès et d'utilisation des services de santé de base de qualité.
+
+[Read original article](https://reliefweb.int/report/niger/bulletin-mensuel-du-cluster-sante-ndeg1-2026)
