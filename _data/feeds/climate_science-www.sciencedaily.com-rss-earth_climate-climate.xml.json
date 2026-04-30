@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-04-30T03:58:37.836026",
+  "fetched_at": "2026-04-30T06:36:05.195078",
   "items": [
+    {
+      "title": "Earth is splitting open beneath the Pacific Northwest, scientists say",
+      "link": "https://www.sciencedaily.com/releases/2026/04/260429232851.htm",
+      "pubDate": "Wed, 29 Apr 2026 23:36:37 EDT",
+      "description": "For the first time, scientists have watched a subduction zone literally fall apart beneath the ocean floor. Using advanced seismic imaging, they found the Juan de Fuca plate splitting into fragments as it sinks beneath North America. Rather than collapsing all at once, the plate is tearing piece by piece, like a train slowly derailing. The finding helps explain ancient plate fragments and could refine how scientists understand earthquake behavior.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Maya collapse mystery deepens as scientists find no drought at key site",
       "link": "https://www.sciencedaily.com/releases/2026/04/260427050637.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260411084441.htm",
       "pubDate": "Sat, 11 Apr 2026 08:58:31 EDT",
       "description": "Scientists searching for air pollution clues stumbled onto something unexpected: toxic MCCPs drifting through the air for the first time in the Western Hemisphere. The likely source—fertilizer made from sewage sludge—points to a hidden route for contamination.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earth’s most powerful ocean current didn’t form the way we thought",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260406192902.htm",
-      "pubDate": "Tue, 07 Apr 2026 00:07:40 EDT",
-      "description": "A colossal ocean current encircling Antarctica—stronger than all the world’s rivers combined—played a far more complex role in shaping Earth’s climate than scientists once thought. New research shows it didn’t form just because ocean gateways opened, but required shifting continents and powerful winds to align. This shift helped pull carbon dioxide out of the atmosphere, contributing to a major cooling event that transformed Earth into the ice-covered world we know today.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
