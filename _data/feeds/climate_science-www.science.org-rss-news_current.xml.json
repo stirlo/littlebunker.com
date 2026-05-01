@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-01T15:02:42.179032",
+  "fetched_at": "2026-05-01T17:03:54.611927",
   "items": [
+    {
+      "title": "Deep-Earth map reveals a lost U.S. continent",
+      "link": "https://www.science.org/content/article/deep-earth-map-reveals-lost-u-s-continent",
+      "pubDate": "",
+      "description": "Sensor array traces how rocks conduct electricity, exposing ancient continental fragments, mineral targets, and grid hazards",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Tiny probes make sense of abnormal bursts in the epileptic brain",
       "link": "https://www.science.org/content/article/tiny-probes-make-sense-abnormal-bursts-epileptic-brain",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/novel-gene-therapy-approach-functionally-cure-hiv-succeeds-some-monkeys",
       "pubDate": "",
       "description": "Six animals suppressed AIDS virus after one shot of treatment that makes cell-receptor antibody",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "House spending panel bumps up Trump’s request for NSF and NASA",
-      "link": "https://www.science.org/content/article/house-spending-panel-bumps-trump-s-request-nsf-and-nasa",
-      "pubDate": "",
-      "description": "Draft bill is an early sign that Congress again thinks Trump has gone too far in cutting research",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
