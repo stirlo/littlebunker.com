@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Sudan: From Hormuz to the Frontlines of Hunger: The Middle East Conflict's Economic Reach into Six Fragile Contexts"
+date: 2026-05-04 03:45:52 +0000
+categories: [extreme_weather]
+tags: ['year-2026', 'economic-impacts', 'insurance', 'climate-risk', 'climate-costs']
+keywords: ['hormuz', 'year-2026', 'economic-impacts', 'insurance', 'sudan', 'frontlines', 'climate-risk', 'climate-costs']
+description: "Countries: Sudan, Ethiopia, Lebanon, Myanmar, Pakistan, Somalia Source: Mercy Corps Please refer to the attached file"
+external_url: https://reliefweb.int/report/sudan/hormuz-frontlines-hunger-middle-east-conflicts-economic-reach-six-fragile-contexts
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Countries: Sudan, Ethiopia, Lebanon, Myanmar, Pakistan, Somalia Source: Mercy Corps Please refer to the attached file. Two months on from the outbreak of conflict in the Middle East and the effective closure of the Strait of Hormuz, a vital corridor for global energy flows, shocks have rippled through economies worldwide. The impact on major fuel importers and exporters has been well documented. Less visible is the exposure of countries already grappling with economic and humanitarian crises and how these shocks compound existing vulnerability. In six case countries – Sudan, Somalia, Ethiopia, Pakistan, Myanmar and Lebanon – impacts on the most vulnerable are already evident and are projected to deepen regardless of diplomatic resolution and resulting global market shifts. Economic shocks have rippled through key transmission channels – fertilizer, retail and consumer fuel, commercial shipping and insurance, currency and purchasing power, and remittances – with further threats of compounding impacts on households that receive remittances from foreign workers in the Gulf if the conflict persists. Each of these countries was contending with humanitarian crises prior to the outbreak of war in the Middle East and many have already exhausted their ability to absorb additional shocks. For those with more fiscal buffers to do so, prolonged disruption will further erode their long-term economic resilience, reversing hard-won development gains. This coincides with a historic contraction in humanitarian aid, leaving country teams facing higher delivery costs with a weaker funding base compared to recent years. The timing of these shocks means food insecurity is set to worsen for these six countries through the latter half of 2026 and into 2027. Somalia, Sudan, Pakistan and Ethiopia are entering planting seasons for staple crops critical to their populations' food security, but with compromised supply of the fuel-reliant irrigation, transport and fertilizer inputs on which adequate yields and market movement depend. Future food security impacts have already been written into these harvests, as farmers face difficult decisions on whether reduce fertilizer application, switch crops or plant smaller areas. Action must be taken now to address the impact of the shocks already transmitted and to limit what is still preventable. This report presents the evidence for what has already transmitted to the six case countries, the outlook for coming months, and the actions that cannot wait for diplomatic resolution.
+
+[Read original article](https://reliefweb.int/report/sudan/hormuz-frontlines-hunger-middle-east-conflicts-economic-reach-six-fragile-contexts)
