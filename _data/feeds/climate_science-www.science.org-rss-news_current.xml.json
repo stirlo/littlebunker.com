@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-05T22:05:45.995015",
+  "fetched_at": "2026-05-05T23:55:22.409377",
   "items": [
+    {
+      "title": "CDC leader calls for new journal to ‘elevate scientific rigor’",
+      "link": "https://www.science.org/content/article/cdc-leader-calls-new-journal-elevate-scientific-rigor",
+      "pubDate": "",
+      "description": "Bhattacharya publicly slams vaccine study he pulled from agency’s flagship publication",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Cruise ship’s hantavirus outbreak puts researchers in uncharted territory",
       "link": "https://www.science.org/content/article/cruise-ship-s-hantavirus-outbreak-puts-researchers-uncharted-territory",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/ai-starting-beat-doctors-making-correct-diagnoses",
       "pubDate": "",
       "description": "Large language model excels at clinical decisions, even in fast pace of a simulated ER",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Deepfakes are everywhere. The godfather of digital forensics is fighting back",
-      "link": "https://www.science.org/content/article/deepfakes-are-everywhere-godfather-digital-forensics-fighting-back",
-      "pubDate": "",
-      "description": "Hany Farid, who's spent his career building tools to detect fake images, is facing his biggest challenge yet: AI",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
