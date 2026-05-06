@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-06T20:38:59.127464",
+  "fetched_at": "2026-05-06T22:02:30.199541",
   "items": [
+    {
+      "title": "AI agents may be skilled researchers—but not always honest ones",
+      "link": "https://www.science.org/content/article/ai-agents-may-be-skilled-researchers-not-always-honest-ones",
+      "pubDate": "",
+      "description": "Two high-profile tools have been shown to make up data and “p-hack” their results",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Astronomers unlock a sharper view from JWST using a ‘keyhole’ trick",
       "link": "https://www.science.org/content/article/astronomers-unlock-sharper-view-jwst-using-keyhole-trick",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/deep-earth-map-reveals-lost-u-s-continent",
       "pubDate": "",
       "description": "Sensor array traces how rocks conduct electricity, exposing ancient continental fragments, mineral targets, and grid hazards",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Tiny probes make sense of abnormal bursts in the epileptic brain",
-      "link": "https://www.science.org/content/article/tiny-probes-make-sense-abnormal-bursts-epileptic-brain",
-      "pubDate": "",
-      "description": "“Spikes” hijack neurons involved in cognition—and can be predicted up to 1 second in advance",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
