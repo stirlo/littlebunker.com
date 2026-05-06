@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-06T11:54:24.530754",
+  "fetched_at": "2026-05-06T14:30:45.484280",
   "items": [
+    {
+      "title": "Rising Seas Could Encircle New Orleans by the End of This Century",
+      "link": "https://e360.yale.edu/digest/new-orleans-sea-level-rise",
+      "pubDate": "2026-05-06T06:06:00-04:00",
+      "description": "<blockquote><p>Rising seas could render New Orleans uninhabitable before the end of this century, according to a new paper calling for a managed retreat from the city.</p><p><a href=\"https://e360.yale.edu/digest/new-orleans-sea-level-rise\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Airborne Microplastics May Be Warming the Planet",
       "link": "https://e360.yale.edu/digest/airborne-microplastics-climate-change",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/evs-gas-study",
       "pubDate": "2026-04-08T09:35:00-04:00",
       "description": "<p>A broad shift to electric vehicles would benefit drivers of gas-powered cars by lowering the price of fuel. That is the finding of a new study, which comes as the war in Iran rattles energy markets, making oil more expensive.</p><p><a href=\"https://e360.yale.edu/digest/evs-gas-study\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Google to Use Natural Gas to Power Massive Data Center in Texas",
-      "link": "https://e360.yale.edu/digest/google-natural-gas-data-center",
-      "pubDate": "2026-04-07T09:27:00-04:00",
-      "description": "<blockquote><p>A planned gas-fired power plant at a Google data center in Texas would generate up to 4.5 million tons of carbon dioxide annually, more than the city of San Francisco.</p><p><a href=\"https://e360.yale.edu/digest/google-natural-gas-data-center\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
