@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Venezuela - Food Security Outlook (April - September 2026): High inflation continues to drive Stressed (IPC Phase 2) outcomes countrywide"
+date: 2026-05-06 03:19:50 +0000
+categories: [extreme_weather]
+tags: ['urgent', 'climate-costs', 'year-2026', 'economic-impacts']
+keywords: ['climate-costs', 'venezuela', 'security', 'food', 'economic-impacts', 'urgent', 'year-2026']
+description: "Country: Venezuela (Bolivarian Republic of) Source: Famine Early Warning System Network Please refer to the attached file"
+external_url: https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-food-security-outlook-april-september-2026-high-inflation-continues-drive-stressed-ipc-phase-2-outcomes-countrywide
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Venezuela (Bolivarian Republic of) Source: Famine Early Warning System Network Please refer to the attached file. Key Messages Despite signs of stabilization in some macroeconomic indicators, Stressed (IPC Phase 2) outcomes are expected to persist through September as food prices remain high in local currency amid elevated headline inflation. Nonetheless, pockets of households concentrated in informal settlements in urban and peri-urban areas without access to income in USD or social safety net benefits are likely to face Crisis (IPC Phase 3) outcomes as their purchasing power is severely limited by the continuous depreciation of the local currency. Crude oil production and exports continued to increase in March, strengthening government revenues. According to OPEC, production levels recorded monthly and annual increases of 9 and 6 percent, respectively. Exports above 1 million barrels per day (bpd) paired with high international crude oil prices have translated directly into improved foreign currency inflows and government revenues to support social safety net programs. Government expenditure, including amounts dedicated to cash-transfer programs, has increased both month-on-month and year-on-year. While the Ingreso Contra la Guerra Económica (ICGE) increased from 120 to 150 USD in March (indexed to the official exchange rate), the Comités de Abastecimiento y Producción (CLAP) in-kind food assistance distributions are reportedly limited to very few areas within Distrito Capital. Monthly inflation slowed between February and March; however, annual inflation increased to 649.5 percent, indicating accumulative price pressure in local currency. Both the official and parallel exchange rates increased from February to March, although the gap between them decreased to 40.8 percent from 47.6 percent, reflecting improved foreign currency availability. Food prices in VED continued to rise given continued depreciation, while prices in USD were mostly stable with increases only for specific commodities, including wheat flour, fresh sardines and tuna, and cassava. These USD price increases were driven by elevated operational costs in wheat milling, the seasonal fishing moratorium affecting fresh fish, and low seasonal availability of substitutes. This report provides an update to the February to September 2026 Food Security Outlook and March 2026 Key Message Update. The analysis is based on information available as of April 27, 2026.
+
+[Read original article](https://reliefweb.int/report/venezuela-bolivarian-republic/venezuela-food-security-outlook-april-september-2026-high-inflation-continues-drive-stressed-ipc-phase-2-outcomes-countrywide)
