@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "South Sudan: Food Security Outlook Update: Conflict disrupts humanitarian access, sustaining Emergency and risk of Famine in Nasir, April - September 2026"
+date: 2026-05-07 03:27:25 +0000
+categories: [extreme_weather]
+tags: ['urgent', 'climate-health', 'public-health', 'flooding', 'year-2026', 'extreme-weather']
+keywords: ['food', 'sudan', 'urgent', 'climate-health', 'public-health', 'flooding', 'year-2026', 'south']
+description: "Country: South Sudan Source: Famine Early Warning System Network Please refer to the attached file"
+external_url: https://reliefweb.int/report/south-sudan/south-sudan-food-security-outlook-update-conflict-disrupts-humanitarian-access-sustaining-emergency-and-risk-famine-nasir-april-september-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: South Sudan Source: Famine Early Warning System Network Please refer to the attached file. Key Messages Emergency (IPC Phase 4) outcomes are expected to be widespread in 34 counties through September, driven by conflict escalation, large-scale displacement, anticipated flooding, deteriorating economy, high food prices, and restricted humanitarian access (particularly in Jonglei, Upper Nile, and the Warrap-Unity border region). Areas of highest concern are Akobo, Nyirol, Uror, and Fangak (Jonglei), and Nasir and Ulang (Upper Nile) where some populations are expected to face Catastrophe (IPC Phase 5) due to the scale of disruption to livelihoods and humanitarian access amid conflict. The prevalence of acute malnutrition is expected to further worsen during the upcoming rainy season. Up to 11 counties in Jonglei, Upper Nile, Unity, and Abyei are expected to face Extremely Critical levels of Global Acute Malnutrition (GAM>30 percent) by June amid conflict-driven disruptions and access to health, nutrition, and water, sanitation, and hygiene services, rainy season conditions, and increasingly severe disease burden. Humanitarians continue to face critical access challenges, particularly in Jonglei and Upper Nile. While planned assistance levels will be scaled up during the lean season response between May-August, targeting on average 1.6 million people (less than 20 percent of those in need), conflict and flooding are likely to disrupt delivery. Assistance is expected to mitigate more severe outcomes in only five counties through May, declining to just three counties (in Unity) in June-September. There is a credible risk of Famine (IPC Phase 5) in Akobo and Nyirol (Jonglei), and Nasir and Ulang (Upper Nile), with particular concern for inaccessible areas hosting large numbers of internally displaced populations (IDPs), such as Nyatim and Chuil of Nyirol. IDPs have fled violence and destruction often multiple times, lost income and food sources, and are most exposed to surging disease outbreaks in overcrowded conditions. If conflict escalates and isolates populations, including local food sources and food aid, for a prolonged period, then Famine (IPC Phase 5) would likely occur. This report provides an update to the February to September 2026 Food Security Outlook and March 2026 Key Message Update. The analysis is based on information available as of April 30, 2026.
+
+[Read original article](https://reliefweb.int/report/south-sudan/south-sudan-food-security-outlook-update-conflict-disrupts-humanitarian-access-sustaining-emergency-and-risk-famine-nasir-april-september-2026)
