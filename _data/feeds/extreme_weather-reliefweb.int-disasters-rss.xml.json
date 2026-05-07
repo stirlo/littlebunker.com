@@ -4,8 +4,16 @@
   "description": "ReliefWeb - Disasters",
   "category": "extreme_weather",
   "source_url": "https://reliefweb.int/disasters/rss.xml",
-  "fetched_at": "2026-05-07T06:43:35.925153",
+  "fetched_at": "2026-05-07T09:39:40.115368",
   "items": [
+    {
+      "title": "Philippines: Mayon Volcano - May 2026",
+      "link": "https://reliefweb.int/disaster/vo-2026-000065-phl",
+      "pubDate": "Sat, 02 May 2026 00:00:00 +0000",
+      "description": "<div class=\"tag country\">Affected country: Philippines</div>\n                                      <div class=\"tag glide\">Glide: VO-2026-000065-PHL</div>\n                                                          <p>On 2 May, a strong eruption of Mayon volcano, located in Albay Province (southern Luzon), generated a lava‐flow collapse that produced a pyroclastic density current along the Mi‐isi Gully on the southwestern slopes. The eruption also triggered rockfalls and ashfall affecting several municipalities in Albay Province, including Guinobatan, Camalig, and Ligao City. According to the Philippine News Agency (PNA), more than 30 000 families have been affected across 87 barangays (villages) in the region. Of these, more than 14,000 individuals have been evacuated to evacuation centres, while 26 families have received assistance outside the centres. (<a href=\"https://reliefweb.int/node/4210416\">ECHO, 4 May 2026</a>)</p>\n<p>Mayon Volcano's volcanic activity in the Albay Province (southern Luzon) continues after its strong eruption on May 2, which affected 124 barangays in Albay. The towns of Camalig, Guinobatan, and Ligao City were hit hardest. As of May 6, lava flows were reported in the barangays of Basud, Bonga, and Misi within the last 24 hours, reaching a maximum length of 3.8 km. There have also been at least 17 pyroclastic flows, earthquakes, and rockfalls. According to the Philippine News Agency (PNA), as of May 5, at least 195 363 people have been displaced, 5 459 of whom are in evacuation centers. A total of 199 367 people have been affected. On the same day, the media reported that 132 schools were affected. (<a href=\"https://reliefweb.int/node/4210800\">ECHO, 6 May 2026</a>)</p>",
+      "category": "extreme_weather",
+      "source_url": "https://reliefweb.int/disasters/rss.xml"
+    },
     {
       "title": "Typhoon Sinlaku - Apr 2026",
       "link": "https://reliefweb.int/disaster/tc-2026-000050-fsm",
@@ -155,14 +163,6 @@
       "link": "https://reliefweb.int/disaster/tc-2026-000015-mdg",
       "pubDate": "Tue, 10 Feb 2026 00:00:00 +0000",
       "description": "<div class=\"tag country\">Affected countries: Madagascar, Mozambique</div>\n                                      <div class=\"tag glide\">Glide: TC-2026-000015-MDG</div>\n                                                          <p>Intense Tropical Cyclone Gezani intensified on 9 February and is forecast to make landfall in Madagascar in the evening of 10 February near the city of Toamasina. Coastal and low-lying areas are at highest risk, with secondary impacts anticipated in parts of central and southern Mozambique by 13 February.  This comes as Madagascar is still reeling from <a href=\"https://reliefweb.int/taxonomy/term/52512/\">Tropical Cyclone Fytia</a>, which made landfall on 31 January and resulted in at least 12 deaths, the displacement of more than 31,000 people, and over 200,000 people affected, mainly in the north-west of the country.</p>\n<p>The UN Central Emergency Fund (CERF) allocated US$3 million to six UN agencies in Madagascar in pre-arranged finance for anticipatory action to help partners support more than 93,000 vulnerable people among the most exposed to and at high risk of being severely impacted by the cyclone.  (<a href=\"https://reliefweb.int/node/4197977/\">OCHA, 10 Feb 2026</a>)</p>",
-      "category": "extreme_weather",
-      "source_url": "https://reliefweb.int/disasters/rss.xml"
-    },
-    {
-      "title": "Zambia: Cholera Outbreak - Feb 2026",
-      "link": "https://reliefweb.int/disaster/ep-2026-000029-zmb",
-      "pubDate": "Mon, 09 Feb 2026 00:00:00 +0000",
-      "description": "<div class=\"tag country\">Affected country: Zambia</div>\n                                      <div class=\"tag glide\">Glide: EP-2026-000029-ZMB</div>\n                                                          <p>Zambia has been experiencing the cholera outbreak since 5th August 2025. The first case was detected at Chipwa Health post bordering Tanzania in a region that was experiencing cholera then. Within a few weeks, the disease spread to other parts of Northern Province before sporadic cases were reported on the Copperbelt and Lusaka. While the initial phase was brought under control, through robust intervention such as Risk Communication and Community Engagement, Case Area Targeted intervention, including Oral Cholera Vaccination, a resurgence of cases started being recorded in Lusaka district.</p>\n<p>[...] On 9 February 2026, the Ministry of Health issued a press release on the cholera situation and other priority public health threats. The outbreak, initially concentrated in Mpulungu District of Northern Province, it began to shift southwards from November 2025, with new outbreaks emerging in Monze District and later in Lusaka Province.</p>\n<p>[...] As of 25 Feb, the MOH Daily Surveillance Report reported Lusaka District as having the cumulative totals of 271 cases and 4 deaths. In the past few days, there has been a spike in the number of cases reported daily, with 14 new cases in the past 24 hours, reinforcing Lusaka's role as the current driver of national transmission. (<a href=\"https://reliefweb.int/node/4201469\">IFRC, 5 Mar 2026</a>)</p>",
       "category": "extreme_weather",
       "source_url": "https://reliefweb.int/disasters/rss.xml"
     }
