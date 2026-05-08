@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-08T12:12:36.741471",
+  "fetched_at": "2026-05-08T14:57:47.506060",
   "items": [
+    {
+      "title": "Among Flowering Plants, Thousands of Evolutionary Oddities at Risk of Extinction",
+      "link": "https://e360.yale.edu/digest/flowering-plants-evolutionary-history",
+      "pubDate": "2026-05-08T09:50:00-04:00",
+      "description": "<p>A new study identifies thousands of flowering plants belonging to rare and ancient lineages that are in urgent need of protection. </p><p><a href=\"https://e360.yale.edu/digest/flowering-plants-evolutionary-history\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Why Fears Are Growing Over the Fate of a Key Atlantic Current",
       "link": "https://e360.yale.edu/features/amoc-climate-change",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/wildlife-trade-disease",
       "pubDate": "2026-04-10T09:35:00-04:00",
       "description": "<p>Scientists have long known that deadly diseases, from HIV to SARS to Ebola, can begin in animals and spill over to people. But a new study is the first to quantify the risks from the global trade in wildlife, finding that nearly half of traded mammals share at least one pathogen with humans.</p><p><a href=\"https://e360.yale.edu/digest/wildlife-trade-disease\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "A More Troubling Picture of Sea Level Rise Is Coming into View",
-      "link": "https://e360.yale.edu/features/sea-level-rise-land-subsidence",
-      "pubDate": "2026-04-09T05:19:00-04:00",
-      "description": "<p>Scientists have uncovered a \"blind spot\" in the research on rising seas, revealing that tens of millions of people thought safe from coastal flooding are at risk of inundation. Across much of the world, sea levels are higher than previously assumed and land is sinking faster.</p><p><a href=\"https://e360.yale.edu/features/sea-level-rise-land-subsidence\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
