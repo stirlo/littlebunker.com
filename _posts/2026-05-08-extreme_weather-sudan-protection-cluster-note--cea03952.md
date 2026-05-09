@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Sudan: Protection Cluster Note - El Obeid, North Kordofan - 8 May 2026"
+date: 2026-05-08 18:22:09 +0000
+categories: [extreme_weather]
+tags: ['climate-health', 'year-2026', 'urgent', 'public-health']
+keywords: ['cluster', 'sudan', 'protection', 'climate-health', 'year-2026', 'urgent', 'public-health']
+description: "Country: Sudan Sources: CCCM Cluster, Protection Cluster Please refer to the attached file"
+external_url: https://reliefweb.int/report/sudan/protection-cluster-note-el-obeid-north-kordofan-8-may-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Sudan Sources: CCCM Cluster, Protection Cluster Please refer to the attached file. Summary Civilians in El Obeid and surrounding areas face escalating protection risks due to intensified hostilities, drone attacks, restricted movement, displacement, and the collapse of essential services. Humanitarian access remains severely constrained, increasing risks for women, children, and other vulnerable groups. Situation Overview El Obeid remains under SAF control but is increasingly isolated by insecurity and RSF presence along key routes. Recent weeks have seen intensified drone strikes and attacks affecting populated areas and civilian infrastructure, signaling a shift toward sustained remote warfare in urban settings. Access routes to El Obeid are highly restricted, with only the eastern corridor toward White Nile State partially functional and increasingly fragile. Market disruptions, inflation, shortages of basic goods, and overstretched services continue to worsen conditions for civilians. North Kordofan hosts more than 231,000 IDPs (DTM figures), with displacement continuing toward El Obeid. Overcrowded shelters, informal sites, and deteriorating living conditions are heightening protection concerns ahead of the rainy season. Main Protection Risks: Civilian Harm: Drone strikes and explosive weapons in populated areas have caused civilian casualties, psychological distress, and damage to civilian infrastructure. Restricted Movement: Civilians face harassment, detention, extortion, and violence along movement routes and checkpoints. Many remain trapped inside El Obeid. Gender-Based Violence (GBV): Women and girls face heightened risks of sexual violence, exploitation, transactional sex, and child marriage, compounded by overcrowding and lack of safe services. Child Protection Risks: Increased risks of family separation, recruitment by armed groups, child labor, and psychosocial distress. Safe spaces and child protection services remain insufficient. Unsafe Shelter Conditions: IDPs are sheltering in overcrowded and substandard sites, abandoned buildings, and informal settlements with limited access to WASH and protection services. Explosive Ordnance (EO): Contamination from explosive remnants of war continues to threaten civilians and restrict humanitarian access. Collapse of Essential Services: Health, education, water, and protection services are severely disrupted, while humanitarian assistance remains insufficient. Urgent, coordinated action is needed to protect civilians, ensure safe movement and humanitarian access, and prevent further harm amid ongoing conflict and displacement. Increased investment in protection services and community-based mechanisms is critical to address growing risks and improve conditions for affected populations in Kordofan.
+
+[Read original article](https://reliefweb.int/report/sudan/protection-cluster-note-el-obeid-north-kordofan-8-may-2026)
