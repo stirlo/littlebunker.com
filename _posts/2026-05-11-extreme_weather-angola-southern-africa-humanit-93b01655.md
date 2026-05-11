@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Angola: Southern Africa: Humanitarian Snapshot (as of March 2026)"
+date: 2026-05-11 05:37:34 +0000
+categories: [extreme_weather]
+tags: ['cyclone', 'urgent', 'tropical-storms', 'la-nina', 'flooding', 'climate-health', 'water-crisis', 'year-2026', 'drought', 'public-health']
+keywords: ['angola', 'cyclone', 'southern', 'tropical-storms', 'la-nina', 'flooding', 'africa', 'urgent']
+description: "Climate extremes are intensifying humanitarian needs"
+external_url: https://reliefweb.int/report/angola/southern-africa-humanitarian-snapshot-march-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Countries: Angola, Botswana, Comoros, Eswatini, Lesotho, Madagascar, Malawi, Mozambique, Namibia, Seychelles, South Africa, United Republic of Tanzania, Zambia, Zimbabwe Source: UN Office for the Coordination of Humanitarian Affairs Please refer to the attached Infographic. In the first quarter of 2026, heavy rains and floods affected millions of people across Southern Africa, leading to increased humanitarian needs, amid the compounding impact of climate and economic shocks, political instability in some countries and disease outbreaks. Climate extremes are intensifying humanitarian needs. Since December 2025, Mozambique, Madagascar, South Africa, Zimbabwe, Malawi, and Zambia have experienced La Niña-related heavy rains, affecting over 2.36 million people. Two successive cyclones, Fytia and Gezani, caused deaths, displacement, infrastructure damage, and crop losses in Madagascar and Mozambique, where nearly 1.3¹ million people are in need of humanitarian assistance. Rainfall was above average across the southern half of the region. However, southern Madagascar, western Angola, and parts of Zambia experienced below-average conditions. Food insecurity and malnutrition remain high. About 13.2 million people were acutely food insecure following successive drought and flooding , and 672,000 children were severely malnourished as of end of March. The situation may worsen, if the escalation in the Middle East continues to put pressure on fuel costs, exchange rates and access to fertilizer ahead of the next planting season. Conflict continues to drive unprecedented displacement. The region hosts 601,000 refugees and asylum seekers, as of March 2026. Conflict in Mozambique, driven mainly by renewed violence in the north has displaced about 662,000 people internally. Disease outbreaks are compounding fragile health systems. Cholera outbreaks continue in Angola and Mozambique, with recent flooding in Mozambique exacerbating the situation. The region has reported over 9,000 cholera cases since the beginning of the year. Mpox cases also persisting in many countries, with a rising caseload in Madagascar. A Foot and Mouth Disease outbreak in Eswatini, Lesotho, South Africa, Zimbabwe and African Migratory Locusts infestations in Namibia and Zimbabwe could further impact food security. Humanitarian partners continue to provide assistance but funding shortfalls are undermining life-saving responses. Only US$155 million (about 26 per cent) of the requested $602 million was received in the first quarter. Without sustained, flexible funding, humanitarian actors will be unable to keep pace with escalating needs.
+
+[Read original article](https://reliefweb.int/report/angola/southern-africa-humanitarian-snapshot-march-2026)
