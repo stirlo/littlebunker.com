@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-11T12:17:21.287090",
+  "fetched_at": "2026-05-11T16:06:22.556273",
   "items": [
+    {
+      "title": "Scientists ID ‘corkscrew killer’ behind gruesome seal deaths",
+      "link": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
+      "pubDate": "",
+      "description": "Bizarre injuries were not caused by sharks or boat propellers, but a more surprising culprit",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "After USDA request, Indiana plant biologist locked out of lab by school",
       "link": "https://www.science.org/content/article/after-usda-request-indiana-plant-biologist-locked-out-lab-school",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/magic-mushroom-compound-shows-promise-against-cocaine-addiction",
       "pubDate": "",
       "description": "Small study that prioritized Black and low-income participants yields “remarkable” results",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "AI agents may be skilled researchers—but not always honest ones",
-      "link": "https://www.science.org/content/article/ai-agents-may-be-skilled-researchers-not-always-honest-ones",
-      "pubDate": "",
-      "description": "Two high-profile tools have been shown to make up data and “p-hack” their results",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
