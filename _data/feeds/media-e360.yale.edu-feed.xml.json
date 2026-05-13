@@ -4,10 +4,18 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-13T10:35:59.893862",
+  "fetched_at": "2026-05-13T13:21:00.594370",
   "items": [
     {
-      "title": "El Niño Raises the Risk of Violent Conflict, Study Finds",
+      "title": "Warmer Waters Bring Great White Sharks to Southern California",
+      "link": "https://e360.yale.edu/digest/great-white-sharks-southern-california",
+      "pubDate": "2026-05-13T08:41:00-04:00",
+      "description": "<p>Southern California has seen a spike in great white shark sightings amid a spate of unseasonably warm spring weather. Experts expect to see more unusual heat, and more sharks, in the months ahead.</p><p><a href=\"https://e360.yale.edu/digest/great-white-sharks-southern-california\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
+    {
+      "title": "By Fueling Drought, El Niño Raises the Risk of Violent Conflict",
       "link": "https://e360.yale.edu/digest/el-nino-indian-ocean-dipole-armed-conflict",
       "pubDate": "2026-05-12T07:59:00-04:00",
       "description": "<p>A study of hundreds of armed conflicts around the world finds that severe drought raises the risk of violent clashes. The study is the latest addition to a growing body of evidence showing that climate shocks spark conflict. </p><p><a href=\"https://e360.yale.edu/digest/el-nino-indian-ocean-dipole-armed-conflict\">Read more on E360 →</a></p>",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/lebanon-war-farmland",
       "pubDate": "2026-04-15T06:18:00-04:00",
       "description": "<p>Israeli strikes in southern Lebanon have devastated orchards and fields. Lebanese officials say that one-fifth of the country's farmland has been damaged in the course of the war.</p><p><a href=\"https://e360.yale.edu/digest/lebanon-war-farmland\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "In a First for the U.S., Renewables Generate More Power Than Natural Gas",
-      "link": "https://e360.yale.edu/digest/us-renewables-natural-gas-coal",
-      "pubDate": "2026-04-14T08:37:00-04:00",
-      "description": "<p>In a first last month, renewables supplied more power to the U.S. than natural gas, a milestone in the shift to clean energy. However, rising power demand is complicating the transition away from fossil fuels by extending the lives of many aging coal power plants.</p><p><a href=\"https://e360.yale.edu/digest/us-renewables-natural-gas-coal\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
