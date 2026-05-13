@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-13T18:59:40.642948",
+  "fetched_at": "2026-05-13T20:52:02.033387",
   "items": [
+    {
+      "title": "Gotcha! Odd language mistakes may help identify fake papers",
+      "link": "https://www.science.org/content/article/gotcha-odd-language-mistakes-may-help-identify-fake-papers",
+      "pubDate": "",
+      "description": "A small investigation found identical errors and phrases across more than 200 papers, suggesting they were produced by paper mills",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Ghost of long-extinct ancestor lives on in people today",
       "link": "https://www.science.org/content/article/ghost-long-extinct-ancestor-lives-people-today",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/after-usda-request-indiana-plant-biologist-locked-out-lab-school",
       "pubDate": "",
       "description": "Move comes after Roger Innes complained about the government’s prosecution of Chinese postdocs",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Computer scientist to lead storied DOE lab through ‘exciting and threatening’ AI revolution",
-      "link": "https://www.science.org/content/article/computer-scientist-lead-storied-doe-lab-through-exciting-and-threatening-ai-revolution",
-      "pubDate": "",
-      "description": "Katherine Yelick will become director of the Department of Energy’s Lawrence Berkeley National Laboratory on 1 July",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
