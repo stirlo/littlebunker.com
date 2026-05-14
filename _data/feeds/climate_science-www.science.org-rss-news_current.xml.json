@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-14T15:25:02.632514",
+  "fetched_at": "2026-05-14T17:58:55.187190",
   "items": [
+    {
+      "title": "Molecules emerge as a new kind of building block for quantum computers",
+      "link": "https://www.science.org/content/article/molecules-emerge-new-kind-building-block-quantum-computers",
+      "pubDate": "",
+      "description": "Storing quantum information in designer molecules could hold advantages over atoms, ions, and other kinds of qubits",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Boy’s brain tumor tied to gene therapy",
       "link": "https://www.science.org/content/article/boy-s-brain-tumor-tied-gene-therapy",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/democratic-lawmakers-demand-trump-explain-and-reverse-termination-nsf-s-governing-board",
       "pubDate": "",
       "description": "Letters from Senate and House of Representatives question purge of the National Science Board",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Scientists ID ‘corkscrew killer’ behind gruesome seal deaths",
-      "link": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
-      "pubDate": "",
-      "description": "Bizarre injuries were not caused by sharks or boat propellers, but a more surprising culprit",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
