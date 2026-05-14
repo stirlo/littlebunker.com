@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "CAR: République centrafricaine : Rapport de situation N°67, au 12 mai 2026"
+date: 2026-05-13 15:33:49 +0000
+categories: [extreme_weather]
+tags: ['year-2026', 'urgent']
+keywords: ['urgent', 'centrafricaine', 'situation', 'year-2026', 'rapport']
+description: "Country: Central African Republic Source: UN Office for the Coordination of Humanitarian Affairs Please refer to the attached file"
+external_url: https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg67-au-12-mai-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Central African Republic Source: UN Office for the Coordination of Humanitarian Affairs Please refer to the attached file. FAITS SAILLANTS Mouvement préventif de populations du village de Gola, dans la préfecture de l'Ouham 1 740 personnes reçoivent des kits et des semences agricoles dans le Mbomou CONTEXTE GENERAL Préfecture de Nana-Gribizi – Centre Depuis le 7 mai, les populations vivant au sud de Kaga‑Bandoro, près de la forêt de Yagarandji située à environ 20 kilomètres en direction de Dékoa, font état d'un climat d'inquiétude en raison de la présence d'hommes armés dans la zone. Entre 2013 et 2018, cette forêt avait servi de refuge à des éléments armés, responsables de braquages, d'exactions contre les civils, de vols et de meurtres. L'insécurité qui en résultait avait fortement perturbé l'approvisionnement de Kaga‑Bandoro en produits essentiels en provenance de Bangui et limité l'accès des communautés à leurs champs. Préfecture de l'Ouham – Ouest Environ 350 personnes, craignant pour leur sécurité ont quitté préventivement le village de Gola, depuis le 4 mai, et ont trouvé refuge à Gbadé, à environ 50 kilomètres de Bossangoa, dans la commune de Ndoromboli, suite à un incident lié à la transhumance. Les personnes déplacées vivent dans des conditions précaires et présentent des besoins humanitaires urgents. BESOINS ET REPONSE HUMANITAIRE Sécurité alimentaire Préfecture du Mbomou – Sud-Est World Vision a mené, du 4 au 6 mai, une mission de suivi portant sur la consommation des vivres destinés aux cantines scolaires. Plus de 17 tonnes de denrées, distribuées en avril, ont été mises à la disposition de 8 784 élèves répartis dans 22 écoles de la sous-préfecture de Bangassou. Les constats révèlent que les cantines scolaires sont bien gérées et qu'elles contribuent à renforcer l'assiduité des élèves, tout en couvrant une partie de leurs besoins alimentaires quotidiens. Cette mission permet de garantir la bonne utilisation des vivres et d'assurer que l'aide fournie atteint effectivement les bénéficiaires visés. Protection Préfecture de Bamingui-Bangoran – Nord-Est Le consortium Intersos–Action d'Urgence pour la Résilience et le Développement (AURD), avec l'appui de la Commission européenne à la protection civile et aux opérations humanitaires (ECHO), a documenté entre le 29 avril et le 8 mai, 11 cas de violences basées sur le genre (VBG) dans la préfecture de Bamingui-Bangoran. Toutes les survivantes ont bénéficié d'un accompagnement psychosocial, et deux d'entre elles, l'une survivante de violence sexuelle et l'autre d'agression physique, ont été référées à l'hôpital de Ndélé pour une prise en charge médicale.
+
+[Read original article](https://reliefweb.int/report/central-african-republic/republique-centrafricaine-rapport-de-situation-ndeg67-au-12-mai-2026)
