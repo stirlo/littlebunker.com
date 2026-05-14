@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-13T22:19:04.967973",
+  "fetched_at": "2026-05-14T00:08:31.255900",
   "items": [
+    {
+      "title": "Boy’s brain tumor tied to gene therapy",
+      "link": "https://www.science.org/content/article/boy-s-brain-tumor-tied-gene-therapy",
+      "pubDate": "",
+      "description": "Researchers report first cancer caused by virus widely used to deliver genes, but say risk is low",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Gotcha! Odd language mistakes may help identify fake papers",
       "link": "https://www.science.org/content/article/gotcha-odd-language-mistakes-may-help-identify-fake-papers",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/scientists-id-corkscrew-killer-behind-gruesome-seal-deaths",
       "pubDate": "",
       "description": "Bizarre injuries were not caused by sharks or boat propellers, but a more surprising culprit",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "After USDA request, Indiana plant biologist locked out of lab by school",
-      "link": "https://www.science.org/content/article/after-usda-request-indiana-plant-biologist-locked-out-lab-school",
-      "pubDate": "",
-      "description": "Move comes after Roger Innes complained about the government’s prosecution of Chinese postdocs",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
