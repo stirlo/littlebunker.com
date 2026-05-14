@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-05-14T04:51:17.094934",
+  "fetched_at": "2026-05-14T07:47:19.281396",
   "items": [
     {
       "title": "Scientists discover a mysterious silicone pollutant that may be everywhere",
       "link": "https://www.sciencedaily.com/releases/2026/05/260512202353.htm",
       "pubDate": "Wed, 13 May 2026 01:47:53 EDT",
       "description": "Researchers have uncovered unexpectedly high levels of silicone-based pollutants called methylsiloxanes floating through the atmosphere across cities, rural regions, and even forests. Much of the pollution appears to come from vehicle emissions, likely linked to engine oil additives that survive combustion and escape into the air. Scientists say humans may inhale more of these compounds daily than other notorious pollutants like PFAS or microplastics.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists discover the Southern Ocean is “sweating” more as climate change intensifies",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260512202337.htm",
+      "pubDate": "Wed, 13 May 2026 21:59:57 EDT",
+      "description": "A remote island between Australia and Antarctica is showing signs of a dramatic climate transformation. Scientists found storms over Macquarie Island now unleash much heavier rainfall than they did decades ago, soaking ecosystems and altering fragile vegetation. The discovery hints that the Southern Ocean — one of Earth’s biggest climate regulators — may be changing faster than expected. Researchers say the ocean could now be cooling itself by “sweating” more moisture into the atmosphere.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/04/260423031542.htm",
       "pubDate": "Fri, 24 Apr 2026 08:35:21 EDT",
       "description": "Microplastics are floating through the atmosphere and spreading across the globe, but their true origins have been misunderstood. New research shows land sources emit over 20 times more microplastic particles into the air than the ocean, challenging earlier beliefs. Scientists also discovered that previous models dramatically overestimated how much plastic is in the atmosphere.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists find perfect fossils in rust beneath Australian farmland",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260423031536.htm",
-      "pubDate": "Thu, 23 Apr 2026 03:15:36 EDT",
-      "description": "Beneath the dry farmland of New South Wales lies a hidden window into a lost rainforest teeming with life from 11-16 million years ago. At McGraths Flat, scientists have uncovered fossils preserved in astonishing detail—not in typical rock like shale or sandstone, but in iron-rich sediment once thought incapable of such preservation. Tiny iron particles filled and captured entire cells, preserving everything from insect organs to fish eye pigments and delicate spider hairs.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
