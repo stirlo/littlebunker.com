@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-14T10:29:54.314652",
+  "fetched_at": "2026-05-14T12:56:51.918661",
   "items": [
+    {
+      "title": "Restoring the Flow: A Milestone in the Revival of the Everglades",
+      "link": "https://e360.yale.edu/features/picayune-strand-restoration-project",
+      "pubDate": "2026-05-14T06:40:00-04:00",
+      "description": "<p>The campaign to restore the Everglades has received a boost with completion of a key project that returns the flow of water to 55,000 acres that had once been drained for development. Experts see it as a major step forward in bringing back South Florida’s River of Grass.</p><p><a href=\"https://e360.yale.edu/features/picayune-strand-restoration-project\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Warmer Waters Bring Great White Sharks to Southern California",
       "link": "https://e360.yale.edu/digest/great-white-sharks-southern-california",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/features/rusting-rivers",
       "pubDate": "2026-04-16T04:45:00-04:00",
       "description": "<p>Climate change has thawed permafrost and increased rainfall in the Far North, producing sulfuric acid that is turning rivers and lakes yellow or rusty orange. Scientists are scrambling to parse the impacts on wildlife, fish, and the drinking water of Indigenous communities.</p><p><a href=\"https://e360.yale.edu/features/rusting-rivers\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Israeli Strikes Have Decimated Farmland in Southern Lebanon",
-      "link": "https://e360.yale.edu/digest/lebanon-war-farmland",
-      "pubDate": "2026-04-15T06:18:00-04:00",
-      "description": "<p>Israeli strikes in southern Lebanon have devastated orchards and fields. Lebanese officials say that one-fifth of the country's farmland has been damaged in the course of the war.</p><p><a href=\"https://e360.yale.edu/digest/lebanon-war-farmland\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }

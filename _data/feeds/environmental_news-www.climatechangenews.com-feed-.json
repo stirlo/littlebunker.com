@@ -1,9 +1,170 @@
 {
-  "title": "Unknown Feed",
-  "link": "https://www.climatechangenews.com/feed/",
-  "description": "<div id=\"cf-wrapper\">\n    <div class=\"p-0\" id=\"cf-error-details\">\n        <header class=\"mx-auto pt-10 lg:pt-6 lg:px-8 w-240 lg:w-full mb-8\">\n            <h1 class=\"inline-block sm:block sm:mb-2 font-light text-60 lg:text-4xl text-black-dark leading-tight mr-2\">\n                <span class=\"inline-block\">A timeout occurred</span>\n                <span class=\"code-label\">Error code 524</span>\n            </h1>\n            <div>\n                Visit <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">cloudflare.com</a> for more information.\n            </div>\n            <div class=\"mt-3\">2026-05-14 10:28:09 UTC</div>\n        </header>\n        <div class=\"my-8 bg-gradient-gray\">\n            <div class=\"w-240 lg:w-full mx-auto\">\n                <div class=\"clearfix md:px-8\">\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-browser-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-browser block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">You</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Browser\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\" relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-cloudflare-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    <span class=\"cf-icon-cloud block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-ok w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    </a>\n  </div>\n  <span class=\"md:block w-full truncate\">Chicago</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=www.climatechangenews.com\" rel=\"noopener noreferrer\" target=\"_blank\">\n    Cloudflare\n  </a>\n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-green-success\">Working</span>\n  \n</div>\n                    <div class=\"cf-error-source relative w-1/3 md:w-full py-15 md:p-0 md:py-8 md:text-left md:border-solid md:border-0 md:border-b md:border-gray-400 overflow-hidden float-left md:float-none text-center\" id=\"cf-host-status\">\n  <div class=\"relative mb-10 md:m-0\">\n    \n    <span class=\"cf-icon-server block md:hidden h-20 bg-center bg-no-repeat\"></span>\n    <span class=\"cf-icon-error w-12 h-12 absolute left-1/2 md:left-auto md:right-0 md:top-0 -ml-6 -bottom-4\"></span>\n    \n  </div>\n  <span class=\"md:block w-full truncate\">www.climatechangenews.com</span>\n  <h3 class=\"md:inline-block mt-3 md:mt-0 text-2xl text-gray-600 font-light leading-1.3\">\n  \n    Host\n  \n  </h3>\n  \n  <span class=\"leading-1.3 text-2xl text-red-error\">Error</span>\n  \n</div>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"w-240 lg:w-full mx-auto mb-8 lg:px-8\">\n            <div class=\"clearfix\">\n                <div class=\"w-1/2 md:w-full float-left pr-6 md:pb-10 md:pr-0 leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What happened?</h2>\n                    <p class=\"mb-2\">The origin web server timed out responding to this request.</p><p>The likely cause is an overloaded background task, database or application, stressing the resources on the host web server.</p>\n                </div>\n                <div class=\"w-1/2 md:w-full float-left leading-relaxed\">\n                    <h2 class=\"text-3xl font-normal leading-1.3 mb-4\">What can I do?</h2>\n                    \n              <h3 class=\"text-15 font-semibold mb-2\">If you're a visitor of this website:</h3>\n              <p class=\"mb-6\">Please try again in a few minutes.</p>\n\n              <h3 class=\"text-15 font-semibold mb-2\">If you're the owner of this website:</h3>\n              <p>Please refer to the <a href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/\" rel=\"noopener noreferrer\">Error 524</a> article:</p>\n              <ul class=\"ml-4\">\n                <li>Contact your hosting provider; check for long-running processes or an overloaded web server.</li>\n                <li>Use status polling of large HTTP processes to avoid this error.</li>\n                <li>Run the long-running scripts on a <a href=\"https://developers.cloudflare.com/dns/proxy-status/#dns-only-records\" rel=\"noopener noreferrer\">grey-clouded subdomain</a>.</li>\n                <li>Enterprise customers can <a href=\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-524/#resolution-on-cloudflare\" rel=\"noopener noreferrer\">increase the timeout setting</a> globally or for specific requests using Cache Rules.</li>\n              </ul>\n                </div>\n            </div>\n        </div>\n\n        <div class=\"cf-error-footer cf-wrapper w-240 lg:w-full py-10 sm:py-4 sm:px-8 mx-auto text-center sm:text-left border-solid border-0 border-t border-gray-300\">\n    <p class=\"text-13\">\n      <span class=\"cf-footer-item sm:block sm:mb-1\">Cloudflare Ray ID: <strong class=\"font-semibold\">9fb933b96d2f0f96</strong></span>\n      <span class=\"cf-footer-separator sm:hidden\">•</span>\n      <span class=\"cf-footer-item hidden sm:block sm:mb-1\" id=\"cf-footer-item-ip\">\n        Your IP:\n        <button class=\"cf-footer-ip-reveal-btn\" id=\"cf-footer-ip-reveal\" type=\"button\">Click to reveal</button>\n        <span class=\"hidden\" id=\"cf-footer-ip\">172.214.155.181</span>\n        <span class=\"cf-footer-separator sm:hidden\">•</span>\n      </span>\n      <span class=\"cf-footer-item sm:block sm:mb-1\"><span>Performance & security by</span> <a href=\"https://www.cloudflare.com/5xx-error-landing?utm_source=errorcode_524&utm_campaign=www.climatechangenews.com\" id=\"brand_link\" rel=\"noopener noreferrer\" target=\"_blank\">Cloudflare</a></span>\n      \n    </p>\n    &&&&&&\n  </div>\n\n    </div>\n</div>",
+  "title": "Climate Home News",
+  "link": "https://www.climatechangenews.com/",
+  "description": "Climate change news, analysis, commentary, video and podcasts focused on developments in global climate politics",
   "category": "environmental_news",
   "source_url": "https://www.climatechangenews.com/feed/",
-  "fetched_at": "2026-05-14T10:28:09.409689",
-  "items": []
+  "fetched_at": "2026-05-14T12:56:48.938648",
+  "items": [
+    {
+      "title": "Webinar: From Santa Marta to Bonn – where next for the fossil fuel transition?",
+      "link": "https://www.climatechangenews.com/2026/05/14/live-webinar-from-santa-marta-to-bonn-where-next-for-the-fossil-fuel-transition/",
+      "pubDate": "Thu, 14 May 2026 12:09:50 +0000",
+      "description": "<p>An exclusive event for Climate Home News free essential users and paid subscribers — join the journalists reporting from this year's key climate talks to discuss how the Santa Marta conference could play out in Bonn.</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/14/live-webinar-from-santa-marta-to-bonn-where-next-for-the-fossil-fuel-transition/\">Webinar: From Santa Marta to Bonn – where next for the fossil fuel transition?</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "COP30 roadmap to end deforestation will invite countries to draft domestic plans",
+      "link": "https://www.climatechangenews.com/2026/05/13/cop30-roadmap-end-deforestation-invite-countries-domestic-plans-forests-nature/",
+      "pubDate": "Wed, 13 May 2026 16:58:45 +0000",
+      "description": "<p>After promising at COP30 to produce a voluntary global roadmap to stop forest loss by 2030, Brazil provided an update on the consultations this week</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/13/cop30-roadmap-end-deforestation-invite-countries-domestic-plans-forests-nature/\">COP30 roadmap to end deforestation will invite countries to draft domestic plans</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Paris Agreement committee snubbed over missing NDC climate plans",
+      "link": "https://www.climatechangenews.com/2026/05/12/paris-agreement-committee-snubbed-over-missing-ndc-climate-plans/",
+      "pubDate": "Tue, 12 May 2026 10:35:43 +0000",
+      "description": "<p>Many governments have still not submitted a nationally determined contribution to the UN, breaching a key requirement of the Paris Agreement</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/12/paris-agreement-committee-snubbed-over-missing-ndc-climate-plans/\">Paris Agreement committee snubbed over missing NDC climate plans</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Scientists warn El Niño could intensify climate extremes in 2026",
+      "link": "https://www.climatechangenews.com/2026/05/12/scientists-warn-el-nino-could-intensify-climate-extremes-in-2026/",
+      "pubDate": "Tue, 12 May 2026 05:10:00 +0000",
+      "description": "<p>Climatologists say a particularly powerful weather pattern could amplify wildfire risk, heatwaves and flooding worldwide as global temperatures continue to rise</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/12/scientists-warn-el-nino-could-intensify-climate-extremes-in-2026/\">Scientists warn El Niño could intensify climate extremes in 2026</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Santa Marta was a learning moment for how to shape inclusive just transitions",
+      "link": "https://www.climatechangenews.com/2026/05/11/santa-marta-was-a-learning-moment-for-how-to-shape-inclusive-just-transitions/",
+      "pubDate": "Mon, 11 May 2026 13:22:09 +0000",
+      "description": "<p>Researchers working on the shift away from fossil fuels must ensure knowledge is co-produced with grassroots communities and translates into action for those on the frontline</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/11/santa-marta-was-a-learning-moment-for-how-to-shape-inclusive-just-transitions/\">Santa Marta was a learning moment for how to shape inclusive just transitions</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Signify: “We believe resilience is becoming more important to businesses right now”",
+      "link": "https://www.climatechangenews.com/2026/05/11/signify-we-believe-resilience-is-becoming-more-important-to-businesses-right-now/",
+      "pubDate": "Mon, 11 May 2026 07:51:15 +0000",
+      "description": "<p>Energy efficiency and the circular economy are central to the global lighting firm's new sustainability programme, says its head Maurice Loosschilder</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/11/signify-we-believe-resilience-is-becoming-more-important-to-businesses-right-now/\">Signify: “We believe resilience is becoming more important to businesses right now”</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Indigenous groups warn Amazon oil expansion tests fossil fuel phase-out coalition",
+      "link": "https://www.climatechangenews.com/2026/05/08/indigenous-amazon-oil-expansion-fossil-fuel-phase-out-coalition-santa-marta/",
+      "pubDate": "Fri, 08 May 2026 16:02:11 +0000",
+      "description": "<p>South American nations like Ecuador, Peru and Brazil have led oil expansions in the Amazon rainforest, one of the most biodiverse regions in the planet</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/08/indigenous-amazon-oil-expansion-fossil-fuel-phase-out-coalition-santa-marta/\">Indigenous groups warn Amazon oil expansion tests fossil fuel phase-out coalition</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Developing countries must hold the pen to script the fossil fuel transition",
+      "link": "https://www.climatechangenews.com/2026/05/08/developing-countries-must-hold-the-pen-to-script-the-fossil-fuel-transition/",
+      "pubDate": "Fri, 08 May 2026 10:03:45 +0000",
+      "description": "<p>While the Santa Marta summit has broken the UNFCCC deadlock on phasing out fossil fuels, the new process must not be taken over by Global North nations and their institutions</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/08/developing-countries-must-hold-the-pen-to-script-the-fossil-fuel-transition/\">Developing countries must hold the pen to script the fossil fuel transition</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "EU warns on solar geoengineering but research debate grinds on",
+      "link": "https://www.climatechangenews.com/2026/05/08/eu-warns-on-solar-geoengineering-but-research-debate-grinds-on/",
+      "pubDate": "Fri, 08 May 2026 08:28:53 +0000",
+      "description": "<p>For the first time, EU foreign ministers express concern that solar radiation modification poses \"significant risks\", a stance welcomed by those both for and against more research</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/08/eu-warns-on-solar-geoengineering-but-research-debate-grinds-on/\">EU warns on solar geoengineering but research debate grinds on</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Oil crisis could boost struggling sustainable aviation fuel industry",
+      "link": "https://www.climatechangenews.com/2026/05/07/oil-crisis-could-boost-struggling-sustainable-aviation-fuel-industry/",
+      "pubDate": "Thu, 07 May 2026 09:42:13 +0000",
+      "description": "<p> As the price of oil-based jet fuel shoots up, biofuel or hydrogen-based alternatives look more appealing</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/07/oil-crisis-could-boost-struggling-sustainable-aviation-fuel-industry/\">Oil crisis could boost struggling sustainable aviation fuel industry</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "ICJ follow-up resolution is a test of climate leadership at the UN",
+      "link": "https://www.climatechangenews.com/2026/05/07/icj-follow-up-resolution-is-a-test-of-climate-leadership-at-the-un/",
+      "pubDate": "Thu, 07 May 2026 07:05:58 +0000",
+      "description": "<p>If states back the resolution by consensus, it would send a powerful message of commitment to climate action and the rule of law, despite pushback by some big emitters</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/07/icj-follow-up-resolution-is-a-test-of-climate-leadership-at-the-un/\">ICJ follow-up resolution is a test of climate leadership at the UN</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "How Shell is still benefiting from offloaded Niger Delta oil assets",
+      "link": "https://www.climatechangenews.com/2026/05/06/how-shell-is-still-benefiting-from-offloaded-niger-delta-oil-assets/",
+      "pubDate": "Wed, 06 May 2026 08:57:50 +0000",
+      "description": "<p>Shell used its exit from onshore operations in Nigeria to boost its climate credentials, but new reporting shows that the firm continues to trade oil from its former business</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/06/how-shell-is-still-benefiting-from-offloaded-niger-delta-oil-assets/\">How Shell is still benefiting from offloaded Niger Delta oil assets</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "The energy transition has a rare earth problem: These startups are solving it",
+      "link": "https://www.climatechangenews.com/2026/05/05/the-energy-transition-has-a-rare-earth-problem-these-startups-are-solving-it/",
+      "pubDate": "Tue, 05 May 2026 05:00:00 +0000",
+      "description": "<p>China's grip on global supply chains is turbocharging efforts to find alternatives to the small group of metals that dominate EV motor technology </p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/05/the-energy-transition-has-a-rare-earth-problem-these-startups-are-solving-it/\">The energy transition has a rare earth problem: These startups are solving it</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Key green shipping talks to be held in late 2026",
+      "link": "https://www.climatechangenews.com/2026/05/01/key-green-shipping-talks-to-be-held-in-late-2026/",
+      "pubDate": "Fri, 01 May 2026 19:54:16 +0000",
+      "description": "<p>Governments have agreed to hold three weeks of talks to try to get clean shipping measures over the line later this year</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/05/01/key-green-shipping-talks-to-be-held-in-late-2026/\">Key green shipping talks to be held in late 2026</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Kenya seeks regional coordination to build African mineral value chains",
+      "link": "https://www.climatechangenews.com/2026/04/30/kenya-seeks-regional-coordination-to-build-african-mineral-value-chains/",
+      "pubDate": "Thu, 30 Apr 2026 15:41:56 +0000",
+      "description": "<p>Kenyan President William Ruto is the latest African leader to announce an end to raw mineral exports as governments want to add more value to their resources</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/30/kenya-seeks-regional-coordination-to-build-african-mineral-value-chains/\">Kenya seeks regional coordination to build African mineral value chains</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Türkiye’s COP31 presidency and IEA join forces on clean energy push",
+      "link": "https://www.climatechangenews.com/2026/04/30/turkiyes-cop31-presidency-and-iea-join-forces-on-clean-energy-push/",
+      "pubDate": "Thu, 30 Apr 2026 14:54:18 +0000",
+      "description": "<p>Clean cooking, waste emissions and a new financing mechanism are among the early priorities </p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/30/turkiyes-cop31-presidency-and-iea-join-forces-on-clean-energy-push/\">Türkiye’s COP31 presidency and IEA join forces on clean energy push</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Santa Marta summit kick-starts work on key steps for fossil fuel transition",
+      "link": "https://www.climatechangenews.com/2026/04/30/santa-marta-summit-kick-starts-work-on-key-steps-for-fossil-fuel-transition/",
+      "pubDate": "Thu, 30 Apr 2026 12:45:50 +0000",
+      "description": "<p>The conference offers some 60 nations help to develop roadmaps to shift their economies away from coal, oil and gas, and make international trade green</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/30/santa-marta-summit-kick-starts-work-on-key-steps-for-fossil-fuel-transition/\">Santa Marta summit kick-starts work on key steps for fossil fuel transition</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "What fossil fuels really cost us in a world at war",
+      "link": "https://www.climatechangenews.com/2026/04/30/what-fossil-fuels-really-cost-us-in-a-world-at-war/",
+      "pubDate": "Wed, 29 Apr 2026 23:01:00 +0000",
+      "description": "<p>Governments are under pressure to respond to rising fuel and food costs and deepening energy poverty. It's time for a power shift</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/30/what-fossil-fuels-really-cost-us-in-a-world-at-war/\">What fossil fuels really cost us in a world at war</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Six nations at Santa Marta could shape fossil fuel futures",
+      "link": "https://www.climatechangenews.com/2026/04/29/six-nations-at-santa-marta-could-shape-fossil-fuel-futures/",
+      "pubDate": "Wed, 29 Apr 2026 17:18:40 +0000",
+      "description": "<p>A small but critical handful of countries attending the conference on transitioning away from fossil fuels remain deeply committed to expanding their output</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/29/six-nations-at-santa-marta-could-shape-fossil-fuel-futures/\">Six nations at Santa Marta could shape fossil fuel futures</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    },
+    {
+      "title": "Brazil leads “encouraging” decline in global rainforest destruction in 2025",
+      "link": "https://www.climatechangenews.com/2026/04/29/brazil-leads-encouraging-decline-in-global-rainforest-destruction-in-2025/",
+      "pubDate": "Wed, 29 Apr 2026 13:04:33 +0000",
+      "description": "<p>After hitting a record high in 2024, loss of primary tropical forest dropped by over a third last year, but the world remains way off track for a 2030 goal to halt deforestation</p>\n<p>The post <a href=\"https://www.climatechangenews.com/2026/04/29/brazil-leads-encouraging-decline-in-global-rainforest-destruction-in-2025/\">Brazil leads “encouraging” decline in global rainforest destruction in 2025</a> appeared first on <a href=\"https://www.climatechangenews.com\">Climate Home News</a>.</p>",
+      "category": "environmental_news",
+      "source_url": "https://www.climatechangenews.com/feed/"
+    }
+  ]
 }
