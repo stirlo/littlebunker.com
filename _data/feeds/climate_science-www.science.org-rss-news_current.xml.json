@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-16T15:02:16.841484",
+  "fetched_at": "2026-05-16T17:05:01.581835",
   "items": [
+    {
+      "title": "Major outbreak of rare Ebola virus species in northern Congo alarms scientists",
+      "link": "https://www.science.org/content/article/major-outbreak-rare-ebola-virus-species-northern-congo-alarms-scientists",
+      "pubDate": "",
+      "description": "No vaccines exist for Ebola Bundibugyo, which has caused 80 suspected deaths in the Democratic Republic of the Congo and one in Uganda",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "CDC plan to retire lab monkeys to Texas sanctuary draws ire",
       "link": "https://www.science.org/content/article/cdc-plan-retire-lab-monkeys-texas-sanctuary-draws-ire",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/boy-s-brain-tumor-tied-gene-therapy",
       "pubDate": "",
       "description": "Researchers report first cancer caused by virus widely used to deliver genes, but say risk is low",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Gotcha! Odd language mistakes may help identify fake papers",
-      "link": "https://www.science.org/content/article/gotcha-odd-language-mistakes-may-help-identify-fake-papers",
-      "pubDate": "",
-      "description": "A small investigation found identical errors and phrases across more than 200 papers, suggesting they were produced by paper mills",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
