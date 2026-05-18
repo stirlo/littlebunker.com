@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-18T10:17:51.720395",
+  "fetched_at": "2026-05-18T14:34:45.112457",
   "items": [
+    {
+      "title": "The Best Environmental Photography of the Year",
+      "link": "https://e360.yale.edu/digest/environmental-photography-award",
+      "pubDate": "2026-05-18T05:28:00-04:00",
+      "description": "<p>The winners of the 2026 Environmental Photography Award capture both the lush beauty of the natural world and the heavy imprint left by humanity.</p><p><a href=\"https://e360.yale.edu/digest/environmental-photography-award\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "U.S. Fuel Blockade Spurs On a Solar Boom in Cuba",
       "link": "https://e360.yale.edu/digest/cuba-solar-us-blockade",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/iran-war-energy-crisis-remote-work",
       "pubDate": "2026-04-20T08:57:00-04:00",
       "description": "<p>The energy shocks rippling from the war in Iran have prompted countries, from Cambodia to Peru, to embrace remote work. Leaders in Europe are now joining the push as they look to curb consumption of oil. </p><p><a href=\"https://e360.yale.edu/digest/iran-war-energy-crisis-remote-work\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Zambia Under Pressure to Clean Up Shuttered Lead Mine Poisoning Town",
-      "link": "https://e360.yale.edu/digest/zambia-kabwe-mine",
-      "pubDate": "2026-04-17T09:10:00-04:00",
-      "description": "<p>Three decades after one of the largest lead mines in the world closed down, people in Kabwe, Zambia, are still dealing with the aftermath. Facing pervasive lead contamination that continues to endanger their children, families in Kabwe, with a coalition of human rights groups, are calling on the African Union to force Zambia to clean up the site.</p><p><a href=\"https://e360.yale.edu/digest/zambia-kabwe-mine\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }

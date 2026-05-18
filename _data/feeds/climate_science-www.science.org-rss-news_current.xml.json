@@ -4,13 +4,21 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-18T10:17:36.298226",
+  "fetched_at": "2026-05-18T14:34:24.569330",
   "items": [
+    {
+      "title": "¿Este científico fue demasiado lejos en su intento por salvar la vida silvestre de Ecuador?",
+      "link": "https://www.science.org/content/article/este-científico-fue-demasiado-lejos-intento-por-salvar-la-vida-silvestre-de-ecuador",
+      "pubDate": "",
+      "description": "Los esfuerzos de Alejandro Arteaga por identificar y proteger reptiles y anfibios tropicales lo han envuelto en controversia",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "BREAKING: WHO declares major outbreak of rare Ebola virus species an international emergency",
       "link": "https://www.science.org/content/article/major-outbreak-rare-ebola-virus-species-northern-congo-alarms-scientists",
       "pubDate": "",
-      "description": "No vaccines or treatments exist for Ebola Bundibugyo, which has caused hundreds of suspected cases and 80 deaths in Congo and Uganda; WHO warns of \"potentially much larger outbreak\"",
+      "description": "No vaccines or treatments exist for Ebola Bundibugyo, which has caused hundreds of suspected cases and 80 deaths in Congo and Uganda; WHO warns of “potentially much larger outbreak”",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     },
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/molecules-emerge-new-kind-building-block-quantum-computers",
       "pubDate": "",
       "description": "Storing quantum information in designer molecules could hold advantages over atoms, ions, and other kinds of qubits",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Boy’s brain tumor tied to gene therapy",
-      "link": "https://www.science.org/content/article/boy-s-brain-tumor-tied-gene-therapy",
-      "pubDate": "",
-      "description": "Researchers report first cancer caused by virus widely used to deliver genes, but say risk is low",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
