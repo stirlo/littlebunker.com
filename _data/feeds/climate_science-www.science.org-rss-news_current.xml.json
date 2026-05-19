@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-18T23:10:32.444392",
+  "fetched_at": "2026-05-19T04:10:11.502071",
   "items": [
+    {
+      "title": "Scientists play catch-up to startling Ebola outbreak",
+      "link": "https://www.science.org/content/article/scientists-play-catch-startling-ebola-outbreak",
+      "pubDate": "",
+      "description": "Testing, sequencing, and clinical trial efforts spring to life as Bundibugyo virus spreads",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "¿Este científico fue demasiado lejos en su intento por salvar la vida silvestre de Ecuador?",
       "link": "https://www.science.org/content/article/este-científico-fue-demasiado-lejos-intento-por-salvar-la-vida-silvestre-de-ecuador",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/did-scientist-go-too-far-trying-save-ecuador-s-wildlife",
       "pubDate": "",
       "description": "Alejandro Arteaga’s efforts to identify and protect tropical reptiles and amphibians have entangled him in controversy",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Molecules emerge as a new kind of building block for quantum computers",
-      "link": "https://www.science.org/content/article/molecules-emerge-new-kind-building-block-quantum-computers",
-      "pubDate": "",
-      "description": "Storing quantum information in designer molecules could hold advantages over atoms, ions, and other kinds of qubits",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
