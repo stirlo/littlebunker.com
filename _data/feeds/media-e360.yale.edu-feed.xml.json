@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-19T12:15:37.942652",
+  "fetched_at": "2026-05-19T16:28:05.796007",
   "items": [
+    {
+      "title": "How Gold Mining Fueled a Surge in Malaria in the Brazilian Amazon",
+      "link": "https://e360.yale.edu/digest/yanomami-gold-mining-malaria-study",
+      "pubDate": "2026-05-19T08:37:00-04:00",
+      "description": "<p>A decade ago, a rush of illicit gold mining brought hunger and disease to the Yanomami people of the Brazilian Amazon. New research finds a clear link between illegal mining and the spread of malaria.</p><p><a href=\"https://e360.yale.edu/digest/yanomami-gold-mining-malaria-study\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "The Best Environmental Photography of the Year",
       "link": "https://e360.yale.edu/digest/environmental-photography-award",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/great-white-sharks-climate",
       "pubDate": "2026-04-21T05:22:00-04:00",
       "description": "<p>The evolutionary edge that fueled great white shark dominance for millions of years could soon become its greatest downfall.</p><p><a href=\"https://e360.yale.edu/digest/great-white-sharks-climate\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Energy Crisis Spurs Global Push for Remote Work",
-      "link": "https://e360.yale.edu/digest/iran-war-energy-crisis-remote-work",
-      "pubDate": "2026-04-20T08:57:00-04:00",
-      "description": "<p>The energy shocks rippling from the war in Iran have prompted countries, from Cambodia to Peru, to embrace remote work. Leaders in Europe are now joining the push as they look to curb consumption of oil. </p><p><a href=\"https://e360.yale.edu/digest/iran-war-energy-crisis-remote-work\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
