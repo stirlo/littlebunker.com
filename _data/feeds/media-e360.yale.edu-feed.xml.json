@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-20T08:30:49.927798",
+  "fetched_at": "2026-05-20T11:52:34.220761",
   "items": [
+    {
+      "title": "After Two Decades, E360’s Founder and Editor Is Moving On",
+      "link": "https://e360.yale.edu/features/roger-cohn-farewell-note",
+      "pubDate": "2026-05-20T04:45:00-04:00",
+      "description": "<p>When <i>Yale E360</i> launched in 2008, it was a pioneer in online environmental journalism, filling a critical gap in coverage. As he prepares to step down, founding editor Roger Cohn reflects on his years at <i>e360</i>, his debt to the writers he’s worked with, and his hopes for the future.</p><p><a href=\"https://e360.yale.edu/features/roger-cohn-farewell-note\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "How Gold Mining Fueled a Surge in Malaria in the Brazilian Amazon",
       "link": "https://e360.yale.edu/digest/yanomami-gold-mining-malaria-study",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/forest-certification-schemes-failing",
       "pubDate": "2026-04-22T08:41:00-04:00",
       "description": "<p>Schemes that certify wood or paper as sustainable are doing little to stem the loss of forests globally, a study finds.</p><p><a href=\"https://e360.yale.edu/digest/forest-certification-schemes-failing\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "As Oceans Warm, Great White Sharks Are Overheating",
-      "link": "https://e360.yale.edu/digest/great-white-sharks-climate",
-      "pubDate": "2026-04-21T05:22:00-04:00",
-      "description": "<p>The evolutionary edge that fueled great white shark dominance for millions of years could soon become its greatest downfall.</p><p><a href=\"https://e360.yale.edu/digest/great-white-sharks-climate\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
