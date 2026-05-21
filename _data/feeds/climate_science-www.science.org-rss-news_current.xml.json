@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-21T12:20:16.835710",
+  "fetched_at": "2026-05-21T16:19:11.409055",
   "items": [
+    {
+      "title": "Have astronomers spotted an exploding primordial star?",
+      "link": "https://www.science.org/content/article/have-astronomers-spotted-exploding-primordial-star",
+      "pubDate": "",
+      "description": "Puzzling JWST observation could instead be one of the universe's first galaxies—or something more mundane",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "U.S. researchers face new restrictions on publishing with foreign collaborators",
       "link": "https://www.science.org/content/article/u-s-researchers-face-new-restrictions-publishing-foreign-collaborators",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/este-científico-fue-demasiado-lejos-intento-por-salvar-la-vida-silvestre-de-ecuador",
       "pubDate": "",
       "description": "Los esfuerzos de Alejandro Arteaga por identificar y proteger reptiles y anfibios tropicales lo han envuelto en controversia",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "BREAKING: WHO declares major outbreak of rare Ebola virus species an international emergency",
-      "link": "https://www.science.org/content/article/major-outbreak-rare-ebola-virus-species-northern-congo-alarms-scientists",
-      "pubDate": "",
-      "description": "No vaccines or treatments exist for Ebola Bundibugyo, which has caused hundreds of suspected cases and 80 deaths in Congo and Uganda; WHO warns of “potentially much larger outbreak”",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }

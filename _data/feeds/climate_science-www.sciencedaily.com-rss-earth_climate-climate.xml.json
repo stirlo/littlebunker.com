@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-05-21T12:20:17.011191",
+  "fetched_at": "2026-05-21T16:19:11.693926",
   "items": [
+    {
+      "title": "Jupiter’s lightning may be 100x more powerful than Earth’s",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260520093756.htm",
+      "pubDate": "Thu, 21 May 2026 02:46:03 EDT",
+      "description": "Jupiter’s storms aren’t just gigantic — they may unleash lightning far more powerful than anything on Earth. Using NASA’s Juno spacecraft, scientists discovered that some lightning bolts on the gas giant could pack up to 100 times the punch of Earth’s lightning, and possibly much more. The findings reveal that Jupiter’s atmosphere works very differently from our own, with massive storms building enormous amounts of energy before erupting in violent flashes across cloud tops towering more than 100 kilometers high.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "UNESCO warns a tsunami in the Mediterranean is inevitable",
       "link": "https://www.sciencedaily.com/releases/2026/05/260520093719.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260502002153.htm",
       "pubDate": "Sat, 02 May 2026 08:47:20 EDT",
       "description": "Two of the most dangerous fault systems on the U.S. West Coast may be more connected than scientists once thought. New research suggests the Cascadia subduction zone and the San Andreas fault can “sync up,” triggering earthquakes within minutes or hours of each other. This rare “synchronization” could dramatically increase the scale of a major West Coast disaster. Instead of one massive quake, multiple regions could be hit at nearly the same time.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Earth is splitting open beneath the Pacific Northwest, scientists say",
-      "link": "https://www.sciencedaily.com/releases/2026/04/260429232851.htm",
-      "pubDate": "Wed, 29 Apr 2026 23:36:37 EDT",
-      "description": "For the first time, scientists have watched a subduction zone literally fall apart beneath the ocean floor. Using advanced seismic imaging, they found the Juan de Fuca plate splitting into fragments as it sinks beneath North America. Rather than collapsing all at once, the plate is tearing piece by piece, like a train slowly derailing. The finding helps explain ancient plate fragments and could refine how scientists understand earthquake behavior.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
