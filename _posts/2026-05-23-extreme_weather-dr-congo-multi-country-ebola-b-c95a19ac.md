@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "DR Congo: Multi-country Ebola Bundibugyo outbreak situation report no. 1"
+date: 2026-05-23 04:37:16 +0000
+categories: [extreme_weather]
+tags: ['climate-health', 'climate-migration', 'year-2026', 'displacement', 'public-health', 'urgent']
+keywords: ['climate-health', 'climate-migration', 'year-2026', 'country', 'displacement', 'congo', 'multi', 'public-health']
+description: "Country: Democratic Republic of the Congo Source: International Organization for Migration Please refer to the attached file"
+external_url: https://reliefweb.int/report/democratic-republic-congo/multi-country-ebola-bundibugyo-outbreak-situation-report-no-1
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Democratic Republic of the Congo Source: International Organization for Migration Please refer to the attached file. SITUATION OVERVIEW The Ebola outbreak caused by Bundibugyo virus disease (BVD) in the Democratic Republic of the Congo (DRC) and Uganda was declared as a public health emergency of international concern (PHEIC) by the World Health Organization (WHO) on 17 May 2026 under the International Health Regulations (IHR 2005), following confirmation of cross-border transmission. This marks the 17 Ebola disease outbreak in DRC. See the World Health Organization's weekly situation report dated 18 May for epidemiological information. The outbreak is unfolding in a highly complex humanitarian and epidemiological context characterized by insecurity, significant population displacement and cross-border mobility. Ongoing armed conflict and insecurity in Ituri Province continue to hinder disease surveillance, contact tracing, rapid response deployment and laboratory sample transport, while extensive cross-border mobility, trade and migration dynamics heighten the risk of undetected transmission within and beyond affected areas. Humanitarian conditions remain severe; IOM, through its Displacement Tracking Matrix (DTM) has recorded a total of 3,591,162 internally displaced persons (IDPs) in the Eastern region of the country, with 98 per cent displaced due to conflict. This includes 921,947 IDPs in Ituri, and 1,168,413 in North Kivu. Ituri also hosts displaced persons from other provinces, including 6,526 people from North Kivu, demonstrating interprovincial flows towards Ituri.[1] North Kivu shares borders with Uganda and Rwanda, with Goma bordering the Rwandan city of Gisenyi. Ituri borders South Sudan to the north, and Uganda to the east. Reflecting the elevated regional risk, WHO has prioritized countries for readiness and response, designating DRC, Uganda, South Sudan, Burundi and Rwanda as Priority 1 countries, and Angola, Central African Republic, Ethiopia, Kenya, Republic of Congo, United Republic of Tanzania and Zambia as Priority 2 countries. IOM'S PREPAREDNESS AND RESPONSE EFFORTS IOM is working with governments and partners to strengthen national capacity in DRC, Uganda and other at-risk countries to prevent, detect and respond to the EVD outbreak using a human mobility perspective, with a focus on points of entry (PoEs) and key congregation points along mobility corridors. Through the existing global award with the U.S. Department of State, IOM has secured funding to immediately activate rapid response support in Priority 1 countries.
+
+[Read original article](https://reliefweb.int/report/democratic-republic-congo/multi-country-ebola-bundibugyo-outbreak-situation-report-no-1)
