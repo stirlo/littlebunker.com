@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-05-26T23:14:15.972200",
+  "fetched_at": "2026-05-27T04:23:44.702071",
   "items": [
+    {
+      "title": "Wikipedia’s gender gap has flipped for one group of scientists",
+      "link": "https://www.science.org/content/article/wikipedia-s-gender-gap-has-flipped-one-group-scientists",
+      "pubDate": "",
+      "description": "A new study finds women biology faculty are now more likely than men to have a biography on the popular website",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Outdoor lights may be making mosquito season longer",
       "link": "https://www.science.org/content/article/outdoor-lights-may-be-making-mosquito-season-longer",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/can-one-parent-silence-other-s-genes-natural-paramutations-found-mice",
       "pubDate": "",
       "description": "Odd phenomenon first seen in plants could explain puzzling disease inheritance patterns",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Have astronomers spotted an exploding primordial star?",
-      "link": "https://www.science.org/content/article/have-astronomers-spotted-exploding-primordial-star",
-      "pubDate": "",
-      "description": "Puzzling JWST observation could instead be one of the universe's first galaxies—or something more mundane",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
