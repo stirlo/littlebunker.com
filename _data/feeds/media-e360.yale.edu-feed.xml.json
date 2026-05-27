@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-27T12:25:32.459534",
+  "fetched_at": "2026-05-27T16:40:51.634163",
   "items": [
+    {
+      "title": "The U.S. Senator Who Won’t Shut Up about Climate Change",
+      "link": "https://e360.yale.edu/features/sheldon-whitehouse-interview",
+      "pubDate": "2026-05-26T11:28:00-04:00",
+      "description": "<p>At a time when other public officials and the media are talking less about climate change, Sheldon Whitehouse remains fiercely outspoken. He delivered his 307th climate speech on the Senate floor this month and is pushing back against the recent trend of “climate hushing.”</p><p><a href=\"https://e360.yale.edu/features/sheldon-whitehouse-interview\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Warming Is Raising the Risk of Encounters With Venomous Snakes",
       "link": "https://e360.yale.edu/digest/climate-change-snakebite-study",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/atoll-islands-sea-level-rise-fungi",
       "pubDate": "2026-04-28T11:00:00-04:00",
       "description": "<p>For the last two decades, conservationists on the remote Pacific atoll of Palmyra have been working to uproot invasive palm trees and restore native wildlife. A new study finds that native fungi could be instrumental to that process.</p><p><a href=\"https://e360.yale.edu/digest/atoll-islands-sea-level-rise-fungi\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Amid Energy Crisis, Chinese Solar Exports Double",
-      "link": "https://e360.yale.edu/digest/china-solar-exports-iran-war",
-      "pubDate": "2026-04-27T00:00:00-04:00",
-      "description": "<p>As the war in Iran squeezes the global supply of oil and gas, countries are looking to source more solar power. China, the world's biggest producer of solar equipment, saw its exports double in March, reaching a new record high.</p><p><a href=\"https://e360.yale.edu/digest/china-solar-exports-iran-war\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
