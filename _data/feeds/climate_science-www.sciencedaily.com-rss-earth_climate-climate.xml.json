@@ -4,8 +4,24 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-05-28T14:40:33.010974",
+  "fetched_at": "2026-05-28T18:14:59.586044",
   "items": [
+    {
+      "title": "Arctic Ocean passed a tipping point and scientists say it may never recover",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260528082457.htm",
+      "pubDate": "Thu, 28 May 2026 08:58:49 EDT",
+      "description": "The Arctic Ocean may have crossed a dangerous tipping point. Scientists say the rapid disappearance of sea ice is triggering a hidden chemical shift that is stripping the ocean of nitrate — a nutrient essential for the tiny plankton that support Arctic life. As nitrate levels plunge, the entire food web could feel the impact, from fish and seabirds to whales and polar ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Earth’s orbital wobble triggered rapid climate chaos during the dinosaur age",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260527023216.htm",
+      "pubDate": "Wed, 27 May 2026 02:32:16 EDT",
+      "description": "New research suggests Earth’s climate can swing wildly on surprisingly short timescales — even during hot, ice-free greenhouse periods. By studying ancient sediments from the Late Cretaceous, scientists uncovered repeating climate shifts tied to tiny changes in Earth’s orbital wobble. These cycles may have repeatedly pushed the planet between humid and arid states every few thousand years.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Humanity has already exceeded Earth’s limits, study warns",
       "link": "https://www.sciencedaily.com/releases/2026/05/260526022021.htm",
@@ -147,22 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260509210640.htm",
       "pubDate": "Sun, 10 May 2026 01:01:20 EDT",
       "description": "A colossal underwater volcano in the South Pacific may have revealed a surprising new weapon against climate change. After the 2022 eruption of Hunga Tonga–Hunga Ha’apai, scientists detected enormous amounts of formaldehyde in the atmosphere — a telltale sign that methane, one of the planet’s most powerful greenhouse gases, was being destroyed. Researchers now believe volcanic ash mixed with salty seawater and sunlight created reactive chlorine particles that effectively “cleaned up” some of the methane released by the eruption itself.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists say a critical Atlantic ocean current is weakening and the world could feel the impact",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210639.htm",
-      "pubDate": "Sun, 10 May 2026 00:49:07 EDT",
-      "description": "Scientists have uncovered strong evidence that a major Atlantic Ocean current system tied to global climate is weakening. The slowdown has been detected across a vast region of the North Atlantic over nearly two decades. Since this ocean circulation helps regulate weather and temperatures, changes could affect storms, rainfall, sea levels, and even winter conditions in parts of Europe and North America.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Antarctica is melting from below and scientists say it’s worse than expected",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210637.htm",
-      "pubDate": "Sun, 10 May 2026 00:28:34 EDT",
-      "description": "Scientists have uncovered a hidden Antarctic threat that could accelerate global sea level rise far faster than expected. Deep beneath floating ice shelves, long channels carved into the ice appear to trap warmer ocean water, dramatically speeding up melting from below. Even regions of East Antarctica once considered relatively stable may be far more vulnerable than scientists realized. Researchers warn that current climate models may be missing this dangerous process entirely, meaning future sea level rise could be underestimated.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
