@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-05-29T12:20:50.712925",
+  "fetched_at": "2026-05-29T16:50:30.957834",
   "items": [
+    {
+      "title": "Africa Is Embracing Renewable Energy",
+      "link": "https://e360.yale.edu/digest/africa-renewable-energy",
+      "pubDate": "2026-05-29T11:33:00-04:00",
+      "description": "<p>African countries are increasingly looking to renewable energy to meet growing power demand.</p><p><a href=\"https://e360.yale.edu/digest/africa-renewable-energy\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Supertrawlers Are Taking Antarctic Krill That Whales Depend On",
       "link": "https://e360.yale.edu/features/antarctica-krill-whales",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/features/black-lung-pennsylvania",
       "pubDate": "2026-04-30T05:07:00-04:00",
       "description": "<p>While the Trump administration is directing hundreds of millions of dollars to coal projects, miners in Appalachia are suffering from a resurgence of black lung disease. But industry pushback is delaying federal rules that would reduce miners’ exposure to deadly silica dust.</p><p><a href=\"https://e360.yale.edu/features/black-lung-pennsylvania\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "How the Next El Niño Could Lock in a Hotter Climate",
-      "link": "https://e360.yale.edu/digest/super-el-nino-climate-regime-shift",
-      "pubDate": "2026-04-29T04:57:00-04:00",
-      "description": "<blockquote><p>El Niño is temporary, but scientists warn that its climate impacts are not.</p><p><a href=\"https://e360.yale.edu/digest/super-el-nino-climate-regime-shift\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }

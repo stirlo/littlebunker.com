@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-05-29T12:20:52.407752",
+  "fetched_at": "2026-05-29T16:50:32.967970",
   "items": [
     {
       "title": "Arctic Ocean passed a tipping point and scientists say it may never recover",
       "link": "https://www.sciencedaily.com/releases/2026/05/260528082457.htm",
       "pubDate": "Thu, 28 May 2026 08:58:49 EDT",
       "description": "The Arctic Ocean may have crossed a dangerous tipping point. Scientists say the rapid disappearance of sea ice is triggering a hidden chemical shift that is stripping the ocean of nitrate — a nutrient essential for the tiny plankton that support Arctic life. As nitrate levels plunge, the entire food web could feel the impact, from fish and seabirds to whales and polar ecosystems.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Antarctica’s ice sheet hit a climate tipping point 1 million years ago",
+      "link": "https://www.sciencedaily.com/releases/2026/05/260528082455.htm",
+      "pubDate": "Fri, 29 May 2026 00:16:34 EDT",
+      "description": "A new study suggests Antarctica’s ice sheet hit a climate tipping point about one million years ago, making it far more reactive to temperature and CO2 changes. Researchers warn this surprising sensitivity could offer clues about how the continent may respond to today’s warming world.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260510234711.htm",
       "pubDate": "Sun, 10 May 2026 23:47:11 EDT",
       "description": "The Toba supereruption 74,000 years ago was so massive it may have plunged Earth into years of darkness and cold, leading some scientists to believe humanity nearly went extinct. Yet archaeological evidence from Africa and Asia suggests early humans were far more resilient than once thought. Instead of disappearing, some communities adapted with new tools, new survival strategies, and remarkable flexibility. The disaster may not have destroyed humanity — it may have revealed just how tough humans really are.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists stunned as volcano cloud destroys methane in the atmosphere",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260509210640.htm",
-      "pubDate": "Sun, 10 May 2026 01:01:20 EDT",
-      "description": "A colossal underwater volcano in the South Pacific may have revealed a surprising new weapon against climate change. After the 2022 eruption of Hunga Tonga–Hunga Ha’apai, scientists detected enormous amounts of formaldehyde in the atmosphere — a telltale sign that methane, one of the planet’s most powerful greenhouse gases, was being destroyed. Researchers now believe volcanic ash mixed with salty seawater and sunlight created reactive chlorine particles that effectively “cleaned up” some of the methane released by the eruption itself.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
