@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Flood-induced livelihood vulnerability and migration as an adaptation strategy: evidence from farm households of the flood-prone region of Eastern India"
+date: 2026-06-01 00:00:00 +0000
+categories: [research_papers]
+tags: ['climate-migration', 'flooding', 'displacement', 'economic-impacts', 'climate-costs', 'extreme-weather']
+keywords: ['livelihood', 'climate-migration', 'induced', 'displacement', 'economic-impacts', 'flood', 'climate-costs', 'flooding']
+description: "The region is also characterized by socio-economic and educational backwardness"
+external_url: https://www.frontiersin.org/articles/10.3389/fclim.2026.1695726
+is_feed: true
+source_feed: "Frontiers in Climate | New and Recent Articles"
+feed_category: "research_papers"
+---
+
+IntroductionClimate change is increasingly intensifying biophysical and resource constraints on agricultural systems, thereby threatening the sustainability and resilience of rural livelihoods. The Seemanchal region of Bihar, comprising the districts of Katihar, Purnea, Kishanganj, and Araria, faced recurrent flooding caused by the Kosi, Mahananda River and their tributaries. The region is also characterized by socio-economic and educational backwardness. Against this backdrop, the present study examined flood-induced livelihood vulnerability and migration strategy among farm households in the Seemanchal region.MethodsThe study employed a descriptive research design based on personal interviews conducted with 240 migrant workers belonging to flood-prone farm households across the Seemanchal region. Data were collected to assess livelihood vulnerability, migration characteristics, remittance contributions, and intra-household dynamics. A Livelihood Vulnerability Index (LVI) approach was used to estimate the relative vulnerability of the study area by considering exposure, sensitivity, and adaptive capacity indicators.ResultsThe assessment revealed that the Seemanchal region exhibited moderate-to-low relative livelihood vulnerability, with an overall Livelihood Vulnerability Index value of −0.089. All four districts demonstrated relatively higher adaptive capacity compared to their level of exposure to floods. The findings further indicated that migration was predominantly characterized by short-term internal movement of young male household members. Remittances from migrants constituted a substantial share of household income and contributed to livelihood sustenance and risk management. However, despite their enhanced economic contribution, migrant members did not necessarily experience greater decision-making authority or ownership of household assets within the family structure.DiscussionThe study underscores the critical role of migration and livelihood diversification in enhancing the adaptive capacity of flood-prone farm households. Expanding non-farm income opportunities can strengthen resilience against recurrent climatic shocks in vulnerable regions such as Seemanchal. At the same time, the findings highlight the need to address intra-household socio-economic dynamics to ensure equitable distribution of benefits arising from migration. Future research should focus on identifying institutional and policy strategies that can further strengthen household resilience and improve the socio-economic well-being of both migrant and non-migrant family members in flood-affected areas.
+
+[Read original article](https://www.frontiersin.org/articles/10.3389/fclim.2026.1695726)
