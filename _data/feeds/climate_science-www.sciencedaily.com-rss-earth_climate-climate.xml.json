@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-02T14:12:21.897722",
+  "fetched_at": "2026-06-02T18:46:58.010025",
   "items": [
+    {
+      "title": "A hidden pollutant is changing how the world's forests breathe",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260602021659.htm",
+      "pubDate": "Tue, 02 Jun 2026 10:11:57 EDT",
+      "description": "A massive global analysis found that nitrogen pollution can either speed up or dramatically slow the natural \"breathing\" of forest soils, depending on the ecosystem's condition. The results reveal hidden tipping points that could affect how forests store carbon and cope with climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "New hydrogen breakthrough turns waste heat into clean fuel",
       "link": "https://www.sciencedaily.com/releases/2026/06/260601025345.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260512202353.htm",
       "pubDate": "Wed, 13 May 2026 01:47:53 EDT",
       "description": "Researchers have uncovered unexpectedly high levels of silicone-based pollutants called methylsiloxanes floating through the atmosphere across cities, rural regions, and even forests. Much of the pollution appears to come from vehicle emissions, likely linked to engine oil additives that survive combustion and escape into the air. Scientists say humans may inhale more of these compounds daily than other notorious pollutants like PFAS or microplastics.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists discover the Southern Ocean is “sweating” more as climate change intensifies",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260512202337.htm",
-      "pubDate": "Tue, 12 May 2026 20:23:37 EDT",
-      "description": "A remote island between Australia and Antarctica is showing signs of a dramatic climate transformation. Scientists found storms over Macquarie Island now unleash much heavier rainfall than they did decades ago, soaking ecosystems and altering fragile vegetation. The discovery hints that the Southern Ocean — one of Earth’s biggest climate regulators — may be changing faster than expected. Researchers say the ocean could now be cooling itself by “sweating” more moisture into the atmosphere.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
