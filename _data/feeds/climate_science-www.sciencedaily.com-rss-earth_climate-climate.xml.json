@@ -4,13 +4,37 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-03T09:58:43.425789",
+  "fetched_at": "2026-06-03T14:54:06.227747",
   "items": [
+    {
+      "title": "Super Typhoon Sinlaku triggered atmospheric gravity waves visible from space",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260603023113.htm",
+      "pubDate": "Wed, 03 Jun 2026 06:53:45 EDT",
+      "description": "One of the most powerful typhoons ever recorded this early in the Pacific season did more than unleash flooding and extreme winds—it sent enormous ripples all the way into the upper atmosphere. As Super Typhoon Sinlaku rapidly exploded into a category 5-equivalent storm, satellites captured rare gravity waves spreading outward like rings on a pond, visible high above Earth through a faint glow in the atmosphere.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Typhoon Jangmi’s giant eye lights up the night as it approaches Japan",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260603023110.htm",
+      "pubDate": "Wed, 03 Jun 2026 07:07:57 EDT",
+      "description": "Typhoon Jangmi powered toward southern Japan with heavy rain, strong winds, and a striking appearance from space. Nighttime satellite images revealed a large eye and intricate swirling structures within the storm. As Jangmi intensified, its outer bands spread over land, raising concerns about flooding and prolonged downpours across parts of Japan.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "A hidden pollutant is changing how the world's forests breathe",
       "link": "https://www.sciencedaily.com/releases/2026/06/260602021659.htm",
       "pubDate": "Tue, 02 Jun 2026 10:11:57 EDT",
       "description": "A massive global analysis found that nitrogen pollution can either speed up or dramatically slow the natural \"breathing\" of forest soils, depending on the ecosystem's condition. The results reveal hidden tipping points that could affect how forests store carbon and cope with climate change.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Scientists confirm a deep earthquake that shouldn't exist",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260602021636.htm",
+      "pubDate": "Wed, 03 Jun 2026 01:32:43 EDT",
+      "description": "Scientists have confirmed that a mysterious Utah earthquake first detected in 1979 really did occur nearly 90 kilometers underground—far deeper than anyone thought earthquakes could happen beneath a continent. By reanalyzing decades of seismic data, researchers identified a rare class of \"continental mantle earthquakes\" occurring deep in Earth’s upper mantle, where rock is expected to slowly flow rather than suddenly break.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -139,30 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260513221807.htm",
       "pubDate": "Thu, 14 May 2026 08:46:07 EDT",
       "description": "Scientists exploring deep underwater canyons off the coast of Western Australia uncovered a hidden world packed with bizarre and elusive marine life — including signs of the legendary giant squid. By analyzing traces of DNA floating in seawater from depths exceeding 4 kilometers, researchers identified 226 species ranging from deep-diving whales to strange fish rarely or never seen in the region before. Some of the creatures may even be unknown to science.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Giant “stealth” magma surge triggered thousands of earthquakes beneath Atlantic island",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260513221803.htm",
-      "pubDate": "Thu, 14 May 2026 09:50:50 EDT",
-      "description": "Deep beneath Portugal’s São Jorge Island, a massive surge of magma silently pushed upward from more than 20 kilometers underground in 2022, triggering thousands of earthquakes and briefly raising fears of a volcanic eruption. Scientists discovered that the molten rock climbed astonishingly fast — enough to fill 32,000 Olympic swimming pools — before stalling just 1.6 kilometers below the surface in what researchers call a “failed eruption.”",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists discover the strange way CO2 cools part of Earth’s atmosphere",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260513221759.htm",
-      "pubDate": "Thu, 14 May 2026 03:24:00 EDT",
-      "description": "Scientists have finally cracked the mystery behind one of climate change’s strangest fingerprints: while Earth’s surface heats up, the upper atmosphere is rapidly cooling. Researchers at Columbia University discovered that carbon dioxide acts very differently high above the planet, where it actually helps radiate heat into space instead of trapping it. The team found that certain infrared wavelengths fall into a “Goldilocks zone” that becomes increasingly effective as CO2 levels rise, accelerating cooling in the stratosphere.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Scientists discover a mysterious silicone pollutant that may be everywhere",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260512202353.htm",
-      "pubDate": "Wed, 13 May 2026 01:47:53 EDT",
-      "description": "Researchers have uncovered unexpectedly high levels of silicone-based pollutants called methylsiloxanes floating through the atmosphere across cities, rural regions, and even forests. Much of the pollution appears to come from vehicle emissions, likely linked to engine oil additives that survive combustion and escape into the air. Scientists say humans may inhale more of these compounds daily than other notorious pollutants like PFAS or microplastics.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
