@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-06-04T12:06:33.910512",
+  "fetched_at": "2026-06-04T16:23:48.685043",
   "items": [
+    {
+      "title": "Humans Are Changing How Nature Smells, With Risks for Wildlife",
+      "link": "https://e360.yale.edu/features/smellscapes",
+      "pubDate": "2026-06-04T08:38:00-04:00",
+      "description": "<p>A growing body of research shows how air pollution, fertilizers, and fungicides are altering the chemical signals that plants and animals use to communicate. Scientists warn that insect reproduction, foraging, navigation, and even the pollination of crops could be affected.</p><p><a href=\"https://e360.yale.edu/features/smellscapes\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "U.S. to Dismantle System Tracking Atlantic Currents That Are at Risk of Collapse",
       "link": "https://e360.yale.edu/digest/trump-ooi-amoc",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/features/amoc-climate-change",
       "pubDate": "2026-05-07T05:59:00-04:00",
       "description": "<p>Scientists are increasingly worried that a vast system of ocean circulation, which delivers warmth to northern Europe and impacts climate globally, is at risk of collapse. Mounting evidence suggests it may be nearing a tipping point, though the research is far from certain.</p><p><a href=\"https://e360.yale.edu/features/amoc-climate-change\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Rising Seas Could Encircle New Orleans by the End of This Century",
-      "link": "https://e360.yale.edu/digest/new-orleans-sea-level-rise",
-      "pubDate": "2026-05-06T06:06:00-04:00",
-      "description": "<blockquote><p>Rising seas could render New Orleans uninhabitable before the end of this century, according to a new paper calling for a managed retreat from the city.</p><p><a href=\"https://e360.yale.edu/digest/new-orleans-sea-level-rise\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }

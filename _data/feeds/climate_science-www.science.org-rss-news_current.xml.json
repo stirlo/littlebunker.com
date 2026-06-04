@@ -4,13 +4,21 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-04T12:06:35.450721",
+  "fetched_at": "2026-06-04T16:23:50.822090",
   "items": [
     {
-      "title": "NIH scientists criminally charged for bringing monkeypox virus into US, although samples ‘inactivated’",
+      "title": "Democrats on House China committee decry dismissal of National Science Board",
+      "link": "https://www.science.org/content/article/democrats-house-china-committee-decry-dismissal-national-science-board",
+      "pubDate": "",
+      "description": "Letter also blames Trump for letting China surpass United States in research spending",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
+    {
+      "title": "NIH scientists plead not guilty to smuggling monkeypox viruses into U.S.",
       "link": "https://www.science.org/content/article/nih-scientists-criminally-charged-bringing-monkeypox-virus-us-although-samples",
       "pubDate": "",
-      "description": "Defendants plead not guilty but could  face up to 5 years prison for alleged “smuggling” and “conspiracy”",
+      "description": "Defendants face prison time for criminal charges but samples may all have been inactivated and used for routine diagnostics",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     },
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/desperate-fight-ebola-outbreak-congo-weighs-using-longshot-vaccine-options",
       "pubDate": "",
       "description": "Existing vaccines may offer some protection against the rare strain now circulating—but the evidence is scant",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Court blocks NSF’s transfer of climate lab’s supercomputing facility",
-      "link": "https://www.science.org/content/article/court-blocks-nsf-s-transfer-climate-lab-s-supercomputing-facility",
-      "pubDate": "",
-      "description": "Proposed switch in management caused irreparable harm to NCAR, judge finds",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
