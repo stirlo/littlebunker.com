@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Nigeria Cholera Outbreak: Situation Report #2 (June 4, 2026)"
+date: 2026-06-04 19:57:25 +0000
+categories: [extreme_weather]
+tags: ['urgent', 'public-health', 'year-2026', 'climate-health']
+keywords: ['climate-health', 'cholera', 'year-2026', 'outbreak', 'nigeria', 'urgent', 'public-health']
+description: "Country: Nigeria Source: International Medical Corps Please refer to the attached file"
+external_url: https://reliefweb.int/report/nigeria/nigeria-cholera-outbreak-situation-report-2-june-4-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Nigeria Source: International Medical Corps Please refer to the attached file. FAST FACTS International Medical Corps is active in seven of the 12 local government areas (LGAs) where suspected cases of acute watery diarrhea have spread, involving 138 settlements across 40 wards. According to the State Ministry of Health, 6,078 suspected cases and 65 deaths had been reported as of June 3. Two Cholera Treatment Centers and 12 oral rehydration points are currently operational. International Medical Corps supports four pillars of the state's Public Health Emergency Operations Center: case management through critical donations, risk communication and community engagement, surveillance and coordination. OUR FOOTPRINT International Medical Corps has worked in Nigeria since 2014, delivering lifesaving services such as primary and secondary healthcare, surveillance and response to infectious diseases, health system strengthening, nutrition and food security, prevention and response to violence against women and girls, and water, sanitation and hygiene. OUR RESPONSE International Medical Corps has deployed 218 volunteer community mobilizers (VCMs) to search for cases across four LGAs. VCMs across six LGAs are creating awareness on cholera prevention, symptoms and referral pathways. They have so far referred 85 suspected cases meeting the case definition. We have critical medical commodities and supplies for case management. Existing Gaps and Needs Since the onset of the outbreak there has been a 288% increase in suspected cases, with new cases emerging in seven newly affected LGAs. Increased surveillance and active case searching, coupled with the mass movement during the Sallah period, have contributed to the sharp increase. It will require both human and material resources to curb the spread of the outbreak. Key gaps identified in the response include: insufficient medical supplies to sustain case management activities at the CTCs, despite donations from International Medical Corps and other partners, due to the surge in cases; limited availability of hygiene kits and case-area targeted intervention teams for affected households, and of infection-prevention and control materials at health facilities; inadequate support for safe medical-waste management at the IDH; a need for additional human resources to manage the increasing number of cases, averaging 274 per day; a need to deploy more VCMs over a broader area for longer time periods, alongside strengthened logistical support to disease-surveillance and notification officers to enhance active case search, RCCE activities and line listing; and a need for additional ORPs, with human resources and medical commodities support to those already established.
+
+[Read original article](https://reliefweb.int/report/nigeria/nigeria-cholera-outbreak-situation-report-2-june-4-2026)
