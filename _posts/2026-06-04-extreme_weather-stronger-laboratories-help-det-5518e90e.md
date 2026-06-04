@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Stronger laboratories help detect diseases earlier and protect communities in Syria"
+date: 2026-06-04 08:43:18 +0000
+categories: [extreme_weather]
+tags: ['climate-health', 'public-health', 'year-2026']
+keywords: ['laboratories', 'public-health', 'year-2026', 'help', 'climate-health', 'stronger']
+description: "They also help guide treatment, strengthen surveillance, and protect communities"
+external_url: https://reliefweb.int/report/syrian-arab-republic/stronger-laboratories-help-detect-diseases-earlier-and-protect-communities-syria
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Syrian Arab Republic Source: World Health Organization 31 May 2026, Aleppo, Syrian Arab Republic – Strong laboratory services are essential for detecting diseases early, confirming diagnoses, and supporting timely outbreak response. They also help guide treatment, strengthen surveillance, and protect communities. More than 50 laboratory technicians from across Syria recently participated in specialized training on the diagnosis of priority epidemic diseases, including malaria and leishmaniasis. The training, supported by the World Health Organization (WHO) in collaboration with the Ministry of Health and funded by Italy through the Italian Agency for Development Cooperation (AICS), covered sample collection and transportation, laboratory diagnostic protocols, and biosafety procedures. It also ensured that laboratory staff are up to date with standard operating procedures (SOPs) and best practices for safe and accurate testing. 'My brother had just returned from traveling when he got sick. He felt dizzy and very tired, so we took him to the doctor, who referred us to the National Hospital and then the Central Public Health laboratory (CPHL) for malaria testing,' says Jalal Bateeh from Rural Damascus. 'The laboratory helped us quickly and for free. We didn't have to go from one hospital to another, which reduced the burden and costs. The results come quickly, helping save many lives.' Dr. Wasim Battah, Director of Laboratories and Medical Tests at the Ministry of Health, emphasized the critical role of laboratories in supporting patient care and outbreak response: 'Laboratory tests contribute to diagnosing around 60–70% of diseases, supporting clinical assessments. This training is crucial as it strengthens technician skills, improves rapid disease detection, and ensures patients receive timely and appropriate treatment.' Ramia Al-Soufi, a laboratory technician at the CPHL, described the training as a critical step forward. 'Diagnosis and training are at the heart of our work. One of the successes after the training was a case correctly diagnosed in one of the governorates, with results matching those of the reference laboratory in Damascus. This shows how essential training is for improving disease diagnosis and reducing the need for patients to travel long distances.' Support from the Italian Agency for Development Cooperation (AICS) will also help rehabilitate two public health laboratories and digitalize health data, strengthening early recovery efforts and improving the resilience of Syria's health system. Building on Italy's support since 2020, this contribution will help WHO and the Ministry of Health improve preparedness for current and future public health threats.
+
+[Read original article](https://reliefweb.int/report/syrian-arab-republic/stronger-laboratories-help-detect-diseases-earlier-and-protect-communities-syria)
