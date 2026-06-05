@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-06-05T08:47:22.948142",
+  "fetched_at": "2026-06-05T12:13:52.833843",
   "items": [
+    {
+      "title": "Former Crew Members Detail Harm Inflicted by Unregulated Squid Fishing",
+      "link": "https://e360.yale.edu/digest/squid-fishing-report",
+      "pubDate": "2026-06-05T08:12:00-04:00",
+      "description": "<blockquote><p>Former crew members on squid fishing expeditions report environmental destruction and labor abuses, due to a regulatory vacuum.</p><p><a href=\"https://e360.yale.edu/digest/squid-fishing-report\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Humans Are Changing How Nature Smells, With Risks for Wildlife",
       "link": "https://e360.yale.edu/features/smellscapes",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/flowering-plants-evolutionary-history",
       "pubDate": "2026-05-08T09:50:00-04:00",
       "description": "<p>A new study identifies thousands of flowering plants belonging to rare and ancient lineages that are in urgent need of protection. </p><p><a href=\"https://e360.yale.edu/digest/flowering-plants-evolutionary-history\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Why Fears Are Growing Over the Fate of a Key Atlantic Current",
-      "link": "https://e360.yale.edu/features/amoc-climate-change",
-      "pubDate": "2026-05-07T05:59:00-04:00",
-      "description": "<p>Scientists are increasingly worried that a vast system of ocean circulation, which delivers warmth to northern Europe and impacts climate globally, is at risk of collapse. Mounting evidence suggests it may be nearing a tipping point, though the research is far from certain.</p><p><a href=\"https://e360.yale.edu/features/amoc-climate-change\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
