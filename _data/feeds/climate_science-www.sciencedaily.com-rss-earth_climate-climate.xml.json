@@ -4,13 +4,21 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-06T12:09:33.659114",
+  "fetched_at": "2026-06-06T14:47:17.338596",
   "items": [
     {
       "title": "Scientists discover vast hidden structure beneath Antarctica’s ice",
       "link": "https://www.sciencedaily.com/releases/2026/06/260604044244.htm",
       "pubDate": "Thu, 04 Jun 2026 11:23:27 EDT",
       "description": "A giant fan-shaped network of hidden basins has been discovered beneath East Antarctica, revealing that several well-known subglacial features are actually part of one massive geological structure. The finding sheds new light on Antarctica’s ancient tectonic history and could help scientists better understand how the ice sheet behaves today.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
+    {
+      "title": "Rising seas could drown mangroves and release vast stores of carbon",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260604044238.htm",
+      "pubDate": "Fri, 05 Jun 2026 04:03:39 EDT",
+      "description": "Mangroves are famous for trapping vast amounts of carbon, helping slow climate change. However, a new study suggests rising sea levels could eventually reduce that benefit across entire forests. As flooding becomes too extreme, mangroves may die off and their carbon-rich soils could erode, potentially turning these coastal ecosystems from carbon sinks into carbon sources.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     },
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260515233350.htm",
       "pubDate": "Sun, 17 May 2026 20:40:10 EDT",
       "description": "Scientists have uncovered evidence that the vanished Tethys Ocean may have sculpted Central Asia’s mountainous landscape during the dinosaur era. Using decades of geological data, researchers found that distant tectonic activity linked to the ancient ocean appears to match periods of rapid mountain formation. Surprisingly, climate and mantle processes played only a minor role. The discovery could reshape how scientists understand mountain building across the planet.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Deadly “red sky” solar storm from 800 years ago discovered in ancient trees",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260513221818.htm",
-      "pubDate": "Thu, 14 May 2026 01:55:09 EDT",
-      "description": "Researchers in Japan traced a hidden medieval solar storm using ancient tree rings and centuries-old sky observations. The team linked reports of eerie red auroras with spikes of carbon-14 trapped in buried wood, revealing a powerful solar radiation event around 1200 CE. The findings suggest the Sun was far more active at the time, with unusually short solar cycles.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
