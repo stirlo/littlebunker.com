@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-08T21:55:37.210590",
+  "fetched_at": "2026-06-08T23:16:40.667328",
   "items": [
+    {
+      "title": "NIH plans to cap number of grants a scientist can have at once",
+      "link": "https://www.science.org/content/article/nih-plans-cap-number-grants-scientist-can-have-once",
+      "pubDate": "",
+      "description": "Agency is bringing back a version of a funding limit that was quickly abandoned nearly a decade ago",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Leading supplier of research monkeys declares bankruptcy",
       "link": "https://www.science.org/content/article/leading-supplier-research-monkeys-declares-bankruptcy",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/ai-executives-join-call-stricter-regulation-synthetic-biology",
       "pubDate": "",
       "description": "Letter urges Congress to require DNA firms to screen orders to prevent AI-aided bioweapons",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "House spending panel proposes slight raise for NIH in 2027",
-      "link": "https://www.science.org/content/article/house-spending-panel-proposes-slight-raise-nih-2027",
-      "pubDate": "",
-      "description": "Draft bill rejects Trump’s plan to slash and rejigger the $47 billion biomedical research agency",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
