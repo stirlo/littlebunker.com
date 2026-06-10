@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-06-10T12:28:56.977679",
+  "fetched_at": "2026-06-10T16:39:01.414869",
   "items": [
+    {
+      "title": "In a U.S. First, Solar Supplied More Power Than Coal Last Month",
+      "link": "https://e360.yale.edu/digest/us-solar-coal",
+      "pubDate": "2026-06-10T08:51:00-04:00",
+      "description": "<p>Last month, for the first time in the U.S., solar generated more electricity than coal, a reflection of both the rapid adoption of renewable power and the declining fortunes of America's aging fleet of coal power plants.</p><p><a href=\"https://e360.yale.edu/digest/us-solar-coal\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "Long Lost African Bird Captured in Striking Photos",
       "link": "https://e360.yale.edu/digest/black-lored-waxbills",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/digest/great-white-sharks-southern-california",
       "pubDate": "2026-05-13T08:41:00-04:00",
       "description": "<p>Southern California has seen a spike in great white shark sightings amid a spate of unseasonably warm spring weather. Experts expect to see more unusual heat, and more sharks, in the months ahead.</p><p><a href=\"https://e360.yale.edu/digest/great-white-sharks-southern-california\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "By Fueling Drought, El Niño Raises the Risk of Violent Conflict",
-      "link": "https://e360.yale.edu/digest/el-nino-indian-ocean-dipole-armed-conflict",
-      "pubDate": "2026-05-12T07:59:00-04:00",
-      "description": "<p>A study of hundreds of armed conflicts around the world finds that severe drought raises the risk of violent clashes. The study is the latest addition to a growing body of evidence showing that climate shocks spark conflict. </p><p><a href=\"https://e360.yale.edu/digest/el-nino-indian-ocean-dipole-armed-conflict\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
