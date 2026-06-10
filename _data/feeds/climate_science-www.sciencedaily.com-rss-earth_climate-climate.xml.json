@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-09T23:21:11.614833",
+  "fetched_at": "2026-06-10T04:19:35.570882",
   "items": [
+    {
+      "title": "An invisible forever chemical rain is falling across the planet",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260609025509.htm",
+      "pubDate": "Tue, 09 Jun 2026 03:11:45 EDT",
+      "description": "A surprising study suggests that chemicals introduced to protect the ozone layer may have unintentionally created a growing global pollution problem. Researchers found that refrigerants and certain anesthetic gases have generated more than 335,000 tonnes of trifluoroacetic acid (TFA), a highly persistent \"forever chemical,\" that has been deposited across Earth's surface since 2000. The pollutant is now showing up everywhere from rainwater to remote Arctic ice, and scientists expect levels to keep rising.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Scientists discover vast hidden structure beneath Antarctica’s ice",
       "link": "https://www.sciencedaily.com/releases/2026/06/260604044244.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260518041417.htm",
       "pubDate": "Tue, 19 May 2026 00:29:18 EDT",
       "description": "Antarctica’s Hektoria Glacier collapsed with shocking speed, retreating 15 miles in only 15 months and setting a modern record for grounded ice loss. Scientists say warming conditions and ocean-driven instability turned the glacier from seemingly stable to rapidly unraveling almost overnight.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Ancient lost ocean may have built Central Asia’s dinosaur-era mountains",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260515233350.htm",
-      "pubDate": "Sun, 17 May 2026 20:40:10 EDT",
-      "description": "Scientists have uncovered evidence that the vanished Tethys Ocean may have sculpted Central Asia’s mountainous landscape during the dinosaur era. Using decades of geological data, researchers found that distant tectonic activity linked to the ancient ocean appears to match periods of rapid mountain formation. Surprisingly, climate and mantle processes played only a minor role. The discovery could reshape how scientists understand mountain building across the planet.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
