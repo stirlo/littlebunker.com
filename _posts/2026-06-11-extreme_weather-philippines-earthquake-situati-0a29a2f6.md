@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Philippines Earthquake: Situation Report #1, June 11, 2026"
+date: 2026-06-11 18:26:43 +0000
+categories: [extreme_weather]
+tags: ['cyclone', 'year-2026', 'urgent', 'typhoon', 'climate-health', 'public-health', 'tropical-storms']
+keywords: ['cyclone', 'year-2026', 'philippines', 'urgent', 'typhoon', 'climate-health', 'situation', 'earthquake']
+description: "Country: Philippines Source: International Medical Corps Please refer to the attached file"
+external_url: https://reliefweb.int/report/philippines/philippines-earthquake-situation-report-1-june-11-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Philippines Source: International Medical Corps Please refer to the attached file. FAST FACTS On June 8, a powerful earthquake struck the Mindanao region in southern Philippines. Sarangani is among the hardest-hit provinces. Immediate needs include food assistance, safe drinking water, emergency shelter, infrastructure rehabilitation, livelihood recovery and psychosocial support. OUR FOOTPRINT International Medical Corps has been active in the Philippines since 2013. Since then, we have responded to several major typhoons that hit the country, including Super Typhoon Gaemi (2024), Typhoon Kristine (2024), Typhoon Wipha (2025), Tropical Cyclone Ragasa (2025), Typhoon Kalmaegi (2025) and Typhoon Fung Wong (2025). OUR RESPONSE International Medical Corps has deployed a team to Sarangani province to provide essential medicine, medical supplies, fuel, generator sets and hygiene kits to health facilities in severely damaged municipalities. Sarangani is among the hardest-hit provinces in Mindanao. The most urgent humanitarian needs are medical and food assistance, safe drinking water, emergency shelter, hygiene kits, infrastructure rehabilitation, livelihood recovery and psychosocial support, particularly in Glan and Maasim municipalities. Glan faces access constraints due to landslides and damaged bridges, while Maasim continues to manage significant displacement near the earthquake epicenter. Families remain in evacuation centers due to concerns about aftershocks and housing safety. Within 24 hours of the earthquake, International Medical Corps staff travelled to the affected areas in Mindanao to conduct a rapid assessment and initiate response activities in collaboration with the local government and health units, including providing humanitarian support to Rural Health Units (RHUs) and health facilities in severely damaged municipalities. Our team will travel to more municipalities in Sarangani province to provide much needed support, including distributing generator sets, fuel and hygiene kits. International Medical Corps remains committed to collaborating with local partners—including Sarangani Provincial Disaster Risk Reduction and Management Office, Sarangani Provincial Health Office, Municipal Health Offices in Maasim and Glan, the Health in Emergency cluster at the national level and the Philippine Inclusive NGO Network—and donors to ensure that vulnerable populations receive the care and resources they need to rebuild their lives. Through these partnerships, we will continue to ensure that our response is timely, well-coordinated and effective for affected communities in the Philippines.
+
+[Read original article](https://reliefweb.int/report/philippines/philippines-earthquake-situation-report-1-june-11-2026)
