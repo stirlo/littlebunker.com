@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-06-11T10:52:41.579840",
+  "fetched_at": "2026-06-11T14:43:57.855883",
   "items": [
+    {
+      "title": "Efforts to Save Kelp Forests from Ocean Warming Are Ramping Up",
+      "link": "https://e360.yale.edu/features/kelp-restoration",
+      "pubDate": "2026-06-11T07:45:00-04:00",
+      "description": "<p>At one time, kelp forests — which shelter fish, slow erosion, and sequester carbon — grew along a third of the world’s coastlines. Now, scientists are working to bolster heat-stressed kelp by attacking the urchins that prey on them and transplanting hardier kelp varieties.</p><p><a href=\"https://e360.yale.edu/features/kelp-restoration\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "In a U.S. First, Solar Supplied More Power Than Coal Last Month",
       "link": "https://e360.yale.edu/digest/us-solar-coal",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/features/picayune-strand-restoration-project",
       "pubDate": "2026-05-14T06:40:00-04:00",
       "description": "<p>The campaign to restore the Everglades has received a boost with completion of a key project that returns the flow of water to 55,000 acres that had once been drained for development. Experts see it as a major step forward in bringing back South Florida’s River of Grass.</p><p><a href=\"https://e360.yale.edu/features/picayune-strand-restoration-project\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "Warmer Waters Bring Great White Sharks to Southern California",
-      "link": "https://e360.yale.edu/digest/great-white-sharks-southern-california",
-      "pubDate": "2026-05-13T08:41:00-04:00",
-      "description": "<p>Southern California has seen a spike in great white shark sightings amid a spate of unseasonably warm spring weather. Experts expect to see more unusual heat, and more sharks, in the months ahead.</p><p><a href=\"https://e360.yale.edu/digest/great-white-sharks-southern-california\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
