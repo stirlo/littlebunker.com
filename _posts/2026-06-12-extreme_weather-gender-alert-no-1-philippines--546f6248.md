@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Gender Alert No. 1 - Philippines: 7.8 Magnitude Sarangani Earthquake (As of 12 June 2026)"
+date: 2026-06-12 07:29:58 +0000
+categories: [extreme_weather]
+tags: ['public-health', 'climate-health', 'year-2026', 'urgent']
+keywords: ['climate-health', 'public-health', 'gender', 'philippines', 'alert', 'year-2026', 'urgent']
+description: "Country: Philippines Source: UN Women Please refer to the attached file"
+external_url: https://reliefweb.int/report/philippines/gender-alert-no-1-philippines-78-magnitude-sarangani-earthquake-12-june-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Philippines Source: UN Women Please refer to the attached file. On 8 June, a magnitude 7.8 earthquake along the Cotabato Trench with a depth of 33 km occurred 32 km offshore west of Maasim, Sarangani province, Mindanao at 7:37 AM local time. Under the Philippine Institute of Volcanology and Seismology (PHIVOLCS) Earthquake Intensity Scale, the highest reported intensity is 8 (very destructive) out of 10, which was felt in General Santos City. As of 11 June 2026, 7:00 AM, 2,964 aftershocks have been recorded, ranging from magnitudes 1.2 to 6.4. According to the National Disaster Risk Reduction and Management Council (NDRRMC), over 346,449 people (75,324 families) were affected, of which 3,515 families or 16,349 persons were served inside 32 Evacuation Centres and 7,279 families or 29,260 persons were served outside Evacuation Centres. The Government reported 47 people have died, 31 remain missing, and 688 have been injured as of 11 June 2026. These figures, as well as the number of people affected and displaced, remain provisional pending government validation and the completion of ongoing assessments. The earthquake has resulted in widespread displacement and damage to housing, forcing affected populations to stay in unsafe open spaces, makeshift shelters, or with host communities due to fear of aftershocks and structural collapse. Essential services such as water, sanitation, health, and education have been disrupted, while psychosocial distress is widely reported among both children and adults. Livelihood activities have been severely affected, reducing household income and food access, and further deepening vulnerabilities. The situation reflects urgent, multi-sectoral humanitarian needs across shelter, protection, WASH, health, food security, livelihoods, and education. Experience from previous earthquakes in the Philippines demonstrates that disasters exacerbate pre-existing gender inequalities and disproportionately affect women, girls, persons with disabilities, older persons, Indigenous Peoples, LGBTQIA+ persons, and women-headed households. Humanitarian responses should be based on an intersectional gender analysis to ensure that the distinct needs, capacities, and priorities of different groups are addressed. This Gender Alert draws on pre-crisis gender analysis, early sex, age, and disability disaggregated data, and initial assessments undertaken by the Gender in Humanitarian Action (GiHA) Community of Practice and Mindanao GiHA. It provides gendered risks and priority actions that will be refined once sectoral assessments are completed.
+
+[Read original article](https://reliefweb.int/report/philippines/gender-alert-no-1-philippines-78-magnitude-sarangani-earthquake-12-june-2026)
