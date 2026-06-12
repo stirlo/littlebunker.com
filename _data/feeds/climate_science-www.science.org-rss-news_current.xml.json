@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-12T19:10:50.517819",
+  "fetched_at": "2026-06-12T21:54:48.187427",
   "items": [
+    {
+      "title": "New documentary follows researchers’ increasingly fraught career path",
+      "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
+      "pubDate": "",
+      "description": "<em>The Endless Frontier</em> traces the lives of three scientists as they train students and deal with funding pressures",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
       "link": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/study-finds-sharp-decline-black-hispanic-researchers-receiving-nih-funding",
       "pubDate": "",
       "description": "Drop in those receiving grants and fellowships in 2025 shows impact of Trump administration rollbacks to diversity initiatives",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Will the World Cup kick off disease outbreaks?",
-      "link": "https://www.science.org/content/article/will-world-cup-kick-disease-outbreaks",
-      "pubDate": "",
-      "description": "Don’t expect pathogens to steal the show, says research group that studied the risk of visiting fans spreading infections",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
