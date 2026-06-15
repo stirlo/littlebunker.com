@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-15T12:31:00.044545",
+  "fetched_at": "2026-06-15T17:58:00.057836",
   "items": [
+    {
+      "title": "NASA spots giant ocean swell that could signal El Niño’s return",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260614012002.htm",
+      "pubDate": "Mon, 15 Jun 2026 08:09:38 EDT",
+      "description": "NASA satellites have detected a vast pulse of warm water reaching the coast of South America, signaling that El Niño is likely developing. The warm water is being carried eastward by massive ocean waves known as Kelvin waves, which also cause sea levels to rise. El Niño can reshape weather patterns worldwide, bringing floods, droughts, and temperature extremes.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "Beneath our feet lies a fungal superhighway stretching 68 quadrillion miles",
       "link": "https://www.sciencedaily.com/releases/2026/06/260614011845.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260522023116.htm",
       "pubDate": "Fri, 22 May 2026 02:31:16 EDT",
       "description": "The world’s oceans are rising at an accelerating pace, and scientists now say they can fully explain what’s driving it. Warming seawater is the biggest factor, while melting glaciers and polar ice sheets are increasingly pouring more water into the oceans each year. Researchers also solved a puzzling mismatch in sea level measurements that had lingered for years.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Jupiter’s lightning may be 100x more powerful than Earth’s",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260520093756.htm",
-      "pubDate": "Thu, 21 May 2026 02:46:03 EDT",
-      "description": "Jupiter’s storms aren’t just gigantic — they may unleash lightning far more powerful than anything on Earth. Using NASA’s Juno spacecraft, scientists discovered that some lightning bolts on the gas giant could pack up to 100 times the punch of Earth’s lightning, and possibly much more. The findings reveal that Jupiter’s atmosphere works very differently from our own, with massive storms building enormous amounts of energy before erupting in violent flashes across cloud tops towering more than 100 kilometers high.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
