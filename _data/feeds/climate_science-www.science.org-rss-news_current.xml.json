@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-15T21:13:23.140630",
+  "fetched_at": "2026-06-15T23:51:03.695865",
   "items": [
+    {
+      "title": "AI models have a troubling knack for discovering legal loopholes",
+      "link": "https://www.science.org/content/article/ai-models-have-troubling-knack-discovering-legal-loopholes",
+      "pubDate": "",
+      "description": "AIs on their own found ways to exploit regulations and evade current safeguards",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "French physicist and media star loses doctorate after plagiarism investigation",
       "link": "https://www.science.org/content/article/french-physicist-and-media-star-loses-doctorate-after-plagiarism-investigation",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/if-scientists-discover-aliens-they-have-plan-disclosure-day",
       "pubDate": "",
       "description": "New guidelines aim to help scientists verify, communicate, and manage evidence of extraterrestrial intelligence",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "El Niño has begun. It may become the strongest this century",
-      "link": "https://www.science.org/content/article/el-nino-has-begun-it-may-become-strongest-century",
-      "pubDate": "",
-      "description": "After clearing a spring forecasting hurdle, scientists see growing odds of a powerful climate event that could disrupt weather worldwide",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
