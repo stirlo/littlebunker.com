@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-15T17:57:59.775985",
+  "fetched_at": "2026-06-15T21:13:23.140630",
   "items": [
+    {
+      "title": "French physicist and media star loses doctorate after plagiarism investigation",
+      "link": "https://www.science.org/content/article/french-physicist-and-media-star-loses-doctorate-after-plagiarism-investigation",
+      "pubDate": "",
+      "description": "University punishes Étienne Klein after investigation shows he plagiarized part of his Ph.D. thesis",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "New documentary follows researchers’ increasingly fraught career path",
       "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/el-nino-has-begun-it-may-become-strongest-century",
       "pubDate": "",
       "description": "After clearing a spring forecasting hurdle, scientists see growing odds of a powerful climate event that could disrupt weather worldwide",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Study finds sharp decline in Black, Hispanic researchers receiving NIH funding",
-      "link": "https://www.science.org/content/article/study-finds-sharp-decline-black-hispanic-researchers-receiving-nih-funding",
-      "pubDate": "",
-      "description": "Drop in those receiving grants and fellowships in 2025 shows impact of Trump administration rollbacks to diversity initiatives",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
