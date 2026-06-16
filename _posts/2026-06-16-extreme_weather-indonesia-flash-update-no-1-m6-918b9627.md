@@ -1,0 +1,17 @@
+---
+layout: feed_item
+title: "Indonesia: Flash Update: No. 1 – M6.7 Earthquake in Palu, Central Sulawesi – 16 June 2026"
+date: 2026-06-16 14:07:16 +0000
+categories: [extreme_weather]
+tags: ['year-2026']
+keywords: ['update', 'year-2026', 'indonesia', 'flash']
+description: "Country: Indonesia Source: ASEAN Coordinating Centre for Humanitarian Assistance Please refer to the attached file"
+external_url: https://reliefweb.int/report/indonesia/flash-update-no-1-m67-earthquake-palu-central-sulawesi-16-june-2026
+is_feed: true
+source_feed: "ReliefWeb - Updates"
+feed_category: "extreme_weather"
+---
+
+Country: Indonesia Source: ASEAN Coordinating Centre for Humanitarian Assistance Please refer to the attached file. OVERVIEW: At 1027 HRS UTC+7 on 16 June 2026, BMKG reported a magnitude 6.7 earthquake (depth 16 km, corrected from 10km), with the epicentre located on land at 1.04° S and 120.23 E°, about 42 km southeast of Palu, Central Sulawesi. BMKG modeling results indicated no tsunami potential. Meanwhile, as of 1330H UTC+7, BMKG monitoring showed 71 aftershocks with the highest magnitude being M5.2. PRELIMINARY ANALYSIS: According to BMKG, considering the location of the epicentre and the depth of the hypocentre, the earthquake was a shallow earthquake caused by the activity of the Sausu fault. BMKG's analysis of the source mechanism indicated that the earthquake had an oblique normal faulting mechanism with a downward strike-slip movement. Based on its magnitude and depth, the earthquake was expected to generate moderate to severe ground shaking across the affected areas. IMPACTS AND DAMAGES: BMKG and BNPB reported that the earthquake generated strong ground shaking across Central Sulawesi, reaching VII MMI in Palolo and Sigi, VI–VII MMI in Torue, Parigi Moutong, and South Parigi, and V–VI MMI in Palu City and Sigi Biromaru. Tremors were also felt in Donggala and Poso. Reports indicate that residents in several affected areas panicked and evacuated their homes due to concerns over possible aftershocks. Preliminary assessments indicate moderate structural damage to several buildings across Palu City, Sigi Regency, and Parigi Moutong Regency. Detailed damage assessments are ongoing by local authorities. (BNPB, BMKG) RESPONSE EFFORTS: BNPB and Local Disaster Management Authority (BPBD) in Palu City, Donggala, Poso, Sigi Regency, and Parigi Moutong Regencies continue to coordinate with relevant agencies to monitor and assess the impact and damages from the earthquake. Authorities immediately provided assistance to affected localities. BMKG has dispatched a special team to conduct survey and directly assess the impact of the earthquake on the ground. BMKG urged the public to stay away from buildings cracked or damaged by the earthquake and to increase vigilance for potential aftershocks The AHA Centre continues to closely monitor the situation in coordination with BNPB and will provide updates as necessary. The AHA Centre EOC remains at ORANGE Alert level, activated following the M7.8 Earthquake in Sarangani that affected North Sulawesi, Indonesia and Regions IX, XI, XII, and BARMM, Philippines, and is maintaining close coordination with BNPB Indonesia and NDRRMC Philippines. The AHA Centre remains on standby should the affected countries welcome assistance from ASEAN.
+
+[Read original article](https://reliefweb.int/report/indonesia/flash-update-no-1-m67-earthquake-palu-central-sulawesi-16-june-2026)
