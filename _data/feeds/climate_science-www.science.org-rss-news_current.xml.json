@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-17T17:10:54.538174",
+  "fetched_at": "2026-06-17T20:22:13.791325",
   "items": [
+    {
+      "title": "Do animals perceive time differently from humans?",
+      "link": "https://www.science.org/content/article/do-animals-perceive-time-differently-humans",
+      "pubDate": "",
+      "description": "<cite>Science</cite> chats with a researcher whose team is using “timescapes” to understand how nonhumans experience the world",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "A space telescope is falling to Earth. NASA is racing to rescue it",
       "link": "https://www.science.org/content/article/space-telescope-falling-earth-nasa-racing-rescue-it",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/new-documentary-follows-researchers-increasingly-fraught-career-path",
       "pubDate": "",
       "description": "<em>The Endless Frontier</em> traces the lives of three scientists as they train students and deal with funding pressures",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "Metal-driven chemical reaction in deep sea may explain origin of life",
-      "link": "https://www.science.org/content/article/metal-driven-chemical-reaction-deep-sea-may-explain-origin-life",
-      "pubDate": "",
-      "description": "Group offers new scenario for how cells came to rely on phosphate molecules to build DNA and store energy",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
