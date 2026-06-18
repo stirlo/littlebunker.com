@@ -4,8 +4,16 @@
   "description": "Yale Environment 360 is an online magazine offering opinion, analysis, reporting, and debate on global environmental issues.",
   "category": "media",
   "source_url": "https://e360.yale.edu/feed.xml",
-  "fetched_at": "2026-06-18T06:00:27.727671",
+  "fetched_at": "2026-06-18T11:11:08.496877",
   "items": [
+    {
+      "title": "A Missing Piece in Climate Models: Nature’s Own Emissions",
+      "link": "https://e360.yale.edu/features/warming-induced-ecosystem-emissions",
+      "pubDate": "2026-06-17T14:03:00-04:00",
+      "description": "<p>More intense heat is set to drive up emissions from wildfires, fermenting wetlands, and melting permafrost, but these “feedback loops” are poorly captured in climate models. Scientists are racing to make sense of such emissions to gauge how much warming may lay ahead.</p><p><a href=\"https://e360.yale.edu/features/warming-induced-ecosystem-emissions\">Read more on E360 →</a></p>",
+      "category": "media",
+      "source_url": "https://e360.yale.edu/feed.xml"
+    },
     {
       "title": "An EPA Researcher Details the Agency's Assault on Science",
       "link": "https://e360.yale.edu/features/thomas-luben-interview",
@@ -155,14 +163,6 @@
       "link": "https://e360.yale.edu/features/india-solar",
       "pubDate": "2026-05-21T04:37:00-04:00",
       "description": "<p>While China's push to modernize sparked a surge in burning coal, India is turning to increasingly cheap solar to meet its booming energy needs. Though it faces big hurdles, including a rickety grid, India's solar buildout could soon be a model for other emerging economies.</p><p><a href=\"https://e360.yale.edu/features/india-solar\">Read more on E360 →</a></p>",
-      "category": "media",
-      "source_url": "https://e360.yale.edu/feed.xml"
-    },
-    {
-      "title": "After Two Decades, E360’s Founder and Editor Is Moving On",
-      "link": "https://e360.yale.edu/features/roger-cohn-farewell-note",
-      "pubDate": "2026-05-20T04:45:00-04:00",
-      "description": "<p>When <i>Yale E360</i> launched in 2008, it was a pioneer in online environmental journalism, filling a critical gap in coverage. As he prepares to step down, founding editor Roger Cohn reflects on his years at <i>e360</i>, his debt to the writers he’s worked with, and his hopes for the future.</p><p><a href=\"https://e360.yale.edu/features/roger-cohn-farewell-note\">Read more on E360 →</a></p>",
       "category": "media",
       "source_url": "https://e360.yale.edu/feed.xml"
     }
