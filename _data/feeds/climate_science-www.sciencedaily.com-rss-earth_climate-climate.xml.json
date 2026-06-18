@@ -4,8 +4,16 @@
   "description": "Climate change and climate prediction. Read science articles on regional climates and global climate shifts. Updated daily.",
   "category": "climate_science",
   "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml",
-  "fetched_at": "2026-06-18T15:40:00.399107",
+  "fetched_at": "2026-06-18T18:29:21.631209",
   "items": [
+    {
+      "title": "Major errors found in Al Gore-founded Climate TRACE database",
+      "link": "https://www.sciencedaily.com/releases/2026/06/260618041519.htm",
+      "pubDate": "Thu, 18 Jun 2026 04:15:19 EDT",
+      "description": "A new study from Northern Arizona University is raising red flags about a widely used global emissions database from Climate TRACE, a consortium co-founded by Al Gore. Researchers found that the database may be dramatically undercounting carbon dioxide emissions from cars and trucks in cities—by an average of 70% across 260 U.S. cities, with some cities showing gaps of more than 90%.",
+      "category": "climate_science",
+      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
+    },
     {
       "title": "NASA spots giant ocean swell that could signal El Niño’s return",
       "link": "https://www.sciencedaily.com/releases/2026/06/260614012002.htm",
@@ -155,14 +163,6 @@
       "link": "https://www.sciencedaily.com/releases/2026/05/260525000450.htm",
       "pubDate": "Tue, 26 May 2026 08:40:12 EDT",
       "description": "Scientists have created a global “treasure map” for rare earth elements by uncovering where the strange volcanic rocks that contain them are most likely to form. By combining thousands of rock samples with seismic images of Earth’s deep interior, the team discovered that these metal-rich rocks tend to appear along the ancient, thick roots of continents. These unusual rocks, once seen as geological oddities, are now incredibly important because they hold many of the materials used in smartphones, electric vehicles, and wind turbines.",
-      "category": "climate_science",
-      "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
-    },
-    {
-      "title": "Sea level rise is speeding up and scientists now know exactly why",
-      "link": "https://www.sciencedaily.com/releases/2026/05/260522023116.htm",
-      "pubDate": "Fri, 22 May 2026 02:31:16 EDT",
-      "description": "The world’s oceans are rising at an accelerating pace, and scientists now say they can fully explain what’s driving it. Warming seawater is the biggest factor, while melting glaciers and polar ice sheets are increasingly pouring more water into the oceans each year. Researchers also solved a puzzling mismatch in sea level measurements that had lingered for years.",
       "category": "climate_science",
       "source_url": "https://www.sciencedaily.com/rss/earth_climate/climate.xml"
     }
