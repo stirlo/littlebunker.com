@@ -4,8 +4,16 @@
   "description": "Keyword search result for Alerts: News Weekly Headlines -- New results matching your keyword search query (updated daily).",
   "category": "climate_science",
   "source_url": "https://www.science.org/rss/news_current.xml",
-  "fetched_at": "2026-06-19T14:15:32.282750",
+  "fetched_at": "2026-06-19T17:22:01.002540",
   "items": [
+    {
+      "title": "Researchers caught in the crossfire as companies and government grapple over AI safety",
+      "link": "https://www.science.org/content/article/researchers-caught-crossfire-companies-and-government-grapple-over-ai-safety",
+      "pubDate": "",
+      "description": "After tumultuous Fable 5 takedown, scientists fear AI safety rules could reshape open research",
+      "category": "climate_science",
+      "source_url": "https://www.science.org/rss/news_current.xml"
+    },
     {
       "title": "‘Light in a bottle’ liquid can harvest and store energy from multiple sources",
       "link": "https://www.science.org/content/article/light-bottle-liquid-can-harvest-and-store-energy-multiple-sources",
@@ -75,14 +83,6 @@
       "link": "https://www.science.org/content/article/earliest-plague-epidemics-may-have-been-caused-marmots",
       "pubDate": "",
       "description": "Ancient hunter-gatherers may have contracted the pathogen from marmots",
-      "category": "climate_science",
-      "source_url": "https://www.science.org/rss/news_current.xml"
-    },
-    {
-      "title": "New space telescope will map galaxies’ ghostly halos and streams",
-      "link": "https://www.science.org/content/article/new-space-telescope-will-map-galaxies-ghostly-halos-and-streams",
-      "pubDate": "",
-      "description": "European Space Agency mission will trace the relics of ancient mergers and probe the dark matter shaping galaxy growth",
       "category": "climate_science",
       "source_url": "https://www.science.org/rss/news_current.xml"
     }
