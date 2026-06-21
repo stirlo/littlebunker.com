@@ -1,33 +1,42 @@
-# Environment
+# ── Secrets & environment ──────────────────────────────────────────────────────
 .env
 .env.local
 .env.*.local
 
-# Dependencies
+# ── Dependencies ───────────────────────────────────────────────────────────────
 node_modules/
 vendor/
 
-# Build output
+# ── Jekyll build output ────────────────────────────────────────────────────────
 _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
 
-# System files
+# ── Harold / runtime generated data ───────────────────────────────────────────
+# RSS feed JSON blobs — regenerated each run, no need to track in git
+_data/feeds/
+# Bluesky posting tracker — state lives on Harold, not in git
+_data/posted_to_bluesky.json
+# RSS dedup tracking — Harold-managed state
+_data/rss_tracking/
+
+# ── System files ───────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 
-# Logs
+# ── Logs ───────────────────────────────────────────────────────────────────────
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+logs/
 
-# Editor directories
+# ── Editor artifacts ───────────────────────────────────────────────────────────
 .idea/
 .vscode/
 *.swp
 *.swo
 
-# Data files that should be generated
+# ── Misc generated ─────────────────────────────────────────────────────────────
 data/temp/
