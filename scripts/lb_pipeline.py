@@ -775,36 +775,197 @@ def run_bluesky_pipeline() -> None:
 
 
 # ══════════════════════════════════════════════════════════════════════════════
+# STEP 8 — CLIMATE DATA FETCHER
+# Ported from fetch-climate-data.yml — runs every 2 hours via cron.
+# Fetches CO2/CH4 from NOAA, temperature from Climate Reanalyzer,
+# population from World Bank. Writes _data/metrics.yml.
+# ══════════════════════════════════════════════════════════════════════════════
+
+def fetch_climate_data() -> bool:
+    """
+    Fetch live climate metrics from NOAA, Climate Reanalyzer, World Bank.
+    Writes _data/metrics.yml. Returns True on success.
+    Requires: pip install requests
+    """
+    try:
+        import requests
+    except ImportError:
+        log.error("requests not installed — run: pip install requests --break-system-packages")
+        return False
+
+    metrics_path = DATA_DIR / "metrics.yml"
+
+    # Load previous values as fallback
+    try:
+        if metrics_path.exists():
+            metrics = yaml.safe_load(metrics_path.read_text()) or {}
+            log.info(f"Loaded previous metrics: CO2 {metrics.get('co2', {}).get('current')} ppm")
+        else:
+            metrics = {}
+    except Exception as e:
+        log.warning(f"Could not load previous metrics: {e}")
+        metrics = {}
+
+    # Ensure required structure exists with sensible fallbacks
+    metrics.setdefault("co2", {"current": 421.5, "change": 2.5})
+    metrics.setdefault("ch4", {"current": 1935.0, "change": 6.98})
+    metrics.setdefault("temperature", {"current": 1.2, "recent_peak": 1.5})
+    metrics.setdefault("population", {"total": 8.1, "growth": 67})
+
+    def validate(new_val, old_val, min_val, max_val, name):
+        """Reject values outside range or with >20% change from previous."""
+        if not (min_val <= new_val <= max_val):
+            log.warning(f"{name}: {new_val} outside range ({min_val}-{max_val}), keeping {old_val}")
+            return old_val
+        if old_val and old_val > 0:
+            if abs((new_val - old_val) / old_val) > 0.20:
+                log.warning(f"{name}: change too large ({new_val} vs {old_val}), keeping {old_val}")
+                return old_val
+        log.info(f"{name}: {old_val} -> {new_val}")
+        return new_val
+
+    # 1. CO2 from NOAA weekly Mauna Loa data
+    try:
+        r = requests.get(
+            "https://gml.noaa.gov/webdata/ccgg/trends/co2/co2_weekly_mlo.txt",
+            timeout=60
+        )
+        if r.status_code == 200:
+            lines = [l for l in r.text.splitlines() if not l.startswith("#") and l.strip()]
+            if lines:
+                latest = lines[-1].split()
+                if len(latest) >= 5:
+                    new_co2 = round(float(latest[4]), 1)
+                    metrics["co2"]["current"] = validate(
+                        new_co2, metrics["co2"]["current"], 350, 500, "CO2"
+                    )
+                    if len(lines) >= 52:
+                        year_ago = lines[-52].split()
+                        if len(year_ago) >= 5:
+                            metrics["co2"]["change"] = round(
+                                metrics["co2"]["current"] - float(year_ago[4]), 1
+                            )
+    except Exception as e:
+        log.warning(f"NOAA CO2 fetch failed: {e}")
+
+    # 2. CH4 from NOAA global monthly mean
+    try:
+        r = requests.get(
+            "https://gml.noaa.gov/webdata/ccgg/trends/ch4/ch4_mm_gl.txt",
+            timeout=60
+        )
+        if r.status_code == 200:
+            lines = [l for l in r.text.splitlines() if not l.startswith("#") and l.strip()]
+            if lines:
+                latest = lines[-1].split()
+                if len(latest) >= 4:
+                    new_ch4 = round(float(latest[3]), 2)
+                    metrics["ch4"]["current"] = validate(
+                        new_ch4, metrics["ch4"]["current"], 1800, 2100, "CH4"
+                    )
+                    if len(lines) >= 12:
+                        year_ago = lines[-12].split()
+                        if len(year_ago) >= 4:
+                            metrics["ch4"]["change"] = round(
+                                metrics["ch4"]["current"] - float(year_ago[3]), 2
+                            )
+    except Exception as e:
+        log.warning(f"NOAA CH4 fetch failed: {e}")
+
+    # 3. Temperature from Climate Reanalyzer daily anomaly
+    try:
+        r = requests.get(
+            "https://climatereanalyzer.org/clim/t2_daily/json/cfsr_world_t2_day.json",
+            timeout=60
+        )
+        if r.status_code == 200:
+            data = r.json()
+            # Adjust from 1979-2000 baseline to 1850-1900 baseline (+0.9C)
+            current = round(data[-1]["value"] + 0.9, 2)
+            peak = round(max(d["value"] for d in data[-365:]) + 0.9, 2)
+            metrics["temperature"]["current"] = validate(
+                current, metrics["temperature"]["current"], -2.0, 3.0, "Temp current"
+            )
+            metrics["temperature"]["recent_peak"] = validate(
+                peak, metrics["temperature"]["recent_peak"], -2.0, 3.0, "Temp peak"
+            )
+    except Exception as e:
+        log.warning(f"Climate Reanalyzer fetch failed: {e}")
+
+    # 4. Population from World Bank API
+    population_updated = False
+    for year in [2024, 2023, 2022]:
+        try:
+            r = requests.get(
+                f"https://api.worldbank.org/v2/country/WLD/indicator/SP.POP.TOTL"
+                f"?format=json&date={year}",
+                timeout=60
+            )
+            if r.status_code == 200:
+                data = r.json()
+                if len(data) > 1 and data[1] and data[1][0].get("value"):
+                    new_pop = round(data[1][0]["value"] / 1_000_000_000, 1)
+                    metrics["population"]["total"] = validate(
+                        new_pop, metrics["population"]["total"], 7.0, 10.0, "Population"
+                    )
+                    population_updated = True
+                    break
+        except Exception as e:
+            log.warning(f"World Bank population {year} failed: {e}")
+
+    if not population_updated:
+        log.info("Population data unchanged — keeping previous value")
+
+    # Write updated metrics
+    metrics["last_updated"] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    metrics_path.write_text(yaml.dump(metrics, default_flow_style=False, sort_keys=True))
+
+    log.info(
+        f"Climate data updated — "
+        f"CO2: {metrics['co2']['current']} ppm, "
+        f"CH4: {metrics['ch4']['current']} ppb, "
+        f"Temp: +{metrics['temperature']['current']}C, "
+        f"Peak: +{metrics['temperature']['recent_peak']}C"
+    )
+    return True
+
+
+# ══════════════════════════════════════════════════════════════════════════════
 # CLI ENTRYPOINT
 # ══════════════════════════════════════════════════════════════════════════════
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="LittleBunker Harold pipeline")
-    parser.add_argument("--fetch",   action="store_true", help="Step 1: fetch RSS feeds to JSON")
-    parser.add_argument("--process", action="store_true", help="Step 2: create _posts/*.md from feeds")
-    parser.add_argument("--expire",  action="store_true", help="Step 3: delete old posts per expiry rules")
-    parser.add_argument("--dedup",   action="store_true", help="Step 4: remove duplicate posts")
-    parser.add_argument("--build",   action="store_true", help="Step 5: run jekyll build")
-    parser.add_argument("--deploy",  action="store_true", help="Step 6: deploy to CF Pages via wrangler")
-    parser.add_argument("--bluesky", action="store_true", help="Step 7: post one item to Bluesky")
-    parser.add_argument("--all",     action="store_true", help="Run all steps in order")
+    parser.add_argument("--fetch",         action="store_true", help="Step 1: fetch RSS feeds to JSON")
+    parser.add_argument("--process",       action="store_true", help="Step 2: create _posts/*.md from feeds")
+    parser.add_argument("--expire",        action="store_true", help="Step 3: delete old posts per expiry rules")
+    parser.add_argument("--dedup",         action="store_true", help="Step 4: remove duplicate posts")
+    parser.add_argument("--build",         action="store_true", help="Step 5: run jekyll build")
+    parser.add_argument("--deploy",        action="store_true", help="Step 6: deploy to CF Pages via wrangler")
+    parser.add_argument("--bluesky",       action="store_true", help="Step 7: post one item to Bluesky")
+    parser.add_argument("--climate-data",  action="store_true", help="Step 8: fetch NOAA/climate metrics -> metrics.yml")
+    parser.add_argument("--all",           action="store_true", help="Run all steps in order")
     args = parser.parse_args()
 
     run_all = args.all
-    do_fetch   = run_all or args.fetch
-    do_process = run_all or args.process
-    do_expire  = run_all or args.expire
-    do_dedup   = run_all or args.dedup
-    do_build   = run_all or args.build
-    do_deploy  = run_all or args.deploy
-    do_bluesky = run_all or args.bluesky
+    do_fetch         = run_all or args.fetch
+    do_process       = run_all or args.process
+    do_expire        = run_all or args.expire
+    do_dedup         = run_all or args.dedup
+    do_build         = run_all or args.build
+    do_deploy        = run_all or args.deploy
+    do_bluesky       = run_all or args.bluesky
+    do_climate_data  = run_all or args.climate_data
 
-    if not any([do_fetch, do_process, do_expire, do_dedup, do_build, do_deploy, do_bluesky]):
+    if not any([do_fetch, do_process, do_expire, do_dedup, do_build, do_deploy, do_bluesky, do_climate_data]):
         parser.print_help()
         sys.exit(0)
 
     sources = load_rss_sources()
 
+    if do_climate_data:
+        fetch_climate_data()
     if do_fetch:
         fetch_all_feeds(sources)
     if do_process:
