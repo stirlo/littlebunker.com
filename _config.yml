@@ -66,3 +66,7 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - TestingColourscheme.html
+  - scripts/
+  - .env
+  - .env.example
