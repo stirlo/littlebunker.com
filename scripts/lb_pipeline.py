@@ -538,7 +538,7 @@ def build_site() -> bool:
 
     log.info("Building Jekyll site...")
     result = subprocess.run(
-        ["bundle", "exec", "jekyll", "build"],
+        ["bundle", "exec", "jekyll", "build", "--incremental"],
         cwd=REPO_ROOT,
         env=env,
         capture_output=True,

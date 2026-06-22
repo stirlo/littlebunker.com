@@ -11,6 +11,7 @@ theme: minima
 
 # Build settings
 markdown: kramdown
+incremental: true
 permalink: /:year/:month/:day/:title/
 
 # Collections (defined but not yet populated - disabled to avoid build overhead)
